@@ -76,7 +76,7 @@ python -m baseline.serve
 <details>
 <summary>More run details</summary>
 
-- `python -m baseline.demo` prints the flags for both fixtures in the terminal and ends with "clean fixture: 2 watch items, 0 confirmed flags".
+- `python -m baseline.demo` prints the flags for both fixtures in the terminal, then "clean fixture: 2 watch items, 0 confirmed flags" and those two watch items.
 - With `make`: `make install`, `make test`, `make demo`, `make serve`.
 - The page loads files only from `web/` (fonts, Chart.js, rules, fixture, radiation summary). A Content-Security-Policy blocks every other host.
 - The server sends `Cache-Control: no-store`, so a reload always gets the latest files.
