@@ -43,6 +43,8 @@ Three ideas carry the whole app:
 
 You need Python 3.11 or newer. Nothing else. Install once online, then everything runs with wifi off.
 
+Clone or download this repository, open a terminal in its folder and run the lines one at a time.
+
 **Windows (PowerShell)**
 
 ```powershell
