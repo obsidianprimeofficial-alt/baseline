@@ -66,12 +66,41 @@ def test_scripts_carry_a_version_that_matches_their_content():
     normalised so a Windows checkout gives the same hash."""
     html = Path("web/index.html").read_text(encoding="utf-8")
     scripts = re.findall(r'<script src="([^"?]+)\?v=([0-9a-f]+)"></script>', html)
-    assert [path for path, _ in scripts] == ["errors.js", "vendor/chart.umd.js", "rules.js", "app.js"], \
+    assert [path for path, _ in scripts] == ["errors.js", "vendor/chart.umd.js", "rules.js", "reaction.js", "app.js"], \
         "errors.js loads first, so it can show errors from the scripts after it"
     assert html.count("<script") == len(scripts), "every script tag needs ?v="
     for path, version in scripts:
         expected = hashlib.sha1(Path("web", path).read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:10]
         assert version == expected, f"web/index.html: change {path}?v={version} to {path}?v={expected}"
+
+
+REACTION_JS = """
+const R = require('./web/reaction.js');
+const s = (state, shownAt = 0, lastDownAt = -Infinity) => ({ state, shownAt, lastDownAt });
+console.log(JSON.stringify({
+  hit: R.press(s('go', 1000.0), 1371.4),
+  touchBeforeCircle: R.press(s('waiting'), 5000),
+  sameTapTouchstart: R.press(s('waiting', 0, 2000.0), 2008.0),
+  tooFast: R.press(s('go', 1000.0), 1080.0),
+  betweenRounds: R.press(s('pause'), 9000),
+  firstTap: R.press(s('idle'), 100),
+  delays: [R.delayMs(0), R.delayMs(1)],
+  median: R.median([371, 571, 402, 389, 420]),
+}));
+"""
+
+
+@pytest.mark.skipif(NODE is None, reason="node is not installed")
+def test_reaction_time_comes_from_the_two_recorded_timestamps():
+    out = json.loads(subprocess.run([NODE, "-e", REACTION_JS], capture_output=True, text=True, check=True).stdout)
+    assert out["hit"] == {"kind": "hit", "ms": 371}  # pressedAt - shownAt, both performance.now()
+    assert out["touchBeforeCircle"] == {"kind": "false-start"}  # a tap before the circle repeats the round
+    assert out["sameTapTouchstart"] == {"kind": "duplicate"}  # touchstart right after its pointerdown
+    assert out["tooFast"] == {"kind": "false-start"}  # under 100 ms is a guess
+    assert out["betweenRounds"] == {"kind": "ignore"}
+    assert out["firstTap"] == {"kind": "start"}
+    assert out["delays"] == [1000, 3000]
+    assert out["median"] == 402
 
 
 def test_recorded_day_29_reaction_fires_the_reaction_flag():

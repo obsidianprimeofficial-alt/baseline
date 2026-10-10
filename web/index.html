@@ -73,7 +73,7 @@ a { color: inherit; text-underline-offset: 3px; }
   font-weight: 600; cursor: pointer;
 }
 .text-button {
-  min-height: 44px; padding: 0; border: 0; background: none;
+  min-height: 44px; min-width: 44px; padding: 0; border: 0; background: none; text-align: left; /* "Skip" alone is narrower than 44 px */
   color: var(--quiet); font-size: 14px; text-decoration: underline; text-underline-offset: 3px; cursor: pointer;
 }
 
@@ -149,7 +149,10 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 }
 .flag::after { content: "›"; position: absolute; right: 8px; top: 50%; transform: translateY(-50%); font-size: 28px; color: var(--quiet); }
 .flag.watch { border-left-style: dotted; }
-@media (hover: hover) { .flag:hover { background: var(--band); } } /* touch screens keep :hover after a tap */
+@media (hover: hover) { /* touch screens keep :hover after a tap */
+  .flag:hover { background: var(--band); }
+  .flag:hover .flag-status { color: var(--ink); } /* quiet on the band would be under 4.5:1 */
+}
 .flag > span { display: block; }
 .flag-name { font-weight: 600; }
 .flag-line { font-variant-numeric: tabular-nums; }
@@ -219,11 +222,11 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <h2>Reaction time</h2>
   <p>Tap the field the moment the dark circle appears. Five rounds.</p>
   <button id="rt-field" class="rt" type="button" aria-describedby="rt-status">
-    <span id="rt-dot" class="rt-dot" hidden></span>
+    <span id="rt-dot" class="rt-dot" role="img" aria-label="Circle shown, tap now" hidden></span>
     <span id="rt-text">Tap here to start</span>
     <span id="rt-sub" class="meta"></span>
   </button>
-  <button id="rt-recorded" class="secondary" type="button">Use recorded day-29 self-check (simulated)</button>
+  <button id="rt-recorded" class="secondary" type="button" disabled>Use recorded day-29 self-check (simulated)</button>
   <p id="rt-status" class="meta num" aria-live="polite">Round 1 of 5</p>
   <button id="rt-again" class="text-button" type="button" hidden>Run the test again</button>
 
@@ -237,7 +240,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <label class="q" for="note">Note (optional)</label>
   <input id="note" class="field" type="text" maxlength="120" autocomplete="off" enterkeyhint="done">
 
-  <fieldset>
+  <fieldset aria-describedby="quality-ends">
     <legend>How well did you sleep?</legend>
     <div class="seg">
       <input type="radio" id="quality-1" name="quality" value="1"><label for="quality-1">1</label>
@@ -246,10 +249,10 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
       <input type="radio" id="quality-4" name="quality" value="4"><label for="quality-4">4</label>
       <input type="radio" id="quality-5" name="quality" value="5"><label for="quality-5">5</label>
     </div>
-    <div class="ends" aria-hidden="true"><span>Badly</span><span>Very well</span></div>
+    <div class="ends" id="quality-ends"><span>Badly</span><span>Very well</span></div>
   </fieldset>
 
-  <fieldset>
+  <fieldset aria-describedby="mood-ends">
     <legend>How is your mood this morning?</legend>
     <div class="seg">
       <input type="radio" id="mood-1" name="mood" value="1"><label for="mood-1">1</label>
@@ -258,7 +261,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
       <input type="radio" id="mood-4" name="mood" value="4"><label for="mood-4">4</label>
       <input type="radio" id="mood-5" name="mood" value="5"><label for="mood-5">5</label>
     </div>
-    <div class="ends" aria-hidden="true"><span>Very low</span><span>Very good</span></div>
+    <div class="ends" id="mood-ends"><span>Very low</span><span>Very good</span></div>
   </fieldset>
 
   <h2>Near vision</h2>
@@ -273,7 +276,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   </fieldset>
 
   <p id="missing" class="missing" role="alert"></p>
-  <button id="save" class="primary" type="button">Save and compare</button>
+  <button id="save" class="primary" type="button" disabled>Save and compare</button>
 </section>
 
 <section id="console" aria-labelledby="console-title" hidden>
@@ -353,6 +356,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <script src="errors.js?v=8cd9c76036"></script>
 <script src="vendor/chart.umd.js?v=943f58faf8"></script>
 <script src="rules.js?v=9280e87989"></script>
-<script src="app.js?v=721ec4855e"></script>
+<script src="reaction.js?v=0c373ca889"></script>
+<script src="app.js?v=d3f3db282f"></script>
 </body>
 </html>

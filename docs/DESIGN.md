@@ -13,6 +13,7 @@ Subject: one astronaut, tired, on a phone, months from Earth, doing the morning 
 | Rule | `#AEBDB5` | Axis lines and the outline of the reaction test field. Nothing else. |
 | Flag | `#D4470C` | International orange, the aerospace colour for "look here". Used only where a rule fired. |
 | Simulated | `#FFF1A8` | Light yellow behind the "Simulated data" label, so it reads in a screen recording. Nothing else. |
+| Error | `#FCE1DE` | Light red behind the script-error line at the top of the page. Shown only when a script fails. |
 | Paper | `#FFFFFF` | Ground of the "Real data: NOAA GOES" box only, so real data never sits on the simulated ground. |
 
 ## Type
@@ -30,7 +31,7 @@ Single column, left aligned, 16 px gutters, designed at 390 px, max width 480 px
 ```
 Day 29                 Simulated data     <- 16 px bold ink on light yellow, sticky
 Your last 29 days                         <- 24 px title
-▬ Usual range (days 15–28, ±2 SD)         <- 14 px quiet key, row 1 on phones
+▬ Usual range (from day 15, ±2 SD)        <- 14 px quiet key, row 1 on phones
 ● Flagged  ○ Watching                     <- row 2; one row on wider screens
 4 readings are outside your usual range.  <- 18 px, the answer first
 
