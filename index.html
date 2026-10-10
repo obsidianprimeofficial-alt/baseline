@@ -22,6 +22,7 @@
   --rule: #AEBDB5;
   --flag: #D4470C;
   --sim: #FFF1A8;
+  --error: #FCE1DE;
   --real: #FFFFFF;
 }
 * { box-sizing: border-box; }
@@ -39,6 +40,10 @@ body {
 :focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
 h1[tabindex]:focus { outline: none; }
 [hidden] { display: none !important; }
+.js-error {
+  margin: 0; padding: 8px 16px; background: var(--error); color: var(--ink);
+  font-size: 14px; font-weight: 600; white-space: pre-wrap; overflow-wrap: anywhere;
+}
 
 .top {
   position: sticky; top: 0; z-index: 1;
@@ -186,6 +191,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 </style>
 </head>
 <body>
+<p id="js-error" class="js-error" role="alert" hidden></p>
 <header class="top">
   <span id="day-label">Day 29</span>
   <span class="sim">Simulated data</span>
@@ -344,8 +350,9 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 </section>
 
 </main>
-<script src="vendor/chart.umd.js"></script>
-<script src="rules.js"></script>
-<script src="app.js"></script>
+<script src="errors.js?v=8cd9c76036"></script>
+<script src="vendor/chart.umd.js?v=943f58faf8"></script>
+<script src="rules.js?v=9280e87989"></script>
+<script src="app.js?v=721ec4855e"></script>
 </body>
 </html>

@@ -503,7 +503,8 @@ $("restart").addEventListener("click", () => {
 (async function init() {
   try {
     const [fixture, evidence, radiation] = await Promise.all(
-      ["data/crew_a_anomaly.json", "data/evidence_map.json", "data/radiation.json"].map((p) => fetch(p).then((r) => r.json())));
+      // no-store: a copy cached by an older server must never stand in for today's data
+      ["data/crew_a_anomaly.json", "data/evidence_map.json", "data/radiation.json"].map((p) => fetch(p, { cache: "no-store" }).then((r) => r.json())));
     state.fixture = fixture.rows;
     state.evidence = evidence;
     state.radiation = radiation;
