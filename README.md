@@ -55,6 +55,8 @@ pytest -q
 python -m baseline.serve
 ```
 
+If the second line answers "running scripts is disabled on this system", run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once and run the line again.
+
 **Mac / Linux**
 
 ```bash
