@@ -142,8 +142,8 @@ flowchart TD
 | | Source | Status |
 |---|---|---|
 | **Real** | NOAA GOES solar-proton flux, 7 days, cached 30 Sep 2026 | Shown on the console in its own white box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. |
-| **Real** | NASA OSDR search results, 7 keywords, cached 30 Sep 2026 | Source of the OSD-140 study on two cards. |
-| **Real** | NASA NTRS search results, 7 keywords, cached 3 Oct 2026 | Source of the NTRS reports on the cards. |
+| **Real** | NASA OSDR search results, 10 keywords, cached 30 Sep and 10 Oct 2026 | Source of the OSD-140 study on two cards. |
+| **Real** | NASA NTRS search results, 11 keywords, cached 3 Oct and 10 Oct 2026 | Source of the NTRS reports on the cards. |
 | **Real** | Your answers in the self-check | Replace day 29's reaction time, sleep and mood. Stay in your browser; gone on reload. |
 | **Simulated** | 30 days of vitals for one crew member: heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood | Gaussian noise around fixed means, seed 7, in `data/fixtures`. The anomaly fixture lowers HRV, sleep and mood and slows reaction time on days 27–29. |
 
