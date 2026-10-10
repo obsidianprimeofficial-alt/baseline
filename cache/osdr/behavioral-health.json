@@ -1,0 +1,1807 @@
+{
+ "source_url": "https://osdr.nasa.gov/osdr/data/search?term=behavioral+health&from=0&size=25",
+ "fetched_at": "2026-10-10T06:09:59+00:00",
+ "data": {
+  "took": 11,
+  "timed_out": false,
+  "_shards": {
+   "total": 5,
+   "successful": 5,
+   "skipped": 0,
+   "failed": 0
+  },
+  "hits": {
+   "total": 34,
+   "max_score": 13.4217,
+   "hits": [
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE118570",
+     "_score": 13.4217,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Moshe",
+       "Middle Initials": "",
+       "Last Name": "Szyf"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL13534"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Abraham,,Weizman David,,Ohana Gal,,Warhaftig Yael,,Delayahu Rachel,,Maayan Elad,,Lax Gal,,Yadid Alexander,M,Ponizovsky Moshe,,Szyf Paola,,Roska",
+      "Study Assay Technology Platform": "GPL13534",
+      "Authoritative Source URL": "GSE118570",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1534417200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE118570",
+      "Study Assay Technology Type": "",
+      "Study Title": "T-cell DNA methylation in addicts treated with DHEA",
+      "Study Protocol Type": "",
+      "Project Type": "Methylation profiling by genome tiling array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Previous studies in animal models of cocaine craving have delineated broad changes in DNA methylation profiles in the nucleus accumbens.  A crucial factor for progress in behavioral and mental health epigenetics is the discovery of epigenetic markers in peripheral tissues. Several studies in primates and humans have associated differences in behavioral phenotypes with changes in DNA methylation in T cells and brain. Herein, we present a pilot study (n=27) showing that the T cell DNA methylation profile differentiates persons with a substance use disorder from controls. Intervention with dehydroepiandrosterone (DHEA), previously shown to have a long-term therapeutic effect on human addicts herein resulted in reversal of DNA methylation changes in behavioral pathways associated with the addictive state.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE118570"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "A crucial factor for progress in <em>behavioral</em> and mental <em>health</em> epigenetics is the discovery of epigenetic",
+       "Several studies in primates and humans have associated differences in <em>behavioral</em> phenotypes with changes",
+       "long-term therapeutic effect on human addicts herein resulted in reversal of DNA methylation changes in <em>behavioral</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "1TGa250BE9HCmPW8EXx7",
+     "_score": 12.534307,
+     "_source": {
+      "Authoritative Source URL": "OSD-952/",
+      "Flight Program": "Rodent Research (RR)",
+      "Mission": {
+       "End Date": "10/25/2014",
+       "Start Date": "09/21/2014",
+       "Name": "SpaceX-4"
+      },
+      "Material Type": "Whole Organism",
+      "Project Identifier": "RR-1",
+      "Accession": "OSD-952",
+      "Identifiers": "LSDS-168",
+      "Study Identifier": "OSD-952",
+      "Study Protocol Name": "Animal Husbandry     Sample Collection     Assay Characteristics - SLEAP     Pose Annotation And Training Data     Model Training - SLEAP     Inference And Tracking - SLEAP     Quality Control And Validation - SLEAP     Pose Estimation Data Files     Kinematics Analysis Files     Assay Characteristics     Behavior Annotation And Training Data     Model Training - DeepEthogram     Inference And Tracking - DeepEthogram     Quality Control And Validation - DeepEthogram     Behavioral Segmentation Data Files",
+      "Study Assay Technology Type": "Pose Estimation     Behavioral Segmentation",
+      "Acknowledgments": "The authors thank the NASA Open Science Data Repository and Ames Life Sciences Data Archive teams for supporting the acquisition of the RR-1 video data, answering questions about the RR-1 payload, and curating the results and outputs from this study into OSD-952. In particular, we thank Rachel Gilbert, Danielle Lopez, Jonathan Galazka, and Samrawit Gebre. We also thank the NASA Biological and Physical Sciences Division for supporting OSDR and ALSDA which are valuable national and global resources for the future of space biology and space health. We also thank HRP\u2019s Human Factors and Behavioral Performance element for supporting this work over the course of the grant. Thanks also to Ryan Fisher and Vandana Verma for their communications on the RR AEM hardware.",
+      "Study Assay Technology Platform": "SLEAP     DeepEthogram",
+      "Study Person": {
+       "Last Name": "Kiffer Pereira Eisch Scott",
+       "Middle Initials": " D. T.",
+       "First Name": "Frederico Talmo Amelia Ryan"
+      },
+      "Study Protocol Type": "Animal Husbandry     sample collection protocol     Assay Characteristics     Pose Annotation And Training Data     Model Training     Inference And Tracking     Quality Control And Validation     Pose Estimation Data Files     Kinematics Analysis Files     Assay Characteristics     Behavior Annotation And Training Data     Model Training     Inference And Tracking     Quality Control And Validation     Behavioral Segmentation Data Files",
+      "Space Program": "NASA",
+      "Study Title": "Automated behavioral segmentation and markerless pose tracking of mice during spaceflight",
+      "Study Factor Type": "time     Space Flight",
+      "Study Public Release Date": 1777420800.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-952/image",
+      "Study Factor Name": "Mission Time     Spaceflight",
+      "Study Assay Measurement Type": "Behavior     Behavior",
+      "Project Type": "Spaceflight Study",
+      "Factor Value": "",
+      "Data Source Accession": "",
+      "Project Title": "",
+      "Study Funding Agency": "NASA HRP Grant 80NSSC24K0346",
+      "Study Protocol Description": "All subjects in the videos are female C57BL/6J (Bar Harbor, ME), housed in a habitat consisting of two cages with an N of 5 each. Mice were 16 weeks of age at the time of launch. Mice received deionized, autoclaved water, and NASA Type 12 Nutrient-Upgraded Rodent Food Bars ad libitum. Mice were housed in the AEM-X for the duration of the experiment, and were kept on a 12h/12h light/dark cycle (0600-1800 GMT light). All procedures and experiments were approved by the NASA IACUC and International Space Station National Laboratory IACUC, and conformed to relevant federal regulations of research animal use (NRC Guide for the Care and Use of Laboratory Animals and Title XIV) as previously described. Mice experienced approximately 8.6-13 mGy of whole-body space radiation for the duration of the mission. All videos and associated flight data were acquired through a data request from NASA\u2019s OSDR and ALSDA. Mice in this study were housed in a vivarium, the AEM-X, where they remained for the duration of the validation study. RR-1 launched on September 21, 2014 from Kennedy Space Center (SpaceX-4), and mated with the ISS four days later, at which point cages were transferred to their enclosure module racks. The rodent habitats contained four cameras pointing to two different views of the Lixits (Pinhole WD Color Model PC315XP), and two views of the filter area (B/W Micro Video Model PC206XP, Austin, TX). Data were digitally routed from the ISS through the Huntsville Operations Support Center at Marshall Space Flight Center, to the Multi-Mission Operations Center server at Ames Research Center for rodent health check analysis by RR-1 team staff. Videos were then securely stored by ALSDA (part of OSDR) on local servers, although later RR missions would refine this workflow to a near real-time and remote solution including a secure Collaborative Life Sciences Repository enabling veterinarians, engineers, Principal Investigators, and RR science teams to check on animal health and hardware functioning in accordance with IACUC and mission requirements (IACUC  NAS-13-002-Y1). Video captures were originally intended for health evaluations, and programmed to upload one-hour videos at the start of the light cycle and at the start of the dark cycle daily. However, thermal issues during recording necessitated variations in video capture schedules, lengths, and resolutions, eventually leading to discontinuation of light cycle captures. Video capture began on flight day 5 and lasted through flight day 37, and were captured between 15 minutes and 2 hours following the start of a light cycle phase. Timestamps and recording dates conform to the ISS National Laboratory\u2019s GMT+0 timezone. The first video capture day (day 0) reported in this experiment corresponds to flight day 5.     All original and normalized video files are available upon request through the Rodent Research 1 payload record (https://osdr.nasa.gov/bio/repo/data/payloads/RR-1), which also includes additional information about the spaceflight experiment. NASA OSDR is the custodian of non-human video from spaceflight missions and/or ground analog experiments and has established protocols for controlled access to video in accordance with applicable study Institutional Animal Care and Use Committee (IACUC) guidelines. Access to the video files requires prior review and approval by OSDR. The RR-1 video files were concatenated camera views of highly variable scheduled captures, where camera views cycled through the four cameras of each side of the AEM-X rodent vivarium aboard the ISS. Behavioral and keypoint scoring was extremely challenging with Lixit cameras due to the proximity to animals. Therefore, like prior work, only the filter cameras were used for analyses (n of 354). To isolate individual camera views, and to omit Lixit views, videos were manually cropped at the change of each camera field. Of the 354 archived flight and ground filter videos, only 177 were flight videos of suitable quality. Mann-Whitney tests were employed to compare the distributions of total frames and sampling days among Dark and Light Cycle Flight Filter videos. Distribution comparisons of sampling days and frames per sample were visualized as Gardner-Altman plots. The RR-1 archive presented several video quality challenges. To minimize bias in computer vision-based approaches to pose estimation and behavioral segmentation, we employed two normalization strategies. Most flight filter videos had a resolution of 640 x 480 pixels or higher, with a few exceptions, but all at 30 frames per second. Therefore, we first wrote a custom script to center and standardize all videos to 640 x 480 pixels, effectively maintaining even pixel size, aspect ratio, and field of view across all video samples by downsampling or padding videos based on a common middle point. Next, we created a pipeline for correcting for the spherical aberration of the camera lenses by using the 1 cm x 1 cm metal grids in the field of view as calibration references to estimate distortion coefficients (https://github.com/talmolab/spacecage-undistort).     Analysis scripts and workflows are available at https://github.com/talmolab/Space-SLEAP, and the video transformation and spherical aberration correction pipeline is available at https://github.com/talmolab/spacecage-undistort. The RR-1 video files were concatenated camera views of highly variable scheduled captures, where camera views cycled through the four cameras of each side of the AEM-X rodent vivarium aboard the ISS. Behavioral and keypoint scoring was extremely challenging with Lixit cameras due to the proximity to animals. Therefore, like prior work, only the filter cameras were used for analyses (n of 354). To isolate individual camera views, and to omit Lixit views, videos were manually cropped at the change of each camera field. Of the 354 archived flight and ground filter videos, only 177 were flight videos of suitable quality. Mann-Whitney tests were employed to compare the distributions of total frames and sampling days among Dark and Light Cycle Flight Filter videos. All original and normalized video files are available upon request through the Rodent Research 1 payload record (https://osdr.nasa.gov/bio/repo/data/payloads/RR-1), which also includes additional information about the spaceflight experiment. NASA OSDR is the custodian of non-human video from spaceflight missions and/or ground analog experiments and has established protocols for controlled access to video in accordance with applicable study Institutional Animal Care and Use Committee (IACUC) guidelines. Access to the video files requires prior review and approval by OSDR.     To assess how labelling might be affected by human variation, nine labellers were trained to label the snout, neck, head, left ear, right ear, left shoulder, right shoulder, left haunch, right haunch, trunk, TTI, the tail tip, and three equidistant points along the tail between the TTI and tip along the anatomical localizations of the mouse skeleton. The complex poses and high variability in angles quickly ruled out all body points with the exception of the snout, neck, and TTI. Labellers used the SLEAP graphical user interface on a frame-by-frame basis. To ensure labelling reproducibility, we conducted variability analyses that compared the same three keypoints across 15 frames annotated by all nine labellers, yielding 144 labels per human annotator. The selected frames varied widely in animal pose and proximity to the camera, and across nine spatial quadrants of the frame. To establish a human baseline for keypoint localization accuracy, we first established a consensus keypoint as the pixel coordinate average of all human labels per keypoint. Next, variability was calculated as pixel distances from the consensus point, and expressed as the OKS. Inter-labeller variability was visualized at the 75th, 90th and 99th percentiles. Nine human annotators labelled a representative dataset containing videos across the mission to account for lens occlusions due to soiling. 3,249 labels span 2,063 frames of 78 videos throughout the mission. The labelled keypoints included the snout, neck and TTI.     The SLEAP model was trained with a bottom-up backbone, in grayscale.     Inferences were performed on 177 videos. SLEAP performs pose estimation independently on each frame without temporal context; temporal information was used only in the downstream kinematic reconstruction of circling behavior.     Model evaluation was first performed on a held-out test set to assess localization error per keypoint, then calibrated against human inter-annotator variability using OKS scores.     This protocol describes the data files generated by the SLEAP pose estimation pipeline. The interannotator label files contain raw keypoint annotations from nine independent human labellers on a shared set of frames, in both original and lens-corrected (undistorted) versions. The consensus labels file contains the pixel coordinate averages of all human labels per keypoint, which served as the ground truth reference for both inter-annotator variability analysis and model evaluation. The interannotator variability metrics file summarizes per-keypoint pixel distance from consensus, expressed as OKS scores at the 75th, 90th, and 99th percentiles. The ground truth splits file contains the complete labeled dataset partitioned into training, validation, and test sets used to train and evaluate the SLEAP model. The model predictions file contains the pose inference outputs or keypoint x/y coordinates per frame for all 177 flight filter videos.     Circling was one of the remarkable behavioral adaptations of mice to microgravity previously described. This behavior involves mice running on four perpendicular walls about a central axis. Because one of the goals of rodent spaceflight research is to examine microgravity-induced bone demineralization and muscular atrophy, it is critical to understand the musculoskeletal load that rodents experience in the RR missions. To this end we devised an analysis pipeline that factors the dimensions of the AEM-X vivarium, and used pose inferences from our SLEAP model on the only video sample of a single mouse circling, with tracklet interpolation (three-frame median filter) and smoothing (Gaussian; 1.5) procedure. We then estimated z-plane depth based on body size, using the 5th-95th percentile of the body length to omit outliers and scale pixel sizes to actual distances. We then reconstructed the trajectory of the mouse applying wall constraints based on cage dimensions, such that keypoints stay within 2 cm of the 3-dimensional construct of the walls. Next, to determine the directionality of circling based on movement orientation, we drew a centerline along the video, marking proximal and distal crossings. Knowing the orientation of circling, we segmented the laps based on the trajectory of crossings. With these 3-dimensional kinematics, we generated a time series of velocity, acceleration, and radius of curvature.     The RR-1 video files were concatenated camera views of highly variable scheduled captures, where camera views cycled through the four cameras of each side of the AEM-X rodent vivarium aboard the ISS. Behavioral and keypoint scoring was extremely challenging with Lixit cameras due to the proximity to animals. Therefore, like prior work, only the filter cameras were used for analyses (n of 354). To isolate individual camera views, and to omit Lixit views, videos were manually cropped at the change of each camera field. Of the 354 archived flight and ground filter videos, only 177 were flight videos of suitable quality. Mann-Whitney tests were employed to compare the distributions of total frames and sampling days among Dark and Light Cycle Flight Filter videos. All original and normalized video files are available upon request through the Rodent Research 1 payload record (https://osdr.nasa.gov/bio/repo/data/payloads/RR-1), which also includes additional information about the spaceflight experiment. NASA OSDR is the custodian of non-human video from spaceflight missions and/or ground analog experiments and has established protocols for controlled access to video in accordance with applicable study Institutional Animal Care and Use Committee (IACUC) guidelines. Access to the video files requires prior review and approval by OSDR.     We first established behavioral criteria based on the literature, and refined them to ensure reproducibility among behaviorists. Three trained behaviorists labelled a total of 611,045 frames across 66 videos throughout the entire experiment duration, across both cages and the light and dark cycles. Behavioral labelling was done on DeepEthogram's graphical user interface on a frame-by-frame basis. DeepEthogram does not rely on human-annotated poses to infer behaviors. Therefore, multiple behaviors can be labelled and inferred within any given frame.     Due to visual occlusion and a dynamic 3D environment, we chose the open-source Python-based package DeepEthogram as the predictive model. DeepEthogram is a pipeline of three separate models that work in concert to predict behavior. First, it uses a MotionNet-based flow generator to assess optic flow-based movement-related features. Next, it trains the feature extractor, a large convolutional neural network that associates individual labelled behaviors within individual timepoints by compressing snippets of optic flow and individual still images into a lower dimensional set of features. This classifier effectively learns the features of an animal's body that are relevant to behaviors. Lastly, DeepEthogram trains a sequencing classifier that takes relevant, compressed behavioral features across many frames to learn and infer the onset and end of behaviors. To optimize training accuracy, we used DeepEthogram's slowest and most accurate pre-weighted models, TinyMotionNet3D for the flow generator, and 3D-ResNet34 for the feature extractor/sequence.     All processed flight filter camera videos were inferred (177 videos; 2,013,666 total frames).     Model performance was evaluated with a test split of 335,902 frames and a validation split of 75,292.     This protocol describes the data files generated by the DeepEthogram behavioral segmentation pipeline. The ground truth file contains the frame-by-frame behavioral annotations produced by three trained behaviorists across 66 videos, used to train and evaluate the three-model DeepEthogram pipeline. The inferences file contains the per-frame behavioral class predictions output by the trained pipeline across all 177 flight filter videos (2,013,666 total frames). The model files include the trained weights and configuration for each of the three component models: the flow generator (TinyMotionNet3D), the feature extractor (3D-ResNet34), and the sequence classifier (3D-ResNet34), provided as separate training and inference packages to support both reuse of the trained models and retraining on new data.",
+      "Experiment Platform": "Rodent Habitat",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "",
+      "Project Link": "",
+      "Study Publication Title": "",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Study Description": "The NASA Rodent Habitat aboard the International Space Station enables long-duration studies of behavioral responses to spaceflight, but video-based behavioral analysis has relied on laborious manual annotation. No study has tested whether deep learning tools can automate this analysis under the demanding imaging conditions of orbital vivaria. We applied pose estimation (SLEAP) and behavioral segmentation (DeepEthogram) to archival footage from the Rodent Research-1 mission. Nine labelers annotated 3,249 pose labels across 2,063 frames, and three behaviorists labeled 611,045 frames across 66 videos. Pose tracking accuracy approximated human inter-annotator variability despite progressive lens soiling, grid occlusions, and spherical aberration. Behavioral classification across eight categories achieved accuracy of 0.86\u20130.90 and suggests progressive behavioral adaptations to microgravity. Kinematic reconstruction of circling estimated centripetal accelerations periodically approaching 1g. This is the first application of deep learning-based pose estimation and behavioral segmentation to rodents in spaceflight, establishing benchmarks for future monitoring systems. This study derives results from the Pose Estimation assay (SLEAP) and the Behavioral Segmentation assay (DeepEthogram). All original and normalized video files are available upon request through the Rodent Research 1 payload record (https://osdr.nasa.gov/bio/repo/data/payloads/RR-1).",
+      "organism": "Mus musculus",
+      "Data Source Type": "alsda",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "We also thank the NASA Biological and Physical Sciences Division for supporting OSDR and <em>ALSDA</em> which",
+       "are valuable national and global resources for the future of space biology and space <em>health</em>.",
+       "All videos and associated flight data were acquired through a data request from NASA\u2019s OSDR and <em>ALSDA</em>",
+       "Videos were then securely stored by <em>ALSDA</em> (part of OSDR) on local servers, although later RR missions",
+       "<em>alsda</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "KizsKooBQNpn7gUYYkKG",
+     "_score": 11.838703,
+     "_source": {
+      "Space Program": "NASA",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "Flow Cytometry",
+      "Study Protocol Description": "All experiments were conducted in accordance with the National Institutes of Health Guide for Care and Use of Laboratory Animals and were approved by the Institutional Animal Care and Use Committee of University of California (San Francisco, Protocol Number: AN181839) and Brookhaven National Laboratory (BNL, Upton, NY). Female (N equals 60) and male (N equals 60) C57BL6/J wildtype (WT) mice 24 weeks of age were purchased from Jackson Laboratory and directly delivered to BNL in grouped cages. Mouse ages were timed for comparability to previous experiments and to represent a middle-aged adult astronaut. One female animal died before the experiment began. Each experimental group was assigned 10 mice, except normally loaded SI females, which was assigned 9 mice. A power calculation was not used to determine sample size; sample size was selected based norms for behavioral testing and maximum total colony capacity for the lab staff. Female and male mice were housed in separate rooms at BNL on a normal 12:12 light cycle. Animals acclimated at BNL for 1 week before animals in the two social isolation groups were separated into isolation housing in HU cages at 25 weeks of age. All isolated animals subsequently remained isolated for the duration of the experiment. Group housed controls remained in standard cages. Mice in the SI+HU group were unloaded at 26 weeks of age by a pulley apparatus with orthopedic traction tape as previously described. The SI-only group remained normally loaded. Animals were checked twice a day, and re-loading events were recorded and corrected. At 27 weeks of age, animals underwent simplified 5-ion Galactic Cosmic Ray simulation (GCRsim) exposure at the NASA Space Radiation Laboratory during their light cycle. Sham irradiated animals were loaded into the \u2018mouse hotel\u2019, but not placed on the beam line. The SI + HU group remained unloaded during irradiation. Animals were reloaded at 29 weeks of age, after a total of 18 days of HU. Following 5 days of recovery, mice were shipped to UCSF via World CourierTM for behavioral and cellular analysis. At UCSF, animals were housed on a reverse light cycle in environmentally controlled conditions (12:12 h light:dark cycle at 21 \u00b1 1 \u00b0C; ~ 50% humidity) with access to food and water ad libidum. Female and male mice were housed in the same room.     Upon arrival at UCSF, seven days after reloading, blood was collected via tail vein puncture. A small nick was made in the tail vein using a scalpel and ~ 40 \u03bcl of blood was removed using a pipette and placed in a small tube containing EDTA (Sigma). Blood was used to measure early changes in peripheral blood biomarkers. Following the completion of behavioral assays, animals were lethally overdosed using carbon dioxide. Once completely anesthetized, the chest cavity was opened, and mice were perfused with 1 \u00d7 phosphate buffer solution, pH 7.4 (Gibco) until the liver was clear (~ 1\u20132 min). Cardiac blood was collected at this time.     Mice were irradiated with 50 cGy of the NASA-approved simplified GCRsim protocol during the experimental campaign NSRL21A. The simplified GCRsim consisted of 35% protons (1000 meV), 1% silicon, 18% helium, 6% oxygen, 1% iron, and 39% protons (250 MeV). Energies were 1000 MeV/n protons (LET equals 0.20 keV/\u03bcm), 600 MeV/n silicon ions (LET equals 50.4 keV/\u03bcm), 250 MeV/n helium ions (LET equals 1.60 keV/ \u03bcm), 350 MeV/n oxygen ions (LET equals 20.9 keV/\u03bcm), and 250 MeV/n protons (LET equals 0.40 keV/\u03bcm). Mice were transported to the NSRL the night before exposure and returned to the animal care facility several hours after irradiation. During each exposure, mice were loaded into 7.3 \u00d7 4.0 \u00d7 4.0 cm polystyrene restraint boxes with air holes and mounted on the beam line. SI + HU animals remained at a declining angle by means of a wire attached to the tail harness and fixed to the restraint box holder outside the box. Due to the size of the box, hindlimbs could touch the wall of the restraint box. The beam spot size was 60\u00d760 cm and animals were placed in the center of the field to assure best uniformity. The measured doses for the four runs were 50.0020 cGy delivered over 17.46 min, 50.0034 cGy delivered over 12.28 min, 50.0029 cGy delivered over 27.99 min, and 50.0021 cGy delivered over 42.76 min. NSRL GCR and SPE simulations are designed to approximate the chronic mixed field exposures in space by means of sequential acute exposures to a variety of ion/energy combinations.  The exposure protocols are on the NSRL website: https://www.bnl.gov/nsrl/userguide/simgcrsim.php (SimGCRSim).  The dose can be administered either in a single series of exposures lasting approximately an hour or in daily fractions over several weeks.  The GCR simulations are described in detail here: Simonsen LC, Slaba TC, Guida P, Rusek A (2020) NASA\u2019s first ground-based Galactic Cosmic Ray Simulator: Enabling a new era in space radiobiology research. PLoS Biol 18(5): e3000669. https://doi.org/10.1371/journal.pbio.3000669.     Data were collected on Canto II (BD Biosciences) and analyzed using FlowJo software (v10, Tree Star Inc.).     The antibody panel included anti-CD45 [fluorescein isothiocyanate (FITC)\u2013conjugated; BD Biosciences], CD11b [PacificBlue\u2013conjugated; BD Biosciences], CD3 [allophycocyanin (APC)\u2013conjugated; BD Biosciences], CD4 [AmCyan\u2013conjugated; BD Biosciences], CD8 [PerCp-Cyanine5.5\u2013conjugated; BD Biosciences], CD19 [APC-Cy7\u2013conjugated; BD Biosciences], Ly6G [phycoerythrin cyanine-7 (PE)\u2013conjugated; BD Biosciences], and NK1.1 [PE\u2013conjugated; BD Biosciences].     Circulating leukocyte populations were evaluated 17 and 100 days following GCRsim. Blood was stained with surface antibodies for 30\u201360 min at room temperature.     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining.",
+      "Material Type": "blood",
+      "Study Identifier": "OSD-640",
+      "Study Person": {
+       "First Name": "Kira D. A. Katherine Maria Serena Elma S. Valentina Mia C. Austin Abel Karen Adam R. Susanna",
+       "Middle Initials": "",
+       "Last Name": "Rienecker Grue Paladini Frias Frattini Borlongan Chou Torres-Espin Krukowski Ferguson Rosi"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Data Source Type": "alsda",
+      "Mission": {
+       "Start Date": "",
+       "End Date": "",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "Hindlimb Unloading     Sex     Housing Condition     Ionizing Radiation",
+      "Study Publication Author List": "Rienecker KDA  Grue K  Paladini MS  Frias ES  Frattini V  Borlongan MC  Chou A  Torres-Espin A  Krukowski K  Ferguson AR  Rosi S.",
+      "Study Assay Technology Platform": "FACS Canto2(Becton Dickinson)",
+      "Authoritative Source URL": "OSD-640/",
+      "Project Identifier": "GROUND-2",
+      "thumbnail": "/geode-py/ws/studies/OSD-640/image",
+      "Project Title": "",
+      "Study Public Release Date": 1692835200.0,
+      "Project Link": "",
+      "Study Publication Title": "Combined space stressors induce independent behavioral deficits predicted by early peripheral blood monocytes",
+      "organism": "Mus musculus",
+      "Accession": "OSD-640",
+      "Study Assay Technology Type": "Flow Cytometry",
+      "Study Title": "Combined space stressors induce independent behavioral deficits predicted by early peripheral blood monocytes (flow cytometry)",
+      "Study Protocol Type": "Animal Husbandry     sample collection     see protocol description     Cytometer Info     Labeling Information     Labeling Protocol     data transformation",
+      "Project Type": "Ground Study",
+      "Study Funding Agency": "This work was supported by NASA grant 80NSSC19K1581",
+      "Study Factor Type": "Hindlimb Suspension     Sex     housing condition     ionizing radiation",
+      "Factor Value": "",
+      "Study Description": "Interplanetary space travel poses many hazards to the human body. To protect astronaut health and performance on critical missions, there is first a need to understand the effects of deep space hazards, including ionizing radiation, confinement, and altered gravity. Previous studies of rodents exposed to a single such stressor document significant deficits, but our study is the first to investigate possible cumulative and synergistic impacts of simultaneous ionizing radiation, confinement, and altered gravity on behavior and cognition. Our cohort was divided between 6\u2010month\u2010old female and male mice in group, social isolation, or hindlimb unloading housing, exposed to 0 or 50 cGy of 5 ion simplified simulated galactic cosmic radiation (GCRsim). We report interactions and independent effects of GCRsim exposure and housing conditions on behavioral and cognitive performance. Exposure to GCRsim drove changes in immune cell populations in peripheral blood collected early after irradiation, while housing conditions drove changes in blood collected at a later point. Female mice were largely resilient to deficits observed in male mice. Finally, we used principal component analysis to represent total deficits as principal component scores, which were predicted by general linear models using GCR exposure, housing condition, and early blood biomarkers. This dataset derives results from the flow cytometry assay using blood samples from same source animals used for behavioral studies in OSD-618.",
+      "Study Protocol Name": "Animal Husbandry     sample collection     Irradiation Protocol     Cytometer Info     Labeling Information     Labeling Protocol     ALSDA Transformed Data",
+      "Characteristics": "",
+      "Parameter Value": "",
+      "Identifiers": "LSDS-60",
+      "Data Source Accession": ""
+     },
+     "highlight": {
+      "all": [
+       "All experiments were conducted in accordance with the National Institutes of <em>Health</em> Guide for Care and",
+       "with a reusable template, which was created through feedback provided by subject matter experts in the <em>ALSDA</em>",
+       "<em>alsda</em>",
+       "To protect astronaut <em>health</em> and performance on critical missions, there is first a need to understand",
+       "collection     Irradiation Protocol     Cytometer Info     Labeling Information     Labeling Protocol     <em>ALSDA</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE58122",
+     "_score": 11.57795,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Russell",
+       "Middle Initials": "",
+       "Last Name": "Poldrack"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL16791"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Russell,,Poldrack",
+      "Study Assay Technology Platform": "GPL16791",
+      "Authoritative Source URL": "GSE58122",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1443697200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE58122",
+      "Study Assay Technology Type": "",
+      "Study Title": "Serial RNA-seq of a single human",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": " Psychiatric disorders are characterized by major fluctuations in psychological function over the course of weeks and months, but the dynamic characteristics of human brain function over this timescale in healthy individuals are unknown.  Over a period of 18 months, we performed intensive phenome-wide assessment of a single human, including brain connectivity using resting fMRI, measurements of psychological and physical health, and transcriptomic and metabolomic profiling. This study integrates dense neuroimaging and -omics profiling to provide a detailed picture of the joint dynamics of human brain and metabolic function over time, an approach that is critical for the understanding of brain disorders characterized by increased variability of brain function. Brain connectivity varied across sessions in relation to behavioral variables including mood, fatigue, and food/caffeine intake, as well as variables related to inflammation and gut health.   Pathway-based analysis of gene expression in peripheral lymphocytes identified associations with physical health and brain connectivity, including associations between specific brain networks and a broad set of immune-related pathways. Metabolomic measures were strongly associated with dietary variance.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE58122"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "human, including brain connectivity using resting fMRI, measurements of psychological and physical <em>health</em>",
+       "Brain connectivity varied across sessions in relation to <em>behavioral</em> variables including mood, fatigue",
+       ", and food/caffeine intake, as well as variables related to inflammation and gut <em>health</em>.",
+       "Pathway-based analysis of gene expression in peripheral lymphocytes identified associations with physical <em>health</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "PXD007748",
+     "_score": 11.334528,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "leaf",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Paul",
+       "Middle Initials": "",
+       "Last Name": "Abraham"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       ""
+      ],
+      "Data Source Type": "ebi_pride",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "",
+      "Study Assay Technology Platform": "LTQ Orbitrap Velos",
+      "Authoritative Source URL": "PXD007748",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1510833600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Populus deltoides (Eastern poplar) (Eastern cottonwood)"
+      ],
+      "Accession": "PXD007748",
+      "Study Assay Technology Type": "",
+      "Study Title": "Populus Drought Stress",
+      "Study Protocol Type": "",
+      "Project Type": "",
+      "Study Funding Agency": "",
+      "Study Factor Type": [],
+      "Factor Value": [
+       "Control versus drought",
+       "Not provided"
+      ],
+      "Study Description": "We sought to generate a comprehensive proteomic profile for a Populus plant that captures protein abundance behavioral differences in mature leaves under various water deficit conditions. The sudden infliction of severe drought is unlikely to reflect what naturally happens to soil-grown plants. Therefore, rather than exposing plants to severe dehydration via the application of concentrated osmotica (e.g., polyethylene glycol or mannitol), we aimed to monitor plants exposed to prolonged drought as well as plants frequently experiencing cyclic drought. For the progressive drought experiment, herein referred to as acute drought, water will be withheld from the plants for a certain period of time until symptoms of wilting are observed. From this drought treatment, protein abundance changes that occur because of declining water potentials that consequently lead to worsening plant health will provide new insights to biological pathways in response to severe drought conditions. On the other hand, as a consequence of simulating a more natural condition, the cyclic drought treatment will provide novel insights into drought recovery and coping mechanisms. As first noted in a meta-analysis of microarray experiments comparing different water deficit-related treatments3, one consequence of analyzing multiple treatment conditions is that we expect only a few differentially abundant proteins to be common to both treatments. Therefore, we implemented a bioinformatic framework to provide an overall integrative picture of the conserved drought markers but also meaningful divergences in functional behavioral responses between the two experiments.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       "Populus deltoides (Eastern poplar) (Eastern cottonwood)"
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "PXD007748"
+     },
+     "highlight": {
+      "all": [
+       "<em>ebi_pride</em>",
+       "sought to generate a comprehensive proteomic profile for a Populus plant that captures protein abundance <em>behavioral</em>",
+       "changes that occur because of declining water potentials that consequently lead to worsening plant <em>health</em>",
+       "integrative picture of the conserved drought markers but also meaningful divergences in functional <em>behavioral</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE140045",
+     "_score": 11.170782,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Jennifer",
+       "Middle Initials": "Martinez",
+       "Last Name": "Panlilio"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL18413"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Neelakanteswar,,Aluru Jennifer,M,Panlilio Mark,E,Hahn",
+      "Study Assay Technology Platform": "GPL18413",
+      "Authoritative Source URL": "GSE140045",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1575633600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Danio rerio"
+      ],
+      "Accession": "GSE140045",
+      "Study Assay Technology Type": "",
+      "Study Title": "Domoic acid disruption of neurodevelopment and behavior involves altered myelination in the spinal cord",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Harmful algal blooms (HABs) produce potent neurotoxins that threaten human health. Early life exposure to low levels of the HAB toxin domoic acid (DomA) can produce long-lasting behavioral deficits, but the mechanisms involved are unknown. Using the zebrafish model, we investigated the developmental window of susceptibility to low doses of DomA and examined cellular and molecular targets. Larvae exposed to DomA (0.09 ng) at 2 days post-fertilization (dpf), but not at 1 or 4 dpf, showed deficits in startle behavior that included reduced responsiveness and altered kinematics. Similarly, myelination in the spinal cord was disorganized after exposure at 2 dpf but not 1 or 4 dpf. Time-lapse imaging revealed disruption of the initial stages of myelination. DomA down-regulated genes required for maintaining myelin structure and the axonal cytoskeleton. These results identify a developmental window of susceptibility to DomA-induced behavioral deficits involving altered gene expression and disrupted myelin structure and establish a zebrafish model for investigating the underlying mechanisms.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE140045"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Harmful algal blooms (HABs) produce potent neurotoxins that threaten human <em>health</em>.",
+       "Early life exposure to low levels of the HAB toxin domoic acid (DomA) can produce long-lasting <em>behavioral</em>",
+       "These results identify a developmental window of susceptibility to DomA-induced <em>behavioral</em> deficits involving"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE104709",
+     "_score": 11.111296,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Isaac",
+       "Middle Initials": "J",
+       "Last Name": "Perron"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL21103"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Allan,I,Pack Sigrid,C,Veasey Nichole,L,Yohn Karthikeyani,,Chellappa Brendan,T,Keenan Keith,R,Shockley Nicholas,F,Lahens Isaac,J,Perron",
+      "Study Assay Technology Platform": "GPL21103",
+      "Authoritative Source URL": "GSE104709",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1526554800,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE104709",
+      "Study Assay Technology Type": "",
+      "Study Title": "Isolating Independent Effects of Diet/Energy Balance and Body Weight on Behavior and Metabolic Health",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Associated with numerous metabolic and behavioral abnormalities, obesity is classified by metrics reliant on body weight (such as body mass index). However, overnutrition is the common cause of obesity, and may independently contribute to these obesity-related abnormalities.  The goal of this study is to isolate \u2018diet/energy balance\u2019 effects independent from \u2018body weight\u2019 effects on various metabolic and behavioral parameters using the Diet Switch feeding paradigm in mice. [We conducted] unbiased gene expression analysis of the nutrient-sensing circumventricular hypothalamus [using RNA-seq]. Remarkably, only two genes responded to diet/energy balance (neuropeptide y [npy] and agouti-related peptide [agrp]), while others were related only to body weight. Furthermore, linear regression models revealed that npy and agrp showed similar modifiability by diet/energy balance and body weight compared to electroencephalographic-measured sleep/wake behavior.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE104709"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Isolating Independent Effects of Diet/Energy Balance and Body Weight on Behavior and Metabolic <em>Health</em>",
+       "Associated with numerous metabolic and <em>behavioral</em> abnormalities, obesity is classified by metrics reliant",
+       "isolate \u2018diet/energy balance\u2019 effects independent from \u2018body weight\u2019 effects on various metabolic and <em>behavioral</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "KyzPQ4oBQNpn7gUY4UJE",
+     "_score": 10.89503,
+     "_source": {
+      "Space Program": "NASA",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "Behavior     Behavior     Behavior     Behavior     Behavior     Behavior",
+      "Study Protocol Description": "Animals were handled to habituate to investigators and room settings for one week prior to the start of behavioral testing. Behavioral assays were performed in dark rooms during the animals\u2019 wake cycle. A combination of Ethovision software analysis and scoring manually by one investigator was used for analysis. Ethovision and investigator scores were compared for cross-validation, and a second investigator scored trials where Ethovision and the first investigator differed by more than 5% of the score. All behavioral analysis was performed by two female investigators. Blinding to the group condition was not possible, due to the isolation housing and limited personnel. Behavioral assessments took several weeks due to the size of the cohort. Trials were balanced so all experimental groups were represented on each day of an assessment. For some assessments, males and females were run on alternate days. Equipment was cleaned with 70% ethanol between all trials. The order of behavioral tests was: Balance Beam, Elevated Plus Maze, Three Chamber Social Approach Task, Adhesive Removal, Open Field, Novel Object Recognition, and Radial Arm Water Maze.     Behavioral assays were performed in dark rooms during the animals\u2019 wake cycle.     The maze was a circular pool with a diameter of 118.5 cm and eight arms 41 cm in length. The pool was filled with water and a non-toxic white paint (Crayola, 54-2128-053) was added to make the water opaque. An escape platform was placed at the end of one of the arms, hidden from view below the surface of the water. Visual cues were placed around the room.     Animals ran 1 day of 6 consecutive 60 s trials with a 10 min interval. At the start of each trial, animals were placed in a different arm not containing the escape platform. Animals unable to locate the platform were guided to the platform. Once any animal reached the platform, they remained on the platform for 10 s and were returned to the holding cage.     All assays were recorded using an overhead camera connected to the Ethovision XT 12.0 tracking system (Noldus Information Technology). The number of errors (entries into an arm without the escape platform) was determined by Ethovision software. The number of errors in trials 1\u20136 were averaged to calculate the \u201cday average\u201d.     All experiments were conducted in accordance with the National Institutes of Health Guide for Care and Use of Laboratory Animals and were approved by the Institutional Animal Care and Use Committee of University of California (San Francisco, Protocol Number: AN181839) and Brookhaven National Laboratory (BNL, Upton, NY). Female (N equals 60) and male (N equals 60) C57BL6/J wildtype (WT) mice 24 weeks of age were purchased from Jackson Laboratory and directly delivered to BNL in grouped cages. Mouse ages were timed for comparability to previous experiments and to represent a middle-aged adult astronaut. One female animal died before the experiment began. Each experimental group was assigned 10 mice, except normally loaded SI females, which was assigned 9 mice. A power calculation was not used to determine sample size; sample size was selected based norms for behavioral testing and maximum total colony capacity for the lab staff. Female and male mice were housed in separate rooms at BNL on a normal 12:12 light cycle. Animals acclimated at BNL for 1 week before animals in the two social isolation groups were separated into isolation housing in HU cages at 25 weeks of age. All isolated animals subsequently remained isolated for the duration of the experiment. Group housed controls remained in standard cages. Mice in the SI+HU group were unloaded at 26 weeks of age by a pulley apparatus with orthopedic traction tape as previously described. The SI-only group remained normally loaded. Animals were checked twice a day, and re-loading events were recorded and corrected. At 27 weeks of age, animals underwent simplified 5-ion Galactic Cosmic Ray simulation (GCRsim) exposure at the NASA Space Radiation Laboratory during their light cycle. Sham irradiated animals were loaded into the \u2018mouse hotel\u2019, but not placed on the beam line. The SI + HU group remained unloaded during irradiation. Animals were reloaded at 29 weeks of age, after a total of 18 days of HU. Following 5 days of recovery, mice were shipped to UCSF via World CourierTM for behavioral and cellular analysis. At UCSF, animals were housed on a reverse light cycle in environmentally controlled conditions (12:12 h light:dark cycle at 21 \u00b1 1 \u00b0C; ~ 50% humidity) with access to food and water ad libidum. Female and male mice were housed in the same room.     Mice were irradiated with 50 cGy of the NASA-approved simplified GCRsim protocol during the experimental campaign NSRL21A. The simplified GCRsim consisted of 35% protons (1000 meV), 1% silicon, 18% helium, 6% oxygen, 1% iron, and 39% protons (250 MeV). Energies were 1000 MeV/n protons (LET equals 0.20 keV/\u03bcm), 600 MeV/n silicon ions (LET equals 50.4 keV/\u03bcm), 250 MeV/n helium ions (LET equals 1.60 keV/ \u03bcm), 350 MeV/n oxygen ions (LET equals 20.9 keV/\u03bcm), and 250 MeV/n protons (LET equals 0.40 keV/\u03bcm). Mice were transported to the NSRL the night before exposure and returned to the animal care facility several hours after irradiation. During each exposure, mice were loaded into 7.3 \u00d7 4.0 \u00d7 4.0 cm polystyrene restraint boxes with air holes and mounted on the beam line. SI + HU animals remained at a declining angle by means of a wire attached to the tail harness and fixed to the restraint box holder outside the box. Due to the size of the box, hindlimbs could touch the wall of the restraint box. The beam spot size was 60\u00d760 cm and animals were placed in the center of the field to assure best uniformity. The measured doses for the four runs were 50.0020 cGy delivered over 17.46 min, 50.0034 cGy delivered over 12.28 min, 50.0029 cGy delivered over 27.99 min, and 50.0021 cGy delivered over 42.76 min. NSRL GCR and SPE simulations are designed to approximate the chronic mixed field exposures in space by means of sequential acute exposures to a variety of ion/energy combinations.  The exposure protocols are on the NSRL website: https://www.bnl.gov/nsrl/userguide/simgcrsim.php (SimGCRSim).  The dose can be administered either in a single series of exposures lasting approximately an hour or in daily fractions over several weeks.  The GCR simulations are described in detail here: Simonsen LC, Slaba TC, Guida P, Rusek A (2020) NASA\u2019s first ground-based Galactic Cosmic Ray Simulator: Enabling a new era in space radiobiology research. PLoS Biol 18(5): e3000669. https://doi.org/10.1371/journal.pbio.3000669     Animals were handled to habituate to investigators and room settings for one week prior to the start of behavioral testing. Behavioral assays were performed in dark rooms during the animals\u2019 wake cycle. All assays were recorded using an overhead camera connected to the Ethovision XT 12.0 tracking system (Noldus Information Technology). A combination of Ethovision software analysis and scoring manually by one investigator was used for analysis. Ethovision and investigator scores were compared for cross-validation, and a second investigator scored trials where Ethovision and the first investigator differed by more than 5% of the score. All behavioral analysis was performed by two female investigators. Blinding to the group condition was not possible, due to the isolation housing and limited personnel. Behavioral assessments took several weeks due to the size of the cohort. Trials were balanced so all experimental groups were represented on each day of an assessment. For some assessments, males and females were run on alternate days. Equipment was cleaned with 70% ethanol between all trials. The order of behavioral tests was: Balance Beam, Elevated Plus Maze, Three Chamber Social Approach Task, Adhesive Removal, Open Field, Novel Object Recognition, and Radial Arm Water Maze.     Animals were handled to habituate to investigators and room settings for one week prior to the start of behavioral testing. Behavioral assays were performed in dark rooms during the animals\u2019 wake cycle. All behavioral analysis was performed by two female investigators. Equipment was cleaned with 70% ethanol between all trials. Anxiety was assessed at 33 weeks of age using the Elevated Plus Maze (EPM). Bright white lights were used to illuminate the open arms.     The EPM apparatus consisted of two exposed open arms (35 cm) opposite each other, orthogonal to two enclosed arms (30.5 cm) opposite from each other, creating a \u2018plus\u2019 shape with a center platform of 4.5 cm2. The apparatus was elevated 40 cm off the floor.     Individual mice were placed in the center zone, with their nose directed into an enclosed arm. Activity on the maze was recorded over 5 min. Time in the open arms + center was recorded in seconds. Animals that fell from the apparatus were replaced, but their data was excluded from analysis.     Animals that fell from the apparatus were replaced, but their data was excluded from analysis. All assays were recorded using an overhead camera connected to the Ethovision XT 12.0 tracking system (Noldus Information Technology). A combination of Ethovision software analysis and scoring manually by one investigator was used for analysis. Ethovision and investigator scores were compared for cross-validation, and a second investigator scored trials where Ethovision and the first investigator differed by more than 5% of the score. All behavioral analysis was performed by two female investigators. Blinding to the group condition was not possible, due to the isolation housing and limited personnel.     The three-chamber social approach task was conducted when animals were 34\u201335 weeks of age to test sociability and social memory. The order of behavioral tests was: Balance Beam, Elevated Plus Maze, Three Chamber Social Approach Task, Open Field, Novel Object Recognition, and Radial Arm Water Maze.     Animals were handled to habituate to investigators and room settings for one week prior to the start of behavioral testing. Behavioral assays were performed in dark rooms during the animals\u2019 wake cycle. All behavioral analysis was performed by two female investigators. Equipment was cleaned with 70% ethanol between all trials.     The total arena was 72 cm by 50 cm, and each chamber was 24 cm by 50 cm.     Individual animals were placed in the center chamber of a three chamber arena. The first stage, or habituation phase, consisted of 10 min of free exploration without any objects in the arena. The second phase measured sociability by placing an empty cage (10 cm in diameter) into one chamber of the arena, and an age- and sex-matched mouse (conspecific) not previously encountered into an identical cage in the opposite chamber of the arena. Cages were approximately 30 cm apart. Experimental animals explored the arena for 10 min. Placement of the conspecific mouse was alternated between the left and right chamber for each trial. Exploration was measured for 5 min, and time (in seconds) interacting with the novel and familiar mouse already encountered in the previous phase was recorded. A novel sex- and age-matched mouse was placed into the previously empty cage. Conspecifics consisted of two cages (four mice per cage) of nonaggressive, sex- and age-matched non-littermate mice). Investigators avoided odor mixing by cleaning the apparatus and cages with 70% ethanol and changing gloves each time they touched a new mouse. All four mice were used in all groups, and no aversions were noted.     Interactions with the empty cage or conspecific mouse were defined as instances when the nose point of the experimental mouse was less than 5 mm from the respective cage. The first 5 min of exploration were used for analysis. Time (in seconds) with the cage and conspecific mouse were recorded for analysis. Sociability was assessed using % interaction time with mouse equals ((time of nose interaction with mouse)/(total time of nose interaction with mouse + empty cage)) \u00d7 100. Social memory was measured in the third phase of the task. Social memory was assessed using the % interaction time with novel mouse equals ((interaction time with novel mouse)/(total nose interaction with novel+familiar mice))\u00d7100.     The order of behavioral tests was: Balance Beam, Elevated Plus Maze, Three Chamber Social Approach Task, Adhesive Removal, Open Field, Novel Object Recognition, and Radial Arm Water Maze.     Animals were handled to habituate to investigators and room settings for one week prior to the start of behavioral testing. Behavioral assays were performed in dark rooms during the animals\u2019 wake cycle. All behavioral analysis was performed by two female investigators. Equipment was cleaned with 70% ethanol between all trials. Anxiety was assessed  at 39 weeks of age using the Open Field (OF).     The Open Field test took place in a 30 cm by 30 cm arena for 10 min under red lighting. Mice explored freely and activity was recorded. Time spent (in seconds) in the center 17 cm by 17 cm zone was analyzed to assess anxiety-like behavior.     All assays were recorded using an overhead camera connected to the Ethovision XT 12.0 tracking system (Noldus Information Technology). A combination of Ethovision software analysis and scoring manually by one investigator was used for analysis. Ethovision and investigator scores were compared for cross-validation, and a second investigator scored trials where Ethovision and the first investigator differed by more than 5% of the score. All behavioral analysis was performed by two female investigators. Blinding to the group condition was not possible, due to the isolation housing and limited personnel.     Animals were handled to habituate to investigators and room settings for one week prior to the start of behavioral testing. Behavioral assays were performed in dark rooms during the animals\u2019 wake cycle. All assays were recorded using an overhead camera connected to the Ethovision XT 12.0 tracking system (Noldus Information Technology). A combination of Ethovision software analysis and scoring manually by one investigator was used for analysis. Ethovision and investigator scores were compared for cross-validation, and a second investigator scored trials where Ethovision and the first investigator differed by more than 5% of the score. All behavioral analysis was performed by two female investigators. Blinding to the group condition was not possible, due to the isolation housing and limited personnel. Behavioral assessments took several weeks due to the size of the cohort. Trials were balanced so all experimental groups were represented on each day of an assessment. For some assessments, males and females were run on alternate days. Equipment was cleaned with 70% ethanol between all trials. The order of behavioral tests was: Balance Beam, Elevated Plus Maze, Three Chamber Social Approach Task, Adhesive Removal, Open Field, Novel Object Recognition, and Radial Arm Water Maze.     Behavioral assays were performed in dark rooms during the animals\u2019 wake cycle under red lighting. Equipment was cleaned with 70% ethanol between all trials.     A 30 cm by 30 cm by 30 cm arena was used. Interactions were defined as instances where the nose point was less than 5 mm from the object. During the habituation phase on the first 2 days, animals explored freely for 10 min per day. During the training phase on day 3, two identical Duplo red blocks were secured to the floor of the arena in opposite corners.     Mice were given 5 min to freely explore the objects. During the testing phase on day 4, one of the Duplo red blocks (familiar object) was replaced with a novel object\u2013a Duplo orange flower. Mice were given 5 min to freely explore.     Interactions were defined as instances where the nose point was less than 5 mm from the object. Percent time with the novel object was defined as the time in seconds spent with the novel object divided by the total time in seconds spent with the novel + familiar objects.     The order of behavioral tests was: Balance Beam, Elevated Plus Maze, Three Chamber Social Approach Task, Adhesive Removal, Open Field, Novel Object Recognition, and Radial Arm Water Maze. During the Training phase, trials ended when the mouse entered the goal box, or when 2 min had elapsed. The mouse was allowed 15 s in the goal box upon arrival before it was removed back to the home cage and given a 10-min rest period before the Testing phase.     Animals were handled to habituate to investigators and room settings for one week prior to the start of behavioral testing. Behavioral assays were performed in dark rooms during the animals\u2019 wake cycle. All assays were recorded using an overhead camera connected to the Ethovision XT 12.0 tracking system (Noldus Information Technology). A combination of Ethovision software analysis and scoring manually by one investigator was used for analysis. Ethovision and investigator scores were compared for cross-validation, and a second investigator scored trials where Ethovision and the first investigator differed by more than 5% of the score. All behavioral analysis was performed by two female investigators. Blinding to the group condition was not possible, due to the isolation housing and limited personnel. Behavioral assessments took several weeks due to the size of the cohort. Trials were balanced so all experimental groups were represented on each day of an assessment. For some assessments, males and females were run on alternate days. Equipment was cleaned with 70% ethanol between all trials. Two overhead lights were directed onto the starting platform and beam, while the goal box remained shaded. Testing was conducted in the housing room.     The Balance Beam was manufactured by Conduct Science (ME-BB-M01) and consisted of a level plastic beam 80 cm long and of either 11 mm or 5 mm width, elevated 60 cm above the floor by two posts, with a dark goal box on the left, and a starting platform on the right. A hammock was placed below the beam to cushion falls. During the Testing phase, the 11 mm beam was replaced with the 5 mm beam.     The mouse was placed on the beam just past the right-hand starting platform, to encourage travel across the beam. The mouse was allowed to freely traverse the beam, and the trial ended when the mouse reached the goal box or when 2 min elapsed.     All assays were recorded using an overhead camera connected to the Ethovision XT 12.0 tracking system (Noldus Information Technology). A combination of Ethovision software analysis and scoring manually by one investigator was used for analysis. Ethovision and investigator scores were compared for cross-validation, and a second investigator scored trials where Ethovision and the first investigator differed by more than 5% of the score. All behavioral analysis was performed by two female investigators. Blinding to the group condition was not possible, due to the isolation housing and limited personnel. Main measures of the assay were distance traveled and velocity. Footfalls were not quantified due to frequent use of a \u2018scootching\u2019 strategy, where the mouse pinched the sides of the beam between its hind paws to move forward.     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining. One animal (426) was excluded from all assays due to early euthanasia.",
+      "Material Type": "Whole Organism",
+      "Study Identifier": "OSD-618",
+      "Study Person": {
+       "First Name": "Kira D. A. Katherine Maria Serena Elma S. Valentina Mia C. Austin Abel Karen Adam R. Susanna",
+       "Middle Initials": "",
+       "Last Name": "Rienecker Grue Paladini Frias Frattini Borlongan Chou Torres-Espin Krukowski Ferguson Rosi"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Data Source Type": "alsda",
+      "Mission": {
+       "Start Date": "",
+       "End Date": "",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "Hindlimb Unloading     Ionizing Radiation     Sex     Housing Condition",
+      "Study Publication Author List": "Rienecker KDA  Grue K  Paladini MS  Frias ES  Frattini V  Borlongan MC  Chou A  Torres-Espin A  Krukowski K  Ferguson AR  Rosi S.",
+      "Study Assay Technology Platform": "Elevated Plus Maze     Open Field     Three Chamber Social Approach     Novel Object Recognition     Radial Arm Water Maze     Conduct Science (ME-BB-M01)",
+      "Authoritative Source URL": "OSD-618/",
+      "Project Identifier": "GROUND-2, Hindlimb_Unloading, Multiple_Radiation_Types, High_Dose_Irradiation, Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation, Heavy_Ion_HZE_Irradiation",
+      "thumbnail": "/geode-py/ws/studies/OSD-618/image",
+      "Project Title": "",
+      "Study Public Release Date": 0,
+      "Project Link": "",
+      "Study Publication Title": "Combined space stressors induce independent behavioral deficits predicted by early peripheral blood monocytes",
+      "organism": "Mus musculus",
+      "Accession": "OSD-618",
+      "Study Assay Technology Type": "Elevated Plus Maze     Open Field     Three Chamber Social Isolation     Novel Object Recognition     RAWM     Balance",
+      "Study Title": "Combined space stressors induce independent behavioral deficits predicted by early peripheral blood monocytes (Behavioral Assays)",
+      "Study Protocol Type": "Assay Arrangement     Testing Environment     Arena And Platform     Assay Characteristics     Analysis Characteristics     Animal Husbandry     see protocol description     Assay Arrangement     Testing Environment     Arena     Assay Characteristics     Analysis Characteristics     Assay Arrangement     Testing Environment     Arena And Objects     Assay Characteristics     Analysis Characteristics     Assay Arrangement     Testing Environment     Arena     Analysis Characteristics     Assay Arrangement     Testing Environment     Arena     Assay Characteristics     Analysis Characteristics     Assay Arrangement     Testing Environment     Arena And Objects     Assay Characteristics     Analysis Characteristics     data transformation",
+      "Project Type": "Ground Study",
+      "Study Funding Agency": "This work was supported by NASA grant 80NSSC19K1581",
+      "Study Factor Type": "Hindlimb Suspension     ionizing radiation     Sex     housing condition",
+      "Factor Value": "",
+      "Study Description": "Interplanetary space travel poses many hazards to the human body. To protect astronaut health and performance on critical missions, there is first a need to understand the effects of deep space hazards, including ionizing radiation, confinement, and altered gravity. Previous studies of rodents exposed to a single such stressor document significant deficits, but our study is the first to investigate possible cumulative and synergistic impacts of simultaneous ionizing radiation, confinement, and altered gravity on behavior and cognition. Our cohort was divided between 6\u2010month\u2010old female and male mice in group, social isolation, or hindlimb unloading housing, exposed to 0 or 50 cGy of 5 ion simplified simulated galactic cosmic radiation (GCRsim). We report interactions and independent effects of GCRsim exposure and housing conditions on behavioral and cognitive performance. Exposure to GCRsim drove changes in immune cell populations in peripheral blood collected early after irradiation, while housing conditions drove changes in blood collected at a later point. Female mice were largely resilient to deficits observed in male mice. Finally, we used principal component analysis to represent total deficits as principal component scores, which were predicted by general linear models using GCR exposure, housing condition, and early blood biomarkers. This dataset derives results from the behavior assays Balance Beam, Elevated Plus Maze, Open Field, Three Chamber Social Approach, Novel Object Recognition, and Radial Arm Water Maze using the same source animals as the flow cytometry blood samples in OSD-640.",
+      "Study Protocol Name": "Radial Arm Water Maze - Assay Arrangement     Radial Arm Water Maze - Testing Environment     Radial Arm Water Maze - Arena And Platform     Radial Arm Water Maze - Assay Characteristics     Radial Arm Water Maze - Analysis Characteristics     Animal Husbandry     Irradiation Protocol     Elevated Plus Maze - Assay Arrangement     Elevated Plus Maze - Testing Environment     Elevated Plus Maze - Arena     Elevated Plus Maze - Assay Characteristics     Elevated Plus Maze - Analysis Characteristics     Three Chamber Social Approach Task - Assay Arrangement     Three Chamber Social Approach Task - Testing Environment     Three Chamber Social Approach Task - Arena And Objects     Three Chamber Social Approach Task - Assay Characteristics     Three Chamber Social Approach Task - Analysis Characteristics     Open Field - Assay Arrangement     Open Field - Testing Environment     Open Field - Arena     Open Field - Analysis Characteristics     Novel Object Recognition - Assay Arrangement     Novel Object Recognition - Testing Environment     Novel Object Recognition - Arena     Novel Object Recognition - Assay Characteristics     Novel Object Recognition - Analysis Characteristics     Balance Beam - Assay Arrangement     Balance Beam - Testing Environment     Balance Beam - Arena And Objects     Balance Beam - Assay Characteristics     Balance Beam - Analysis Characteristics     ALSDA Transformed Data",
+      "Characteristics": "",
+      "Parameter Value": "",
+      "Identifiers": "LSDS-48",
+      "Data Source Accession": ""
+     },
+     "highlight": {
+      "all": [
+       "All experiments were conducted in accordance with the National Institutes of <em>Health</em> Guide for Care and",
+       "with a reusable template, which was created through feedback provided by subject matter experts in the <em>ALSDA</em>",
+       "<em>alsda</em>",
+       "To protect astronaut <em>health</em> and performance on critical missions, there is first a need to understand",
+       "And Objects     Balance Beam - Assay Characteristics     Balance Beam - Analysis Characteristics     <em>ALSDA</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE87001",
+     "_score": 10.862242,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Michael",
+       "Middle Initials": "C.",
+       "Last Name": "Saul"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL19174"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Lindsey,,Block Hagai,Y,Shpigler Amy,,Cash-Ahmed Frida,,Corona Gene,E,Robinson Michael,C,Saul",
+      "Study Assay Technology Platform": "GPL19174",
+      "Authoritative Source URL": "GSE87001",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1498053600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Apis mellifera"
+      ],
+      "Accession": "GSE87001",
+      "Study Assay Technology Type": "",
+      "Study Title": "Deep evolutionary conservation of autism-related genes",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "E.O. Wilson proposed in\u00a0Sociobiology that similarities between human and animal societies reflect common mechanistic and evolutionary roots. When introduced in 1975 this controversial hypothesis was beyond science\u2019s ability to test and remains unproven. We used genomic analyses to determine whether superficial behavioral similarities in humans and the highly social honey bee reflect common molecular mechanisms. Here we report that gene expression signatures for individual bees unresponsive to various salient social stimuli are significantly enriched for autism spectrum disorder-related genes. These signatures occur in the mushroom bodies, a high-level integration center of the insect brain. Further, our finding of enrichment was unique to autism spectrum disorders; brain gene expression signatures from other honey bee behaviors do not show this enrichment, nor do data sets from other human behavioral and health conditions. These results demonstrate deep conservation for genes associated with a human social pathology and individual differences in insect social behavior, thus providing an example of how comparative genomics can be used to test sociobiological theory.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE87001"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "We used genomic analyses to determine whether superficial <em>behavioral</em> similarities in humans and the highly",
+       "signatures from other honey bee behaviors do not show this enrichment, nor do data sets from other human <em>behavioral</em>",
+       "and <em>health</em> conditions."
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "PXD003380",
+     "_score": 10.522792,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Ravi Chand",
+       "Middle Initials": "",
+       "Last Name": "Bollineni"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       ""
+      ],
+      "Data Source Type": "ebi_pride",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "",
+      "Study Assay Technology Platform": "Q Exactive",
+      "Authoritative Source URL": "PXD003380",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1529924400,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Caenorhabditis elegans"
+      ],
+      "Accession": "PXD003380",
+      "Study Assay Technology Type": "",
+      "Study Title": "Restoration of defective nuclear-mitochondrial DNA damage signaling suppresses neuropathology and extends healthspan in Ataxia telangiectasia across species",
+      "Study Protocol Type": "",
+      "Project Type": "",
+      "Study Funding Agency": "",
+      "Study Factor Type": [],
+      "Factor Value": [],
+      "Study Description": "Ataxia-telangiectasia (A-T) is a disease characterized by genomic instability and severe neurodegeneration. It is caused by mutation in Ataxia-telangiectasia mutated gene (ATM) which encodes ATM, a key player in DNA double-strand break (DSB) repair.  While many major symptoms of A-T (including hypersensitivity to ionizing radiation) are readily explained by its deficiency in repair of DSBs, the causes for the devastating cerebellar degeneration are still elusive. Here we report that in A-T, persistent unrepaired DNA damage signals from the nucleus to mitochondria (NM signaling) causing mitochondrial dysfunction leading to neurodegeneration. We find that depletion of NAD+ in A-T across species is likely due to persistent PARylation as inhibition of PARP1 restores NAD+levels.. NAD+ depletion affects the NAD+/SIRT1-PGC1\u03b1 axis causing accumulation of damaged mitochondria through inhibition of mitophagy. Restoration of NAD+/SIRT1 activity through PARP1 inhibition, NAD+ supplementation or SIRT1 activation rescued the pathological and behavioral defects in A-T, suggesting a conserved role of the NAD+/SIRT1 pathway in inhibiting disease pathology. Notably, increasing the NAD+ levels extends lifespan and rescues A-T-specific behavioral defects in both C. elegans and mouse models of A-T. This is through induction of PINK1-DCT1-regulated mitophagy and DNA-PKcs-associated NHEJ DNA repair. Our results underscore the unified role of SIRT1 (Sir2.1) in mitochondrial health and highlight how Sir2.1 not only regulates mitochondrial biogenesis, but also induces PINK1-DCT1-dependent mitophagy. Our data support a model where by the two major theories on aging, DNA damage accumulation and mitochondrial dysfunction, conspire to promote neurodegeneration in A-T animal models and suggest that therapeutic interventions are possible in A-T and other untreatable DNA repair-deficient disorders.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       "Caenorhabditis elegans"
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "PXD003380"
+     },
+     "highlight": {
+      "all": [
+       "<em>ebi_pride</em>",
+       "activity through PARP1 inhibition, NAD+ supplementation or SIRT1 activation rescued the pathological and <em>behavioral</em>",
+       "Notably, increasing the NAD+ levels extends lifespan and rescues A-T-specific <em>behavioral</em> defects in both",
+       "Our results underscore the unified role of SIRT1 (Sir2.1) in mitochondrial <em>health</em> and highlight how Sir2.1"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE88959",
+     "_score": 9.845409,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Yan",
+       "Middle Initials": "W.",
+       "Last Name": "Asmann"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL13112"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Kelsey,E,Baker Silvia,S,Kang John,D,Fryer Aishe,,Kurti Chia-Chen,,Liu Yingxue,,Ren Guojun,,Bu Yan,,Asmann",
+      "Study Assay Technology Platform": "GPL13112",
+      "Authoritative Source URL": "GSE88959",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1476961200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE88959",
+      "Study Assay Technology Type": "",
+      "Study Title": "Lipocalin-2 protects the brain during inflammatory conditions",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Sepsis is a prevalent health issue that can lead to central nervous system (CNS) inflammation with long-term behavioral and cognitive alterations. Using unbiased proteomic profiling of over 100 different cytokines, we found that Lipocalin-2 (LCN2) was the most substantially elevated protein in the CNS after peripheral administration of lipopolysaccharide (LPS). To determine whether the high level of LCN2 in the CNS is protective or deleterious, we challenged Lcn2-/- mice with peripheral LPS and determined effects on behavior and neuroinflammation. At a time corresponding to peak LCN2 induction in WT mice injected with LPS, Lcn2-/- mice challenged with LPS had exacerbated levels of pro-inflammatory cytokines and exhibited significantly worsened behavioral phenotypes. To determine the extent of global inflammatory changes dependent upon LCN2, we performed an RNAseq transcriptomic analysis. Compared to WT mice injected with LPS, Lcn2-/- mice injected with LPS had unique transcriptional profiles and significantly elevated levels of multiple pro-inflammatory molecules. Several LCN2-dependent pathways were revealed with this analysis including, cytokine and chemokine signaling, NOD-like receptor signaling, and Jak-STAT signaling. These findings demonstrate that LCN2 serves as a potent protective factor in the CNS in response to systemic inflammation and may be a potential candidate for limiting sepsis-related CNS sequelae.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE88959"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Sepsis is a prevalent <em>health</em> issue that can lead to central nervous system (CNS) inflammation with long-term",
+       "<em>behavioral</em> and cognitive alterations.",
+       "with LPS had exacerbated levels of pro-inflammatory cytokines and exhibited significantly worsened <em>behavioral</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE108452",
+     "_score": 9.809543,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Melissa",
+       "Middle Initials": "T",
+       "Last Name": "Manners"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL21103"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Gregory,R,Grant Nicole,L,Yohn Marisa,S,Bartolomei Julie,A,Blendy Nicholas,F,Lahens Melissa,T,Manners",
+      "Study Assay Technology Platform": "GPL21103",
+      "Authoritative Source URL": "GSE108452",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1545220800,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE108452",
+      "Study Assay Technology Type": "",
+      "Study Title": "Transgenerational inheritance of chronic adolescent stress: Effects of stress response and the amygdala transcriptome",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Adolescent stress can impact health and well-being not only during adulthood of the exposed individual but even in future generations. To begin to unravel the molecular mechanisms underlying these long-term effects, we determined if stress administered to males during adolescence (F0) altered anxiety behaviors and gene expression profiles in the amygdala \u2013 a critical region in the control of emotional states \u2013 of their progeny in two generations (F1, F2). Male C57BL/6 mice underwent chronic unpredictable stress (CUS) for two-weeks during adolescence and were used to produce two generations of offspring. Male and female F1 and F2 animals were tested in behavioral assays to measure affective behavior and stress reactivity. Remarkably, transgenerational inheritance of paternal stress exposure produced a protective phenotype in the male, but not the female lineage. In behaviorally na\u00efve mice (n = 5), mRNA from the amygdala was sequenced to determine the total transcriptomes and pathway analysis was employed to identify differentially expressed genes of functional interest.\u00a0 RNA-Seq analysis of the amygdala from F1 and F2 male offspring identified genes with altered expression in mice derived from fathers exposed to CUS. Among the differentially expressed pathway was \u2018notch signaling\u2019, which was significantly altered in F2 males. Therefore, we show that paternal stress exposure impacts future generations which manifest in behavioral changes and molecular adaptations.\u00a0",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE108452"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Adolescent stress can impact <em>health</em> and well-being not only during adulthood of the exposed individual",
+       "Male and female F1 and F2 animals were tested in <em>behavioral</em> assays to measure affective behavior and",
+       "Therefore, we show that paternal stress exposure impacts future generations which manifest in <em>behavioral</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE85900",
+     "_score": 9.66702,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Ian",
+       "Middle Initials": "S",
+       "Last Name": "Maze"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL13112"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Ian,,Maze",
+      "Study Assay Technology Platform": "GPL13112",
+      "Authoritative Source URL": "GSE85900",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1486555200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE85900",
+      "Study Assay Technology Type": "",
+      "Study Title": "Aberrant H3.3 dynamics in NAc promote vulnerability to depressive-like behavior",
+      "Study Protocol Type": "",
+      "Project Type": "Genome binding/occupancy profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Human major depressive disorder (MDD), along with related mood disorders, is among the world\u2019s greatest public health concerns, however, its pathophysiology remains poorly understood. Persistent changes in gene expression are known to promote physiological aberrations implicated in MDD. More recently, histone mechanisms affecting cell-type and regional specific chromatin structures have also been shown to contribute to transcriptional programs related to depressive behaviors, as well as responses to antidepressants (ADs). Although much emphasis has been placed in recent years on roles for histone posttranslational modifications (PTMs) and chromatin remodeling events in the etiology of MDD, it has become increasingly clear that replication-independent histone variants (e.g., H3.3), which differ in primary amino acid sequence from their canonical counterparts, similarly play critical roles in the regulation of activity-dependent neuronal transcription, synaptic connectivity and behavioral plasticity. Here, we demonstrate a novel role for increased H3.3 dynamics in nucleus accumbens (NAc)\u2013\u2013a key limbic brain reward region\u2013\u2013in the regulation of aberrant social stress-mediated gene expression, abnormal dendritic morphology and the precipitation of depressive-like behaviors in mice. We find that molecular blockade of these dynamics promotes resilience to chronic social stress and results in a partial re-normalization of stress-associated transcriptional patterns in NAc. In sum, our findings establish H3.3 dynamics as a critical, and previously undocumented, regulator of mood, and suggest that future therapies aimed at modulating striatal histone dynamics may potentiate beneficial behavioral adaptations to negative emotional stimuli.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE85900"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "depressive disorder (MDD), along with related mood disorders, is among the world\u2019s greatest public <em>health</em>",
+       "critical roles in the regulation of activity-dependent neuronal transcription, synaptic connectivity and <em>behavioral</em>",
+       "suggest that future therapies aimed at modulating striatal histone dynamics may potentiate beneficial <em>behavioral</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE111362",
+     "_score": 9.546265,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Matthew",
+       "Middle Initials": "",
+       "Last Name": "Glover"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL19519"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Sarah,,Clinton Matthew,,Glover",
+      "Study Assay Technology Platform": "GPL19519",
+      "Authoritative Source URL": "GSE111362",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1520089200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Rattus norvegicus"
+      ],
+      "Accession": "GSE111362",
+      "Study Assay Technology Type": "",
+      "Study Title": "Perinatal paroxetine exposure in Selcetively-bred Low Responder rats",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Selective serotonin reuptake inhibitor (SSRI) antidepressants are the mainstay treatment for the 10-20% of pregnant and postpartum women who suffer major depression, but the effects of SSRIs on their children\u2019s developing brain and later emotional health are poorly understood. SSRI use during pregnancy can elicit antidepressant withdrawal in newborns and increase toddlers\u2019 anxiety and social avoidance. In rodents, perinatal SSRI exposure increases adult depression- and anxiety-like behavior, although certain individuals are more vulnerable to these effects than others. Our study establishes a rodent model of individual differences in susceptibility to perinatal SSRI exposure, utilizing selectively-bred Low Responder (LR) and High Responder (HR) rats that were previously bred for high versus low behavioral response to novelty. Pregnant HR/LR females were chronically treated with the SSRI paroxetine (10 mg/kg/day p.o.) to examine its effects on offspring\u2019s emotional behavior and gene expression in the developing brain. Paroxetine treatment had minimal effect on HR/LR dams\u2019 pregnancy outcomes or maternal behavior. We found that LR offspring, naturally prone to an inhibited/anxious temperament, were susceptible to behavioral abnormalities associated with perinatal SSRI exposure (which exacerbated their Forced Swim Test immobility), while high risk-taking HR offspring were resistant. Microarray studies revealed robust perinatal SSRI-induced gene expression changes in the developing LR hippocampus and amygdala (postnatal days 7-21), including transcripts involved in neurogenesis, synaptic vesicle components, and energy metabolism.  These results highlight the LR/HR model as a useful tool to explore the neurobiology of individual differences in susceptibility to perinatal SSRI exposure.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE111362"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "major depression, but the effects of SSRIs on their children\u2019s developing brain and later emotional <em>health</em>",
+       "selectively-bred Low Responder (LR) and High Responder (HR) rats that were previously bred for high versus low <em>behavioral</em>",
+       "We found that LR offspring, naturally prone to an inhibited/anxious temperament, were susceptible to <em>behavioral</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "oay8o5oBV-yiXhb7dj06",
+     "_score": 9.161815,
+     "_source": {
+      "Authoritative Source URL": "OSD-897/",
+      "Flight Program": "",
+      "Mission": {
+       "End Date": "",
+       "Start Date": "",
+       "Name": ""
+      },
+      "Material Type": "parietal cortex",
+      "Project Identifier": "Proton_Irradiation, High_Dose_Irradiation, Low_Dose_Irradiation, Low_LET_Irradiation",
+      "Accession": "OSD-897",
+      "Identifiers": "LSDS-166",
+      "Study Identifier": "OSD-897",
+      "Study Protocol Name": "Animal Husbandry     Irradiation Protocol     sample collection     Protein Gel Info     Protein Blot Transfer Info     Blocking Protocol     Labeling Information     Primary Antibody     Secondary Antibody     Western Blot Imaging     ALSDA Transformed Data",
+      "Study Assay Technology Type": "Western Blot     Western Blot",
+      "Acknowledgments": "",
+      "Study Assay Technology Platform": "ChemiDoc_AKTpAKT     ChemiDoc_TH",
+      "Study Person": {
+       "Last Name": "Davis DeCicco-Skinner Hienz",
+       "Middle Initials": "M.",
+       "First Name": "Catherine Kathleen L. Robert D."
+      },
+      "Study Protocol Type": "Animal Husbandry     acute     sample collection     Protein Gel Info     Protein Blot Transfer Info     Blocking Protocol     Labeling Information     Primary Antibody     Secondary Antibody     Western Blot Imaging     data transformation",
+      "Space Program": "NASA",
+      "Study Title": "Deficits in Sustained Attention and Changes in Dopaminergic Protein Levels following Exposure to Proton Radiation Are Related to Basal Dopaminergic Function (Western Blot, Parietal Cortex)",
+      "Study Factor Type": "ionizing radiation     absorbed radiation dose     strain",
+      "Study Public Release Date": 1763596800.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-897/image",
+      "Study Factor Name": "Ionizing Radiation     Absorbed Radiation Dose     Strain",
+      "Study Assay Measurement Type": "protein quantification     protein quantification",
+      "Project Type": "Ground Study",
+      "Factor Value": "",
+      "Data Source Accession": "",
+      "Project Title": "",
+      "Study Funding Agency": "Supported by the National Space Biomedical Research Institute (NSBRI) through NASA cooperative agreement NCC 9-58, grants NBPF01604 (RDH), NBPF02802 (RDH), NBPF04201 (RDH), PF02602 (CMD), EO00010 (CMD), and NASA NNX15AC71G (CMD).",
+      "Study Protocol Description": "Subjects were 17 male Fischer 344 rats (Harlan Laboratories, Indianapolis, Indiana) and 20 Lewis rats, acquired at approximately 10\u201312 weeks of age. Rats were housed in individual plastic cages and maintained on a 12:12 h light/dark cycle (lights on at 6:00 AM) and at an ambient temperature of 23 degrees Celsius for the duration of the experiment. Rats were run in 30-min rPVT sessions during their light-on cycle at the same time each day in identically constructed operant chambers. Each rPVT chamber contained one nose-poke key, cue lights, a house light, and a food cup for delivery of food pellets. All chambers were contained in sound-attenuating enclosures equipped with an exhaust fan. The weights of the rats were maintained at 85\u201390 percent of each strain\u2019s free-feeding weight by feeding measured amounts of rat chow each day (30 min after the experimental session, 5 days/week; at similar times on the weekends), in addition to the food that was earned during the behavioral test sessions. Water was freely available in the home cage. Laboratory animal care was according to Public Health Service (PHS) Policy on the Humane Care and Use of Laboratory Animals. This study was carried out in strict accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health. The protocol and all procedures were approved by the Institutional Animal Care and Use Committee of the Johns Hopkins University. Johns Hopkins also maintains accreditation of their program by the Association for the Assessment and Accreditation of Laboratory Animal Care (AAALAC).     Rats were exported to Brookhaven National Laboratory (BNL) for radiation exposure 4\u20135 days prior to the scheduled exposure day. All animals were exposed on the same day, and then returned to Johns Hopkins for follow-up testing 4\u20135 days following exposure. While at BNL, rats were maintained under housing conditions similar to those at JHU, including the same light/dark cycle and were individually housed in plastic cages with a water bottle, wire top, and insulator top, that were filled with bedding and contained enrichment toys (i.e., Nyla bones). Rats also received ad lib access to water and food while at BNL. The control group was sham-irradiated, i.e., shipped to BNL, sedated and restrained for radiation exposure, but not actually exposed. The remaining rats were irradiated with 150 MeV/n protons generated at the NASA Space Radiation Laboratory (NSRL) facility at BNL. Protons of this energy have a mean range in water of approximately 15.5 cm with an average LET of 0.4 keV/um. Target exposure levels were 25 and 100 cGy; actual delivered doses varied by no more than +/- 0.1 cGy relative to each target dose. Dose rates ranged from 30\u201371 cGy/min to achieve an even dose distribution across the collimated exposure field. Irradiation involved head-only exposures to minimize systemic responses to exposures that can confound morphological, neurochemical, and behavioral testing. For radiation exposures, rats received an intraperitoneal injection (2 ml/kg administered volume) of ketamine (90 mg/kg) and xylazine (5 mg/kg) and were subsequently placed in a ventilated polystyrene holder (2 rats/holder). Each body was shielded by a specially built trilaminar collimator exposure system consisting of Plexiglas, aluminum, and polyurethane; the body dose was less than 2 percent of the delivered dose.     To determine the levels of various proteins in the brain following radiation exposure and behavioral testing, all rats were sacrificed at approximately 9-months (35\u201336 weeks) post-exposure. Whole rat brains were excised after decapitation, frontal and parietal cortices dissected, flash frozen, and immediately stored at -80 degrees Celsius until processed.     Whole rat brains were excised after decapitation, frontal and parietal cortices dissected, flash frozen, and immediately stored at -80 C until processed. Tissue sections were weighed and placed in a 1.5 ml centrifuge tube. Tissue was homogenized on ice using 3 ml of Radio Immuno Precipitation Assay (RIPA) buffer containing complete protease inhibitor and phophastase inhibitors per gram of tissue. Samples were then centrifuged at 12,000 x g for 10 min at 4 C, the pellet was discarded and the lysate transferred to a new microtube. Lysates were again centrifuged at 12,000 x g for 10 min at 4C. The supernatant from the second centrifugation contains total protein lysate that was used for Western Blotting. Protein concentrations were calculated from each sample using Biorad Protein Assay Dye. 20 ug of total protein from each rat were loaded onto 4\u201312% Bis-Tris gels and electrophoresed for 90 minutes at 110 volts in MOPS running buffer.     Proteins were then electrophoretically transferred for 80 min at 30V onto PVDF membrane and subsequently incubated in Ponceau reagent for 10 minutes to ensure complete transfer of all proteins.     After transfer, the membrane was blocked in 5% Non-fat dry milk in 1x Tris buffered saline containing 0.1% Tween 20 (TBST).     Membranes were incubated with primary antibodies in TBST buffer for one hour at room temperature.     The primary antibodies used were: Akt 1:1000; pAktser473 1:1000; tyrosine hydroxylase (TOH) 1:500; pCREB 1:1000; dopamine transporter (DAT) 1:700; beta-actin, 1:2000. Membranes were washed (3 x 10 minutes) in TBST. Incubation with secondary antibody was performed at a dilution of 1:2500.     Incubation with secondary antibody was performed at a dilution of 1:2500.     After additional washing steps, West Dura chemilluminescence substrate was added to the membranes and they were allowed to incubate for 5 minutes. Membranes were visualized using a digital ChemiDoc-It imaging system. Densitometry was performed on all western blots and signal normalized to beta-actin, which serves as a housekeeping gene. For each protein, densitometry was calculated, and ratios of each protein/beta actin were calculated for individual rats in each proton dose level group. These protein/actin ratios were compared between sham-irradiated controls of each strain with independent-samples t-tests to determine if strain differences were apparent. To enable between strain comparisons in the event of strain difference between sham controls, rats\u2019 protein/actin ratios were normalized to their strain-specific sham-irradiated control group, which were both set to 1.     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining. Please refer to the study-level data dictionary file for a complete list of column header names and descriptions.",
+      "Experiment Platform": "",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "Davis CM  DeCicco-Skinner KL  Hienz RD.",
+      "Project Link": "",
+      "Study Publication Title": "Deficits in Sustained Attention and Changes in Dopaminergic Protein Levels following Exposure to Proton Radiation Are Related to Basal Dopaminergic Function",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Study Description": "The current report assessed the effects of low-level proton irradiation in inbred adult male Fischer 344 and Lewis rats performing an analog of the human Psychomotor Vigilance Test (PVT), commonly utilized as an object risk assessment tool to quantify fatigue and sustained attention in laboratory, clinical, and operational settings. These strains were used to determine if genetic differences in dopaminergic function would impact radiation-induced deficits in sustained attention. Exposure to head-only proton irradiation (25 or 100 cGy) disrupted rPVT performance in a strain-specific manner, with 25 cGy-exposed Fischer 344 rats displaying the most severe deficits in sustained attention (i.e., decreased accuracy and increased premature responding); Lewis rats did not display behavioral deficits following radiation. Fischer 344 rats displayed greater tyrosine hydroxylase and dopamine transporter levels in the frontal cortex compared to the Lewis rats, even though radiation exposure increased both of these proteins in the Lewis rats only. Tyrosine hydroxylase was decreased in the parietal cortex of both rat strains following radiation exposure, regardless of proton dose. Strain-specific cytokine changes were also found in the frontal cortex, with the Lewis rats displaying increased levels of putative neurotrophic cytokines (e.g., CNTF). These data support the hypothesis that basal dopaminergic function impacts the severity of radiation-induced deficits in sustained attention. This study derives results from the Western Blot assay using parietal cortex tissue. Results from Western Blot assay using frontal cortex tissue can be found in OSD-896, while results from the Rodent Psychomotor Vigilance Test (rPVT) assay can be found in OSD-939.",
+      "organism": "Rattus norvegicus",
+      "Data Source Type": "alsda",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "Protocol     Labeling Information     Primary Antibody     Secondary Antibody     Western Blot Imaging     <em>ALSDA</em>",
+       "Laboratory animal care was according to Public <em>Health</em> Service (PHS) Policy on the Humane Care and Use",
+       "recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of <em>Health</em>",
+       "with a reusable template, which was created through feedback provided by subject matter experts in the <em>ALSDA</em>",
+       "<em>alsda</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE80696",
+     "_score": 9.033178,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Turhan",
+       "Middle Initials": "",
+       "Last Name": "Canli"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL15314"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Debra,,Fleischman Xuefeng,,Wang David,A,Bennett Anatoly,,Mikhailik Ruofeng,,Wen Robert,S,Wilson Lei,,Yu Turhan,,Canli",
+      "Study Assay Technology Platform": "GPL15314",
+      "Authoritative Source URL": "GSE80696",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1461754800,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE80696",
+      "Study Assay Technology Type": "",
+      "Study Title": "Differential transcriptome expression in human nucleus accumbens as a function of loneliness",
+      "Study Protocol Type": "",
+      "Project Type": "Non-coding RNA profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Loneliness is associated with impaired mental and physical health. Studies of lonely individuals reported differential expression of inflammatory genes in peripheral leukocytes and diminished activation in brain reward regions such as nucleus accumbens, but could not address gene expression in the human brain. Here, we examined genome-wide RNA expression in postmortem nucleus accumbens from donors (N = 26) with known loneliness measures. Loneliness was associated with 1 710 differentially expressed transcripts from 1 599 genes (DEGs; FDR p < 0.05, fold-change > |2|, controlling for confounds) previously associated with behavioral processes, neurological disease, psychological disorders, cancer, organismal injury, and skeletal and muscular disorders, as well as networks of upstream RNA regulators. Furthermore, a number of DEGs were associated with Alzheimer\u2019s disease genes (which was correlated with loneliness in this sample, although gene expression analyses controlled for AD diagnosis). These results identify novel targets for future mechanistic studies of gene networks in nucleus accumbens and gene regulatory mechanisms across a variety of diseases exacerbated by loneliness.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE80696"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Loneliness is associated with impaired mental and physical <em>health</em>.",
+       "genes (DEGs; FDR p < 0.05, fold-change > |2|, controlling for confounds) previously associated with <em>behavioral</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE90158",
+     "_score": 9.033178,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Dan",
+       "Middle Initials": "",
+       "Last Name": "ehninger"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL11202"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Dan,,Ehninger Brandon,,Pearson",
+      "Study Assay Technology Platform": "GPL11202",
+      "Authoritative Source URL": "GSE90158",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1492686000,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE90158",
+      "Study Assay Technology Type": "",
+      "Study Title": "A paternal methyl donor-rich diet altered cognitive and neural functions in offspring mice [expression profiling]",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Evaluation of transgenerational influence of paternal dietary methyl substrates on offspring and grand-offspring brain and behavior Here, we report that elevated paternal dietary methyl donor intake in a mouse model, transiently applied prior to mating, resulted in offspring animals (MD F1 mice) with deficits in hippocampus-dependent learning and memory, impaired hippocampal synaptic plasticity and reduced hippocampal theta oscillations. Gene expression analyses revealed altered expression of the methionine adenosyltransferase Mat2a and BK channel subunit Kcnmb2, which was associated with changes in Kcnmb2 promoter methylation in MD F1 mice. These phenomena did not extend into the F2 offspring generation. Together, our data indicate that paternal dietary factors influence cognitive and neural functions in the offspring generation. Dietary intake of methyl donors, such as folic acid and methionine, shows considerable intra-individual variation in human populations. While it is recognized that maternal departures from the optimum of dietary methyl donor intake can increase the risk for mental health issues and neurological disorders in offspring, it has not been explored whether paternal dietary methyl donor intake influences behavioral and cognitive functions in the next generation.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE90158"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "maternal departures from the optimum of dietary methyl donor intake can increase the risk for mental <em>health</em>",
+       "disorders in offspring, it has not been explored whether paternal dietary methyl donor intake influences <em>behavioral</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "oKyumZoBV-yiXhb70j3n",
+     "_score": 9.002799,
+     "_source": {
+      "Authoritative Source URL": "OSD-896/",
+      "Flight Program": "",
+      "Mission": {
+       "End Date": "",
+       "Start Date": "",
+       "Name": ""
+      },
+      "Material Type": "frontal cortex",
+      "Project Identifier": "Proton_Irradiation, Low_Dose_Irradiation, High_Dose_Irradiation, Low_LET_Irradiation",
+      "Accession": "OSD-896",
+      "Identifiers": "LSDS-161",
+      "Study Identifier": "OSD-896",
+      "Study Protocol Name": "Animal Husbandry     Irradiation Protocol     sample collection     Protein Gel Info     Protein Blot Transfer Info     Blocking Protocol     Labeling Information     Primary Antibody     Secondary Antibody     Western Blot Imaging     ALSDA Transformed Data",
+      "Study Assay Technology Type": "Western Blot     Western Blot     Western Blot     Western Blot",
+      "Acknowledgments": "",
+      "Study Assay Technology Platform": "ChemiDoc_AKTpAKT     ChemiDoc_DAT     ChemiDoc_pCREB     ChemiDoc_TH",
+      "Study Person": {
+       "Last Name": "Davis DeCicco-Skinner Hienz",
+       "Middle Initials": "M.",
+       "First Name": "Catherine Kathleen L. Robert D."
+      },
+      "Study Protocol Type": "Animal Husbandry     acute     sample collection     Protein Gel Info     Protein Blot Transfer Info     Blocking Protocol     Labeling Information     Primary Antibody     Secondary Antibody     Western Blot Imaging     data transformation",
+      "Space Program": "NASA",
+      "Study Title": "Deficits in Sustained Attention and Changes in Dopaminergic Protein Levels following Exposure to Proton Radiation Are Related to Basal Dopaminergic Function (Western Blot, Frontal Cortex)",
+      "Study Factor Type": "ionizing radiation     absorbed radiation dose     strain",
+      "Study Public Release Date": 1763424000.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-896/image",
+      "Study Factor Name": "Ionizing Radiation     Absorbed Radiation Dose     Strain",
+      "Study Assay Measurement Type": "protein quantification     protein quantification     protein quantification     protein quantification",
+      "Project Type": "Ground Study",
+      "Factor Value": "",
+      "Data Source Accession": "",
+      "Project Title": "",
+      "Study Funding Agency": "Supported by the National Space Biomedical Research Institute (NSBRI) through NASA cooperative agreement NCC 9-58, grants NBPF01604 (RDH), NBPF02802 (RDH), NBPF04201 (RDH), PF02602 (CMD), EO00010 (CMD), and NASA NNX15AC71G (CMD).",
+      "Study Protocol Description": "Subjects were 17 male Fischer 344 rats (Harlan Laboratories, Indianapolis, Indiana) and 20 Lewis rats, acquired at approximately 10\u201312 weeks of age. Rats were housed in individual plastic cages and maintained on a 12:12 h light/dark cycle (lights on at 6:00 AM) and at an ambient temperature of 23 degrees Celsius for the duration of the experiment. Rats were run in 30-min rPVT sessions during their light-on cycle at the same time each day in identically constructed operant chambers. Each rPVT chamber contained one nose-poke key, cue lights, a house light, and a food cup for delivery of food pellets. All chambers were contained in sound-attenuating enclosures equipped with an exhaust fan. The weights of the rats were maintained at 85\u201390 percent of each strain\u2019s free-feeding weight by feeding measured amounts of rat chow each day (30 min after the experimental session, 5 days/week; at similar times on the weekends), in addition to the food that was earned during the behavioral test sessions. Water was freely available in the home cage. Laboratory animal care was according to Public Health Service (PHS) Policy on the Humane Care and Use of Laboratory Animals. This study was carried out in strict accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health. The protocol and all procedures were approved by the Institutional Animal Care and Use Committee of the Johns Hopkins University. Johns Hopkins also maintains accreditation of their program by the Association for the Assessment and Accreditation of Laboratory Animal Care (AAALAC).     Rats were exported to Brookhaven National Laboratory (BNL) for radiation exposure 4\u20135 days prior to the scheduled exposure day. All animals were exposed on the same day, and then returned to Johns Hopkins for follow-up testing 4\u20135 days following exposure. While at BNL, rats were maintained under housing conditions similar to those at JHU, including the same light/dark cycle and were individually housed in plastic cages with a water bottle, wire top, and insulator top, that were filled with bedding and contained enrichment toys (i.e., Nyla bones). Rats also received ad lib access to water and food while at BNL. The control group was sham-irradiated, i.e., shipped to BNL, sedated and restrained for radiation exposure, but not actually exposed. The remaining rats were irradiated with 150 MeV/n protons generated at the NASA Space Radiation Laboratory (NSRL) facility at BNL. Protons of this energy have a mean range in water of approximately 15.5 cm with an average LET of 0.4 keV/um. Target exposure levels were 25 and 100 cGy; actual delivered doses varied by no more than +/- 0.1 cGy relative to each target dose. Dose rates ranged from 30\u201371 cGy/min to achieve an even dose distribution across the collimated exposure field. Irradiation involved head-only exposures to minimize systemic responses to exposures that can confound morphological, neurochemical, and behavioral testing. For radiation exposures, rats received an intraperitoneal injection (2 ml/kg administered volume) of ketamine (90 mg/kg) and xylazine (5 mg/kg) and were subsequently placed in a ventilated polystyrene holder (2 rats/holder). Each body was shielded by a specially built trilaminar collimator exposure system consisting of Plexiglas, aluminum, and polyurethane; the body dose was less than 2 percent of the delivered dose.     To determine the levels of various proteins in the brain following radiation exposure and behavioral testing, all rats were sacrificed at approximately 9-months (35\u201336 weeks) post-exposure. Whole rat brains were excised after decapitation, frontal and parietal cortices dissected, flash frozen, and immediately stored at -80 degrees Celsius until processed.     Whole rat brains were excised after decapitation, frontal and parietal cortices dissected, flash frozen, and immediately stored at -80 C until processed. Tissue sections were weighed and placed in a 1.5 ml centrifuge tube. Tissue was homogenized on ice using 3 ml of Radio Immuno Precipitation Assay (RIPA) buffer containing complete protease inhibitor and phophastase inhibitors per gram of tissue. Samples were then centrifuged at 12,000 x g for 10 min at 4\u00b0C, the pellet was discarded and the lysate transferred to a new microtube. Lysates were again centrifuged at 12,000 x g for 10 min at 4C. The supernatant from the second centrifugation contains total protein lysate that was used for Western Blotting. Protein concentrations were calculated from each sample using Biorad Protein Assay Dye. 20 ug of total protein from each rat were loaded onto 4\u201312% Bis-Tris gels and electrophoresed for 90 minutes at 110 volts in MOPS running buffer.     Proteins were then electrophoretically transferred for 80 min at 30V onto PVDF membrane and subsequently incubated in Ponceau reagent for 10 minutes to ensure complete transfer of all proteins.     After transfer, the membrane was blocked in 5% Non-fat dry milk in 1x Tris buffered saline containing 0.1% Tween 20 (TBST).     Membranes were incubated with primary antibodies in TBST buffer for one hour at room temperature.     The primary antibodies used were: Akt 1:1000; pAktser473 1:1000; tyrosine hydroxylase (TOH) 1:500; pCREB 1:1000; dopamine transporter (DAT) 1:700; beta-actin, 1:2000. Membranes were washed (3 x 10 minutes) in TBST. Incubation with secondary antibody was performed at a dilution of 1:2500.     Incubation with secondary antibody was performed at a dilution of 1:2500.     After additional washing steps, West Dura chemilluminescence substrate was added to the membranes and they were allowed to incubate for 5 minutes. Membranes were visualized using a digital ChemiDoc-It imaging system. Densitometry was performed on all western blots and signal normalized to beta-actin, which serves as a housekeeping gene. For each protein, densitometry was calculated, and ratios of each protein/beta actin were calculated for individual rats in each proton dose level group. These protein/actin ratios were compared between sham-irradiated controls of each strain with independent-samples t-tests to determine if strain differences were apparent. To enable between strain comparisons in the event of strain difference between sham controls, rats\u2019 protein/actin ratios were normalized to their strain-specific sham-irradiated control group, which were both set to 1.     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining. Please refer to the study-level data dictionary file for a complete list of column header names and descriptions.",
+      "Experiment Platform": "",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "Davis CM  DeCicco-Skinner KL  Hienz RD.",
+      "Project Link": "",
+      "Study Publication Title": "Deficits in Sustained Attention and Changes in Dopaminergic Protein Levels following Exposure to Proton Radiation Are Related to Basal Dopaminergic Function",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Study Description": "The current report assessed the effects of low-level proton irradiation in inbred adult male Fischer 344 and Lewis rats performing an analog of the human Psychomotor Vigilance Test (PVT), commonly utilized as an object risk assessment tool to quantify fatigue and sustained attention in laboratory, clinical, and operational settings. These strains were used to determine if genetic differences in dopaminergic function would impact radiation-induced deficits in sustained attention. Exposure to head-only proton irradiation (25 or 100 cGy) disrupted rPVT performance in a strain-specific manner, with 25 cGy-exposed Fischer 344 rats displaying the most severe deficits in sustained attention (i.e., decreased accuracy and increased premature responding); Lewis rats did not display behavioral deficits following radiation. Fischer 344 rats displayed greater tyrosine hydroxylase and dopamine transporter levels in the frontal cortex compared to the Lewis rats, even though radiation exposure increased both of these proteins in the Lewis rats only. Tyrosine hydroxylase was decreased in the parietal cortex of both rat strains following radiation exposure, regardless of proton dose. Strain-specific cytokine changes were also found in the frontal cortex, with the Lewis rats displaying increased levels of putative neurotrophic cytokines (e.g., CNTF). These data support the hypothesis that basal dopaminergic function impacts the severity of radiation-induced deficits in sustained attention. This study derives results from the Western Blot assay using frontal cortex tissue. Results from Western Blot assay using parietal cortex tissue can be found in OSD-897, while results from the Rodent Psychomotor Vigilance Test (rPVT) assay can be found in OSD-939.",
+      "organism": "Rattus norvegicus",
+      "Data Source Type": "alsda",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "Protocol     Labeling Information     Primary Antibody     Secondary Antibody     Western Blot Imaging     <em>ALSDA</em>",
+       "Laboratory animal care was according to Public <em>Health</em> Service (PHS) Policy on the Humane Care and Use",
+       "recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of <em>Health</em>",
+       "with a reusable template, which was created through feedback provided by subject matter experts in the <em>ALSDA</em>",
+       "<em>alsda</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE90499",
+     "_score": 8.703711,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Dan",
+       "Middle Initials": "",
+       "Last Name": "ehninger"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL16446"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Dan,,Ehninger Brandon,,Pearson",
+      "Study Assay Technology Platform": "GPL16446",
+      "Authoritative Source URL": "GSE90499",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1492686000,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE90499",
+      "Study Assay Technology Type": "",
+      "Study Title": "A paternal methyl donor-rich diet altered cognitive and neural functions in offspring mice [MeDIP_chip]",
+      "Study Protocol Type": "",
+      "Project Type": "Methylation profiling by genome tiling array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Evaluation of transgenerational influence of paternal dietary methyl substrates on offspring and grand-offspring brain and behavior Dietary intake of methyl donors, such as folic acid and methionine, shows considerable intra-individual variation in human populations. While it is recognized that maternal departures from the optimum of dietary methyl donor intake can increase the risk for mental health issues and neurological disorders in offspring, it has not been explored whether paternal dietary methyl donor intake influences behavioral and cognitive functions in the next generation. Here, we report that elevated paternal dietary methyl donor intake in a mouse model, transiently applied prior to mating, resulted in offspring animals (MD F1 mice) with deficits in hippocampus-dependent learning and memory, impaired hippocampal synaptic plasticity and reduced hippocampal theta oscillations. Gene expression analyses revealed altered expression of the methionine adenosyltransferase Mat2a and BK channel subunit Kcnmb2, which was associated with changes in Kcnmb2 promoter methylation in MD F1 mice. These phenomena did not extend into the F2 offspring generation. Together, our data indicate that paternal dietary factors influence cognitive and neural functions in the offspring generation.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE90499"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "maternal departures from the optimum of dietary methyl donor intake can increase the risk for mental <em>health</em>",
+       "disorders in offspring, it has not been explored whether paternal dietary methyl donor intake influences <em>behavioral</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "RtxSnpIB5gkSzr3q69mk",
+     "_score": 8.610329,
+     "_source": {
+      "Authoritative Source URL": "OSD-479/",
+      "Flight Program": "",
+      "Mission": {
+       "End Date": "",
+       "Start Date": "",
+       "Name": ""
+      },
+      "Material Type": "Whole Organism",
+      "Project Identifier": "GROUND-2, Heavy_Ion_HZE_Irradiation, High_Dose_Irradiation, Low_Dose_Irradiation, Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation, Multiple_Radiation_Types",
+      "Accession": "OSD-479",
+      "Identifiers": "GLDS-479     LSDS-121",
+      "Study Identifier": "OSD-479",
+      "Study Protocol Name": "Animal Husbandry     Irradiation Protocol     sample collection     Assay Arrangement - EPM     Testing Environment - EPM     Arena - EPM     Assay Characteristics - EPM     Analysis Characteristics - EPM     ALSDA Transformed Data     Assay Arrangement - NOR     Testing Environment - NOR     Arena - NOR     Assay Characteristics - NOR     Analysis Characteristics - NOR     Assay Arrangement - OF     Testing Environment - OF     Arena - OF     Assay Characteristics - OF     Analysis Characteristics - OF     Assay Arrangement - RAWM     Testing Environment - RAWM     Arena And Platform - RAWM     Assay Characteristics - RAWM     Analysis Characteristics RAWM     Assay Arrangement - CSIT     Testing Environment - CSIT     Arena And Objects - CSIT     Assay Characteristics - CSIT     Analysis Characteristics - CSIT",
+      "Study Assay Technology Type": "Elevated Plus Maze     Novel Object Recognition     Open Field     RAWM     Three Chamber Social Isolation",
+      "Acknowledgments": "",
+      "Study Assay Technology Platform": "EthovisionXT_12     EthovisionXT_12     EthovisionXT_12     EthovisionXT_12     EthovisionXT_12",
+      "Study Person": {
+       "Last Name": "Krukowski Grue Becker Elizarraras Frias Halvorsen Koenig-Zanoff Frattini Nimmagadda Feng Jones Nelson Ferguson Rosi",
+       "Middle Initials": "",
+       "First Name": "Karen Katherine McKenna Edward Elma S. Aaron McKensie Valentina Hasitha Xi Tamako Gregory Adam R. Susanna"
+      },
+      "Study Protocol Type": "Animal Husbandry     acute     sample collection     Assay Arrangement     Testing Environment     Arena     Assay Characteristics     Analysis Characteristics     data transformation     Assay Arrangement     Testing Environment     Arena     Assay Characteristics     Analysis Characteristics     Assay Arrangement     Testing Environment     Arena     Assay Characteristics     Analysis Characteristics     Assay Arrangement     Testing Environment     Arena And Platform     Assay Characteristics     Analysis Characteristics     Assay Arrangement     Testing Environment     Arena And Objects     Assay Characteristics     Analysis Characteristics",
+      "Space Program": "NASA",
+      "Study Title": "The impact of deep space radiation on cognitive performance: From biological sex to biomarkers to countermeasures (Elevated Plus Maze, Novel Object Recognition, Open Field, Radial Arm Water Maze, and Three Chamber Social Isolation/Interaction)",
+      "Study Factor Type": "Sex     ionizing radiation     treatment     absorbed radiation dose",
+      "Study Public Release Date": 1729123200.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-479/image",
+      "Study Factor Name": "Sex     Ionizing Radiation     Treatment     Absorbed Radiation Dose",
+      "Study Assay Measurement Type": "Behavior     Behavior     Behavior     Behavior     Behavior",
+      "Project Type": "Ground Study",
+      "Factor Value": "",
+      "Data Source Accession": "",
+      "Project Title": "The Role of Oxidative Stress and Inflammation on Synaptic Functions after Exposure to Space Radiation (NNX14AC94G)",
+      "Study Funding Agency": "NASA Human Research Program; NNX14AC94G; 80NSSC19K1581",
+      "Study Protocol Description": "Male and female C57Bl6/J wild-type 24-week-old mice were purchased from the Jackson Laboratory and the National Institute on Aging and directly delivered to BNL. Animals underwent simplified five-ion GCRsim exposure at the NSRL. Following GCRsim exposure, animals were transported to UCSF for behavioral and cellular analysis. At UCSF, animals were housed on a reverse light cycle and environmentally controlled conditions (12:12-hour light:dark cycle at 21 +/- 1 degrees C;  50% humidity) all had access to food and water ad libitum. When aggressors were identified, they were individually housed with extra enrichment. Chlorhexidine Flush 0.2% Solution (Ceva, Lenexa, KS) was used to treat any wounding that occurred. Mice in which wounding persisted were excluded from analysis. Limited alterations in health states were measured across multiple cohorts and groups with no significant differences due to sex, diet, or GCRsim exposure. Male and female mice were housed in the same room in groups of one, two, three, or four. Estrous cycles were not monitored. Seven days after GCRsim exposure (days 8 to 23 after exposure), mice were switched to PLX5622\u20131200 ppm (PLX) or normal chow (control diet) for 15 days. The PLX diet was composed of a colony-stimulating factor 1 receptor (CSF1-R) inhibitor that depleted microglia within 3 days (~90%) and sustained the depleted state throughout the duration of the 15-day treatment. Upon returning to a normal diet, microglia repopulation occurs within 7 days.     Following 1 week of acclimation at BNL, mice were then irradiated at the NSRL using the NASA-approved simplified GCRsim protocol. Five charged particle species delivered in rapid succession to simulate the space radiation spectrum expected inside a deep space vehicle with self-shielding by the human body. These particles were, in order of delivery, 1000 MeV/n protons [linear energy transfer (LET) 0.20 keV/mm], 600 MeV/n silicon ions (LET 50.4 keV/mm), 250 MeV/n helium ions (LET 1.60 keV/mm), 350 MeV/n oxygen ions (LET 20.9 keV/mm), and 250 MeV/n protons (LET 0.40 keV/mm), in dose proportions of 35% protons (1000 MeV):1% silicon:18% helium, 6% oxygen, 1% iron, and 39% protons (250 MeV). Total doses of 25 cGy were delivered as part of experimental campaign NSRL 19A, 50 cGy were delivered as part of campaigns NSRL 18B, NSRL 19A, and NSRL 19C, 75 cGy doses were delivered as part of campaign NSRL 19A, and 100 cGy doses were delivered as part of campaign NSRL 19A. At BNL, animals were housed in groups of four on a normal 12:12 light cycle and transported to the NSRL many hours before GCRsim exposure. Several hours after irradiation, animals were returned to the animal care facility. During each exposure, mice were loaded into 7.3 cm by 4.0 cm by 4.0 cm polystyrene restraint boxes with air holes and mounted on the beam line in cutouts in a standard foam holder. The irradiation time was during the light phase of the circadian cycle. The beam spot size was either 20 cm by 20 cm or 60 cm by 60 cm, and animals were placed in the center of the field to assure best uniformity. Over the three NSRL campaigns, the measured doses for the eight 50 cGy exposures were 50.039 +/- 0.023 cGy delivered over 15.87 min for 20 cm by 20 cm beams or 46.12 min for the 60 cm by 60 cm beams, yielding dose rates of 3.17 cGy/min or 1.09 cGy/min, respectively. For the two 100 cGy exposures, the measured doses were 100.003 +/- 0.002 cGy delivered over an average of 133.2 min for a dose rate of 0.75 cGy/min. The measured proportions of individual ions were as described above, and the maximum deviation from the desired dose contribution was 3% (i.e., 1.03% delivered dose versus 1.00% requested dose) in the case of iron ions. After irradiation, the animals were returned to their home cages and returned to the animal care facility for shipment to UCSF by World Courier within 5 days.\n\nNSRL GCR and SPE simulations are designed to approximate the chronic mixed field exposures in space by means of sequential acute exposures to a variety of ion/energy combinations. The exposure protocols are on the NSRL website: https://www.bnl.gov/nsrl/userguide/simgcrsim.php (SimGCRSim). The dose can be administered either in a single series of exposures lasting approximately an hour or in daily fractions over several weeks. The GCR simulations are described in detail here: Simonsen LC, Slaba TC, Guida P, Rusek A (2020) NASA\u2019s first ground-based Galactic Cosmic Ray Simulator: Enabling a new era in space radiobiology research. PLoS Biol 18(5): e3000669. https://doi.org/10.1371/journal.pbio.3000669     Following GCRsim exposure, animals were transported to UCSF for behavioral and cellular analysis.     At both 1.5 and 6 months after GCRsim exposure, the EPM was used to evaluate anxiety-like behavior.     At UCSF, animals were housed on a reverse light cycle and environmentally controlled conditions (12:12-hour light:dark cycle at 21 +/- 1 degree C; 50% humidity). Animals were handled to habituate to investigators and room settings for 1 week before testing. Behavioral assays were performed in dark rooms under red lighting during the animals' wake cycle. All behavioral equipment was cleaned with 70% ethanol cleaning solution between each animal. Bright white lights were used to illuminate the open arms of the EPM.     The EPM apparatus contains two exposed open arms (35 cm) opposite each other and two enclosed arms (30.5 cm) also across from one another. Bright white lights were used to illuminate the open arms. The arms were attached at a center platform (4.5 cm2) creating the plus shape. The entire apparatus was elevated 40 cm off the floor.     Individual mice were placed onto the center of the maze and allowed to explore the maze for 5 min while their activity was recorded.     All behavioral assays were recorded using an overhead camera connected to a video tracking and analysis system (EthoVision XT 12.0, Noldus Information Technology). A combination of EthoVision software analysis and scoring manually by two investigators blinded to GCRsim and treatment was used for analysis. A subset of videos was scored by EthoVision and manually scored for cross-validation to ensure reliability between computer analysis and manual scoring. All behavioral analysis was performed by one male and four female investigators blinded to the irradiation group. Animals were randomized by sex and group over the testing period. No differences between investigators, time of day, or testing window were observed. Significant group outliers, software issues, animals that did not perform the task, and animals that died or no longer had whiskers were excluded from analysis. For the EPM, the time in the open arm + center was measured (in seconds).     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with an assay data reuse template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining.     The NOR assay was used at both ~3 to 4 months and 6 months after exposure to measure hippocampal-dependent memory function.     At UCSF, animals were housed on a reverse light cycle and environmentally controlled conditions (12:12-hour light:dark cycle at 21 +/- 1 degree C; 50% humidity). Animals were handled to habituate to investigators and room settings for 1 week before testing. Behavioral assays were performed in dark rooms under red lighting during the animals' wake cycle. All behavioral equipment was cleaned with 70% ethanol cleaning solution between each animal.     A 30 cm by 30 cm by 30 cm arena was used under red lighting for all phases of NOR testing. On day 3, two identical objects (Duplo red blocks) were secured to the bottom of the arena with magnets in opposite corners (training phase). On day 4, one of the identical objects was replaced by a novel object (Duplo orange flower) of similar size and texture (testing phase).     On the first 2 days of the NOR, animals freely explored the arena for 10 min per day (habituation phase). On day 3, two identical objects (Duplo red blocks) were secured to the bottom of the arena with magnets in opposite corners (training phase). Mice were given 5 min to freely explore the objects. On day 4, one of the identical objects was replaced by a novel object (Duplo orange flower) of similar size and texture (testing phase). Mice were given 5 min to freely explore the objects.     For Novel Object Recognition, trials were recorded, and exploratory behavior was defined as time the animals spent directing its nose toward an object. Data are expressed as percent of time mice spent exploring each object. Mice that had less than 5 s of exploration time during either training or testing were excluded from analysis. Calculated readouts for NOR included (for the first 3 and 5 min of testing) (i) interaction time with novel object (%) equals ((time of nose interaction with novel object)/(total time of nose interaction with novel object + familiar object)) times 100, (ii) interaction time with familiar object (%) equals ((time of nose interaction with familiar object)/(total time of nose interaction with novel object + familiar object)) times 100, and (iii) discrimination index equals (time of nose interaction with novel object minus time of nose interaction with familiar object)/(total time of nose interaction with novel object + familiar object).     Anxiety-like behavior was later measured by the open-field test at ~3 and 6 months after GCRsim exposure.     At UCSF, animals were housed on a reverse light cycle and environmentally controlled conditions (12:12-hour light:dark cycle at 21 +/- 1 degree C; 50% humidity). Animals were handled to habituate to investigators and room settings for 1 week before testing. Behavioral assays were performed in dark rooms under red lighting during the animals' wake cycle. All behavioral equipment was cleaned with 70% ethanol cleaning solution between each animal.     The open field arena was 30 cm by 30 cm lit under red lighting.     For this task, animals were allowed to freely explore an open-field arena (30 cm by 30 cm) for 10 min under red lighting.     For the open field, anxiety-like behavior was calculated by alterations in time spent (in seconds) in the center (17 cm by 17 cm) of the arena.     The RAWM was used ~5 to 5.5 and 6 to 6.5 months after GCRsim to test spatial learning.     At UCSF, animals were housed on a reverse light cycle and environmentally controlled conditions (12:12-hour light:dark cycle at 21 +/- 1 degree C; 50% humidity). Animals were handled to habituate to investigators and room settings for 1 week before testing. Behavioral assays were performed in dark rooms under red lighting during the animals' wake cycle. All behavioral equipment was cleaned with 70% ethanol cleaning solution between each animal.     The maze was a circular pool with a diameter of 118.5 cm and eight arms of 41 cm each in length. The pool was filled with water, and nontoxic white paint (54-2128-053, Crayola) was added to make the water opaque. An escape platform was placed at the end of one of the arms just below the surface of the water and hidden from view throughout the entire assay. Visual cues were placed around the room.     Animals ran three consecutive 60-s trials with a 10-min intertrial interval. Animals were placed in an arm, not containing the escape platform, during each trial. The starting arm was changed each trial. If the animal successfully located the escape platform, they remained for 10 s and were then returned to the holding cage. If the animal was unable to locate the platform, the experimenter guided the animal to the escape platform, where they remained for 10 s before returning to the holding cage.     On the Radial Arm Water Maze, the number of errors (entry into an arm without the escape platform) was determined using EthoVision software. The number of errors in trials 1 to 3 was averaged to calculate the day average.     The three-chamber social approach task was used to test sociability and social memory ~2 to 3 months after GCRsim exposure.     At UCSF, animals were housed on a reverse light cycle and environmentally controlled conditions (12:12-hour light:dark cycle at 21 +/- 1 degree C; 50% humidity). Animals were handled to habituate to investigators and room settings for 1 week before testing. Behavioral assays were performed in dark rooms under red lighting during the animals' wake cycle. All behavioral equipment was cleaned with 70% ethanol cleaning solution between each animal.     Individual animals were placed into a three-chamber arena (72 cm by 50 cm; each chamber is 24 cm by 50 cm) in a dark room under red light. During the habituation phase, no cages or conspecifics were present in the arena. In the sociability phase, an empty cage (10 cm in diameter) was placed into one chamber of the arena, and on the opposite side, a stranger age- and sex-matched mouse (conspecific) was placed into a cage. Cages were approximately 30 cm apart. During the social memory phase, a novel (sex- and age-matched) mouse was placed in the previously empty cage from the sociability phase set up.     Behavior was recorded through three consecutive stages: habituation, sociability, and social memory. The habituation phase consisted of 10 min of free exploration. In the sociability phase, animals were allowed to freely explore the arena for 10 min. Placement of a stranger mouse into the right or left chamber was alternated for each trial. The social memory phase was conducted immediately following the sociability phase and the experimental mouse interaction was measured for 5 min. Stranger/novel mice consisted of two cages (four mice per cage) of nonaggressive, sex- and age-matched non- littermate mice. Investigators took extreme caution during testing to avoid odor mixing during testing (cleaning, changing gloves, etc.). All four mice were used in all groups, and no aversions were noted.     On the three-chamber social interaction task, the experimental animal's sociability was measured by their preference for interaction with the mouse rather than the empty cage during the sociability phase. Interaction was determined as the nose point of the mouse in close proximity (less than 5 mm) from the respective cage. Social memory was measured by the subject's preference for the novel mouse over the familiar mouse encountered during the sociability phase. Calculated readouts for sociability included (for the first 3 and 5 min of testing) (i) interaction time with mouse (seconds), (ii) interaction time with mouse (%) equals ((time of nose interaction with mouse)/(total time of nose interaction with mouse + empty cage)) times 100, (iii) interaction time with empty cage equals ((time of nose interaction with empty cage)/(total time of nose interaction with mouse + empty cage)) times 100, and (iv) sociability ratio equals (interaction time with mouse (%))/(interaction time with empty cage (%)). Significant group outliers, software issues, and animals that died or no longer had whiskers were excluded from analysis. Calculated readouts for social memory included (for the first 3 and 5 min of testing) (i) interaction time with mouse (seconds), (ii) interaction time with mouse (%) equals ((time of nose interaction with novel mouse)/(total time of nose interaction with novel mouse + familiar mouse)) times 100, (iii) interaction time with familiar mouse equals ((time of nose interaction with familiar mouse)/(total time of nose interaction with novel mouse + familiar mouse)) times 100, and (iv) social memory ratio equals (interaction time with novel mouse (%))/(inter- action time with familiar mouse (%)).",
+      "Experiment Platform": "",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "Krukowski K  Grue K  Becker M  Elizarraras E  Frias ES  Halvorsen A  Koenig-Zanoff M  Frattini V  Nimmagadda H  Feng X  Jones T  Nelson G  Ferguson AR  Rosi S.",
+      "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13525",
+      "Study Publication Title": "The impact of deep space radiation on cognitive performance: From biological sex to biomarkers to countermeasures",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Study Description": "In the coming decade, astronauts will travel back to the moon in preparation for future Mars missions. Exposure to galactic cosmic radiation (GCR) is a major obstacle for deep space travel. Using multivariate principal components analysis, we found sex dimorphic responses in mice exposed to accelerated charged particles to simulate GCR (GCRsim); males displayed impaired spatial learning, whereas females did not. Mechanistically, these GCRsim induced learning impairments corresponded with chronic microglia activation and synaptic alterations in the hippocampus. Temporary microglia depletion shortly after GCRsim exposure mitigated GCRsim induced deficits measured months after the radiation exposure. Furthermore, blood monocyte levels measured early after GCRsim exposure were predictive of the late learning deficits and microglia activation measured in the male mice. Our findings (i) advance our understanding of charged particle induced cognitive challenges, (ii) provide evidence for early peripheral biomarkers for identifying late cognitive deficits, and (iii) offer potential therapeutic strategies for mitigating GCR induced cognitive loss. This study derives results from the behavior assays Elevated Plus Maze, Novel Object Recognition, Open Field, Radial Arm Water Maze, and Three Chamber Social Isolation/Interaction. These data are related to the Flow Cytometry data in OSD-776 (blood), OSD-777 (Microglia), and OSD-778 (Synapse).",
+      "organism": "Mus musculus",
+      "Data Source Type": "cgene     alsda",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "Environment - EPM     Arena - EPM     Assay Characteristics - EPM     Analysis Characteristics - EPM     <em>ALSDA</em>",
+       "Limited alterations in <em>health</em> states were measured across multiple cohorts and groups with no significant",
+       "All <em>behavioral</em> equipment was cleaned with 70% ethanol cleaning solution between each animal.",
+       "assay data reuse template, which was created through feedback provided by subject matter experts in the <em>ALSDA</em>",
+       "<em>cgene</em>     <em>alsda</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "o6wXuJoBV-yiXhb7Iz2r",
+     "_score": 8.412307,
+     "_source": {
+      "Authoritative Source URL": "OSD-939/",
+      "Flight Program": "",
+      "Mission": {
+       "End Date": "",
+       "Start Date": "",
+       "Name": ""
+      },
+      "Material Type": "Whole Organism",
+      "Project Identifier": "Proton_Irradiation, High_Dose_Irradiation, Low_Dose_Irradiation, Low_LET_Irradiation",
+      "Accession": "OSD-939",
+      "Identifiers": "LSDS-167",
+      "Study Identifier": "OSD-939",
+      "Study Protocol Name": "Animal Husbandry     Irradiation Protocol     Experimental Design     Operant Chamber Description     Training Phase     Testing Phase     Analysis Characteristics     ALSDA Transformed Data",
+      "Study Assay Technology Type": "Psychomotor Vigilance Test",
+      "Acknowledgments": "",
+      "Study Assay Technology Platform": "MedPC",
+      "Study Person": {
+       "Last Name": "Davis DeCicco-Skinner Hienz",
+       "Middle Initials": "M.",
+       "First Name": "Catherine Kathleen L. Robert D."
+      },
+      "Study Protocol Type": "Animal Husbandry     acute     Experimental Design     Operant Chamber Description     Training Phase     Testing Phase     Analysis Characteristics     data transformation",
+      "Space Program": "NASA",
+      "Study Title": "Deficits in Sustained Attention and Changes in Dopaminergic Protein Levels following Exposure to Proton Radiation Are Related to Basal Dopaminergic Function (Rodent Psychomotor Vigilance Test)",
+      "Study Factor Type": "ionizing radiation     absorbed radiation dose     Assay Time Post-Irradiation     strain",
+      "Study Public Release Date": 1763942400.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-939/image",
+      "Study Factor Name": "Ionizing Radiation     Absorbed Radiation Dose     Assay Time Post-Irradiation     Strain",
+      "Study Assay Measurement Type": "Behavior",
+      "Project Type": "Ground Study",
+      "Factor Value": "",
+      "Data Source Accession": "",
+      "Project Title": "",
+      "Study Funding Agency": "Supported by the National Space Biomedical Research Institute (NSBRI) through NASA cooperative agreement NCC 9-58, grants NBPF01604 (RDH), NBPF02802 (RDH), NBPF04201 (RDH), PF02602 (CMD), EO00010 (CMD), and NASA NNX15AC71G (CMD).",
+      "Study Protocol Description": "Subjects were 17 male Fischer 344 rats (Harlan Laboratories, Indianapolis, Indiana) and 20 Lewis rats, acquired at approximately 10\u201312 weeks of age. Rats were housed in individual plastic cages and maintained on a 12:12 h light/dark cycle (lights on at 6:00 AM) and at an ambient temperature of 23 degrees Celsius for the duration of the experiment. Rats were run in 30-min rPVT sessions during their light-on cycle at the same time each day in identically constructed operant chambers. Each rPVT chamber contained one nose-poke key, cue lights, a house light, and a food cup for delivery of food pellets. All chambers were contained in sound-attenuating enclosures equipped with an exhaust fan. The weights of the rats were maintained at 85\u201390 percent of each strain\u2019s free-feeding weight by feeding measured amounts of rat chow each day (30 min after the experimental session, 5 days/week; at similar times on the weekends), in addition to the food that was earned during the behavioral test sessions. Water was freely available in the home cage. Laboratory animal care was according to Public Health Service (PHS) Policy on the Humane Care and Use of Laboratory Animals. This study was carried out in strict accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health. The protocol and all procedures were approved by the Institutional Animal Care and Use Committee of the Johns Hopkins University. Johns Hopkins also maintains accreditation of their program by the Association for the Assessment and Accreditation of Laboratory Animal Care (AAALAC).     Rats were exported to Brookhaven National Laboratory (BNL) for radiation exposure 4\u20135 days prior to the scheduled exposure day. All animals were exposed on the same day, and then returned to Johns Hopkins for follow-up testing 4\u20135 days following exposure. While at BNL, rats were maintained under housing conditions similar to those at JHU, including the same light/dark cycle and were individually housed in plastic cages with a water bottle, wire top, and insulator top, that were filled with bedding and contained enrichment toys (i.e., Nyla bones). Rats also received ad lib access to water and food while at BNL. The control group was sham-irradiated, i.e., shipped to BNL, sedated and restrained for radiation exposure, but not actually exposed. The remaining rats were irradiated with 150 MeV/n protons generated at the NASA Space Radiation Laboratory (NSRL) facility at BNL. Protons of this energy have a mean range in water of approximately 15.5 cm with an average LET of 0.4 keV/um. Target exposure levels were 25 and 100 cGy; actual delivered doses varied by no more than +/- 0.1 cGy relative to each target dose. Dose rates ranged from 30\u201371 cGy/min to achieve an even dose distribution across the collimated exposure field. Irradiation involved head-only exposures to minimize systemic responses to exposures that can confound morphological, neurochemical, and behavioral testing. For radiation exposures, rats received an intraperitoneal injection (2 ml/kg administered volume) of ketamine (90 mg/kg) and xylazine (5 mg/kg) and were subsequently placed in a ventilated polystyrene holder (2 rats/holder). Each body was shielded by a specially built trilaminar collimator exposure system consisting of Plexiglas, aluminum, and polyurethane; the body dose was less than 2 percent of the delivered dose.     Rats were run in 30-min rPVT sessions during their light-on cycle at the same time each day in identically constructed operant chambers. Each rPVT chamber contained one nose-poke key, cue lights, a house light, and a food cup for delivery of food pellets. All chambers were contained in sound-attenuating enclosures equipped with an exhaust fan. The weights of the rats were maintained at 85\u201390% of each strain\u2019s free-feeding weight by feeding measured amounts of rat chow each day (30 min after the experimental session, 5 days/week; at similar times on the weekends), in addition to the food that was earned during the behavioral test sessions.     Please update this protocol description fill in later     Before irradiation, rats were first trained to respond on a nose-poke key for food pellets on a fixed-ratio (FR) 1 schedule of reinforcement. Once this behavior was acquired, training on the rPVT procedure then began. The criterion for inclusion in the present study was that rats achieve at least 75% response accuracy and less than a 25% false alarm rate, resulting in a d\u2019 index of 1.35, for four out of the five daily test sessions during each of the two weeks prior to radiation. Most rats achieved this criterion more than two weeks prior to radiation, and the average pre-exposure d\u2019 index achieved for F344 and LEW rats was 1.9 and 2.0, respectively (accuracy of 78.1% and false alarm rate of 15.9% for F344; accuracy of 79.6% and false alarm rate of 15.9% for LEW). Thus all rats included in the study acquired and maintained stable rPVT performances prior to the exposure.     Rats were run in 30-min rPVT sessions during their light-on cycle at the same time each day in identically constructed operant chambers. Each rPVT chamber contained one nose-poke key, cue lights, a house light, and a food cup for delivery of food pellets. Post-irradiation rPVT performances were monitored for 34 weeks following exposure. Sessions began with the onset of the house light. After a variable delay of 3\u201310 sec the light behind the nose-poke key was illuminated. A correct response was defined as a response on the nose poke key within 1.5 sec after the light onset (i.e., 1.5-sec limited hold, LH) and was reinforced with a pellet. A response prior to the light onset (premature response) was not reinforced and punished with an 8 sec time out, while a response after the 1.5-sec interval had elapsed (miss) was not reinforced. The delay period for the next trial began after a 3-sec inter-trial interval, timed either after the response or the end of the 1.5-sec LH, whichever occurred first.     For the rPVT procedure, experimental contingencies were controlled by MedPC behavioral control programs running on PCs; the programs recorded all data on a trial-by-trial basis to provide for a wide range of subsequent analyses. Data collected were the numbers of correct responses as defined above, premature responses (responses that occurred prior to the light onset), misses (number of 1.5-sec light-on intervals during which no response occurred), and lapses in responding (misses plus responses greater than twice the rat\u2019s mean response latency). Summary measures were expressed as percentages, as follows: accuracy equals correct responses / (corrects plus premature responses plus misses); premature responding equals number of premature responses / (corrects plus premature responses plus misses); lapse rate equals (misses plus lapses) / (corrects plus premature responses plus misses). In the human literature on PVT performance, lapses are considered an important indicator of inattention and/or fatigue and are typically defined as responses with latencies greater than 500 msec, or roughly twice the average latency for humans performing the 10-min version of the test. For rodents, average latency can vary considerably from subject to subject, and so the definition adopted here was based on each rat\u2019s individual mean latency measure (described in https://doi.org/10.1667/RR13359.1). Premature responding was broken down further by calculating a false alarm (FA) rate for those premature responses occurring within the 3\u201310 second delay period (i.e., FA rate equals premature responses within the 3\u201310 sec delay interval / (corrects plus premature responses within the 3\u201310 sec delay interval plus misses). The addition of a false alarm measure allowed for the calculation of a d\u2019 index of signal discriminability in which percent correct (PC) scores and false alarm (FA) rates are converted into z scores, and subtracted (d\u2019 equals z(PC)-z(FA). This performance measure is important for calculating a d prime (d\u2019) measure of discriminability that can be compared across the different strains. Finally, response latencies to the light onset were recorded in milliseconds, and summarized by calculating both the median and mean reaction times.     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining. Please refer to the study-level data dictionary file for a complete list of column header names and descriptions.",
+      "Experiment Platform": "",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "Davis CM  DeCicco-Skinner KL  Hienz RD.",
+      "Project Link": "",
+      "Study Publication Title": "Deficits in Sustained Attention and Changes in Dopaminergic Protein Levels following Exposure to Proton Radiation Are Related to Basal Dopaminergic Function",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Study Description": "The current report assessed the effects of low-level proton irradiation in inbred adult male Fischer 344 and Lewis rats performing an analog of the human Psychomotor Vigilance Test (PVT), commonly utilized as an object risk assessment tool to quantify fatigue and sustained attention in laboratory, clinical, and operational settings. These strains were used to determine if genetic differences in dopaminergic function would impact radiation-induced deficits in sustained attention. Exposure to head-only proton irradiation (25 or 100 cGy) disrupted rPVT performance in a strain-specific manner, with 25 cGy-exposed Fischer 344 rats displaying the most severe deficits in sustained attention (i.e., decreased accuracy and increased premature responding); Lewis rats did not display behavioral deficits following radiation. Fischer 344 rats displayed greater tyrosine hydroxylase and dopamine transporter levels in the frontal cortex compared to the Lewis rats, even though radiation exposure increased both of these proteins in the Lewis rats only. Tyrosine hydroxylase was decreased in the parietal cortex of both rat strains following radiation exposure, regardless of proton dose. Strain-specific cytokine changes were also found in the frontal cortex, with the Lewis rats displaying increased levels of putative neurotrophic cytokines (e.g., CNTF). These data support the hypothesis that basal dopaminergic function impacts the severity of radiation-induced deficits in sustained attention. This study derives results from the Rodent Psychomotor Vigilance Test (rPVT) assay. Results from the Western Blot assays can be found in OSD-896 (frontal cortex) and OSD-897 (parietal cortex).",
+      "organism": "Rattus norvegicus",
+      "Data Source Type": "alsda",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "Operant Chamber Description     Training Phase     Testing Phase     Analysis Characteristics     <em>ALSDA</em>",
+       "Laboratory animal care was according to Public <em>Health</em> Service (PHS) Policy on the Humane Care and Use",
+       "recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of <em>Health</em>",
+       "with a reusable template, which was created through feedback provided by subject matter experts in the <em>ALSDA</em>",
+       "<em>alsda</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE85237",
+     "_score": 8.111975,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Kevin",
+       "Middle Initials": "G",
+       "Last Name": "Becker"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL10094"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Wendy,B,Iser Mark,P,Mattson Evandro,F,Fang Kevin,G,Becker Tyler,B,Waltz Henok,,Kassahun Bradley,N,Wollman Krisztina,,Marosi Hilde,,Nilsen D,M,Eckley Elin,,Lehrmann Qiping,,Lu Elayne,M,Fivenson Mark,A,Wilson Morten,,Scheibye-Knudsen Yongqing,,Zhang Marya,,Morevati Ilya,G,Goldberg Vilhelm,A,Bohr Jesse,S,Kerr",
+      "Study Assay Technology Platform": "GPL10094",
+      "Authoritative Source URL": "GSE85237",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1503324000,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Caenorhabditis elegans"
+      ],
+      "Accession": "GSE85237",
+      "Study Assay Technology Type": "",
+      "Study Title": "Tomatidine enhances lifespan and healthspan in C. elegans through mitophagy induction via the SKN-1/Nrf2 pathway.",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Aging is a major international concern and brings with it formidable socioeconomical and healthcare challenges. An attainable approach to improve general health in humans is using small molecules. Tomatidine, a natural compound abundant in unripe tomatoes, inhibits aging-related skeletal muscle atrophy in mice. Here we show that tomatidine extends lifespan and healthspan in the aging animal model C. elegans, which shares many major longevity pathways with those of mammals. Tomatidine improves behaviors related to healthspan, including increased pharyngeal pumping and swimming movement, and also reduces deterioration of muscle cells in worms. Microarray, imaging, and behavioral analysis reveal that tomatidine maintains mitochondrial homeostasis through mitochondrial biogenesis and PINK-1/DCT-1-dependent mitophagy. Mechanistically, tomatidine induces mitochondrial hormesis by mildly inducing ROS production, which in turn activates the cellular antioxidant response SKN-1/Nrf2 pathway, followed by increased mitophagy in worms, primary rat neurons, and human cells. Our data suggest that tomatidine may delay some physiological aspects of aging, and points to new approaches for pharmacological interventions towards diseases of aging.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE85237"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "An attainable approach to improve general <em>health</em> in humans is using small molecules.",
+       "Microarray, imaging, and <em>behavioral</em> analysis reveal that tomatidine maintains mitochondrial homeostasis"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE88874",
+     "_score": 7.8179107,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Sarah",
+       "Middle Initials": "Megan",
+       "Last Name": "Clinton"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL19519"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Chelsea,R,McCoy Joshua,L,Cohen Sarah,M,Clinton Matthew,E,Glover",
+      "Study Assay Technology Platform": "GPL19519",
+      "Authoritative Source URL": "GSE88874",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1476874800,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Rattus norvegicus"
+      ],
+      "Accession": "GSE88874",
+      "Study Assay Technology Type": "",
+      "Study Title": "Maternal Style Selectively Shapes Amygdalar Development and Social Behavior in Rats Genetically Prone to High Anxiety",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "The early-life environment critically influences neurodevelopment and later psychological health. To elucidate neural and environmental elements that shape emotional behavior, we developed a rat model of individual differences in temperament and environmental reactivity. We selectively bred rats for high versus low behavioral response to novelty and found that high-reactive (bred high-responder, bHR) rats displayed greater risk-taking, impulsivity and aggression relative to low-reactive (bred low-responder, bLR) rats, which showed high levels of anxiety/depression-like behavior and certain stress vulnerability. The bHR/bLR traits are heritable, but prior work revealed bHR/bLR maternal style differences, with bLR dams showing more maternal attention than bHRs. The present study implemented a cross-fostering paradigm to examine the contribution of maternal behavior to the brain development and emotional behavior of bLR offspring. bLR offspring were reared by biological bLR mothers or fostered to a bLR or bHR mother and then evaluated to determine the effects on the developmental gene expression in the hippocampus and amygdala. Genome-wide expression profiling showed that cross-fostering bLR rats to bHR mothers shifted developmental gene expression in the amygdala (but not hippocampus). All samples were generated from Sprague-Dawley male rats selectively bred for high novelty response (HRs), low novelty response (LRs) or LRs that were crossfostered to either a LR dame or HR dame.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE88874"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "The early-life environment critically influences neurodevelopment and later psychological <em>health</em>.",
+       "We selectively bred rats for high versus low <em>behavioral</em> response to novelty and found that high-reactive"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE52319",
+     "_score": 7.7332854,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Steve",
+       "Middle Initials": "",
+       "Last Name": "Cole"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL10904"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Steve,,Cole",
+      "Study Assay Technology Platform": "GPL10904",
+      "Authoritative Source URL": "GSE52319",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1427540400,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE52319",
+      "Study Assay Technology Type": "",
+      "Study Title": "Leukocyte gene expression variation as a function of chronic caregiving stress",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "This study explored how chronic stress influences the activity of signaling pathways that regulate inflammation in the human monocyte transcriptome. The sample consisted of 33 adults caring for a family member with glioblastoma, a terminal brain cancer, and 47 control subjects whose lives were free of major stressors. The subjects were assessed on four occasions across an eight-month period. Relative to controls, caregivers\u2019 monocytes showed increased expression of genes bearing response elements for nuclear-factor kappa B, a key pro-inflammatory transcription factor in monocytes. Simultaneously, caregivers showed reduced expression of genes with response elements for the glucocorticoid receptor, a transcription factor that conveys anti-inflammatory signals to monocytes. These transcriptional disparities were not attributable to demographic or behavioral confounds. They also were not attributable to differences in diurnal cortisol output, or the abundance of glucocorticoid receptor expressed by monocytes. In ex vivo studies of monocytes stimulated with the bacterial product lipopolysaccharide, caregivers showed increased production of the pro-inflammatory cytokine interleukin-6, and were less sensitive to cortisol-mediated inhibition of this response. These findings suggest a scenario wherein chronic stressors engender functional changes that hamper monocytes\u2019 capacity to transduce cortisol\u2019s anti-inflammatory signals. These changes occur in parallel with, and perhaps enable, greater inflammatory signaling via nuclear-factor kappa B. The resulting inflammatory milieu could serve as a pathogenic mechanism through which chronic stressors like caregiving accentuate vulnerability to later health problems. series type: Risk prediction",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE52319"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "These transcriptional disparities were not attributable to demographic or <em>behavioral</em> confounds.",
+       "pathogenic mechanism through which chronic stressors like caregiving accentuate vulnerability to later <em>health</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE50873",
+     "_score": 7.3245597,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Kevin",
+       "Middle Initials": "G",
+       "Last Name": "Becker"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL6885"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Kevin,G,Becker Tali,,Kobilo Yongqing,,Zhang Henriette,,van Praag Davide,,Guerrieri Sarah,,Collica",
+      "Study Assay Technology Platform": "GPL6885",
+      "Authoritative Source URL": "GSE50873",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1389960000,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE50873",
+      "Study Assay Technology Type": "",
+      "Study Title": "AMPK agonist AICAR improves cognition and motor coordination in young and aged mice",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Key words: Skeletal Muscle, Brain, Exercise, AMPK, Learning and Memory, Morris water maze Normal aging can result in a decline of memory and muscle function.  Exercise may prevent or delay these changes. However, aging associated frailty may preclude physical activity. AMP-activated protein kinase (AMPK) is a transcriptional regulator important for muscle physiology. In the present study we investigated effects of AMPK agonist 5-aminoimidazole-4-carboxamide riboside (AICAR) on memory and motor function in young (2-month-old), aged (23-month-old) C57Bl/6 mice, and transgenic mice with muscle-specific mutated AMPK alpha-subunit (AMPK-DN). Mice were injected with AICAR (500 mg/kg) for 3 to 14 days and tested in the Morris water maze, rotarod and open field.  Improved water maze performance and motor function was observed, albeit at longer duration of administration, in aged (14 days AICAR) than young (3 days AICAR) mice. In the AMPKDN mice, the compound did not enhance behavior, providing support for a muscle mediated mechanism. In addition, microarray analysis of muscle and hippocampal tissue derived from aged mice treated with AICAR revealed changes in gene expression in both tissues, which correlated with behavioral effects in a dose-dependent manner. Pronounced up-regulation of mitochondrial genes in muscle was observed. In the hippocampus genes relevant to neuronal development and plasticity were enriched. Altogether, endurance related factors may mediate both muscle and brain health in aging, and could play a role in new therapeutic interventions.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE50873"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "mice treated with AICAR revealed changes in gene expression in both tissues, which correlated with <em>behavioral</em>",
+       "Altogether, endurance related factors may mediate both muscle and brain <em>health</em> in aging, and could play"
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

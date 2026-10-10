@@ -1,0 +1,2731 @@
+{
+ "source_url": "https://ntrs.nasa.gov/api/citations/search?q=vision+spaceflight+SANS",
+ "fetched_at": "2026-10-03T18:48:22+00:00",
+ "data": {
+  "stats": {
+   "took": 65,
+   "total": 10,
+   "estimate": false,
+   "maxScore": 203.84431
+  },
+  "results": [
+   {
+    "_meta": {
+     "score": 203.84431
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20220000516,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "4c398e0813574a158268394d9c0954e0",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20220000516,
+     "ear": "NO",
+     "id": "2501b2c324b24e668949b5ccacd0bd89",
+     "itar": "NO"
+    },
+    "distributionDate": "2022-03-10T06:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "609524.07.02.01.01",
+      "submissionId": 20220000516,
+      "id": "011ec730beeb4a7da2feadd470545603",
+      "type": "WBS"
+     }
+    ],
+    "title": "Spaceflight Associated Neuro-ocular Syndrome (SANS): Clinical Update",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2022-01-25T18:00:19.0425770+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 0,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "TJ Brunstetter"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "d3675455a42f4e0daceb9d52234c1267",
+      "userType": "CIVIL",
+      "userId": "315cb06caf6d408eaed3e5ff8e73094b"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "SS Mason"
+       },
+       "organization": {
+        "name": "Aegis Aerospace, Inc.",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "cff1599852b242b19f9a0d8f61026166",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "6d265d11f35e46aa8eaadf4d70d03680"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 2,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "E Miller"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "b51f8513dc5345d2a7ddc2d09ac14d33",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 3,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "J Wells"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "02b864ed4f1b41e1a484acf1f767415e",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "590b8a400def4e43beca3f1e9f7a60a6"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 4,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "J Gensler"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "18a52e0615534081a99f522130c61ecb",
+      "userType": "CIVIL",
+      "userId": "6f480452a2c24cada91bf70a454ff735"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 5,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "E Talburt"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "370f8180bb9544b5a14a85e661b0aca1",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "ded330a22e454d9da9cba1ca6e56ee96"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 6,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "W Misek"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "9b76d790367f49de98a84b074aa7ebca",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "7b6cd4e74dbe4b9b96b6c54c092364c0"
+     },
+     {
+      "sequence": 7,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "name": "CR Gibson"
+       },
+       "organization": {
+        "name": "Coastal Eye Associates"
+       }
+      },
+      "id": "9fd9836cb676474bb9313704536c3530",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 8,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "name": "A Mathin"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "2143646f92464797a74a81259983d677",
+      "userType": "OTHER",
+      "userId": "f078d0274e934293b8f9fa86710e84dd"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 9,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "D Marburgh"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "5be0066a04234c96bbb2128737628c6c",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "9e222ff3bf9e43db8acb043ac5ee3a48"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 10,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "L Gibson"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "81d9c6ffae2046ebb8b2c088ff632b47",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "8a42633bb2ff4ba194528c2fd3c6e120"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 11,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "M Van Baalen"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "ea02e5d920f24636b3ec733b8451b4e2",
+      "userType": "CIVIL",
+      "userId": "df61280afa6f43e8a41cb165ceb47c34"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 12,
+      "submissionId": 20220000516,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "W.J. Tarver"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "7df85f6d126b48d88c229a9c8aa12d84",
+      "userType": "CIVIL",
+      "userId": "3dee179195b949bfaf4ec433cd7b596e"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20220000516,
+    "created": "2022-01-25T17:12:22.8983060+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "Spaceflight Associated Neuro-ocular Syndrome (SANS) is a condition unique to long-duration spaceflight, with an unclear pathogenesis and pathophysiology, and no perfect terrestrial analog. Approximately 69% of long duration astronauts present with the earliest indications of SANS, which is defined as development of one or more of the following new signs in at least one eye during or immediately after spaceflight: 1) optic disc edema (ODE; represented by an increase of \u2265 20 microns in peripapillary total retinal thickness [\u0394TRT]); 2) chorioretinal folds; 3) globe flattening; and 4) excessive shift in refractive error (\u2265 +0.75D). Each of these signs presents potential risk to a crewmember\u2019s vision and mission effectiveness, with ODE posing the highest risk overall. It is not yet known what severity and/or duration of signs represents the \u201cpathological\u201d threshold of SANS, or how this threshold will eventually influence the SANS case definition. Brain anatomical changes also occur during long-duration spaceflight and are being monitored in the astronaut population; however, these changes have not yet been associated with functional decrements or with SANS. An update will be provided on the latest SANS clinical analyses, diagnostic technologies, and program initiatives. ",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20220000516,
+     "id": "3c467b020f924f1db3e6487d8d0acc53"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20220000516,
+      "endDate": "2022-02-10T06:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "The Schisler Lab"
+         }
+        },
+        "meetingId": "5c6711a14f804506af304ac5d45e3965",
+        "id": "af0426ef0dd84612b40bb87238f6599d"
+       }
+      ],
+      "name": "Human Research Program Investigators Workshop ",
+      "location": "Online",
+      "id": "5c6711a14f804506af304ac5d45e3965",
+      "url": "https://research.web.unc.edu/2022/01/19/2022-human-research-program-investigators-workshop/",
+      "startDate": "2022-02-07T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "name": "Approved 20210023078 Abstract- IWS 2022 SANS Clinical Update - Abstract - 18Oct21 - FINAL for Export Control.docx",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20220000516/downloads/Approved%2020210023078%20Abstract-%20IWS%202022%20SANS%20Clinical%20Update%20-%20Abstract%20-%2018Oct21%20-%20FINAL%20for%20Export%20Control.docx",
+       "pdf": "/api/citations/20220000516/downloads/Approved%2020210023078%20Abstract-%20IWS%202022%20SANS%20Clinical%20Update%20-%20Abstract%20-%2018Oct21%20-%20FINAL%20for%20Export%20Control.docx.pdf",
+       "fulltext": "/api/citations/20220000516/downloads/Approved%2020210023078%20Abstract-%20IWS%202022%20SANS%20Clinical%20Update%20-%20Abstract%20-%2018Oct21%20-%20FINAL%20for%20Export%20Control.docx.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 199.8699
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20220014606,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "7074a3982f784961b75711d4ca847acf",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20220014606,
+     "ear": "NO",
+     "id": "4b9b89b9aa084509b99de3c67c066516",
+     "itar": "NO"
+    },
+    "distributionDate": "2023-02-10T06:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "609524.07.02.01.01",
+      "submissionId": 20220014606,
+      "id": "e781c133cc364b5ea2eb0dd4f19ef63c",
+      "type": "WBS"
+     },
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20220014606,
+      "id": "c1eb42993d854ab0b86b530e63584d7b",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "SPACEFLIGHT ASSOCIATED NEURO-OCULAR SYNDROME (SANS): 2023 CLINICAL UPDATE ",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2022-09-27T15:01:38.9157610+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 0,
+      "submissionId": 20220014606,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "T J Brunstetter"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "2a54ea700e24478b9897db13a8cc0871",
+      "userType": "CIVIL",
+      "userId": "315cb06caf6d408eaed3e5ff8e73094b"
+     },
+     {
+      "organizationId": "68c7ff195be14c9a9987fd9b107196e3",
+      "sequence": 1,
+      "submissionId": 20220014606,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "S S Mason"
+       },
+       "organization": {
+        "name": "Aegis Aerospace",
+        "location": "Houston, TX"
+       }
+      },
+      "id": "d485fa79133c4a2da9d7716408797fc0",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "6d265d11f35e46aa8eaadf4d70d03680"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 2,
+      "submissionId": 20220014606,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "W F Taiym"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "09f08273f93f435d85a8a7afe3a076d6",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "e4f1fe1682804fe9bf459384fabb5bc5"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 3,
+      "submissionId": 20220014606,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "C R Gibson"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "ba5faba707f84cd0be2bf459e615a56e",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "ad10b83134c147768d6e3c7fba02b303"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 4,
+      "submissionId": 20220014606,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "M Van Baalen"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "9f645ad89b774722bafdfb3522463005",
+      "userType": "CIVIL",
+      "userId": "df61280afa6f43e8a41cb165ceb47c34"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 5,
+      "submissionId": 20220014606,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "W J Tarver"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "36ebd36d8d9d404195b9b340343f6c8a",
+      "userType": "CIVIL",
+      "userId": "3dee179195b949bfaf4ec433cd7b596e"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "PROFESSIONAL_REVIEW",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20220014606,
+    "created": "2022-09-27T14:52:33.1861830+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "INTRODUCTION\nSpaceflight Associated Neuro-ocular Syndrome (SANS) is a condition unique to long-duration spaceflight, with an unclear pathogenesis and pathophysiology, and no perfect terrestrial analog. Approximately 66% of long duration spaceflight (LDSF) astronauts present with the earliest indication of SANS, which is defined as development of any\nof the following signs in at least one eye during or immediately following spaceflight: 1) optic disc edema (ODE; represented by an increase of \u2265 20 microns in peripapillary total retinal thickness [\u0394TRT]); 2) chorioretinal folds; 3) globe flattening; and 4) excessive shift in refractive error (\u2265 +0.75D). Each of these signs presents potential risk to a\ncrewmember\u2019s vision and mission effectiveness, with ODE posing the highest risk overall. It is not yet known what severity and/or duration of these signs might lead to acute or permanent impacts to ocular anatomy or visual performance. Brain anatomical changes also occur during long-duration spaceflight and are being monitored in the\nastronaut population; however, these changes have not yet been associated with functional decrements or with SANS. An update will be provided on the latest SANS clinical analyses, diagnostics, and program initiatives.\nMETHODS\nData were obtained from clinical records and SANS subject matter experts (SMEs) to compile a SANS clinical update. Areas of interest include: 1) prevalence of SANS signs, 2) defining clinical thresholds for SANS, and 3) an overview of current and planned SANS clinical efforts.\nDISCUSSION\nSANS Sign Prevalence: Analysis at the time of this abstract submission indicates that the approximate prevalence of primary SANS findings in USOS LDSF crewmembers is: 64% for ODE (\u2265 20-micron \u0394TRT), 15% for chorioretinal folds, 26% for globe flattening, and 14% for hyperopic shifts in refractive error (\u2265 +0.75D).\nClinical Thresholds:\n\uf0b7 The Earliest Indication of SANS was presented publicly for the first time at the 2020 NASA Human Research Program Investigators\u2019 Workshop. See definition in Introduction section (above).\n\uf0b7 Clinically Concerning SANS \u2013 Development of any of the following signs during or immediately following spaceflight: 1) ODE (\u2265 55-micron \u0394TRT* and/or Fris\u00e8n grade \u22651*), 2) sharp chorioretinal folds in the vicinity of the macula, or 3) moderate globe flattening.\n\uf0b7 Pathological SANS with an Acute Functional Impact \u2013 Development of any of the following signs/symptoms during or immediately following spaceflight: 1) visual field loss (e.g., enlarged blindspot), 2) distorted centralvision, or 3) shift in refractive error beyond power of available correction (e.g., \u201cspace anticipation glasses\u201d).\n\uf0b7 Pathological SANS affecting Long-Term Health \u2013 Development of any of the following signs/symptoms during or following spaceflight: 1) permanent visual field loss, 2) reduced retinal nerve fiber layer (RNFL) thickness, 3) permanently distorted central vision, 4) atrophy of retinal pigment epithelium (RPE) or photoreceptors, or 5) choroidal neovascularization.\nCurrent & Planned Clinical Efforts (accurate at time of abstract submission): All SANS diagnostic hardware are performing nominally onboard the International Space Station: vision screening, fundoscope, optical coherence tomography (OCT) device, ultrasound, and tonometer. The Goggle-Based Visual Field (GBVF) device is nearing\ncompletion of its clinical validation study at Ohio State University and is planned for parabolic flight testing in fiscal year 2023 (FY23); pending positive results, this sequence may pave the way towards an ISS technology demonstration in FY24.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20220014606,
+     "id": "09ebe513fcfb477081c31fe63f2d8041"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20220014606,
+      "endDate": "2023-02-09T06:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington D.C., District of Columbia, United States"
+         }
+        },
+        "meetingId": "010f04358b3b4e3bb12d8bcb4fd5c2ac",
+        "id": "e393773b25174935b73e16334843f7ff"
+       }
+      ],
+      "name": "2023 Human Research Program Investigators\u2019 Workshop",
+      "location": "Galveston, TX ",
+      "id": "010f04358b3b4e3bb12d8bcb4fd5c2ac",
+      "url": "",
+      "startDate": "2023-02-07T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "Brunstetter - IWS 2023 SANS Clinical Update - Abstract - 23Sep22.pdf",
+      "type": "ABSTRACT",
+      "links": {
+       "original": "/api/citations/20220014606/downloads/Brunstetter%20-%20IWS%202023%20SANS%20Clinical%20Update%20-%20Abstract%20-%2023Sep22.pdf",
+       "pdf": "/api/citations/20220014606/downloads/Brunstetter%20-%20IWS%202023%20SANS%20Clinical%20Update%20-%20Abstract%20-%2023Sep22.pdf",
+       "fulltext": "/api/citations/20220014606/downloads/Brunstetter%20-%20IWS%202023%20SANS%20Clinical%20Update%20-%20Abstract%20-%2023Sep22.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 192.06618
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "MAY_INCLUDE_COPYRIGHT_MATERIAL",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20220008786,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "d6a027c82a004bf0b99e64fc2dc739e2",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "Astronauts",
+     "Papilledema diagnosis",
+     "Papilledema etiology",
+     "Space Flight",
+     "Weightlessness adverse effects"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20220008786,
+     "ear": "NO",
+     "id": "9e6fd9de815b43d18c4134e97a39675d",
+     "itar": "NO"
+    },
+    "distributionDate": "2023-01-23T05:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "10449.2.04.01.05.0317",
+      "submissionId": 20220008786,
+      "id": "920b4091c0124f4b9c4d1224df4e5d25",
+      "type": "WBS"
+     }
+    ],
+    "title": "Spaceflight Associated Neuro-Ocular Syndrome (Sans): Proposed Pathogenesis, Terrestrial Analogs, and Emerging Countermeasures",
+    "stiType": "ACCEPTED_MANUSCRIPT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2022-11-26T17:21:40.8636890+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "e5d17ddc4e205398b2d6600f157dcd5a",
+      "sequence": 0,
+      "submissionId": 20220008786,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0003-4860-827X",
+        "name": "Joshua Ong"
+       },
+       "organization": {
+        "name": "University of Pittsburgh School of Medicine",
+        "location": "Pittsburgh, Pennsylvania, United States"
+       }
+      },
+      "id": "4884ae255d9348aea1ce8b0400e18b2e",
+      "userId": "a27e5ca6ace14fc8be666a47a80ccb73"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 1,
+      "submissionId": 20220008786,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0003-0370-9157",
+        "name": "William Tarver"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "da138b8b9d40480b8748f8f592f5d3d3",
+      "userType": "CIVIL",
+      "userId": "3dee179195b949bfaf4ec433cd7b596e"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 2,
+      "submissionId": 20220008786,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Tyson Brunstetter"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "4845f4d031844763b89f08e398c02d22",
+      "userType": "CIVIL",
+      "userId": "315cb06caf6d408eaed3e5ff8e73094b"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 3,
+      "submissionId": 20220008786,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Thomas H Mader"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "0671a86da2054593a6cc6903283615e4",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "f50ca6d51ebf4036a6569cbee7934444"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 4,
+      "submissionId": 20220008786,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "C Robert Gibson"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "4492a2d8e78549a48b22683d070f1112",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "ad10b83134c147768d6e3c7fba02b303"
+     },
+     {
+      "organizationId": "68c7ff195be14c9a9987fd9b107196e3",
+      "sequence": 5,
+      "submissionId": 20220008786,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Sara S Mason"
+       },
+       "organization": {
+        "name": "Aegis Aerospace",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "dc84e1f32c88464290db72363302f134",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "6d265d11f35e46aa8eaadf4d70d03680"
+     },
+     {
+      "organizationId": "d4df723a03345e4eaa926ad66e1e4769",
+      "sequence": 6,
+      "submissionId": 20220008786,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0002-2473-299X",
+        "name": "Andrew G Lee"
+       },
+       "organization": {
+        "name": "Houston Methodist",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "81ab8995b3a248b3be40d1788da6edb7",
+      "userId": "300a4aa2630f4bc2a4d0b369174b2347"
+     }
+    ],
+    "stiTypeDetails": "Accepted Manuscript (Version with final changes)",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20220008786,
+    "created": "2022-06-02T16:05:46.0204220+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Spaceflight Associated Neuro-ocular Syndrome (SANS) refers to a distinct constellation of ocular, neurological, and neuroimaging findings observed in astronauts during and following long duration spaceflight. These ocular findings, to include optic disc edema, posterior globe flattening, chorioretinal folds, and hyperopic shifts, were first described by NASA in 2011. SANS is a potential risk to astronaut health and will likely require mitigation prior to planetary travel with prolonged exposures to microgravity. While the exact pathogenesis of SANS is not completely understood, several hypotheses have been proposed to explain this neuro-ocular phenomenon. In this paper, we briefly discuss the current hypotheses and contributing factors underlying SANS pathophysiology as well as analogs utilized to study SANS on Earth. We also review emerging potential countermeasures for SANS including lower body negative pressure, nutritional supplementation, and translaminar pressure gradient modulation. Ongoing investigation within these fields will likely be instrumental in preparing and protecting astronaut vision for future spaceflight missions including deep space exploration.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20220008786,
+     "id": "596f6ec1309446bd94eab74732c4aa4c"
+    },
+    "publications": [
+     {
+      "volume": "107",
+      "submissionId": 20220008786,
+      "issn": "0007-1161",
+      "publisher": "BMJ Publishing Group",
+      "eissn": "1468-2079",
+      "id": "bd516a69d8cc4cffb77efff3424c1f42",
+      "publicationName": "British Journal of Ophthalmology",
+      "publicationDate": "2023-01-23T05:00:00.0000000+00:00",
+      "issuePublicationDate": "2023-06-22T04:00:00.0000000+00:00",
+      "doi": "10.1136/bjo-2022-322892"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "name": "BJO SANS Manuscript Final (1).docx",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20220008786/downloads/BJO%20SANS%20Manuscript%20Final%20(1).docx",
+       "pdf": "/api/citations/20220008786/downloads/BJO%20SANS%20Manuscript%20Final%20(1).docx.pdf",
+       "fulltext": "/api/citations/20220008786/downloads/BJO%20SANS%20Manuscript%20Final%20(1).docx.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 154.90234
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": true,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20220013572,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": true,
+     "id": "f429c41c82da490e9bec02c71850736d",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "Vision",
+     "Oculometric",
+     "Microgravity",
+     "SANS",
+     "Aerospace Medicine",
+     "Eye"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20220013572,
+     "ear": "NO",
+     "id": "7f6f40684909440ebb159ce017fac6d8",
+     "itar": "NO"
+    },
+    "distributionDate": "2022-09-23T04:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "80NSSC19M0186",
+      "submissionId": 20220013572,
+      "id": "d0640a88607f454f876cf0551f5488e4",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "An Oculometric Standard to Assess the Performance of the Ocular System for Long Duration Spaceflight",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2022-09-02T16:09:19.2853500+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 0,
+      "submissionId": 20220013572,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Kimia Seyedmadani"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "8955b10c15b0407aa0cdcedcfe638c51",
+      "userType": "CIVIL",
+      "userId": "4ef0395dc95a473b9fb9db2f06aae2af"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 1,
+      "submissionId": 20220013572,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Leland S. Stone"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "70c84c90505c4da58f42537adcbe8a08",
+      "userType": "CIVIL",
+      "userId": "19f406b3d4464b2580c78060ac2060c1"
+     },
+     {
+      "organizationId": "34720a61374b54898c191f922a06b6ed",
+      "sequence": 2,
+      "submissionId": 20220013572,
+      "meta": {
+       "author": {
+        "name": "Yasemin Akay"
+       },
+       "organization": {
+        "name": "University of Houston",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "4f2851581e2c4ed8adb81ef73f8b32c5",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "34720a61374b54898c191f922a06b6ed",
+      "sequence": 3,
+      "submissionId": 20220013572,
+      "meta": {
+       "author": {
+        "name": "Metin Akay"
+       },
+       "organization": {
+        "name": "University of Houston",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "5b6648ed65b64ee491bab555c0a20d8c",
+      "userType": "OTHER"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "PROFESSIONAL_REVIEW",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20220013572,
+    "created": "2022-09-02T16:01:12.4489830+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Changes in the human brain, due to spaceflight, have been a challenge to the space program since its inception; a challenge that is becoming more acute as extended International Space Station (ISS) missions become routine, a return to crewed lunar exploration is about to begin, and a multi-year crewed trip to Mars is being planned. Determining the extent to which neurophysiological adaptations may adversely impact performance in operational tasks, assessing the full-time course of these changes, and identifying/mitigating any potential long-term health consequences are crucial steps required to enable safe crew-autonomous, long-duration, deep-space missions. Vision is the predominant perceptual sense used to guide cognition and motor control in humans. Thus, it is critical for the success of any future, long-duration mission to understand how long-term exposure to microgravity and to other stressors of spaceflight and their interactions, impact visual function.  This is an especially challenging task given the small and disparate samples from which we have been and will be able to collect human performance data. NASA has recently been carefully tracking spaceflight-induced ophthalmic changes, driven in large part by the fluid shifts related to microgravity.  In particular, a recent study of Optical Coherence Tomography (OCT) postflight measures revealed that more than two-thirds of US crew members experience significant increases in retinal thickness after 6month or longer ISS missions. Space Associated Neuro-ocular Syndrome (SANS) also includes visual acuity decrements and other ocular structural changes that could adversely impact in-flight performance as missions become longer. However, the impact of spaceflight on the visual system is not limited to the retina. Recent comparisons of pre-and post-flight brain images have revealed structural changes throughout the brain that implicate visual, visuomotor, and visual-cognitive pathways, consistent with observed functional impacts (e.g., decreased speed/accuracy/timing of fine goal-oriented movements). Current limitations on inflight testing make it very difficult to determine when and under what conditions SANS and other disruptions of human neurological subsystems arise. Currently, one cannot anticipate the time course and extent of impairment and recovery. This study addresses this knowledge gap by creating an integrated framework of the relevant existing literature on visual and oculomotor function during spaceflight with an eye towards complementing current structural measures of visuomotor impairment with new oculometric standard measures. Using eye-movement based visual function assessment and diagnostics would provide a valuable enhancement of crew health and performance monitoring in support of deepspace exploration.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20220013572,
+     "id": "87aa927837a64c15b68e0108bd02d4e9"
+    },
+    "meetings": [
+     {
+      "country": "FR",
+      "submissionId": 20220013572,
+      "endDate": "2022-09-22T05:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "ab2f731624744ec49d4a31992566d6c2",
+        "meta": {
+         "organization": {
+          "name": "International Astronautical Federation (IAF)",
+          "location": "Paris, France"
+         }
+        },
+        "meetingId": "c0321595ef6d42b8bb410d6e9aa25de4",
+        "id": "b51ffb10f6e84ae0aeaf2a4b73af770f"
+       }
+      ],
+      "name": "International Astronautical Congress 2022",
+      "location": "Paris",
+      "id": "c0321595ef6d42b8bb410d6e9aa25de4",
+      "url": "https://www.iafastro.org/events/iac/iac-2022/sustainability-iac-2022-goes-green.html",
+      "startDate": "2022-09-18T05:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 150.9175
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20200002256,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "c04093fa72994b9eab632ad12f5f0129",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "Episcleral venous pressure",
+     "Weightlessness",
+     "Body position",
+     "Fluid shifts"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "eccnNumber": "",
+     "submissionId": 20200002256,
+     "ear": "NO",
+     "id": "459b384ab85040cda83f7de8d61b667a",
+     "itar": "NO"
+    },
+    "distributionDate": "2020-04-23T18:33:20.3700000+00:00",
+    "otherReportNumbers": [
+     "JSC-E-DAA-TN74321",
+     "E-ISSN: 1536-481X",
+     "Report Number: JSC-E-DAA-TN74321",
+     "ISSN: 1057-0829"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20200002256,
+      "id": "b780148abc474044b5f0b2ad4ba57bef",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Gravitational Influence on Intraocular Pressure: Implications for Spaceflight and Disease",
+    "stiType": "REPRINT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2020-04-06T15:17:14.0670000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20200002256,
+      "meta": {
+       "author": {
+        "name": "Huang, Alex S."
+       },
+       "organization": {
+        "name": "California Univ. (UCLA)",
+        "location": "Los Angeles, CA, United States"
+       }
+      },
+      "id": "32d3375e83954d0e816c8f00053b269c"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20200002256,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0003-3089-1740",
+        "name": "Stenger, Michael B."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "f703ae76125a4f80b71d02a8900fcba8"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20200002256,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0003-2527-5089",
+        "name": "Macias, Brandon R."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "4eda5b4750d24bbdb8170db1a364b37d"
+     }
+    ],
+    "stiTypeDetails": "Reprint (Version printed in journal)",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20200002256,
+    "sourceIdentifiers": [
+     {
+      "number": "doi:10.1097/IJG.0000000000001293",
+      "submissionId": 20200002256,
+      "id": "b8be454f319241a89c339af9547f9d5d",
+      "type": "DOI"
+     },
+     {
+      "submissionId": 20200002256,
+      "id": "fb4d291da5c44be39979a841f24f50b4",
+      "descriptor": "doi:10.1097/IJG.0000000000001293"
+     }
+    ],
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2020-04-06T15:17:14.0670000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Spaceflight-associated neuro-ocular syndrome (SANS) describes a series of morphologic and functional ocular changes in astronauts first reported by Mader and colleagues in 2011. SANS is currently clinically defined by the development of optic disc edema during prolonged exposure to the weightless (microgravity) environment, which currently occurs on International Space Station (ISS). However, as improvements in our understanding of the ocular changes emerge, the definition of SANS is expected to evolve. Other ocular SANS signs that arise during and after ISS missions include hyperopic shifts, globe flattening, choroidal/retinal folds, and cotton wool spots. Over the last 10 years, ~1 in 3 astronauts flying long-duration ISS missions have presented with \u2265 1 of these ocular findings. Commensurate with research that combines disparate specialties (vision biology and spaceflight medicine), lessons from SANS investigations may also yield insight into ground-based ocular disorders, such as glaucomatous optic neuropathy that may have the potential to lessen the burden of this irreversible cause of vision loss on Earth.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "publications": [
+     {
+      "volume": "28",
+      "submissionId": 20200002256,
+      "issue": "8",
+      "issn": "1057-0829",
+      "publisher": "Lippincott, Williams & Wilkins",
+      "eissn": "1536-481X",
+      "id": "5aad3e0bdb784b80a98752f0b9d29f58",
+      "publicationName": "Journal of Glaucoma",
+      "publicationDate": "2019-08-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20200002256.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20200002256/downloads/20200002256.pdf",
+       "pdf": "/api/citations/20200002256/downloads/20200002256.pdf",
+       "fulltext": "/api/citations/20200002256/downloads/20200002256.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 127.39015
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "MAY_INCLUDE_COPYRIGHT_MATERIAL",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20230000939,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "bffd2907984a40a0bffe40871f87a526",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Man/System Technology and Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20230000939,
+     "ear": "NO",
+     "id": "149d45f33e774154a5d0d443391d6fa5",
+     "itar": "NO"
+    },
+    "distributionDate": "2023-02-10T05:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20230000939,
+      "id": "bdc166116ee0493298f07602a7897dc1",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Mitigating Headward Fluid Shifts With Veno-Constrictive Thigh Cuffs During Spaceflight",
+    "stiType": "POSTER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2023-01-19T18:02:04.4395150+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "68c7ff195be14c9a9987fd9b107196e3",
+      "sequence": 0,
+      "submissionId": 20230000939,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Connor R. Ferguson"
+       },
+       "organization": {
+        "name": "Aegis Aerospace",
+        "location": "Houston, TX"
+       }
+      },
+      "id": "20cad1e03330429e907e275c23649813",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "9a778b28e34b452c967336be36e6f466"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 1,
+      "submissionId": 20230000939,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Steven S. Laurie"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "d95845237282464897c79a96986a3246",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "ca4553a6427e4ab88a459f0a276b1393"
+     },
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 2,
+      "submissionId": 20230000939,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Matthew J. Poczatek"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "4a627b32efb342598c2fa2b11fe98dc2",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "4a6229f549b9482b9d2a9339367bb6ca"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 3,
+      "submissionId": 20230000939,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Stuart M.C. Lee"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "a981e6f7b1ac4ce18e24179215cad887",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "d6b9f587815141cda8c238a116642532"
+     },
+     {
+      "organizationId": "164aece98d635d788eb429654ba4f6be",
+      "sequence": 4,
+      "submissionId": 20230000939,
+      "meta": {
+       "author": {
+        "name": "Christine W. Cole"
+       },
+       "organization": {
+        "name": "Clemson University",
+        "location": "Clemson, South Carolina, United States"
+       }
+      },
+      "id": "85b8951318c54665a914169245578480",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "164aece98d635d788eb429654ba4f6be",
+      "sequence": 5,
+      "submissionId": 20230000939,
+      "meta": {
+       "author": {
+        "name": "Jonn A. Foulk"
+       },
+       "organization": {
+        "name": "Clemson University",
+        "location": "Clemson, South Carolina, United States"
+       }
+      },
+      "id": "7bef7d0e07484808b60a38f26ae90ac1",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 6,
+      "submissionId": 20230000939,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Millennia H. Young"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "7b2e49c9906841049bbea2282a4f8fff",
+      "userType": "CIVIL",
+      "userId": "899a826bd0824f1fab846fbbf8d2591a"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 7,
+      "submissionId": 20230000939,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Brandon R. Macias"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "b0f51732d6874158b4c4096346af248b",
+      "userType": "CIVIL",
+      "userId": "ab70476f432348d98ea5209f9049459d"
+     }
+    ],
+    "stiTypeDetails": "Poster",
+    "technicalReviewType": "PROFESSIONAL_REVIEW",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20230000939,
+    "created": "2023-01-19T17:53:28.2649060+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Astronauts experience a chronic headward fluid shift in\nweightlessness as evidenced by increased cardiac output, \ndecreased leg volume, a redistribution of venous fluid, and\nvenous congestion in the upper body. Alterations in\ncerebrospinal fluid hydrodynamics and changes in cerebral\nvenous pressure secondary to the headward fluid shift may\ncontribute to ocular changes associated with spaceflight-associated neuro-ocular syndrome (SANS). Veno-constrictive\nthigh cuffs (VTC; Braslets) provided to Soyuz crewmembers\nalleviate symptoms of the headward fluid shift during the first\nweek of spaceflight and have been documented to reduce\ninternal jugular vein (IJV) distension during weightlessness.\nApplication of VTCs designed collaboratively by NASA\nJohnson Space Center Cardiovascular and Vision Laboratory\n(CVL) and Clemson Textile Laboratory at Clemson University\nto improve fit and comfort was documented to mitigate\nchanges in choroid thickness, intraocular pressure, and IJV\narea during posture-induced headward fluid shifts. \n\nVTC are demonstrated to reduce headward fluid shifts in both\nground-based and spaceflight studies, and thus, may be a\ncountermeasure against development of SANS. In addition,\nVTC are a simple mechanical countermeasure currently at a\nhigh technical readiness level (TRL) and are compact and\nlightweight, making them compatible with the spaceflight\noperations environment",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20230000939,
+     "id": "892bfe6b0c464eaf9f9025d57f23bd09"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20230000939,
+      "endDate": "2023-02-09T06:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington D.C., District of Columbia, United States"
+         }
+        },
+        "meetingId": "12653628a1f543d9a0bbd4c310031282",
+        "id": "3348c1ff353145c9a7cf09373538a05a"
+       }
+      ],
+      "name": "2023 Human Research Program (HRP) Investigators\u2019 Workshop (IWS)",
+      "location": "Galveston, TX",
+      "id": "12653628a1f543d9a0bbd4c310031282",
+      "url": "https://web.cvent.com/event/08d8f955-514e-4e10-b860-bd009811ec13/summary",
+      "startDate": "2023-02-07T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "CVL_IWS23_Ferguson_ThighCuff_Poster_DAA.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20230000939/downloads/CVL_IWS23_Ferguson_ThighCuff_Poster_DAA.pdf",
+       "pdf": "/api/citations/20230000939/downloads/CVL_IWS23_Ferguson_ThighCuff_Poster_DAA.pdf",
+       "fulltext": "/api/citations/20230000939/downloads/CVL_IWS23_Ferguson_ThighCuff_Poster_DAA.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 122.64722
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "MAY_INCLUDE_COPYRIGHT_MATERIAL",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20220016048,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "90cc75e42d6c42d19bca81dfe3d3f86a",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20220016048,
+     "ear": "NO",
+     "id": "0b2cf0090bb349b88e814e34123522fd",
+     "itar": "NO"
+    },
+    "distributionDate": "2023-07-31T05:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "10449.2.04.01.05.0317",
+      "submissionId": 20220016048,
+      "id": "08759cc69a654823b7bc87f7f1dd70e5",
+      "type": "WBS"
+     }
+    ],
+    "title": "Spaceflight Associated Neuro-Ocular Syndrome: A Brief for Astronaut Candidates",
+    "stiType": "POSTER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2022-10-25T12:37:46.2394450+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "0a19a3f91757519799cfc38008c92646",
+      "sequence": 0,
+      "submissionId": 20220016048,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Sara Stroble Mason"
+       },
+       "organization": {
+        "name": "Aegis Aerospace, Inc",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "ffe207297d3c4175ae8a5ab1f8ef8bf2",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "6d265d11f35e46aa8eaadf4d70d03680"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 1,
+      "submissionId": 20220016048,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Tyson Jeremy Brunstetter"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "563e93785c654cdfa717a6a0f4d9f223",
+      "userType": "CIVIL",
+      "userId": "315cb06caf6d408eaed3e5ff8e73094b"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20220016048,
+      "meta": {
+       "author": {
+        "name": "Shilpi Ganguly"
+       },
+       "organization": {
+        "name": "AEROSPACE MEDICINE RESIDENT/INTERNS/RESEARCH ROTATIONS"
+       }
+      },
+      "id": "0a664f0d35a948628b9c4701053e6e26",
+      "userType": "OTHER",
+      "userId": "3758da52ed604127b4a6f8f1f47a5f3b"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20220016048,
+      "meta": {
+       "author": {
+        "name": "Catherine Elise Cole"
+       },
+       "organization": {
+        "name": "AEROSPACE MEDICINE RESIDENT/INTERNS/RESEARCH ROTATIONS"
+       }
+      },
+      "id": "94199c01162a4794a8d39340f1fa9d19",
+      "userType": "OTHER",
+      "userId": "95426ab332c24baaada2725bcd197b1c"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20220016048,
+      "meta": {
+       "author": {
+        "name": "Scott Andrew Wallace"
+       },
+       "organization": {
+        "name": "AEROSPACE MEDICINE RESIDENT/INTERNS/RESEARCH ROTATIONS"
+       }
+      },
+      "id": "29b127c37e0149468ebdd30e480f3470",
+      "userType": "OTHER",
+      "userId": "cd3ec3188ca04e6690aef6dc077bb3a9"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 5,
+      "submissionId": 20220016048,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Charles Robert Gibson"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "9ce747bd37a64f15a05b7443c2635f91",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "ad10b83134c147768d6e3c7fba02b303"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 6,
+      "submissionId": 20220016048,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Mary G Van Baalen"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "266e13f4d8674a848e3a05b797a824c5",
+      "userType": "CIVIL",
+      "userId": "df61280afa6f43e8a41cb165ceb47c34"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 7,
+      "submissionId": 20220016048,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "William J Tarver"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "f2521a968ace4fbf84cce35aa455457d",
+      "userType": "CIVIL",
+      "userId": "3dee179195b949bfaf4ec433cd7b596e"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 8,
+      "submissionId": 20220016048,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Ann Hanyi Tsung"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "e87c3932ead2451eb796802f16a940fc",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "5f2e42fdd5f94210aacd21eb4e8ba5dd"
+     }
+    ],
+    "stiTypeDetails": "Poster",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20220016048,
+    "created": "2022-10-25T12:33:24.9317520+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "INTRODUCTION: Spaceflight Associated Neuro-ocular Syndrome (SANS) was first described in 2011 as a clinical process involving degradation of visual acuity and structural changes of the eye when exposed to microgravity. This syndrome poses a risk to astronaut vision, safety, and mission performance, especially during extended-duration missions. The modern astronaut cohort is a diverse group of men and women including scientists, engineers, teachers, pilots, business professionals, and artists. Given their diverse backgrounds, it is imperative all crews are educated on SANS risks and potential countermeasures. This education must be comprehensive and easily understood, regardless of academic background or specific expertise.\nTOPIC: A PowerPoint was created to serve as a presentation and stand-alone educational aid for all astronaut candidates (ASCANS). This medium was chosen as it can be updated dynamically as new information emerges. The brief was split into sections to facilitate organized delivery of complex content in easy-to-understand components. Sections included descriptive statistics, signs and symptoms, outcomes, myths and ongoing research, countermeasures, ongoing surveillance, and unknown and future directions. More research is necessary in order to understand this syndrome, and without continued ASCAN participation in research, acquisition of data will not be possible. These efforts will become increasingly critical with deep space and exploration missions.\nAPPLICATION: We recommend regular use of this brief for all ASCANS, and potentially veteran crewmembers, given the high risks and potentially poor outcomes associated with SANS. For ASCANS, recommendations include that this brief be provided at the start of their training, with a bi-annual refresher course for all astronauts. This ensures they are current on SANS information, given the dynamic nature of this syndrome. Additionally, this brief will be made available to all as a self-study aid, utilized as a refresher immediately prior to launch. It is anticipated that this brief will promote the health, safety, and wellbeing of professional and private crews alike, during and after long-duration spaceflight.\n RESOURCES:\nBrunstetter, T., Tarver, B., & Tsung, A. (2022, October). Spaceflight Associated Neuro-ocular Syndrome (Sans) and its Risk to Nasa Astronauts. JSC Aerospace Medicine Clerkship. Houston, TX; Lyndon B. Johnson Space Center.\nLaurie, S. S., Macias, B. R., Pardon, L. P., Brunstetter, T., Tarver, W. J., Gibson, C. R., Greenwald, S. H., Jasien, K. V., Mason, S., & Tsung, A. (2022). (rep.). Evidence Report: Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS). Houston, TX: National Aeronautics and Space Administration.\nMader, T. H., Gibson, C. R., Pass, A. F., Kramer, L. A., Lee, A. G., Fogarty, J., ... & Polk, J. D. (2011). Optic disc edema, globe flattening, choroidal folds, and hyperopic shifts observed in astronauts after long-duration space flight. Ophthalmology, 118(10), 2058-2069.\nLEARNING OBJECTIVES:\n\u2022\tThe audience will be able to describe current Spaceflight Associated Neuro-ocular Syndrome (SANS) findings, significance, and countermeasures.\n\u2022\tThe audience will understand the importance of astronauts\u2019 familiarity with SANS prior to flying and the large risks associated with this syndrome.\nCME QUESTIONS (3 QUESTIONS, MULTIPLE CHOICE A-D):\n1.\tWhat is the approximate prevalence rate of SANS in astronauts?\nA.\t22%\nB.\t50%\nC.\t66%\nD.\t80%\nAnswer: C.\n2.\tWhich of the ocular findings are NOT associated with SANS?\nA.\tOptic disc edema\nB.\tRetinal detachment\nC.\tGlobe flattening\nD.\tChorioretinal folds\nAnswer: B.\n3.\tWhich of the following diagnostic technologies are NOT available in-flight?\nA.\tOcular ultrasound\nB.\tRetinal photography\nC.\tMRI Orbit\nD.\tOptical Coherence Tomography (OCT)\nAnswer: C.\n\n",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20220016048,
+     "id": "d8f8ceb7405940e3b62e3e71f7519598"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20220016048,
+      "endDate": "2023-05-25T05:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "d0b811ba64ca502c8ec8636b127d210e",
+        "meta": {
+         "organization": {
+          "name": "Aerospace Medical Association",
+          "location": "Alexandria, Virginia, United States"
+         }
+        },
+        "meetingId": "e9d94f0e8ab041c49163a400986ef8b4",
+        "id": "395707b012ed46f8989883a6a8fc707b"
+       }
+      ],
+      "name": "Aerospace Medical Association Annual Meeting",
+      "location": "New Orleans, LA",
+      "id": "e9d94f0e8ab041c49163a400986ef8b4",
+      "url": "http://www.asma.org/scientific-meetings/asma-annual-scientific-meeting/call-for-papers",
+      "startDate": "2023-05-21T05:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 120.826065
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20180003373,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "f6169359936b4160b42e6bf6da8adc41",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Optics"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20180003373,
+     "ear": "NO",
+     "id": "8f1a512c3b974cc3ac02eb605a5b877e",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-E-DAA-TN55756",
+     "Report Number: JSC-E-DAA-TN55756"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20180003373,
+      "id": "22af1fdcbe9d46ab8847768ccf6939e5",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Submacular Choroid Thickness Increases During Long-Duration Spaceflight",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2018-06-04T14:52:20.0800000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20180003373,
+      "meta": {
+       "author": {
+        "name": "Laurie, Steven S."
+       },
+       "organization": {
+        "name": "KBRWyle Aerospace Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "81aea85c3b784d7fbaac14b52057ef0c"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20180003373,
+      "meta": {
+       "author": {
+        "name": "Macias, Brandon R."
+       },
+       "organization": {
+        "name": "KBRWyle Aerospace Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "f681de6da34e43c5b34a1cbace12ef26"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20180003373,
+      "meta": {
+       "author": {
+        "name": "Ferguson, Connor R."
+       },
+       "organization": {
+        "name": "MEI Technologies, Inc.",
+        "location": "Greenbelt, MD, United States"
+       }
+      },
+      "id": "e9c812af46bd4ae0a8eaedadb36535ad"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20180003373,
+      "meta": {
+       "author": {
+        "name": "Dunn, Jocelyn T."
+       },
+       "organization": {
+        "name": "GeoControl Systems, Inc.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "2609a83dc4274a979d6b322e7db9955c"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20180003373,
+      "meta": {
+       "author": {
+        "name": "Ebert, Doug"
+       },
+       "organization": {
+        "name": "KBRWyle Aerospace Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "ae0b66f16f404849ac8b22defd722255"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20180003373,
+      "meta": {
+       "author": {
+        "name": "Liu, John H.K."
+       },
+       "organization": {
+        "name": "California Univ., San Diego",
+        "location": "La Jolla, CA, United States"
+       }
+      },
+      "id": "048c1867d5c74373a9e2ba088660ceea"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20180003373,
+      "meta": {
+       "author": {
+        "name": "Lee, Stuart M. C."
+       },
+       "organization": {
+        "name": "KBRWyle Aerospace Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "8f90fc3fbe0b4dd8a4bb9527a74731df"
+     },
+     {
+      "sequence": 7,
+      "submissionId": 20180003373,
+      "meta": {
+       "author": {
+        "name": "Dulchavsky, Scott A."
+       },
+       "organization": {
+        "name": "Henry Ford Hospital",
+        "location": "Detroit, MI, United States"
+       }
+      },
+      "id": "c343580533db4c1a8ad026e90d365015"
+     },
+     {
+      "sequence": 8,
+      "submissionId": 20180003373,
+      "meta": {
+       "author": {
+        "name": "Hargens, Alan R."
+       },
+       "organization": {
+        "name": "California Univ., San Diego",
+        "location": "La Jolla, CA, United States"
+       }
+      },
+      "id": "d14bced6474446b68957b30fdec559fa"
+     },
+     {
+      "sequence": 9,
+      "submissionId": 20180003373,
+      "meta": {
+       "author": {
+        "name": "Stenger, Michael B."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "7fe49272e05c490aafb224a827ce1ef6"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20180003373,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2018-06-04T14:52:20.0800000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "The Spaceflight Associated Neuro-ocular Syndrome (SANS) is characterized by the development of optic disc edema, choroidal folds, cotton-wool spots, globe flattening, and/or refractive error changes greater than or equal to 0.75D during long-duration spaceflight to the International Space Station (ISS). It is hypothesized that these findings result from the headward fluid shift that occurs due to weightlessness. We can induce a headward fluid shift on Earth using positional changes and on ISS due to weightlessness. Lower-body negative pressure (LBNP) is used to reverse the headward fluid shift by drawing fluid into the lower body and can be used on Earth and on ISS.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20180003373,
+      "name": "Association for Research in Vision and Ophthalmology",
+      "location": "Rockville, MD, United States",
+      "id": "9ee5e32515794903bf1a3ea89ebdcc27"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20180003373,
+      "endDate": "2018-05-03T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "Association for Research in Vision and Ophthalmology",
+          "location": "Rockville, MD, United States"
+         }
+        },
+        "meetingId": "bff879534c724656acf2eae74c6093f6",
+        "id": "21dc75c7d4c64f6b9174e61be52b8e96"
+       }
+      ],
+      "name": "Association for Research in Vision and Ophthalmology Annual Conference",
+      "location": "Honolulu, HI",
+      "id": "bff879534c724656acf2eae74c6093f6",
+      "startDate": "2018-04-29T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20180003373,
+      "id": "192a08bf86c24d44a05cc44ae7ca7d3d",
+      "publicationDate": "2018-04-28T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20180003373.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20180003373/downloads/20180003373.pdf",
+       "pdf": "/api/citations/20180003373/downloads/20180003373.pdf",
+       "fulltext": "/api/citations/20180003373/downloads/20180003373.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 80.93886
+    },
+    "copyright": {
+     "disclosedInvention": false,
+     "submissionId": 20250001837,
+     "containsThirdPartyMaterial": false,
+     "containsIndication": false,
+     "belongsToPublisher": false,
+     "id": "98bcd5147a6f4c80a47e62913107b339",
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "keywords": [
+     "eye movements",
+     "human health and performance metrics",
+     "vision"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20250001837,
+     "ear": "NO",
+     "id": "74d40ace88af4fa1b6cb8db597c4b428",
+     "itar": "NO"
+    },
+    "distributionDate": "2025-02-18T08:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "80NSSC19M0186",
+      "submissionId": 20250001837,
+      "id": "4fa7cf8093d04c249b7cb32f45a37af6",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "295670.01.23.21.03",
+      "submissionId": 20250001837,
+      "id": "c862ecc9791b4d178c512f825dd0818e",
+      "type": "WBS"
+     }
+    ],
+    "title": "Oculometric Test Reveals Retinal Shaping of Human Visual Motion Processing.",
+    "stiType": "POSTER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2025-02-18T21:57:23.1477120+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 0,
+      "submissionId": 20250001837,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "K Seyedmadani"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, United States"
+       }
+      },
+      "id": "ee5124e994c24e40b55a066243d87b9a",
+      "userType": "CIVIL",
+      "userId": "4ef0395dc95a473b9fb9db2f06aae2af"
+     },
+     {
+      "organizationId": "34720a61374b54898c191f922a06b6ed",
+      "sequence": 1,
+      "submissionId": 20250001837,
+      "meta": {
+       "author": {
+        "name": "Y M Akay"
+       },
+       "organization": {
+        "name": "University of Houston",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "b1f52aa2927e49c8bdaefda6e4289af9",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "34720a61374b54898c191f922a06b6ed",
+      "sequence": 2,
+      "submissionId": 20250001837,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0002-2988-4669",
+        "name": "M Akay"
+       },
+       "organization": {
+        "name": "University of Houston",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "ef8339e7e3a84ddf885dfd1bc9ea2426",
+      "userId": "727778802bad49cb9fd2b8eb0a34218b"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 3,
+      "submissionId": 20250001837,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "L S Stone"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, United States"
+       }
+      },
+      "id": "259c34a415ab46068acafdb91e71b9d7",
+      "userType": "CIVIL",
+      "userId": "19f406b3d4464b2580c78060ac2060c1"
+     }
+    ],
+    "stiTypeDetails": "Poster",
+    "technicalReviewType": "NASA_PEER_COMMITTEE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20250001837,
+    "created": "2025-02-18T21:50:32.4489210+00:00",
+    "center": {
+     "code": "ARC",
+     "name": "Ames Research Center",
+     "id": "4540cd94d24c4bf29f8773a27faf96b2"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Most crew members experience some aspects of Spaceflight Associated Neuro-ocular Syndrome (SANS), including visual acuity decrements, ocular structural changes, and retinal changes, that could potentially become severe enough to adversely impact in-flight operations as missions become longer and more independent of ground support. Furthermore, recent comparisons of pre- and post-flight brain images have revealed structural changes throughout the brain that implicate involvement of visual, visuomotor, and visuo-cognitive pathways. An understanding of the effects of spaceflight on brain function is needed to assess risk and to support the development and validation of countermeasures. The Comprehensive Oculomotor Behavioral Response Assessment (COBRA), an efficient ocular tracking task and analysis that generates a set of reliable and largely independent metrics related to a range of neural areas and functions, has been shown to provide sensitive measures of mild neural impairment due to brain injury], sleep deprivation, alcohol consumption, and retinal pathology. At previous IWS meetings, we presented normative overall oculometric baselines for future comparisons with at risk populations such as crew, or neurological and ophthalmological patients. Our goal here is develop specific measures of retinal health by isolating performance features limited by retinal processing. Our approach was to use COBRA to examine spatial tuning in retinal coordinates and leverage differences between dominant and non-dominant viewing. ",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20250001837,
+     "id": "34a5a045b67f48e1b834ef8e3c717512"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20250001837,
+      "endDate": "2025-01-31T08:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington, United States"
+         }
+        },
+        "meetingId": "d9e6545cff7c42b4bbbd4703d0d21b90",
+        "id": "cad4825c244041b5a67ea92db62e6962"
+       }
+      ],
+      "name": "2025 NASA HRP IWS Human Research Program Investigator's Workshop ",
+      "location": "Galveston, TX",
+      "id": "d9e6545cff7c42b4bbbd4703d0d21b90",
+      "url": "https://www.nasa.gov/hrp-iws-2025/",
+      "startDate": "2025-01-28T08:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "HRPIWSPoster2025.pdf",
+      "notes": "false positive",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20250001837/downloads/HRPIWSPoster2025.pdf",
+       "pdf": "/api/citations/20250001837/downloads/HRPIWSPoster2025.pdf",
+       "fulltext": "/api/citations/20250001837/downloads/HRPIWSPoster2025.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 64.57623
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20200001905,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "1bad3ea8674e43f8b4e27984723db5c2",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "eccnNumber": "",
+     "submissionId": 20200001905,
+     "ear": "NO",
+     "id": "7d0db63d393d4ac399122d2e6bd3dc63",
+     "itar": "NO"
+    },
+    "distributionDate": "2020-03-31T09:32:02.4130000+00:00",
+    "otherReportNumbers": [
+     "ARC-E-DAA-TN78790",
+     "Report Number: ARC-E-DAA-TN78790"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "869021.03.01.01.04",
+      "submissionId": 20200001905,
+      "id": "b7112b31b59140d79f308f6087904ca4",
+      "type": "WBS"
+     }
+    ],
+    "title": "Evaluation of Tablet-Based Methods for Assessment of Contrast Sensitivity",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2020-03-23T10:56:15.1170000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20200001905,
+      "meta": {
+       "author": {
+        "name": "Mulligan, Jeffrey B."
+       },
+       "organization": {
+        "name": "NASA Ames Research Center",
+        "location": "Moffett Field, CA, United States"
+       }
+      },
+      "id": "5812e5cd7944438db4a20d22acd5975e"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "NASA_TECHNICAL_MANAGEMENT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20200001905,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2020-03-23T10:56:15.1170000+00:00",
+    "center": {
+     "code": "ARC",
+     "name": "Ames Research Center",
+     "id": "4540cd94d24c4bf29f8773a27faf96b2"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Some astronauts have suffered degradation of vision during long-duration space flight, suffering from a condition that has come to be known as Spaceflight Associated Neuro-ocular Syndrome (SANS). While related morphological changes can be observed with imaging technologies such as optical coherence tomography (OCT), it may be useful to have a rapid method for functional vision assessment. In this paper, we compare three tablet-based methods for rapid assessment of contrast sensitivity. First, a relatively novel method developed expressly for touch screens, in which the subject \u201dswipes\u201d a frequency/contrast sweep grating to indicate the boundary between visible and invisible patterns; second, a method-of-adjustment task in which the subject adjusts the contrast of a grating patch up and down to bracket the visual threshold; and third, a traditional temporal two-alternative forced choice (2AFC) task, in which the subject is presented with a near-threshold stimulus in one of two intervals, and must report the interval containing the stimulus. The swipe method shows variability comparable to the 2AFC method, and shows good agreement in estimates of the spatial frequency of peak sensitivity. The absolute sensitivity estimated with the swipe method is higher than that of the other methods, perhaps because subjects are biased to trace outside of the visible pattern region, or perhaps due to stimulus differences.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20200001905,
+      "endDate": "2020-01-30T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "76635d5a0e674c0687ebdca60b1b4abf",
+        "meta": {
+         "organization": {
+          "name": "Society for Imaging Science and Technology",
+          "location": "Springfield, VA, United States"
+         }
+        },
+        "meetingId": "ba8f2311109d4552a09db9a5bd610e29",
+        "id": "bfc4343156a0458eba07f690b9f61af6"
+       }
+      ],
+      "name": "IS&T Symposium on Electronic Imaging",
+      "location": "Burlingame, CA",
+      "id": "ba8f2311109d4552a09db9a5bd610e29",
+      "startDate": "2020-01-26T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20200001905,
+      "id": "a2439a6365c748ab96a359c7993f7b63",
+      "publicationDate": "2020-01-26T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20200000809,
+      "type": "SEE_ALSO",
+      "title": "Evaluation of Tablet-Based Methods for Assessment of Contrast Sensitivity",
+      "stiType": "PRESENTATION",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20200001905.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20200001905/downloads/20200001905.pdf",
+       "pdf": "/api/citations/20200001905/downloads/20200001905.pdf",
+       "fulltext": "/api/citations/20200001905/downloads/20200001905.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   }
+  ],
+  "aggregations": {
+   "created": {
+    "buckets": [
+     {
+      "key_as_string": "2022",
+      "key": 1640995200000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2020",
+      "key": 1577836800000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2018",
+      "key": 1514764800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2023",
+      "key": 1672531200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "author": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 42,
+    "buckets": [
+     {
+      "key": "M Van Baalen",
+      "doc_count": 2
+     },
+     {
+      "key": "Macias, Brandon R.",
+      "doc_count": 2
+     },
+     {
+      "key": "Stenger, Michael B.",
+      "doc_count": 2
+     },
+     {
+      "key": "A Mathin",
+      "doc_count": 1
+     },
+     {
+      "key": "Andrew G Lee",
+      "doc_count": 1
+     },
+     {
+      "key": "Ann Hanyi Tsung",
+      "doc_count": 1
+     },
+     {
+      "key": "Brandon R. Macias",
+      "doc_count": 1
+     },
+     {
+      "key": "C R Gibson",
+      "doc_count": 1
+     },
+     {
+      "key": "C Robert Gibson",
+      "doc_count": 1
+     },
+     {
+      "key": "CR Gibson",
+      "doc_count": 1
+     },
+     {
+      "key": "Catherine Elise Cole",
+      "doc_count": 1
+     },
+     {
+      "key": "Charles Robert Gibson",
+      "doc_count": 1
+     },
+     {
+      "key": "Christine W. Cole",
+      "doc_count": 1
+     },
+     {
+      "key": "Connor R. Ferguson",
+      "doc_count": 1
+     },
+     {
+      "key": "D Marburgh",
+      "doc_count": 1
+     },
+     {
+      "key": "Dulchavsky, Scott A.",
+      "doc_count": 1
+     },
+     {
+      "key": "Dunn, Jocelyn T.",
+      "doc_count": 1
+     },
+     {
+      "key": "E Miller",
+      "doc_count": 1
+     },
+     {
+      "key": "E Talburt",
+      "doc_count": 1
+     },
+     {
+      "key": "Ebert, Doug",
+      "doc_count": 1
+     }
+    ]
+   },
+   "reportNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "ARC-E-DAA-TN78790",
+      "doc_count": 1
+     },
+     {
+      "key": "E-ISSN: 1536-481X",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 1057-0829",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-E-DAA-TN55756",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-E-DAA-TN74321",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: ARC-E-DAA-TN78790",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-E-DAA-TN55756",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-E-DAA-TN74321",
+      "doc_count": 1
+     }
+    ]
+   },
+   "center": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "JSC",
+      "doc_count": 8
+     },
+     {
+      "key": "ARC",
+      "doc_count": 2
+     }
+    ]
+   },
+   "index": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "submissions-2026-10-01-04-12",
+      "doc_count": 10
+     }
+    ]
+   },
+   "fundingNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "NNJ15HK11B",
+      "doc_count": 4
+     },
+     {
+      "key": "10449.2.04.01.05.0317",
+      "doc_count": 2
+     },
+     {
+      "key": "609524.07.02.01.01",
+      "doc_count": 2
+     },
+     {
+      "key": "80NSSC19M0186",
+      "doc_count": 2
+     },
+     {
+      "key": "295670.01.23.21.03",
+      "doc_count": 1
+     },
+     {
+      "key": "869021.03.01.01.04",
+      "doc_count": 1
+     }
+    ]
+   },
+   "published": {
+    "buckets": [
+     {
+      "key_as_string": "2018",
+      "key": 1514764800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2019",
+      "key": 1546300800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2020",
+      "key": 1577836800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2023",
+      "key": 1672531200000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "distribution": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "PUBLIC",
+      "doc_count": 10
+     }
+    ]
+   },
+   "stiType": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "POSTER",
+      "doc_count": 3
+     },
+     {
+      "key": "PRESENTATION",
+      "doc_count": 3
+     },
+     {
+      "key": "CONFERENCE_PAPER",
+      "doc_count": 2
+     },
+     {
+      "key": "ACCEPTED_MANUSCRIPT",
+      "doc_count": 1
+     },
+     {
+      "key": "REPRINT",
+      "doc_count": 1
+     }
+    ]
+   },
+   "subjectCategory": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Aerospace Medicine",
+      "doc_count": 7
+     },
+     {
+      "key": "Life Sciences (General)",
+      "doc_count": 1
+     },
+     {
+      "key": "Man/System Technology and Life Support",
+      "doc_count": 1
+     },
+     {
+      "key": "Optics",
+      "doc_count": 1
+     }
+    ]
+   },
+   "disseminated": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "DOCUMENT_AND_METADATA",
+      "doc_count": 8
+     },
+     {
+      "key": "METADATA_ONLY",
+      "doc_count": 2
+     }
+    ]
+   },
+   "stiTypeDetails": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Poster",
+      "doc_count": 3
+     },
+     {
+      "key": "Presentation",
+      "doc_count": 3
+     },
+     {
+      "key": "Conference Paper",
+      "doc_count": 2
+     },
+     {
+      "key": "Accepted Manuscript (Version with final changes)",
+      "doc_count": 1
+     },
+     {
+      "key": "Reprint (Version printed in journal)",
+      "doc_count": 1
+     }
+    ]
+   },
+   "organization": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 3,
+    "buckets": [
+     {
+      "key": "Johnson Space Center",
+      "doc_count": 7
+     },
+     {
+      "key": "KBR (United States)",
+      "doc_count": 4
+     },
+     {
+      "key": "Aegis Aerospace",
+      "doc_count": 3
+     },
+     {
+      "key": "Ames Research Center",
+      "doc_count": 2
+     },
+     {
+      "key": "NASA Johnson Space Center",
+      "doc_count": 2
+     },
+     {
+      "key": "University of Houston",
+      "doc_count": 2
+     },
+     {
+      "key": "AEROSPACE MEDICINE RESIDENT/INTERNS/RESEARCH ROTATIONS",
+      "doc_count": 1
+     },
+     {
+      "key": "Aegis Aerospace, Inc",
+      "doc_count": 1
+     },
+     {
+      "key": "Aegis Aerospace, Inc.",
+      "doc_count": 1
+     },
+     {
+      "key": "California Univ. (UCLA)",
+      "doc_count": 1
+     },
+     {
+      "key": "California Univ., San Diego",
+      "doc_count": 1
+     },
+     {
+      "key": "Clemson University",
+      "doc_count": 1
+     },
+     {
+      "key": "Coastal Eye Associates",
+      "doc_count": 1
+     },
+     {
+      "key": "GeoControl Systems, Inc.",
+      "doc_count": 1
+     },
+     {
+      "key": "Henry Ford Hospital",
+      "doc_count": 1
+     },
+     {
+      "key": "Houston Methodist",
+      "doc_count": 1
+     },
+     {
+      "key": "JES Tech (United States)",
+      "doc_count": 1
+     },
+     {
+      "key": "KBRWyle Aerospace Group",
+      "doc_count": 1
+     },
+     {
+      "key": "KBRwyle Science, Technology and Engineering",
+      "doc_count": 1
+     },
+     {
+      "key": "MEI Technologies, Inc.",
+      "doc_count": 1
+     }
+    ]
+   },
+   "modified": {
+    "buckets": [
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 10
+     }
+    ]
+   },
+   "keyword": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Aerospace Medicine",
+      "doc_count": 1
+     },
+     {
+      "key": "Astronauts",
+      "doc_count": 1
+     },
+     {
+      "key": "Body position",
+      "doc_count": 1
+     },
+     {
+      "key": "Episcleral venous pressure",
+      "doc_count": 1
+     },
+     {
+      "key": "Eye",
+      "doc_count": 1
+     },
+     {
+      "key": "Fluid shifts",
+      "doc_count": 1
+     },
+     {
+      "key": "Microgravity",
+      "doc_count": 1
+     },
+     {
+      "key": "Oculometric",
+      "doc_count": 1
+     },
+     {
+      "key": "Papilledema diagnosis",
+      "doc_count": 1
+     },
+     {
+      "key": "Papilledema etiology",
+      "doc_count": 1
+     },
+     {
+      "key": "SANS",
+      "doc_count": 1
+     },
+     {
+      "key": "Space Flight",
+      "doc_count": 1
+     },
+     {
+      "key": "Vision",
+      "doc_count": 1
+     },
+     {
+      "key": "Weightlessness",
+      "doc_count": 1
+     },
+     {
+      "key": "Weightlessness adverse effects",
+      "doc_count": 1
+     },
+     {
+      "key": "eye movements",
+      "doc_count": 1
+     },
+     {
+      "key": "human health and performance metrics",
+      "doc_count": 1
+     },
+     {
+      "key": "vision",
+      "doc_count": 1
+     }
+    ]
+   }
+  }
+ }
+}

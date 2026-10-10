@@ -1,0 +1,2608 @@
+{
+ "source_url": "https://ntrs.nasa.gov/api/citations/search?q=NASA+Twins+Study",
+ "fetched_at": "2026-10-10T06:09:56+00:00",
+ "data": {
+  "stats": {
+   "took": 66,
+   "total": 43,
+   "estimate": false,
+   "maxScore": 214.46967
+  },
+  "results": [
+   {
+    "_meta": {
+     "score": 214.46967
+    },
+    "copyright": {
+     "disclosedInvention": false,
+     "submissionId": 20250000914,
+     "containsThirdPartyMaterial": false,
+     "containsIndication": false,
+     "belongsToPublisher": false,
+     "id": "6be4ab43ccc44ded830495f6ecb9db95",
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "keywords": [
+     "somatic mutation",
+     "NASA Twins Genome Study"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20250000914,
+     "ear": "NO",
+     "id": "17bf2625459e4baf9aa2e3712ca4608c",
+     "itar": "NO"
+    },
+    "distributionDate": "2025-01-27T08:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "271118.01.01.10",
+      "submissionId": 20250000914,
+      "id": "43439394820846ae802d406a91798860",
+      "type": "WBS"
+     },
+     {
+      "number": "HERO 23-23OMNI_2-0143",
+      "submissionId": 20250000914,
+      "id": "afbfd10851284da391d32de1c6a853a4",
+      "type": "PROJECT"
+     },
+     {
+      "number": "80NSSC24M0123",
+      "submissionId": 20250000914,
+      "id": "e44ed84db7aa497da09ed87d7960fc4f",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Somatic Mutation Analysis in Spaceflight:  NASA Twins Genome Study",
+    "stiType": "POSTER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2025-01-23T15:48:29.3285750+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 0,
+      "submissionId": 20250000914,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Viktor Stolc"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, United States"
+       }
+      },
+      "id": "8b74aa6124714500b7ef3ac1987ee679",
+      "userType": "CIVIL",
+      "userId": "1d8c0a916f074f1b9cc55cb2cd40be92"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 1,
+      "submissionId": 20250000914,
+      "meta": {
+       "author": {
+        "name": "Miloslav Karhanek"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "d82f073e41dc4e43be4c3cf8e53c6cd1",
+      "userType": "OTHER",
+      "userId": "9d0e08744cb340fd86b1340b665540b0"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 2,
+      "submissionId": 20250000914,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "David J Loftus"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, United States"
+       }
+      },
+      "id": "618a8e1ddefd40cd8a861c35cb9dca88",
+      "userType": "CIVIL",
+      "userId": "101af4eaa3db44b9a0e7aec648b478a5"
+     }
+    ],
+    "stiTypeDetails": "Poster",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20250000914,
+    "created": "2025-01-23T15:41:22.1876920+00:00",
+    "center": {
+     "code": "ARC",
+     "name": "Ames Research Center",
+     "id": "4540cd94d24c4bf29f8773a27faf96b2"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "The NASA Twins Genome Study investigates the effects of spaceflight on somatic mutation accumulation by comparing genome-wide sequence data from a spaceflight astronaut and his Earth-bound twin. Utilizing advanced computational software on high performance computers, this study identifies and maps somatic mutations, with implications for understanding spaceflight-associated health risks, including cancer, neurodegeneration, and cardiovascular disease. The findings aim to bridge rodent and human space research, offering insights into tissue-specific pathophysiology, risk models, and potential therapeutic interventions.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20250000914,
+     "id": "7141fab39ba74d41825948271e6154a5"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20250000914,
+      "endDate": "2025-01-31T08:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington, United States"
+         }
+        },
+        "meetingId": "b4a7e9def3fd48daace8819bcdbb60d0",
+        "id": "95c5da8d886b4628a7d51222e5579d00"
+       }
+      ],
+      "name": "2025 NASA HRP IWS Human Research Program Investigator's Workshop",
+      "location": "Galveston, TX",
+      "id": "b4a7e9def3fd48daace8819bcdbb60d0",
+      "url": "https://www.nasa.gov/hrp-iws-2025/",
+      "startDate": "2025-01-28T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "Stolc HRP IWS 2025 Poster_1_21_25_e.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20250000914/downloads/Stolc%20HRP%20IWS%202025%20Poster_1_21_25_e.pdf",
+       "pdf": "/api/citations/20250000914/downloads/Stolc%20HRP%20IWS%202025%20Poster_1_21_25_e.pdf",
+       "fulltext": "/api/citations/20250000914/downloads/Stolc%20HRP%20IWS%202025%20Poster_1_21_25_e.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 166.03381
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20230010060,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "9ae73a28ee9e4546bcc1f01137694ea3",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Earth Resources and Remote Sensing",
+     "Mathematical and Computer Sciences (General)"
+    ],
+    "keywords": [
+     "earth science remote sensing; Information systems"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20230010060,
+     "ear": "NO",
+     "id": "c8af68aa0e4146979735d9cca8a5de1d",
+     "itar": "NO"
+    },
+    "distributionDate": "2023-07-17T04:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "SMD_Earth Science System_430728",
+      "submissionId": 20230010060,
+      "id": "18e16c443d094d5e9c135a1f96d01897",
+      "type": "WBS"
+     }
+    ],
+    "title": "Advanced Information Systems Technology for NASA Earth System Digital Twins (ESDT)",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2023-07-10T15:05:54.4644930+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "e081fcbdcd5059fa8fa7b6c5c6a2c483",
+      "sequence": 0,
+      "submissionId": 20230010060,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Jacqueline Le Moigne"
+       },
+       "organization": {
+        "name": "Goddard Space Flight Center",
+        "location": "Greenbelt, Maryland, United States"
+       }
+      },
+      "id": "22639f374b1849bdadcebac19b2dd746",
+      "userType": "CIVIL",
+      "userId": "0189a25ae040463799607099602acf82"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20230010060,
+    "sourceIdentifiers": [
+     {
+      "number": "https://2023.ieeeigarss.org/\t",
+      "submissionId": 20230010060,
+      "id": "69e63a624dff4e38a39f8fc7243839fe",
+      "descriptor": "General informational presentation as one of the introductions for a general Townhall on Earth Digital Twins co-organized between NASA, ESA and CNES.",
+      "type": "URL"
+     }
+    ],
+    "created": "2023-07-10T14:57:21.6054200+00:00",
+    "center": {
+     "code": "GSFC",
+     "name": "Goddard Space Flight Center",
+     "id": "973fae00c3584b9fb4c762ae9870d0f6"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "ESA and NASA have both started programs to design and develop Digital Twins of the Earth and/or Earth systems. Organized around interconnected, multi-domain, high-scale modeling capabilities, the three major components of an Earth System Digital Twin are a continuously updated Digital Replica of the Earth System of interest, dynamic Forecasting models, and Impact Assessment capabilities. Earth System Digital Twins integrate diverse Earth and human activity models, continuous observations, and information system capabilities to provide unified, comprehensive representations and predictions that can be utilized for monitoring the health of the Planet, as well as for developing actionable information to support decision making. More generally, Digital Twins will help researchers better understand the fundamental Earth systems that impact everything from wildfires to climate change.\n\nThis Townhall will first provide a short description of ESA\u2019s, NASA\u2019s and CNES\u2019s current efforts in Digital Twins: \n\u2022\tDestination Earth (DestinE) is the first initiative of the European Union to create a Digital Twin of the Earth, particularly focused on weather and climate, and as a coordinated effort between the European Centre for Medium-Range Weather Forecasts (ECMWF), ESA and the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT). \n\u2022\tAdditionally, ESA is developing several Digital Twin Earth Precursor Activities to study some of the key scientific and technical challenges associated with building a \u201cDigital Twin Earth\u201d. These include forests, hydrology, Antarctica, food systems, oceans, and climate hot spots Digital Twin prototypes.\n\u2022\tNASA Earth Science Technology Office (ESTO)\u2019s Advanced Information Systems Technology (AIST) Program has started an initiative in Earth System Digital Twins (ESDT), with 14 current projects in this area, developing various information systems technologies and prototypes that will help prepare the development of future NASA Digital Twins. \n\u2022\tCNES is currently developing the concept of a Digital Twin Factory (DTF), which relies on a data lake, a high computing capability using clouds and/or HPC and has thematic algorithms and methodologies able to generate registered and coherent layers of information in order to enrich a datacube from which physical indicators can be computed spatially.\n\nNASA, ESA and CNES are also currently defining science use cases that will be presented during the townhall; those and a few short discussions of current projects will serve as a starting point to engage a dialogue about Digital Twins of the Earth with the IGARSS community.\n",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20230010060,
+     "id": "d00b279b1af84b419500716b4cfab4e3"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20230010060,
+      "endDate": "2023-07-21T04:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "6dd6c02b1822545b818f86bdb0bee28d",
+        "meta": {
+         "organization": {
+          "name": "IEEE Computer Society",
+          "location": "Washington D.C., District of Columbia, United States"
+         }
+        },
+        "meetingId": "15d0d2494f3f4b1f82b0b62ceefff219",
+        "id": "83831096a9ea4ba386825cfa63c17199"
+       }
+      ],
+      "name": "2023 International Geoscience and Remote Sensing Symposium (IGARSS'2023)\t",
+      "location": "Pasadena, CA\t",
+      "id": "15d0d2494f3f4b1f82b0b62ceefff219",
+      "startDate": "2023-07-16T04:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20230010074,
+      "type": "SEE_ALSO",
+      "title": "Earth System Digital Twins (ESDT)",
+      "stiType": "PRESENTATION",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "name": "2023-07-20_IGARSS23_AIST4ESDT_V2.pptx",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20230010060/downloads/2023-07-20_IGARSS23_AIST4ESDT_V2.pptx",
+       "fulltext": "/api/citations/20230010060/downloads/2023-07-20_IGARSS23_AIST4ESDT_V2.pptx.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 165.1477
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "CCBYNCND",
+     "submissionId": 20230000894,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "507cbc72ff0d4d9c948d643f3f945e01",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "Elongase",
+     "NASA",
+     "Spaceflight",
+     "Fatty acids",
+     "Desaturase",
+     "Eicosapentaenoic acid",
+     "Docosahexaenoic acid",
+     "Arachidonic acid",
+     "International Space Station",
+     "NASA twins study",
+     "Multi-scale omics"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20230000894,
+     "ear": "NO",
+     "id": "c56171ef77f645a78400ba4a084f47dc",
+     "itar": "NO"
+    },
+    "distributionDate": "2020-05-06T04:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "PMID32375154",
+     "NIHMS1585389"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NNX14AH50G",
+      "submissionId": 20230000894,
+      "id": "3cf1c8593217432f8e27d8cd8ce96a2e",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NNX17AB26G",
+      "submissionId": 20230000894,
+      "id": "70c705011979467db80f67ca6a6b3522",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NNX14AH51G",
+      "submissionId": 20230000894,
+      "id": "7e223a9554124f14abb69d8288e6b9e1",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NNX16AO69A",
+      "submissionId": 20230000894,
+      "id": "b0dd1578c1be4a79bada47eb1e5d55e7",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NIH R01AI125416",
+      "submissionId": 20230000894,
+      "id": "d8c77e07561246348b385a5e81c22a16",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NIH R01MH117406",
+      "submissionId": 20230000894,
+      "id": "7c997d030d944d30b5cbd6b4c895fb0d",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NIH R01CA249054",
+      "submissionId": 20230000894,
+      "id": "2c52c706796f46f880fc06095e4c5101",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NIH R01AI151059",
+      "submissionId": 20230000894,
+      "id": "fd8b2fa52f4a4267acc38942cf0c9652",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NIH P01HD067244",
+      "submissionId": 20230000894,
+      "id": "a55226b70afa4390b774fdadd997a320",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NIH P01CA214274",
+      "submissionId": 20230000894,
+      "id": "a73ab27450ed4f80a29b2d35409d7099",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "LLS 9238-16",
+      "submissionId": 20230000894,
+      "id": "aa238c9c76524ca386dc426e5735db2a",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "LLS-MCL-982",
+      "submissionId": 20230000894,
+      "id": "ed158b00bb524bc1b597c99ac684dc8e",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "The NASA Twins Study: The Effect of One Year in Space on Long-Chain Fatty Acid Desaturases and Elongases",
+    "stiType": "ACCEPTED_MANUSCRIPT",
+    "distribution": "PUBLIC",
+    "authorAffiliations": [
+     {
+      "organizationId": "808212fb64124728a82df421dd5a3f80",
+      "sequence": 0,
+      "submissionId": 20230000894,
+      "meta": {
+       "author": {
+        "name": "Michael A Schmidt"
+       },
+       "organization": {
+        "name": "Sovaris Aerospace",
+        "location": "Boulder, Colorado, United States"
+       }
+      },
+      "id": "726a3c2b170a4dd6a870b09030e9a02c",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "8192b93025095826829344e70cc4b5b6",
+      "sequence": 1,
+      "submissionId": 20230000894,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Cem Meydan"
+       },
+       "organization": {
+        "name": "Weill Cornell Medicine",
+        "location": "New York, New York, United States"
+       }
+      },
+      "id": "a372690e53b147cdbc555dfeb16925b1",
+      "userId": "4377f7483f0b498c81c147588fc9a52f"
+     },
+     {
+      "organizationId": "808212fb64124728a82df421dd5a3f80",
+      "sequence": 2,
+      "submissionId": 20230000894,
+      "meta": {
+       "author": {
+        "name": "Caleb M Schmidt"
+       },
+       "organization": {
+        "name": "Sovaris Aerospace",
+        "location": "Boulder, Colorado, United States"
+       }
+      },
+      "id": "201b75462eec438e8ba9476a10da6045",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "8192b93025095826829344e70cc4b5b6",
+      "sequence": 3,
+      "submissionId": 20230000894,
+      "meta": {
+       "author": {
+        "name": "Ebrahim Afshinnekoo"
+       },
+       "organization": {
+        "name": "Weill Cornell Medicine",
+        "location": "New York, New York, United States"
+       }
+      },
+      "id": "507a395cd8634b2ca9160bb39434363e",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "8192b93025095826829344e70cc4b5b6",
+      "sequence": 4,
+      "submissionId": 20230000894,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0002-1850-1642",
+        "name": "Christopher E Mason"
+       },
+       "organization": {
+        "name": "Weill Cornell Medicine",
+        "location": "New York, New York, United States"
+       }
+      },
+      "id": "5cf900c34ed1470a84896333435b6c9d",
+      "userId": "1b89576cf4e244ccb78f0b492f630894"
+     }
+    ],
+    "stiTypeDetails": "Accepted Manuscript (Version with final changes)",
+    "technicalReviewType": "PROFESSIONAL_REVIEW",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20230000894,
+    "created": "2023-01-19T05:49:52.1345550+00:00",
+    "center": {
+     "code": "2230",
+     "name": "2230 Support",
+     "id": "dbdc76037a4a4c59aa77058cd4347155"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Background: To date, there is no clear understanding of the effect of long-duration spaceflight on the major enzymes that govern the metabolism of omega-6 and omega-3 fatty acids. To address this gap in knowledge, we used data from the NASA Twins Study, which includes a multi-scale omic investigation of the changes that occurred during a year-long (340 days) human spaceflight. Embedded within the NASA Twins data are specific analytes associated with fatty acid metabolism.\n\nObjectives: To examine the long-chain fatty acid desaturases and elongases in a single human during one year in space.\n \nMethod: One male twin was on board the International Space Station (ISS) for one year, while his monozygotic twin served as a genetically matched ground control. Longitudinal assessments included the genome, epigenome, transcriptome, proteome, metabolome, microbiome, and immunome during the mission, as well as six months before and after. The gene-specific fatty acid desaturase and elongase transcriptome data (FADS1, FADS2, ELOVL2 and ELOVL5) were extracted from untargeted RNA-seq measurements derived from white blood cell fractions.\n\nResults: Most data from the elongases and desaturases exhibited relatively similar expression profiles (R2>0.6) over time for the CD8, CD19, and LD cell fractions, indicating overall conservation of function within and between the subjects. Both cell-type and temporal specificity was observed in some cases, and some differences were also apparent between the poly-adenylated fraction (polyA) of processed RNAs vs. the ribo-depleted (ribo-) fraction. The flight subject showed a stronger enrichment of the Fatty Acid Metabolic processes pathway across almost all cell types (columns, CD4, CD8, CPT, LD), most especially in the ribodepleted fraction of RNA, but also with the polyA+ fraction of RNA. GSEA enrichment measures across three related Fatty Acid Metabolism pathways showed a differential between the ground and flight subject.\n\nConclusions: There appears to be no persistent alteration of desaturase and elongase gene expression associated with one year in space. However, these data provide evidence that cellular lipid metabolism can be responsive and dynamic to spaceflight, even though it appears cell-type- and context-specific, most notably in terms of the fraction of RNA measured and the collection protocols. These results also provide new evidence of mid-flight spikes in expression of selected genes, which may indicate transient responses to specific insults during spaceflight.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20230000894,
+     "id": "395a6f817f594c26b8c904c84e3263b5"
+    },
+    "publications": [
+     {
+      "volume": "13",
+      "submissionId": 20230000894,
+      "issue": "3",
+      "issn": "2504-3161",
+      "publisher": "Karger",
+      "eissn": "2504-3188",
+      "id": "dce63d1c3c534dc8a4e18b1ebe8126c2",
+      "publicationName": "Lifestyle Genomics",
+      "publicationDate": "2020-05-06T04:00:00.0000000+00:00",
+      "issuePublicationDate": "2020-05-01T04:00:00.0000000+00:00",
+      "doi": "10.1159/000506769"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "LFG506769NIH.pdf",
+      "notes": "False positive",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20230000894/downloads/LFG506769NIH.pdf",
+       "pdf": "/api/citations/20230000894/downloads/LFG506769NIH.pdf",
+       "fulltext": "/api/citations/20230000894/downloads/LFG506769NIH.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 159.57532
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20150003040,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "b16c2c99c75548b7a08985f193142c93",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20150003040,
+     "ear": "NO",
+     "id": "58756f222d634042ba84fee45c73e0fc",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-33077",
+     "Report Number: JSC-CN-33077"
+    ],
+    "title": "Research from the NASA Twins Study and Omics in Support of Mars Missions",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2015-03-17T15:56:08.5170000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20150003040,
+      "meta": {
+       "author": {
+        "name": "Kundrot, C."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "e869654a501b4c42894ec8adc791dca2"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20150003040,
+      "meta": {
+       "author": {
+        "name": "Shelhamer, M."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "b43ff366045d4766a4f681e7c9d52c5d"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20150003040,
+      "meta": {
+       "author": {
+        "name": "Scott, G."
+       },
+       "organization": {
+        "name": "National Space Biomedical Research Inst.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "7f1cc79bc2ef4103aef888d409cba9db"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20150003040,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2015-03-17T15:56:08.5170000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "The NASA Twins Study, NASA's first foray into integrated omic studies in humans, illustrates how an integrated omics approach can be brought to bear on the challenges to human health and performance on a Mars mission. The NASA Twins Study involves US Astronaut Scott Kelly and his identical twin brother, Mark Kelly, a retired US Astronaut. No other opportunity to study a twin pair for a prolonged period with one subject in space and one on the ground is available for the foreseeable future. A team of 10 principal investigators are conducting the Twins Study, examining a very broad range of biological functions including the genome, epigenome, transcriptome, proteome, metabolome, gut microbiome, immunological response to vaccinations, indicators of atherosclerosis, physiological fluid shifts, and cognition. A novel aspect of the study is the integrated study of molecular, physiological, cognitive, and microbiological properties. Major sample and data collection from both subjects for this study began approximately six months before Scott Kelly's one year mission on the ISS, continue while Scott Kelly is in flight and will conclude approximately six months after his return to Earth. Mark Kelly will remain on Earth during this study, in a lifestyle unconstrained by this study, thereby providing a measure of normal variation in the properties being studied. An overview of initial results and the future plans will be described as well as the technological and ethical issues raised for spaceflight studies involving omics.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20150003040,
+      "name": "International Academy of Astronautics",
+      "location": "Paris, France",
+      "id": "318fbec6340041ce864a4a808d09fb8d"
+     },
+     {
+      "country": "Czechoslovakia",
+      "submissionId": 20150003040,
+      "endDate": "2015-07-03T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "70d62bd05bc24b65a90f9ec757ecc6ab",
+        "meta": {
+         "organization": {
+          "name": "Czech Space Office",
+          "location": "Prague, Czech Republic"
+         }
+        },
+        "meetingId": "e66ccfbe45c14ddea2ce8fc8d01a7bf1",
+        "id": "fecf3ddc04174ee19b666057f3ffaba3"
+       },
+       {
+        "meta": {
+         "organization": {
+          "name": "International Academy of Astronautics",
+          "location": "Paris, France"
+         }
+        },
+        "meetingId": "e66ccfbe45c14ddea2ce8fc8d01a7bf1",
+        "id": "f7f700b1f1164f059d757895ad5907ce"
+       }
+      ],
+      "name": "IAA 2015 Humans in Space Symposium",
+      "location": "Prague, Czech Republic",
+      "id": "e66ccfbe45c14ddea2ce8fc8d01a7bf1",
+      "startDate": "2015-06-29T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20150003040,
+      "id": "447b0a16582a41c5becc633532f1e0df",
+      "publicationDate": "2015-06-29T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20150003040.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20150003040/downloads/20150003040.pdf",
+       "pdf": "/api/citations/20150003040/downloads/20150003040.pdf",
+       "fulltext": "/api/citations/20150003040/downloads/20150003040.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 139.0171
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20140016990,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "fb623d38d9d144209b439c32fefe0f8d",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20140016990,
+     "ear": "NO",
+     "id": "0509e55fe74a42eb97dcba396408d38d",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-32313",
+     "Report Number: JSC-CN-32313"
+    ],
+    "title": "The Twins Study: NASA's First Foray into 21st Century Omics Research",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2014-12-04T13:45:44.5470000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20140016990,
+      "meta": {
+       "author": {
+        "name": "Kundrot, C. E."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "c1a7ee5c7ca4464fbc80b8fea2db2582"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20140016990,
+      "meta": {
+       "author": {
+        "name": "Shelhamer, M."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "206a4fa169aa40eba267bac9799d9788"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20140016990,
+      "meta": {
+       "author": {
+        "name": "Scott, G. B. I."
+       },
+       "organization": {
+        "name": "National Space Biomedical Research Inst.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "fc9de86be7f542c388d5d8df70595978"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20140016990,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2014-12-04T13:45:44.5470000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "The full array of 21st century omics-based research methods should be intelligently employed to reduce the health and performance risks that astronauts will be exposed to during exploration missions beyond low Earth Orbit. In March of 2015, US Astronaut Scott Kelly will launch to the International Space Station for a one year mission while his twin brother, Mark Kelly, a retired US Astronaut, remains on the ground. This situation presents an extremely rare flight opportunity to perform an integrated omics-based demonstration pilot study involving identical twin astronauts. A group of 10 principal investigators has been competitively selected, funded, and teamed together to form the Twins Study. A very broad range of biological function are being examined including the genome, epigenome, transcriptome, proteome, metabolome, gut microbiome, immunological response to vaccinations, indicators of atherosclerosis, physiological fluid shifts, and cognition. The plans for the Twins Study and an overview of initial results will be described as well as the technological and ethical issues raised for such spaceflight studies. An anticipated outcome of the Twins Study is that it will place NASA on a trajectory of using omics-based information to develop precision countermeasures for individual astronauts.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20140016990,
+      "name": "Aerospace Medical Association",
+      "location": "Alexandria, VA, United States",
+      "id": "668e5a1a07da4fc3bfcda31a69dab8c9"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20140016990,
+      "endDate": "2015-05-14T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "Aerospace Medical Association",
+          "location": "Alexandria, VA, United States"
+         }
+        },
+        "meetingId": "3723ba9ef387480a964158d000756eb9",
+        "id": "b8b99539f60c4ae6a9ae0196f65414c2"
+       }
+      ],
+      "name": "AsMA Annual Scientific Meeting",
+      "location": "Lake Buena Vista, FL",
+      "id": "3723ba9ef387480a964158d000756eb9",
+      "startDate": "2015-05-10T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20140016990,
+      "id": "6717337734064b658214d462b451df96",
+      "publicationDate": "2015-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20140016990.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20140016990/downloads/20140016990.pdf",
+       "pdf": "/api/citations/20140016990/downloads/20140016990.pdf",
+       "fulltext": "/api/citations/20140016990/downloads/20140016990.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 115.6086
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20050155279,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "478aecbafc0c44baadaf66e3719c704f",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "Twin Study",
+     "Clinical Trial",
+     "Randomized Controlled Trial",
+     "Exercise Test",
+     "Weightlessness/adverse effects",
+     "Bone Diseases, Metabolic/prevention & control",
+     "Parathyroid Hormone/blood",
+     "Biological Markers/blood",
+     "Patient Selection",
+     "Alkaline Phosphatase/blood",
+     "Male",
+     "Supine Position",
+     "Calcitriol/blood",
+     "Posture",
+     "Bed Rest",
+     "Humans",
+     "Calcifediol/blood",
+     "Osteocalcin/blood",
+     "Space Flight",
+     "Twins, Monozygotic",
+     "Research Support, U.S. Gov't, Non-P.H.S",
+     "Research Support, U.S. Gov't, P.H.S",
+     "Calcium/blood"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20050155279,
+     "ear": "NO",
+     "id": "0f6d05fcf31d4bcfb66204c1b642163b",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-11T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-7846",
+     "ISSN: 0884-0431",
+     "Report Number: JSC-CN-7846"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "M01-RR00827",
+      "submissionId": 20050155279,
+      "id": "d5a804a181f54d28ad5f281a07d7d8a5",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Evaluation of Treadmill Exercise in a Lower Body Negative Pressure Chamber as a Countermeasure for Weightlessness-Induced Bone Loss: a Bed Rest Study with Identical Twins",
+    "stiType": "REPRINT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-23T04:07:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20050155279,
+      "meta": {
+       "author": {
+        "name": "Smith, Scott M."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX United States"
+       }
+      },
+      "id": "7f034a0c1bc94eccba892f6c22155f22"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20050155279,
+      "meta": {
+       "author": {
+        "name": "Davis-Street, Janis E."
+       },
+       "organization": {}
+      },
+      "id": "543f2f8610094650a2bb680edb0e3508"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20050155279,
+      "meta": {
+       "author": {
+        "name": "Fesperman, J. Vernell"
+       },
+       "organization": {}
+      },
+      "id": "2eaad31ea84b446da0f06a3c3596e3c8"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20050155279,
+      "meta": {
+       "author": {
+        "name": "Calkins, D. S."
+       },
+       "organization": {}
+      },
+      "id": "026fba70611f4a5294c404e8c578fe24"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20050155279,
+      "meta": {
+       "author": {
+        "name": "Bawa, Maneesh"
+       },
+       "organization": {}
+      },
+      "id": "716feba72e5f462e82f2a682fcd2f3de"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20050155279,
+      "meta": {
+       "author": {
+        "name": "Macias, Brandon R."
+       },
+       "organization": {}
+      },
+      "id": "5b89320916094cf3b9163bcc79af86c3"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20050155279,
+      "meta": {
+       "author": {
+        "name": "Meyer, R. Scott"
+       },
+       "organization": {}
+      },
+      "id": "7c5b78b6c88e46e18952107c9fc85013"
+     },
+     {
+      "sequence": 7,
+      "submissionId": 20050155279,
+      "meta": {
+       "author": {
+        "name": "Hargens, Alan R."
+       },
+       "organization": {}
+      },
+      "id": "1754d4616864490d9b83a33f87e48213"
+     }
+    ],
+    "stiTypeDetails": "Reprint (Version printed in journal)",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20050155279,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-23T04:07:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Counteracting bone loss is required for future space exploration. We evaluated the ability of treadmill exercise in a LBNP chamber to counteract bone loss in a 30-day bed rest study. Eight pairs of identical twins were randomly assigned to sedentary control or exercise groups. Exercise within LBNP decreased the bone resorption caused by bed rest and may provide a countermeasure for spaceflight. INTRODUCTION: Bone loss is one of the greatest physiological challenges for extended-duration space missions. The ability of exercise to counteract weightlessness-induced bone loss has been studied extensively, but to date, it has proven ineffective. We evaluated the effectiveness of a combination of two countermeasures-treadmill exercise while inside a lower body negative pressure (LBNP) chamber-on bone loss during a 30-day bed rest study. MATERIALS AND METHODS: Eight pairs of identical twins were randomized into sedentary (SED) or exercise/LBNP (EX/LBNP) groups. Blood and urine samples were collected before, several times during, and after the 30-day bed rest period. These samples were analyzed for markers of bone and calcium metabolism. Repeated measures ANOVA was used to determine statistical significance. Because identical twins were used, both time and group were treated as repeated variables. RESULTS: Markers of bone resorption were increased during bed rest in samples from sedentary subjects, including the collagen cross-links and serum and urinary calcium concentrations. For N-telopeptide and deoxypyridinoline, there were significant (p < 0.05) interactions between group (SED versus EX/LBNP) and phase of the study (sample collection point). Pyridinium cross-links were increased above pre-bed rest levels in both groups, but the EX/LBNP group had a smaller increase than the SED group. Markers of bone formation were unchanged by bed rest in both groups. CONCLUSIONS: These data show that this weight-bearing exercise combined with LBNP ameliorates some of the negative effects of simulated weightlessness on bone metabolism. This protocol may pave the way to counteracting bone loss during spaceflight and may provide valuable information about normal and abnormal bone physiology here on Earth.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "publications": [
+     {
+      "volume": "18",
+      "submissionId": 20050155279,
+      "issue": "12",
+      "issn": "0884-0431",
+      "id": "825b6008368742508d4af08503ca632c",
+      "publicationName": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+      "publicationDate": "2003-12-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 104.37095
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20160012724,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "d117f8d28e12422bbe965c880661d9e4",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20160012724,
+     "ear": "NO",
+     "id": "65b6b9e3966d40b0a5aa2d7504f0283a",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-11T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-37740",
+     "Report Number: JSC-CN-37740"
+    ],
+    "title": "NASA and NSBRI's Kelly Twins Study: Progress Implementing the First Integrated Omics Pilot Demonstration Study in Space",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2016-10-28T15:04:01.5100000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20160012724,
+      "meta": {
+       "author": {
+        "name": "Scott, Graham B. I."
+       },
+       "organization": {
+        "name": "National Space Biomedical Research Inst. (NSBRI)",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "0477431addc5438987bd2c75bc4df3d9"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20160012724,
+      "meta": {
+       "author": {
+        "name": "Charles, John"
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "2aba38009fda4a1da5bb959a9719bb28"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20160012724,
+      "meta": {
+       "author": {
+        "name": "Kundrot, Craig"
+       },
+       "organization": {
+        "name": "NASA Headquarters",
+        "location": "Washington, DC United States"
+       }
+      },
+      "id": "49a5fe4bd77745edbd8568fdf5585d52"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20160012724,
+      "meta": {
+       "author": {
+        "name": "Shelhamer, Mark"
+       },
+       "organization": {
+        "name": "Johns Hopkins Univ.",
+        "location": "Baltimore, MD, United States"
+       }
+      },
+      "id": "89ca95c5a76f4dd49bd06f3bc9b61bb9"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20160012724,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2016-10-28T15:04:01.5100000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "This opportunity has emerged from NASA's decision to fly veteran NASA astronaut Scott Kelly aboard the International Space Station (ISS) for a period of one year commencing in March 2015, while his identical twin brother, retired NASA astronaut Mark Kelly, remains on Earth. Scott Kelly, a veteran of two Space Shuttle flights as well as a six-month ISS mission, will have a cumulative duration of 540 days in low Earth orbit at the conclusion of the one-year flight, while Mark Kelly, a veteran of four Space Shuttle flights, has a cumulative duration of 54 days ( 2 hours and 4 minutes) in low Earth orbit. This opportunity originated at the initiative of the twin astronauts themselves ",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20160012724,
+      "name": "American Society for Gravitational and Space Research",
+      "location": "Bristow, VA, United States",
+      "id": "25b60de938664d76946166bbf3b6a132"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20160012724,
+      "endDate": "2016-10-29T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "American Society for Gravitational and Space Research",
+          "location": "Bristow, VA, United States"
+         }
+        },
+        "meetingId": "65fbbd2cf77e4fffb89aa02cc010b8c3",
+        "id": "2039da9880e64013ad4954fe42d89f07"
+       }
+      ],
+      "name": "American Society for Gravitation and Space Research",
+      "location": "Cleveland, OH",
+      "id": "65fbbd2cf77e4fffb89aa02cc010b8c3",
+      "startDate": "2016-10-26T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20160012724,
+      "id": "597abd52f30647a293dc04eb72f13c45",
+      "publicationDate": "2016-10-29T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "redistributedDate": "2021-08-27T00:00:00.0000000",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20160012724.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20160012724/downloads/20160012724.pdf",
+       "pdf": "/api/citations/20160012724/downloads/20160012724.pdf",
+       "fulltext": "/api/citations/20160012724/downloads/20160012724.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 92.30036
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20160001730,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "56794a0381b644808ce7153edb2fde1a",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)",
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20160001730,
+     "ear": "NO",
+     "id": "7c11897748a44c35aa790f379de6f630",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-11T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-35402",
+     "Report Number: JSC-CN-35402"
+    ],
+    "title": "One-Year Mission and Twins Study",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2016-02-10T13:45:43.3600000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20160001730,
+      "meta": {
+       "author": {
+        "name": "Charles, J. B."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "449147b68eca42c8ae5292915cec20c8"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20160001730,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2016-02-10T13:45:43.3600000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "No abstract available",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20160001730,
+      "name": "NASA Johnson Space Center",
+      "location": "Houston, TX, United States",
+      "id": "8191e00ca1a2426180d2c9e6cbb2be22"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20160001730,
+      "endDate": "2016-02-11T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "NASA Johnson Space Center",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "09f4d18fff2c4c18900e85eebc0c996b",
+        "id": "a786019a7189406eac85ccc3a07d7a67"
+       }
+      ],
+      "name": "2016 Human Research Program Investigators'' Workshop (HRP IWS 2016)",
+      "location": "Galveston, TX",
+      "id": "09f4d18fff2c4c18900e85eebc0c996b",
+      "startDate": "2016-02-08T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20160001730,
+      "id": "4583afb5c5b9432ea3830271f3e5dbea",
+      "publicationDate": "2016-02-08T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "redistributedDate": "2021-08-27T00:00:00.0000000",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20160001730.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20160001730/downloads/20160001730.pdf",
+       "pdf": "/api/citations/20160001730/downloads/20160001730.pdf",
+       "fulltext": "/api/citations/20160001730/downloads/20160001730.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 91.60943
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "MAY_INCLUDE_COPYRIGHT_MATERIAL",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20220014725,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "883931c9557940b993710d43f2c04fe7",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)",
+     "Man/System Technology And Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20220014725,
+     "ear": "NO",
+     "id": "8bd2776a28a04d95867da25ceda775ab",
+     "itar": "NO"
+    },
+    "distributionDate": "2023-02-09T06:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "10449.2.03.01.28.2020",
+      "submissionId": 20220014725,
+      "id": "5a1e761016d6431db0b97fe04fdef072",
+      "type": "TASK"
+     }
+    ],
+    "title": "NASA Omics Archive Project",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2022-09-28T22:46:00.1720330+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "e19468319c7a500681f6c155f5347f25",
+      "sequence": 0,
+      "submissionId": 20220014725,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "C. A. Theriot"
+       },
+       "organization": {
+        "name": "The University of Texas Medical Branch at Galveston",
+        "location": "Galveston, Texas, United States"
+       }
+      },
+      "id": "345d01cacf084d0295adbee587106707",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "e0a3c73d9f624975b714425f896ccaa9"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 1,
+      "submissionId": 20220014725,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "C. A. Mullenax"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "614577976bd84076b0c6edceabd97a74",
+      "userType": "CIVIL",
+      "userId": "66baf34fa7ce48979b20c85cfcc0da62"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20220014725,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "G. D. Eley"
+       },
+       "organization": {
+        "name": "Scimentis",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "93e7f67935604b5594315656035a7da0",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "66ec678d071d468aa4da50d0a4fd0d93"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "PROFESSIONAL_REVIEW",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20220014725,
+    "created": "2022-09-28T22:29:04.5123390+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "The space environment consists of a complex set of hazards including altered gravity, radiation, psychological/physiological stress, isolation, and confinement leading to complex biological responses. Advances in biotechnology capabilities offer considerable potential to provide novel insight into those responses as well as innovative diagnostic, treatment, and countermeasure solutions for astronauts as NASA begins to travel beyond low Earth orbit. Omics data (genomics, transcriptomics, proteomics, etc.) is one example that can provide NASA with critical knowledge of how a crewmember\u2019s genetics, environment, and lifestyle can be used to develop individualized approaches for disease prevention, advance diagnostics, and improve treatment strategies.\n\nNASA ventured into the field of omics on human subjects with the successful completion of the NASA Twins Study which was the first step in mapping the multi-omic profile of astronauts to understand and mitigate the health consequences of spaceflight. The Human Research Program aims to build upon the success of the Twins Study with the NASA Omics Archive flight study, establishing a longitudinal biospecimen archive and efficiently generating a comprehensive high-quality multi-omic dataset from astronauts for the purpose of studying molecular, metabolic, and microbial changes associated with longduration spaceflight missions. The goal is to facilitate scientific and medical research community efforts to characterize and mitigate spaceflight health and performance risks.\n\nIn this presentation, we will review details regarding the biospecimen and data archive to be generated by the NASA Omics Archive flight study. Data generated as part of this project will be archived in the NASA Life Sciences Portal (NLSP) and be made available for future hypothesis-driven research efforts or occupational surveillance through Institutional Review Board-approved data sharing and retrospective data requests submitted to the Life Sciences Data Archive (LSDA) team. We will also present results of a ground study performed to evaluate in-house procedures, new sample collection hardware, and vendor capabilities.\n\nThe data repository generated and the samples to be archived by this study will enable future research efforts to assess an astronauts\u2019 unique molecular and genetic profile with respect to individual spaceflight responses. Results of which will be instrumental in enabling precision health capabilities to better assess and mitigate spaceflight risks, detect disease states earlier, and actively monitor countermeasure treatments, ultimately improving clinical outcomes during future exploration class missions. ",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20220014725,
+     "id": "d17e93ea8f95452b8f035986f22ec7ac"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20220014725,
+      "endDate": "2023-02-09T06:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington D.C., District of Columbia, United States"
+         }
+        },
+        "meetingId": "8fbf50fa8c84443c87bbabc3114fad85",
+        "id": "9628ea43dae4403fa4c9851ca24e3c23"
+       }
+      ],
+      "name": "2023 Human Research Program (HRP) Investigators' Workshop (IWS)",
+      "location": "Galveston, TX",
+      "id": "8fbf50fa8c84443c87bbabc3114fad85",
+      "url": "https://www.cvent.com/c/abstracts/6c66b149-d763-4180-aed9-784f2773e5be",
+      "startDate": "2023-02-07T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "220914 NOA_IWS_Theriot_abstract.pdf",
+      "type": "ABSTRACT",
+      "links": {
+       "original": "/api/citations/20220014725/downloads/220914%20NOA_IWS_Theriot_abstract.pdf",
+       "pdf": "/api/citations/20220014725/downloads/220914%20NOA_IWS_Theriot_abstract.pdf",
+       "fulltext": "/api/citations/20220014725/downloads/220914%20NOA_IWS_Theriot_abstract.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 89.88737
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20170002764,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "a4923ba7ddeb40d9b9eccae2f063fece",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Space Sciences (General)"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20170002764,
+     "ear": "NO",
+     "id": "58ba2eac8e3f4f45aa5b1422bec0c17b",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-11T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "GSFC-E-DAA-TN40918",
+     "Report Number: GSFC-E-DAA-TN40918",
+     "E-ISSN: 2169-9402",
+     "ISSN: 2169-9380"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NNG11PL02A",
+      "submissionId": 20170002764,
+      "id": "f54ffd0b0ff940968420c64a78baeb4d",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Global Images of Trapped Ring Current Ions During Main Phase of 17 March 2015 Geomagnetic Storm as Observed by TWINS",
+    "stiType": "REPRINT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2017-03-31T12:43:18.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20170002764,
+      "meta": {
+       "author": {
+        "name": "Perez, J. D."
+       },
+       "organization": {
+        "name": "Auburn Univ.",
+        "location": "AL, United States"
+       }
+      },
+      "id": "55aabbc01d4248459946994481e100af"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20170002764,
+      "meta": {
+       "author": {
+        "name": "Goldstein, J."
+       },
+       "organization": {
+        "name": "Southwest Research Inst.",
+        "location": "San Antonio, TX, United States"
+       }
+      },
+      "id": "d74509265e78445798d72252b728aa3b"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20170002764,
+      "meta": {
+       "author": {
+        "name": "McComas, D. J."
+       },
+       "organization": {
+        "name": "Southwest Research Inst.",
+        "location": "San Antonio, TX, United States"
+       }
+      },
+      "id": "d6d09180614445f0b3071acf91c222c0"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20170002764,
+      "meta": {
+       "author": {
+        "name": "Valek, P."
+       },
+       "organization": {
+        "name": "Southwest Research Inst.",
+        "location": "San Antonio, TX, United States"
+       }
+      },
+      "id": "62f21cd0360440ce9d40340f730ad18a"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20170002764,
+      "meta": {
+       "author": {
+        "name": "Fok, Mei-Ching"
+       },
+       "organization": {
+        "name": "NASA Goddard Space Flight Center",
+        "location": "Greenbelt, MD United States"
+       }
+      },
+      "id": "c6d6c434383d4854831fab66264c0e63"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20170002764,
+      "meta": {
+       "author": {
+        "name": "Hwang, Kyoung-Joo"
+       },
+       "organization": {
+        "name": "Maryland Univ. Baltimore County",
+        "location": "Baltimore, MD, United States"
+       }
+      },
+      "id": "377aff1696b74acc8c4f403075704076"
+     }
+    ],
+    "stiTypeDetails": "Reprint (Version printed in journal)",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20170002764,
+    "sourceIdentifiers": [
+     {
+      "number": "doi:10.1002/2016JA022375",
+      "submissionId": 20170002764,
+      "id": "01953cf97281478080eff82a3fe4e382",
+      "type": "DOI"
+     },
+     {
+      "submissionId": 20170002764,
+      "id": "6d09400cedb44db3ae5b598d3530c12f",
+      "descriptor": "doi:10.1002/2016JA022375"
+     }
+    ],
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2017-03-31T12:43:18.0000000+00:00",
+    "center": {
+     "code": "GSFC",
+     "name": "Goddard Space Flight Center",
+     "id": "973fae00c3584b9fb4c762ae9870d0f6"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "A unique view of the trapped particles in the inner magnetosphere provided by energetic neutral atom (ENA) imaging is used to observe the dynamics of the spatial structure and the pitch angle anisotropy on a global scale during the last 6 h of the main phase of a large geomagnetic storm (minimum SYM-H 230 nT) that began on 17 March 2015. Ion flux and pressure anisotropy obtained from Two Wide-angle Imaging Neutral-atom Spectrometers (TWINS) ENA images are shown. The ion flux shows two peaks, an inner one at approximately radii 34 RE in the dusk-to-midnight sector and an outer peak at radii 89 RE prior to midnight. The inner peak is relatively stationary during the entire period with some intensification during the final steep decline in SYM-H to its minimum. The outer peak shows the significant temporal variation brightening and dimming and finally disappearing at the end of the main phase. The pressure anisotropy shows the expected perpendicular pitch angles inside of L 6 but shows parallel pitch angles at greater L values. This is interpreted as consistent with pitch angle-dependent drift as modeled in the Tsy05 magnetic field and Comprehensive Inner Magnetosphere-Ionosphere simulations. The TWINS results are compared directly with Radiation Belt Storm Probes Ion Composition Experiment (RBSPICE)-A measurements. Using 15 min snapshots of flux and pressure anisotropy from TWINS along the path of RBSPICE-A during the 6 h focused upon in this study, the essential features displayed in the TWINS global images are supported.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "publications": [
+     {
+      "volume": "121",
+      "submissionId": 20170002764,
+      "issue": "7",
+      "issn": "2169-9380",
+      "publisher": "American Geophysical Union",
+      "eissn": "2169-9402",
+      "id": "84b2384106dc410dbe299a3fcd88d5d1",
+      "publicationName": "Journal of Geophysical Research: Space Physics",
+      "publicationDate": "2016-07-19T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-08-04-13"
+   }
+  ],
+  "aggregations": {
+   "created": {
+    "buckets": [
+     {
+      "key_as_string": "2013",
+      "key": 1356998400000,
+      "doc_count": 16
+     },
+     {
+      "key_as_string": "2016",
+      "key": 1451606400000,
+      "doc_count": 6
+     },
+     {
+      "key_as_string": "2015",
+      "key": 1420070400000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2022",
+      "key": 1640995200000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2020",
+      "key": 1577836800000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2023",
+      "key": 1672531200000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2024",
+      "key": 1704067200000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2018",
+      "key": 1514764800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "author": {
+    "doc_count_error_upper_bound": 4,
+    "sum_other_doc_count": 200,
+    "buckets": [
+     {
+      "key": "Smith, Scott M.",
+      "doc_count": 4
+     },
+     {
+      "key": "Hargens, Alan R.",
+      "doc_count": 3
+     },
+     {
+      "key": "Macias, Brandon R.",
+      "doc_count": 3
+     },
+     {
+      "key": "Augereau, Jean-Charles",
+      "doc_count": 2
+     },
+     {
+      "key": "Barry, Richard K.",
+      "doc_count": 2
+     },
+     {
+      "key": "Beust, Herve",
+      "doc_count": 2
+     },
+     {
+      "key": "Bonfils, Xavier",
+      "doc_count": 2
+     },
+     {
+      "key": "Borde, Pascal",
+      "doc_count": 2
+     },
+     {
+      "key": "Cem Meydan",
+      "doc_count": 2
+     },
+     {
+      "key": "Charles, J. B.",
+      "doc_count": 2
+     },
+     {
+      "key": "Danchi, William C.",
+      "doc_count": 2
+     },
+     {
+      "key": "De Vivo, Immaculata",
+      "doc_count": 2
+     },
+     {
+      "key": "Fok, Mei-Ching",
+      "doc_count": 2
+     },
+     {
+      "key": "Glocer, Alex",
+      "doc_count": 2
+     },
+     {
+      "key": "Goldstein, J.",
+      "doc_count": 2
+     },
+     {
+      "key": "Greg Eley",
+      "doc_count": 2
+     },
+     {
+      "key": "Hargens, A. R.",
+      "doc_count": 2
+     },
+     {
+      "key": "Hari Ilangovan",
+      "doc_count": 2
+     },
+     {
+      "key": "Kern, Pierre",
+      "doc_count": 2
+     },
+     {
+      "key": "Kundrot, Craig E.",
+      "doc_count": 2
+     }
+    ]
+   },
+   "reportNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 49,
+    "buckets": [
+     {
+      "key": "AIAA PAPER 83-2128",
+      "doc_count": 1
+     },
+     {
+      "key": "DOE/JPL-1012-90",
+      "doc_count": 1
+     },
+     {
+      "key": "E-ISSN: 1432-0576",
+      "doc_count": 1
+     },
+     {
+      "key": "E-ISSN: 2169-9402",
+      "doc_count": 1
+     },
+     {
+      "key": "GSFC-E-DAA-TN40918",
+      "doc_count": 1
+     },
+     {
+      "key": "GSFC-E-DAA-TN54514",
+      "doc_count": 1
+     },
+     {
+      "key": "GSFC.ABS.4313.2011",
+      "doc_count": 1
+     },
+     {
+      "key": "GSFC.JA.4559.2011",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 0002-9165",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 0002-9629",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 0004-6280",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 0021-9606",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 0884-0431",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 0992-7689",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 2169-9380",
+      "doc_count": 1
+     },
+     {
+      "key": "JPL-5101-233",
+      "doc_count": 1
+     },
+     {
+      "key": "JPL-PUB-83-87",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-20375",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-31631",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-32025",
+      "doc_count": 1
+     }
+    ]
+   },
+   "center": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "JSC",
+      "doc_count": 21
+     },
+     {
+      "key": "GSFC",
+      "doc_count": 10
+     },
+     {
+      "key": "CDMS",
+      "doc_count": 8
+     },
+     {
+      "key": "ARC",
+      "doc_count": 3
+     },
+     {
+      "key": "2230",
+      "doc_count": 1
+     }
+    ]
+   },
+   "index": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "submissions-2026-10-08-04-13",
+      "doc_count": 43
+     }
+    ]
+   },
+   "fundingNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 26,
+    "buckets": [
+     {
+      "key": "651549.01.04.10",
+      "doc_count": 2
+     },
+     {
+      "key": "M01-RR00827",
+      "doc_count": 2
+     },
+     {
+      "key": "NAG9-1425",
+      "doc_count": 2
+     },
+     {
+      "key": "NNG11PL02A",
+      "doc_count": 2
+     },
+     {
+      "key": "NNX14AN75G",
+      "doc_count": 2
+     },
+     {
+      "key": "NNX16AO69A",
+      "doc_count": 2
+     },
+     {
+      "key": "10449.2.03.01.28.2020",
+      "doc_count": 1
+     },
+     {
+      "key": "1PO1-HL56693",
+      "doc_count": 1
+     },
+     {
+      "key": "1UO1-NS33460",
+      "doc_count": 1
+     },
+     {
+      "key": "271118.01.01.10",
+      "doc_count": 1
+     },
+     {
+      "key": "51NF40_182901",
+      "doc_count": 1
+     },
+     {
+      "key": "51NF40_205606",
+      "doc_count": 1
+     },
+     {
+      "key": "547714.04.13.02.24 ",
+      "doc_count": 1
+     },
+     {
+      "key": "80HQTR21CA005",
+      "doc_count": 1
+     },
+     {
+      "key": "80JSC022DA035",
+      "doc_count": 1
+     },
+     {
+      "key": "80NSSC23M0005",
+      "doc_count": 1
+     },
+     {
+      "key": "80NSSC24M0123",
+      "doc_count": 1
+     },
+     {
+      "key": "80NSSC25K0168",
+      "doc_count": 1
+     },
+     {
+      "key": "811073",
+      "doc_count": 1
+     },
+     {
+      "key": "DE-AI01-76ET-20356",
+      "doc_count": 1
+     }
+    ]
+   },
+   "published": {
+    "buckets": [
+     {
+      "key_as_string": "2016",
+      "key": 1451606400000,
+      "doc_count": 7
+     },
+     {
+      "key_as_string": "2015",
+      "key": 1420070400000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2020",
+      "key": 1577836800000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "1983",
+      "key": 410227200000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2009",
+      "key": 1230768000000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2010",
+      "key": 1262304000000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "1973",
+      "key": 94694400000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "1978",
+      "key": 252460800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "1987",
+      "key": 536457600000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "1993",
+      "key": 725846400000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "1994",
+      "key": 757382400000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "1999",
+      "key": 915148800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2003",
+      "key": 1041379200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2004",
+      "key": 1072915200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2005",
+      "key": 1104537600000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2011",
+      "key": 1293840000000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2018",
+      "key": 1514764800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2024",
+      "key": 1704067200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "distribution": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "PUBLIC",
+      "doc_count": 43
+     }
+    ]
+   },
+   "stiType": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "ABSTRACT",
+      "doc_count": 15
+     },
+     {
+      "key": "REPRINT",
+      "doc_count": 10
+     },
+     {
+      "key": "CONFERENCE_PAPER",
+      "doc_count": 6
+     },
+     {
+      "key": "PRESENTATION",
+      "doc_count": 5
+     },
+     {
+      "key": "POSTER",
+      "doc_count": 3
+     },
+     {
+      "key": "ACCEPTED_MANUSCRIPT",
+      "doc_count": 2
+     },
+     {
+      "key": "CONTRACTOR_REPORT",
+      "doc_count": 2
+     }
+    ]
+   },
+   "subjectCategory": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Aerospace Medicine",
+      "doc_count": 17
+     },
+     {
+      "key": "Life Sciences (General)",
+      "doc_count": 6
+     },
+     {
+      "key": "Geophysics",
+      "doc_count": 3
+     },
+     {
+      "key": "Space Sciences (General)",
+      "doc_count": 3
+     },
+     {
+      "key": "Astrophysics",
+      "doc_count": 2
+     },
+     {
+      "key": "Earth Resources and Remote Sensing",
+      "doc_count": 2
+     },
+     {
+      "key": "Lunar and Planetary Science and Exploration",
+      "doc_count": 2
+     },
+     {
+      "key": "Space Radiation",
+      "doc_count": 2
+     },
+     {
+      "key": "Aircraft Stability And Control",
+      "doc_count": 1
+     },
+     {
+      "key": "Astronomy",
+      "doc_count": 1
+     },
+     {
+      "key": "Exobiology",
+      "doc_count": 1
+     },
+     {
+      "key": "Inorganic And Physical Chemistry",
+      "doc_count": 1
+     },
+     {
+      "key": "Instrumentation and Photography",
+      "doc_count": 1
+     },
+     {
+      "key": "Lunar And Planetary Exploration",
+      "doc_count": 1
+     },
+     {
+      "key": "Man/System Technology And Life Support",
+      "doc_count": 1
+     },
+     {
+      "key": "Mathematical and Computer Sciences (General)",
+      "doc_count": 1
+     },
+     {
+      "key": "Nonmetallic Materials",
+      "doc_count": 1
+     },
+     {
+      "key": "Physics Of Elementary Particles And Fields",
+      "doc_count": 1
+     },
+     {
+      "key": "Solar Physics",
+      "doc_count": 1
+     },
+     {
+      "key": "Solid-State Physics",
+      "doc_count": 1
+     }
+    ]
+   },
+   "disseminated": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "DOCUMENT_AND_METADATA",
+      "doc_count": 26
+     },
+     {
+      "key": "METADATA_ONLY",
+      "doc_count": 17
+     }
+    ]
+   },
+   "stiTypeDetails": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Abstract",
+      "doc_count": 15
+     },
+     {
+      "key": "Reprint (Version printed in journal)",
+      "doc_count": 10
+     },
+     {
+      "key": "Conference Paper",
+      "doc_count": 6
+     },
+     {
+      "key": "Presentation",
+      "doc_count": 5
+     },
+     {
+      "key": "Poster",
+      "doc_count": 3
+     },
+     {
+      "key": "Accepted Manuscript (Version with final changes)",
+      "doc_count": 2
+     },
+     {
+      "key": "Contractor Report (CR)",
+      "doc_count": 2
+     }
+    ]
+   },
+   "organization": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 68,
+    "buckets": [
+     {
+      "key": "NASA Johnson Space Center",
+      "doc_count": 17
+     },
+     {
+      "key": "NASA Goddard Space Flight Center",
+      "doc_count": 6
+     },
+     {
+      "key": "Wyle (United States)",
+      "doc_count": 4
+     },
+     {
+      "key": "Goddard Space Flight Center",
+      "doc_count": 3
+     },
+     {
+      "key": "Johns Hopkins Univ.",
+      "doc_count": 3
+     },
+     {
+      "key": "Texas Univ.",
+      "doc_count": 3
+     },
+     {
+      "key": "Ames Research Center",
+      "doc_count": 2
+     },
+     {
+      "key": "California Univ.",
+      "doc_count": 2
+     },
+     {
+      "key": "Harvard Medical School",
+      "doc_count": 2
+     },
+     {
+      "key": "Johnson Space Center",
+      "doc_count": 2
+     },
+     {
+      "key": "Loma Linda University",
+      "doc_count": 2
+     },
+     {
+      "key": "National Space Biomedical Research Inst.",
+      "doc_count": 2
+     },
+     {
+      "key": "Rensselaer Polytechnic Institute",
+      "doc_count": 2
+     },
+     {
+      "key": "Science Applications International Corporation (United States)",
+      "doc_count": 2
+     },
+     {
+      "key": "Southwest Research Inst.",
+      "doc_count": 2
+     },
+     {
+      "key": "University of Arizona",
+      "doc_count": 2
+     },
+     {
+      "key": "Weill Cornell Medicine",
+      "doc_count": 2
+     },
+     {
+      "key": "American University",
+      "doc_count": 1
+     },
+     {
+      "key": "Auburn Univ.",
+      "doc_count": 1
+     },
+     {
+      "key": "Blue Marble Space",
+      "doc_count": 1
+     }
+    ]
+   },
+   "modified": {
+    "buckets": [
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 42
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "keyword": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 51,
+    "buckets": [
+     {
+      "key": "Twin Study",
+      "doc_count": 3
+     },
+     {
+      "key": "Adult",
+      "doc_count": 2
+     },
+     {
+      "key": "Clinical Trial",
+      "doc_count": 2
+     },
+     {
+      "key": "Humans",
+      "doc_count": 2
+     },
+     {
+      "key": "Male",
+      "doc_count": 2
+     },
+     {
+      "key": "Posture",
+      "doc_count": 2
+     },
+     {
+      "key": "Randomized Controlled Trial",
+      "doc_count": 2
+     },
+     {
+      "key": "Research Support, U.S. Gov't, Non-P.H.S",
+      "doc_count": 2
+     },
+     {
+      "key": "Research Support, U.S. Gov't, P.H.S",
+      "doc_count": 2
+     },
+     {
+      "key": "Twins, Monozygotic",
+      "doc_count": 2
+     },
+     {
+      "key": "Weightlessness/adverse effects",
+      "doc_count": 2
+     },
+     {
+      "key": "Acid-Base Equilibrium",
+      "doc_count": 1
+     },
+     {
+      "key": "Alkaline Phosphatase/blood",
+      "doc_count": 1
+     },
+     {
+      "key": "Analysis of Variance",
+      "doc_count": 1
+     },
+     {
+      "key": "Antihypertensive Agents/diagnostic use",
+      "doc_count": 1
+     },
+     {
+      "key": "Arachidonic acid",
+      "doc_count": 1
+     },
+     {
+      "key": "Autonomic Nervous System/physiopathology",
+      "doc_count": 1
+     },
+     {
+      "key": "Bed Rest",
+      "doc_count": 1
+     },
+     {
+      "key": "Bed Rest/adverse effects",
+      "doc_count": 1
+     },
+     {
+      "key": "Biological Markers",
+      "doc_count": 1
+     }
+    ]
+   }
+  }
+ }
+}

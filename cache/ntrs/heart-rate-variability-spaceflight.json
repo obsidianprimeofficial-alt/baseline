@@ -1,0 +1,2287 @@
+{
+ "source_url": "https://ntrs.nasa.gov/api/citations/search?q=heart+rate+variability+spaceflight",
+ "fetched_at": "2026-10-03T18:48:14+00:00",
+ "data": {
+  "stats": {
+   "took": 84,
+   "total": 11,
+   "estimate": false,
+   "maxScore": 182.26727
+  },
+  "results": [
+   {
+    "_meta": {
+     "score": 182.26727
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20040087874,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "8f3c4d63e165474d9951d445fe1e6cad",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "Clinical Trial",
+     "STS-90 Shuttle Project",
+     "NASA Experiment Number 9301198",
+     "short duration",
+     "manned",
+     "NASA Discipline Cardiopulmonary",
+     "Non-NASA Center",
+     "Flight Experiment",
+     "Respiratory Mechanics/physiology",
+     "Space Flight",
+     "Arrhythmia, Sinus/physiopathology",
+     "Heart Rate/physiology",
+     "Weightlessness/adverse effects",
+     "Support, U.S. Gov't, P.H.S",
+     "Electrocardiography",
+     "Male",
+     "Support, Non-U.S. Gov't",
+     "Adult",
+     "Human",
+     "Fourier Analysis",
+     "Supine Position/physiology",
+     "Support, U.S. Gov't, Non-P.H.S",
+     "Autonomic Nervous System/physiology",
+     "Vagus Nerve/physiopathology",
+     "Hypotension, Orthostatic/physiopathology"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20040087874,
+     "ear": "NO",
+     "id": "05917231fd1f4e64af4364f4bac87fcf",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-11T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "ISSN: 0363-6135"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "U01-HL-53208-01",
+      "submissionId": 20040087874,
+      "id": "fed166b25e83421880a63c5ff9994947",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Microgravity alters respiratory sinus arrhythmia and short-term heart rate variability in humans",
+    "stiType": "REPRINT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-21T20:02:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20040087874,
+      "meta": {
+       "author": {
+        "name": "Migeotte, P-F"
+       },
+       "organization": {
+        "name": "Universite Libre de Bruxelles",
+        "location": "Belgium"
+       }
+      },
+      "id": "5fa0a2fe3258473da74571a534d8cbde"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20040087874,
+      "meta": {
+       "author": {
+        "name": "Prisk, G. Kim"
+       },
+       "organization": {}
+      },
+      "id": "539c829c74724e36a6ec557860d8cecc"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20040087874,
+      "meta": {
+       "author": {
+        "name": "Paiva, M."
+       },
+       "organization": {}
+      },
+      "id": "9457a4b70b95401791f1542c9aecabb4"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20040087874,
+      "meta": {
+       "author": {
+        "name": "West, J. B."
+       },
+       "organization": {}
+      },
+      "id": "2821ec692a574d4baa65c9feb49cb872"
+     }
+    ],
+    "stiTypeDetails": "Reprint (Version printed in journal)",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20040087874,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-21T20:02:00.0000000+00:00",
+    "center": {
+     "code": "CDMS",
+     "name": "Legacy CDMS",
+     "id": "092d6e0881874968859b972d39a888dc"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "We studied heart rate (HR), heart rate variability (HRV), and respiratory sinus arrhythmia (RSA) in four male subjects before, during, and after 16 days of spaceflight. The electrocardiogram and respiration were recorded during two periods of 4 min controlled breathing at 7.5 and 15 breaths/min in standing and supine postures on the ground and in microgravity. Low (LF)- and high (HF)-frequency components of the short-term HRV (< or =3 min) were computed through Fourier spectral analysis of the R-R intervals. Early in microgravity, HR was decreased compared with both standing and supine positions and had returned to the supine value by the end of the flight. In microgravity, overall variability, the LF-to-HF ratio, and RSA amplitude and phase were similar to preflight supine values. Immediately postflight, HR increased by approximately 15% and remained elevated 15 days after landing. LF/HF was increased, suggesting an increased sympathetic control of HR standing. The overall variability and RSA amplitude in supine decreased postflight, suggesting that vagal tone decreased, which coupled with the decrease in RSA phase shift suggests that this was the result of an adaptation of autonomic control of HR to microgravity. In addition, these alterations persisted for at least 15 days after return to normal gravity (1G).",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "publications": [
+     {
+      "volume": "284",
+      "submissionId": 20040087874,
+      "issue": "6",
+      "issn": "0363-6135",
+      "id": "528c9c980a9345868537c68f362e46cb",
+      "publicationName": "American journal of physiology. Heart and circulatory physiology",
+      "publicationDate": "2003-06-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 178.37584
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 19950039898,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "7d0fca23990149a4990f167eca4175f3",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 19950039898,
+     "ear": "NO",
+     "id": "1a8bbe36d88842e2aca4409564f0a3a7",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-11T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "ISSN: 8750-7587"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NIH-R01-HL-42172",
+      "submissionId": 19950039898,
+      "id": "01117579ae1845fdbb17ec790ebd23f6",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NAG9-514",
+      "submissionId": 19950039898,
+      "id": "7765ecd472e24516aecb6abeb3841b69",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Effects of head-down bed rest on complex heart rate variability: Response to LBNP testing",
+    "stiType": "REPRINT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-16T22:25:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 19950039898,
+      "meta": {
+       "author": {
+        "name": "Goldberger, Ary L."
+       },
+       "organization": {}
+      },
+      "id": "f20da5dc868a41e69cc41d887d0fb05a"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 19950039898,
+      "meta": {
+       "author": {
+        "name": "Mietus, Joseph E."
+       },
+       "organization": {}
+      },
+      "id": "e6efc73c0d5e4ca78ffaa4da27b7857e"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 19950039898,
+      "meta": {
+       "author": {
+        "name": "Rigney, David R."
+       },
+       "organization": {}
+      },
+      "id": "db3c365206d14c45852d4de25d495fa6"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 19950039898,
+      "meta": {
+       "author": {
+        "name": "Wood, Margie L."
+       },
+       "organization": {}
+      },
+      "id": "3f8e83001e3a4b8ba274c5ef63f091b0"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 19950039898,
+      "meta": {
+       "author": {
+        "name": "Fortney, Suzanne M."
+       },
+       "organization": {}
+      },
+      "id": "ac54422f1cf54a3f8e52ad3e083510c5"
+     }
+    ],
+    "stiTypeDetails": "Reprint (Version printed in journal)",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 19950039898,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": "95A71497"
+    },
+    "created": "2013-08-16T22:25:00.0000000+00:00",
+    "center": {
+     "code": "CDMS",
+     "name": "Legacy CDMS",
+     "id": "092d6e0881874968859b972d39a888dc"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Head-down bed rest is used to model physiological changes during spaceflight. We postulated that bed rest would decrease the degree of complex physiological heart rate variability. We analyzed continuous heart rate data from digitized Holter recordings in eight healthy female volunteers (age 28-34 yr) who underwent a 13-day 6 deg head-down bed rest study with serial lower body negative pressure (LBNP) trials. Heart rate variability was measured on a 4-min data sets using conventional time and frequency domain measures as well as with a new measure of signal 'complexity' (approximate entropy). Data were obtained pre-bed rest (control), during bed rest (day 4 and day 9 or 11), and 2 days post-bed rest (recovery). Tolerance to LBNP was significantly reduced on both bed rest days vs. pre-bed rest. Heart rate variability was assessed at peak LBNP. Heart rate approximate entropy was significantly decreased at day 4 and day 9 or 11, returning toward normal during recovery. Heart rate standard deviation and the ratio of high- to low-power frequency did not change significantly. We conclude that short-term bed rest is associated with a decrease in the complex variability of heart rate during LBNP testing in healthy young adult women. Measurement of heart rate complexity, using a method derived from nonlinear dynamics ('chaos theory'), may provide a sensitive marker of this loss of physiological variability, complementing conventional time and frequency domain statistical measures.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "publications": [
+     {
+      "volume": "77",
+      "submissionId": 19950039898,
+      "issue": "6",
+      "issn": "8750-7587",
+      "id": "edf3d97c96a74903a2939ce51d942b5c",
+      "publicationName": "Journal of Applied Physiology",
+      "publicationDate": "1994-12-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 113.77218
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 19950007248,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "75dcb49e8d8746d2a736ca6f9f909fad",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 19950007248,
+     "ear": "NO",
+     "id": "9ae5dc9a63dd4361b0e7e993b37a0ada",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-06-26T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "NAS 1.15:108840",
+     "NASA-TM-108840",
+     "A-94116",
+     "Report Number: NAS 1.15:108840",
+     "Report Number: NASA-TM-108840",
+     "Report Number: A-94116"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "RTOP 199-70-12-14",
+      "submissionId": 19950007248,
+      "id": "9ab33506d0544db68e3fb77c619aff31",
+      "type": "PROJECT"
+     },
+     {
+      "number": "NCC2-115",
+      "submissionId": 19950007248,
+      "id": "cedda89e54fc42bdbba98e84bac17761",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "The effects of autogenic-feedback training on motion sickness severity and heart rate variability in astronauts",
+    "stiType": "TECHNICAL_MEMORANDUM",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-09-06T22:20:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 19950007248,
+      "meta": {
+       "author": {
+        "name": "Toscano, William B."
+       },
+       "organization": {
+        "name": "California Univ.",
+        "location": "Los Angeles, CA., United States"
+       }
+      },
+      "id": "db0b920abfb343218f48ad49e1fa7d41"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 19950007248,
+      "meta": {
+       "author": {
+        "name": "Cowings, Patricia S."
+       },
+       "organization": {
+        "name": "NASA Ames Research Center",
+        "location": "Moffett Field, CA, United States"
+       }
+      },
+      "id": "8561405b70f748f4ac37548338f24d31"
+     }
+    ],
+    "stiTypeDetails": "Technical Memorandum (TM)",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 19950007248,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": "95N13661"
+    },
+    "created": "2013-09-06T22:20:00.0000000+00:00",
+    "center": {
+     "code": "CDMS",
+     "name": "Legacy CDMS",
+     "id": "092d6e0881874968859b972d39a888dc"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Space motion sickness (SMS) affects 50 percent of all people during early days of spaceflight. This study describes the results of two Shuttle flight experiments in which autogenic-feedback training (AFT), a physiological conditioning method, was tested as a treatment for this disorder. Of the six who were designated as flight subjects (two women and four men), three were given treatment and three served as controls (i.e., no AFT). Treatment subjects were given 6 hours of preflight AFT. Preflight results showed that AFT produced a significant increase in tolerance to rotating chair motion sickness tests. Further, this increased tolerance was associated with changes in specific physiological responses and reports of reduced malaise. Flight results showed that two of the three control subjects experienced repeated vomiting on the first mission day, while one subject experienced only moderate malaise. Of the three treatment subjects, one experienced mild discomfort, one moderate discomfort, and one severe motion sickness. Only the three control subjects took medication for symptom suppression. Measures of cardiac function reflective of vagal control were shown to be affected especially strongly on the first day of space flight. AFT given for control of heart rate, respiration, and other autonomic activity influenced both the vagal control measures and SMS. These data suggest that AFT may be an effective treatment for space motion sickness; however, this cannot be demonstrated conclusively with the small number of subjects described.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "publications": [
+     {
+      "submissionId": 19950007248,
+      "id": "b9742fd7831d4026852c03dad240bb0a",
+      "publicationDate": "1994-10-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "19950007248.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/19950007248/downloads/19950007248.pdf",
+       "pdf": "/api/citations/19950007248/downloads/19950007248.pdf",
+       "fulltext": "/api/citations/19950007248/downloads/19950007248.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 107.03502
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20100036638,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "ca5afbd2f2a0422a8fb8549022581491",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20100036638,
+     "ear": "NO",
+     "id": "ca2c6f29037348b08c75828806eafffc",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-21884",
+     "Report Number: JSC-CN-21884"
+    ],
+    "title": "Spaceflight-Induced Cardiovascular Changes and Recovery During NASA's Functional Task Test",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-25T00:32:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20100036638,
+      "meta": {
+       "author": {
+        "name": "Arzeno, N. M."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "489f65b165ac48e4b9b033725f8fa157"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20100036638,
+      "meta": {
+       "author": {
+        "name": "Stenger, M. B."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "21756f567d7849cdb9f68015396f4a0a"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20100036638,
+      "meta": {
+       "author": {
+        "name": "Bloomberg, J. J."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "7d5f88b75f1b40429c45be8ac542e986"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20100036638,
+      "meta": {
+       "author": {
+        "name": "Platts, S. H."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "4cf36d9e0320412c9e9527ab2b60f12c"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20100036638,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-25T00:32:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "Microgravity-induced physiological changes could impair a crewmember s performance upon return to a gravity environment. The Functional Task Test (FTT) is designed to correlate these physiological changes to performance in mission-critical tasks. The Recovery from Fall/Stand Test (RFST) simulates one such task, measuring the ability to recover from a prone position and the cardiovascular response to orthostasis. The purpose of this study was to evaluate spaceflight-induced cardiovascular changes during the FTT. METHODS: Five astronauts participated in the FTT before 10-15 day missions, on landing day (R+0), and one (R+1), six (R+6) and thirty (R+30) days after landing. The RFST consisted of a 2-minute prone rest followed by a 3-minute stand during which heart rate (HR, Holter) and continuous blood pressure (BP, Finometer) were measured. Spectral heart rate variability (HRV) was calculated during the RFST to approximate autonomic function. Statistical analysis was performed with two-factor repeated measures ANOVA. RESULTS: During RFST, HR was higher on R+0 than preflight (p<0.004). This increase in HR persisted on R+1 and R+6 during the stand portion of RFST (p<0.026). BP was well-regulated on all test days. Parasympathetic activity was diminished on R+0 (p=0.035). Sympathovagal balance tended to be affected by spaceflight (main effect, p=0.072), appearing to be slightly elevated during postflight RFST except on R+30. Additionally, analysis of HR during the functional tasks yielded a higher HR on R+0 than preflight during 8 of 11 tasks analyzed, where all tasks had HR return to preflight values by R+30 (p<0.05). CONCLUSION: Spaceflight causes an increase in HR, decrease in parasympathetic activity, and increase in sympathovagal balance, which we confirmed during RFST. These spaceflight-induced changes seen in the RFST, along with the increased postflight HR in most functional tasks, can be used to assess functional performance after short-duration spaceflight.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20100036638,
+      "endDate": "2011-04-15T00:00:00.0000000+00:00",
+      "name": "18th IAA Humans in Space Symposium",
+      "location": "Houston, TX",
+      "id": "98d854761b7446b381a3e4625686c4cf",
+      "startDate": "2011-04-11T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20100036638,
+      "id": "c84c559b61d9449fa07451ea22d2c534",
+      "publicationDate": "2010-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20100036638.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20100036638/downloads/20100036638.pdf",
+       "pdf": "/api/citations/20100036638/downloads/20100036638.pdf",
+       "fulltext": "/api/citations/20100036638/downloads/20100036638.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 70.03646
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20090038932,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "cb93272a19c34754b51947d4560d0548",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20090038932,
+     "ear": "NO",
+     "id": "fa09fc4ee3cc48068688996c0b784814",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-19138",
+     "Report Number: JSC-CN-19138"
+    ],
+    "title": "Validation of Cardiovascular Parameters during NASA's Functional Task Test",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-24T19:32:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20090038932,
+      "meta": {
+       "author": {
+        "name": "Arzeno, N. M."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "34fe0a066dce420ba8f81cf408752bcb"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20090038932,
+      "meta": {
+       "author": {
+        "name": "Stenger, M. B."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "ef02282ddad040ec9633b220fec5a6cd"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20090038932,
+      "meta": {
+       "author": {
+        "name": "Bloomberg, J. J."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "cf343854391448d39cce31d09a7a5270"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20090038932,
+      "meta": {
+       "author": {
+        "name": "Platts, S. H."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "f307ed56b750486f949c3d00454cfd91"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20090038932,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-24T19:32:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "Microgravity exposure causes physiological deconditioning and impairs crewmember task performance. The Functional Task Test (FTT) is designed to correlate these physiological changes to performance in a series of operationally-relevant tasks. One of these, the Recovery from Fall/Stand Test (RFST), tests both the ability to recover from a prone position and cardiovascular responses to orthostasis. PURPOSE: Three minutes were chosen for the duration of this test, yet it is unknown if this is long enough to induce cardiovascular responses similar to the operational 5 min stand test. The purpose of this study was to determine the validity and reliability of heart rate variability (HRV) analysis of a 3 min stand and to examine the effect of spaceflight on these measures. METHODS: To determine the validity of using 3 vs. 5 min of standing to assess HRV, ECG was collected from 7 healthy subjects who participated in a 6 min RFST. Mean R-R interval (RR) and spectral HRV were measured in minutes 0-3 and 0-5 following the heart rate transient due to standing. Significant differences between the segments were determined by a paired t-test. To determine the reliability of the 3-min stand test, 13 healthy subjects completed 3 trials of the FTT on separate days, including the RFST with a 3 min stand. Analysis of variance (ANOVA) was performed on the HRV measures. One crewmember completed the FTT before a 14-day mission, on landing day (R+0) and one (R+1) day after returning to Earth. RESULTS VALIDITY: HRV measures reflecting autonomic activity were not significantly different during the 0-3 and 0-5 min segments. RELIABILITY: The average coefficient of variation for RR, systolic (SBP) and diastolic blood pressures during the RFST were less than 8% for the 3 sessions. ANOVA results yielded a greater inter-subject variability (p<0.006) than inter-session variability (p>0.05) for HRV in the RFST. SPACEFLIGHT: Lower RR and higher SBP were observed on R+0 in rest and stand. On R+1, both RR and SBP trended towards preflight rest and stand values. Postflight HRV showed higher LF/HF for rest and stand and lower HFnu during rest. CONCLUSION: These studies show that a 3 min stand delivers repeatable HRV data in the context of this larger series of FTT tests. Spaceflight-induced changes in blood pressure, RR and autonomic function (HRV) are evident from the RFST.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20090038932,
+      "endDate": "2010-06-05T00:00:00.0000000+00:00",
+      "name": "American College of Sports Medicine Annual meeting",
+      "location": "Baltimore, MD",
+      "id": "4983c27e9d334d31bad51c452318acad",
+      "startDate": "2010-06-02T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20090038932,
+      "id": "42eec0c95f0549869f5cf5e9c08afcd9",
+      "publicationDate": "2009-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 58.211838
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20140003747,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "49b934c6b4c84753bbb7361523b8963a",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20140003747,
+     "ear": "NO",
+     "id": "1d08a205a7ae42b89a6f6af8cda4b2c8",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-29964",
+     "Report Number: JSC-CN-29964"
+    ],
+    "title": "Contributions of Astronauts Aerobic Exercise Intensity and Time on Change in VO2peak during Spaceflight",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2014-04-25T06:56:16.5300000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20140003747,
+      "meta": {
+       "author": {
+        "name": "Downs, Meghan E."
+       },
+       "organization": {
+        "name": "Houston Univ.",
+        "location": "TX, United States"
+       }
+      },
+      "id": "5f4bdf17f42a4a6180eb1f5899271456"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20140003747,
+      "meta": {
+       "author": {
+        "name": "Buxton, Roxanne"
+       },
+       "organization": {
+        "name": "Houston Univ.",
+        "location": "TX, United States"
+       }
+      },
+      "id": "80dae3bd13da4cc79f496aa5d729327e"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20140003747,
+      "meta": {
+       "author": {
+        "name": "Moore, Alan"
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "f7ebb38ed5c040249bb4e22151ce2a40"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20140003747,
+      "meta": {
+       "author": {
+        "name": "Ploutz-Snyder, Robert"
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "2fefda6200754caea2f1298bd03a8d37"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20140003747,
+      "meta": {
+       "author": {
+        "name": "Ploutz-Snyder, Lori"
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "f53bb6f757264a9f8555a94a80e307f6"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20140003747,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2014-04-25T06:56:16.5300000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "There is considerable variability among astronauts with respect to changes in maximal aerobic capacity (VO2peak) during International Space Station (ISS) missions, ranging from a 5% increase to 30% decline. Individual differences may be due to in-flight aerobic exercise time and intensity. PURPOSE: To evaluate the effects of in-flight aerobic exercise time and intensity on change in VO2peak during ISS missions. METHODS: Astronauts (N=11) performed peak cycle tests approx 60 days before flight (L-60), on flight day (FD) approx 14, and every approx 30 days thereafter. Metabolic gas analysis and heart rate (HR) were measured continuously during the test using the portable pulmonary function system. HR and duration of each in-flight cycle ergometer and treadmill (TM) session were recorded and averaged in time segments corresponding to each peak test. Mixed effects linear regression with exercise mode (TM or cycle) as a categorical variable was used to assess the contributions of exercise intensity (%time >70% peak HR or %time >90% peak HR) and time (min/wk), adjusted for body weight, on %change in VO2peak during the mission, and incorporating the repeated-measures experimental design. RESULTS: 110 observations were included in the model (4-6 peak cycle tests per astronaut, 2 exercise devices). VO2peak was reduced from preflight throughout the mission (FD14: 13+/-13% and FD 105: 8+/-10%). Exercise intensity (%peak HR: FD14=66+/-14; FD105=75+/-8) and time (min/wk: FD14=82+/-46; FD105=158+/-40) increased during flight. The models showed main effects for exercise time and intensity with no interactions between time, intensity, and device (70% peak HR: time [z-score=2.39; P=0.017], intensity [z-score=3.51; P=0.000]; 90% peak HR: time [zscore= 3.31; P=0.001], intensity [z-score=2.24; P=0.025]). CONCLUSION: Exercise time and intensity independently contribute to %change in VO2peak during ISS missions, indicating that there are minimal values for exercise time and intensity required to maintain VO2peak. As the FD105 average exercise intensity and time did not prevent a decline in VO2peak from preflight, astronauts' exercise prescriptions should target at least 160 min of weekly aerobic exercise at an average above 75% peak HR with increased time at intensities above 90% of peak HR starting early in the mission.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20140003747,
+      "name": "American College of Sports Medicine",
+      "location": "Indianapolis, IN, United States",
+      "id": "dccee916519f4c2a94145664f69c5cad"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20140003747,
+      "endDate": "2014-05-31T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "American College of Sports Medicine",
+          "location": "Indianapolis, IN, United States"
+         }
+        },
+        "meetingId": "90e781ef036e4a7ca7edd981fa1ab776",
+        "id": "34ae9f9307344c048711593ab161c5d9"
+       }
+      ],
+      "name": "American College of Sports Medicine (ACSM) Annual Meeting 2014",
+      "location": "Orlando, FL",
+      "id": "90e781ef036e4a7ca7edd981fa1ab776",
+      "startDate": "2014-05-27T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20140003747,
+      "id": "e41a892319084bf9a1a8385e97f082a4",
+      "publicationDate": "2014-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20140003747.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20140003747/downloads/20140003747.pdf",
+       "pdf": "/api/citations/20140003747/downloads/20140003747.pdf",
+       "fulltext": "/api/citations/20140003747/downloads/20140003747.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 52.973907
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20140013494,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "0e65ae226ccc469eb815e18c60d230e0",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20140013494,
+     "ear": "NO",
+     "id": "aacc2bf583f14eb49621fb807b6de79c",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-08-12T18:27:51.3370000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-32214",
+     "Report Number: JSC-CN-32214"
+    ],
+    "title": "Forecasting Sensorimotor Adaptability from Baseline Inter-Trial Correlations",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2014-11-14T09:16:44.2000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20140013494,
+      "meta": {
+       "author": {
+        "name": "Beaton, K. H."
+       },
+       "organization": {
+        "name": "National Space Biomedical Research Inst.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "5d367a10a92641a9aa7ce966a5246eb1"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20140013494,
+      "meta": {
+       "author": {
+        "name": "Bloomberg, J. J."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "53097d650a624f8eb418f54a5cff093c"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20140013494,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2014-11-14T09:16:44.2000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "One of the greatest challenges surrounding adaptation to the spaceflight environment is the large variability in symptoms, and corresponding functional impairments, from one crewmember to the next. This renders preflight training and countermeasure development difficult, as a \"one-size-fits-all\" approach is inappropriate. Therefore, it would be highly advantageous to know ahead of time which crewmembers might have more difficulty adjusting to the novel g-levels inherent to spaceflight. Such knowledge could guide individually customized countermeasures, which would enable more efficient use of crew time, both preflight and inflight, and provide better outcomes. The primary goal of this project is to look for a baseline performance metric that can forecast sensorimotor adaptability without exposure to an adaptive stimulus. We propose a novel hypothesis that considers baseline inter-trial correlations, the trial-to-trial fluctuations in motor performance, as a predictor of individual sensorimotor adaptive capabilities. To-date, a strong relationship has been found between baseline inter-trial correlations and adaptability in two oculomotor systems. For this project, we will explore an analogous predictive mechanism in the locomotion system. METHODS: Baseline Inter-trial Correlations: Inter-trial correlations specify the relationships among repeated trials of a given task that transpire as a consequence of correcting for previous performance errors over multiple timescales. We can quantify the strength of inter-trial correlations by measuring the decay of the autocorrelation function (ACF), which describes how rapidly information from past trials is \"forgotten.\" Processes whose ACFs decay more slowly exhibit longer-term inter-trial correlations (longer memory processes), while processes whose ACFs decay more rapidly exhibit shorterterm inter-trial correlations (shorter memory processes). Longer-term correlations reflect low-frequency activity, which is more easily measured in the frequency domain. Therefore, we use the power spectrum (PS), which is the Fourier transform of the ACF, to describe our inter-trial correlations. The decay of the PS yields a straight line on a log-log frequency plot, which we quantify by Beta = - (slope of PS on log-log axes). Hence, Beta is a measure of the strength of inter- trial correlations in the baseline data. Larger Beta values are indicative of longer inter-trial correlations. Experimental Approach: We will begin by performing a retrospective analysis of treadmill-gait adaptation data previously collected by Dr. Bloomberg and colleagues. Specifically, we will quantify the strength of inter-trial correlations in the baseline step cadence and heart rate data and compare it to the locomotor adaptability performance results already described by these investigators. Incorporating these datasets will also allow us to explore the applicability of (and potential limitations surrounding) the use of Beta in forecasting physiological performance. We will also perform a new experiment, in which Beta will be derived from baseline data collected during over-ground (non-treadmill) walking, which will enable us to consider locomotor performance, through the parameter Beta, under the most functionallyrelevant, natural gait condition. This experiment will incorporate two baseline and five post-training over-ground locomotion tests to explore the consistency and potential adaptability of the Beta values themselves. HYPOTHESES: We hypothesize that the strength of baseline inter-trial correlations of step cadence and heart rate will relate to locomotor adaptability. Specifically, we anticipate that individuals who show weaker longer-term inter-trial correlations in baseline step cadence data will be the better adaptors, as step cadence can be modified in real-time (i.e., online corrections are an inherent property of the locomotor system; analogous to results observed in the VOR). Conversely, because heart rate is not altered mid-beat, we expect that individuals who demonstrate stronger longer-term correlations in heart rate will be the better adaptors (analogous to results observed in the saccadic system). CONCLUSIONS: At the conclusion of this project we hope to uncover a baseline predictor of locomotor adaptability. If our hypotheses hold true, our results will demonstrate that the temporal structure of baseline behavioral data contains important information that may aid in forecasting adaptive capacities. The ability to predict such adaptability in the sensorimotor system has significant implications for spaceflight, where astronauts must adjust their motor programs following a change in g-level to retain movement accuracy.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20140013494,
+      "name": "National Space Biomedical Research Inst.",
+      "location": "Houston, TX, United States",
+      "id": "f844696035514fdcab3f7b945b707ccd"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20140013494,
+      "endDate": "2015-01-15T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "0bba4b66c88d4f6b9af09a68495f6606",
+        "meta": {
+         "organization": {
+          "name": "NASA Headquarters",
+          "location": "Washington, DC, United States"
+         }
+        },
+        "meetingId": "70d3793507b7425baec3011c954a774a",
+        "id": "312fb3e4cee04932b5a631865ab3271a"
+       },
+       {
+        "meta": {
+         "organization": {
+          "name": "National Space Biomedical Research Inst.",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "70d3793507b7425baec3011c954a774a",
+        "id": "7e3a50f2b82b4d39977df663172a3620"
+       }
+      ],
+      "name": "NASA''s Human Research Program Investigator''s Workshop",
+      "location": "Galveston, TX",
+      "id": "70d3793507b7425baec3011c954a774a",
+      "startDate": "2015-01-13T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20140013494,
+      "id": "3d55dc4f4c4d456e8ea3361ff42240c0",
+      "publicationDate": "2014-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20140013494.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20140013494/downloads/20140013494.pdf",
+       "pdf": "/api/citations/20140013494/downloads/20140013494.pdf",
+       "fulltext": "/api/citations/20140013494/downloads/20140013494.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 52.243645
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20110023259,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "a7ef48e8bb6844f49e9e2925150fd4a1",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20110023259,
+     "ear": "NO",
+     "id": "b7de79b4227d47fca5b8a1cfad20ccf3",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-25210",
+     "Report Number: JSC-CN-25210"
+    ],
+    "title": "Use of Minute-by-Minute Cardiovascular Measurements During Tilt Tests to Strengthen Inference on the Effect of Long-Duration Space Flight on Orthostatic Hypotension",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-25T08:20:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20110023259,
+      "meta": {
+       "author": {
+        "name": "Feiveson, Alan H."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "cd12637c54304e3fbc35f1271a6993fa"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20110023259,
+      "meta": {
+       "author": {
+        "name": "Lee, Stuart M. C."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "65532018e1fd463c891e43883f650c64"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20110023259,
+      "meta": {
+       "author": {
+        "name": "Stenger, Michael B."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "9b1eb852bafa45e4be0b7322b8ed0503"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20110023259,
+      "meta": {
+       "author": {
+        "name": "Stein, Sydney P."
+       },
+       "organization": {
+        "name": "MEI Technologies, Inc.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "17301da47ad24f3cbc182e1d49e30451"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20110023259,
+      "meta": {
+       "author": {
+        "name": "Platts, Steven H."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "dc799855c72c4a928451a12d6be869f4"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20110023259,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-25T08:20:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "Typical methodology for evaluating the effects of spaceflight on orthostatic hypotension (OH) has been survival analysis of tolerance times from 80 head-up tilt tests. However when scheduled test durations are short, there may not be enough failures to allow survival analysis to adequately estimate and compare the effects of flight phase (e.g. pre-flight, number of days post-flight), flight duration, and their interaction, as well as interactions with effects of interventions or countermeasures. The problem is exacerbated in the presence of a repeated measures design, in which subjects participate in tilt tests during various flight phases. Here we show how it is possible to dramatically improve the efficiency of statistical inference in this setting by making use of the additional information contained in minute-by-minute observations of cardiovascular parameters thought to be reflective of progression towards presyncope during tilt testing. Methods: We retrospectively examined operational tilt test (OTT; 10 -min 80 head-up tilt) data from 20 International Space Station (ISS) and 66 Shuttle astronauts 10 d before launch (L-10), on landing day (R+0) and during recovery (R+1, R+3, R+6-10) depending on the level of participation. Data from 5 ISS astronauts tested on R+0 or R+1 who used non-standard countermeasures were excluded. In addition to OTT survival time, 8 cardiovascular parameters (CP: heart rate, systolic, diastolic, and mean arterial blood pressure, pulse pressure, stroke volume, cardiac output, and total peripheral resistance) that might be predictive of progression towards presyncope were measured every minute of each OTT. Statistical analysis was predicated on a two ]stage model of causation. In the first stage, flight duration and time from landing affect the astronauts' degree of OH, which is manifested in the time trends and variation of the above CPs during OTTs. In the second stage, the behavior of these parameters directly affects OTT survival time. Actual analysis proceeded in the opposite direction. First we identified those CPs or linear combinations that best predicted OTT survival regardless of what spaceflight conditions led to OTT completion or presyncope. From these, we calculated a summary statistic (one per OTT) that best predicted survival. We then used mixed ]model regression analysis to relate changes in the summary statistic to flight phase and duration. Inference on the effects of phase, duration, and their interaction on OH follows directly from this second analysis. Results: A linear combination (W) of diastolic blood pressure (DBP) and stroke volume (SV) was found to be the best predictor of OTT survival using the complete data set of minute-by-minute observations of CPs for each OTT. Furthermore, the log-transformed standard deviation of W (Z = log SW) was found to be a strong predictor of survival in the reduced data set consisting of one observation per OTT. In other words, this measure of variability of W during an OTT was the best indicator of whether or not the subject could complete the 10-min test, with higher variability (i.e. higher values of Z) being associated with greater probability of failure. In the mixed-model regression analysis where Z was now treated as a outcome with flight phase and duration groups (ISS and STS) as predictors, we found that there was a significantly more variability in W (higher values of Z) for both groups at R+0, but with no evidence of an interaction until R+3, when the ISS group still had inflated variability, but not the STS group. Conclusions: Variability of the cardiovascular index W recovers more slowly after long-compared to short-duration spaceflight. Since high variability of W has also been shown to be predictive of OTT failure, a primary manifestation of OH, a logical conclusion is that recovery from OH also is slower after long-duration compared to short-duration spaceflights.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20110023259,
+      "name": "NASA Johnson Space Center",
+      "location": "Houston, TX, United States",
+      "id": "8d6d23dd9a904018b3b63e17e86d3eee"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20110023259,
+      "endDate": "2012-02-16T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "NASA Johnson Space Center",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "9ad80d32328f44a2883173f36a89e812",
+        "id": "8ca9a4775f414e7b9b1ca9751f8fdb3d"
+       }
+      ],
+      "name": "2012 NASA Human Research Program Investigators'' Workshop",
+      "location": "Houston, TX",
+      "id": "9ad80d32328f44a2883173f36a89e812",
+      "startDate": "2012-02-14T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20110023259,
+      "id": "bc4f1e56857943e4b2b439aadc317e18",
+      "publicationDate": "2011-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20110023259.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20110023259/downloads/20110023259.pdf",
+       "pdf": "/api/citations/20110023259/downloads/20110023259.pdf",
+       "fulltext": "/api/citations/20110023259/downloads/20110023259.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 50.336296
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20080045878,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "da7cd79f99a5471e88303bd9c2452aa8",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20080045878,
+     "ear": "NO",
+     "id": "f4521238a12744d8b6c28422bc5ed680",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "title": "Baroreflex Sensitivity Decreases During 90-Day Bed Rest",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-24T07:43:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20080045878,
+      "meta": {
+       "author": {
+        "name": "Stenger, M. B."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "529a2a6e5ff34bab856d74c6873b2e3e"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20080045878,
+      "meta": {
+       "author": {
+        "name": "Arzeno, N. M."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "3a9cabcd90224b35b2acc72c178c2b25"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20080045878,
+      "meta": {
+       "author": {
+        "name": "Platts, S. H."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "85c2d0b4426e49499d87806c7d6238fe"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20080045878,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-24T07:43:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "Baroreflex sensitivity (BRS) decreases during spaceflight and simulated spaceflight (head down bed rest [BR]). However, previous studies have only examined BRS in response to a limited blood pressure (BP) range or to a single sudden change in BP. PURPOSE: The purpose of this study was to examine BRS during 90 days of 6deg head-down tilt BR over a broad range of BP perturbations. METHODS: Nineteen normal volunteers (12M, 7F) were tested one day before BR, and then near BR days 30, 60 and 90. BP was pharmacologically altered by continuous infusions of phenylephrine (PE) and sodium nitroprusside (SNP). Electrocardiogram and continuous BP were collected during 10 min of normal saline (NS), followed by increasing concentrations of PE (10 min each of 0.4, 0.8 and 1.6 micro-g/kg/min). After a 20 min break, NS was infused again for 10 min, followed by increasing concentrations of SNP (10 min each of 0.4, 0.8, 1.2 micro-g/kg/min). Baroreceptor sensitivity was measured as the slope of a sequence of 3 or more beats in which the systolic BP and following R-R interval (RR) both increased or decreased. Spectral heart rate variability (HRV) and mean RR were analyzed using data from only the NS infusions. Two-way repeated-measures analysis of variance was performed to examine the effects of BR and gender. RESULTS: RR decreased (p<0.001) from pre- BR across BR days. High frequency in normalized units, a measure of parasympathetic activity, decreased with BR (p=0.027) and was lower (p=0.046) in men (0.39+/-0.02, mean+/-SEM) than women (0.48+/-0.02). The spontaneous baroreflex slope, our measure of BRS, increased with PE and decreased with SNP across BR (p<0.001). The percentage decrease in BRS from pre- to post-BR appeared to be larger in women (43.6+/-7.0%) than in men (31.3+/-3.9%, p=0.06). CONCLUSION: Parasympathetic activity and baroreflex sensitivity decrease during 90 days of BR, and BRS tends to diminish more in women than in men.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20080045878,
+      "endDate": "2009-05-30T00:00:00.0000000+00:00",
+      "name": "56th Annual Meeting of the American College of Sports Medicine (ACSM)",
+      "location": "Seattle, WA",
+      "id": "ef687038f9f740ac9de7f1638a3fb43d",
+      "startDate": "2009-05-27T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20080045878,
+      "id": "a71cad8f9c1047ea9bf06dee2664e234",
+      "publicationDate": "2008-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 15.47418
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20060054289,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "c07fbea3e926467fab4d497fee09fd22",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20060054289,
+     "ear": "NO",
+     "id": "0cf6e41b0b2a44fe98b89d16678498ab",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "ISSN: 1077-9248"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NNG05GM59G",
+      "submissionId": 20060054289,
+      "id": "bb328089ed134e9888c22221db71334f",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Journal of Gravitational Physiology, Volume 12, Number 1",
+    "stiType": "OTHER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-23T19:19:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20060054289,
+      "meta": {
+       "author": {
+        "name": "Fuller, Charles A."
+       },
+       "organization": {}
+      },
+      "id": "33eb3509f89e4580b7465128946a6d9c"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20060054289,
+      "meta": {
+       "author": {
+        "name": "Cogoli, Augusto"
+       },
+       "organization": {}
+      },
+      "id": "8417d627244c46058220f3206b40ca58"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20060054289,
+      "meta": {
+       "author": {
+        "name": "Hargens, Alan R."
+       },
+       "organization": {}
+      },
+      "id": "4678a07daff74feebdd90d73ddffa220"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20060054289,
+      "meta": {
+       "author": {
+        "name": "Smith, Arthur H."
+       },
+       "organization": {}
+      },
+      "id": "d0e16085a4b9455f97f1dfbf3bd4e507"
+     }
+    ],
+    "stiTypeDetails": "Other - Journal Issue",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20060054289,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-23T19:19:00.0000000+00:00",
+    "center": {
+     "code": "GSFC",
+     "name": "Goddard Space Flight Center",
+     "id": "973fae00c3584b9fb4c762ae9870d0f6"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "The following topics were covered: System Specificity in Responsiveness to Intermittent -Gx Gravitation during Simulated Microgravity in Rats; A Brief Overview of Animal Hypergravity Studies; Neurovestibular Adaptation to Short Radius Centrifugation; Effect of Artificial Gravity with Exercise Load by Using Short-Arm Centrifuge with Bicycle Ergometer as a Countermeasure Against Disused Osteoporosis; Perception of Body Vertical in Microgravity during Parabolic Flight; Virtual Environment a Behavioral and Countermeasure Tool for Assisted Gesture in Weightlessness: Experiments during Parabolic Flight; Artificial Gravity: Physiological Perspectives for Long-Term Space Exploration; Comparison of the Effects of DL-threo-Beta-Benzyloxyaspartate on the Glutamate Release from Synaptosomes before and after Exposure of Rats to Artificial Gravity; Do Perception and Postrotatory Vestibulo-Ocular Reflex Share the Same Gravity Reference?; Vestibular Adaptation to Changing Gravity Levels and the Orientation of Listing's Plane; Compound Mechanism Hypothesis on +Gz - Induced Brain Injury and Dysfunction of Learning and Memory; Environmental Challenge Impairs Prefrontal Brain Functions; Effect of 6-Days of Support Withdrawal on Characteristics of Balance Function; Hypergravity-Induced Changes of Neuronal Activities in CA1 Region of Rat Hippocampus; Audiological Findings in Antiorthostatic Position Modelling Microgravitation; Investigating Human Cognitive Performance during Spaceflight; The Relevance of the Minimization of Torque Exchange with the Environment in Weightlessness is Confirmed by Asimulation Study; Characteristics of the Eyes Pursuit Function during Readaptation to Terrestrial Gravity after Prolonged Flights Aboard the International Space Station; Comparison of Cognitive Performance Tests for Promethazine Pharmacodynamics in Human Subjects; Structural Reappraisal of Dendritic Tree of Cerebellar Purkinje Cell for Novel Functional Modeling of Elementary Sensorimotor Adaptive Processes; Orpheus 0 G or Ear in Microgravity to Establish Symptoms Concomittant of Inner and Middle Ear and Osteoporosis in Microgravity; Understanding Visual Perception in the Perspective of Gravity; Cortical Regions Associated with Orthostatic Stress in Conscious Humans; Restoration of Central Blood Volume: Application of a Simple Concept and Simple Device to Counteract Cardiovascular Instability in Syncope and Hemorrhage; WISE-2005: Integrative Cardiovascular Responses with LBNP during 60-Day Bed Rest in Women; Intracranial Pressure Increases during Weightlessness. A Parabolic Flights Study; Lower Limb & Portal Veins Echography for Predicting Risk of Thrombosis during a 90-D Bed Rest; Calf Tissue Liquid Stowage and Muscular and Deep Vein Distension in Orthostatic Tests after a 90-Day Head Down Bed Rest; Morphology of Brain Vessels in the Tail Suspended Rats Exposed to Intermittent 2 G; Alterations in Vasoreactivity of Femoral Artery Induced by Hindlimb Unweighting are Related to the Changes of Contractile Protein in Rats; and Respiratory Sinus Arrhythmia: A Marker of Decreased Parasympathetic Modulation after Short Duration.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "meetings": [
+     {
+      "submissionId": 20060054289,
+      "name": "International Society for Gravitational Physiology",
+      "location": "Washington, DC, United States",
+      "id": "ec901da2d97446d08990c258f9b1c0e1"
+     },
+     {
+      "country": "Germany",
+      "submissionId": 20060054289,
+      "endDate": "2005-07-01T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "International Society for Gravitational Physiology",
+          "location": "Washington, DC, United States"
+         }
+        },
+        "meetingId": "d8cc7e3815e848978b5fc60a24283191",
+        "id": "f27f18ced979459692fd2af785588f35"
+       }
+      ],
+      "name": "26th Annual Gravitational Physiology Meeting",
+      "location": "Cologne",
+      "id": "d8cc7e3815e848978b5fc60a24283191",
+      "startDate": "2005-06-26T00:00:00.0000000+00:00"
+     },
+     {
+      "country": "Japan",
+      "submissionId": 20060054289,
+      "endDate": "2006-04-28T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "International Society for Gravitational Physiology",
+          "location": "Washington, DC, United States"
+         }
+        },
+        "meetingId": "4430aa1b147d428ca8f12ba92491197e",
+        "id": "121a817d758247c79354bd8eb0dea083"
+       }
+      ],
+      "name": "27th Annual International Gravitational Physiology Meeting",
+      "location": "Osaka",
+      "id": "4430aa1b147d428ca8f12ba92491197e",
+      "startDate": "2006-04-23T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20060054289,
+      "issn": "1077-9248",
+      "publisher": "Galileo Foundation",
+      "id": "03259a5a675d418ba592dfcfaf9cea57",
+      "publicationDate": "2005-07-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054322,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Alterations in Vasoreactivity of Femoral Artery Induced by Hindlimb Unweighting are Related to the Changes of Contractile Protein in Rats",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054418,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Nutritional and Flavor Components of Brassica Xapa L. Grown on ISS",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054397,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Role of Possible Feedback Mechanisms in the Effects of Altered Gravity on Formation and Function of Gravireceptors of Mollusks and Fish",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054417,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Human Adaptation Genetic Response Suites: Toward New Interventions and Countermeasures for Spaceflight",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054320,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Microgravity and Signaling Molecules in Rat Osteoblasts: Downstream of Receptor Tyrosine Kinase, G-Protein-Coupled Receptor, and Small GTP-Binding Proteins",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054322,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Alterations in Vasoreactivity of Femoral Artery Induced by Hindlimb Unweighting are Related to the Changes of Contractile Protein in Rats",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054323,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Effect of Sampling Schedule on Pharmacokinetic Parameter Estimates of Promethazine in Astronauts",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054353,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Prenatal Centrifugation: A Mode1 for Fetal Programming of Body Weight?",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054373,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Analysis of Pdeudomonas aeruginosa Growth and Virulence in Modelled Microgravity",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054384,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Comparison of Cognitive Performance Tests for Promethazine Pharmacodynamics in Human Subjects",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054397,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Role of Possible Feedback Mechanisms in the Effects of Altered Gravity on Formation and Function of Gravireceptors of Mollusks and Fish",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054401,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "WISE-2005: Integrative Cardiovascular Responses with LBNP during 60-Day Bed Rest in Women",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054415,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Centrifugation Effects on Estrous Cycling, Mating Success and Pregnancy Outcome in Rats",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054417,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Human Adaptation Genetic Response Suites: Toward New Interventions and Countermeasures for Spaceflight",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054418,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Nutritional and Flavor Components of Brassica Xapa L. Grown on ISS",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054384,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Comparison of Cognitive Performance Tests for Promethazine Pharmacodynamics in Human Subjects",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054353,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Prenatal Centrifugation: A Mode1 for Fetal Programming of Body Weight?",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054373,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Analysis of Pdeudomonas aeruginosa Growth and Virulence in Modelled Microgravity",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054320,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Microgravity and Signaling Molecules in Rat Osteoblasts: Downstream of Receptor Tyrosine Kinase, G-Protein-Coupled Receptor, and Small GTP-Binding Proteins",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054415,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Centrifugation Effects on Estrous Cycling, Mating Success and Pregnancy Outcome in Rats",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054401,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "WISE-2005: Integrative Cardiovascular Responses with LBNP during 60-Day Bed Rest in Women",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20060054323,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Effect of Sampling Schedule on Pharmacokinetic Parameter Estimates of Promethazine in Astronauts",
+      "stiType": "REPRINT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   }
+  ],
+  "aggregations": {
+   "created": {
+    "buckets": [
+     {
+      "key_as_string": "2013",
+      "key": 1356998400000,
+      "doc_count": 9
+     },
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 2
+     }
+    ]
+   },
+   "author": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 11,
+    "buckets": [
+     {
+      "key": "Arzeno, N. M.",
+      "doc_count": 3
+     },
+     {
+      "key": "Bloomberg, J. J.",
+      "doc_count": 3
+     },
+     {
+      "key": "Platts, S. H.",
+      "doc_count": 3
+     },
+     {
+      "key": "Stenger, M. B.",
+      "doc_count": 3
+     },
+     {
+      "key": "Beaton, K. H.",
+      "doc_count": 1
+     },
+     {
+      "key": "Buxton, Roxanne",
+      "doc_count": 1
+     },
+     {
+      "key": "Cogoli, Augusto",
+      "doc_count": 1
+     },
+     {
+      "key": "Cowings, Patricia S.",
+      "doc_count": 1
+     },
+     {
+      "key": "Downs, Meghan E.",
+      "doc_count": 1
+     },
+     {
+      "key": "Feiveson, Alan H.",
+      "doc_count": 1
+     },
+     {
+      "key": "Fortney, Suzanne M.",
+      "doc_count": 1
+     },
+     {
+      "key": "Fuller, Charles A.",
+      "doc_count": 1
+     },
+     {
+      "key": "Goldberger, Ary L.",
+      "doc_count": 1
+     },
+     {
+      "key": "Hargens, Alan R.",
+      "doc_count": 1
+     },
+     {
+      "key": "Lee, Stuart M. C.",
+      "doc_count": 1
+     },
+     {
+      "key": "Mietus, Joseph E.",
+      "doc_count": 1
+     },
+     {
+      "key": "Migeotte, P-F",
+      "doc_count": 1
+     },
+     {
+      "key": "Moore, Alan",
+      "doc_count": 1
+     },
+     {
+      "key": "Paiva, M.",
+      "doc_count": 1
+     },
+     {
+      "key": "Platts, Steven H.",
+      "doc_count": 1
+     }
+    ]
+   },
+   "reportNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 5,
+    "buckets": [
+     {
+      "key": "A-94116",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 0363-6135",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 1077-9248",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 8750-7587",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-19138",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-21884",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-25210",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-29964",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-32214",
+      "doc_count": 1
+     },
+     {
+      "key": "NAS 1.15:108840",
+      "doc_count": 1
+     },
+     {
+      "key": "NAS 1.55:3281-PT-2",
+      "doc_count": 1
+     },
+     {
+      "key": "NASA-CP-3281-PT-2",
+      "doc_count": 1
+     },
+     {
+      "key": "NASA-TM-108840",
+      "doc_count": 1
+     },
+     {
+      "key": "REPT-94B00135-PT-2",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: A-94116",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-19138",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-21884",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-25210",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-29964",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-32214",
+      "doc_count": 1
+     }
+    ]
+   },
+   "center": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "JSC",
+      "doc_count": 6
+     },
+     {
+      "key": "CDMS",
+      "doc_count": 4
+     },
+     {
+      "key": "GSFC",
+      "doc_count": 1
+     }
+    ]
+   },
+   "index": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "submissions-2026-10-01-04-12",
+      "doc_count": 11
+     }
+    ]
+   },
+   "fundingNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "NAG9-514",
+      "doc_count": 1
+     },
+     {
+      "key": "NCC2-115",
+      "doc_count": 1
+     },
+     {
+      "key": "NIH-R01-HL-42172",
+      "doc_count": 1
+     },
+     {
+      "key": "NNG05GM59G",
+      "doc_count": 1
+     },
+     {
+      "key": "RTOP 199-70-12-14",
+      "doc_count": 1
+     },
+     {
+      "key": "RTOP 500-00-00",
+      "doc_count": 1
+     },
+     {
+      "key": "U01-HL-53208-01",
+      "doc_count": 1
+     }
+    ]
+   },
+   "published": {
+    "buckets": [
+     {
+      "key_as_string": "1994",
+      "key": 757382400000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2003",
+      "key": 1041379200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2005",
+      "key": 1104537600000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2008",
+      "key": 1199145600000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2009",
+      "key": 1230768000000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2010",
+      "key": 1262304000000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2011",
+      "key": 1293840000000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "distribution": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "PUBLIC",
+      "doc_count": 11
+     }
+    ]
+   },
+   "stiType": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "ABSTRACT",
+      "doc_count": 6
+     },
+     {
+      "key": "REPRINT",
+      "doc_count": 2
+     },
+     {
+      "key": "CONFERENCE_PROCEEDINGS",
+      "doc_count": 1
+     },
+     {
+      "key": "OTHER",
+      "doc_count": 1
+     },
+     {
+      "key": "TECHNICAL_MEMORANDUM",
+      "doc_count": 1
+     }
+    ]
+   },
+   "subjectCategory": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Aerospace Medicine",
+      "doc_count": 6
+     },
+     {
+      "key": "Life Sciences (General)",
+      "doc_count": 4
+     },
+     {
+      "key": "Space Communications, Spacecraft Communications, Command And Tracking",
+      "doc_count": 1
+     }
+    ]
+   },
+   "disseminated": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "DOCUMENT_AND_METADATA",
+      "doc_count": 6
+     },
+     {
+      "key": "METADATA_ONLY",
+      "doc_count": 5
+     }
+    ]
+   },
+   "stiTypeDetails": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Abstract",
+      "doc_count": 6
+     },
+     {
+      "key": "Reprint (Version printed in journal)",
+      "doc_count": 2
+     },
+     {
+      "key": "Conference Proceedings",
+      "doc_count": 1
+     },
+     {
+      "key": "Other - Journal Issue",
+      "doc_count": 1
+     },
+     {
+      "key": "Technical Memorandum (TM)",
+      "doc_count": 1
+     }
+    ]
+   },
+   "organization": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "NASA Johnson Space Center",
+      "doc_count": 5
+     },
+     {
+      "key": "Wyle Integrated Science and Engineering Group",
+      "doc_count": 5
+     },
+     {
+      "key": "California Univ.",
+      "doc_count": 1
+     },
+     {
+      "key": "Houston Univ.",
+      "doc_count": 1
+     },
+     {
+      "key": "MEI Technologies, Inc.",
+      "doc_count": 1
+     },
+     {
+      "key": "NASA Ames Research Center",
+      "doc_count": 1
+     },
+     {
+      "key": "NASA Goddard Space Flight Center",
+      "doc_count": 1
+     },
+     {
+      "key": "National Space Biomedical Research Inst.",
+      "doc_count": 1
+     },
+     {
+      "key": "Universite Libre de Bruxelles",
+      "doc_count": 1
+     },
+     {
+      "key": "Universities Space Research Association",
+      "doc_count": 1
+     }
+    ]
+   },
+   "modified": {
+    "buckets": [
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 11
+     }
+    ]
+   },
+   "keyword": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 5,
+    "buckets": [
+     {
+      "key": "Adult",
+      "doc_count": 1
+     },
+     {
+      "key": "Arrhythmia, Sinus/physiopathology",
+      "doc_count": 1
+     },
+     {
+      "key": "Autonomic Nervous System/physiology",
+      "doc_count": 1
+     },
+     {
+      "key": "Clinical Trial",
+      "doc_count": 1
+     },
+     {
+      "key": "Electrocardiography",
+      "doc_count": 1
+     },
+     {
+      "key": "Flight Experiment",
+      "doc_count": 1
+     },
+     {
+      "key": "Fourier Analysis",
+      "doc_count": 1
+     },
+     {
+      "key": "Heart Rate/physiology",
+      "doc_count": 1
+     },
+     {
+      "key": "Human",
+      "doc_count": 1
+     },
+     {
+      "key": "Hypotension, Orthostatic/physiopathology",
+      "doc_count": 1
+     },
+     {
+      "key": "Male",
+      "doc_count": 1
+     },
+     {
+      "key": "NASA Discipline Cardiopulmonary",
+      "doc_count": 1
+     },
+     {
+      "key": "NASA Experiment Number 9301198",
+      "doc_count": 1
+     },
+     {
+      "key": "Non-NASA Center",
+      "doc_count": 1
+     },
+     {
+      "key": "Respiratory Mechanics/physiology",
+      "doc_count": 1
+     },
+     {
+      "key": "STS-90 Shuttle Project",
+      "doc_count": 1
+     },
+     {
+      "key": "Space Flight",
+      "doc_count": 1
+     },
+     {
+      "key": "Supine Position/physiology",
+      "doc_count": 1
+     },
+     {
+      "key": "Support, Non-U.S. Gov't",
+      "doc_count": 1
+     },
+     {
+      "key": "Support, U.S. Gov't, Non-P.H.S",
+      "doc_count": 1
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,2894 @@
+{
+ "source_url": "https://ntrs.nasa.gov/api/citations/search?q=mood+spaceflight",
+ "fetched_at": "2026-10-10T06:09:54+00:00",
+ "data": {
+  "stats": {
+   "took": 58,
+   "total": 26,
+   "estimate": false,
+   "maxScore": 106.33279
+  },
+  "results": [
+   {
+    "_meta": {
+     "score": 106.33279
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20210023585,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "720917556d564b8b9f0b8322f153e883",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Behavioral Sciences"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20210023585,
+     "ear": "NO",
+     "id": "03a0c7d23c2144b4b7273e2a14c41c68",
+     "itar": "NO"
+    },
+    "distributionDate": "2022-06-22T05:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "344494.01.04.10",
+      "submissionId": 20210023585,
+      "id": "e52d157d9915462cb81b391499496132",
+      "type": "WBS"
+     }
+    ],
+    "title": "The Impact of Mood and Affect on Operationally Relevant Performance Among Astronaut-Like Individuals in Space Analog Settings",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2021-10-28T18:30:05.8429490+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 0,
+      "submissionId": 20210023585,
+      "meta": {
+       "author": {
+        "name": "S I Dev"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "861ea627c034465989f8ad29576f30e5",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 1,
+      "submissionId": 20210023585,
+      "meta": {
+       "author": {
+        "name": "S Whiting"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "cc609be10e0a4e0f89bbb834d702b709",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 2,
+      "submissionId": 20210023585,
+      "meta": {
+       "author": {
+        "name": "J C W Miller"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "ba7658b2e6b240f9b459be01922d47d3",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 3,
+      "submissionId": 20210023585,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "M Young"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "02be5af7fe56405fbb703b518906b8ad",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 4,
+      "submissionId": 20210023585,
+      "meta": {
+       "author": {
+        "name": "P G Roma"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "81578f2b3b524ed4b6ca51283d00588a",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 5,
+      "submissionId": 20210023585,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "S T Bell"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "7d92389149374341958d42671a148c95",
+      "userType": "CIVIL",
+      "userId": "dcafe31be3ed4a519e365872909e1b54"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20210023585,
+    "created": "2021-10-28T18:23:51.1111510+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "Crewmembers of future space exploration missions will face many challenges associated with living and working in extreme conditions for prolonged periods of time. Thus, it is imperative to understand how spaceflight hazards impact mood and affect, cognitive functioning, and ultimately, operational performance. The Human Factors and Behavioral Performance Exploration Measures (HFBP-EM) suite is a set of standardized measures used to assess behavioral health and performance related to future exploration class space missions. HFBP-EM includes the Profile of Mood States (POMS) as a self-report measure of psychological distress, and the Robotic On-Board Trainer (ROBoT) as an operationally relevant task that simulates the capture and grappling maneuvers required to operate the Canadarm2 on the International Space Station. Although previous space analog studies have demonstrated fluctuations in mood and affect ratings assessed by the POMS (Basner, 2014), no studies to date have examined impacts on operationally relevant tasks. Here we investigate the relationship between POMS ratings and performance on the ROBoT task in space analog settings.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20210023585,
+     "id": "ea7bc74ca7da4dc7a190c16bcb045f59"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20210023585,
+      "endDate": "2022-05-26T04:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "d0b811ba64ca502c8ec8636b127d210e",
+        "meta": {
+         "organization": {
+          "name": "Aerospace Medical Association",
+          "location": "Alexandria, Virginia, United States"
+         }
+        },
+        "meetingId": "0f7980ee95a545f8bc783783029578b0",
+        "id": "521e021d909f45b7a2d3b3c87bc47cdd"
+       }
+      ],
+      "name": "2022 Annual Scientific Meeting of the Aerospace Medical Association",
+      "location": "Reno, NV",
+      "id": "0f7980ee95a545f8bc783783029578b0",
+      "startDate": "2022-05-22T05:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "name": "Dev_AsMA22_abstract_FINAL.docx",
+      "type": "ABSTRACT",
+      "links": {
+       "original": "/api/citations/20210023585/downloads/Dev_AsMA22_abstract_FINAL.docx",
+       "pdf": "/api/citations/20210023585/downloads/Dev_AsMA22_abstract_FINAL.docx.pdf",
+       "fulltext": "/api/citations/20210023585/downloads/Dev_AsMA22_abstract_FINAL.docx.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 81.201294
+    },
+    "copyright": {
+     "disclosedInvention": false,
+     "submissionId": 20250000414,
+     "containsThirdPartyMaterial": false,
+     "containsIndication": false,
+     "belongsToPublisher": false,
+     "id": "52602de0d7b7438395df27b0d2a4cb01",
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Behavioral Sciences"
+    ],
+    "keywords": [
+     "behavioral health",
+     "spaceflight",
+     "habitability"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20250000414,
+     "ear": "NO",
+     "id": "a895b894e9f346dd9aed990549a6aa05",
+     "itar": "NO"
+    },
+    "distributionDate": "2025-01-28T06:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "NNJ15HK11B ",
+      "submissionId": 20250000414,
+      "id": "5b95bcb4bf40479aaabc8921f7a932ba",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Results for the Subjective Habitability Acceptability Questionnaire From HERA C5 and C6",
+    "stiType": "POSTER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2025-01-13T19:51:24.8604610+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 0,
+      "submissionId": 20250000414,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "C A Spencer"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "8fe684f7920a421d898d2b5a55def5a0",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "97dd8639d2bb4c43a6adf18dc6c19577"
+     },
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 1,
+      "submissionId": 20250000414,
+      "meta": {
+       "author": {
+        "name": "J C W Miller"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "6befbea1c98e4be6850f061c345ae685",
+      "userType": "OTHER",
+      "userId": "b5d2dec4177d4fecbeaf6dcb15079fe0"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 2,
+      "submissionId": 20250000414,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "L B Landon"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "baca7318362f449fb3fa7cbbf2e1c585",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "c52cdc9e44a24660be8597ff620b296c"
+     }
+    ],
+    "stiTypeDetails": "Poster",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20250000414,
+    "created": "2025-01-13T19:38:31.3551630+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "BACKGROUND \nThe impact of habitability on psychological and performance outcomes is recognized as an important factor in habitat and vehicle design\u2014especially as missions increase in length. Formal evaluation of habitability\u2019s impact is possible using the Spaceflight Habitability Acceptability Questionnaire (SHAQ), which was psychometrically validated by Roma et al. in 2022 [1]. The SHAQ survey systematically quantifies the relationships between habitat areas (e.g., bedroom, kitchen, hygiene area, office, etc.) and behavioral health and performance (BHP) outcomes (i.e., individual and team performance, mood, stress, sleep, social interaction), and considers the moderating effects of key habitability aspects (i.e., privacy, control, convenience, efficiency, comfort, social density) on that relationship. \n\nMETHOD\nRespondents were HERA participants from Campaign 5 and 6 (n = 32). Data from three environments were used in our SHAQ analyses: SHAQ in HERA (in-mission), SHAQ at Home (pre-mission), and SHAQ in Hotel (pre- and post-mission for C6, just pre-mission for C5). For each habitat area, respondents are asked how that area layout impacts six BHP outcomes on a 201-point visual analog scale with the anchors: impairs, has no effect, and facilitates. They also had the option to respond \u201cNot Applicable\u201d. Follow up questions asked why six key habitability aspects (e.g., privacy) influenced the way the habitat area affected a given outcome. Participants indicated whether a habitat area\u2019s habitability aspects were inadequate (low score) to adequate (midpoint) to ideal (high score), using a 201-point visual analog scale as well but were binned to a 7-point scale for analyses. \n\nRESULTS AND CONCLUSION\nWhen comparing across environments, ratings of BHP outcomes were worse in HERA compared to home and pre-mission hotel, but rebounded for the post-mission hotel such that post-mission hotel rating were often higher than all previous ratings. Within HERA, ratings of how a habitat area impacted an outcome skewed towards facilitation with communal areas (i.e., galley and office) rated most facilitating. The follow up questions about why six key aspects related to habitability moderated outcomes indicated that most habitat areas were rated as having \u201cadequate\u201d habitability characteristics. Privacy was the only moderator with average scores below adequate for all habitat areas. The office had the most moderators scoring above adequate for all habitat areas. Ratings indicated small to moderate effects of layouts on BHP outcomes: with facilitating layouts averaging between 4 and 5, and impairing layouts averaging between 2 and 4. The sleeping module layout facilitated sleep, with ratings indicating adequate comfort but inadequate privacy. The galley layout facilitated social interaction and mood, with ratings indicating adequate efficiency and convenience. The office layout facilitated social interaction, team and individual performance, with ratings similarly indicating adequate efficiency and convenience. The hygiene module worsened individual performance, mood and stress, with ratings indicating less than adequate privacy and social density. Our findings suggest there is value in having dedicated team and individual spaces. \n\nREFERENCES\n[1] Roma, P. G., Landon, L.B., Spencer, C. A., Whitmire, A. M., & Williams, T. J. (2022). SHAQ: Development and Validation. Human Factors: Special Issue on Spaceflight, 65(6), 1074-1104. \n\nACKNOWLEDGEMENTS\nThis project was funded by the NASA Human Research Program directed task Human Factors and Behavioral Performance in HERA (PI = S. Bell) to the BHP Lab. KBR Inc. and JES Tech authors were supported by KBR\u2019s Human Health and Performance Contract NNJ15HK11B with NASA. \n",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20250000414,
+     "id": "b57e4703f3b64c55b5619b149c2d27a8"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20250000414,
+      "endDate": "2025-01-31T06:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington, United States"
+         }
+        },
+        "meetingId": "4ac8ee9844ed4580844554769585e4c2",
+        "id": "14f0e116c1234f64b93d308aee70bb5e"
+       }
+      ],
+      "name": "Human Research Program Investigators\u2019 Workshop (HRP IWS)",
+      "location": "Galveston, TX",
+      "id": "4ac8ee9844ed4580844554769585e4c2",
+      "url": "https://www.nasa.gov/hrp-iws-2025/",
+      "startDate": "2025-01-28T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "name": "Spencer_SHAQ_IWS25.pptx",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20250000414/downloads/Spencer_SHAQ_IWS25.pptx",
+       "fulltext": "/api/citations/20250000414/downloads/Spencer_SHAQ_IWS25.pptx.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 70.082664
+    },
+    "copyright": {
+     "disclosedInvention": false,
+     "submissionId": 20250000411,
+     "containsThirdPartyMaterial": false,
+     "containsIndication": false,
+     "belongsToPublisher": false,
+     "id": "96e36178e4dd4a1aa18028920ba787bc",
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Behavioral Sciences"
+    ],
+    "keywords": [
+     "countermeasure",
+     "spaceflight",
+     "crop growth",
+     "behavioral health"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20250000411,
+     "ear": "NO",
+     "id": "9a3947c817534107b944321703eb5878",
+     "itar": "NO"
+    },
+    "distributionDate": "2025-01-28T06:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "MTL #1075 ",
+      "submissionId": 20250000411,
+      "id": "b94731bdc8504dcd923da159a1eb1e2e",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20250000411,
+      "id": "b99258487a17468d87fde424f8ac5377",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Behavioral Health Benefits of the ISS Pick-and-Eat Crop Growth System",
+    "stiType": "POSTER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2025-01-13T19:34:13.7611840+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 0,
+      "submissionId": 20250000411,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Lauren Landon"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "83c81524e0f546d097216cd843cab7f4",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "c52cdc9e44a24660be8597ff620b296c"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 1,
+      "submissionId": 20250000411,
+      "meta": {
+       "author": {
+        "name": "Sydney Begerowski"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "2ded30543c464befb38f0c2db3e0aebd",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "d78e78b9b8d0461eb35c9b8413790f0b"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 2,
+      "submissionId": 20250000411,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Sara Whiting"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, United States"
+       }
+      },
+      "id": "1ea27c00c02b40bfbb0ca1b94a2d4657",
+      "userType": "CIVIL",
+      "userId": "a4b6f346d7ca4d58924e2c0194e475d9"
+     },
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 3,
+      "submissionId": 20250000411,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Cara Spencer"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "53a24bcd10854a0e8aeaba284631a81d",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "97dd8639d2bb4c43a6adf18dc6c19577"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 4,
+      "submissionId": 20250000411,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Suzanne Bell"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, United States"
+       }
+      },
+      "id": "662c1ea936b54fa3a42b363be1f0e9a0",
+      "userType": "CIVIL",
+      "userId": "dcafe31be3ed4a519e365872909e1b54"
+     },
+     {
+      "organizationId": "9d62339603b440aaaf72de878cb253f0",
+      "sequence": 5,
+      "submissionId": 20250000411,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0001-5533-8445",
+        "name": "Pete Roma"
+       },
+       "organization": {
+        "name": "Naval Health Research Center",
+        "location": "San Diego, United States"
+       }
+      },
+      "id": "6bce5bb94f104d099385af1ff80d9f30",
+      "userId": "e72ca155f0284f1d9c4b10ad2b49d095"
+     },
+     {
+      "organizationId": "5c929cce29b0585fb37efe77c6e9d156",
+      "sequence": 6,
+      "submissionId": 20250000411,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Gioia Massa"
+       },
+       "organization": {
+        "name": "Kennedy Space Center",
+        "location": "Merritt Island, Florida, United States"
+       }
+      },
+      "id": "c0d525dfc855421ebd4709404e64afcf",
+      "userType": "CIVIL",
+      "userId": "3500ef7dba4240ff9cee2f638af00ca0"
+     }
+    ],
+    "stiTypeDetails": "Poster",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20250000411,
+    "created": "2025-01-13T19:23:05.9641180+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Summary: We summarize findings related to assessing the pick-and-eat salad-crop productivity and acceptability of the ISS food system as a countermeasure to maintain behavioral health in long-duration spaceflight.\n\nBACKGROUND \nPlants are a potential countermeasure for the stresses of living in space. Caring for plants and eating fresh food have been shown to serve as a psychological benefit for previous astronauts and for others in analogous environments such as Antarctica [1,2]. Gardening can be therapeutic in terrestrial settings [3]. These effects may carry over or be more pronounced in austere environments such as spaceflight. It can reduce stress and increase sensory stimulation and enjoyment [2]. Growing crops may offer astronauts meaningful and engaging work as they care for living things in an austere environment away from Earth\u2019s nature and as they provide sustenance for their crew. We examined the extent to which interacting with plants (e.g., tending to, consuming) was related to behavioral health outcomes in long-duration space missions.\n\nMETHOD \nParticipants were 27 astronauts that interacted with the plant system VEG-04, VEG-05, and HRF-VEG (VEG-03 I-L, PH-04). In total, there were 106 in-flight observations. Participants completed monthly measures of mood and well-being, enjoyment and time spent performing specific crop growth and consuming the plants, meaningfulness, performance, connections with others and the Earth, desire to work with and eat plants, and experiences with struggling or dying plants. Higher ends of the 7-point Likert scale indicated more positive outcomes, lower ends of the scale were anchored with more negative outcomes, and the scale midpoints indicated neutral positions. Participants selected a specific survey version based on whether they interacted with the plant system(s) or not, and we included only the scores from the crewmembers that participated in any given activity.\n\nRESULTS & DISCUSSION\nResults indicated that participants generally rated tasks related to the plants and crop growth as enjoyable. Consuming the harvested plants and voluntary viewing were the most enjoyable activities. Tending to the plants was reported as moderately enjoyable, indicating BHP benefits from this work task. The BHP impacts of whether the task was engaging, meaningful, supported well-being, or was demanding for a crewmember were generally positive and increased over time. As shown in the Figure, working with plants was reported as more engaging, meaningful, and beneficial to well-being over time, while the demand from the task was moderate to low and consistent over time. Engaging, meaningful, and supporting well-being were strongly, positively correlated with each other, which is consistent with research that suggests engaging and meaningful work can support well-being. Plant activities such as voluntary viewing, watering, harvesting, and consuming, were positively related to task engagement and meaning, and enjoyment and well-being. Findings suggest that working with plants and consuming them can be a behavioral health countermeasure for long-duration spaceflight. \n\nREFERENCES\n[1] Schlacht I, et al. (2020) Impact of plants in isolation: The EDEN-ISS\u2026in Antarctica. In Advances in Human Factors of Transportation, Washington DC. [2] Vessel E, Russo S (2015) Effects of reduced sensory stimulation and\u2026countermeasures\u2026. NASA/TM-2015-218576. [3] Odeh R, Guy C (2017) Gardening for therapeutic people-plant interactions during LDSM. Open Agriculture, 2(1), 1-13.  \n\nACKNOWLEDGEMENTS\nThis research was supported by the Human Health and Performance Contract NNJ15HK11B, and NASA grant MTL #1075 (PI G.D. Massa). ",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20250000411,
+     "id": "8b1f639513b84459b3530541bc8facdc"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20250000411,
+      "endDate": "2025-01-31T06:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington, United States"
+         }
+        },
+        "meetingId": "22e9df6014a746c98b5085d38c6b5ef6",
+        "id": "c1c942da47d7464c94e6963e3f81b67b"
+       }
+      ],
+      "name": " Human Research Program Investigators\u2019 Workshop (HRP IWS)",
+      "location": "Galveston, TX",
+      "id": "22e9df6014a746c98b5085d38c6b5ef6",
+      "url": "https://www.nasa.gov/hrp-iws-2025/",
+      "startDate": "2025-01-28T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20240011726,
+      "type": "SEE_ALSO",
+      "title": "Behavioral Health Benefits of the ISS Pick-and-Eat Crop Growth System",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "name": "Landon et al 2025 - IWS Veggie poster FINAL.pptx",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20250000411/downloads/Landon%20et%20al%202025%20-%20IWS%20Veggie%20poster%20FINAL.pptx",
+       "fulltext": "/api/citations/20250000411/downloads/Landon%20et%20al%202025%20-%20IWS%20Veggie%20poster%20FINAL.pptx.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 69.86902
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20240011726,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "371fba75d587448780ed095a2264db3d",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Behavioral Sciences"
+    ],
+    "keywords": [
+     "behavioral health",
+     "crop growth",
+     "spaceflight",
+     "countermeasure"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20240011726,
+     "ear": "NO",
+     "id": "5b97861aed144a79b42fb6dc5b53e7c1",
+     "itar": "NO"
+    },
+    "distributionDate": "2025-01-28T06:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20240011726,
+      "id": "56a9045b531b4ccbb05c481eb0e02258",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "MTL #1075 ",
+      "submissionId": 20240011726,
+      "id": "22d18d8a582e4941aa41e96925a98111",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Behavioral Health Benefits of the ISS Pick-and-Eat Crop Growth System",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2024-09-12T22:36:33.0084950+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 0,
+      "submissionId": 20240011726,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "L B Landon"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "ec504de974a2436293d138e30df6f185",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "c52cdc9e44a24660be8597ff620b296c"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 1,
+      "submissionId": 20240011726,
+      "meta": {
+       "author": {
+        "name": "S R Begerowski"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "e32955f2db7643a49b2b7566a6e085e7",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "d78e78b9b8d0461eb35c9b8413790f0b"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 2,
+      "submissionId": 20240011726,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "S E Whiting"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, United States"
+       }
+      },
+      "id": "57e5375b9e7f4387a3e4b33fb446c5bb",
+      "userType": "CIVIL",
+      "userId": "a4b6f346d7ca4d58924e2c0194e475d9"
+     },
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 3,
+      "submissionId": 20240011726,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "C A Spencer"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "47d8b26433324ea499fc199d2624486b",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "97dd8639d2bb4c43a6adf18dc6c19577"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 4,
+      "submissionId": 20240011726,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "S T Bell"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, United States"
+       }
+      },
+      "id": "243b1972d43b46bd80643cb23c17bcdc",
+      "userType": "CIVIL",
+      "userId": "dcafe31be3ed4a519e365872909e1b54"
+     },
+     {
+      "organizationId": "9d62339603b440aaaf72de878cb253f0",
+      "sequence": 5,
+      "submissionId": 20240011726,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0001-5533-8445",
+        "name": "P G Roma"
+       },
+       "organization": {
+        "name": "Naval Health Research Center",
+        "location": "San Diego, United States"
+       }
+      },
+      "id": "f7fed068ed2141fba6b2c007e4eb2b82",
+      "userId": "e72ca155f0284f1d9c4b10ad2b49d095"
+     },
+     {
+      "organizationId": "5c929cce29b0585fb37efe77c6e9d156",
+      "sequence": 6,
+      "submissionId": 20240011726,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "G D Massa"
+       },
+       "organization": {
+        "name": "Kennedy Space Center",
+        "location": "Merritt Island, Florida, United States"
+       }
+      },
+      "id": "88a736af552e44afa93d74b6dd234695",
+      "userType": "CIVIL",
+      "userId": "3500ef7dba4240ff9cee2f638af00ca0"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20240011726,
+    "created": "2024-09-12T22:18:35.9996310+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Summary: We summarize findings related to assessing the pick-and-eat salad-crop productivity and acceptability of the ISS food system as a countermeasure to maintain behavioral health in long-duration spaceflight.\n\nBACKGROUND \nPlants are a potential countermeasure for the stresses of living in space. Caring for plants and eating fresh food have been shown to serve as a psychological benefit for previous astronauts and for others in analogous environments such as Antarctica [1,2]. Gardening can be therapeutic in terrestrial settings [3]. These effects may carry over or be more pronounced in austere environments such as spaceflight. It can reduce stress and increase sensory stimulation and enjoyment [2]. Growing crops may offer astronauts meaningful and engaging work as they care for living things in an austere environment away from Earth\u2019s nature and as they provide sustenance for their crew. We examined the extent to which interacting with plants (e.g., tending to, consuming) was related to behavioral health outcomes in long-duration space missions.\nMETHOD \nParticipants were 27 astronauts that interacted with the plant system VEG-04, VEG-05, and HRF-VEG (VEG-03 I-L, PH-04). In total, there were 106 in-flight observations. Participants completed monthly measures of mood and well-being, enjoyment and time spent performing specific crop growth and consuming the plants, meaningfulness, performance, connections with others and the Earth, desire to work with and eat plants, and experiences with struggling or dying plants. Higher ends of the 7-point Likert scale indicated more positive outcomes, lower ends of the scale were anchored with more negative outcomes, and the scale midpoints indicated neutral positions. Participants selected a specific survey version based on whether they interacted with the plant system(s) or not, and we included only the scores from the crewmembers that participated in any given activity.\nRESULTS & DISCUSSION\nResults indicated that participants generally rated tasks related to the plants and crop growth as enjoyable. Consuming the harvested plants and voluntary viewing were the most enjoyable activities. Tending to the plants was reported as moderately enjoyable, indicating BHP benefits from this work task. The BHP impacts of whether the task was engaging, meaningful, supported well-being, or was demanding for a crewmember were generally positive and increased over time. As shown in the Figure, working with plants was reported as more engaging, meaningful, and beneficial to well-being over time, while the demand from the task was moderate to low and consistent over time. Engaging, meaningful, and supporting well-being were strongly, positively correlated with each other, which is consistent with research that suggests engaging and meaningful work can support well-being. Plant activities such as voluntary viewing, watering, harvesting, and consuming, were positively related to task engagement and meaning, and enjoyment and well-being. Findings suggest that working with plants and consuming them can be a behavioral health countermeasure for long-duration spaceflight. \nREFERENCES\n[1] Schlacht I, et al. (2020) Impact of plants in isolation: The EDEN-ISS\u2026in Antarctica. In Advances in Human Factors of Transportation, Washington DC. [2] Vessel E, Russo S (2015) Effects of reduced sensory stimulation and\u2026countermeasures\u2026. NASA/TM-2015-218576. [3] Odeh R, Guy C (2017) Gardening for therapeutic people-plant interactions during LDSM. Open Agriculture, 2(1), 1-13.  \nACKNOWLEDGEMENTS\nThis research was supported by the Human Health and Performance Contract NNJ15HK11B, and NASA grant MTL #1075 (PI G.D. Massa). ",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20240011726,
+     "id": "2cb4c88865354499a2056fc614ca43eb"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20240011726,
+      "endDate": "2025-01-31T06:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington, United States"
+         }
+        },
+        "meetingId": "a8be24d25d1e42f484c7ceaab52c222d",
+        "id": "6d0228ea863d444baaaf6456122180f4"
+       }
+      ],
+      "name": "Human Research Program-Investigators Working Group (HRP-IWG) Workshop ",
+      "location": "Galveston, TX",
+      "id": "a8be24d25d1e42f484c7ceaab52c222d",
+      "url": "https://www.nasa.gov/hrp-iws-2025/",
+      "startDate": "2025-01-28T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20250000411,
+      "type": "SEE_ALSO",
+      "title": "Behavioral Health Benefits of the ISS Pick-and-Eat Crop Growth System",
+      "stiType": "POSTER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "name": "Landon et al 2025 - BHP veggie.docx",
+      "type": "ABSTRACT",
+      "links": {
+       "original": "/api/citations/20240011726/downloads/Landon%20et%20al%202025%20-%20BHP%20veggie.docx",
+       "fulltext": "/api/citations/20240011726/downloads/Landon%20et%20al%202025%20-%20BHP%20veggie.docx.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 65.58191
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20130011053,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "f3c993ea722f406d9b8df285dde8d042",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20130011053,
+     "ear": "NO",
+     "id": "ab0299fb2efa4e4f82b862a956b39a8b",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "ARC-E-DAA-TN7893",
+     "Report Number: ARC-E-DAA-TN7893"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "WBS 516724.02.01.21.01.02",
+      "submissionId": 20130011053,
+      "id": "ed52fa7c5fd74e6a811a57479942bf5f",
+      "type": "WBS"
+     }
+    ],
+    "title": "Psychophysiology of Spaceflight and Aviation",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-27T10:20:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20130011053,
+      "meta": {
+       "author": {
+        "name": "Cowings, Patricia"
+       },
+       "organization": {
+        "name": "NASA Ames Research Center",
+        "location": "Moffett Field, CA, United States"
+       }
+      },
+      "id": "9a013418c54f4de8904ee3070168f8d8"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20130011053,
+      "meta": {
+       "author": {
+        "name": "Toscano, William"
+       },
+       "organization": {
+        "name": "NASA Ames Research Center",
+        "location": "Moffett Field, CA, United States"
+       }
+      },
+      "id": "94e1f423bb7f46aaa8d53ca9364ab115"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20130011053,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-27T10:20:00.0000000+00:00",
+    "center": {
+     "code": "ARC",
+     "name": "Ames Research Center",
+     "id": "4540cd94d24c4bf29f8773a27faf96b2"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "In space, the absence of gravity alone causes unique physiological stress. Significant biomedical changes, across multiple organ systems, such as body fluid redistribution, diminished musculoskeletal strength, changes in cardiac function and sensorimotor control have been reported. The time course of development of these disorders and severity of symptoms experienced by individuals varies widely. Space motion sickness (SMS) is an example of maladaptation to microgravity, which occurs early in the mission and can have profound effects on physical health and crew performance. Disturbances in sleep quality, perception, emotional equilibrium and mood have also been reported, with impact to health and performance varying widely across individuals. And lastly, post-flight orthostatic intolerance, low blood pressure experienced after returning to Earth, is also of serious concern. Both the Russian and American space programs have a varied list of human errors and mistakes, which adversely impacted mission goals. Continued probability of human exposure to microgravity for extended time periods provides a rationale for the study of the effects of stress. The primary focus of this research group is directed toward examining individual differences in: (a) prediction of susceptibility to these disorders, (b) assessment of symptom severity, (c) evaluation of the effectiveness of countermeasures, and (d) developing and testing a physiological training method, Autogenic-Feedback Training Exercise (AFTE) as a countermeasure with multiple applications. The present paper reports on the results of a series of human flight experiments with AFTE aboard the Space Shuttle and Mir Space Station, and during emergency flight scenarios on Earth.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20130011053,
+      "name": "2013 Farpoint Convention",
+      "location": "Baltimore, MD",
+      "id": "14f8c93a02424e0d86e59aa1c3ee24fb",
+      "startDate": "2013-02-15T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20130011053,
+      "id": "5ed753c39daf4e94b26d527c009fabdb",
+      "publicationDate": "2013-02-15T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20130011053.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20130011053/downloads/20130011053.pdf",
+       "pdf": "/api/citations/20130011053/downloads/20130011053.pdf",
+       "fulltext": "/api/citations/20130011053/downloads/20130011053.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 63.15928
+    },
+    "keywords": [],
+    "created": "2026-10-10T05:54:26.652536+00:00",
+    "distributionDate": "2026-10-09T05:54:26.652448+00:00",
+    "fundingNumbers": [
+     {
+      "number": "80NSSC18K0765",
+      "type": "funding"
+     },
+     {
+      "number": "NNJ14ZSA001N",
+      "type": "funding"
+     },
+     {
+      "number": "NASA NCC 9-58",
+      "type": "funding"
+     },
+     {
+      "number": "80NSSC18K0765",
+      "type": "funding"
+     },
+     {
+      "number": "NNJ14ZSA001N",
+      "type": "funding"
+     },
+     {
+      "number": "NASA NCC 9-58",
+      "type": "funding"
+     }
+    ],
+    "distribution": "PUBLIC",
+    "stiType": "REPRINT",
+    "title": "Cognition Test Battery Survey: Development of a Single Alertness and Mood Score for Short- and Long-Duration Spaceflight",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "meta": {
+       "author": {
+        "name": "Anish Pundyavana"
+       },
+       "organization": {
+        "name": ""
+       }
+      }
+     },
+     {
+      "sequence": 1,
+      "meta": {
+       "author": {
+        "name": "Yoni Gilad"
+       },
+       "organization": {
+        "name": ""
+       }
+      }
+     },
+     {
+      "sequence": 2,
+      "meta": {
+       "author": {
+        "name": "Alexander C. Stahn"
+       },
+       "organization": {
+        "name": ""
+       }
+      }
+     },
+     {
+      "sequence": 3,
+      "meta": {
+       "author": {
+        "name": "Mathias Basner"
+       },
+       "organization": {
+        "name": ""
+       }
+      }
+     }
+    ],
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "stiTypeDetails": "Version of Record",
+    "id": "77794093696409",
+    "sourceIdentifiers": [
+     {
+      "number": "https://doi.org/10.3390/app13042364"
+     }
+    ],
+    "publications": [
+     {
+      "volume": "13",
+      "pages": "2364",
+      "issue": "4",
+      "publisher": "MDPI AG",
+      "eissn": "2076-3417",
+      "publicationName": "Applied Sciences",
+      "publicationDate": "2023-12-02T00:00:00",
+      "doi": "10.3390/app13042364"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "chorus-2026-10-10-05-58"
+   },
+   {
+    "_meta": {
+     "score": 60.208992
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": true,
+     "publisherPermissionOrRightsToDistribute": true,
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20220013722,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": true,
+     "id": "7a87727df1ea42aaaa46ccad19ac18c4",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine",
+     "Behavioral Sciences"
+    ],
+    "keywords": [
+     "Isolation",
+     "Confinement",
+     "Standard Measures",
+     "Spaceflight",
+     "Space Analog"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20220013722,
+     "ear": "NO",
+     "id": "087677df4f23493bbefa779c66d16865",
+     "itar": "NO"
+    },
+    "distributionDate": "2022-09-30T05:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "868800.01.04.10",
+      "submissionId": 20220013722,
+      "id": "4073ea41393e4b918daf165b10c1b777",
+      "type": "WBS"
+     }
+    ],
+    "title": "Isolation Standard Measures: A Set of Validated and Feasible Measurements Ensuring Comparability Across Isolation and Confinement Studies",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2022-09-07T18:54:37.7497780+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "d843f4f3dd0352f2808ffc1b2eadd095",
+      "sequence": 0,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "name": "Angelique Van Ombergen"
+       },
+       "organization": {
+        "name": "European Space Agency",
+        "location": "Paris, France"
+       }
+      },
+      "id": "ac9316aace9a4b84b000330db37f53ed",
+      "userId": "c0e7e16ffa6b4db38a6075d4b71051c8"
+     },
+     {
+      "organizationId": "b0221f1ce1ef51ee8a631a09496c2364",
+      "sequence": 1,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "name": "Didier Chaput"
+       },
+       "organization": {
+        "name": "Centre National D'Etudes Spatiales",
+        "location": "Paris, France"
+       }
+      },
+      "id": "107ec61009b74f009f042629f36339d2",
+      "userType": "OTHER",
+      "userId": "5aecccf72974425c9a205bda5af8b16c"
+     },
+     {
+      "organizationId": "bd20d392186559c48641dfaa20f11837",
+      "sequence": 2,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Elena Fomina"
+       },
+       "organization": {
+        "name": "Institute of Biomedical Problems",
+        "location": "Moscow, Russia"
+       }
+      },
+      "id": "c42a0f03ee8a421cae4fef75329817b1",
+      "userType": "OTHER",
+      "userId": "41df5e928de34446bf1d8fef492fcc55"
+     },
+     {
+      "organizationId": "8ab436ac7a395933b547d9832e888653",
+      "sequence": 3,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Val\u00e9rie Gil"
+       },
+       "organization": {
+        "name": "Canadian Space Agency",
+        "location": "Longueuil, Quebec, Canada"
+       }
+      },
+      "id": "ae6edfb21ee34b1a87fc1d876da1fdef",
+      "userType": "OTHER",
+      "userId": "f3642a79a3184d23a56a23c1f4671aab"
+     },
+     {
+      "organizationId": "e3e0cde0c2ee5b8e910154926a1162e5",
+      "sequence": 4,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "name": "Michaela Girgenrath"
+       },
+       "organization": {
+        "name": "German Aerospace Center",
+        "location": "Cologne, Germany"
+       }
+      },
+      "id": "6e2e166da69b44b6ae2b3098adaecae8",
+      "userId": "2b387eefe802426e8a0e155397a8bc0d"
+     },
+     {
+      "organizationId": "8ab436ac7a395933b547d9832e888653",
+      "sequence": 5,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Natalie Hirsch"
+       },
+       "organization": {
+        "name": "Canadian Space Agency",
+        "location": "Longueuil, Quebec, Canada"
+       }
+      },
+      "id": "882a45df41144e6c957c72a8cc4ddddd",
+      "userType": "OTHER",
+      "userId": "f6a10940a7774f0c850b6c284013ef76"
+     },
+     {
+      "organizationId": "34fe646fa6d759da8377792b5138c3f4",
+      "sequence": 6,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Natsuhiko Inoue"
+       },
+       "organization": {
+        "name": "Japan Aerospace Exploration Agency",
+        "location": "Tokyo, Japan"
+       }
+      },
+      "id": "fadaa4cf36854c82921d474be0b55a6e",
+      "userType": "OTHER",
+      "userId": "8854f69bdce24fb08bfbb97ed676c256"
+     },
+     {
+      "organizationId": "8ab436ac7a395933b547d9832e888653",
+      "sequence": 7,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Perry Johnson-Green"
+       },
+       "organization": {
+        "name": "Canadian Space Agency",
+        "location": "Longueuil, Quebec, Canada"
+       }
+      },
+      "id": "9e4db882f0b84d6e8e4f82b2ce103e0a",
+      "userType": "OTHER",
+      "userId": "2253bb5c58d244d99c92b07274ecca66"
+     },
+     {
+      "organizationId": "d843f4f3dd0352f2808ffc1b2eadd095",
+      "sequence": 8,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Thu Jennifer Ngo-Anh"
+       },
+       "organization": {
+        "name": "European Space Agency",
+        "location": "Paris, France"
+       }
+      },
+      "id": "c2c1bc36d5294ab58c20c8d9e9cc5bdd",
+      "userType": "OTHER",
+      "userId": "7eb38c3f2c7542e0a0fb042e94df03dd"
+     },
+     {
+      "organizationId": "02643c9e9b525162877c70e4c186571b",
+      "sequence": 9,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Jancy C. McPhee"
+       },
+       "organization": {
+        "name": "The Aerospace Corporation",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "e48149a86a5640e9800a5e278aabbfba",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "26d4d05d104e4c24bf08b35377ed8df2"
+     },
+     {
+      "organizationId": "b0221f1ce1ef51ee8a631a09496c2364",
+      "sequence": 10,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Alain Maillet"
+       },
+       "organization": {
+        "name": "Centre National D'Etudes Spatiales",
+        "location": "Paris, France"
+       }
+      },
+      "id": "2b806254c8fe476a86b267359a18f259",
+      "userType": "OTHER",
+      "userId": "882d64e539fe4442a77bde35bdd0d19d"
+     },
+     {
+      "organizationId": "34fe646fa6d759da8377792b5138c3f4",
+      "sequence": 11,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "name": "Keiji Murakami"
+       },
+       "organization": {
+        "name": "Japan Aerospace Exploration Agency",
+        "location": "Tokyo, Japan"
+       }
+      },
+      "id": "d9a89c09068b43588d4756472226443f",
+      "userType": "OTHER",
+      "userId": "f4f617b7571a41c1bdb575f6fb638ac6"
+     },
+     {
+      "organizationId": "e3e0cde0c2ee5b8e910154926a1162e5",
+      "sequence": 12,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "name": "Katrin Stang"
+       },
+       "organization": {
+        "name": "German Aerospace Center",
+        "location": "Cologne, Germany"
+       }
+      },
+      "id": "774d467c81a54afdb95cc873a129f590",
+      "userId": "125a4154f8a44d8580552c0dbc51a482"
+     },
+     {
+      "organizationId": "e3e0cde0c2ee5b8e910154926a1162e5",
+      "sequence": 13,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "name": "Melanie von der Wiesche"
+       },
+       "organization": {
+        "name": "German Aerospace Center",
+        "location": "Cologne, Germany"
+       }
+      },
+      "id": "0343ce76ea364531991cc004a1b0463b",
+      "userId": "0ec0cad1a9d547c887b68c2612b5b042"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 14,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Suzanne T. Bell"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "ee1319aa6a1a40ceb6ea849b5ca851b0",
+      "userType": "CIVIL",
+      "userId": "dcafe31be3ed4a519e365872909e1b54"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 15,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Erin E. Flynn-Evans"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "b28658c8ed354a5295cd0dc50d507277",
+      "userType": "CIVIL",
+      "userId": "77b82a98dc16403fa905f492a82e0f4f"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 16,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Sara E. Whiting"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "a9942b8e788b45aca1df89077f3720be",
+      "userType": "CIVIL",
+      "userId": "a4b6f346d7ca4d58924e2c0194e475d9"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 17,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Lauren B. Landon"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "52a30a841c254eb8bd3377739d54fb63",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "c52cdc9e44a24660be8597ff620b296c"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 18,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Brian E. Crucian"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "f42b4a1f5cd24189bf470c4ab8d2f5ff",
+      "userType": "CIVIL",
+      "userId": "2aab60ce325340eea1a3c078acb562e9"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 19,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Sara Zwart"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "44311b26081144e5a9b9218ad30d9fc4",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "32347ecd9f9d4d1490ff0bdef4344635"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 20,
+      "submissionId": 20220013722,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "William B. Vessey"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "fb0d4fb3833743ff8505fec75bf4dab2",
+      "userType": "CIVIL",
+      "userId": "3ae4e56a4f2a495999d45f24deee8676"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20220013722,
+    "created": "2022-09-07T17:56:01.0567550+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Isolation and confinement studies have been essential to the preparation of crewed long-duration space missions, acting as analogues that facilitate the study of psychological and physiological responses to isolation and confinement. They also serve as opportunities for the development, testing, and validation of countermeasures and coping methods to handle the challenges that arise in such scenarios. Due to the small sample sizes in combination with high inter-individual variability, single isolation campaigns are not always sufficient for obtaining statistically significant scientific findings. To address this issue and improve comparability between different studies, the need for standardized measures to be collected in all future isolation and confinement studies was identified. Additionally, these measures should also be shown to be generally valid, reliable, feasible and acceptable in analogue and spaceflight environments. Standard measures in isolation and confinement studies allow for more direct comparisons of results and synthesis of data across isolation and confinement studies as well as provide an important step toward standard measures in spaceflight. An international expert group with representatives from different space agencies worldwide was brought together to define a core set of standard measures for isolation and confinement studies. This paper provides an overview of the expert group\u2019s recommendations for international standard measures for future isolation and confinement studies, along with subsequent updates coordinated by the International Countermeasures Working Group (ICMWG), which was established as a sub-Working Group under the International Space Life Sciences Working Group (ISLSWG). Additional experts were consulted by the ICMWG partner agencies as required. \n\nThe collection of the described set of isolation standard measures will provide data on the following parameters: sleep, mood, psychological state, psychophysiology, cognitive performance, stress and the immune system, general health and well-being, team measures, nutritional measures, and environmental conditions. For each measure, recommendations were made about duration and frequency of administration, along with specific implementation recommendations in relation to the duration of the isolation study. The set of isolation standard measures will be reassessed every two years at a minimum to ensure they are up to date and reflect the current state-of-the-art. ",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20220013722,
+     "id": "3336ab7a7c9b44fd9c070fa3a466f412"
+    },
+    "meetings": [
+     {
+      "country": "FR",
+      "submissionId": 20220013722,
+      "endDate": "2022-09-22T05:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "ab2f731624744ec49d4a31992566d6c2",
+        "meta": {
+         "organization": {
+          "name": "International Astronautical Federation (IAF)",
+          "location": "Paris, France"
+         }
+        },
+        "meetingId": "856d666eea6943389c72161ede63219c",
+        "id": "a6e0bd89d77f4b1e90882b6877feadd1"
+       }
+      ],
+      "name": "73rd International Astronautical Congress (IAC 2022)",
+      "location": "Paris",
+      "id": "856d666eea6943389c72161ede63219c",
+      "url": "https://iac2022.org/",
+      "startDate": "2022-09-18T05:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20220013722,
+      "publisher": "",
+      "id": "ccf4fbb0ce234346a8cbc7952a205bad",
+      "publicationName": ""
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "IAC_ISM-2022-manuscript-final.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20220013722/downloads/IAC_ISM-2022-manuscript-final.pdf",
+       "pdf": "/api/citations/20220013722/downloads/IAC_ISM-2022-manuscript-final.pdf",
+       "fulltext": "/api/citations/20220013722/downloads/IAC_ISM-2022-manuscript-final.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 57.645775
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20190000670,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "a9a540c41a61467dbfbf443789648d63",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine",
+     "Man/System Technology And Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "eccnNumber": "",
+     "submissionId": 20190000670,
+     "ear": "NO",
+     "id": "baf1f50e62984032be053ffc97753da2",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-18T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-E-DAA-TN47959",
+     "Report Number: JSC-E-DAA-TN47959"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20190000670,
+      "id": "8d0c3cf0f20445e3a0c29b38b1e8dc94",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Overview of NASA Behavioral Health and Performance Standard Measures",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2019-02-12T13:24:21.2930000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20190000670,
+      "meta": {
+       "author": {
+        "name": "Roma, P. G."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "5445a25a9ea7491c8e308ec2d2ac6527"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20190000670,
+      "meta": {
+       "author": {
+        "name": "Schneiderman, J. S."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "632c1bf08a8d4190861c2dec63d1e61a"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20190000670,
+      "meta": {
+       "author": {
+        "name": "Landon, L. B."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "8f861b0f783647c6a6e8a15a70058bc4"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20190000670,
+      "meta": {
+       "author": {
+        "name": "Whitmire, A. M."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "9ebffbb516d64426aa5ee0f98d8ceb80"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20190000670,
+      "meta": {
+       "author": {
+        "name": "Williams, T. J."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "07ea789a425340b487991a227de59058"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20190000670,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2019-02-12T13:24:21.2930000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "NASA\u2019s Human Research Program (HRP) is developing a set of \u201cStandard Measures\u201d for use in spaceflight and spaceflight analog environments to monitor the risks of long-duration missions on human health and performance, including behavioral health, individual and team performance, and social processes. Based on measures selected, developed, and tested under the NASA-funded Behavioral Core Measures project (PI: D.F. Dinges) as well as other projects from NASA\u2019s Human Factors & Behavioral Performance research portfolio, NASA\u2019s Behavioral Health & Performance (BHP) Laboratory is further evaluating the operational feasibility, acceptability, and validity of a multidisciplinary suite of objective, subjective, behavioral, and biological measures for monitoring monitor behavioral health, individual and team performance, and social processes over time. The inaugural generation of the NASA Behavioral Health & Performance (BHP) Standard Measures includes a neurocognitive test battery, actigraphy, physical proximity sensors, cardiovascular monitors, and subjective self-reports of mood, depression, and various team and social processes and performance outcomes.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20190000670,
+      "name": "Aerospace Medical Association",
+      "location": "Alexandria, VA, United States",
+      "id": "3564c9ec7aa94a1fb9825740f241af1e"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20190000670,
+      "endDate": "2018-05-10T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "Aerospace Medical Association",
+          "location": "Alexandria, VA, United States"
+         }
+        },
+        "meetingId": "de36df70d4074cdeb387415cdcd36d5a",
+        "id": "bf14303c3a2c43b5bf01821de2ff58d7"
+       }
+      ],
+      "name": "Annual Scientific Meeting of the Aerospace Medical Association (AsMA)",
+      "location": "Dallas, TX",
+      "id": "de36df70d4074cdeb387415cdcd36d5a",
+      "startDate": "2018-05-07T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20190000670,
+      "id": "e298f91e02ab421981eae941a470d70d",
+      "publicationDate": "2018-05-07T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20190000670.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20190000670/downloads/20190000670.pdf",
+       "pdf": "/api/citations/20190000670/downloads/20190000670.pdf",
+       "fulltext": "/api/citations/20190000670/downloads/20190000670.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 57.347206
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20210023325,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "eb96a4f703cd4e588cf36d8d6ec921d3",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Behavioral Sciences"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20210023325,
+     "ear": "NO",
+     "id": "7f70c2d64c5148cf80453fd360a15a6f",
+     "itar": "NO"
+    },
+    "distributionDate": "2022-03-07T06:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "344494.01.04.10",
+      "submissionId": 20210023325,
+      "id": "c3126d2b7ef8437fa104d061f251c86b",
+      "type": "WBS"
+     },
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20210023325,
+      "id": "5cb577946f7242409b08831000a336f9",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Human Factors and Behavioral Performance Exploration Measures Harmonized Across HERA, NEK, And ISS: Behavioral Medicine Risk",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2021-10-25T15:54:51.2817260+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 0,
+      "submissionId": 20210023325,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "S T Bell"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "3031bba6d53e4615a6d52025c2c483f7",
+      "userType": "CIVIL",
+      "userId": "dcafe31be3ed4a519e365872909e1b54"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 1,
+      "submissionId": 20210023325,
+      "meta": {
+       "author": {
+        "name": "S I Dev"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "06afae271fa2424bb754bf2388e78385",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 2,
+      "submissionId": 20210023325,
+      "meta": {
+       "author": {
+        "name": "S E Whiting"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "b778eb3925984865a1b42347cd997c13",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 3,
+      "submissionId": 20210023325,
+      "meta": {
+       "author": {
+        "name": "J C W Miller"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "d58c412b53a34ed2aa9f738af594f521",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 4,
+      "submissionId": 20210023325,
+      "meta": {
+       "author": {
+        "name": "A M Khader"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "2373d94236464974b1af8c026dd63d88",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 5,
+      "submissionId": 20210023325,
+      "meta": {
+       "author": {
+        "name": "P Roma"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "0fbf52334c074a438f304f45cd5f7c98",
+      "userType": "OTHER"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20210023325,
+    "created": "2021-10-25T15:53:01.0715470+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "The Human Factors and Behavioral Performance Exploration Measures (HFBP-EM) suite is a set of standardized measures used to assess behavioral health and performance risks related to future exploration class space missions. The HFBP-EM addresses the Human Research Program\u2019s (HRP) Behavioral Medicine (BMed), Team, Sleep, and Human Systems Integration Architecture risks. HFBP-EM were collected during Human Exploration Research Analog (HERA) campaigns 4 and 5, and during SIRIUS 17 and 19 missions in the Russian Ground Based Experiment Complex, NEK, to document the feasibility, flexibility, and acceptability of these measures in analogs of spaceflight environments. A subset of the HFBP-EM suite was collected in spaceflight as part of the HRP Standard Measures in Spaceflight Project. Whenever possible, the HFBP-EM protocol and measures are the same across studies, differences across research settings (e.g., experimental manipulations, mission scenarios, and mission length) and implementation of the measures require that the data are harmonized to ensure comparable views across missions. The purpose of our project was to develop a harmonized database of analyzable HFBP-EM data from spaceflight and analog settings, and to summarize the trajectory of behavioral health and performance outcomes within and between mission settings. In this presentation, we will summarize the harmonized dataset and the trajectory of BMed related measures including depression, neurobehavioral function, mood, cognition, and operationally relevant individual performance over time and by campaign and mission.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20210023325,
+     "id": "3b1e133438bb4af8a60363807aaaba8f"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20210023325,
+      "endDate": "2022-02-10T05:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington D.C., District of Columbia, United States"
+         }
+        },
+        "meetingId": "8104d0b1bef94200b28827cfee349546",
+        "id": "812ae6c4c7dc4c7f91880987ca1b08f8"
+       }
+      ],
+      "name": "2022 Human Research Program Investigators\u2019 Workshop (HRP IWS 2022)",
+      "location": "Virtual",
+      "id": "8104d0b1bef94200b28827cfee349546",
+      "startDate": "2022-02-07T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20220002101,
+      "type": "SEE_ALSO",
+      "title": "Human Factors and Behavioral Performance Exploration Measures Harmonized Across HERA, NEK, and ISS: Behavioral Medicine Risk",
+      "stiType": "PRESENTATION",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "name": "IWS 2022 Harmonization Bmed Abstract_FINAL.docx",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20210023325/downloads/IWS%202022%20Harmonization%20Bmed%20Abstract_FINAL.docx",
+       "pdf": "/api/citations/20210023325/downloads/IWS%202022%20Harmonization%20Bmed%20Abstract_FINAL.docx.pdf",
+       "fulltext": "/api/citations/20210023325/downloads/IWS%202022%20Harmonization%20Bmed%20Abstract_FINAL.docx.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 55.365005
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20040087452,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "f91134f7edaf44eda25a89a0b58f2375",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "NASA Center ARC",
+     "NASA Discipline Space Human Factors",
+     "NASA Program Advanced Human Support Technology",
+     "Motion Sickness/physiopathology/prevention & control/psychology",
+     "United States National Aeronautics and Space Administration",
+     "Affect",
+     "Psychomotor Performance",
+     "Motor Vehicles",
+     "Military Personnel",
+     "Military Medicine",
+     "Human Engineering",
+     "Severity of Illness Index",
+     "Reproducibility of Results",
+     "Equipment Design",
+     "United States",
+     "Monitoring, Physiologic/instrumentation",
+     "Adolescent",
+     "Male",
+     "Adult",
+     "Comparative Study",
+     "Technology Transfer",
+     "Human",
+     "Support, U.S. Gov't, Non-P.H.S",
+     "Biofeedback (Psychology)",
+     "Astronauts/psychology",
+     "Female"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20040087452,
+     "ear": "NO",
+     "id": "643e8f611391462abfdaa2d19e89da97",
+     "itar": "NO"
+    },
+    "distributionDate": "2011-08-23T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "ISSN: 1529-5168"
+    ],
+    "title": "Effects of Command and Control Vehicle (C2V) operational environment on soldier health and performance",
+    "stiType": "REPRINT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-21T19:59:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20040087452,
+      "meta": {
+       "author": {
+        "name": "Cowings, P. S."
+       },
+       "organization": {
+        "name": "University of California",
+        "location": "United States"
+       }
+      },
+      "id": "d0f881d0f9564b1bb07e7548308d17ea"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20040087452,
+      "meta": {
+       "author": {
+        "name": "Toscano, W. B."
+       },
+       "organization": {}
+      },
+      "id": "a2397734daab4efe9fc8b1d382eb54f8"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20040087452,
+      "meta": {
+       "author": {
+        "name": "DeRoshia, C."
+       },
+       "organization": {}
+      },
+      "id": "36ff5c2a493440e9bab9bb82ec78d59e"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20040087452,
+      "meta": {
+       "author": {
+        "name": "Tauso, R."
+       },
+       "organization": {}
+      },
+      "id": "88fff9ad0af94f6988a5fa5e603e419c"
+     }
+    ],
+    "stiTypeDetails": "Reprint (Version printed in journal)",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20040087452,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-21T19:59:00.0000000+00:00",
+    "center": {
+     "code": "ARC",
+     "name": "Ames Research Center",
+     "id": "4540cd94d24c4bf29f8773a27faf96b2"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "The purpose of this project was to use NASA technology to assist the US Army in the assessment of motion sickness incidences and effects on soldier performance and mood states within the Command and Control Vehicle (C2V). Specific objectives were (1) to determine if there was a significant difference between three internal configurations of the C2V and/or between seats within these vehicles; (2) to determine if there was a significant difference between the park, move, or short-halt field conditions; and (3) to validate a method of converging indicators developed by NASA to assess environmental impact of long duration spaceflight on crewmembers, using a large sample of subjects under ground-based operational conditions.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "publications": [
+     {
+      "volume": "5",
+      "submissionId": 20040087452,
+      "issue": "2",
+      "issn": "1529-5168",
+      "id": "c231c0d9250e4c959d045b176d51264b",
+      "publicationName": "Human performance in extreme environments :  the journal of the Society for Human Performance in Extreme Environments",
+      "publicationDate": "2001-06-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-08-04-13"
+   }
+  ],
+  "aggregations": {
+   "created": {
+    "buckets": [
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2024",
+      "key": 1704067200000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2013",
+      "key": 1356998400000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2021",
+      "key": 1609459200000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2015",
+      "key": 1420070400000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2022",
+      "key": 1640995200000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2016",
+      "key": 1451606400000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2019",
+      "key": 1546300800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2020",
+      "key": 1577836800000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "author": {
+    "doc_count_error_upper_bound": 2,
+    "sum_other_doc_count": 102,
+    "buckets": [
+     {
+      "key": "J C W Miller",
+      "doc_count": 6
+     },
+     {
+      "key": "L B Landon",
+      "doc_count": 6
+     },
+     {
+      "key": "S T Bell",
+      "doc_count": 6
+     },
+     {
+      "key": "Douglas, G.",
+      "doc_count": 3
+     },
+     {
+      "key": "P G Roma",
+      "doc_count": 3
+     },
+     {
+      "key": "S E Whiting",
+      "doc_count": 3
+     },
+     {
+      "key": "S I Dev",
+      "doc_count": 3
+     },
+     {
+      "key": "Schneiderman, J.",
+      "doc_count": 3
+     },
+     {
+      "key": "Sheena I Dev",
+      "doc_count": 3
+     },
+     {
+      "key": "Sirmons, T.",
+      "doc_count": 3
+     },
+     {
+      "key": "Slack, K.",
+      "doc_count": 3
+     },
+     {
+      "key": "A M Khader",
+      "doc_count": 2
+     },
+     {
+      "key": "Arias, D.",
+      "doc_count": 2
+     },
+     {
+      "key": "Barrett, A.",
+      "doc_count": 2
+     },
+     {
+      "key": "C A Spencer",
+      "doc_count": 2
+     },
+     {
+      "key": "Diana P Arias",
+      "doc_count": 2
+     },
+     {
+      "key": "Lauren Landon",
+      "doc_count": 2
+     },
+     {
+      "key": "Mercedes Jorge",
+      "doc_count": 2
+     },
+     {
+      "key": "Nikole D Moody",
+      "doc_count": 2
+     },
+     {
+      "key": "Richardson, M.",
+      "doc_count": 2
+     }
+    ]
+   },
+   "reportNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "ARC-E-DAA-TN7893",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 0094-5765",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 1529-5168",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-34660",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-34786",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-37796",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-40656",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-E-DAA-TN47959",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: ARC-E-DAA-TN7893",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-34660",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-34786",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-37796",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-40656",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-E-DAA-TN47959",
+      "doc_count": 1
+     }
+    ]
+   },
+   "center": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "JSC",
+      "doc_count": 18
+     },
+     {
+      "key": "ARC",
+      "doc_count": 5
+     },
+     {
+      "key": "CDMS",
+      "doc_count": 1
+     },
+     {
+      "key": "KSC",
+      "doc_count": 1
+     }
+    ]
+   },
+   "index": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "submissions-2026-10-08-04-13",
+      "doc_count": 25
+     },
+     {
+      "key": "chorus-2026-10-10-05-58",
+      "doc_count": 1
+     }
+    ]
+   },
+   "fundingNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "NNJ15HK11B",
+      "doc_count": 10
+     },
+     {
+      "key": "344494.01.04.10",
+      "doc_count": 3
+     },
+     {
+      "key": "80JSC025D0068",
+      "doc_count": 2
+     },
+     {
+      "key": "MTL #1075 ",
+      "doc_count": 2
+     },
+     {
+      "key": "\t981698.02.01.76.01.01.01",
+      "doc_count": 1
+     },
+     {
+      "key": "10449.2.03.08.22.0968",
+      "doc_count": 1
+     },
+     {
+      "key": "10449.2.03.08.33.1737",
+      "doc_count": 1
+     },
+     {
+      "key": "11976.BL.02.02.01.30.0041\t",
+      "doc_count": 1
+     },
+     {
+      "key": "11976.BL.02.03.02.22.0232",
+      "doc_count": 1
+     },
+     {
+      "key": "11976.BL.02.03.02.22.0238",
+      "doc_count": 1
+     },
+     {
+      "key": "344494.02.01.10",
+      "doc_count": 1
+     },
+     {
+      "key": "344494.02.01.16.01",
+      "doc_count": 1
+     },
+     {
+      "key": "80NSSC18K0765",
+      "doc_count": 1
+     },
+     {
+      "key": "868800.01.04.10",
+      "doc_count": 1
+     },
+     {
+      "key": "951922.YY.ZZ",
+      "doc_count": 1
+     },
+     {
+      "key": "ITA#16274",
+      "doc_count": 1
+     },
+     {
+      "key": "NASA NCC 9-58",
+      "doc_count": 1
+     },
+     {
+      "key": "NNJ14ZSA001N",
+      "doc_count": 1
+     },
+     {
+      "key": "NNJ15HK11B ",
+      "doc_count": 1
+     },
+     {
+      "key": "WBS 516724.02.01.21.01.02",
+      "doc_count": 1
+     }
+    ]
+   },
+   "published": {
+    "buckets": [
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2016",
+      "key": 1451606400000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2018",
+      "key": 1514764800000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "1977",
+      "key": 220924800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2001",
+      "key": 978307200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2013",
+      "key": 1356998400000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2020",
+      "key": 1577836800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2023",
+      "key": 1672531200000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "distribution": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "PUBLIC",
+      "doc_count": 26
+     }
+    ]
+   },
+   "stiType": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "ABSTRACT",
+      "doc_count": 7
+     },
+     {
+      "key": "CONFERENCE_PAPER",
+      "doc_count": 6
+     },
+     {
+      "key": "PRESENTATION",
+      "doc_count": 4
+     },
+     {
+      "key": "POSTER",
+      "doc_count": 3
+     },
+     {
+      "key": "REPRINT",
+      "doc_count": 3
+     },
+     {
+      "key": "OTHER",
+      "doc_count": 1
+     },
+     {
+      "key": "PREPRINT",
+      "doc_count": 1
+     },
+     {
+      "key": "TECHNICAL_MEMORANDUM",
+      "doc_count": 1
+     }
+    ]
+   },
+   "subjectCategory": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Behavioral Sciences",
+      "doc_count": 14
+     },
+     {
+      "key": "Aerospace Medicine",
+      "doc_count": 8
+     },
+     {
+      "key": "Man/System Technology And Life Support",
+      "doc_count": 4
+     },
+     {
+      "key": "Space Communications, Spacecraft Communications, Command and Tracking",
+      "doc_count": 2
+     },
+     {
+      "key": "Administration and Management",
+      "doc_count": 1
+     },
+     {
+      "key": "Life Sciences (General)",
+      "doc_count": 1
+     },
+     {
+      "key": "Man/System Technology and Life Support",
+      "doc_count": 1
+     }
+    ]
+   },
+   "disseminated": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "DOCUMENT_AND_METADATA",
+      "doc_count": 24
+     },
+     {
+      "key": "METADATA_ONLY",
+      "doc_count": 2
+     }
+    ]
+   },
+   "stiTypeDetails": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Abstract",
+      "doc_count": 7
+     },
+     {
+      "key": "Conference Paper",
+      "doc_count": 6
+     },
+     {
+      "key": "Presentation",
+      "doc_count": 4
+     },
+     {
+      "key": "Poster",
+      "doc_count": 3
+     },
+     {
+      "key": "Reprint (Version printed in journal)",
+      "doc_count": 2
+     },
+     {
+      "key": "Other - Evidence Report",
+      "doc_count": 1
+     },
+     {
+      "key": "Preprint (Draft being sent to journal)",
+      "doc_count": 1
+     },
+     {
+      "key": "Technical Memorandum (TM)",
+      "doc_count": 1
+     },
+     {
+      "key": "Version of Record",
+      "doc_count": 1
+     }
+    ]
+   },
+   "organization": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 9,
+    "buckets": [
+     {
+      "key": "JES Tech (United States)",
+      "doc_count": 12
+     },
+     {
+      "key": "Johnson Space Center",
+      "doc_count": 12
+     },
+     {
+      "key": "KBR (United States)",
+      "doc_count": 12
+     },
+     {
+      "key": "Ames Research Center",
+      "doc_count": 5
+     },
+     {
+      "key": "NASA Johnson Space Center",
+      "doc_count": 4
+     },
+     {
+      "key": "Kennedy Space Center",
+      "doc_count": 3
+     },
+     {
+      "key": "Leidos (United States)",
+      "doc_count": 3
+     },
+     {
+      "key": "Naval Health Research Center",
+      "doc_count": 3
+     },
+     {
+      "key": "Wyle Science, Technology and Engineering Group",
+      "doc_count": 3
+     },
+     {
+      "key": "Aegis Aerospace (United States)",
+      "doc_count": 2
+     },
+     {
+      "key": "Army Natick Soldier Research Development and Engineering Center",
+      "doc_count": 2
+     },
+     {
+      "key": "Leidos, Inc.",
+      "doc_count": 2
+     },
+     {
+      "key": "NASA Ames Research Center",
+      "doc_count": 2
+     },
+     {
+      "key": "Universities Space Research Association",
+      "doc_count": 2
+     },
+     {
+      "key": "Wyle (United States)",
+      "doc_count": 2
+     },
+     {
+      "key": "",
+      "doc_count": 1
+     },
+     {
+      "key": "Baylor Coll. of Medicine",
+      "doc_count": 1
+     },
+     {
+      "key": "Canadian Space Agency",
+      "doc_count": 1
+     },
+     {
+      "key": "Centre National D'Etudes Spatiales",
+      "doc_count": 1
+     },
+     {
+      "key": "European Space Agency",
+      "doc_count": 1
+     }
+    ]
+   },
+   "modified": {
+    "buckets": [
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 23
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 2
+     }
+    ]
+   },
+   "keyword": {
+    "doc_count_error_upper_bound": 1,
+    "sum_other_doc_count": 54,
+    "buckets": [
+     {
+      "key": "Adult",
+      "doc_count": 2
+     },
+     {
+      "key": "Comparative Study",
+      "doc_count": 2
+     },
+     {
+      "key": "Human",
+      "doc_count": 2
+     },
+     {
+      "key": "Male",
+      "doc_count": 2
+     },
+     {
+      "key": "Spaceflight",
+      "doc_count": 2
+     },
+     {
+      "key": "behavioral health",
+      "doc_count": 2
+     },
+     {
+      "key": "spaceflight",
+      "doc_count": 2
+     },
+     {
+      "key": " Earth Independent Operations",
+      "doc_count": 1
+     },
+     {
+      "key": " Lunar",
+      "doc_count": 1
+     },
+     {
+      "key": "Adolescent",
+      "doc_count": 1
+     },
+     {
+      "key": "Affect",
+      "doc_count": 1
+     },
+     {
+      "key": "Antiemetics/adverse effects/pharmacology/therapeutic use",
+      "doc_count": 1
+     },
+     {
+      "key": "Astronaut",
+      "doc_count": 1
+     },
+     {
+      "key": "Astronauts/psychology",
+      "doc_count": 1
+     },
+     {
+      "key": "Behavioral health",
+      "doc_count": 1
+     },
+     {
+      "key": "Biofeedback (Psychology)",
+      "doc_count": 1
+     },
+     {
+      "key": "CO2",
+      "doc_count": 1
+     },
+     {
+      "key": "Central Nervous System Stimulants/adverse effects/pharmacology/therapeutic use",
+      "doc_count": 1
+     },
+     {
+      "key": "Communication Delay",
+      "doc_count": 1
+     },
+     {
+      "key": "Communication delays",
+      "doc_count": 1
+     }
+    ]
+   }
+  }
+ }
+}

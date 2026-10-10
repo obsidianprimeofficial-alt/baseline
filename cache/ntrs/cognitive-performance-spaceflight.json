@@ -1,0 +1,3243 @@
+{
+ "source_url": "https://ntrs.nasa.gov/api/citations/search?q=cognitive+performance+spaceflight",
+ "fetched_at": "2026-10-03T18:48:20+00:00",
+ "data": {
+  "stats": {
+   "took": 66,
+   "total": 104,
+   "estimate": false,
+   "maxScore": 189.41138
+  },
+  "results": [
+   {
+    "_meta": {
+     "score": 189.41138
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20120017374,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "1059dba1c3744226b0d06d289a19d18c",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Behavioral Sciences"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20120017374,
+     "ear": "NO",
+     "id": "6369ed9c72c349448cc3b7f8e13f083e",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-27430",
+     "Report Number: JSC-CN-27430"
+    ],
+    "title": "Review of Human Cognitive Performance in Spaceflight",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-25T22:41:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20120017374,
+      "meta": {
+       "author": {
+        "name": "Strangman, Gary"
+       },
+       "organization": {
+        "name": "Harvard Medical School",
+        "location": "Boston, MA, United States"
+       }
+      },
+      "id": "b51e38ddaab248a4bf42e9182b06ad05"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20120017374,
+      "meta": {
+       "author": {
+        "name": "Bevan, Gary"
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "3d9363dcdd094be7a364058917b5f21a"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20120017374,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-25T22:41:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "Human space exploration is inherently hazardous, particularly for lon g duration (LD) missions (22 days or longer). Maintenance of cognitive functioning is essential, but flight environments pose numerous pote ntial risks to the brain and cognitive performance (eg, radiation, to xins, chronic stress, sleep deprivation, hypercarbia, fluid shifts, h ormone imbalances, and injury). There have been persistent anecdotal  reports of cognitive deficits during missions, but an up?-to-date rev iew of the evidence for such changes has remained unavailable. Method s: We identified and reviewed English language publications found via  electronic searches in PubMed, PsycInfo, Inspec, the NASA Technical  Report Server, and the Defense Technical Information Center, plus rec ursive searches of publication bibliographies. Search terms included  the word cognition, cognitive, or performance along with spaceflight,  flight, mission, or closely related terms. Results: Inter?-study variability precluded meta?-analysis. Some 32 published studies involving  cognitive assessment during spaceflight were identified, involving a  total of 110 participants (mean: 3.4 participants per study). The lo ngest?-duration study spanned 438 days, with six additional studies i nvolving flight durations of 90 days, and 11 more studies involved fl ight durations exceeding 21 days. The available evidence failed to st rongly support or refute the existence of cognitive deficits in LD sp aceflight, in part due to inadequate power or control conditions. Evi dence of increased variability in cognitive performance during spacef light, both within and between individuals, was common. Discussion: T hese results represent a negative finding based on small numbers of s ubjects for any given cognitive function. The increased variability within and (particularly) between individuals highlights the potential  danger of generalizing from case studies. A mismatch therefore remain s between anecdotal reports describing generalized cognitive slowing,  attention and memory problems during missions and the experimental e vidence supporting such deficits. Since a major justification for man ned spaceflight rests with the cognitive flexibility of humans, addit ional studies and further analysis of existing operational data appea rs warranted.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20120017374,
+      "name": "Aerospace Medical Association",
+      "location": "Alexandria, VA, United States",
+      "id": "0459530ec0a545e296698fd66a3c94c5"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20120017374,
+      "endDate": "2013-05-16T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "Aerospace Medical Association",
+          "location": "Alexandria, VA, United States"
+         }
+        },
+        "meetingId": "b92b0581e26c40638de43b6b9cb8d5ca",
+        "id": "fc129ccf44d043c8912ece85c031099b"
+       }
+      ],
+      "name": "84th Annual Scientific Meeting of the Aerospace Medical Association",
+      "location": "Chicago, IL",
+      "id": "b92b0581e26c40638de43b6b9cb8d5ca",
+      "startDate": "2013-05-12T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20120017374,
+      "id": "6b3b67b8aa234bcca448e11c02330826",
+      "publicationDate": "2012-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20120017374.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20120017374/downloads/20120017374.pdf",
+       "pdf": "/api/citations/20120017374/downloads/20120017374.pdf",
+       "fulltext": "/api/citations/20120017374/downloads/20120017374.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 179.96996
+    },
+    "copyright": {
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20240012108,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "c3591bfa7128430faacb56c6d653449d",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Behavioral Sciences"
+    ],
+    "keywords": [
+     "Data curation",
+     "Conceptualizing",
+     "ISS SID",
+     "Cognition",
+     "Spaceflight",
+     "Low Earth Orbit",
+     "Astronauts",
+     "Cognitive Performance",
+     "Investigation"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20240012108,
+     "ear": "NO",
+     "id": "03a2ff4c34d04fa0b833635a1565614a",
+     "itar": "NO"
+    },
+    "distributionDate": "2024-10-25T04:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20240012108,
+      "id": "51b27a3525da4fd3b756e4e2da92ff27",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "10449.2.3.8.69.2509",
+      "submissionId": 20240012108,
+      "id": "98fb577cb4074a8ea19a7fabc701c869",
+      "type": "PROJECT"
+     }
+    ],
+    "title": "Cognitive Performance in ISS Astronauts on 6-Month Low Earth Orbit Missions",
+    "stiType": "ACCEPTED_MANUSCRIPT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2024-09-24T20:14:32.2128910+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 0,
+      "submissionId": 20240012108,
+      "meta": {
+       "author": {
+        "name": "Sheena I Dev"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "ee077a07c30641db82c7cb51e06eb62c",
+      "userType": "OTHER",
+      "userId": "221a89588b55425c8ea79155a980b43d"
+     },
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 1,
+      "submissionId": 20240012108,
+      "meta": {
+       "author": {
+        "orcidId": "0009-0006-1809-158X",
+        "name": "Alaa M Khader"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "5538bed1fe8447c5b64f1e69d9638db1",
+      "userType": "OTHER",
+      "userId": "4114e2b182ba40a7bc1c53017ca67735"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 2,
+      "submissionId": 20240012108,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0001-7305-0162",
+        "name": "Sydney R Begerowski"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "5c921bce351a41b2a453e9b3b7e0d5b7",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "d78e78b9b8d0461eb35c9b8413790f0b"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 3,
+      "submissionId": 20240012108,
+      "meta": {
+       "author": {
+        "name": "Steven R Anderson"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "bff253ccc97c4cc9b91d788e03899993",
+      "userType": "OTHER",
+      "userId": "e8a85ecb2ef74f1db2f64e98d64f60fb"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 4,
+      "submissionId": 20240012108,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0003-1027-4665",
+        "name": "Gilles Cl\u00e9ment"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "492a85ddf4a44d509ca0c7031ee80947",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "1b5d995f20124d94bfc4376d066183e4"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 5,
+      "submissionId": 20240012108,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Suzanne T Bell"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, United States"
+       }
+      },
+      "id": "164861ad7ce947beb6dc561778b64a1a",
+      "userType": "CIVIL",
+      "userId": "dcafe31be3ed4a519e365872909e1b54"
+     }
+    ],
+    "stiTypeDetails": "Accepted Manuscript (Version with final changes)",
+    "technicalReviewType": "PROFESSIONAL_REVIEW",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20240012108,
+    "created": "2024-09-20T18:51:35.4086500+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "<b>Introduction:</b> Current and future astronauts will endure prolonged exposure to spaceflight hazards and environmental stressors that could compromise cognitive functioning, yet cognitive performance in current missions to the International Space Station remains critically under-characterized. We systematically assessed cognitive performance across 10 cognitive domains in astronauts on 6-month missions to the ISS. \n\n<b>Methods:</b> Twenty-five professional astronauts were administered the Cognition Battery as part of National Aeronautics and Space Administration (NASA) Human Research Program Standard Measures Cross-Cutting Project. Cognitive performance data were collected at five mission phases: pre-flight, early flight, late flight, early post-flight, and late post-flight. We calculated speed and accuracy scores, corrected for practice effects, and derived z-scores to represent deviations in cognitive performance across mission phases from the sample\u2019s mean baseline (i.e., pre-flight) performance. Linear mixed models with random subject intercepts and pairwise comparisons examined the relationships between mission phase and cognitive performance. \n\n<b>Results:</b> Cognitive performance was generally stable over time with some differences observed across mission phases for specific subtests. There was slowed performance observed in early flight on tasks of processing speed, visual working memory, and sustained attention. We observed a decrease in risk-taking propensity during late flight and post-flight mission phases. Beyond examining group differences, we inspected scores that represented a significant shift from the sample\u2019s mean baseline score, revealing that 11.8% of all flight and post-flight scores were at or below 1.5 standard deviations below the sample\u2019s baseline mean. Finally, exploratory analyses yielded no clear pattern of associations between cognitive performance and either sleep or ratings of alertness. \n\n<b>Conclusions:</b> There was no evidence for a systematic decline in cognitive performance for astronauts on a 6-month missions to the ISS. Some differences were observed for specific subtests at specific mission phases, suggesting that processing speed, visual working memory, sustained attention, and risk-taking propensity may be the cognitive domains most susceptible to change in Low Earth Orbit for high performing, professional astronauts. We provide descriptive statistics of pre-flight cognitive performance from 25 astronauts, the largest published preliminary normative database of its kind to date, to help identify significant performance decrements in future samples. ",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20240012108,
+     "id": "3fff5b705c7a4489a743523e427e9fa5"
+    },
+    "publications": [
+     {
+      "volume": "15",
+      "submissionId": 20240012108,
+      "publisher": "Frontiers Media",
+      "eissn": "1664-042X",
+      "id": "288ee33098034377b6cc7949b2f15123",
+      "publicationName": "Frontiers in Physiology",
+      "publicationDate": "2024-10-25T05:00:00.0000000+00:00",
+      "doi": "10.3389/fphys.2024.1451269"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 162.43529
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "MAY_INCLUDE_COPYRIGHT_MATERIAL",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20220015630,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "81dc4a3f8995494bbe2afefb4a7426ac",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "carbon dioxide",
+     "physical performance",
+     "cognitive performance",
+     "extravehicular activity",
+     "contingency"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20220015630,
+     "ear": "NO",
+     "id": "790f2bbdf47c4ff8b9d8e6ee88a065f8",
+     "itar": "NO"
+    },
+    "distributionDate": "2023-02-07T06:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "10449.2.03.07.A2.1807",
+      "submissionId": 20220015630,
+      "id": "568c7d9a34e148bb9495ebb098b77a88",
+      "type": "TASK"
+     }
+    ],
+    "title": "Effect of Carbon Dioxide Exposure on Physical and Cognitive Performance in a Simulated Spaceflight Contingency Scenario",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2022-10-18T14:47:47.8591170+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 0,
+      "submissionId": 20220015630,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Derek M Nusbaum"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "fc63e06759f944b38855bdf9feae69bb",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "332ea1a0f7a1453ea22c213248455184"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 1,
+      "submissionId": 20220015630,
+      "meta": {
+       "author": {
+        "name": "Alexander Jameson Baughman"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "551cc7bf60d94d2b83f4cc074cb31e62",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "62214d9625e048e29846ce0530bb13ec"
+     },
+     {
+      "organizationId": "f93929fef1eb5d9bb0bc1f566ba28e6f",
+      "sequence": 2,
+      "submissionId": 20220015630,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Robert C Scully"
+       },
+       "organization": {
+        "name": "Jet Propulsion Lab",
+        "location": "La Ca\u00f1ada Flintridge, California, United States"
+       }
+      },
+      "id": "472f371a8a75407fb0b722db89e43bdd",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "b00bc38a07d64c10b976dfa8f5ee1289"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20220015630,
+      "meta": {
+       "author": {
+        "name": "Michael Austin Bishop"
+       },
+       "organization": {
+        "name": "Diversified Construction"
+       }
+      },
+      "id": "ed964214e7eb4cf5826fb5d9d0cf2b43",
+      "userType": "OTHER",
+      "userId": "bb3930b9f1e3442fa04091d37e2cac75"
+     },
+     {
+      "organizationId": "021c8aebff3e57e183a5d8747d83bec2",
+      "sequence": 4,
+      "submissionId": 20220015630,
+      "meta": {
+       "author": {
+        "name": "Benjamin Levine"
+       },
+       "organization": {
+        "name": "The University of Texas Southwestern Medical Center",
+        "location": "Dallas, Texas, United States"
+       }
+      },
+      "id": "a20e981a389d451280b2741034393c68",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "021c8aebff3e57e183a5d8747d83bec2",
+      "sequence": 5,
+      "submissionId": 20220015630,
+      "meta": {
+       "author": {
+        "name": "Tony Babb"
+       },
+       "organization": {
+        "name": "The University of Texas Southwestern Medical Center",
+        "location": "Dallas, Texas, United States"
+       }
+      },
+      "id": "c6a3161b5b0f4457b0681b7b1c491a29",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "c373b7667dc458dca177783bfff214bd",
+      "sequence": 6,
+      "submissionId": 20220015630,
+      "meta": {
+       "author": {
+        "name": "James A Pawelczyk"
+       },
+       "organization": {
+        "name": "Pennsylvania State University",
+        "location": "State College, Pennsylvania, United States"
+       }
+      },
+      "id": "e77462e51af74a1abf9f16fbeb57e852",
+      "userType": "OTHER",
+      "userId": "c005219bed754c59b93790af4fadd72b"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 7,
+      "submissionId": 20220015630,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Andrew Frank Abercromby"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "759fee2bf05649a490c6e30d86da50fc",
+      "userType": "CIVIL",
+      "userId": "9a0d72d47391496da296b70bf62e4726"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "NASA_TECHNICAL_MANAGEMENT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20220015630,
+    "created": "2022-10-18T14:21:44.0023400+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "Introduction: Carbon dioxide (CO2) produced by astronauts inside space suits can accumulate to levels that affect health and performance. The human health and performance risks associated with different levels of CO2 exposure in the flight environment remain an area of debate.  The purpose of this study is to characterize the limit of acceptable performance (cognitive and physical) decrements and symptom severity for mission operations when subjected to elevated inspired CO2 levels in the spacesuit during contingency EVA scenarios.\n\nMethods: This study will create a simulation of a 1-hour contingency EVA walk back to the habitat, incorporating a passive treadmill and a fully immersive virtual reality (VR) simulation of a lunar EVA.  Subjects will be asked to walk on a treadmill while breathing partial pressures of CO2 of 0, 5, 10, 15, 20, 25, 30mmHg for 1 hour at a time. Cognitive performance will be quantified using validated cognitive tests and measures of functional task performance embedded within the VR environment.  Test subject symptoms and self-assessment of performance will be evaluated via survey. \n\nResults: This study currently has approval from NASA\u2019s Institutional Review Board and has completed the Test Readiness Review process.  Next steps for this research study include test subject recruitment, data collection, and analysis.  Data collection is planned for calendar year 2022 and 2023.\n\nDiscussion: This study will provide valuable information regarding how various partial pressures of CO2 exposure impact acute health, as well as cognitive and physical performance during simulated lunar EVA.  This information will be vital in the assessment of overall risk associated with current hardware (vehicle and suit) design for upcoming exploration missions.  It will also be invaluable for informing future standards and requirements.",
+    "isLessonsLearned": true,
+    "disseminated": "METADATA_ONLY",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20220015630,
+     "id": "39321d23affb4275940518085400160f"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20220015630,
+      "endDate": "2023-02-09T06:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington D.C., District of Columbia, United States"
+         }
+        },
+        "meetingId": "750afa28f5d449e882be87fc981f4974",
+        "id": "9f3ea16231f94e24b63c66de2941596b"
+       }
+      ],
+      "name": "Human Research Program Investigators\u2019 Workshop (HRP IWS 2023)",
+      "location": "Galveston, TX",
+      "id": "750afa28f5d449e882be87fc981f4974",
+      "url": "https://web.cvent.com/event/08d8f955-514e-4e10-b860-bd009811ec13/summary",
+      "startDate": "2023-02-07T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 161.4794
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20240001069,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "92d314f5995a417ebfa7439f20643eda",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "carbon dioxide",
+     "physical performance",
+     "cognitive performance",
+     "extravehicular activity",
+     "contingency"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20240001069,
+     "ear": "NO",
+     "id": "ff821698cbbd4e7f8b869b82c5bca05e",
+     "itar": "NO"
+    },
+    "distributionDate": "2024-02-13T06:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20240001069,
+      "id": "a1a7d8fb846b482dbe21971dd2ba1aca",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Effect of Carbon Dioxide Exposure on Physical and Cognitive Performance in A Simulated Spaceflight Contingency Scenario",
+    "stiType": "POSTER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2024-01-24T18:40:46.6146610+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 0,
+      "submissionId": 20240001069,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "A Garbino"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "548303f5f6f64755a5c51c81e2440186",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "925e5bdacd5f45cf937f12fd344cef37"
+     },
+     {
+      "organizationId": "68c7ff195be14c9a9987fd9b107196e3",
+      "sequence": 1,
+      "submissionId": 20240001069,
+      "meta": {
+       "author": {
+        "name": "B Siders"
+       },
+       "organization": {
+        "name": "Aegis Aerospace",
+        "location": "Houston, TX"
+       }
+      },
+      "id": "660c82de43684e61a88db2a8dd04eeee",
+      "userType": "OTHER",
+      "userId": "89f2b76f10304fd18d6d5135797d426e"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 2,
+      "submissionId": 20240001069,
+      "meta": {
+       "author": {
+        "name": "N Keller"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "889d9885777447b8ab4f8eda7dcfc38b",
+      "userType": "OTHER",
+      "userId": "9d2cee047f6241ae934ce623a52d91f0"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 3,
+      "submissionId": 20240001069,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "R Scully"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "d636a4a3f2d14220a12a74a464ec1d15",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "a2089479ff564ba4af5484ecebe33d47"
+     },
+     {
+      "organizationId": "021c8aebff3e57e183a5d8747d83bec2",
+      "sequence": 4,
+      "submissionId": 20240001069,
+      "meta": {
+       "author": {
+        "name": "B Levine"
+       },
+       "organization": {
+        "name": "The University of Texas Southwestern Medical Center",
+        "location": "Dallas, United States"
+       }
+      },
+      "id": "683b7baeb5de432a8e826b196c677338",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "021c8aebff3e57e183a5d8747d83bec2",
+      "sequence": 5,
+      "submissionId": 20240001069,
+      "meta": {
+       "author": {
+        "name": "T Babb"
+       },
+       "organization": {
+        "name": "The University of Texas Southwestern Medical Center",
+        "location": "Dallas, United States"
+       }
+      },
+      "id": "6f2dec3e75c3441e91ce115ec266c7da",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "c373b7667dc458dca177783bfff214bd",
+      "sequence": 6,
+      "submissionId": 20240001069,
+      "meta": {
+       "author": {
+        "name": "J Pawelczyk"
+       },
+       "organization": {
+        "name": "Pennsylvania State University",
+        "location": "State College, United States"
+       }
+      },
+      "id": "457507ff65c0441fb7c4a1e3c361218c",
+      "userType": "OTHER",
+      "userId": "c005219bed754c59b93790af4fadd72b"
+     },
+     {
+      "organizationId": "184389ee78e05dd8ab6050cafbb52187",
+      "sequence": 7,
+      "submissionId": 20240001069,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "M Basner"
+       },
+       "organization": {
+        "name": "University of Pennsylvania",
+        "location": "Philadelphia, Pennsylvania, United States"
+       }
+      },
+      "id": "9591a36851534fe2ac25c3e88af7ab55",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "8390eb9df4ed41f98558b0dd81a794b2"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 8,
+      "submissionId": 20240001069,
+      "meta": {
+       "author": {
+        "name": "A Baughman"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "69fadc0cbb41472fad61b6ded95419d7",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "62214d9625e048e29846ce0530bb13ec"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 9,
+      "submissionId": 20240001069,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "K Marshall-Goebel"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "bcfe87dbc31c49e6a860f8fbcb8b629d",
+      "userType": "CIVIL",
+      "userId": "d306465b9b514ffa9c16d9c39c336ad2"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 10,
+      "submissionId": 20240001069,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "A Abercromby"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, United States"
+       }
+      },
+      "id": "2174bf66827e4947a6915b9792598c26",
+      "userType": "CIVIL",
+      "userId": "9a0d72d47391496da296b70bf62e4726"
+     }
+    ],
+    "stiTypeDetails": "Poster",
+    "technicalReviewType": "NASA_TECHNICAL_MANAGEMENT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20240001069,
+    "created": "2024-01-23T23:24:28.1528610+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "INTRODUCTION:  \nCarbon dioxide (CO2) produced by astronauts inside space suits can accumulate to levels that may affect health and performance. The human health and performance risks associated with different levels of CO2 exposure in the flight environment remain an area of debate.  The purpose of this study is to characterize the limit of acceptable performance (cognitive and physical) decrements and symptom severity for mission operations when subjected to elevated inspired CO2 levels in simulated contingency lunar extravehicular activity (EVA) scenarios.\n\nMETHODS:\nThis study will create a simulation of a 1-hour, ~2km contingency EVA walk back to a habitat, incorporating a passive treadmill and a fully immersive virtual reality (VR) simulation of a lunar EVA environment.  Subjects will be asked to walk on a treadmill while breathing partial pressures of CO2 of 0, 5, 10, 15, 20, 25, 30mmHg for 1 hour at a time. Cognitive performance will be quantified using validated cognitive tests and measures of functional task performance embedded within the VR environment.  Test subject symptoms and self-assessment of performance will be evaluated via survey. \n\nRESULTS:\nThis study currently has approval from NASA\u2019s Institutional Review Board and has completed the Test Readiness Review process.  Next steps for this research study include test subject recruitment, data collection, and analysis.  Data collection is planned for calendar year 2023 and 2024.\n\nDISCUSSION:\nThis study will provide valuable information regarding how various partial pressures of CO2 exposure impact acute health, as well as cognitive and physical performance during simulated contingency lunar EVA.  This information will enable assessment of health and performance risk associated with spacesuit systems and operations concepts for future exploration missions as well as informing definition of future standards and requirements.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20240001069,
+     "id": "03764b0051164d37918f877b7adf2882"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20240001069,
+      "endDate": "2024-02-16T06:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington, United States"
+         }
+        },
+        "meetingId": "caa863a514534455b94d1ab758d5e03b",
+        "id": "ed1abd78a11b4194ad0e4a49ad35ff5d"
+       }
+      ],
+      "name": "2024 Human Research Program (HRP) Investigator's Workshop (IWS)",
+      "location": "Galveston, TX",
+      "id": "caa863a514534455b94d1ab758d5e03b",
+      "startDate": "2024-02-13T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "name": "H3PO_IWS24_Garbino_CO2WalkBack_Poster.pptx",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20240001069/downloads/H3PO_IWS24_Garbino_CO2WalkBack_Poster.pptx",
+       "fulltext": "/api/citations/20240001069/downloads/H3PO_IWS24_Garbino_CO2WalkBack_Poster.pptx.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 146.13531
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20090038912,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "5cc886f8663b43f181f3c879ff74bc8a",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Man/System Technology And Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20090038912,
+     "ear": "NO",
+     "id": "a6a99eb633904beb95cfd2f78be5ed32",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-19196",
+     "Report Number: JSC-CN-19196"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NCC9-58",
+      "submissionId": 20090038912,
+      "id": "02c0f109f5174246997637719dc98c65",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Spatial Cognitive Performance During Adaptation to Conflicting Tilt-Translation Stimuli as a Sensorimotor Spaceflight Analog",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-24T19:32:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20090038912,
+      "meta": {
+       "author": {
+        "name": "Kayanickupuram, A. J."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "e62877103e094129b6ed7e14997db374"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20090038912,
+      "meta": {
+       "author": {
+        "name": "Ramos, K. A."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "e1a19ab144e8434ea7999a08b780f4b2"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20090038912,
+      "meta": {
+       "author": {
+        "name": "Cordova, M. L."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "6eca590f105e4c8aa8202580ce301e6a"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20090038912,
+      "meta": {
+       "author": {
+        "name": "Wood, S. J."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "d13fe8a918954483bc93db9525cee8cb"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20090038912,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-24T19:32:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "The need to resolve new patterns of sensory feedback in altered gravitoinertial environments requires cognitive processes to develop appropriate reference frames for spatial orientation awareness. The purpose of this study was to examine deficits in spatial cognitive performance during adaptation to conflicting tilt-translation stimuli. Fourteen subjects were tilted within a lighted enclosure that simultaneously translated at one of 3 frequencies. Tilt and translation motion was synchronized to maintain the resultant gravitoinertial force aligned with the longitudinal body axis, resulting in a mismatch analogous to spaceflight in which the canals and vision signal tilt while the otoliths do not. Changes in performance on different spatial cognitive tasks were compared 1) without motion, 2) with tilt motion alone (pitch at 0.15, 0.3 and 0.6 Hz or roll at 0.3 Hz), and 3) with conflicting tilt-translation motion. The adaptation paradigm was continued for up to 30 min or until the onset of nausea. The order of the adaptation conditions were counter-balanced across 4 different test sessions. There was a significant effect of stimulus frequency on both motion sickness and spatial cognitive performance. Only 3 of 14 were able to complete the full 30 min protocol at 0.15 Hz, while 7 of 14 completed 0.3 Hz and 13 of 14 completed 0.6 Hz. There were no changes in simple visual-spatial cognitive tests, e.g., mental rotation or match-to-sample. There were significant deficits during 0.15 Hz adaptation in both accuracy and reaction time during a spatial reference task in which subjects are asked to identify a match of a 3D reoriented cube assemblage. Our results are consistent with antidotal reports of cognitive impairment that are common during sensorimotor adaptation with G-transitions. We conclude that these cognitive deficits stem from the ambiguity of spatial reference frames for central processing of inertial motion cues.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20090038912,
+      "endDate": "2010-05-13T00:00:00.0000000+00:00",
+      "name": "81st Annual Scientific Meeting of the Aerospace Medical Association",
+      "location": "Phoenix, AZ",
+      "id": "220c6b7a77d24a4c9cffe7fdfe0401ea",
+      "startDate": "2010-05-09T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20090038912,
+      "id": "88fa9bc5304d410a9475d36fe6645394",
+      "publicationDate": "2009-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 145.9364
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20170001529,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "3be0a1dce2dd4141bc1370ed464adc07",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine",
+     "Behavioral Sciences"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20170001529,
+     "ear": "NO",
+     "id": "1e9dd4a9bb444ee68692cac1bec05616",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-38516",
+     "Report Number: JSC-CN-38516"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NNX11AR02G",
+      "submissionId": 20170001529,
+      "id": "e72bf215cad84a4d91fd3fe8dbd7a258",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Behavioral Assessment of Spaceflight Effects on Neurocognitive Performance - Extent and Longevity",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2017-02-09T16:39:15.6200000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20170001529,
+      "meta": {
+       "author": {
+        "name": "De Dios, Y.E."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "7144b596fe8e4b4dae8b673eae01468c"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20170001529,
+      "meta": {
+       "author": {
+        "name": "Kofman, I.S."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "d3c96b64143b47feb5a4a5c3631cfcbc"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20170001529,
+      "meta": {
+       "author": {
+        "name": "Gadd, N.E."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "c2c8bffe9f1540b088fd0c6bc1c38899"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20170001529,
+      "meta": {
+       "author": {
+        "name": "Kreutzberg, G.A."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "42bd6bccbc4041fe950fc26f82948597"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20170001529,
+      "meta": {
+       "author": {
+        "name": "Peters, B.T."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "edbe06282d44453f81baf2548ca6e7af"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20170001529,
+      "meta": {
+       "author": {
+        "name": "Taylor, L.C."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "e160cb04c9254353ae0e202c434b8824"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20170001529,
+      "meta": {
+       "author": {
+        "name": "Campbell, D.J."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "e3fe8603ff84459c8c704d8c61a25473"
+     },
+     {
+      "sequence": 7,
+      "submissionId": 20170001529,
+      "meta": {
+       "author": {
+        "name": "Wood, S.J."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "602c180c402345c0a0c4c9ea3b76c42a"
+     },
+     {
+      "sequence": 8,
+      "submissionId": 20170001529,
+      "meta": {
+       "author": {
+        "name": "Bloomberg, J.J."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "c1be39c182da459b88dd74683af9204a"
+     },
+     {
+      "sequence": 9,
+      "submissionId": 20170001529,
+      "meta": {
+       "author": {
+        "name": "Seidler, R.D."
+       },
+       "organization": {
+        "name": "Michigan Univ.",
+        "location": "Ann Arbor, MI, United States"
+       }
+      },
+      "id": "8f2a5dd478fe4ec5ab57c14df1aa1048"
+     },
+     {
+      "sequence": 10,
+      "submissionId": 20170001529,
+      "meta": {
+       "author": {
+        "name": "Mulavara, A.P."
+       },
+       "organization": {
+        "name": "KBRwyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "6b34e31311fe493487f0ad3eaa357755"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20170001529,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2017-02-09T16:39:15.6200000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Exposure to the microgravity environment during a spaceflight mission impacts crewmembers' sensorimotor function. A study conducted by Bock et al. concluded that stress and scarcity of cognitive resources required for sensorimotor adaptation may be responsible for deficits during spaceflight. We are conducting this study to investigate the effects of spaceflight on the extent, longevity and neural bases of sensorimotor, cognitive, and neural changes. The data presented will focus on the behavioral measures that were collected pre-, in- and post -flight.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20170001529,
+      "endDate": "2017-01-26T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "5e263e09d52345b492a05638c1dcf696",
+        "meta": {
+         "organization": {
+          "name": "National Space Biomedical Research Inst. (NSBRI)",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "854f16768813452daa5bfc1934bc40ce",
+        "id": "a53bbf624db642cda3ed4d036871124f"
+       }
+      ],
+      "name": "2017 NASA Human Research Program Investigators'' Workshop",
+      "location": "Galveston, TX",
+      "id": "854f16768813452daa5bfc1934bc40ce",
+      "startDate": "2017-01-23T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20170001529,
+      "id": "9bef6562b7ca4797807876ac4d48d7e1",
+      "publicationDate": "2017-01-23T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20160014590,
+      "type": "SEE_ALSO",
+      "title": "Behavioral Assessment of Spaceflight Effects on Neurocognitive Performance: Extent and Longevity",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20160014590,
+      "type": "SEE_ALSO",
+      "title": "Behavioral Assessment of Spaceflight Effects on Neurocognitive Performance: Extent and Longevity",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20170001529.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20170001529/downloads/20170001529.pdf",
+       "pdf": "/api/citations/20170001529/downloads/20170001529.pdf",
+       "fulltext": "/api/citations/20170001529/downloads/20170001529.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 144.84497
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20240010503,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "efacf513ef3f4253bca3e9939e3fd02f",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Man/System Technology and Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20240010503,
+     "ear": "NO",
+     "id": "86723064bea74ab8b57c91698e9db22f",
+     "itar": "NO"
+    },
+    "distributionDate": "2024-10-10T05:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "10449.2.03.02.52.2478",
+      "submissionId": 20240010503,
+      "id": "f12272fba9eb49e5b2ad4d624458eb4b",
+      "type": "WBS"
+     },
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20240010503,
+      "id": "ad42b435f83f4039a9b89f1544489729",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Ensuring Safe Decision-Making on the Moon and Mars: Cognitive Performance Assessment for Exploration Class Mission EVA",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2024-08-13T17:13:12.5856590+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 0,
+      "submissionId": 20240010503,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0002-7729-6837",
+        "name": "Steven R Anderson"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "6e93a68f0c05468ab92ecc8c38ea921f",
+      "userType": "OTHER",
+      "userId": "e8a85ecb2ef74f1db2f64e98d64f60fb"
+     },
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 1,
+      "submissionId": 20240010503,
+      "meta": {
+       "author": {
+        "name": "Mercedes Jorge"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "056dc627f002459ba22a6c43a6dc1a4a",
+      "userType": "OTHER",
+      "userId": "e758edee429e4244854ccd1638af106d"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 2,
+      "submissionId": 20240010503,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Suzanne T Bell"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, United States"
+       }
+      },
+      "id": "7cd20ec82a9c44d99b8bb6257757bfdc",
+      "userType": "CIVIL",
+      "userId": "dcafe31be3ed4a519e365872909e1b54"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "EXTERNAL_PEER_COMMITTEE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20240010503,
+    "created": "2024-08-13T16:08:19.0126290+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Extravehicular activity (EVA) is one of the most dangerous and cognitively demanding actions that astronauts can execute, and the cognitive demands associated with future partial gravity EVA on the Moon and Mars are expected to be higher compared to microgravity EVA currently conducted from the International Space Station (ISS). Decrements in cognitive performance present an important risk to crew safety during exploration mission class EVA. Yet there is currently insufficient data to characterize cognitive performance prior to, during, and following EVA. Furthermore, it is still unclear which cognitive domains are most important for conducting mission critical decisions with crew safety implications. To address this gap, we conducted a cognitive task analysis (CTA) of EVA to characterize the procedures, the cognitive demands required, and the critical safety decisions associated with decrements in cognitive performance. We used the applied cognitive task analysis method as outlined by Militello and Hutton (1998) and conducted interviews with subject matter experts (SMEs) in EVA at NASA Johnson Space Center in summer 2024. Interviews focused on exploration EVA and elicited feedback from SMEs on the cognitive skills required for specific EVA tasks including cognitive strategies, critical cues, and decision-making strategies. A cognitive demands table was assembled to consolidate and synthesize the information from all interviews. The information from this cognitive task analysis will inform ongoing work to identify the key cognitive domains for safe decision-making during exploration mission class EVA on the Moon and Mars. This work will importantly provide a link between cognitive domains identified in the cognitive task analysis and operationally-relevant performance metrics collected during spaceflight and simulation EVA that can be tracked and assessed by NASA mission operations. Ultimately, this work will aid in the development and application of exploration class cognitive performance monitoring capabilities to improve safe decision-making and inform EVA planning on future spaceflight missions to the Moon and Mars.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20240010503,
+     "id": "b98698568d3547ada3b1059acda13f5e"
+    },
+    "meetings": [
+     {
+      "country": "CZ",
+      "submissionId": 20240010503,
+      "endDate": "2024-10-10T05:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "f8b7a6649df94576b674c311274b6104",
+        "meta": {
+         "organization": {
+          "name": "International Association for the Advancement of Space Safety",
+          "location": "Noordwijk, Netherlands"
+         }
+        },
+        "meetingId": "7d58c9ca8b6541bd811652bd9712b4bc",
+        "id": "8cda5ad1284a40ad9b32f6b5febccbcc"
+       }
+      ],
+      "name": "13th International Association for the Advancement of Space Safety (IAASS)",
+      "location": "Prague",
+      "id": "7d58c9ca8b6541bd811652bd9712b4bc",
+      "url": "https://www.iaass.org/",
+      "startDate": "2024-10-08T05:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20240010503,
+      "publisher": "International Association for the Advancement of Space Safety",
+      "id": "e4e6a66f8d6f430bb23d1db6ee4af068",
+      "publicationDate": "2024-10-08T04:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20240012742,
+      "type": "SEE_ALSO",
+      "title": "Ensuring Safe Decision-Making on the Moon and Mars: Cognitive Performance Assessment for Exploration Class Mission EVA",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20240012797,
+      "type": "SEE_ALSO",
+      "title": "Ensuring Safe Decision-Making on the Moon and Mars: Cognitive Performance Assessment for Exploration Class Mission EVA",
+      "stiType": "PRESENTATION",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "IAASS_Manuscript_8_12_2024.pdf",
+      "notes": "False positive",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20240010503/downloads/IAASS_Manuscript_8_12_2024.pdf",
+       "pdf": "/api/citations/20240010503/downloads/IAASS_Manuscript_8_12_2024.pdf",
+       "fulltext": "/api/citations/20240010503/downloads/IAASS_Manuscript_8_12_2024.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 138.95364
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "MAY_INCLUDE_COPYRIGHT_MATERIAL",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20230014750,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "73124388ee8a45ecba136ff4dedbae38",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "keywords": [
+     "mouse radiation hindlimb unloading spaceflight"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20230014750,
+     "ear": "NO",
+     "id": "b75279f7d99a4722b53b10eb37eca5b3",
+     "itar": "NO"
+    },
+    "distributionDate": "2024-02-13T08:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "Human Factors Behavioral Performance Element Grant 18 18FLAG 2 0028",
+      "submissionId": 20230014750,
+      "id": "4865031d0418423584bac8f052d15601",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "80JSC019N0001",
+      "submissionId": 20230014750,
+      "id": "dc07821cb3904d0983520d2ef44adfe6",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Plasma and Brain Cytokine Responses to Single and Combinatorial Spaceflight Stressors in Male and Female Mice",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2023-10-11T19:21:24.9381870+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 0,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "A. E. Ronca"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "1e431eeeec5d48428135d01c173a5107",
+      "userType": "CIVIL",
+      "userId": "af313e593678497f946848b32cfc71f9"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 1,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "S. D. Mhatre"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "91046d27b4704663b44bcd5addd08223",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "21cde01c1a6c45ff9b666c98e8801794"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 2,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "J. S. Iyer"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "e225fac96e944ca6ac4a4c0d46b374df",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "d4d0fba44a14442b907c4db13b51fcca"
+     },
+     {
+      "organizationId": "8de46bd117735e62b78eb5ba2e082a54",
+      "sequence": 3,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "S. Puukila"
+       },
+       "organization": {
+        "name": "Blue Marble Space Institute of Science",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "a943fa739a33482d93d262ca0bc81bde",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "a62388d9f0d04bfab509ab5239040d58"
+     },
+     {
+      "organizationId": "8de46bd117735e62b78eb5ba2e082a54",
+      "sequence": 4,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "name": "S. Tabares Ruiz"
+       },
+       "organization": {
+        "name": "Blue Marble Space Institute of Science",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "e0a4e1d0920742458953bef899d72854",
+      "userType": "OTHER",
+      "userId": "68b71cfe640448f5b376b51d2a312fce"
+     },
+     {
+      "organizationId": "517d601819de56f699f98f5db6fbb181",
+      "sequence": 5,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "name": "J. Hayes"
+       },
+       "organization": {
+        "name": "Texas A&M University System",
+        "location": "College Station, Texas, United States"
+       }
+      },
+      "id": "6e281bda71dd4c69ab92eda063b11f6a",
+      "userType": "OTHER",
+      "userId": "e8687d2e5df349c49d576717b9a05940"
+     },
+     {
+      "organizationId": "d2a3fca1e3605302a9d20a6968ea699f",
+      "sequence": 6,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "name": "A. Brekker"
+       },
+       "organization": {
+        "name": "University of North Florida",
+        "location": "Jacksonville, Florida, United States"
+       }
+      },
+      "id": "4614bae0b631425c854cf40978384366",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "d2a3fca1e3605302a9d20a6968ea699f",
+      "sequence": 7,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "name": "M. Semel"
+       },
+       "organization": {
+        "name": "University of North Florida",
+        "location": "Jacksonville, Florida, United States"
+       }
+      },
+      "id": "4ca224b01ce94327a2775485d683aa7d",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "1dff521d79595b608d38ab67d3ac2d32",
+      "sequence": 8,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "M. Lowe"
+       },
+       "organization": {
+        "name": "Medical College of Wisconsin",
+        "location": "Milwaukee, Wisconsin, United States"
+       }
+      },
+      "id": "b16a0720b31b492a8fb95e326c39f5e8",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "68b3cc1149bf4f0cbdd3493fe078e65f"
+     },
+     {
+      "sequence": 9,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0001-8161-8512",
+        "name": "L. Rubinstein"
+       },
+       "organization": {
+        "name": "Sheba Hospital",
+        "location": "Columbia, Maryland, United States"
+       }
+      },
+      "id": "7e5c8e2da53342e9ab33a217b895bd1a",
+      "userId": "d4265975c00a4d4ebe15bac442f32053"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 10,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "M. Sowa"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "42f4be2e20ce4c5ea5883efdf48f89e1",
+      "userType": "CIVIL",
+      "userId": "04e9ace08502484597111bd6c2159909"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 11,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Y. Shirazi-Fard"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "3c7c4526a0a7477c8e1f6bc94f8fff15",
+      "userType": "CIVIL",
+      "userId": "0d0c5a9c460741e1b000b4ffda29a151"
+     },
+     {
+      "organizationId": "d2a3fca1e3605302a9d20a6968ea699f",
+      "sequence": 12,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "C. G. T. Tahimic"
+       },
+       "organization": {
+        "name": "University of North Florida",
+        "location": "Jacksonville, Florida, United States"
+       }
+      },
+      "id": "8c37ffe1f0214c3bb3a680d931e2ec2b",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "e25e8029fc394142b748b7ff356c9d5b"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 13,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "J. S. Alwood"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "8fc5de113d77475d94e0241f88eafd09",
+      "userType": "CIVIL",
+      "userId": "1526df2edece49409879d53ef0be3474"
+     },
+     {
+      "organizationId": "d38ba90ea768549393e965cf74c2b98f",
+      "sequence": 14,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "A. M. Paul"
+       },
+       "organization": {
+        "name": "Embry\u2013Riddle Aeronautical University",
+        "location": "Daytona Beach, Florida, United States"
+       }
+      },
+      "id": "25b65344fd474960b4d284a3aa24f096",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "7319e654b2284c1d9cce71b7b300b01c"
+     },
+     {
+      "organizationId": "d38ba90ea768549393e965cf74c2b98f",
+      "sequence": 15,
+      "submissionId": 20230014750,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Melissa Burke"
+       },
+       "organization": {
+        "name": "Embry\u2013Riddle Aeronautical University",
+        "location": "Daytona Beach, Florida, United States"
+       }
+      },
+      "id": "9da5eb0b32864736834cdffc955156be",
+      "userType": "OTHER"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "NASA_PEER_COMMITTEE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20230014750,
+    "created": "2023-10-11T19:09:53.4849760+00:00",
+    "center": {
+     "code": "ARC",
+     "name": "Ames Research Center",
+     "id": "4540cd94d24c4bf29f8773a27faf96b2"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "Spaceflight involves exposure to multiple environmental stressors, including Ionizing Radiation (IR), microgravity, and social isolation. We hypothesize that spaceflight stressors combine synergistically to trigger an oxidative stress response that, in turn, alters immune homeostasis, brain structure/function, and neurobehavioral/cognitive performance. Here, we report plasma and brain cytokine findings from two studies of crew age-matched (24-week-old) male and female mice exposed to simulated 5-Ion GCRsim at the NASA Space Radiation Laboratory (NSRL). In Study 1, mice were exposed to 0, 5, 15, or 50cGy 5-ion GCRsim. Immune and brain measures were acquired either at \u2018Acute\u2019 (within 3 days post-irradiation; IR), \u2018Intermediate\u2019 (IR+14 days) or \u2018Delayed\u2019 (IR+125 days) timepoints. In Study 2, mice were exposed singly and in combination to 15cGy 5-ion GCRsim, simulated microgravity via continuous head-down tilt/hindlimb unloading (HU), and social isolation. Plasma and brain cytokine cytokine profiling revealed sex-specific as well as sex-common responses. Notably, plasma granulocyte colony stimulating factor (GCSF) levels showed significant regulation compared to a single stressor alone, suggesting a potential biomarker responder. Increased GCSF was correlated with corresponding increased blood neutrophil populations. Futhermore, our study provides evidence for robust effects of HU relative to IR alone. This project addresses NASA\u2019s efforts to characterize risks in both women and men in anticipation of future space missions beyond low earth orbit (BLEO). Ensuring crew health and performance during extended transits to the moon and beyond necessitates that sensorimotor and cognitive abilities remain strong to avoid potentially catastrophic health and safety outcomes. ",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20230014750,
+     "id": "1ddfa54458494abe98f1e53d7d059bd7"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20230014750,
+      "endDate": "2024-02-16T08:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+        "meta": {
+         "organization": {
+          "name": "Universities Space Research Association",
+          "location": "Columbia, Maryland, United States"
+         }
+        },
+        "meetingId": "9293a583d8044e9087432988da175eee",
+        "id": "dee00949ff984f6c8557f986039f038d"
+       },
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington D.C., District of Columbia, United States"
+         }
+        },
+        "meetingId": "9293a583d8044e9087432988da175eee",
+        "id": "0111ca9ad69b4a37859ceea251d24c3f"
+       }
+      ],
+      "name": "Human Research Program-Investigators Working Group (HRP-IWG) Workshop",
+      "location": "Galveston, TX",
+      "id": "9293a583d8044e9087432988da175eee",
+      "url": "https://www.edgereg.net/er/EventHomePage/CustomPage.jsp?ActivityID=42008&ItemID=137127 ",
+      "startDate": "2024-02-13T08:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20240001873,
+      "type": "SEE_ALSO",
+      "title": "Plasma and Brain Cytokine Responses to Single and Combinatorial Spaceflight Stressors in Male and Female Mice ",
+      "stiType": "PRESENTATION",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "name": "Ronca HRP IWS 2024 Abstract_Final.docx",
+      "type": "ABSTRACT",
+      "links": {
+       "original": "/api/citations/20230014750/downloads/Ronca%20HRP%20IWS%202024%20Abstract_Final.docx",
+       "fulltext": "/api/citations/20230014750/downloads/Ronca%20HRP%20IWS%202024%20Abstract_Final.docx.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 138.32193
+    },
+    "copyright": {
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20240012742,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "84b86c3175014d85aab28168efa83a38",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Man/System Technology and Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20240012742,
+     "ear": "NO",
+     "id": "0e8c4a6118494896bf079a94a249fe62",
+     "itar": "NO"
+    },
+    "distributionDate": "2024-10-08T05:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20240012742,
+      "id": "b8db822cccc64f469fd9ec7312260c26",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "10449.2.03.02.52.2478",
+      "submissionId": 20240012742,
+      "id": "0968a35c48ec4198b0ef72f1c999d157",
+      "type": "TASK"
+     }
+    ],
+    "title": "Ensuring Safe Decision-Making on the Moon and Mars: Cognitive Performance Assessment for Exploration Class Mission EVA",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2024-10-03T19:22:09.2946690+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 0,
+      "submissionId": 20240012742,
+      "meta": {
+       "author": {
+        "orcidId": "0000-0002-7729-6837",
+        "name": "Steven R Anderson"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "b039d31019144115a502ecddba72fe8a",
+      "userType": "OTHER",
+      "userId": "e8a85ecb2ef74f1db2f64e98d64f60fb"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 1,
+      "submissionId": 20240012742,
+      "meta": {
+       "author": {
+        "name": "Mercedes Jorge"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "4000b7ee8b574eaab46db64103ae61cc",
+      "userType": "OTHER",
+      "userId": "e758edee429e4244854ccd1638af106d"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 2,
+      "submissionId": 20240012742,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Suzanne T Bell"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, United States"
+       }
+      },
+      "id": "4e6e9ce7d69142d6b955e38861fa0ec1",
+      "userType": "CIVIL",
+      "userId": "dcafe31be3ed4a519e365872909e1b54"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20240012742,
+    "created": "2024-10-03T19:14:32.7352210+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Extravehicular activity (EVA) is one of the most dangerous and cognitively demanding actions that astronauts can execute, and the cognitive demands associated with future partial gravity EVAs on the Moon and Mars are expected to be higher compared to microgravity EVAs currently conducted from the International Space Station. Decrements in cognitive performance present an important risk to crew safety during exploration mission class EVA. Yet there is currently insufficient data to characterize cognitive performance prior to, during, and following EVA. Furthermore, it is still unclear which cognitive domains are most important for conducting mission critical decisions with crew safety implications. To address this gap, we conducted a cognitive task analysis (CTA) of EVA to characterize the procedures, the cognitive demands required, and the critical safety decisions associated with decrements in cognitive performance. We conducted a cognitive task analysis with 15 astronauts and subject matter experts in EVA operations and research. Interviews focused on surface exploration EVA and elicited feedback from experts on the cognitive skills required for specific EVA tasks, including cognitive strategies, critical cues, and decision-making strategies. A cognitive demands table was assembled to consolidate and synthesize the information from all interviews. The information from this cognitive task analysis informs ongoing exploration EVA for Moon to Mars. This work identifies the specific cognitive challenges that astronauts are likely to encounter during surface exploration EVA, and provides the foundation for: (1) prioritized and targeted cognitive performance measurement and functional performance tests, (2) EVA simulation design at varying levels of cognitive workload, and (3) the development of training and other technologies that can improve safe decision-making and inform EVA planning on future spaceflight missions to the Moon and Mars.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20240012742,
+     "id": "2a05e2356d1a419f89646686038b0807"
+    },
+    "meetings": [
+     {
+      "country": "CZ",
+      "submissionId": 20240012742,
+      "endDate": "2024-10-10T05:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "f8b7a6649df94576b674c311274b6104",
+        "meta": {
+         "organization": {
+          "name": "International Association for the Advancement of Space Safety",
+          "location": "Noordwijk, Netherlands"
+         }
+        },
+        "meetingId": "debd3f70bec74ee2907953548e3d3152",
+        "id": "0da1c35e61e0475692fbc5bff114580c"
+       }
+      ],
+      "name": "13th International Association for the Advancement of Space Safety (IAASS) Conference",
+      "location": "Prague",
+      "id": "debd3f70bec74ee2907953548e3d3152",
+      "url": "https://www.iaass.org/",
+      "startDate": "2024-10-08T05:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20240012797,
+      "type": "SEE_ALSO",
+      "title": "Ensuring Safe Decision-Making on the Moon and Mars: Cognitive Performance Assessment for Exploration Class Mission EVA",
+      "stiType": "PRESENTATION",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20240010503,
+      "type": "SEE_ALSO",
+      "title": "Ensuring Safe Decision-Making on the Moon and Mars: Cognitive Performance Assessment for Exploration Class Mission EVA",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "CTA_Manuscript_final.pdf",
+      "notes": "false positive",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20240012742/downloads/CTA_Manuscript_final.pdf",
+       "pdf": "/api/citations/20240012742/downloads/CTA_Manuscript_final.pdf",
+       "fulltext": "/api/citations/20240012742/downloads/CTA_Manuscript_final.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 132.10649
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20240010918,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "d398a1cb919944b0a2b61050c4c9583c",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20240010918,
+     "ear": "NO",
+     "id": "b932d8eb68cf4ae892216c2c49e7e4f7",
+     "itar": "NO"
+    },
+    "distributionDate": "2024-08-22T05:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "10449.2.03.08.19.0962",
+      "submissionId": 20240010918,
+      "id": "6ec0b4b90f0f40189bb0eb3bf861f0e4",
+      "type": "WBS"
+     },
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20240010918,
+      "id": "db506f18798e4106b61c41d9a4ac3018",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "The Cognition Battery: Developing a Normative Database for Spaceflight and Examining the Impact of Prolonged Isolation and Confinement on Cognitive Performance",
+    "stiType": "EXTENDED_ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2024-08-22T18:23:23.5722350+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 0,
+      "submissionId": 20240010918,
+      "meta": {
+       "author": {
+        "name": "S I Dev"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "b655d5d592c64ddab3847314b3e8255f",
+      "userType": "OTHER",
+      "userId": "221a89588b55425c8ea79155a980b43d"
+     },
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 1,
+      "submissionId": 20240010918,
+      "meta": {
+       "author": {
+        "name": "A Khader"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "2c0f8b9d994b4d79995f827b019e15fc",
+      "userType": "OTHER",
+      "userId": "4114e2b182ba40a7bc1c53017ca67735"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 2,
+      "submissionId": 20240010918,
+      "meta": {
+       "author": {
+        "name": "S R Anderson"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "3944640fcac545ca889d583ff5dd3c6a",
+      "userType": "OTHER",
+      "userId": "e8a85ecb2ef74f1db2f64e98d64f60fb"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 3,
+      "submissionId": 20240010918,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "S T Bell"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, United States"
+       }
+      },
+      "id": "666a92081bfb4b91813388ceb11e346b",
+      "userType": "CIVIL",
+      "userId": "dcafe31be3ed4a519e365872909e1b54"
+     }
+    ],
+    "stiTypeDetails": "Extended Abstract",
+    "technicalReviewType": "SINGLE_EXPERT",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20240010918,
+    "created": "2024-08-22T18:09:15.4142310+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "INTRODUCTION: Astronauts on future long duration space exploration will be required to execute complex tasks in which even minor errors could have devastating consequences. Intact cognition is critical to maintain exceptional performance standards and it is possible that variability even at the highest ends of the performance spectrum will impact operational tasks. Exposure to spaceflight hazards could compromise cognitive performance, and decrements have been documented under conditions of altered gravity and radiation exposure. The cognitive impacts of prolonged isolation and confinement remain relatively unknown. Traditional neuropsychological assessments cannot support earth independent monitoring, do not have normative comparisons for high functioning individuals, and most are not sensitive enough to detect small performance decrements. The Cognition Battery was developed to address these limitations but currently lacks comprehensive normative data. In this project, we aimed to 1) develop a preliminary normative database for astronauts and astronaut surrogates using the Cognition Battery, and 2) characterize differences in cognitive performance after short and long duration analog missions. \n\nPARTICIPANTS & METHODS: We assessed baseline cognitive performance by administering the Cognition Battery to 97 astronaut and astronaut surrogates recruited to approximate astronaut demographics (mean age: 39.38, SD=7.62; 35.1% female; 91.7% advanced degrees). For aim 1, we calculated speed and accuracy outcomes for each subtest and summarized the data with descriptive statistics. We examined the relationship between age and performance with Pearsons\u2019s correlations and the relationship between gender and performance with independent samples t-tests. A subset of individuals on short duration (n=48; mean age: 38.18, SD=7.14; 37.5% female; 91.7% advanced degrees) missions of 45 days and long duration (n=34; mean age: 42.12, SD=8.39; 38.2% female; 94.1% advanced degrees) missions ranging from 4-8 months were administered the Cognition Battery during and after their respective missions. For aim 2, we accounted for practice effects using published corrections, and z-transformed post-mission scores using the full sample\u2019s baseline scores. One-way analysis of covariance tests determined the main effect of analog duration on post-mission performance, after accounting for age and gender. The False Discovery Rate method was applied to adjust for multiple comparisons.  \n\nRESULTS: In the full normative sample, older age was associated with slower reaction times on a processing speed task (r=.39, p=.02), and men were more accurate on processing speed (t=-2.19, p=.03) and faster on sustained attention (t=2.02, p=.049) and risk-taking tasks (t=2.49, p=.02). We observed a main effect of duration on performance on tasks of visual memory (f(1)=5.62, p=.04), processing speed (f(1)=5.48, p=.03), and sensorimotor functioning (f(1)=39.52, p < .001), such that slower performance was observed after long duration missions relative to short. Only sensorimotor functioning was significant after adjustments for multiple comparisons (adjusted p<.001). \n\nDISCUSSION: The full sample represents the largest dataset of cognitive performance assessed by the Cognition Battery available and can be used for further research in spaceflight and high-performance populations. Relationships between performance and key demographic variables suggest future research that include age and gender stratification is needed. Our results also show minimal changes in cognitive performance between longer and shorter periods of isolation and confinement.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20240010918,
+     "id": "168fc02d5c3d4f7da6f0f4e137bbb4d9"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20240010918,
+      "endDate": "2025-02-15T06:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "International Neuropsychological Society"
+         }
+        },
+        "meetingId": "0d98c6a88cdd47d6aba1bf1fe34fac20",
+        "id": "7255713e65f34a439f924b5e30bdfcbe"
+       }
+      ],
+      "name": "International Neuropsychological Society Annual Conference ",
+      "location": "New Orleans, LA",
+      "id": "0d98c6a88cdd47d6aba1bf1fe34fac20",
+      "startDate": "2025-02-12T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "name": "Dev_INS2025 FINAL.docx",
+      "type": "ABSTRACT",
+      "links": {
+       "original": "/api/citations/20240010918/downloads/Dev_INS2025%20FINAL.docx",
+       "fulltext": "/api/citations/20240010918/downloads/Dev_INS2025%20FINAL.docx.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   }
+  ],
+  "aggregations": {
+   "created": {
+    "buckets": [
+     {
+      "key_as_string": "2013",
+      "key": 1356998400000,
+      "doc_count": 18
+     },
+     {
+      "key_as_string": "2022",
+      "key": 1640995200000,
+      "doc_count": 17
+     },
+     {
+      "key_as_string": "2021",
+      "key": 1609459200000,
+      "doc_count": 10
+     },
+     {
+      "key_as_string": "2024",
+      "key": 1704067200000,
+      "doc_count": 10
+     },
+     {
+      "key_as_string": "2015",
+      "key": 1420070400000,
+      "doc_count": 8
+     },
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 6
+     },
+     {
+      "key_as_string": "2020",
+      "key": 1577836800000,
+      "doc_count": 6
+     },
+     {
+      "key_as_string": "2023",
+      "key": 1672531200000,
+      "doc_count": 6
+     },
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2016",
+      "key": 1451606400000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2019",
+      "key": 1546300800000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2018",
+      "key": 1514764800000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "author": {
+    "doc_count_error_upper_bound": 5,
+    "sum_other_doc_count": 667,
+    "buckets": [
+     {
+      "key": "Bloomberg, J. J.",
+      "doc_count": 9
+     },
+     {
+      "key": "Mulavara, A. P.",
+      "doc_count": 8
+     },
+     {
+      "key": "Wood, S. J.",
+      "doc_count": 8
+     },
+     {
+      "key": "A. M. Paul",
+      "doc_count": 4
+     },
+     {
+      "key": "Bloomberg, Jacob",
+      "doc_count": 4
+     },
+     {
+      "key": "A. E. Ronca",
+      "doc_count": 3
+     },
+     {
+      "key": "Bettina L. Beard",
+      "doc_count": 3
+     },
+     {
+      "key": "C G T Tahimic",
+      "doc_count": 3
+     },
+     {
+      "key": "De Dios, Y. E.",
+      "doc_count": 3
+     },
+     {
+      "key": "De Dios, Yiri",
+      "doc_count": 3
+     },
+     {
+      "key": "A Baughman",
+      "doc_count": 2
+     },
+     {
+      "key": "A Garbino",
+      "doc_count": 2
+     },
+     {
+      "key": "A Kheradmand",
+      "doc_count": 2
+     },
+     {
+      "key": "Adrian Ecker",
+      "doc_count": 2
+     },
+     {
+      "key": "Amanda Smith",
+      "doc_count": 2
+     },
+     {
+      "key": "Asad Iqbal",
+      "doc_count": 2
+     },
+     {
+      "key": "B Levine",
+      "doc_count": 2
+     },
+     {
+      "key": "B. Burian",
+      "doc_count": 2
+     },
+     {
+      "key": "B. Schmitt",
+      "doc_count": 2
+     },
+     {
+      "key": "Brock J Sishc",
+      "doc_count": 2
+     }
+    ]
+   },
+   "reportNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 65,
+    "buckets": [
+     {
+      "key": "ARC-16338-1",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN2003",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN25658",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN59393",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN68057",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 0095-6562",
+      "doc_count": 1
+     },
+     {
+      "key": "ISSN: 1077-9248",
+      "doc_count": 1
+     },
+     {
+      "key": "JPL D-1942",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-18714",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-19196",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-22375",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-23211",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-24807",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-27430",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-28851",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-29943",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-30042",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-30051",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-31286",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-31361",
+      "doc_count": 1
+     }
+    ]
+   },
+   "center": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "JSC",
+      "doc_count": 72
+     },
+     {
+      "key": "ARC",
+      "doc_count": 21
+     },
+     {
+      "key": "GRC",
+      "doc_count": 3
+     },
+     {
+      "key": "GSFC",
+      "doc_count": 2
+     },
+     {
+      "key": "CDMS",
+      "doc_count": 1
+     },
+     {
+      "key": "JPL",
+      "doc_count": 1
+     },
+     {
+      "key": "LaRC",
+      "doc_count": 1
+     },
+     {
+      "key": "MSFC",
+      "doc_count": 1
+     }
+    ]
+   },
+   "index": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "submissions-2026-10-01-04-12",
+      "doc_count": 102
+     },
+     {
+      "key": "chorus-2026-10-03-05-58",
+      "doc_count": 2
+     }
+    ]
+   },
+   "fundingNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 53,
+    "buckets": [
+     {
+      "key": "NNJ15HK11B",
+      "doc_count": 20
+     },
+     {
+      "key": "NNX11AR02G",
+      "doc_count": 8
+     },
+     {
+      "key": "NNA14AB82C",
+      "doc_count": 6
+     },
+     {
+      "key": "NCC9-58",
+      "doc_count": 5
+     },
+     {
+      "key": "344494.02.01.10",
+      "doc_count": 4
+     },
+     {
+      "key": "719125.07.01.02.01",
+      "doc_count": 4
+     },
+     {
+      "key": "HRP HFBP Grant 18-18FLAG_2-0028",
+      "doc_count": 4
+     },
+     {
+      "key": "10449.2.03.07.A2.1807",
+      "doc_count": 3
+     },
+     {
+      "key": "344494.01.04.10",
+      "doc_count": 3
+     },
+     {
+      "key": "80JSC025D0068",
+      "doc_count": 3
+     },
+     {
+      "key": "836404.02.02.01",
+      "doc_count": 3
+     },
+     {
+      "key": "NCC 9-58",
+      "doc_count": 3
+     },
+     {
+      "key": "NNX14AE73G",
+      "doc_count": 3
+     },
+     {
+      "key": "10449.2.03.02.52.2478",
+      "doc_count": 2
+     },
+     {
+      "key": "10449.2.03.07.65.1021",
+      "doc_count": 2
+     },
+     {
+      "key": "10449.2.03.07.C5.1995",
+      "doc_count": 2
+     },
+     {
+      "key": "1UL1RR029876-01",
+      "doc_count": 2
+     },
+     {
+      "key": "651549.01.04.18",
+      "doc_count": 2
+     },
+     {
+      "key": "80GRC020D0003",
+      "doc_count": 2
+     },
+     {
+      "key": "80NSSC18M0060",
+      "doc_count": 2
+     }
+    ]
+   },
+   "published": {
+    "buckets": [
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 7
+     },
+     {
+      "key_as_string": "2016",
+      "key": 1451606400000,
+      "doc_count": 6
+     },
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2015",
+      "key": 1420070400000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2019",
+      "key": 1546300800000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2011",
+      "key": 1293840000000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2021",
+      "key": 1609459200000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2024",
+      "key": 1704067200000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2000",
+      "key": 946684800000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2005",
+      "key": 1104537600000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2009",
+      "key": 1230768000000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2010",
+      "key": 1262304000000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2013",
+      "key": 1356998400000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2018",
+      "key": 1514764800000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "1985",
+      "key": 473385600000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "1998",
+      "key": 883612800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "1999",
+      "key": 915148800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2002",
+      "key": 1009843200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2003",
+      "key": 1041379200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2012",
+      "key": 1325376000000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2020",
+      "key": 1577836800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2023",
+      "key": 1672531200000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "distribution": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "PUBLIC",
+      "doc_count": 104
+     }
+    ]
+   },
+   "stiType": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "CONFERENCE_PAPER",
+      "doc_count": 26
+     },
+     {
+      "key": "ABSTRACT",
+      "doc_count": 25
+     },
+     {
+      "key": "PRESENTATION",
+      "doc_count": 16
+     },
+     {
+      "key": "POSTER",
+      "doc_count": 11
+     },
+     {
+      "key": "OTHER",
+      "doc_count": 10
+     },
+     {
+      "key": "ACCEPTED_MANUSCRIPT",
+      "doc_count": 4
+     },
+     {
+      "key": "REPRINT",
+      "doc_count": 4
+     },
+     {
+      "key": "TECHNICAL_MEMORANDUM",
+      "doc_count": 3
+     },
+     {
+      "key": "CONFERENCE_PROCEEDINGS",
+      "doc_count": 2
+     },
+     {
+      "key": "EXTENDED_ABSTRACT",
+      "doc_count": 1
+     },
+     {
+      "key": "PREPRINT",
+      "doc_count": 1
+     },
+     {
+      "key": "TECHNICAL_PUBLICATION",
+      "doc_count": 1
+     }
+    ]
+   },
+   "subjectCategory": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Aerospace Medicine",
+      "doc_count": 44
+     },
+     {
+      "key": "Behavioral Sciences",
+      "doc_count": 29
+     },
+     {
+      "key": "Life Sciences (General)",
+      "doc_count": 15
+     },
+     {
+      "key": "Man/System Technology And Life Support",
+      "doc_count": 12
+     },
+     {
+      "key": "Man/System Technology and Life Support",
+      "doc_count": 6
+     },
+     {
+      "key": "Space Radiation",
+      "doc_count": 5
+     },
+     {
+      "key": "Space Sciences (General)",
+      "doc_count": 2
+     },
+     {
+      "key": "Air Transportation And Safety",
+      "doc_count": 1
+     },
+     {
+      "key": "Computer Systems",
+      "doc_count": 1
+     },
+     {
+      "key": "Cybernetics, Artificial Intelligence And Robotics",
+      "doc_count": 1
+     },
+     {
+      "key": "Cybernetics, Artificial Intelligence and Robotics",
+      "doc_count": 1
+     },
+     {
+      "key": "Instrumentation And Photography",
+      "doc_count": 1
+     },
+     {
+      "key": "Lunar And Planetary Science And Exploration",
+      "doc_count": 1
+     },
+     {
+      "key": "Spacecraft Design, Testing And Performance",
+      "doc_count": 1
+     },
+     {
+      "key": "Spacecraft Design, Testing and Performance",
+      "doc_count": 1
+     },
+     {
+      "key": "Technology Utilization And Surface Transportation",
+      "doc_count": 1
+     }
+    ]
+   },
+   "disseminated": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "DOCUMENT_AND_METADATA",
+      "doc_count": 93
+     },
+     {
+      "key": "METADATA_ONLY",
+      "doc_count": 11
+     }
+    ]
+   },
+   "stiTypeDetails": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Conference Paper",
+      "doc_count": 26
+     },
+     {
+      "key": "Abstract",
+      "doc_count": 25
+     },
+     {
+      "key": "Presentation",
+      "doc_count": 16
+     },
+     {
+      "key": "Poster",
+      "doc_count": 11
+     },
+     {
+      "key": "Other",
+      "doc_count": 6
+     },
+     {
+      "key": "Accepted Manuscript (Version with final changes)",
+      "doc_count": 4
+     },
+     {
+      "key": "Technical Memorandum (TM)",
+      "doc_count": 3
+     },
+     {
+      "key": "Conference Proceedings",
+      "doc_count": 2
+     },
+     {
+      "key": "Reprint (Version printed in journal)",
+      "doc_count": 2
+     },
+     {
+      "key": "Version of Record",
+      "doc_count": 2
+     },
+     {
+      "key": "Extended Abstract",
+      "doc_count": 1
+     },
+     {
+      "key": "Other - Evidence Report",
+      "doc_count": 1
+     },
+     {
+      "key": "Other - Journal Issue",
+      "doc_count": 1
+     },
+     {
+      "key": "Other - NASA Tech Brief",
+      "doc_count": 1
+     },
+     {
+      "key": "Other - Technical Report",
+      "doc_count": 1
+     },
+     {
+      "key": "Preprint (Draft being sent to journal)",
+      "doc_count": 1
+     },
+     {
+      "key": "Technical Publication (TP)",
+      "doc_count": 1
+     }
+    ]
+   },
+   "organization": {
+    "doc_count_error_upper_bound": 3,
+    "sum_other_doc_count": 137,
+    "buckets": [
+     {
+      "key": "Johnson Space Center",
+      "doc_count": 36
+     },
+     {
+      "key": "KBR (United States)",
+      "doc_count": 29
+     },
+     {
+      "key": "Universities Space Research Association",
+      "doc_count": 26
+     },
+     {
+      "key": "NASA Johnson Space Center",
+      "doc_count": 25
+     },
+     {
+      "key": "Ames Research Center",
+      "doc_count": 22
+     },
+     {
+      "key": "Wyle (United States)",
+      "doc_count": 16
+     },
+     {
+      "key": "Michigan Univ.",
+      "doc_count": 13
+     },
+     {
+      "key": "Azusa Pacific University",
+      "doc_count": 11
+     },
+     {
+      "key": "Blue Marble Space Institute of Science",
+      "doc_count": 9
+     },
+     {
+      "key": "Wyle Labs., Inc.",
+      "doc_count": 9
+     },
+     {
+      "key": "JES Tech (United States)",
+      "doc_count": 7
+     },
+     {
+      "key": "Embry\u2013Riddle Aeronautical University",
+      "doc_count": 6
+     },
+     {
+      "key": "NASA Ames Research Center",
+      "doc_count": 6
+     },
+     {
+      "key": "University of North Florida",
+      "doc_count": 6
+     },
+     {
+      "key": "KBRwyle Science, Technology and Engineering",
+      "doc_count": 5
+     },
+     {
+      "key": "Leidos (United States)",
+      "doc_count": 4
+     },
+     {
+      "key": "Pennsylvania State University",
+      "doc_count": 4
+     },
+     {
+      "key": "The University of Texas Medical Branch at Galveston",
+      "doc_count": 4
+     },
+     {
+      "key": "University of Houston",
+      "doc_count": 4
+     },
+     {
+      "key": "University of Pennsylvania",
+      "doc_count": 4
+     }
+    ]
+   },
+   "modified": {
+    "buckets": [
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 98
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2024",
+      "key": 1704067200000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "keyword": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 94,
+    "buckets": [
+     {
+      "key": "machine learning",
+      "doc_count": 4
+     },
+     {
+      "key": "carbon dioxide",
+      "doc_count": 3
+     },
+     {
+      "key": "cognition",
+      "doc_count": 3
+     },
+     {
+      "key": "cognitive performance",
+      "doc_count": 3
+     },
+     {
+      "key": "Behavioral Health",
+      "doc_count": 2
+     },
+     {
+      "key": "Cognition",
+      "doc_count": 2
+     },
+     {
+      "key": "Consistency",
+      "doc_count": 2
+     },
+     {
+      "key": "Human-Computer Interaction",
+      "doc_count": 2
+     },
+     {
+      "key": "Spaceflight",
+      "doc_count": 2
+     },
+     {
+      "key": "artificial neural network",
+      "doc_count": 2
+     },
+     {
+      "key": "contingency",
+      "doc_count": 2
+     },
+     {
+      "key": "extravehicular activity",
+      "doc_count": 2
+     },
+     {
+      "key": "fatigue",
+      "doc_count": 2
+     },
+     {
+      "key": "gravity",
+      "doc_count": 2
+     },
+     {
+      "key": "human performance",
+      "doc_count": 2
+     },
+     {
+      "key": "impairment prediction",
+      "doc_count": 2
+     },
+     {
+      "key": "physical performance",
+      "doc_count": 2
+     },
+     {
+      "key": "prediction",
+      "doc_count": 2
+     },
+     {
+      "key": "radiation",
+      "doc_count": 2
+     },
+     {
+      "key": "spaceflight",
+      "doc_count": 2
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,21 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+node_modules/
+cache/*.tmp
+.DS_Store
+*.egg-info/
+
+# Never public: secrets, keys, team personal data, large binaries
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+private/
+*.zip
+*.mp4
+*.mov
+*.webm

@@ -1,0 +1,2953 @@
+{
+ "source_url": "https://ntrs.nasa.gov/api/citations/search?q=lighting+countermeasure+circadian+International+Space+Station",
+ "fetched_at": "2026-10-10T06:09:52+00:00",
+ "data": {
+  "stats": {
+   "took": 106,
+   "total": 5,
+   "estimate": false,
+   "maxScore": 239.70566
+  },
+  "results": [
+   {
+    "_meta": {
+     "score": 239.70566
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20140012988,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "f3450c94bb4e41498cffed830346c303",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Man/System Technology And Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20140012988,
+     "ear": "NO",
+     "id": "a0d781c69b5c4a72ae2270dc107bde5a",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-30697",
+     "Report Number: JSC-CN-30697"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NAS9-02078",
+      "submissionId": 20140012988,
+      "id": "47f2c2aae622437d83d390a2df317d34",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Addressing Challenges to the Design & Test of Operational Lighting Environments for the International Space Station",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2014-10-15T06:55:15.3770000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20140012988,
+      "meta": {
+       "author": {
+        "name": "Clark, Toni A."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "64eff8306a99494bbf04286b03db4238"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20140012988,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2014-10-15T06:55:15.3770000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "In our day to day lives, the availability of light, with which to see our environment, is often taken for granted. The designers of land based lighting systems use sunlight and artificial light as their toolset. The availability of power, quantity of light sources, and variety of design options are often unlimited. The accessibility of most land based lighting systems makes it easy for the architect and engineer to verify and validate their design ideas. Failures with an implementation, while sometimes costly, can easily be addressed by renovation. Consider now, an architectural facility orbiting in space, 260 miles above the surface of the earth. This human rated architectural facility, the International Space Station (ISS) must maintain operations every day, including life support and appropriate human comforts without fail. The facility must also handle logistics of regular shipments of cargo, including new passengers. The ISS requires accommodations necessary for human control of machine systems. Additionally, the ISS is a research facility and supports investigations performed inside and outside its livable volume. Finally, the facility must support remote operations and observations by ground controllers. All of these architectural needs require a functional, safe, and even an aesthetic lighting environment. At Johnson Space Center, our Habitability and Human Factors team assists our diverse customers with their lighting environment challenges, via physical test and computer based analysis. Because of the complexity of ISS operational environment, our team has learned and developed processes that help ISS operate safely. Because of the dynamic exterior lighting environment, uses computational modeling to predict the lighting environment. The ISS' orbit exposes it to a sunrise every 90 minutes, causing work surfaces to quickly change from direct sunlight to earthshine to total darkness. Proper planning of vehicle approaches, robotics operations, and crewed Extra Vehicular Activities are mandatory to ensure safety to the crew and all others involved. Innovation in testing techniques is important as well. The advent of Solid State Lighting technology and the lack of stable national and international standards for its implementation pose new challenges on how to design, test and verify individual light fixtures and the environment that uses them. The ISS will soon be replacing its internal fluorescent lighting system to a solid state LED system. The Solid State Lighting Assembly will be used not only for general lighting, but also as a medical countermeasure to control the circadian rhythm of the crew. The new light source has performance criteria very specific to its spectral fingerprint, creating new challenges that were originally not as significant during the original design of the ISS. This presentation will showcase findings and toolsets our team is using to assist in the planning of tasks, and design of operational lighting environments on the International Space Station.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20140012988,
+      "name": "Human Factors and Ergonomics Society",
+      "location": "Santa Monica, CA, United States",
+      "id": "5f7d06473822497bbd364869c16fa380"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20140012988,
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "Human Factors and Ergonomics Society",
+          "location": "Santa Monica, CA, United States"
+         }
+        },
+        "meetingId": "1bebd0a2b7b24df7993614d11be087db",
+        "id": "73300bcbbe264d058bfb774db2fa935a"
+       }
+      ],
+      "name": "Southwest Regional Human Factors and Ergonomics Society Symposium",
+      "location": "College Station, TX",
+      "id": "1bebd0a2b7b24df7993614d11be087db",
+      "startDate": "2014-06-06T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20140012988,
+      "id": "a96de5f963364cc2a360ed2bb151d397",
+      "publicationDate": "2014-06-06T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20160001038,
+      "type": "SEE_ALSO",
+      "title": "Addressing Challenges to the Design & Test of Operational Lighting Environments for the International Space Station",
+      "stiType": "PRESENTATION",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20140012988.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20140012988/downloads/20140012988.pdf",
+       "pdf": "/api/citations/20140012988/downloads/20140012988.pdf",
+       "fulltext": "/api/citations/20140012988/downloads/20140012988.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 192.59549
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20170000493,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "5d34b9cbaf564573b8ab8f94822a3386",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Man/System Technology And Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20170000493,
+     "ear": "NO",
+     "id": "a86063cc6b1042e788a9526c4e2a48bb",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-08-12T18:37:28.1830000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-38448",
+     "Report Number: JSC-CN-38448"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NASA 14-14Omni2-0018",
+      "submissionId": 20170000493,
+      "id": "672df0af0cb34c4cb7fc77276a23d3f7",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Computational Modeling to Limit the Impact Displays and Indicator Lights Have on Habitable Volume Operational Lighting Constraints",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2017-01-19T12:25:03.9900000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20170000493,
+      "meta": {
+       "author": {
+        "name": "Clark, T. A."
+       },
+       "organization": {
+        "name": "Wyle Labs., Inc.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "cc1b3751e363427f9fa2d5a1394af3f5"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20170000493,
+      "meta": {
+       "author": {
+        "name": "Salazar, G. A."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "41b79e2d39a84a2eba87f3fb909f128e"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20170000493,
+      "meta": {
+       "author": {
+        "name": "Brainard, G. C."
+       },
+       "organization": {
+        "name": "Thomas Jefferson Univ.",
+        "location": "Philadelphia, PA, United States"
+       }
+      },
+      "id": "2dea0e8ee9b8479582d7aafaab369967"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20170000493,
+      "meta": {
+       "author": {
+        "name": "Kolomenski, A."
+       },
+       "organization": {
+        "name": "Wyle Labs., Inc.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "b79961d173634aea8d2fc551fed21b51"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20170000493,
+      "meta": {
+       "author": {
+        "name": "Hanifin, J."
+       },
+       "organization": {
+        "name": "Thomas Jefferson Univ.",
+        "location": "Philadelphia, PA, United States"
+       }
+      },
+      "id": "8e997f477c884b4fbfeed68e1e86a389"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20170000493,
+      "meta": {
+       "author": {
+        "name": "Schwin, B. M."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "063eba855c0a4f24998d1334fbd3d887"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20170000493,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2017-01-19T12:25:03.9900000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "NASA has demonstrated an interest in improving astronaut health and performance through the installment of a new lighting countermeasure on the International Space Station. The Solid State Lighting Assembly (SSLA) system is designed to positively influence astronaut health by providing a daily change to light spectrum to improve circadian entrainment. Unfortunately, existing NASA standards and requirements define ambient light level requirements for crew sleep and other tasks, yet the number of light-emitting diode (LED) indicators and displays within a habitable volume is currently uncontrolled. Because each of these light sources has its own unique spectral properties, the additive lighting environment ends up becoming something different from what was planned or researched. Restricting the use of displays and indicators is not a solution because these systems provide beneficial crew feedback.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20170000493,
+      "endDate": "2017-01-26T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "0bba4b66c88d4f6b9af09a68495f6606",
+        "meta": {
+         "organization": {
+          "name": "NASA Headquarters",
+          "location": "Washington, DC, United States"
+         }
+        },
+        "meetingId": "e7ede4dd8f184727ae19f6381842a240",
+        "id": "04eb06fdd764447f887f9d7347d6728d"
+       }
+      ],
+      "name": "2017 NASA Human Research Program Investigators'' Workshop (HRP IWS 2017)",
+      "location": "Galveston, TX",
+      "id": "e7ede4dd8f184727ae19f6381842a240",
+      "startDate": "2017-01-23T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20170000493,
+      "id": "c424fda08b6f4629a25bdfbd6db26eca",
+      "publicationDate": "2017-01-23T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20160013235,
+      "type": "SEE_ALSO",
+      "title": "Computational Modeling to Limit the Impact Displays and Indicator Lights Have on Habitable Volume Operational Lighting Constraints",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20170000493.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20170000493/downloads/20170000493.pdf",
+       "pdf": "/api/citations/20170000493/downloads/20170000493.pdf",
+       "fulltext": "/api/citations/20170000493/downloads/20170000493.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 141.83838
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20160013235,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "fd8971c2c3144a3b9dd5aa22ac776cc6",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Spacecraft Design, Testing And Performance",
+     "Man/System Technology And Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20160013235,
+     "ear": "NO",
+     "id": "a62d2a7ddb4f436f8f61da916871c57a",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-11T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-37891",
+     "Report Number: JSC-CN-37891"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NASA 14-14Omni2-0018",
+      "submissionId": 20160013235,
+      "id": "4e342d71a962420fb237d6d1d6fb10a1",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NRA NNJ14ZSA001N",
+      "submissionId": 20160013235,
+      "id": "bb39e014f41f4f2fb08b791dcec59125",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Computational Modeling to Limit the Impact Displays and Indicator Lights Have on Habitable Volume Operational Lighting Constraints",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2016-11-03T15:00:22.3570000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20160013235,
+      "meta": {
+       "author": {
+        "name": "Clark, T. A."
+       },
+       "organization": {
+        "name": "Lockheed Martin Corp.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "b87dcd587720412aa3ea0e10d2d74c90"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20160013235,
+      "meta": {
+       "author": {
+        "name": "Brainard, G."
+       },
+       "organization": {
+        "name": "Thomas Jefferson Univ.",
+        "location": "Philadelphia, PA, United States"
+       }
+      },
+      "id": "95893d24c8564303b809a03b43a446e0"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20160013235,
+      "meta": {
+       "author": {
+        "name": "Salazar, G."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "63d21240341245be8b581d3ef8e1f24e"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20160013235,
+      "meta": {
+       "author": {
+        "name": "Johnston, S."
+       },
+       "organization": {}
+      },
+      "id": "e6534c2a5fec4516a78bba6ee18c32ad"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20160013235,
+      "meta": {
+       "author": {
+        "name": "Schwing, B."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "8d567002861a48bca28b0ff5cb0693d3"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20160013235,
+      "meta": {
+       "author": {
+        "name": "Litaker, H."
+       },
+       "organization": {
+        "name": "Lockheed Martin Corp.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "d1a909a5cb6a4059a6f67d4088426214"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20160013235,
+      "meta": {
+       "author": {
+        "name": "Kolomenski, A."
+       },
+       "organization": {
+        "name": "Wyle Labs., Inc.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "dd43bb0ee12a41a6bc1bd35636a91c55"
+     },
+     {
+      "sequence": 7,
+      "submissionId": 20160013235,
+      "meta": {
+       "author": {
+        "name": "Venus, D."
+       },
+       "organization": {}
+      },
+      "id": "9c7d98532ae94ea68872c6338498b341"
+     },
+     {
+      "sequence": 8,
+      "submissionId": 20160013235,
+      "meta": {
+       "author": {
+        "name": "Tran, K."
+       },
+       "organization": {}
+      },
+      "id": "6b38bb70d3fa4d73a4a79a9ff8ad12c1"
+     },
+     {
+      "sequence": 9,
+      "submissionId": 20160013235,
+      "meta": {
+       "author": {
+        "name": "Hanifin, J."
+       },
+       "organization": {
+        "name": "Thomas Jefferson Univ.",
+        "location": "Philadelphia, PA, United States"
+       }
+      },
+      "id": "05214d49b0d44bde992e71b74fe1866c"
+     },
+     {
+      "sequence": 10,
+      "submissionId": 20160013235,
+      "meta": {
+       "author": {
+        "name": "Adolf, J."
+       },
+       "organization": {
+        "name": "Wyle Labs., Inc.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "4632def2850e49f588dbde2d38fe5c8b"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20160013235,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2016-11-03T15:00:22.3570000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "NASA has demonstrated an interest in improving astronaut health and performance through the installment of a new lighting countermeasure on the International Space Station. The Solid State Lighting Assembly (SSLA) system is designed to positively influence astronaut health by providing a daily change to light spectrum to improve circadian entrainment. Unfortunately, existing NASA standards and requirements define ambient light level requirements for crew sleep and other tasks, yet the number of light-emitting diode (LED) indicators and displays within a habitable volume is currently uncontrolled. Because each of these light sources has its own unique spectral properties, the additive lighting environment ends up becoming something different from what was planned or researched. Restricting the use of displays and indicators is not a solution because these systems provide beneficial feedback to the crew. The research team for this grant used computer-based computational modeling and real-world lighting mockups to document the impact that light sources other than the ambient lighting system contribute to the ambient spectral lighting environment. In particular, the team was focused on understanding the impacts of long-term tasks located in front of avionics or computer displays. The team also wanted to understand options for mitigating the changes to the ambient light spectrum in the interest of maintaining the performance of a lighting countermeasure. The project utilized a variety of physical and computer-based simulations to determine direct relationships between system implementation and light spectrum. Using real-world data, computer models were built in the commercially available optics analysis software Zemax Optics Studio(c). The team also built a mockup test facility that had the same volume and configuration as one of the Zemax models. The team collected over 1200 spectral irradiance measurements, each representing a different configuration of the mockup. Analysis of the data showed a measurable impact on ambient light spectrum. This data showed that obvious design techniques exist that can be used to bind the ambient light spectrum closer to the planned spectral operating environment for the observer's eye point. The following observations should be considered when designing an operational environment that is dominated by computer displays. When more light is directed into the field of view of the observer, the greater the impact it will make on various human factors issues that depend on spectral shape and intensity. Because viewing angle has a large part to play in the amount of light flux on the crewmember's retina, beam shape, combined with light source location is an important factor for determining percent probable incident flux on the observer from any combination of light sources. Computer graphics design and display lumen output are major factors influencing the amount of spectrally intense light projected into the environment and in the viewer's direction. Use of adjustable white point display software was useful only if the predominant background color was white and if it matched the ambient light system's color. Display graphics that used a predominantly black background had the least influence on unplanned spectral energy projected into the environment. Percent reflectance makes a difference in total energy reflected back into an environment, and within certain architectural geometries, reflectance can be used to control the amount of a light spectrum that is allowed to perpetuate in the environment. Data showed that room volume and distance from significant light sources influence the total spectrum in a room. Smaller environments had a homogenizing effect on total light spectrum, whereas light from multiple sources in larger environments was less mixed. The findings indicated above should be considered when making recommendations for practice or standards for architectural systems. The ambient lighting system, surface reflectance, and display and indicator implementation all factor into the users' spectral environment. A variety of low-cost solutions exist to mitigate the impact of light from non-architectural lighting systems, and much potential for system automation and integration of display systems with the ambient environment. This team believes that proper planning can be used to avoid integration problems and also believes that human-in-the-loop evaluations, real-world test and measurement, and computer modeling can be used to determine how changes to a process, display graphics, and architecture will help maintain the planned spectral operating lighting environment.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20160013235,
+      "name": "NASA Johnson Space Center",
+      "location": "Houston, TX, United States",
+      "id": "feafece9b88a4c93b24d30100842b6be"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20160013235,
+      "endDate": "2017-01-26T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "NASA Johnson Space Center",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "b480766d21e741aca9fdaf85b033a521",
+        "id": "8ff64c85a3674ddab1355ea3cb1b2924"
+       }
+      ],
+      "name": "Human Research Program Investigators'' Workshop (HRP IWS 2017)",
+      "location": "Glaveston, TX",
+      "id": "b480766d21e741aca9fdaf85b033a521",
+      "startDate": "2017-01-23T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20160013235,
+      "id": "a61ef3b9ef0a4614af6650bb33266a3a",
+      "publicationDate": "2017-01-23T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20170000493,
+      "type": "SEE_ALSO",
+      "title": "Computational Modeling to Limit the Impact Displays and Indicator Lights Have on Habitable Volume Operational Lighting Constraints",
+      "stiType": "PRESENTATION",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20160013235.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20160013235/downloads/20160013235.pdf",
+       "pdf": "/api/citations/20160013235/downloads/20160013235.pdf",
+       "fulltext": "/api/citations/20160013235/downloads/20160013235.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 135.7291
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20100028287,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "0a41ffb08d804b45a00c9b161d326946",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Spacecraft Instrumentation And Astrionics"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20100028287,
+     "ear": "NO",
+     "id": "275ea518fa8d4f8cbc60a39e2f270bb6",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-10T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-21322",
+     "Report Number: JSC-CN-21322"
+    ],
+    "title": "An Integrated, Evidence-Based Approach to Transitioning to Operations: Specifications for Future Replacement Lights on ISS",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-24T23:55:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20100028287,
+      "meta": {
+       "author": {
+        "name": "Leveton, Lauren"
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "ae0c5baaa573418a9521f4588ab648d6"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20100028287,
+      "meta": {
+       "author": {
+        "name": "Brainard, George"
+       },
+       "organization": {}
+      },
+      "id": "9b13a35b5dbe41aabb706b184039a253"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20100028287,
+      "meta": {
+       "author": {
+        "name": "Whitmire, Alexandra"
+       },
+       "organization": {}
+      },
+      "id": "2d59b063647f4236b2d7075ee01f212c"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20100028287,
+      "meta": {
+       "author": {
+        "name": "Kubey, Alan"
+       },
+       "organization": {}
+      },
+      "id": "cd178d1fc3ca466296cc7fce02e25ad0"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20100028287,
+      "meta": {
+       "author": {
+        "name": "Maida, Jim"
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "be141f731f2144c99c0c1128ff2a442f"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20100028287,
+      "meta": {
+       "author": {
+        "name": "Bowen, Charles"
+       },
+       "organization": {}
+      },
+      "id": "4096beedac084fab93c48e5a1c3ff33d"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20100028287,
+      "meta": {
+       "author": {
+        "name": "Johnston, Smith"
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "47d2f3d518e94402a9ab2aa97ad5ec96"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20100028287,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-24T23:55:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "The International Space Station (ISS) currently uses General Luminaire Assemblies (GLAs) as its primary light source. These GLAs are composed of fluorescent lighting and are integrated into the electrical system on Station. Seventy seven of these units are distributed throughout the vehicle, and many of the lights, having reached their lifespan, are no longer functional; while backup panels are available on orbit, it is anticipated that the supplies of fluorescents on the station will be exhausted by 2015. The ISS vehicle office is therefore preparing to replace all of the GLAs, with Solid State Light Assemblies (SSLAs) composed of white Light Emitting Diodes (LEDs). In the Spring of 2010, an announcement for the replacement lights was released. The announcement specified that proposed lighting systems should use LED technology, given certain power draw restrictions and no changes to how the lights are currently controlled (a central on/off switch per node, and a dial to turn on/off and increase brightness on each lighting unit). The replacement lights are to follow current specifications for brightness levels (lux) and color temperature (degrees Kelvin, or K). Reportedly, the lighting on orbit is dim and suboptimal. The average brightness of the lights (given all lights within a node are operational) is 291 lux; by comparison, recommended office lighting ranges from 200 to 500 lux, and daylight ranges on a typical overcast day, consists of 10,000 to 25,000 lux. Representatives from NASA Behavioral Health and Performance Element (BHP) and Human Factors and Habitability identified that maintaining current brightness levels limits visual acuity, work space, and the use of light as a countermeasure for improving circadian entrainment, hastening phase shifting, evoking acute alertness and enhancing performance. Revised lighting specifications are therefore needed to optimize the replacement lights for the ISS.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "publications": [
+     {
+      "submissionId": 20100028287,
+      "id": "21f100928b594107bbe14bbf39add3d6",
+      "publicationDate": "2010-08-05T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20100028287.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20100028287/downloads/20100028287.pdf",
+       "pdf": "/api/citations/20100028287/downloads/20100028287.pdf",
+       "fulltext": "/api/citations/20100028287/downloads/20100028287.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 55.341194
+    },
+    "copyright": {
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20000020485,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "33c7ca06b1ff44daa0cfcb4ce310b7b5",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20000020485,
+     "ear": "NO",
+     "id": "dd38323ef44b4994a4ec0cbaed3a5828",
+     "category": [
+      {
+       "submissionExportControlId": "dd38323ef44b4994a4ec0cbaed3a5828",
+       "id": "6000b88b9a744111a1d49a36745b5b0d",
+       "category": 0
+      }
+     ],
+     "itar": "NO"
+    },
+    "distributionDate": "2000-03-03T05:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "NCC9-41",
+      "submissionId": 20000020485,
+      "id": "6892330dbe6041cfb1339a95d51aac37",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Proceedings of the First Biennial Space Biomedical Investigators' Workshop",
+    "stiType": "CONFERENCE_PROCEEDINGS",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-09-07T12:26:00.0000000+00:00",
+    "stiTypeDetails": "Conference Proceedings",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2026-01-12T18:03:10.8025480+00:00",
+    "id": 20000020485,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-09-07T12:26:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "The First Biennial Space Biomedical Investigators' Workshop, held January 11-13, 1999, was unique in that it assembled, for the first time, a broad cross section of NASA-funded biomedical researchers to present the current status of their projects and their plans for future investigations. All principal investigators with active, or recently-completed ground-based projects in NASA's Biomedical Research and Countermeasures Program that were funded through NASA's Office of Life and Microgravity Sciences and Applications were invited. Included were individual investigators funded through NASA Research Announcements, investigators with NASA Specialized Centers of Research and Training, investigators with the recently established National Space Biomedical Research Institute (NSBRI), and NASA civil servant investigators. Seventy-seven percent of all eligible projects were presented at the workshop. Thus, these Proceedings should provide a useful snapshot of the status of NASA-funded space biomedical research as of January 1999. An important workshop objective was to achieve free and open communication among the presenting investigators. Therefore, presentation of new and incomplete results, as well as hypotheses and ideas for future research, was encouraged. Comments and constructive criticisms from the presenters' colleagues were also encouraged. These ground rules resulted in many lively and useful discussions, during both the presentation sessions and informal evening gatherings and breaks.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20000020485,
+     "id": "5966f302644c44d4a9f70a220764fe50"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20000020485,
+      "endDate": "1999-01-13T05:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "82aa85ff93fd454e8973df73932c3455",
+        "meta": {
+         "organization": {
+          "name": "Universities Space Research Association (USRA)",
+          "location": "Lanham, MD, United States"
+         }
+        },
+        "meetingId": "6c0be20f1ae641d48cb59db3069b0fbe",
+        "id": "768b30b2fc7d4835b7b26e0b3b9b499f"
+       }
+      ],
+      "name": "First Biennial Space Biomedical Investigators'' Workshop",
+      "location": "League City, TX",
+      "id": "6c0be20f1ae641d48cb59db3069b0fbe",
+      "startDate": "1999-01-11T05:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20000020485,
+      "publisher": "National Aeronautics and Space Administration",
+      "id": "b278dde17b2049bea78723c27362bbe2",
+      "publicationName": "Proceedings of the First Biennial Space Biomedical Investigators' Workshop",
+      "publicationDate": "1999-01-01T05:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20000020496,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Accelerator Facilities for Radiation Research",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20000020498,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Role of Inflammatory Reponse in Experimental Decompression Sickness",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20000020501,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Barophysiology and Biophysics",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020506,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Effects of Promethazine on Performance During Simulated Shuttle Landings",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020512,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Psychological Adaptation to Extreme Environments: Effects of Team Composition on Individual Adaptation",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020514,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Microgravity Workstation and Restraint Evaluations",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020517,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Measuring Astronaut Performance in Microgravity: Loads and Modeling",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020518,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Evaluations of Three Methods for Remote Training",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020519,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Bone Density and High Salt Diets in a Space Flight Model",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020521,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Effect of Skeletal Unloading on Bone Formation: Role of IGF-I",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020524,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Role of Calcium in the Response of Osteoblasts to Mechanical Stimulation",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020526,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Effects of Spaceflight on Bone: The Rat as an Animal Model for Human Bone Loss",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020527,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Effects of Spaceflight on the Attachment of Muscle to the Tibia, Fibula and Calcaneus",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020531,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Developmental Regulation of the Collagenase-3 Promoter in Osteoblasts",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020532,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Exercise Countermeasures for Bone Loss During Space Flight: A Method for the Study of Ground Reaction Forces and their Implications for Bone Strain",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020533,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Expression of Novel Gene Products Upregulated by Disuse is Normalized by an Osteogenic Mechanical Stimulus: Evidence for the Molecular Basis of a Low Level Biomechanical Countermeasure for Osteoporosis?",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020536,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Bone Loss in Space: Shuttle/MIR Experience and Bed Rest Countermeasure Program",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020538,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Non-Invasive Investigation of Bone Adaptation in Humans to Mechanical Loading",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020539,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Renal Stone Risk During Space Flight",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020540,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Bone Proteoglycan Changes During Skeletal Unloading",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020542,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Cardiovascular Session Summary",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020546,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Application of Acute Maximal Exercise to Enhance Mechanisms Underlying Blood Pressure Regulation and Orthostatic Tolerance After Exposure to Simulated Microgravity",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020547,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Potential Mechanism Leading to Impaired Thermoregulation Following Microgravity Exposure",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020549,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Gender-Related Differences in Cardiovascular Responses to Orthostatic Stress",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020551,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Exercise Training During +Gz Acceleration",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020559,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Postural Regulation of Muscle Sympathetic Nerve Activity Before and After Simulated and Actual Microgravity Deconditioning",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020563,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Carotid Baroreflex Function During Prolonged Exercise",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020575,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Latent Viruses: A Space Travel Hazard??",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020579,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Analysis of MIR Condensate and Potable Water",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020580,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Reactivation of Latent Viruses in Space",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020582,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Study Design to Test the Hypothesis That Long-Term Space Travel Harms the Human and Animal Immune Systems",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020583,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Update on the Effects of Space Flight on Development of Immune Responses",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020584,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Lytic Replication of Epstein-Barr Virus During Space Flight",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020586,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Muscle Session Summary",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020587,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Myosin Heavy Chain Gene Expression in Developing Neonatal Skeletal Muscle: Involvement of the Nerve, Gravity, and Thyroid State",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020591,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Alterations in Skeletal Muscle Function with Microgravity, and the Protective Effects of High Resistance Isometric and Isotonic Exercise",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020592,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "In Vivo Noninvasive Analysis of Human Forearm Muscle Function and Fatigue: Applications to EVA Operations and Training Maneuvers",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020594,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "CO2 Accumulation in the Non-Conformal Helmet of the NASA Launch and Entry Suit During Simulated Unaided Egress",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020595,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Space Physiology Studies",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020599,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Muscle Deoxygenation Causes Muscle Fatigue",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020603,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Tissue Engineering Organs for Space Biology Research",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020604,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Neurovestibular Session Summary",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020606,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Roll-Tilt Perception Using a Somatosensory Bar Task",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020607,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Effects of Long-Duration Spaceflight on Postflight Terrestrial Locomotion",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020610,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Anticipatory Postural Activity During Long-Duration Space Flight",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020612,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "A Methodology for Investigating Adaptive Postural Control",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020613,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Low-Frequency Otolith Function in Microgravity: A Re-Evaluation of the Otolith Tilt-Translation Reinterpretation (OTTR) Hypothesis",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020615,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Mechanisms of Sensorimotor Adaptation to Centrifugation",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020616,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Self-Motion Perception: Assessment by Real-Time Computer Generated Animations",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020618,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Visual-Vestibular Responses During Space Flight",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020620,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Vision and Visual-Motor Coordination in Pitched Visual Environments",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020621,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Nutrition Session Summary",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020625,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Fluid and Electrolyte Nutrition",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020626,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Salivary Pharmacodynamics and Bioavailability of Promethazine in Human Subjects",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020628,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Calcium Kinetics During Space Flight",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020632,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Radiation Measurements on the Russian MIR Orbital Station",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020633,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Characterization of Treefoil Peptide Genes in Iron-Ion or X-Irradiated Human Cells",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020636,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Proton Irradiation Alters Expression of FGF-2 In Human Lens Epithelial Cells",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020639,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "NSBRI Radiation Effects: Carcinogenesis in Sprague-Dawley Rats Irradiated with Iron Ions, Protons, or Photons",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020640,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Genetic Regulation of Charged Particle Mutagenesis in Human Cells",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020642,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "DNA Repair-Protein Relocalization After Heavy Ion Exposure",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020643,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Accelerator-Based Studies of Heavy Ion Interactions Relevant to Space Biomedicine",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020645,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Modulation of Radiogenic Damage by Microgravity: Results From STS-76",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020646,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Some Behavioral Effects of Exposure to Low Doses of Fe-56 Particles",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020653,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Impact of Track Structure Effects on Shielding and Dosimetry",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020654,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Analysis of Incomplete Chromosomal Exchanges Using Fluorescence In Situ Hybridization with Telomere Probes",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20000020659,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Ambient Light Intensity, Actigraphy, Sleep and Respiration, Circadian Temperature and Melatonin Rhythms and Daytime Performance of Crew Members During Space Flight on STS-90 and STS-95 Missions",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020662,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Effects of Gravity on the Circadian Timing System",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020664,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Sleep and Circadian Rhythms in Four Orbiting Astronauts",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020666,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "BRN 3.1 Knockouts Affect the Vestibular, Autonomic, and Circadian Rhythm Responses to 2G Exposure",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020564,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Evaluation of Thermoregulation After Spaceflight",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020494,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Human Health and Performance Aspects of Mars Design Reference Mission of July, 1997",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020504,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Monitoring and Correcting Autonomic Function Aboard Mir: NASA Technology Used in Space and on Earth to Facilitate Adaptation",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020486,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Quantifying Biomechanical Characteristics of Jumping Exercises in 1G and in Simulated and True Microgravity",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020487,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Life Sciences in NASA's Mission",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020488,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "JSC, NASA Lead Center: Overview of Human Space Life Sciences Programs Office (HSLSPO)",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020489,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Human Space Life Sciences Critical Path Roadmap Project: A Strategy for Human Space Flight through Exploration-Class Missions",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020490,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "NASA Johnson Space Center Biomedical Research Resources",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020491,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Hypergravity Facilities: Extending Knowledge Over the Continuum of Gravity",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020494,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Human Health and Performance Aspects of Mars Design Reference Mission of July, 1997",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20000020496,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Accelerator Facilities for Radiation Research",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20000020498,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Role of Inflammatory Reponse in Experimental Decompression Sickness",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020504,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Monitoring and Correcting Autonomic Function Aboard Mir: NASA Technology Used in Space and on Earth to Facilitate Adaptation",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020506,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Effects of Promethazine on Performance During Simulated Shuttle Landings",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020512,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Psychological Adaptation to Extreme Environments: Effects of Team Composition on Individual Adaptation",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020514,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Microgravity Workstation and Restraint Evaluations",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020517,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Measuring Astronaut Performance in Microgravity: Loads and Modeling",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020518,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Evaluations of Three Methods for Remote Training",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020519,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Bone Density and High Salt Diets in a Space Flight Model",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020521,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Effect of Skeletal Unloading on Bone Formation: Role of IGF-I",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020524,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Role of Calcium in the Response of Osteoblasts to Mechanical Stimulation",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020526,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Effects of Spaceflight on Bone: The Rat as an Animal Model for Human Bone Loss",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020527,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Effects of Spaceflight on the Attachment of Muscle to the Tibia, Fibula and Calcaneus",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020531,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Developmental Regulation of the Collagenase-3 Promoter in Osteoblasts",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020532,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Exercise Countermeasures for Bone Loss During Space Flight: A Method for the Study of Ground Reaction Forces and their Implications for Bone Strain",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020533,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Expression of Novel Gene Products Upregulated by Disuse is Normalized by an Osteogenic Mechanical Stimulus: Evidence for the Molecular Basis of a Low Level Biomechanical Countermeasure for Osteoporosis?",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020536,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Bone Loss in Space: Shuttle/MIR Experience and Bed Rest Countermeasure Program",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020538,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Non-Invasive Investigation of Bone Adaptation in Humans to Mechanical Loading",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020539,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Renal Stone Risk During Space Flight",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020540,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Bone Proteoglycan Changes During Skeletal Unloading",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020542,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Cardiovascular Session Summary",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020546,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Application of Acute Maximal Exercise to Enhance Mechanisms Underlying Blood Pressure Regulation and Orthostatic Tolerance After Exposure to Simulated Microgravity",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020547,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Potential Mechanism Leading to Impaired Thermoregulation Following Microgravity Exposure",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020549,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Gender-Related Differences in Cardiovascular Responses to Orthostatic Stress",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020551,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Exercise Training During +Gz Acceleration",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020559,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Postural Regulation of Muscle Sympathetic Nerve Activity Before and After Simulated and Actual Microgravity Deconditioning",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20000020560,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Influence of Gravity on Blood Volume and Flow Distribution",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020563,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Carotid Baroreflex Function During Prolonged Exercise",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020564,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Evaluation of Thermoregulation After Spaceflight",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020575,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Latent Viruses: A Space Travel Hazard??",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020579,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Analysis of MIR Condensate and Potable Water",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020580,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Reactivation of Latent Viruses in Space",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020582,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Study Design to Test the Hypothesis That Long-Term Space Travel Harms the Human and Animal Immune Systems",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020583,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Update on the Effects of Space Flight on Development of Immune Responses",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020584,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Lytic Replication of Epstein-Barr Virus During Space Flight",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020586,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Muscle Session Summary",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020587,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Myosin Heavy Chain Gene Expression in Developing Neonatal Skeletal Muscle: Involvement of the Nerve, Gravity, and Thyroid State",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020591,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Alterations in Skeletal Muscle Function with Microgravity, and the Protective Effects of High Resistance Isometric and Isotonic Exercise",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020592,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "In Vivo Noninvasive Analysis of Human Forearm Muscle Function and Fatigue: Applications to EVA Operations and Training Maneuvers",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020594,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "CO2 Accumulation in the Non-Conformal Helmet of the NASA Launch and Entry Suit During Simulated Unaided Egress",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020595,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Space Physiology Studies",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020599,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Muscle Deoxygenation Causes Muscle Fatigue",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020603,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Tissue Engineering Organs for Space Biology Research",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020604,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Neurovestibular Session Summary",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020606,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Roll-Tilt Perception Using a Somatosensory Bar Task",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020607,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Effects of Long-Duration Spaceflight on Postflight Terrestrial Locomotion",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020610,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Anticipatory Postural Activity During Long-Duration Space Flight",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020612,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "A Methodology for Investigating Adaptive Postural Control",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020613,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Low-Frequency Otolith Function in Microgravity: A Re-Evaluation of the Otolith Tilt-Translation Reinterpretation (OTTR) Hypothesis",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020615,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Mechanisms of Sensorimotor Adaptation to Centrifugation",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020616,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Self-Motion Perception: Assessment by Real-Time Computer Generated Animations",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020618,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Visual-Vestibular Responses During Space Flight",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020620,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Vision and Visual-Motor Coordination in Pitched Visual Environments",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020621,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Nutrition Session Summary",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020625,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Fluid and Electrolyte Nutrition",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020626,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Salivary Pharmacodynamics and Bioavailability of Promethazine in Human Subjects",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020628,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Calcium Kinetics During Space Flight",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020670,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Wireless Augmented Reality Prototype (WARP)",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020671,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Biona-C Cell Culture pH Monitoring System",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020672,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Physiological Signal Conditioner",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020673,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Sensors 2000! Program: Advanced Biosensor and Measurement Systems Technologies for Spaceflight Research and Concurrent, Earth-Based Applications",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020674,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Miniature Quadrupole Mass Spectrometer Array",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020675,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Biotelemetry",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020676,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "NASA Ames Research Center R and D Services Directorate Biomedical Systems Development",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020678,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Neurolab Biotelemetry System (NBS)",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020680,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Bion-11 Spaceflight Mission",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020683,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Life Sciences Division Spaceflight Hardware",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020684,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "An EVA Suit Fatigue, Strength, and Reach Model",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020685,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Context-Specific Adaptation of Gravity-Dependent Vestibular Reflex Responses (NSBRI Neurovestibular Project 1)",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020490,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "NASA Johnson Space Center Biomedical Research Resources",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020489,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Human Space Life Sciences Critical Path Roadmap Project: A Strategy for Human Space Flight through Exploration-Class Missions",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020488,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "JSC, NASA Lead Center: Overview of Human Space Life Sciences Programs Office (HSLSPO)",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20000020560,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Influence of Gravity on Blood Volume and Flow Distribution",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020486,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Quantifying Biomechanical Characteristics of Jumping Exercises in 1G and in Simulated and True Microgravity",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020504,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Monitoring and Correcting Autonomic Function Aboard Mir: NASA Technology Used in Space and on Earth to Facilitate Adaptation",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020487,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Life Sciences in NASA's Mission",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020491,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Hypergravity Facilities: Extending Knowledge Over the Continuum of Gravity",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020632,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Radiation Measurements on the Russian MIR Orbital Station",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020633,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Characterization of Treefoil Peptide Genes in Iron-Ion or X-Irradiated Human Cells",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020636,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Proton Irradiation Alters Expression of FGF-2 In Human Lens Epithelial Cells",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020639,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "NSBRI Radiation Effects: Carcinogenesis in Sprague-Dawley Rats Irradiated with Iron Ions, Protons, or Photons",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020640,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Genetic Regulation of Charged Particle Mutagenesis in Human Cells",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020642,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "DNA Repair-Protein Relocalization After Heavy Ion Exposure",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020643,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Accelerator-Based Studies of Heavy Ion Interactions Relevant to Space Biomedicine",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020645,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Modulation of Radiogenic Damage by Microgravity: Results From STS-76",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020646,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Some Behavioral Effects of Exposure to Low Doses of Fe-56 Particles",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020653,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Impact of Track Structure Effects on Shielding and Dosimetry",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020654,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Analysis of Incomplete Chromosomal Exchanges Using Fluorescence In Situ Hybridization with Telomere Probes",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20000020659,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Ambient Light Intensity, Actigraphy, Sleep and Respiration, Circadian Temperature and Melatonin Rhythms and Daytime Performance of Crew Members During Space Flight on STS-90 and STS-95 Missions",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020662,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "The Effects of Gravity on the Circadian Timing System",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020664,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Sleep and Circadian Rhythms in Four Orbiting Astronauts",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020666,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "BRN 3.1 Knockouts Affect the Vestibular, Autonomic, and Circadian Rhythm Responses to 2G Exposure",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020670,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Wireless Augmented Reality Prototype (WARP)",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020671,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Biona-C Cell Culture pH Monitoring System",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020672,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Physiological Signal Conditioner",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020673,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Sensors 2000! Program: Advanced Biosensor and Measurement Systems Technologies for Spaceflight Research and Concurrent, Earth-Based Applications",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020674,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Miniature Quadrupole Mass Spectrometer Array",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020675,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Biotelemetry",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020676,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "NASA Ames Research Center R and D Services Directorate Biomedical Systems Development",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020678,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Neurolab Biotelemetry System (NBS)",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020680,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Bion-11 Spaceflight Mission",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020683,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Life Sciences Division Spaceflight Hardware",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020684,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "An EVA Suit Fatigue, Strength, and Reach Model",
+      "stiType": "ABSTRACT",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     },
+     {
+      "disseminated": "METADATA_ONLY",
+      "id": 20000020685,
+      "type": "ANALYTIC_SUBSIDIARY",
+      "title": "Context-Specific Adaptation of Gravity-Dependent Vestibular Reflex Responses (NSBRI Neurovestibular Project 1)",
+      "stiType": "CONFERENCE_PAPER",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20000020485.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20000020485/downloads/20000020485.pdf",
+       "pdf": "/api/citations/20000020485/downloads/20000020485.pdf",
+       "fulltext": "/api/citations/20000020485/downloads/20000020485.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   }
+  ],
+  "aggregations": {
+   "created": {
+    "buckets": [
+     {
+      "key_as_string": "2013",
+      "key": 1356998400000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2016",
+      "key": 1451606400000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "author": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 2,
+    "buckets": [
+     {
+      "key": "Clark, T. A.",
+      "doc_count": 2
+     },
+     {
+      "key": "Hanifin, J.",
+      "doc_count": 2
+     },
+     {
+      "key": "Kolomenski, A.",
+      "doc_count": 2
+     },
+     {
+      "key": "Adolf, J.",
+      "doc_count": 1
+     },
+     {
+      "key": "Bowen, Charles",
+      "doc_count": 1
+     },
+     {
+      "key": "Brainard, G.",
+      "doc_count": 1
+     },
+     {
+      "key": "Brainard, G. C.",
+      "doc_count": 1
+     },
+     {
+      "key": "Brainard, George",
+      "doc_count": 1
+     },
+     {
+      "key": "Clark, Toni A.",
+      "doc_count": 1
+     },
+     {
+      "key": "Johnston, S.",
+      "doc_count": 1
+     },
+     {
+      "key": "Johnston, Smith",
+      "doc_count": 1
+     },
+     {
+      "key": "Kubey, Alan",
+      "doc_count": 1
+     },
+     {
+      "key": "Leveton, Lauren",
+      "doc_count": 1
+     },
+     {
+      "key": "Litaker, H.",
+      "doc_count": 1
+     },
+     {
+      "key": "Maida, Jim",
+      "doc_count": 1
+     },
+     {
+      "key": "Salazar, G.",
+      "doc_count": 1
+     },
+     {
+      "key": "Salazar, G. A.",
+      "doc_count": 1
+     },
+     {
+      "key": "Schwin, B. M.",
+      "doc_count": 1
+     },
+     {
+      "key": "Schwing, B.",
+      "doc_count": 1
+     },
+     {
+      "key": "Tran, K.",
+      "doc_count": 1
+     }
+    ]
+   },
+   "reportNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "JSC-CN-21322",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-30697",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-37891",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-38448",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-21322",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-30697",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-37891",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: JSC-CN-38448",
+      "doc_count": 1
+     }
+    ]
+   },
+   "center": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "JSC",
+      "doc_count": 5
+     }
+    ]
+   },
+   "index": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "submissions-2026-10-08-04-13",
+      "doc_count": 5
+     }
+    ]
+   },
+   "fundingNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "NASA 14-14Omni2-0018",
+      "doc_count": 2
+     },
+     {
+      "key": "NAS9-02078",
+      "doc_count": 1
+     },
+     {
+      "key": "NCC9-41",
+      "doc_count": 1
+     },
+     {
+      "key": "NRA NNJ14ZSA001N",
+      "doc_count": 1
+     }
+    ]
+   },
+   "published": {
+    "buckets": [
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "1999",
+      "key": 915148800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2010",
+      "key": 1262304000000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "distribution": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "PUBLIC",
+      "doc_count": 5
+     }
+    ]
+   },
+   "stiType": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "ABSTRACT",
+      "doc_count": 2
+     },
+     {
+      "key": "CONFERENCE_PAPER",
+      "doc_count": 1
+     },
+     {
+      "key": "CONFERENCE_PROCEEDINGS",
+      "doc_count": 1
+     },
+     {
+      "key": "PRESENTATION",
+      "doc_count": 1
+     }
+    ]
+   },
+   "subjectCategory": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Man/System Technology And Life Support",
+      "doc_count": 3
+     },
+     {
+      "key": "Life Sciences (General)",
+      "doc_count": 1
+     },
+     {
+      "key": "Spacecraft Design, Testing And Performance",
+      "doc_count": 1
+     },
+     {
+      "key": "Spacecraft Instrumentation And Astrionics",
+      "doc_count": 1
+     }
+    ]
+   },
+   "disseminated": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "DOCUMENT_AND_METADATA",
+      "doc_count": 5
+     }
+    ]
+   },
+   "stiTypeDetails": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Abstract",
+      "doc_count": 2
+     },
+     {
+      "key": "Conference Paper",
+      "doc_count": 1
+     },
+     {
+      "key": "Conference Proceedings",
+      "doc_count": 1
+     },
+     {
+      "key": "Presentation",
+      "doc_count": 1
+     }
+    ]
+   },
+   "organization": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "NASA Johnson Space Center",
+      "doc_count": 3
+     },
+     {
+      "key": "Thomas Jefferson Univ.",
+      "doc_count": 2
+     },
+     {
+      "key": "Wyle Labs., Inc.",
+      "doc_count": 2
+     },
+     {
+      "key": "Lockheed Martin Corp.",
+      "doc_count": 1
+     },
+     {
+      "key": "Wyle Integrated Science and Engineering Group",
+      "doc_count": 1
+     }
+    ]
+   },
+   "modified": {
+    "buckets": [
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "keyword": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": []
+   }
+  }
+ }
+}

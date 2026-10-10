@@ -1,0 +1,70 @@
+{
+  "hrv_below_personal_baseline": {
+    "source_type": "ntrs",
+    "source_id": "20040087874",
+    "title": "Microgravity alters respiratory sinus arrhythmia and short-term heart rate variability in humans",
+    "url": "https://ntrs.nasa.gov/citations/20040087874",
+    "plain_words": "In a NASA-indexed study of four crew on a 16-day flight, heart rate variability linked to the body's calming (vagal) control fell after the flight and stayed changed for at least 15 days.",
+    "key_finding": "fell after the flight and stayed changed for at least 15 days",
+    "countermeasure": "Do the planned ARED or T2 exercise session today.",
+    "countermeasure_source": "NTRS 20140002864, Benefits, Consequences, and Uncertainties of Conventional (Exercise) Countermeasure Approaches, https://ntrs.nasa.gov/citations/20140002864"
+  },
+  "heart_rate_above_personal_baseline": {
+    "source_type": "ntrs",
+    "source_id": "20040087874",
+    "title": "Microgravity alters respiratory sinus arrhythmia and short-term heart rate variability in humans",
+    "url": "https://ntrs.nasa.gov/citations/20040087874",
+    "plain_words": "In the same study, heart rate rose about 15 percent right after landing and was still raised 15 days later.",
+    "key_finding": "heart rate rose about 15 percent right after landing",
+    "countermeasure": "Repeat the reading at rest; if it is still high, report to the flight surgeon today.",
+    "countermeasure_source": "to be confirmed by research lead"
+  },
+  "sleep_below_personal_baseline": {
+    "source_type": "ntrs",
+    "source_id": "20240002094",
+    "title": "Impact of Sleep Shifting Strategies on the International Space Station",
+    "url": "https://ntrs.nasa.gov/citations/20240002094",
+    "plain_words": "Wrist-worn sleep records from 19 ISS crew show that schedule disruptions such as visiting vehicles cut sleep into short blocks; earlier crews averaged about six hours a night.",
+    "key_finding": "schedule disruptions such as visiting vehicles cut sleep into short blocks",
+    "countermeasure": "Check the sleep space: cool, dark, quiet and private, with the crew quarters set to your own preference.",
+    "countermeasure_source": "NTRS 20190002002, Sleep Environment Recommendations for Future Spaceflight Vehicles, https://ntrs.nasa.gov/citations/20190002002"
+  },
+  "reaction_above_personal_baseline": {
+    "source_type": "ntrs",
+    "source_id": "20240012108",
+    "title": "Cognitive Performance in ISS Astronauts on 6-Month Low Earth Orbit Missions",
+    "url": "https://ntrs.nasa.gov/citations/20240012108",
+    "plain_words": "NASA tested 25 astronauts before, during and after 6-month ISS missions and found processing speed and sustained attention slowed early in flight.",
+    "key_finding": "processing speed and sustained attention slowed early in flight",
+    "countermeasure": "Keep to the planned sleep window tonight and to the station's circadian lighting schedule.",
+    "countermeasure_source": "NTRS 20240002094, Impact of Sleep Shifting Strategies on the International Space Station, https://ntrs.nasa.gov/citations/20240002094; NTRS 20140012988, Addressing Challenges to the Design & Test of Operational Lighting Environments for the International Space Station, https://ntrs.nasa.gov/citations/20140012988"
+  },
+  "mood_below_personal_baseline": {
+    "source_type": "osdr",
+    "source_id": "140",
+    "title": "Dynamic nature of epigenetic patterns observed during the Mars 520-d mission simulation",
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-140",
+    "plain_words": "In a 520-day simulated mission to Mars, researchers followed the mood state of 6 crew members over time and linked changes in it to the long isolation.",
+    "key_finding": "linked changes in it to the long isolation",
+    "countermeasure": "Use tonight's scheduled private conference or crew journal entry; tell the flight surgeon if mood stays low tomorrow.",
+    "countermeasure_source": "to be confirmed by research lead"
+  },
+  "two_signals_in_48h": {
+    "source_type": "osdr",
+    "source_id": "140",
+    "title": "Dynamic nature of epigenetic patterns observed during the Mars 520-d mission simulation",
+    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-140",
+    "plain_words": "In a 520-day simulated mission to Mars, researchers profiled mood state, biochemistry and DNA methylation together in 6 crew members and reported that changes in these measures were related to one another during the isolation.",
+    "key_finding": "changes in these measures were related to one another",
+    "countermeasure": "Do the planned ARED or T2 exercise session today.",
+    "countermeasure_source": "NTRS 20140002864, Benefits, Consequences, and Uncertainties of Conventional (Exercise) Countermeasure Approaches, https://ntrs.nasa.gov/citations/20140002864"
+  },
+  "spo2_below_personal_baseline": {
+    "countermeasure": "Check the sensor fit and repeat the reading; if still low, report to the flight surgeon today.",
+    "countermeasure_source": "to be confirmed by research lead"
+  },
+  "core_temp_above_personal_baseline": {
+    "countermeasure": "Reduce exercise load today, keep to the scheduled fluid intake, and repeat the reading later today.",
+    "countermeasure_source": "to be confirmed by research lead"
+  }
+}

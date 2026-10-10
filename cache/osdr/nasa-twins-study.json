@@ -1,0 +1,84 @@
+{
+ "source_url": "https://osdr.nasa.gov/osdr/data/search?term=NASA+Twins+Study&from=0&size=25",
+ "fetched_at": "2026-10-10T06:10:00+00:00",
+ "data": {
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+   "total": 5,
+   "successful": 5,
+   "skipped": 0,
+   "failed": 0
+  },
+  "hits": {
+   "total": 1,
+   "max_score": 8.525103,
+   "hits": [
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "-YgnQZMBZZhQYxre9dt3",
+     "_score": 8.525103,
+     "_source": {
+      "Authoritative Source URL": "OSD-689/",
+      "Flight Program": "",
+      "Mission": {
+       "End Date": "",
+       "Start Date": "",
+       "Name": ""
+      },
+      "Material Type": "isolated cells",
+      "Project Identifier": "Simulated_Microgravity",
+      "Accession": "OSD-689",
+      "Identifiers": "GLDS-621",
+      "Study Identifier": "OSD-689",
+      "Study Protocol Name": "Cell Isolation     Library Construction 1     Nucleic Acid Sequencing 1     GeneLab raw data processing protocol - single-cell RNAseq     Growth Protocol     Treatment Protocol     Sample Collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     User Submitted Sequence Analysis Data Transformation     GeneLab raw data processing protocol - RNAseq     GeneLab RNAseq data processing protocol",
+      "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)     single-cell RNA sequencing",
+      "Acknowledgments": "We would like to thank the crew members of I4, JAXA, and Twins study for contributing valuable samples to improve our understanding of the immune system in space. We would like to thank Dr. Cheryl Nickerson (Arizona State University) for technical discussions on simulated microgravity ground analogs, and Dr. Brian Crucian (NASA) for discussions on translational aspects of the immune system in space. Wewould like to thank Ryan Kwok and Ritesh Tiwari for technical assistance with flow cytometry. Figure 7A was created with BioRender.com.",
+      "Study Assay Technology Platform": "Illumina     Illumina",
+      "Study Person": {
+       "Last Name": "Wu Furman Winer Du Overbey Kim Makhijani Martin Lerner Nguyen Baechle Valentino Fuentealba Bartleson Halaweh Winer Meydan Garrett-Bakelman Sayed Melov Muratani Gerencser Kasler Beheshti Mason",
+       "Middle Initials": " A",
+       "First Name": "Fei David Daniel Huixun Eliah JangKeun Priya Nicolas Chad A Khiem Jordan Taylor R Matias Juliet M Heather Shawn Cem Francine Nazish Simon Masafumi Akos A Herbert G Afshin Christopher E"
+      },
+      "Study Protocol Type": "Cell Isolation     Library Construction     Nucleic Acid Sequencing     data transformation     growth protocol     sample treatment protocol     sample collection protocol     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Analysis Data Transformation     data transformation     data transformation",
+      "Space Program": "",
+      "Study Title": "Single-cell analysis identifies conserved features of immune dysfunction in simulated microgravity and spaceflight",
+      "Study Factor Type": "treatment     Sex     Weightlessness Simulation",
+      "Study Public Release Date": 1731888000.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-689/image",
+      "Study Factor Name": "Treatment     Sex     Microgravity Simulation",
+      "Study Assay Measurement Type": "transcription profiling     transcription profiling",
+      "Project Type": "Ground Study",
+      "Factor Value": "",
+      "Data Source Accession": "GSE218937",
+      "Project Title": "",
+      "Study Funding Agency": "This work was supported in part through funds derived from the Buck Institute for Research on Aging (D.A.W., D.F.), and the Huiying Memorial Foundation (D.A.W.). T.R.V. and J.B. are funded by a T32 NIH fellowship grant (NIA T32 AG000266). C.E.M. thanks the Scientific Computing Unit (SCU) at WCM, the WorldQuant Foundation, NASA (NNX14AH50G, NNX17AB26G, 80NSSC22K0254, NNH18ZTT001N-FG2, 80NSSC22K0254, NNX16AO69A), the National Institutes of Health (R01MH117406), and LLS (MCL7001-18, LLS 9238-16).",
+      "Study Protocol Description": "De-identified peripheral blood buffy coat samples were obtained from healthy human donors from the Stanford University Blood Center. PBMCs were isolated using a Ficoll gradient method.     1x10^4 PBMCs from each condition were counted and loaded on the 10X Genomics Chromium Controller and the libraries were prepared using Chromium Next GEM Single Cell 5\u2019 Reagent Kit v2 according to the manufacturer\u2019s protocol (10X Genomics, Pleasanton, CA). The quality of libraries was assessed using Agilent TapeStation 4200, and test-sequenced on Illumina NextSeq 550.     The full sequencing was performed on an Illumina NovaSeq 6000 by SeqMatic (Fremont, CA).     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of H-sapiens rRNA sequences retrieved from NCBI on 01-Sep-2021.     De-identified peripheral blood buffy coat samples were obtained from healthy human donors from the Stanford University Blood Center. PBMCs were isolated using a Ficoll gradient method. PBMCs were counted and re-suspended in complete media at 1x10^6 cells/ml (RPMI 1640, 10% Fetal Bovine Serum, 2mM L-Glutamine, 1% penicillin/streptomycin, 0.1mM non-essential Amino acid,1mM sodium pyruvate, 50uM 2-mercaptoethanol,10mM HEPES).     To generate simulated microgravity, the cell suspension was loaded into 10 ml disposable high aspect ratio vessels (Synthecon, Houston, TX) and rotated at 15 rpm for 25 hours.\nFor the 1G control, the cell suspension was plated in standard 6-well culture plates, as standard static culture plates or culture flasks have been shown to be comparable to static high aspect ratio vessels by others in major immunological assays. 1G and simulated microgravity cultures were simultaneously placed in the same 37 C, 5% CO2 incubator. To stimulate PBMCs, samples were mixed with 1 \u03bcM R848 (TLR7/8 agonist, Invivogen, San Diego, CA) after 16 hours, for 9 hours of stimulation.     At the end of each experiment, the cell suspension was quickly collected, spun down at 500 \u00d7 g, washed with phosphate-buffered saline, and used for downstream analysis.     Total RNA was extracted using RNeasy Plus Mini Kit (Cat  74134, Qiagen) as per the manufacturer's instruction.\nRNA quantity check was conducted by Novogene Co., LTD (CA, US).     Preparation of RNA library was conducted by Novogene Co., LTD (CA, US).     mRNA sequencing was conducted by Novogene Co., LTD (CA, US). About 20 million paired-end 150 bp reads per sample were generated from Illumina NovaSeq 6000 Sequencing System.     FASTQ raw reads were analyzed using the MTD pipeline. Differential gene expression analysis between groups was done by DESeq2 R package (version 1.36.0) with control for the subject effect. Genes with adjusted p value less than 0.05 and |log2(FoldChange)| greater than 0 were considered as differentially expressed. DEGs with p values less than 0.05 and |Log2FC| greater than 0.5 were used for the IPA canonical pathway analysis. Different from single-cell (SC), to calculate the iAge index for bulk RNAseq, normalized and scaled gene expression was multiplied with the gene\u2019s coefficient in the iAge gene set, then summed for each sample. Cellular senescence was scored using the ssGSEA method on the SenMayo gene set. Cell Type Frequency Changes within PBMCs were predicted by CIBERSORTx Docker image\u2013Fractions Mode version 1.0. Our single-cell RNA-seq data from PBMCs was used to build the SignatureMatrix File as the reference to predict the cell proportion in the bulk RNA-seq data.     astq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.12.1 and reports were combined with MultiQC v1.26. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of H-sapiens rRNA sequences retrieved from NCBI on 01-Sep-2021.     Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.0.2 (https://github.com/nasa/GeneLab_RNASeq_Workflow/tree/NF_RCP_2.0.2). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Homo Sapiens STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly GRCh38 (Homo_sapiens.GRCh38.dna.primary_assembly.fa) and the following gtf annotation file: Homo_sapiens.GRCh38.112.gtf. Trimmed reads were aligned to the Homo Sapiens STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to none and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0) and normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Hs.eg.db (version 3.19.1).",
+      "Experiment Platform": "",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "Wu Fei  Du Huixun  Overbey Eliah  Kim JangKeun  Makhijani Priya  Martin Nicolas  Lerner Chad A.  Nguyen Khiem  Baechle Jordan  Valentino Taylor R.  Fuentealba Matias  Bartleson Juliet M.  Halaweh Heather  Winer Shawn  Meydan Cem  Garrett-Bakelman Francine  Sayed Nazish  Melov Simon  Muratani Masafumi  Gerencser Akos A.  Kasler Herbert G.  Beheshti Afshin  Mason Christopher E.  Furman David  Winer Daniel A.",
+      "Project Link": "",
+      "Study Publication Title": "Single-cell analysis identifies conserved features of immune dysfunction in simulated microgravity and spaceflight",
+      "Managing NASA Center": "",
+      "Study Description": "Microgravity is associated with immunological dysfunction, though the mechanisms are poorly understood. Here, using single-cell analysis of human peripheral blood mononuclear cells (PBMCs)\u00a0exposed to short term (25\u2009hours) simulated microgravity, we characterize altered genes and pathways at basal and stimulated states with a Toll-like Receptor-7/8 agonist. We validate single-cell analysis by RNA sequencing and super-resolution microscopy, and against data from the Inspiration-4 (I4) mission, JAXA (Cell-Free Epigenome) mission, Twins study, and spleens from mice on the International Space Station. Overall, microgravity alters specific pathways for optimal immunity, including the cytoskeleton, interferon signaling, pyroptosis, temperature-shock, innate inflammation (e.g., Coronavirus pathogenesis pathway and IL-6 signaling), nuclear receptors, and sirtuin signaling. Microgravity directs monocyte inflammatory parameters, and impairs T cell and NK cell functionality. Using machine learning, we identify numerous compounds linking microgravity to immune cell transcription, and demonstrate that the flavonol, quercetin, can reverse most abnormal pathways. These results define immune cell alterations in microgravity, and provide opportunities for countermeasures to maintain normal immunity in space.",
+      "organism": "Homo sapiens",
+      "Data Source Type": "cgene",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "We would like to thank the crew members of I4, JAXA, and <em>Twins</em> <em>study</em> for contributing valuable samples",
+       "Ground <em>Study</em>",
+       "microscopy, and against data from the Inspiration-4 (I4) mission, JAXA (Cell-Free Epigenome) mission, <em>Twins</em>",
+       "<em>study</em>, and spleens from mice on the International Space Station.",
+       "<em>cgene</em>"
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

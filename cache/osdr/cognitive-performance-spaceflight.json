@@ -1,0 +1,84 @@
+{
+ "source_url": "https://osdr.nasa.gov/osdr/data/search?term=cognitive+performance+spaceflight&from=0&size=25",
+ "fetched_at": "2026-09-30T09:41:49+00:00",
+ "data": {
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+   "total": 5,
+   "successful": 5,
+   "skipped": 0,
+   "failed": 0
+  },
+  "hits": {
+   "total": 1,
+   "max_score": 8.231949,
+   "hits": [
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "S6fbMpcBcf0G5RgixzLe",
+     "_score": 8.231949,
+     "_source": {
+      "Space Program": "NASA",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "Behavior     Behavior",
+      "Study Protocol Description": "The HU procedure was performed 5 days prior to sham-irradiation or irradiation. The rats remained in the HU condition for 25 days following sham-irradiation or irradiation. At the end of one week following the HU period, the animals were shipped to the Medical College of Wisconsin (MCW). The animals were then maintained on a Teklad 8904 diet (Indianapolis, IN, United States) and fed ad libitum during the study. The animals were housed in a reverse light cycle room with lights off from 07.30\u201319.30. All behavioral and cognitive tests were performed during the dark period starting 2 months after irradiation or sham-irradiation. All animal procedures were consistent with ARRIVE guidelines and were reviewed and approved by the Institutional Animal Care and Use Committees at BNL and MCW. All analyses were performed blinded to the treatment. On day 1, the rats were randomly grouped into full weightbearing (non-HU), HU via tail suspension, or no HU (sham). In brief, the rats were anesthetized with isoflurane (2.5%\u20133.0% at 5% oxygen flow rate). Then, a tincture of benzoin was applied to the lateral surface of the tail before placing one of the free ends of an adhesive medical traction tape (3M, St. Paul, MN, United States) starting approximately 1 cm from the base of the tail and adhering up to 3/4th of the tail length. The free end was then looped through a catch on a plastic ball-bearing swivel and adhered to the opposite lateral side of the tail. Strips of micropore tape (3M) were adhered perpendicularly over the traction tape. A 1.56-inch carabiner clip (Nite Ize, Boulder, CO, United States) was connected to the swivel and a zipper hook to permit vertical adjustment along an attached Perlon cord (STAS group, BA, Eindhoven, the Netherlands). The cord was then connected to a pulley (Blue Hawk, Gilbert, AZ, United States) that permitted the setup to slide securely over a 5/16-inch-diameter steel rod (Hillman, Cincinnati, OH, United States). Adjustment of the zipper lock lifted the hind limbs off the substrate, with the abdomen and thorax suspended at 30\u00b0 from the horizontal plane. The sham HU rats received isoflurane but were not tail suspended. For placement along the beamline for both the irradiation and sham procedures, the swivel was disconnected from the carabiner clip, and a plastic bead chain cord (Luanxu, Guangzhou City, China) was looped through the swivel at the point of the carabiner attachment. The rats were then transferred to specialized rat boxes in 60 cm \u00d7 60 cm aluminum frames, and the bead chain lengths were adjusted to ensure that the hind limbs remained suspended at the same angle as in the HU cages. The bead chain was then placed in a slot at the top of the frame to ensure suspension of the rodent hind limbs, and the swivel permitted rotation in the boxes.     Male 7\u20138 months old Fischer 344 rats (RRID:RGD_734478) (n of 132) were shipped to the Brookhaven National Laboratory (BNL), Upton, NY, United States. After 2 weeks of acclimatization and at 9 months of age, they were sham-irradiated or irradiated with a standardized simplified 5-ion 6-beam prescribed by NASA referred to as simGCRsim, which consists of sequential and rapidly switched exposures to protons (1000 MeV/n), 28Si ions (250 MeV/n), 4He ions (350 MeV/n), 16O ions (600 MeV/n), 56Fe ions (250 MeV/n), and protons (250 MeV/n) (0, 0.75, or 1.5 Gy) in the absence or presence of simulated weightlessness achieved by HU or a control HU condition. NSRL GCR and SPE simulations are designed to approximate the chronic mixed field exposures in space by means of sequential acute exposures to a variety of ion/energy combinations.\u00a0 The exposure protocols are on the NSRL website:  https://www.bnl.gov/nsrl/userguide/simgcrsim.php (SimGCRSim).  The dose can be administered either in a single series of exposures lasting approximately an hour or in daily fractions over several weeks.\u00a0 The GCR simulations are described in detail here: Simonsen LC, Slaba TC, Guida P, Rusek A (2020) NASA\u2019s first ground-based Galactic Cosmic Ray Simulator: Enabling a new era in space radiobiology research. PLoS Biol 18(5): e3000669. https://doi.org/10.1371/journal.pbio.3000669. The control HU condition was identical to the HU condition with the exception that the animals could use all four paws for movement.     Exploratory behaviors, measures of anxiety, and hippocampus dependent spatial habituation learning were assessed in a black open field  during three consecutive days.     All behavioral and cognitive tests were performed during the dark period. The animal cages were brought into the testing room; then, the rats were picked up gently by placing the thumb and forefinger behind the forelegs and wrapping the palm around the stomach. The researchers supported the animals by their stomachs during transportation to and from the enclosure.  Following the testing of each rat, the enclosure was cleaned with a solution of 70% isopropyl alcohol.  The light intensity during the open field and object recognition tests was 50 lux. A white noise generator (setting II) and overhead lights were used during testing.     Animals were assessed in a black open field (90.49 cm \u00d7 90.49 cm \u00d7 45.72 cm) with an anxiety provoking center zone (45.25 cm \u00d7 45.25 cm).     The animals were placed in the middle of the open field for 5 min each day. The researchers vacated the testing room during behavioral testing.     The outcome measures analyzed using video tracking (AnyMaze software, Stoelting Co., Wood Dale, IL, United States) were the total distance moved, time spent freezing, and percentage of time spent in the more anxiety provoking center zone (45.25 cm \u00d7 45.25 cm).     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining. The transformed column headers and the submitted term from which they derive are defined in the study data dictionary file.     Exploratory behaviors, measures of anxiety, and hippocampus dependent spatial habituation learning were assessed in a black open field during three consecutive days.     All behavioral and cognitive tests were performed during the dark period. The animal cages were brought into the testing room; then, the rats were picked up gently by placing the thumb and forefinger behind the forelegs and wrapping the palm around the stomach. The researchers supported the animals by their stomachs during transportation to and from the enclosure.  Following the testing of each rat, the enclosure was cleaned with a solution of 70% isopropyl alcohol. The light intensity during the open field and object recognition tests was 50 lux. A white noise generator (setting II) and overhead lights were used during testing.     The animals were first habituated to an open field one orange object and one cover of a 50 ml conical tube for 5 min. The objects were placed 45.72 cm from the top side of the enclosure and 30.48 cm from the left and right sides of the enclosure. The distance between the two objects was also 30.48 cm. Five minutes following the habituation trial (H), the rats were placed back in the enclosure containing two identical blue squares (3.5 cm base length, 3.5 cm height, textured) or two identical red cylinders (3.8 cm diameter, 3.5 cm height, untextured) for an acquisition trial. The objects were counterbalanced for this task. Half of the rats started with the blue squares and the other half started with the red cylinders.     The rats were then placed in the enclosure containing two identical blue objects (squares) or two identical red objects (cylinders) for an acquisition trial of 5 min. The objects were counterbalanced for this task, where half the rats started with the blue squares and the other half started with the red cylinders. Sixty minutes following the acquisition trial (A), the rats were again placed in the enclosure with one of the familiar objects replaced with a novel red or blue object for the test trial (T).     The outcome measures analyzed using video tracking were the total distance moved and percentage of time spent in the center zone (45.25 cm \u00d7 45.25 cm) containing the objects. In addition, the percentage of time that each animal explored the novel and familiar objects in the test trial was analyzed by manually scoring the digital videos.",
+      "Material Type": "Whole Organism",
+      "Study Identifier": "OSD-837",
+      "Study Person": {
+       "First Name": "Jacob Mitali Alexis Sarah Kat Breanna Marek Scott Willem Alexander Andy Chirayu Amy Christopher M. Jeffrey S. Jeffrey Jaewoo Jan Frederik Gerd Jessica John",
+       "Middle Initials": "",
+       "Last Name": "Raber Chaudhari De la Torre Holden Kessler Glaeser Lenarczyk Leonard Borg Kwok Patel Kronenberg Olsen Willey Morr\u00e9 Choi Stevens Bobe Minnier Baker"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Data Source Type": "alsda",
+      "Mission": {
+       "Start Date": "",
+       "End Date": "",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "Ionizing Radiation     Absorbed Radiation Dose     Hindlimb Unloading",
+      "Study Publication Author List": "Raber J  Chaudhari M  De la Torre lTA  Holden S  Kessler K  Glaeser B  Lenarczyk M  Leonard SW  Borg A  Kwok A  Patel C  Kronenberg A  Olsen CM  Willey JS  Morr\u00e9 J  Choi J  Stevens JF  Bobe G  Minnier J  Baker J.",
+      "Study Assay Technology Platform": "AnyMaze     AnyMaze",
+      "Authoritative Source URL": "OSD-837/",
+      "Project Identifier": "Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation, High_Dose_Irradiation, Heavy_Ion_HZE_Irradiation, Multiple_Radiation_Types, Hindlimb_Unloading",
+      "thumbnail": "/geode-py/ws/studies/OSD-837/image",
+      "Project Title": "",
+      "Study Public Release Date": 1748822400.0,
+      "Project Link": "",
+      "Study Publication Title": "Effects of 5-ion 6-beam sequential irradiation in the presence and absence of hindlimb or control hindlimb unloading on behavioral performances and plasma metabolic pathways of Fischer 344 rats",
+      "organism": "Rattus norvegicus",
+      "Accession": "OSD-837",
+      "Study Assay Technology Type": "Open Field     Novel Object Recognition",
+      "Study Title": "Effects of 5-ion 6-beam sequential irradiation in the presence and absence of hindlimb or control hindlimb unloading on behavioral performances and plasma metabolic pathways of Fischer 344 rats",
+      "Study Protocol Type": "Animal Husbandry     acute     Assay Arrangement     Testing Environment     Arena     Assay Characteristics     Analysis Characteristics     data transformation     Assay Arrangement     Testing Environment     Arena     Assay Characteristics     Analysis Characteristics",
+      "Project Type": "Ground Study",
+      "Study Funding Agency": "This study was supported by NASA (80NSSC19K0498\u2013P00001) and partially by an R21 grant (AG079158).",
+      "Study Factor Type": "ionizing radiation     absorbed radiation dose     Hindlimb Suspension",
+      "Factor Value": "",
+      "Study Description": "Effects and interactions between different spaceflight stressors are expected to be experienced by crew on missions when exposed to microgravity and galactic cosmic rays (GCRs). One of the limitations of previous studies on simulated weightlessness using hindlimb unloading (HU) is that a control HU condition was not included. We characterized the behavioral performance of male Fischer rats 2 months after sham or total body irradiation with a simplified 5-ion 6-mixed-beam exposure representative of GCRs in the absence or presence of HU. Six months later, the plasma, hippocampus, and cortex were processed to determine whether the behavioral effects were associated with long-term alterations in the metabolic pathways. In the open field without and with objects, interactions were observed for radiation \u00d7 HU. In the plasma of animals that were not under the HU or control HU condition, the riboflavin metabolic pathway was affected most for sham irradiation vs. 0.75 Gy exposure. Analysis of the effects of control HU on plasma in the sham-irradiated animals showed that the alanine, aspartate, glutamate, riboflavin, and glutamine metabolisms as well as arginine biosynthesis were affected. The effects of control HU on the hippocampus in the sham-irradiated animals showed that the phenylalanine, tyrosine, and tryptophan pathway was affected the most. Analysis of effects of 0.75 Gy irradiation on the cortex of control HU animals showed that the glutamine and glutamate metabolic pathway was affected similar to the hippocampus, while the riboflavin pathway was affected in animals that were not under the control HU condition. The effects of control HU on the cortex in sham-irradiated animals showed that the riboflavin metabolic pathway was affected. Animals receiving 0.75 Gy of irradiation showed impaired glutamine and glutamate metabolic pathway, whereas animals receiving 1.5 Gy of irradiation showed impaired riboflavin metabolic pathways. A total of 21 plasma metabolites were correlated with the behavioral measures, indicating that plasma and brain biomarkers associated with behavioral performance are dependent on the environmental conditions experienced. This study derives results from the Open Field and Novel Object Recognition behavior assays.",
+      "Study Protocol Name": "Animal Husbandry     Irradiation Protocol     Assay Arrangement - Open Field     Testing Environment - Open Field     Arena - Open Field     Assay Characteristics - Open Field     Analysis Characteristics - Open Field     ALSDA Transformed Data     Assay Arrangement - NOR     Testing Environment - NOR     Arena -NOR     Assay Characteristics - NOR     Analysis Characteristics - NOR",
+      "Characteristics": "",
+      "Parameter Value": "",
+      "Identifiers": "LSDS-139",
+      "Data Source Accession": ""
+     },
+     "highlight": {
+      "all": [
+       "All behavioral and <em>cognitive</em> tests were performed during the dark period.",
+       "All behavioral and <em>cognitive</em> tests were performed during the dark period.",
+       "<em>alsda</em>",
+       "Effects and interactions between different <em>spaceflight</em> stressors are expected to be experienced by crew",
+       "We characterized the behavioral <em>performance</em> of male Fischer rats 2 months after sham or total body irradiation"
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

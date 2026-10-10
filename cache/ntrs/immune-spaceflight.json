@@ -1,0 +1,3494 @@
+{
+ "source_url": "https://ntrs.nasa.gov/api/citations/search?q=immune+spaceflight",
+ "fetched_at": "2026-10-03T18:48:24+00:00",
+ "data": {
+  "stats": {
+   "took": 66,
+   "total": 258,
+   "estimate": false,
+   "maxScore": 208.69513
+  },
+  "results": [
+   {
+    "_meta": {
+     "score": 208.69513
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "GOV_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20210000525,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "c56e81c18f7241989379bf64388b5f23",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "keywords": [
+     "deep spaceflight stressors",
+     "immune",
+     "miRNA"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20210000525,
+     "ear": "NO",
+     "id": "d93c6d58e4304ebc8ffcb749d6794497",
+     "itar": "NO"
+    },
+    "distributionDate": "2021-02-04T08:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "NNX16AO69A (T-0404) ",
+      "submissionId": 20210000525,
+      "id": "dead753554884a61b2ea06f9004132b3",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "80NSSC18M0060",
+      "submissionId": 20210000525,
+      "id": "99fde1b3426741b8baaf61a5e1ebd6bc",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "SPEC5732",
+      "submissionId": 20210000525,
+      "id": "45a899ea3faa487487fa33e5f07bc91b",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NNA14AB82C",
+      "submissionId": 20210000525,
+      "id": "281b2d75c0674f4db4b049105519e04b",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Beyond Low-Earth Orbit: Characterizing Immune and microRNA Differentials Following Simulated Deep Spaceflight Conditions in Mice ",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2021-01-15T18:29:18.5401450+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+      "sequence": 0,
+      "submissionId": 20210000525,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Amber M Paul"
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Columbia, Maryland, United States"
+       }
+      },
+      "id": "dec9a64060f2483baa37c79391003443",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "7319e654b2284c1d9cce71b7b300b01c"
+     },
+     {
+      "organizationId": "8b9006e8134c5057b8f61a18f6f53030",
+      "sequence": 1,
+      "submissionId": 20210000525,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Margareth Ann Cheng-campbell"
+       },
+       "organization": {
+        "name": "Blue Marble Space",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "4a6923af3213479dbb3be17348eac5b0",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "4f542c7d8d8d480d80f9eb1fa1a6ee36"
+     },
+     {
+      "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+      "sequence": 2,
+      "submissionId": 20210000525,
+      "meta": {
+       "author": {
+        "name": "Elizabeth Amy Blaber"
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Columbia, Maryland, United States"
+       }
+      },
+      "id": "0c1fc0e105a049779556489e28a97839",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "4ba79a3c71614860b5376c4a609ed79c"
+     },
+     {
+      "organizationId": "186ca58a4e2852ffb81b3c00d40d2267",
+      "sequence": 3,
+      "submissionId": 20210000525,
+      "meta": {
+       "author": {
+        "name": "Sulekha Anand"
+       },
+       "organization": {
+        "name": "San Jose State University",
+        "location": "San Jose, California, United States"
+       }
+      },
+      "id": "0033bc4ce09646e699dd8e101d51bb45",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 4,
+      "submissionId": 20210000525,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Sharmila Bhattacharya"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "718c3bc7f3074045b7bb4f3caf12f72b",
+      "userType": "CIVIL",
+      "userId": "b85675ca5e3146718479be27e8465dc7"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 5,
+      "submissionId": 20210000525,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Brian Evan Crucian"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "dc949482d7604629bfaf8272a74a3d17",
+      "userType": "CIVIL",
+      "userId": "2aab60ce325340eea1a3c078acb562e9"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 6,
+      "submissionId": 20210000525,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Scott M Smith"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "72dfc282694d45cd889dfcde8e3550d4",
+      "userType": "CIVIL",
+      "userId": "f057f3c2fe8d4b41a417c87083393ac6"
+     },
+     {
+      "organizationId": "464f21f628fa5000a5de0146fe98a35d",
+      "sequence": 7,
+      "submissionId": 20210000525,
+      "meta": {
+       "author": {
+        "name": "Robert Meller"
+       },
+       "organization": {
+        "name": "Morehouse School of Medicine",
+        "location": "Atlanta, Georgia, United States"
+       }
+      },
+      "id": "f5d10883e6b64d69ba4672034d31fb59",
+      "userType": "OTHER",
+      "userId": "77ca22e1925942e8a73d9eedfc9edf65"
+     },
+     {
+      "organizationId": "b06183c1f3ac53219023dd0a5d918139",
+      "sequence": 8,
+      "submissionId": 20210000525,
+      "meta": {
+       "author": {
+        "name": "Peter Grabham"
+       },
+       "organization": {
+        "name": "Columbia University Medical Center",
+        "location": "New York, New York, United States"
+       }
+      },
+      "id": "9db66a72fc434121bf5823548780e7a6",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 9,
+      "submissionId": 20210000525,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Afshin Beheshti"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "eb256f3db42a4883ab1e3c2794ed0883",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "5c95ac55ef87436ea97edb625626ffb2"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "NASA_PEER_COMMITTEE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20210000525,
+    "created": "2021-01-15T18:23:30.5927020+00:00",
+    "center": {
+     "code": "ARC",
+     "name": "Ames Research Center",
+     "id": "4540cd94d24c4bf29f8773a27faf96b2"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Spaceflight missions can cause immune system dysfunction in astronauts with little understanding of immune outcomes in deep space. This study assessed immune responses in mice following ground-based, simulated deep spaceflight conditions, compared to data from astronauts on ISS missions. For ground studies, we simulated microgravity using the hindlimb unloaded mouse model alone or in combination with acute simulated galactic cosmic rays or solar particle events irradiation. Immune profiling results revealed unique immune diversity following each experimental condition, suggesting each stressor results in distinct circulating immune responses, with clear consequences for deep spaceflight. Circulating plasma microRNA sequence analysis revealed involvement in immune system dysregulation. Furthermore, a large astronaut cohort showed elevated inflammation during LEO missions, thereby supporting our simulated ground experiments in mice. Herein, circulating immune biomarkers are defined by distinct deep space irradiation types coupled to simulated microgravity and could be targets for future space health initiatives.     ",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20210000525,
+     "id": "001c257f7e9148e78b5003b7a2005cc5"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20210000525,
+      "endDate": "2021-02-04T08:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington D.C., District of Columbia, United States"
+         }
+        },
+        "meetingId": "3ebe2aa2bb2e4fa285895a23c234455e",
+        "id": "289a7890985e4dbab7c3e21dd2ed9aa0"
+       }
+      ],
+      "name": "Human Research Program Investigators\u2019 Workshop",
+      "location": "Virtual",
+      "id": "3ebe2aa2bb2e4fa285895a23c234455e",
+      "startDate": "2021-02-01T08:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "BLO HRP IWS 2021-1.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20210000525/downloads/BLO%20HRP%20IWS%202021-1.pdf",
+       "pdf": "/api/citations/20210000525/downloads/BLO%20HRP%20IWS%202021-1.pdf",
+       "fulltext": "/api/citations/20210000525/downloads/BLO%20HRP%20IWS%202021-1.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 176.80399
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20050000429,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "32175f13b6bd41eab751147ac7f38a1b",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "Cosmos Project",
+     "Review",
+     "unmanned",
+     "NASA Discipline Number 18-10",
+     "Review, Tutorial",
+     "NASA Discipline Number 00-00",
+     "manned",
+     "NASA Discipline Regulatory Physiology",
+     "STS-51B Shuttle Project",
+     "Flight Experiment",
+     "Non-NASA Center",
+     "NASA Program Flight",
+     "short duration",
+     "NASA Program Space Physiology and Countermeasures",
+     "Space Flight",
+     "Immune System/cytology/immunology/physiology",
+     "Antibody Formation/physiology",
+     "Macaca mulatta",
+     "Animals",
+     "Male",
+     "Rats"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20050000429,
+     "ear": "NO",
+     "id": "b34ebf26b54c4cadad6af636ceae5e4d",
+     "itar": "NO"
+    },
+    "distributionDate": "2011-08-23T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "ISSN: 0741-5400"
+    ],
+    "title": "Immune changes in test animals during spaceflight",
+    "stiType": "REPRINT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-22T16:07:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20050000429,
+      "meta": {
+       "author": {
+        "name": "Lesnyak, A. T."
+       },
+       "organization": {
+        "name": "Institute of Biomedical Problems",
+        "location": "Moscow, Russia"
+       }
+      },
+      "id": "23979b6efd1047f5a42b07c79a0154f5"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20050000429,
+      "meta": {
+       "author": {
+        "name": "Sonnenfeld, G."
+       },
+       "organization": {}
+      },
+      "id": "ed6bbf923e5d46bfa618fb43dcb51780"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20050000429,
+      "meta": {
+       "author": {
+        "name": "Rykova, M. P."
+       },
+       "organization": {}
+      },
+      "id": "4e7f53423f9b4c9fab6e906782a21387"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20050000429,
+      "meta": {
+       "author": {
+        "name": "Meshkov, D. O."
+       },
+       "organization": {}
+      },
+      "id": "0d4b4dabd81349a3a1b4098c3551ca41"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20050000429,
+      "meta": {
+       "author": {
+        "name": "Mastro, A."
+       },
+       "organization": {}
+      },
+      "id": "c54d51ce900546cd978faed85eaa142c"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20050000429,
+      "meta": {
+       "author": {
+        "name": "Konstantinova, I."
+       },
+       "organization": {}
+      },
+      "id": "5355135a957045658ce76f5ee389e276"
+     }
+    ],
+    "stiTypeDetails": "Reprint (Version printed in journal)",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20050000429,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-22T16:07:00.0000000+00:00",
+    "center": {
+     "code": "CDMS",
+     "name": "Legacy CDMS",
+     "id": "092d6e0881874968859b972d39a888dc"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Over the past two decades, it has become apparent that changes in immune parameters occur in cosmonauts and astronauts after spaceflight. Therefore, interest has been generated in the use of animal surrogates to better understand the nature and extent of these changes, the mechanism of these changes, and to allow the possible development of countermeasures. Among the changes noted in animals after spaceflight are alterations in lymphocytic blastogenesis, cytokine function, natural killer cell activity, and colony-stimulating factors. The nature and significance of spaceflight-induced changes in immune responses will be the focus of this review.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "publications": [
+     {
+      "volume": "54",
+      "submissionId": 20050000429,
+      "issue": "3",
+      "issn": "0741-5400",
+      "id": "27fae3a4b61045bea08586edc9695c24",
+      "publicationName": "Journal of leukocyte biology",
+      "publicationDate": "1993-09-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 169.55977
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20050000426,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "01fc895d95c7485d96ddee418bc6fba6",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "NASA Discipline Number 18-10",
+     "Cosmos 2044 Project",
+     "NASA Discipline Number 00-00",
+     "STS Shuttle Project",
+     "short duration",
+     "manned",
+     "NASA Program Space Physiology and Countermeasures",
+     "NASA Program Flight",
+     "Flight Experiment",
+     "unmanned",
+     "Non-NASA Center",
+     "Cosmos 1887 Project",
+     "NASA Experiment Number COS 2044-35",
+     "NASA Discipline Regulatory Physiology",
+     "Cytokines/physiology",
+     "Space Flight",
+     "Immune System/physiology",
+     "Support, U.S. Gov't, Non-P.H.S",
+     "Animals",
+     "Rats",
+     "Human"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20050000426,
+     "ear": "NO",
+     "id": "c12fc60821f04785938403d6f6692494",
+     "itar": "NO"
+    },
+    "distributionDate": "2011-08-23T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "ISSN: 0741-5400"
+    ],
+    "title": "The role of cytokines in immune changes induced by spaceflight",
+    "stiType": "REPRINT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-22T16:07:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20050000426,
+      "meta": {
+       "author": {
+        "name": "Sonnenfeld, G."
+       },
+       "organization": {
+        "name": "School of Medicine, University of Louisville",
+        "location": "Kentucky 40292"
+       }
+      },
+      "id": "2be21c15c77a4137968b32b0a5579b89"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20050000426,
+      "meta": {
+       "author": {
+        "name": "Miller, E. S."
+       },
+       "organization": {}
+      },
+      "id": "e85ee14cfc0d4a5e9e0e421604584874"
+     }
+    ],
+    "stiTypeDetails": "Reprint (Version printed in journal)",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20050000426,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-22T16:07:00.0000000+00:00",
+    "center": {
+     "code": "CDMS",
+     "name": "Legacy CDMS",
+     "id": "092d6e0881874968859b972d39a888dc"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "It has become apparent that spaceflight alters many immune responses. Among the regulatory components of the immune response that have been shown to be affected by spaceflight is the cytokine network. Spaceflight, as well as model systems of spaceflight, have been shown to affect the production and action of various cytokines including interferons, interleukins, colony stimulating factors, and tumor necrosis factors. These changes have been shown not to involve a general shutdown of the cytokine network but, rather, to involve selective alterations of specific cytokine functions by spaceflight. The full breadth of changes in cytokines induced by spaceflight, as well as mechanisms, duration, adaptation, reversibility, and significance to resistance to infection and neoplastic diseases, remains to be established.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "publications": [
+     {
+      "volume": "54",
+      "submissionId": 20050000426,
+      "issue": "3",
+      "issn": "0741-5400",
+      "id": "91c6050c487043a7bad45f53e4469442",
+      "publicationName": "Journal of leukocyte biology",
+      "publicationDate": "1993-09-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 167.62938
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "OTHER",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20040173065,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "80e1483671dc4f058c01107eb2041322",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "keywords": [
+     "manned",
+     "Skylab Project",
+     "NASA Center JSC",
+     "long duration",
+     "NASA Discipline Regulatory Physiology",
+     "STS Shuttle Project",
+     "Flight Experiment",
+     "NASA Program Flight",
+     "short duration",
+     "Apollo Project",
+     "Mir Project",
+     "Salyut Project",
+     "NASA Discipline Number 00-00",
+     "Non-NASA Center",
+     "Immune Tolerance/immunology",
+     "Space Flight",
+     "Space Simulation/adverse effects",
+     "Communicable Diseases/immunology",
+     "Chronic Disease",
+     "Stress, Psychological/immunology",
+     "Human",
+     "Time Factors",
+     "Acute Disease",
+     "Animals"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20040173065,
+     "ear": "NO",
+     "id": "38c4e7bf8c12445d94d9cbe8b57a22fd",
+     "itar": "NO"
+    },
+    "distributionDate": "2011-08-23T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "ISSN: 1569-2574"
+    ],
+    "title": "Changes in the immune system during and after spaceflight",
+    "stiType": "REPRINT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-22T05:47:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20040173065,
+      "meta": {
+       "author": {
+        "name": "Taylor, G. R."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX United States"
+       }
+      },
+      "id": "1e42e0ace2bd4858854fc1ed192dea02"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20040173065,
+      "meta": {
+       "author": {
+        "name": "Konstantinova, I."
+       },
+       "organization": {}
+      },
+      "id": "e7c940c102c54220ac5cb4c6b06ec443"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20040173065,
+      "meta": {
+       "author": {
+        "name": "Sonnenfeld, G."
+       },
+       "organization": {}
+      },
+      "id": "0778facc914640518d05e74280451cee"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20040173065,
+      "meta": {
+       "author": {
+        "name": "Jennings, R."
+       },
+       "organization": {}
+      },
+      "id": "50f287c603c24cb2b5a349a8a622d75f"
+     }
+    ],
+    "stiTypeDetails": "Reprint (Version printed in journal)",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20040173065,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-22T05:47:00.0000000+00:00",
+    "center": {
+     "code": "CDMS",
+     "name": "Legacy CDMS",
+     "id": "092d6e0881874968859b972d39a888dc"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "The results of immunological analyses before, during and after spaceflight, have established the fact that spaceflight can result in a blunting of the immune mechanisms of human crew members and animal test species. There is some evidence that the immune function changes in short-term flights resemble those occurring after acute stress, while the changes during long-term flights resemble those caused by chronic stress. In addition, this blunting of the immune function occurs concomitant with a relative increase in potentially infectious microorganisms in the space cabin environment. This combination of events results in an increased probability of inflight infectious events. The realization of this probability has been shown to be partially negated by the judicious use of a preflight health stabilization program and other operational countermeasures. The continuation of these countermeasures, as well as microbial and immunological monitoring, are recommended for continued spaceflight safety.",
+    "isLessonsLearned": false,
+    "disseminated": "METADATA_ONLY",
+    "publications": [
+     {
+      "volume": "6",
+      "submissionId": 20040173065,
+      "issn": "1569-2574",
+      "id": "ff86e482328240079172ce518b6300e8",
+      "publicationName": "Advances in space biology and medicine",
+      "publicationDate": "1997-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 158.02301
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20205008828,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "d7d5e4c20c274ea18ff562cb52cba6b9",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "keywords": [
+     "spaceflight stressors",
+     "immune dysregulation",
+     "sex-specific"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20205008828,
+     "ear": "NO",
+     "id": "f8b8b9b1f31b4f97ad9c54f3f24b9b08",
+     "itar": "NO"
+    },
+    "distributionDate": "2021-02-01T08:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "Human Factors Behavioral Performance Element Grant 18-18FLAG_2-0028",
+      "submissionId": 20205008828,
+      "id": "65776b06bcba4e6e81cd5a74a4e6680c",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Altered Immune Differentials Between Male and Female Mice Independent of Ionizing Irradiation ",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2020-10-16T15:37:58.7046590+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+      "sequence": 0,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Amber M. Paul"
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Columbia, Maryland, United States"
+       }
+      },
+      "id": "bd25f7b809044f26bc50ab6b50c5e8b7",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "7319e654b2284c1d9cce71b7b300b01c"
+     },
+     {
+      "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+      "sequence": 1,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "name": "Linda  Rubinstein"
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Columbia, Maryland, United States"
+       }
+      },
+      "id": "c7061f7975c343e3a7419529932ac327",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 2,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Siddhita D. Mhatre"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "84368af921974ee2ad47fb2ab9809303",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "21cde01c1a6c45ff9b666c98e8801794"
+     },
+     {
+      "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+      "sequence": 3,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Janani Iyer"
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Columbia, Maryland, United States"
+       }
+      },
+      "id": "2c47c7b2002f4fd1a5c2768ece3296dc",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "d4d0fba44a14442b907c4db13b51fcca"
+     },
+     {
+      "organizationId": "8de46bd117735e62b78eb5ba2e082a54",
+      "sequence": 4,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "name": "Kelly Wong"
+       },
+       "organization": {
+        "name": "Blue Marble Space Institute of Science",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "ac64f5507ee74016a0127cd8a547098a",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "bcc2876283414cde99ccf47fc23d5580"
+     },
+     {
+      "organizationId": "8de46bd117735e62b78eb5ba2e082a54",
+      "sequence": 5,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Moniece Lowe"
+       },
+       "organization": {
+        "name": "Blue Marble Space Institute of Science",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "8744ca854cc0499c9e9669f3a4041ad4",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "68b3cc1149bf4f0cbdd3493fe078e65f"
+     },
+     {
+      "organizationId": "8de46bd117735e62b78eb5ba2e082a54",
+      "sequence": 6,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "name": "Metadel Abegaz"
+       },
+       "organization": {
+        "name": "Blue Marble Space Institute of Science",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "67456501ea434a8e93c9c561dcb9a21b",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "8de46bd117735e62b78eb5ba2e082a54",
+      "sequence": 7,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "name": "Nathan O\u2019Neil"
+       },
+       "organization": {
+        "name": "Blue Marble Space Institute of Science",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "1ad1ca974bad44978cbf9de66e97d271",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "d2a3fca1e3605302a9d20a6968ea699f",
+      "sequence": 8,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Candice G. T. Tahimic"
+       },
+       "organization": {
+        "name": "University of North Florida",
+        "location": "Jacksonville, Florida, United States"
+       }
+      },
+      "id": "5f2b97fbc8004cd7aaf237bee940ae70",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "e25e8029fc394142b748b7ff356c9d5b"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 9,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Joshua Alwood"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "b8aa2070a2ab4fc484fe71ba4c2bde6e",
+      "userType": "CIVIL",
+      "userId": "1526df2edece49409879d53ef0be3474"
+     },
+     {
+      "organizationId": "8de46bd117735e62b78eb5ba2e082a54",
+      "sequence": 10,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "name": "Ruth K. Globus"
+       },
+       "organization": {
+        "name": "Blue Marble Space Institute of Science",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "448a720338f6427eb42497b37fdff300",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 11,
+      "submissionId": 20205008828,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "April E. Ronca"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "a27b7046e9454f62a55e623711727b5d",
+      "userType": "CIVIL",
+      "userId": "af313e593678497f946848b32cfc71f9"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "NASA_PEER_COMMITTEE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20205008828,
+    "created": "2020-10-16T15:34:43.9361230+00:00",
+    "center": {
+     "code": "ARC",
+     "name": "Ames Research Center",
+     "id": "4540cd94d24c4bf29f8773a27faf96b2"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "As upcoming exploratory missions to the Lunar surface and Mars during the Artemis Program will send both female and male crewmembers, studies identifying sex-specific effects are necessary. It is well-documented that the immune system engages different responses between females and males following exposures to infectious challenge, tumors surveillance, and autoimmune development. Yet, the immune effects of spaceflight-like exposures between the sexes are limited. Therefore, this study sought to address the effects of spaceflight-like conditions on immune differentials in female and male mice. We hypothesized that the spaceflight factor, ionizing radiation, will have sex-specific effects on immune differentials. To test this, singly-housed, 12-month old female and male wildtype (Wt) mice were exposed to acute ionizing gamma irradiation (50 cGy), followed by retro-orbital blood collections at 7-days post-irradiation. Leukocytes were analyzed by flow cytometry characterizing, granulocytes, monocytes, lymphocytes (cytotoxic/helper T cells and B cells), neutrophils, eosinophils, and NK/NKT cells. Briefly, minimal sex-specific effects were observed across the cell types listed at this time point, including changes in granulocyte and lymphocyte populations. The results revealed females displayed elevated granulocytes and reduced lymphocytes compared to their male counterparts, independent of irradiation exposure. These results suggest female mice may be more capable to produce innate inflammatory mediators but may be adaptively immune compromised. In brief, this study provides insight into the sex-specific immune risks following ionizing radiation that may be experienced during spaceflight, which is relevant for future countermeasure development.      ",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20205008828,
+      "endDate": "2021-02-04T08:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "NASA HRP"
+         }
+        },
+        "meetingId": "4ee696d334964db5b52fcd48c9247398",
+        "id": "74f6db5879fb4e15b11e518eb5e98805"
+       }
+      ],
+      "name": "HRP IWS",
+      "location": "virtual",
+      "id": "4ee696d334964db5b52fcd48c9247398",
+      "startDate": "2021-02-01T08:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "HRP-IWS Abstract-AM Paul 12-10-2020 AERAMP.pdf",
+      "type": "ABSTRACT",
+      "links": {
+       "original": "/api/citations/20205008828/downloads/HRP-IWS%20Abstract-AM%20Paul%2012-10-2020%20AERAMP.pdf",
+       "pdf": "/api/citations/20205008828/downloads/HRP-IWS%20Abstract-AM%20Paul%2012-10-2020%20AERAMP.pdf",
+       "fulltext": "/api/citations/20205008828/downloads/HRP-IWS%20Abstract-AM%20Paul%2012-10-2020%20AERAMP.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 157.92343
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20210000518,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "142761d9a85d4869acd526956f021545",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "keywords": [
+     "spaceflight stressors",
+     "immune dysregulation",
+     "sex-specific"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20210000518,
+     "ear": "NO",
+     "id": "1ba0f5265da0485f8ccdb4cca7d13026",
+     "itar": "NO"
+    },
+    "distributionDate": "2021-02-04T08:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "NASA Human Research Program (HRP) Human Factors Behavioral Performance Element Grant 18-18FLAG_2-0028",
+      "submissionId": 20210000518,
+      "id": "64760d2af8e24a91b99d4d7b31232fd8",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "80NSSC18M0060",
+      "submissionId": 20210000518,
+      "id": "b424f71e217447c68ae8b6d060d52560",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NNH15CO48B",
+      "submissionId": 20210000518,
+      "id": "cc72889785e944b080bf00b0bf2fbdca",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NNA14AB82C",
+      "submissionId": 20210000518,
+      "id": "aa3c142d80a4470ebed0103309bee7a7",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "WP00009",
+      "submissionId": 20210000518,
+      "id": "502776369cfe4dacb93a2110d2d559c2",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Altered Immune Differentials Between Male and Female Mice Independent of Ionizing Irradiation ",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2021-01-15T17:44:28.1784140+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+      "sequence": 0,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Amber M Paul"
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Columbia, Maryland, United States"
+       }
+      },
+      "id": "9422ada8e7e7499184a638c6a2858493",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "7319e654b2284c1d9cce71b7b300b01c"
+     },
+     {
+      "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+      "sequence": 1,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Linda Guttmann"
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Columbia, Maryland, United States"
+       }
+      },
+      "id": "267e06a1109a4c319deb680656a25036",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "0fd1c0de14834dbfa5c683ce5d34f8bf"
+     },
+     {
+      "organizationId": "00a2a0542f9451ffac4b0aa2053787b3",
+      "sequence": 2,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Siddhita D Mhatre"
+       },
+       "organization": {
+        "name": "Wyle (United States)",
+        "location": "El Segundo, California, United States"
+       }
+      },
+      "id": "5f7c5f5ed963499fb25faa78db66c0f6",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "21cde01c1a6c45ff9b666c98e8801794"
+     },
+     {
+      "organizationId": "0be91b7a68665cf882c2ccee8ad03aff",
+      "sequence": 3,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Janani Iyer"
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Columbia, Maryland, United States"
+       }
+      },
+      "id": "f8b42b3ef11a4169b5957152b76fb0f2",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "d4d0fba44a14442b907c4db13b51fcca"
+     },
+     {
+      "organizationId": "8de46bd117735e62b78eb5ba2e082a54",
+      "sequence": 4,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "name": "Kelly Wong"
+       },
+       "organization": {
+        "name": "Blue Marble Space Institute of Science",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "a6626878b7634101b1c652b17f79d4c0",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "bcc2876283414cde99ccf47fc23d5580"
+     },
+     {
+      "organizationId": "8de46bd117735e62b78eb5ba2e082a54",
+      "sequence": 5,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Moniece Lowe"
+       },
+       "organization": {
+        "name": "Blue Marble Space Institute of Science",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "5850c83712ae4e07a118f8b17c372185",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "68b3cc1149bf4f0cbdd3493fe078e65f"
+     },
+     {
+      "organizationId": "8de46bd117735e62b78eb5ba2e082a54",
+      "sequence": 6,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "name": "Metadel Abegaz"
+       },
+       "organization": {
+        "name": "Blue Marble Space Institute of Science",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "8808fa1ea6f94b809621fbfd3694a32c",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "8de46bd117735e62b78eb5ba2e082a54",
+      "sequence": 7,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "name": "Nathan O'Neil"
+       },
+       "organization": {
+        "name": "Blue Marble Space Institute of Science",
+        "location": "Seattle, Washington, United States"
+       }
+      },
+      "id": "4e2dfd465b074726847fc189673854ea",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "d2a3fca1e3605302a9d20a6968ea699f",
+      "sequence": 8,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Candice G T Tahimic"
+       },
+       "organization": {
+        "name": "University of North Florida",
+        "location": "Jacksonville, Florida, United States"
+       }
+      },
+      "id": "f1efba99a125431dad057bf4565cd5f4",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "e25e8029fc394142b748b7ff356c9d5b"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 9,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Josh Alwood"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "3c0450871f9b4d04a910749f83bcdea7",
+      "userType": "CIVIL",
+      "userId": "1526df2edece49409879d53ef0be3474"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 10,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "Ruth K Globus"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "c569502a18df499e8d7ecc058af3f6c4",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "0a62dd40780f40fa8bd74fd2cb7d7dbd"
+     },
+     {
+      "organizationId": "7f9c4cf9cb6f517db6b0fb40eb584c03",
+      "sequence": 11,
+      "submissionId": 20210000518,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "April E Ronca"
+       },
+       "organization": {
+        "name": "Ames Research Center",
+        "location": "Mountain View, California, United States"
+       }
+      },
+      "id": "03859005cfef41c0adc92832647ea464",
+      "userType": "CIVIL",
+      "userId": "af313e593678497f946848b32cfc71f9"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "NASA_PEER_COMMITTEE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20210000518,
+    "created": "2021-01-15T17:35:56.5648300+00:00",
+    "center": {
+     "code": "ARC",
+     "name": "Ames Research Center",
+     "id": "4540cd94d24c4bf29f8773a27faf96b2"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "As upcoming exploratory missions to the Lunar surface and Mars during the Artemis Program will send both female and male crewmembers, studies identifying sex-specific effects are necessary. It is well-documented that the immune system engages different responses between females and males following exposures to infectious challenge, tumors surveillance, and autoimmune development. Yet, the immune effects of spaceflight-like exposures between the sexes are limited. Therefore, this study sought to address the effects of spaceflight-like conditions on immune differentials in female and male mice. We hypothesized that the spaceflight factor, ionizing radiation, will have sex-specific effects on immune differentials. To test this, singly-housed, 12-month old female and male wildtype (Wt) mice were exposed to acute ionizing gamma irradiation (50 cGy), followed by retro-orbital blood collections at 7-days post-irradiation. Leukocytes were analyzed by flow cytometry characterizing, granulocytes, monocytes, lymphocytes (cytotoxic/helper T cells and B cells), neutrophils, eosinophils, and NK/NKT cells. Briefly, minimal sex-specific effects were observed across the cell types listed at this time point, including changes in granulocyte and lymphocyte populations. The results revealed females displayed elevated granulocytes and reduced lymphocytes compared to their male counterparts, independent of irradiation exposure. These results suggest female mice may be more capable to produce innate inflammatory mediators but may be adaptively immune compromised. In brief, this study provides insight into the sex-specific immune risks following ionizing radiation that may be experienced during spaceflight, which is relevant for future countermeasure development.      ",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20210000518,
+     "id": "fdc378c4876444e2a1a396f378bb0b27"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20210000518,
+      "endDate": "2021-02-04T08:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "NASA HRP"
+         }
+        },
+        "meetingId": "3a84c11a164b4bfabb042547e1394c63",
+        "id": "08660c7acd5a4d4eb7fac1d6ccb6a7c4"
+       }
+      ],
+      "name": "Human Research Program-Investigator Workshop",
+      "location": "Virtual",
+      "id": "3a84c11a164b4bfabb042547e1394c63",
+      "url": "https://web.cvent.com/event/ddb36a0a-6937-49ba-8eca-086ce232d767/summary",
+      "startDate": "2021-02-01T08:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "1-HRP-MaleFemaleImmune AM Paul 2021.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20210000518/downloads/1-HRP-MaleFemaleImmune%20AM%20Paul%202021.pdf",
+       "pdf": "/api/citations/20210000518/downloads/1-HRP-MaleFemaleImmune%20AM%20Paul%202021.pdf",
+       "fulltext": "/api/citations/20210000518/downloads/1-HRP-MaleFemaleImmune%20AM%20Paul%202021.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 150.26718
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "MAY_INCLUDE_COPYRIGHT_MATERIAL",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "licenseType": "NO",
+     "submissionId": 20220014866,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "621932f9776f4d24b59814b077831efc",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20220014866,
+     "ear": "NO",
+     "id": "fa37904e763b4a21a760e8c89e34d131",
+     "itar": "NO"
+    },
+    "distributionDate": "2023-02-07T06:00:00.0000000+00:00",
+    "fundingNumbers": [
+     {
+      "number": "609524.07.02.03.02",
+      "submissionId": 20220014866,
+      "id": "8c6a7ff099494e41b809206f5d671952",
+      "type": "WBS"
+     }
+    ],
+    "title": "Spaceflight-induced Changes in Microbial Virulence and the Impact to the Host Immune Response",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2022-09-30T22:35:40.3672490+00:00",
+    "authorAffiliations": [
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 0,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "C M Ott"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "2815c5199828499fa6684f6f081e89c8",
+      "userType": "CIVIL",
+      "userId": "1ddd1e8c429c4bb0adbfbba857a99a0a"
+     },
+     {
+      "organizationId": "a8d96efdc14d5993be210f31e1ff538d",
+      "sequence": 1,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "name": "J Barrila "
+       },
+       "organization": {
+        "name": "Arizona State University",
+        "location": "Tempe, Arizona, United States"
+       }
+      },
+      "id": "601ddb3a06514a6fbca3876b85097a40",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "a8d96efdc14d5993be210f31e1ff538d",
+      "sequence": 2,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "name": "S Koroli"
+       },
+       "organization": {
+        "name": "Arizona State University",
+        "location": "Tempe, Arizona, United States"
+       }
+      },
+      "id": "8259b26c407d48d7916b99bb79f05679",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "a3a2b2b7e81f5aff8cb3b46a75dd7178",
+      "sequence": 3,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "name": "S G Thornhill"
+       },
+       "organization": {
+        "name": "JES Tech (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "fee0f0efdb054f55b75f31696443fabd",
+      "userType": "OTHER",
+      "userId": "9d141664ec1b41f0abb91ccce94bc61d"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 4,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "C Oubre"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "742c6083431e4d84a5983f3f251f4bed",
+      "userType": "CIVIL",
+      "userId": "7aef760de68343cbb04b7fe1daec7877"
+     },
+     {
+      "organizationId": "a8d96efdc14d5993be210f31e1ff538d",
+      "sequence": 5,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "name": "B Y Kang"
+       },
+       "organization": {
+        "name": "Arizona State University",
+        "location": "Tempe, Arizona, United States"
+       }
+      },
+      "id": "709c9dfefc33479e9ad1c1dc4043a983",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "a8d96efdc14d5993be210f31e1ff538d",
+      "sequence": 6,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "name": "C Vu"
+       },
+       "organization": {
+        "name": "Arizona State University",
+        "location": "Tempe, Arizona, United States"
+       }
+      },
+      "id": "8627c6bc65234b9599627cfe1c3e26c0",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "a8d96efdc14d5993be210f31e1ff538d",
+      "sequence": 7,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "name": "R R Davis"
+       },
+       "organization": {
+        "name": "Arizona State University",
+        "location": "Tempe, Arizona, United States"
+       }
+      },
+      "id": "2759c456adec46d69b7a4e926a681f7f",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "30956d12b05c56f99ba04cefabd82400",
+      "sequence": 8,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "A A Medina-Colorado"
+       },
+       "organization": {
+        "name": "KBR (United States)",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "31ce2f0861b7494a8ab4360d5d3e0eaa",
+      "userType": "CONTRACTOR_GRANTEE",
+      "userId": "53e3ce5bd5d4423789c20a197e6ee3aa"
+     },
+     {
+      "organizationId": "a8d96efdc14d5993be210f31e1ff538d",
+      "sequence": 9,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "name": "S Gangaraju"
+       },
+       "organization": {
+        "name": "Arizona State University",
+        "location": "Tempe, Arizona, United States"
+       }
+      },
+      "id": "7c18f32611cf4aee870f1711d2900be7",
+      "userType": "OTHER",
+      "userId": "7c18e9820e07486c8a47505f28ffa989"
+     },
+     {
+      "organizationId": "a8d96efdc14d5993be210f31e1ff538d",
+      "sequence": 10,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "name": "L L Banken"
+       },
+       "organization": {
+        "name": "Arizona State University",
+        "location": "Tempe, Arizona, United States"
+       }
+      },
+      "id": "5804397b91f14301b4460849c9149561",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "a8d96efdc14d5993be210f31e1ff538d",
+      "sequence": 11,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "name": "J Yang"
+       },
+       "organization": {
+        "name": "Arizona State University",
+        "location": "Tempe, Arizona, United States"
+       }
+      },
+      "id": "faba897f821843c6a4da63025da4bd69",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "a8d96efdc14d5993be210f31e1ff538d",
+      "sequence": 12,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "name": "P Stafford"
+       },
+       "organization": {
+        "name": "Arizona State University",
+        "location": "Tempe, Arizona, United States"
+       }
+      },
+      "id": "15dfba4593a64cf5b52a04f91f90edc3",
+      "userType": "OTHER"
+     },
+     {
+      "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+      "sequence": 13,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "orcidId": "",
+        "name": "B E Crucian"
+       },
+       "organization": {
+        "name": "Johnson Space Center",
+        "location": "Houston, Texas, United States"
+       }
+      },
+      "id": "ee50d7fbb70b4449bd9f492d6f9ca675",
+      "userType": "CIVIL",
+      "userId": "2aab60ce325340eea1a3c078acb562e9"
+     },
+     {
+      "organizationId": "a8d96efdc14d5993be210f31e1ff538d",
+      "sequence": 14,
+      "submissionId": 20220014866,
+      "meta": {
+       "author": {
+        "name": "C A Nickerson "
+       },
+       "organization": {
+        "name": "Arizona State University",
+        "location": "Tempe, Arizona, United States"
+       }
+      },
+      "id": "0ea76ae337244dfb8621cd240a1bdbe7",
+      "userType": "OTHER"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20220014866,
+    "created": "2022-09-30T22:25:34.2702690+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "INTRODUCTION\nOver the past 50 years, many microorganisms have displayed unexpected responses relevant to infectious disease when grown in microgravity and microgravity analogue environments, including changes in stress resistance, biofilm production, antibiotic sensitivity, final cell concentration, gene expression, enhanced host-pathogen interaction, and virulence. In parallel, astronaut studies have characterized a persistent spaceflight-induced dysregulation of the human immune system; consisting of altered leukocyte distribution, reductions in T and NK cell function, altered cytokine profiles, and reactivation of latent herpesviruses. Further, astronauts have some degree of clinical incidence, primarily infectious disease episodes and atopic dermatitis. The impact of the microgravity environment on host-pathogen interactions and potential for clinical disease remains understudied and poorly characterized.\nSPECIFIC AIMS\nIn this study, the following Specific Aims are being investigated, using the microbial pathogens, Salmonella enterica Enteritidis, Pseudomonas aeruginosa, Burkholderia cepacia, Streptococcus pneumoniae, and enterohemorrhagic Escherichia coli (EHEC).\nAim 1: Characterize the effect of spaceflight analogue culture on microbial pathogenesis-related stress responses and in vitro host-pathogen interactions. Analyses include microbial stress responses as well as colonization and viability following pathogen challenge of three-dimensional (3-D) tissue co-culture models containing immune cells. We specifically selected obligate and opportunistic pathogens that are medically important and have been or are likely to be found aboard spacecraft.\nAim 2: Characterize the effect of spaceflight analogue culture on the virulence potential of pathogenic microorganisms. Virulence will be assessed using a mouse model of infection.\nSIGNIFICANCE\nThe goal of this study is to use spaceflight analogue conditions to gain insight into the breadth of medically-significant International Space Station microorganisms that have altered virulence and the impact of those changes on the immune response of the host. This information will provide critical understanding into the impact of microgravity on potential alterations in microbial virulence and associated infectious disease risk to crew health during spaceflight missions.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "cui": {
+     "isCui": false,
+     "submissionId": 20220014866,
+     "id": "e45f30f5a5ba401b954b708f7c35444d"
+    },
+    "meetings": [
+     {
+      "country": "US",
+      "submissionId": 20220014866,
+      "endDate": "2023-02-09T06:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "e53641f275f15469a1b19a8980e09171",
+        "meta": {
+         "organization": {
+          "name": "National Aeronautics and Space Administration",
+          "location": "Washington D.C., District of Columbia, United States"
+         }
+        },
+        "meetingId": "08525fe13113481ab65b15df7be22ede",
+        "id": "34f9fe11f02c42d186beaf711ed5cbcd"
+       }
+      ],
+      "name": "NASA's 2023 Human Research Program Investigator\u2019s Workshop ",
+      "location": "Galveston, TX",
+      "id": "08525fe13113481ab65b15df7be22ede",
+      "startDate": "2023-02-07T06:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20230000766,
+      "type": "SEE_ALSO",
+      "title": "Spaceflight-Induced Changes in Microbial Virulence and the Impact to the Host Immune Response",
+      "stiType": "PRESENTATION",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "HRP IWS Microbial Response Abstract 2023 Final.pdf",
+      "type": "ABSTRACT",
+      "links": {
+       "original": "/api/citations/20220014866/downloads/HRP%20IWS%20Microbial%20Response%20Abstract%202023%20Final.pdf",
+       "pdf": "/api/citations/20220014866/downloads/HRP%20IWS%20Microbial%20Response%20Abstract%202023%20Final.pdf",
+       "fulltext": "/api/citations/20220014866/downloads/HRP%20IWS%20Microbial%20Response%20Abstract%202023%20Final.pdf.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": false,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 149.77094
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20110008227,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "d417089f01ab4857adbd134f76364e68",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20110008227,
+     "ear": "NO",
+     "id": "82e2991c4c434f07aa93bd85be0460e3",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-23143",
+     "Report Number: JSC-CN-23143"
+    ],
+    "title": "Immune System Dysregulation and Herpesvirus Reactivation Persist During Long-Duration Spaceflight",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-25T09:05:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20110008227,
+      "meta": {
+       "author": {
+        "name": "Crucian, B. E."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "bd22672f6328433daadbac3f091a6f5f"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20110008227,
+      "meta": {
+       "author": {
+        "name": "Mehta, S."
+       },
+       "organization": {
+        "name": "Enterprise Advisory Services, Inc.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "daf7c86033d746d097461717a7d9e518"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20110008227,
+      "meta": {
+       "author": {
+        "name": "Stowe, R. P."
+       },
+       "organization": {}
+      },
+      "id": "b0bea232e922455881b6dc25cca68273"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20110008227,
+      "meta": {
+       "author": {
+        "name": "Uchakin, P."
+       },
+       "organization": {
+        "name": "Mercer Univ.",
+        "location": "Macon, GA, United States"
+       }
+      },
+      "id": "2379923f883d4571bd4ea93b8762cc41"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20110008227,
+      "meta": {
+       "author": {
+        "name": "Quiriarte, H."
+       },
+       "organization": {
+        "name": "JES Tech",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "0dca79fa3b314afebe79a83e1be062e0"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20110008227,
+      "meta": {
+       "author": {
+        "name": "Pierson, D."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "49f1f1a909a549d08d9eb57e4b250f44"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20110008227,
+      "meta": {
+       "author": {
+        "name": "Sams, C. F."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "918d835ed6b9454a8c74b9c7a0cbd001"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20110008227,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-25T09:05:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "This poster presentation reviews a study that is designed to address immune system dysregulation and the risk to crewmembers in long duration exploration class missions. This study will address these objectives: (1) Determine the status of adaptive immunity physiological stress, viral immunity, latent herpesvirus reactivation in astronauts during 6 month missions to the International Space Station; (2) determine the clinical risk related to immune dysregulation for exploration class spaceflight; and (3) determine an appropriate monitoring strategy for spaceflight-associated immune dysfunction that could be used for the evaluation of countermeasures. The study anticipates 17 subjects, and for this presentation, (midpoint study data) 10 subjects are reviewed.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20110008227,
+      "name": "International Academy of Astronautics",
+      "location": "Paris, France",
+      "id": "d23686ed162f4cf7bdd4c7d25b4f7980"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20110008227,
+      "endDate": "2011-04-15T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "International Academy of Astronautics",
+          "location": "Paris, France"
+         }
+        },
+        "meetingId": "67112190ef5d4b6d9a882c7730e63a3e",
+        "id": "ff21ef428abe49d1b4e93a3145c4931d"
+       }
+      ],
+      "name": "18th IAA Humans in Space Symposium",
+      "location": "Houston, TX",
+      "id": "67112190ef5d4b6d9a882c7730e63a3e",
+      "startDate": "2011-04-11T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20110008227,
+      "id": "908fca859d59469ba28dbad3ca2f4d2c",
+      "publicationDate": "2011-04-11T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20110008227.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20110008227/downloads/20110008227.pdf",
+       "pdf": "/api/citations/20110008227/downloads/20110008227.pdf",
+       "fulltext": "/api/citations/20110008227/downloads/20110008227.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 149.61005
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20180007263,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "ae4022b831654ac2990197b457104956",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "eccnNumber": "",
+     "submissionId": 20180007263,
+     "ear": "NO",
+     "id": "41dc8948237a4769bf6b5831e9e5dce5",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-08-12T19:55:16.1600000+00:00",
+    "otherReportNumbers": [
+     "ARC-E-DAA-TN12039",
+     "Report Number: ARC-E-DAA-TN12039"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NNX10AI34A",
+      "submissionId": 20180007263,
+      "id": "3d99accb379d4a4aaffff13d98585586",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NAS2-02090",
+      "submissionId": 20180007263,
+      "id": "8b068d9dcf6442b2a03f8df20b3fdf9f",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Innate Immune Responses of Drosophila Melanogaster are Altered by Spaceflight",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2018-10-30T16:43:22.3400000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20180007263,
+      "meta": {
+       "author": {
+        "name": "Marcu, Oana"
+       },
+       "organization": {
+        "name": "Search for Extraterrestrial Intelligence Inst.",
+        "location": "Mountain View, CA, United States"
+       }
+      },
+      "id": "13fa71c63a7b4036a72caea727f62f6b"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20180007263,
+      "meta": {
+       "author": {
+        "name": "Lera, Matthew P."
+       },
+       "organization": {
+        "name": "Lockheed Martin Missiles and Space",
+        "location": "Moffett Field, CA, United States"
+       }
+      },
+      "id": "8ad4612fdb2c43a99ba21f39e67a3a55"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20180007263,
+      "meta": {
+       "author": {
+        "name": "Sanchez, Max E."
+       },
+       "organization": {
+        "name": "Lockheed Martin Missiles and Space",
+        "location": "Moffett Field, CA, United States"
+       }
+      },
+      "id": "484be4ce8dc84853987766c88828f4b7"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20180007263,
+      "meta": {
+       "author": {
+        "name": "Levic, Edina"
+       },
+       "organization": {
+        "name": "NASA Ames Research Center",
+        "location": "Moffett Field, CA, United States"
+       }
+      },
+      "id": "b688def6aa314ae7b1a1974a47785fdf"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20180007263,
+      "meta": {
+       "author": {
+        "name": "Higgins, Laura A."
+       },
+       "organization": {
+        "name": "NASA Ames Research Center",
+        "location": "Moffett Field, CA, United States"
+       }
+      },
+      "id": "32ae175c8c4a4ee483433d8532aab3d3"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20180007263,
+      "meta": {
+       "author": {
+        "name": "Shmygelska, Alena"
+       },
+       "organization": {
+        "name": "Carnegie-Mellon Univ.",
+        "location": "Moffett Field, CA, United States"
+       }
+      },
+      "id": "c358001f293748f78a96f988ade56051"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20180007263,
+      "meta": {
+       "author": {
+        "name": "Fahlen, Thomas F."
+       },
+       "organization": {
+        "name": "Lockheed Martin Missiles and Space",
+        "location": "Moffett Field, CA, United States"
+       }
+      },
+      "id": "ee38d0dd359b47dc87231aec676fa997"
+     },
+     {
+      "sequence": 7,
+      "submissionId": 20180007263,
+      "meta": {
+       "author": {
+        "name": "Nichol, Helen"
+       },
+       "organization": {
+        "name": "Saskatchewan Univ.",
+        "location": "Saskatoon, Saskatchewan, Canada"
+       }
+      },
+      "id": "1ef4991dab864021b93fc80939ec7eff"
+     },
+     {
+      "sequence": 8,
+      "submissionId": 20180007263,
+      "meta": {
+       "author": {
+        "name": "Bhattacharya, Sharmila"
+       },
+       "organization": {
+        "name": "NASA Ames Research Center",
+        "location": "Moffett Field, CA, United States"
+       }
+      },
+      "id": "3dfcec382a6f42e993caca17d5d7a3aa"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20180007263,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2018-10-30T16:43:22.3400000+00:00",
+    "center": {
+     "code": "ARC",
+     "name": "Ames Research Center",
+     "id": "4540cd94d24c4bf29f8773a27faf96b2"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "Alterations and impairment of immune responses in humans present a health risk for space exploration missions. The molecular mechanisms under pinning innate immune defense can be confounded by the complexity of the acquired immune system of humans. Drosophila (fruit fly) innate immunity is simpler, and shares many similarities with human innate immunity at the level of molecular and genetic pathways. The goals of this study were to elucidate fundamental immune processes in Drosophila affected by spaceflight and to measure host-pathogen responses post-flight. Five containers, each containing ten female and five male fruit flies, were housed and bred on the space shuttle (average orbit altitude of330.35 km) for 12 days and 18.5 hours. A new generation of flies was reared in microgravity. In larvae, the immune system was examined by analyzing plasmatocyte number and activity in culture. In adults, the induced immune responses were analyzed by bacterial clearance and quantitative real-time polymerase chain reaction (qPCR) of selected genes following infection with E. coli. The RNA levels of relevant immune pathway genes were determined in both larvae and adults by microarray analysis. The ability of larval plasmatocytes to phagocytose E. coli in culture was attenuated following spaceflight, and in parallel, the expression of genes involved in cell maturation was down regulated. In addition, the level of constitutive expression of pattern recognition receptors and opsonins that specifically recognize bacteria, and of lysozymes, antimicrobial peptide (AMP) pathway and immune stress genes, hallmarks of humoral immunity, were also reduced in larvae. In adults, the efficiency of bacterial clearance measured in vivo following a systemic infection with E. coli post-flight, remained robust. We show that spaceflight altered both cellular and humoral immune responses in Drosophila and that the disruption occurs at multiple interacting pathways.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20180007263,
+      "endDate": "2014-02-13T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "0bba4b66c88d4f6b9af09a68495f6606",
+        "meta": {
+         "organization": {
+          "name": "NASA Headquarters",
+          "location": "Washington, DC, United States"
+         }
+        },
+        "meetingId": "ed97837929414b3fbd11a407c40f39e3",
+        "id": "bac0f34abbe44c85b2a47f20406fba6d"
+       }
+      ],
+      "name": "NASA Human Research Program Investigators'' Workshop (HRP 2014)",
+      "location": "Glaveston, TX",
+      "id": "ed97837929414b3fbd11a407c40f39e3",
+      "startDate": "2014-02-12T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20180007263,
+      "id": "725bd51ddc824f938812e1b065bd22bc",
+      "publicationDate": "2014-02-13T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20180007263.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20180007263/downloads/20180007263.pdf",
+       "pdf": "/api/citations/20180007263/downloads/20180007263.pdf",
+       "fulltext": "/api/citations/20180007263/downloads/20180007263.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   },
+   {
+    "_meta": {
+     "score": 148.98761
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20190001034,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "74664011f9a945d0a72d5607833f445c",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "eccnNumber": "",
+     "submissionId": 20190001034,
+     "ear": "NO",
+     "id": "0139b967ba664c2da00a1a60bb38d11b",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-18T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-E-DAA-TN64744",
+     "Report Number: JSC-E-DAA-TN64744"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20190001034,
+      "id": "47279291e62b4da58e67f28ea50cefd2",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Update: Antarctic Winterover as an Analog for Spaceflight Immune Dysregulation",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2019-02-27T16:32:05.7830000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20190001034,
+      "meta": {
+       "author": {
+        "name": "Makedonas, George"
+       },
+       "organization": {
+        "name": "JES Tech",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "84b6b6f86ff04a46a08a9530ef82637d"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20190001034,
+      "meta": {
+       "author": {
+        "name": "Mehta, Satish K."
+       },
+       "organization": {
+        "name": "JES Tech",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "ce420c04c311462bb6706ed8000244cb"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20190001034,
+      "meta": {
+       "author": {
+        "name": "Krieger, Stephanie S."
+       },
+       "organization": {
+        "name": "Wyle Labs., Inc.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "a4cbcb8bf1cc4abd897f34f7b7f803cd"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20190001034,
+      "meta": {
+       "author": {
+        "name": "Chouker, Alexander"
+       },
+       "organization": {
+        "name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+        "location": "Munich, Germany"
+       }
+      },
+      "id": "a0f21bd09f3944a98575b7297af6863c"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20190001034,
+      "meta": {
+       "author": {
+        "name": "Basner, Mathias"
+       },
+       "organization": {
+        "name": "Pennsylvania Univ.",
+        "location": "Philadelphia, PA, United States"
+       }
+      },
+      "id": "71a9156ea11041af92bbecb6db0856c6"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20190001034,
+      "meta": {
+       "author": {
+        "name": "Stahn, Alexnder"
+       },
+       "organization": {
+        "name": "Charite-Universitaetsmedizin",
+        "location": "Berlin, Germany"
+       }
+      },
+      "id": "99365fcec0054bb6a0c5ee9ed5e9c561"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20190001034,
+      "meta": {
+       "author": {
+        "name": "Pierson, Duane L."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "970d51c78a9b49e0ae63d5140d8175a0"
+     },
+     {
+      "sequence": 7,
+      "submissionId": 20190001034,
+      "meta": {
+       "author": {
+        "name": "Crucian, Brian E."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "d3dd9665961a41ca985fc6fca05f7481"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20190001034,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2019-02-27T16:32:05.7830000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Orbital spaceflight perturbs the human immune system significantly; Natural Killer (NK) and T-lymphocyte (T) cell functions are most susceptible to spaceflight-induced impairment. This loss of function may manifest in persistent latent virus reactivation (CMV, EBV, VZV), which does occur at a higher frequency in astronauts compared to earthlings.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20190001034,
+      "name": "NASA Johnson Space Center",
+      "location": "Houston, TX, United States",
+      "id": "6bde5d5534a84dad8052fe0e1e68b410"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20190001034,
+      "endDate": "2019-01-25T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "NASA Johnson Space Center",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "d5af3acb48bc4edf964dbadc8cb44b49",
+        "id": "90f3d4a8b171434e8814671988ec0ce3"
+       }
+      ],
+      "name": "NASA Human Research Program Investigators\u00fd Workshop 2019",
+      "location": "Galveston, TX",
+      "id": "d5af3acb48bc4edf964dbadc8cb44b49",
+      "startDate": "2019-01-22T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20190001034,
+      "id": "cbdfb4993f4943ea8773b49169255bf9",
+      "publicationDate": "2019-01-22T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20190001034.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20190001034/downloads/20190001034.pdf",
+       "pdf": "/api/citations/20190001034/downloads/20190001034.pdf",
+       "fulltext": "/api/citations/20190001034/downloads/20190001034.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-01-04-12"
+   }
+  ],
+  "aggregations": {
+   "created": {
+    "buckets": [
+     {
+      "key_as_string": "2013",
+      "key": 1356998400000,
+      "doc_count": 114
+     },
+     {
+      "key_as_string": "2022",
+      "key": 1640995200000,
+      "doc_count": 22
+     },
+     {
+      "key_as_string": "2019",
+      "key": 1546300800000,
+      "doc_count": 19
+     },
+     {
+      "key_as_string": "2021",
+      "key": 1609459200000,
+      "doc_count": 19
+     },
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 13
+     },
+     {
+      "key_as_string": "2023",
+      "key": 1672531200000,
+      "doc_count": 11
+     },
+     {
+      "key_as_string": "2024",
+      "key": 1704067200000,
+      "doc_count": 11
+     },
+     {
+      "key_as_string": "2015",
+      "key": 1420070400000,
+      "doc_count": 10
+     },
+     {
+      "key_as_string": "2020",
+      "key": 1577836800000,
+      "doc_count": 9
+     },
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 8
+     },
+     {
+      "key_as_string": "2018",
+      "key": 1514764800000,
+      "doc_count": 7
+     },
+     {
+      "key_as_string": "2016",
+      "key": 1451606400000,
+      "doc_count": 6
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 4
+     }
+    ]
+   },
+   "author": {
+    "doc_count_error_upper_bound": 7,
+    "sum_other_doc_count": 1363,
+    "buckets": [
+     {
+      "key": "Brian Crucian",
+      "doc_count": 22
+     },
+     {
+      "key": "Crucian, Brian",
+      "doc_count": 22
+     },
+     {
+      "key": "Stephanie Krieger",
+      "doc_count": 16
+     },
+     {
+      "key": "Pierson, Duane",
+      "doc_count": 14
+     },
+     {
+      "key": "Sams, Clarence",
+      "doc_count": 14
+     },
+     {
+      "key": "Bhattacharya, Sharmila",
+      "doc_count": 13
+     },
+     {
+      "key": "Stowe, Raymond",
+      "doc_count": 12
+     },
+     {
+      "key": "Mehta, Satish",
+      "doc_count": 11
+     },
+     {
+      "key": "Satish Mehta",
+      "doc_count": 11
+     },
+     {
+      "key": "Sonnenfeld, Gerald",
+      "doc_count": 10
+     },
+     {
+      "key": "Mayra Nelman-Gonzalez",
+      "doc_count": 9
+     },
+     {
+      "key": "Pierson, D. L.",
+      "doc_count": 8
+     },
+     {
+      "key": "Pierson, Duane L.",
+      "doc_count": 8
+     },
+     {
+      "key": "Ott, C. M.",
+      "doc_count": 7
+     },
+     {
+      "key": "Quiriarte, Heather",
+      "doc_count": 7
+     },
+     {
+      "key": "Sams, C. F.",
+      "doc_count": 7
+     },
+     {
+      "key": "Sams, Clarence F.",
+      "doc_count": 7
+     },
+     {
+      "key": "Afshin Beheshti",
+      "doc_count": 6
+     },
+     {
+      "key": "Alexander Chouker",
+      "doc_count": 6
+     },
+     {
+      "key": "Crucian, B. E.",
+      "doc_count": 6
+     }
+    ]
+   },
+   "reportNumber": {
+    "doc_count_error_upper_bound": 4,
+    "sum_other_doc_count": 248,
+    "buckets": [
+     {
+      "key": "ISSN: 0741-5400",
+      "doc_count": 6
+     },
+     {
+      "key": "ISSN: 8750-7587",
+      "doc_count": 5
+     },
+     {
+      "key": "ISSN: 0095-6562",
+      "doc_count": 4
+     },
+     {
+      "key": "ISSN: 0091-6749",
+      "doc_count": 2
+     },
+     {
+      "key": "ISSN: 1077-9248",
+      "doc_count": 2
+     },
+     {
+      "key": "AIAA PAPER 85-6092",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN12039",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN13412",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN25151",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN27791",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN31697",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN35487",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN3549",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN36470",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN38902",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN43739",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN43907",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN43922",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN43925",
+      "doc_count": 1
+     },
+     {
+      "key": "ARC-E-DAA-TN44719",
+      "doc_count": 1
+     }
+    ]
+   },
+   "center": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "JSC",
+      "doc_count": 128
+     },
+     {
+      "key": "ARC",
+      "doc_count": 82
+     },
+     {
+      "key": "CDMS",
+      "doc_count": 37
+     },
+     {
+      "key": "GSFC",
+      "doc_count": 4
+     },
+     {
+      "key": "KSC",
+      "doc_count": 2
+     },
+     {
+      "key": "GRC",
+      "doc_count": 1
+     },
+     {
+      "key": "JPL",
+      "doc_count": 1
+     },
+     {
+      "key": "LaRC",
+      "doc_count": 1
+     }
+    ]
+   },
+   "index": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "submissions-2026-10-01-04-12",
+      "doc_count": 256
+     },
+     {
+      "key": "chorus-2026-10-03-05-58",
+      "doc_count": 2
+     }
+    ]
+   },
+   "fundingNumber": {
+    "doc_count_error_upper_bound": 1,
+    "sum_other_doc_count": 121,
+    "buckets": [
+     {
+      "key": "NNA14AB82C",
+      "doc_count": 28
+     },
+     {
+      "key": "NNJ15HK11B",
+      "doc_count": 20
+     },
+     {
+      "key": "609524.07.02.03.02",
+      "doc_count": 15
+     },
+     {
+      "key": "NNH15CO48B",
+      "doc_count": 14
+     },
+     {
+      "key": "80NSSC18M0060",
+      "doc_count": 10
+     },
+     {
+      "key": "NNA16BD14C",
+      "doc_count": 8
+     },
+     {
+      "key": "012556.01.04.10",
+      "doc_count": 4
+     },
+     {
+      "key": "516724.01.04.10",
+      "doc_count": 3
+     },
+     {
+      "key": "80JSC019N0001",
+      "doc_count": 3
+     },
+     {
+      "key": "80NSSC19K0883",
+      "doc_count": 3
+     },
+     {
+      "key": "NAG2-614",
+      "doc_count": 3
+     },
+     {
+      "key": "NNX15AG98A",
+      "doc_count": 3
+     },
+     {
+      "key": "NNX16AO69A",
+      "doc_count": 3
+     },
+     {
+      "key": "533001.07.02.01.02.02.02",
+      "doc_count": 2
+     },
+     {
+      "key": "80JSC018N0001",
+      "doc_count": 2
+     },
+     {
+      "key": "80JSC025D0068",
+      "doc_count": 2
+     },
+     {
+      "key": "BELPSO/PRODEX/ESA C90-380",
+      "doc_count": 2
+     },
+     {
+      "key": "BELPSO/PRODEX/ESA C90-391",
+      "doc_count": 2
+     },
+     {
+      "key": "NAG2-1086",
+      "doc_count": 2
+     },
+     {
+      "key": "NAG2-933",
+      "doc_count": 2
+     }
+    ]
+   },
+   "published": {
+    "buckets": [
+     {
+      "key_as_string": "2010",
+      "key": 1262304000000,
+      "doc_count": 12
+     },
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 11
+     },
+     {
+      "key_as_string": "2015",
+      "key": 1420070400000,
+      "doc_count": 11
+     },
+     {
+      "key_as_string": "2019",
+      "key": 1546300800000,
+      "doc_count": 11
+     },
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 10
+     },
+     {
+      "key_as_string": "2011",
+      "key": 1293840000000,
+      "doc_count": 9
+     },
+     {
+      "key_as_string": "2018",
+      "key": 1514764800000,
+      "doc_count": 9
+     },
+     {
+      "key_as_string": "1999",
+      "key": 915148800000,
+      "doc_count": 8
+     },
+     {
+      "key_as_string": "2016",
+      "key": 1451606400000,
+      "doc_count": 8
+     },
+     {
+      "key_as_string": "1993",
+      "key": 725846400000,
+      "doc_count": 7
+     },
+     {
+      "key_as_string": "1994",
+      "key": 757382400000,
+      "doc_count": 7
+     },
+     {
+      "key_as_string": "1996",
+      "key": 820454400000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2006",
+      "key": 1136073600000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2007",
+      "key": 1167609600000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2012",
+      "key": 1325376000000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2013",
+      "key": 1356998400000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "1990",
+      "key": 631152000000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "1995",
+      "key": 788918400000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "1997",
+      "key": 852076800000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2000",
+      "key": 946684800000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2001",
+      "key": 978307200000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2009",
+      "key": 1230768000000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2022",
+      "key": 1640995200000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2023",
+      "key": 1672531200000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "1989",
+      "key": 599616000000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "1991",
+      "key": 662688000000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "1992",
+      "key": 694224000000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2003",
+      "key": 1041379200000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2005",
+      "key": 1104537600000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2008",
+      "key": 1199145600000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2024",
+      "key": 1704067200000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2004",
+      "key": 1072915200000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2021",
+      "key": 1609459200000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "1972",
+      "key": 63072000000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "1983",
+      "key": 410227200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "1985",
+      "key": 473385600000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "1987",
+      "key": 536457600000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "1998",
+      "key": 883612800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2002",
+      "key": 1009843200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2020",
+      "key": 1577836800000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "distribution": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "PUBLIC",
+      "doc_count": 258
+     }
+    ]
+   },
+   "stiType": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "PRESENTATION",
+      "doc_count": 60
+     },
+     {
+      "key": "ABSTRACT",
+      "doc_count": 48
+     },
+     {
+      "key": "CONFERENCE_PAPER",
+      "doc_count": 41
+     },
+     {
+      "key": "REPRINT",
+      "doc_count": 37
+     },
+     {
+      "key": "POSTER",
+      "doc_count": 23
+     },
+     {
+      "key": "OTHER",
+      "doc_count": 18
+     },
+     {
+      "key": "PREPRINT",
+      "doc_count": 14
+     },
+     {
+      "key": "CONTRACTOR_REPORT",
+      "doc_count": 8
+     },
+     {
+      "key": "ACCEPTED_MANUSCRIPT",
+      "doc_count": 3
+     },
+     {
+      "key": "EXTENDED_ABSTRACT",
+      "doc_count": 2
+     },
+     {
+      "key": "BOOK",
+      "doc_count": 1
+     },
+     {
+      "key": "CONFERENCE_PROCEEDINGS",
+      "doc_count": 1
+     },
+     {
+      "key": "TECHNICAL_PUBLICATION",
+      "doc_count": 1
+     },
+     {
+      "key": "WHITE_PAPER",
+      "doc_count": 1
+     }
+    ]
+   },
+   "subjectCategory": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Aerospace Medicine",
+      "doc_count": 138
+     },
+     {
+      "key": "Life Sciences (General)",
+      "doc_count": 108
+     },
+     {
+      "key": "Man/System Technology And Life Support",
+      "doc_count": 10
+     },
+     {
+      "key": "Space Radiation",
+      "doc_count": 10
+     },
+     {
+      "key": "Space Sciences (General)",
+      "doc_count": 5
+     },
+     {
+      "key": "Exobiology",
+      "doc_count": 4
+     },
+     {
+      "key": "Behavioral Sciences",
+      "doc_count": 3
+     },
+     {
+      "key": "Biosciences",
+      "doc_count": 1
+     },
+     {
+      "key": "Cybernetics, Artificial Intelligence and Robotics",
+      "doc_count": 1
+     },
+     {
+      "key": "Lunar And Planetary Science And Exploration",
+      "doc_count": 1
+     },
+     {
+      "key": "Lunar and Planetary Science and Exploration",
+      "doc_count": 1
+     },
+     {
+      "key": "Space Transportation And Safety",
+      "doc_count": 1
+     },
+     {
+      "key": "Structural Mechanics",
+      "doc_count": 1
+     }
+    ]
+   },
+   "disseminated": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "DOCUMENT_AND_METADATA",
+      "doc_count": 186
+     },
+     {
+      "key": "METADATA_ONLY",
+      "doc_count": 72
+     }
+    ]
+   },
+   "stiTypeDetails": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Presentation",
+      "doc_count": 60
+     },
+     {
+      "key": "Abstract",
+      "doc_count": 48
+     },
+     {
+      "key": "Conference Paper",
+      "doc_count": 41
+     },
+     {
+      "key": "Reprint (Version printed in journal)",
+      "doc_count": 35
+     },
+     {
+      "key": "Poster",
+      "doc_count": 23
+     },
+     {
+      "key": "Other",
+      "doc_count": 15
+     },
+     {
+      "key": "Preprint (Draft being sent to journal)",
+      "doc_count": 14
+     },
+     {
+      "key": "Contractor Report (CR)",
+      "doc_count": 8
+     },
+     {
+      "key": "Accepted Manuscript (Version with final changes)",
+      "doc_count": 3
+     },
+     {
+      "key": "Extended Abstract",
+      "doc_count": 2
+     },
+     {
+      "key": "Version of Record",
+      "doc_count": 2
+     },
+     {
+      "key": "Book",
+      "doc_count": 1
+     },
+     {
+      "key": "Conference Proceedings",
+      "doc_count": 1
+     },
+     {
+      "key": "Other - Abstract ASGSR 2024",
+      "doc_count": 1
+     },
+     {
+      "key": "Other - Collected Works",
+      "doc_count": 1
+     },
+     {
+      "key": "Other - Journal Issue",
+      "doc_count": 1
+     },
+     {
+      "key": "Technical Publication (TP)",
+      "doc_count": 1
+     },
+     {
+      "key": "White Paper",
+      "doc_count": 1
+     }
+    ]
+   },
+   "organization": {
+    "doc_count_error_upper_bound": 5,
+    "sum_other_doc_count": 327,
+    "buckets": [
+     {
+      "key": "NASA Johnson Space Center",
+      "doc_count": 89
+     },
+     {
+      "key": "Johnson Space Center",
+      "doc_count": 44
+     },
+     {
+      "key": "NASA Ames Research Center",
+      "doc_count": 42
+     },
+     {
+      "key": "KBR (United States)",
+      "doc_count": 32
+     },
+     {
+      "key": "Universities Space Research Association",
+      "doc_count": 32
+     },
+     {
+      "key": "Wyle Labs., Inc.",
+      "doc_count": 32
+     },
+     {
+      "key": "Wyle (United States)",
+      "doc_count": 26
+     },
+     {
+      "key": "Ames Research Center",
+      "doc_count": 24
+     },
+     {
+      "key": "Blue Marble Space Institute of Science",
+      "doc_count": 15
+     },
+     {
+      "key": "JES Tech (United States)",
+      "doc_count": 14
+     },
+     {
+      "key": "Universities Space Research Association (USRA)",
+      "doc_count": 14
+     },
+     {
+      "key": "JES Tech",
+      "doc_count": 13
+     },
+     {
+      "key": "Enterprise Advisory Services, Inc.",
+      "doc_count": 12
+     },
+     {
+      "key": "Arizona State University",
+      "doc_count": 11
+     },
+     {
+      "key": "Blue Marble Space",
+      "doc_count": 11
+     },
+     {
+      "key": "Microgen, LLC",
+      "doc_count": 11
+     },
+     {
+      "key": "Institute of Biomedical Problems",
+      "doc_count": 10
+     },
+     {
+      "key": "The University of Texas Medical Branch at Galveston",
+      "doc_count": 10
+     },
+     {
+      "key": "University of North Florida",
+      "doc_count": 9
+     },
+     {
+      "key": "Texas Univ.",
+      "doc_count": 8
+     }
+    ]
+   },
+   "modified": {
+    "buckets": [
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 252
+     },
+     {
+      "key_as_string": "2026",
+      "key": 1767225600000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2024",
+      "key": 1704067200000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "keyword": {
+    "doc_count_error_upper_bound": 5,
+    "sum_other_doc_count": 411,
+    "buckets": [
+     {
+      "key": "Non-NASA Center",
+      "doc_count": 17
+     },
+     {
+      "key": "Flight Experiment",
+      "doc_count": 13
+     },
+     {
+      "key": "Human",
+      "doc_count": 13
+     },
+     {
+      "key": "NASA Discipline Regulatory Physiology",
+      "doc_count": 13
+     },
+     {
+      "key": "Space Flight",
+      "doc_count": 13
+     },
+     {
+      "key": "Animals",
+      "doc_count": 12
+     },
+     {
+      "key": "Support, U.S. Gov't, Non-P.H.S",
+      "doc_count": 12
+     },
+     {
+      "key": "manned",
+      "doc_count": 10
+     },
+     {
+      "key": "short duration",
+      "doc_count": 10
+     },
+     {
+      "key": "Mice",
+      "doc_count": 8
+     },
+     {
+      "key": "NASA Center JSC",
+      "doc_count": 8
+     },
+     {
+      "key": "Microgravity",
+      "doc_count": 7
+     },
+     {
+      "key": "NASA Discipline Number 18-10",
+      "doc_count": 7
+     },
+     {
+      "key": "GeneLab",
+      "doc_count": 6
+     },
+     {
+      "key": "STS Shuttle Project",
+      "doc_count": 6
+     },
+     {
+      "key": "Immune System/physiology",
+      "doc_count": 5
+     },
+     {
+      "key": "NASA Program Space Physiology and Countermeasures",
+      "doc_count": 5
+     },
+     {
+      "key": "Apollo Project",
+      "doc_count": 4
+     },
+     {
+      "key": "Male",
+      "doc_count": 4
+     },
+     {
+      "key": "NASA Discipline Number 00-00",
+      "doc_count": 4
+     }
+    ]
+   }
+  }
+ }
+}

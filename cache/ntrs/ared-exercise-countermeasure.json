@@ -1,0 +1,2747 @@
+{
+ "source_url": "https://ntrs.nasa.gov/api/citations/search?q=ARED+exercise+countermeasure",
+ "fetched_at": "2026-10-10T06:09:48+00:00",
+ "data": {
+  "stats": {
+   "took": 61,
+   "total": 23,
+   "estimate": false,
+   "maxScore": 238.56828
+  },
+  "results": [
+   {
+    "_meta": {
+     "score": 238.56828
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20140012615,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "f285990edb4d4c319896cf68a4f2e7ef",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine",
+     "Man/System Technology And Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20140012615,
+     "ear": "NO",
+     "id": "031eea5a867a4ca9be653c3f12555f55",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-30537",
+     "Report Number: JSC-CN-30537"
+    ],
+    "title": "Portable Load Measurement Device for Use During ARED Exercise on ISS",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2014-09-26T05:56:10.4870000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20140012615,
+      "meta": {
+       "author": {
+        "name": "Hanson, A."
+       },
+       "organization": {
+        "name": "Wyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "59d8bfda333e40f8b193efe7321b9e3c"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20140012615,
+      "meta": {
+       "author": {
+        "name": "Peters, B."
+       },
+       "organization": {
+        "name": "Wyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "ab2582dc5424426daa8d7f8afe9721f8"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20140012615,
+      "meta": {
+       "author": {
+        "name": "Caldwell, E."
+       },
+       "organization": {
+        "name": "Wyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "a14c4163ae484bc5bccd556593faad47"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20140012615,
+      "meta": {
+       "author": {
+        "name": "Sinka, J."
+       },
+       "organization": {
+        "name": "Wyle Science, Technology and Engineering",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "5750ea843e2e4aa4a6a2e67fad6660ab"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20140012615,
+      "meta": {
+       "author": {
+        "name": "Kreutzburg, G."
+       },
+       "organization": {
+        "name": "National Space Biomedical Research Inst.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "b489876d48bb451e9e6e16ba0c0fb51e"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20140012615,
+      "meta": {
+       "author": {
+        "name": "Ploutz-Snyder, L."
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "283f226363304a96a697a7f65b45876c"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20140012615,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2014-09-26T05:56:10.4870000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "The Advanced Resistive Exercise Device (ARED) (Fig.1) is unique countermeasure hardware available to crewmembers aboard the International Space Station (ISS) used for resistance exercise training to protect against bone and muscle loss during long duration space missions. ARED instrumentation system was designed to measure and record exercise load data, but: - Reliably accurate data has not been available due to a defective force platform. - No ARED data has been recorded since mid-2011 due to failures in the instrumentation power system. ARED load data supports on-going HRP funded research, and is available to extramural researchers through LSDA-Repository. Astronaut Strength, Conditioning, and Rehabilitation specialists (ASCRs) use ARED data to track training progress and advance exercise prescriptions. ARED load data is necessary to fulfill medical requirements. HRP directed task intends to reduce to program risk (HRP IRMA Risk 1735), and evaluate the XSENS ForceShoeTM as a means of obtaining ARED load data during exercise sessions. The XSENS ForceShoes\"TM\" will fly as a hardware demonstration to ISS in May 2014 (39S). Additional portable load monitoring devices (PLMDs) are under evaluation in the ExPC Lab. PLMDs are favored over platform redesign as they support future exploration needs.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20140012615,
+      "name": "National Space Biomedical Research Inst.",
+      "location": "Houston, TX, United States",
+      "id": "feb61f32a6b740ed851d285f6a443204"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20140012615,
+      "endDate": "2014-02-13T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "8ccaff322ecb48d2811364bf91d9f59d",
+        "meta": {
+         "organization": {
+          "name": "National Space Biomedical Research Inst.",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "ca4d952d6bdd4a0b903b5f4d92689865",
+        "id": "5b654349925b4d3db7a08ac5dd662dcc"
+       },
+       {
+        "meta": {
+         "organization": {
+          "name": "Universities Space Research Association",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "ca4d952d6bdd4a0b903b5f4d92689865",
+        "id": "02ddc38ac4154df69b9309414a9b328f"
+       }
+      ],
+      "name": "Human Research Program Investigators Workshop 2014",
+      "location": "Galveston, TX",
+      "id": "ca4d952d6bdd4a0b903b5f4d92689865",
+      "startDate": "2014-02-12T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20140012615,
+      "id": "25c8460a5a80414c96c7727bf535e49c",
+      "publicationDate": "2014-02-12T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [
+     {
+      "disseminated": "DOCUMENT_AND_METADATA",
+      "id": 20140008724,
+      "type": "SEE_ALSO",
+      "title": "Portable Load Measurement Device for Use During ARED Exercise on ISS",
+      "stiType": "PRESENTATION",
+      "distribution": "PUBLIC",
+      "status": "CURATED"
+     }
+    ],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20140012615.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20140012615/downloads/20140012615.pdf",
+       "pdf": "/api/citations/20140012615/downloads/20140012615.pdf",
+       "fulltext": "/api/citations/20140012615/downloads/20140012615.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 191.60371
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20140004049,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "13735980343049df90adc4eb0668d84b",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20140004049,
+     "ear": "NO",
+     "id": "61dbb327701a4b0fbbe7e355c99582ce",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-29995",
+     "Report Number: JSC-CN-29995"
+    ],
+    "title": "A Better ARED Squat",
+    "stiType": "CONFERENCE_PAPER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2014-04-29T07:10:12.2630000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20140004049,
+      "meta": {
+       "author": {
+        "name": "Caldwell, E. E."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "03a6ff261e2946fb95d3a5aa646d6987"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20140004049,
+      "meta": {
+       "author": {
+        "name": "Newby, N. J."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "414327797df64401b9ea2c2a8142a6ac"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20140004049,
+      "meta": {
+       "author": {
+        "name": "Ploutz-Snyder, L."
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "1f8f7bad0d2c4aed9e99753c8ee000c8"
+     }
+    ],
+    "stiTypeDetails": "Conference Paper",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20140004049,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2014-04-29T07:10:12.2630000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "The 0-G ARED squat under loads the legs relative to the 1g ARED squat. In 1g the knee extensor/flexor muscles are primarily engaged due to the body's center of gravity is behind the knees during the motion of the squat. As body weight does not play a sufficient role 0 G, a crewmember's load exposure is limited by the load delivered by ARED through the exercise bar. Prescription loads for lowerbody resistance exercise in microgravity aim to include 1-G exercise bar load in addition to the crewmember's Earth body weight (BW); however, pressure points from the bar and the 1BW increased load at the shoulders translating to higher loads on the back have been a historical limitation for shoulders, requiring a decrease in exercise load at the start of the mission. Analogous to crewmembers, bed rest subjects report limitations of exercising with high loads on the back while performing squats on the horizontal exercise fixture (HEF), a custom exercise device that serves as an analog to 0-G ARED. Improvements for increasing loads on the HEF squat were suggested by distributing total exercise load between the hips and the bar1. The same is recommended for the 0-G ARED squat, with using current equipment on the ISS, which include the T2 running harness and T2 bungees. Quantification of this improvement has been accessed through computational modeling. The purpose of this study is to characterize joint torque during a squat with a distribution in exercise load on the ARED in 0 G. The analysis used existing models from NASA's Digital Astronaut Project. The biomechanics squat model was integrated with the ARED model and T2 bungees. The spring constant for the bungees were derived from ground testing. Forward dynamic simulation was performed for various conditions including anchor point attachments on the footplate of the ARED, bar load, hip load, and gravitational environment. The model confirms joint torques at knees is lower relative to 1G conditions primarily because the load delivery system is just with the exercise bar in 0 G. By distributing partial loads through use of the bungees to the hips joint-torque profiles were altered during a squat and provided options to enhance targeting lower-body loading in aims as for an improved countermeasure.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20140004049,
+      "name": "National Space Biomedical Research Inst.",
+      "location": "Houston, TX, United States",
+      "id": "f39cf6ef6d644717aa91ef09742a9afb"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20140004049,
+      "endDate": "2014-02-28T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "8ccaff322ecb48d2811364bf91d9f59d",
+        "meta": {
+         "organization": {
+          "name": "Universities Space Research Association",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "0af60eaa3419495083f4ee74a7f74eb5",
+        "id": "5d60b5b5746d42c696dadd6eb96a17a0"
+       },
+       {
+        "meta": {
+         "organization": {
+          "name": "National Space Biomedical Research Inst.",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "0af60eaa3419495083f4ee74a7f74eb5",
+        "id": "37339b9fe3e44a64b033d506d67f299e"
+       }
+      ],
+      "name": "Human Research Program Investigators'' Workshop",
+      "location": "Galveston, TX",
+      "id": "0af60eaa3419495083f4ee74a7f74eb5",
+      "startDate": "2014-02-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20140004049,
+      "id": "b025e275b338484791eaed07cfdc8262",
+      "publicationDate": "2014-02-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20140004049.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20140004049/downloads/20140004049.pdf",
+       "pdf": "/api/citations/20140004049/downloads/20140004049.pdf",
+       "fulltext": "/api/citations/20140004049/downloads/20140004049.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 189.44548
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20150010126,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "d59d284321d643b7a42e7b2bc3b5df7b",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine",
+     "Man/System Technology And Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20150010126,
+     "ear": "NO",
+     "id": "5b7ad76a7f8d4269b927030231d8975a",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-08-12T19:09:56.4200000+00:00",
+    "otherReportNumbers": [
+     "E-661208",
+     "Report Number: E-661208"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "WBS 516724.02.02.03",
+      "submissionId": 20150010126,
+      "id": "8e8c0fa1f2d44f9d8655ec0b89672d27",
+      "type": "WBS"
+     }
+    ],
+    "title": "Development of a High Fidelity Dynamic Module of the Advanced Resistive Exercise Device (ARED) Using Adams",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2015-06-08T10:57:29.2300000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20150010126,
+      "meta": {
+       "author": {
+        "name": "Humphreys, B. T."
+       },
+       "organization": {
+        "name": "Zin Technologies, Inc.",
+        "location": "Cleveland, OH, United States"
+       }
+      },
+      "id": "dc94d0516cbb4dacac182b8ec2905c29"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20150010126,
+      "meta": {
+       "author": {
+        "name": "Thompson, W. K."
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH, United States"
+       }
+      },
+      "id": "d82f47aed3ce46dd82c11ed1531cbafc"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20150010126,
+      "meta": {
+       "author": {
+        "name": "Lewandowski, B. E."
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH, United States"
+       }
+      },
+      "id": "e2fbbe664d8f465ebfd7b8ae39ee3c4a"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20150010126,
+      "meta": {
+       "author": {
+        "name": "Cadwell, E. E."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "3a7aa98dee254d908b655426230305e4"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20150010126,
+      "meta": {
+       "author": {
+        "name": "Newby, N. J."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "9463af447a99494db0b115687ead3487"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20150010126,
+      "meta": {
+       "author": {
+        "name": "Fincke, R. S."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "144cfafe81744825850442b566b74da1"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20150010126,
+      "meta": {
+       "author": {
+        "name": "Sheehan, C."
+       },
+       "organization": {
+        "name": "Zin Technologies, Inc.",
+        "location": "Cleveland, OH, United States"
+       }
+      },
+      "id": "85e0a5815ea94a7bb5884d4e25e68e19"
+     },
+     {
+      "sequence": 7,
+      "submissionId": 20150010126,
+      "meta": {
+       "author": {
+        "name": "Mulugeta, L."
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "9a9982da413341f784dc340e9e3a025b"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20150010126,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2015-06-08T10:57:29.2300000+00:00",
+    "center": {
+     "code": "GRC",
+     "name": "Glenn Research Center",
+     "id": "19eeb25fa404421d9eaa5f876e853e3c"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "NASA's Digital Astronaut Project (DAP) implements well-vetted computational models to predict and assess spaceflight health and performance risks, and enhance countermeasure development. DAP provides expertise and computation tools to its research customers for model development, integration, or analysis. DAP is currently supporting the NASA Exercise Physiology and Countermeasures (ExPC) project by integrating their biomechanical models of specific exercise movements with dynamic models of the devices on which the exercises were performed. This presentation focuses on the development of a high fidelity dynamic module of the Advanced Resistive Exercise Device (ARED) on board the ISS. The ARED module, illustrated in the figure below, was developed using the Adams (MSC Santa Ana, California) simulation package. The Adams package provides the capabilities to perform multi rigid body, flexible body, and mixed dynamic analyses of complex mechanisms. These capabilities were applied to accurately simulate: Inertial and mass properties of the device such as the vibration isolation system (VIS) effects and other ARED components, Non-linear joint friction effects, The gas law dynamics of the vacuum cylinders and VIS components using custom written differential state equations, The ARED flywheel dynamics, including torque limiting clutch. Design data from the JSC ARED Engineering team was utilized in developing the model. This included solid modeling geometry files, component/system specifications, engineering reports and available data sets. The Adams ARED module is importable into LifeMOD (Life Modeler, Inc., San Clemente, CA) for biomechanical analyses of different resistive exercises such as squat and dead-lift. Using motion capture data from ground test subjects, the ExPC developed biomechanical exercise models in LifeMOD. The Adams ARED device module was then integrated with the exercise subject model into one integrated dynamic model. This presentation will describe the development of the Adams ARED module including its capabilities, limitations, and assumptions. Preliminary results, validation activities, and a practical application of the module to inform the relative effect of the flywheels on exercise will be discussed.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20150010126,
+      "endDate": "2012-02-16T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "0bba4b66c88d4f6b9af09a68495f6606",
+        "meta": {
+         "organization": {
+          "name": "NASA Headquarters",
+          "location": "Washington, DC, United States"
+         }
+        },
+        "meetingId": "d1df1cd0ca2a4b1daba444def0b7fa73",
+        "id": "b79d53bb5196452e9c358e1c36bf0a4b"
+       }
+      ],
+      "name": "NASA Human Research Program Investigators'' Workshop",
+      "location": "Houston, TX",
+      "id": "d1df1cd0ca2a4b1daba444def0b7fa73",
+      "startDate": "2012-02-14T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20150010126,
+      "id": "f97749f5488b403690212ded40c57526",
+      "publicationDate": "2012-02-14T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20150010126.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20150010126/downloads/20150010126.pdf",
+       "pdf": "/api/citations/20150010126/downloads/20150010126.pdf",
+       "fulltext": "/api/citations/20150010126/downloads/20150010126.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 188.72208
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20090020693,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "ee8fc4f54e654755a1096327d1af6e57",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20090020693,
+     "ear": "NO",
+     "id": "637a8f000d3c488b94016ac5b6e19081",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-18395",
+     "Report Number: JSC-CN-18395"
+    ],
+    "title": "Muscle Volume Increases Following 16 Weeks of Resistive Exercise Training with the Advanced Resistive Exercise Device (ARED) and Free Weights",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-24T18:32:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20090020693,
+      "meta": {
+       "author": {
+        "name": "Nash, R. E."
+       },
+       "organization": {
+        "name": "Houston Univ.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "a26476a59bfd4012a7fea8fc26686367"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20090020693,
+      "meta": {
+       "author": {
+        "name": "Loehr, J. A."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "43f59be069634b85a923b93e5ed0f218"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20090020693,
+      "meta": {
+       "author": {
+        "name": "Lee, S. M. C."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "b5a16cb4f39548cc815f9aacbb1dadd3"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20090020693,
+      "meta": {
+       "author": {
+        "name": "English, K. L."
+       },
+       "organization": {
+        "name": "JES Tech",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "35081a9ebe8a4c3a880fa06b83a58ca6"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20090020693,
+      "meta": {
+       "author": {
+        "name": "Evans, H."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "9bf33a949c41413880b1532f5bc003f3"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20090020693,
+      "meta": {
+       "author": {
+        "name": "Smith, S. A."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "6f48e1ad81cb4f7fbfa11074e2138e84"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20090020693,
+      "meta": {
+       "author": {
+        "name": "Hagan, R. D."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "ac2c816fc91b45a4a29e90574f464f5e"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20090020693,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-24T18:32:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Space flight-induced muscle atrophy, particularly in the postural and locomotorymuscles, may impair task performance during long-duration space missions and planetary exploration. High intensity free weight (FW) resistive exercise training has been shown to prevent atrophy during bed rest, a space flight analog. NASA developed the Advanced Resistive Exercise Device (ARED) to simulate the characteristics of FW exercise (i.e. constant mass, inertial force) and to be used as a countermeasure during International Space Station (ISS) missions. PURPOSE: To compare the efficacy of ARED and FW training to induce hypertrophy in specific muscle groups in ambulatory subjects prior to deploying ARED on the ISS. METHODS: Twenty untrained subjects were assigned to either the ARED (8 males, 3 females) or FW (6 males, 3 females) group and participated in a periodizedtraining protocol consisting of squat (SQ), heel raise (HR), and deadlift(DL) exercises 3 d wk-1 for 16 wks. SQ, HR, and DL muscle strength (1RM) was measured before, after 8 wks, and after 16 wks of training to prescribe exercise and measure strength changes. Muscle volume of the vastigroup (V), hamstring group (H), hip adductor group (ADD), medial gastrocnemius(MG), lateral gastrocnemius(LG), and deep posterior muscles including soleus(DP) was measured using MRI pre-and post-training. Consecutive cross-sectional images (8 mm slices with a 2 mm gap) were analyzed and summed. Anatomical references insured that the same muscle sections were analyzed pre-and post-training. Two-way repeated measures ANOVAs (p<0.05) were used to test for differences in muscle strength and volume between training devices. RESULTS: SQ, HR, and DL 1RM increased in both FW (SQ: 49+/-6%, HR: 12+/-2%, DL: 23+/-4%) and ARED (SQ: 31+/-4%, HR: 18+/-2%, DL: 23+/-3%) groups. Both groups increased muscle volume in the V (FW: 13+/-2%, ARED: 10+/-2%), H (FW: 3+/-1%, ARED: 3+/-1 %), ADD (FW: 15=/-2%, ARED: 10+/-1%), LG (FW: 7+/-2%, ARED: 4+/-1%), MG (FW: 7+/-2%, ARED: 5+/-2%), and DP (FW: 2+/-1%; ARED: 2+/-1%) after training. There were no between group differences in muscle strength or volume. CONCLUSIONS: The increase in muscle volume and strength following ARED training is not different than FW training. With the training effects similar to FW and a 600 lb load capacity, ARED likely will protect against muscle atrophy in microgravity.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20090020693,
+      "endDate": "2009-05-30T00:00:00.0000000+00:00",
+      "name": "ACSM 56th Annual Meeting",
+      "location": "Seattle, WA",
+      "id": "c3622326918e41b89a0dc2e27b50de82",
+      "startDate": "2009-05-27T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20090020693,
+      "id": "c6bc76a9d5634be4af1149d79db77c67",
+      "publicationDate": "2009-05-27T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20090020693.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20090020693/downloads/20090020693.pdf",
+       "pdf": "/api/citations/20090020693/downloads/20090020693.pdf",
+       "fulltext": "/api/citations/20090020693/downloads/20090020693.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 163.77112
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20140002864,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "ae86291ed0214c4ead0f78fe0b6ac9c1",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Man/System Technology And Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20140002864,
+     "ear": "NO",
+     "id": "ce43672841ff4ae58b336f0660fdc9fc",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSc-CN-29760",
+     "Report Number: JSc-CN-29760"
+    ],
+    "title": "Benefits, Consequences, and Uncertainties of Conventional (Exercise) Countermeasure Approaches",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2014-04-10T08:22:35.1030000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20140002864,
+      "meta": {
+       "author": {
+        "name": "Ploutz-Snyder, Lori"
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "7875207a4d114d5083d136bfc6603c47"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20140002864,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2014-04-10T08:22:35.1030000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "This presentation will review the pros, cons, and uncertainties of using exercise countermeasures in hypothetical long duration exploration missions. The use of artificial gravity and exercise will be briefly discussed. One benefit to continued use of exercise is related to our extensive experience with spaceflight exercise hardware and programming. Exercise has been a part of each space mission dating back to the 1960's when simple isometric and bungee exercises were performed in the Gemini capsule. Over the next 50 years, exercise hardware improved cumulating in today's ISS suite of exercise equipment: Cycle Ergometer with Vibration Isolation and Stabilization System (CEVIS), Treadmill (T2) and Advanced Resistive Exercise Device (ARED). Today's exercise equipment is the most robust ever to be flown in space and allows the variety and intensity of exercise that might reasonably be expected to maintain muscle mass and function, bone density and cardiovascular fitness. A second benefit is related to the large body of research literature on exercise training. There is a considerable body of supporting research literature including >40,000 peer reviewed research articles on exercise training in humans. A third benefit of exercise is its effectiveness. With the addition of T2 and ARED to our ISS exercise suite, crew member outcomes on standard medical tests have improved. Additionally exercise has other positive side effects such as stress relief, possible improvement of immune function, improved sleep, etc. Exercise is not without its consequences. The major cons to performance of in\u2010flight exercise are the time and equipment required. Currently crew are scheduled 2.5 hrs/day for exercise and there is considerable cost to develop, fly and maintain exercise hardware. While no major injuries have been reported on ISS, there is always some risk of injury with any form of exercise There are several uncertainties going forward; these relate mostly to the development of small compact robust effective exercise devices for the next generation of space vehicles. It is becoming increasingly apparent that high intensity exercise is required for maintenance of fitness and functional capability and so future hardware will need to be developed, tested and implemented that allow for a wide variety of exercise, at high intensity while likely involving low mass, volume and power. There are many unanswered issues related to the minimum number and type of exercise devices required for exploration, optimizing exercise prescriptions for these devices, whether a treadmill is absolutely required, and even whether any single countermeasure can adequately protect muscle, bone, cardiovascular and sensorimotor function.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20140002864,
+      "name": "NASA Ames Research Center",
+      "location": "Moffett Field, CA, United States",
+      "id": "6737364accbd44d2a6cf2c66343282bf"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20140002864,
+      "endDate": "2013-10-10T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "NASA Ames Research Center",
+          "location": "Moffett Field, CA, United States"
+         }
+        },
+        "meetingId": "d693a1003b914676abe141afc50d619a",
+        "id": "7c788545842a474a8da4c1e5cfbb76bf"
+       }
+      ],
+      "name": "International Workshop on Research and Operational Considerations for Artificial Gravity Countermeasures",
+      "location": "Moffett Field, CA",
+      "id": "d693a1003b914676abe141afc50d619a",
+      "startDate": "2013-10-08T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20140002864,
+      "id": "243d8d0227674d95b0d9abbff87a2524",
+      "publicationDate": "2013-10-08T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20140002864.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20140002864/downloads/20140002864.pdf",
+       "pdf": "/api/citations/20140002864/downloads/20140002864.pdf",
+       "fulltext": "/api/citations/20140002864/downloads/20140002864.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 154.57951
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20170004566,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "07105a707b54464bbc6ff907dc72de38",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     "physical exercise",
+     "microgravity",
+     "mathematical models"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20170004566,
+     "ear": "NO",
+     "id": "b30db5785a8b4ddf957ac3b1feebe606",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "GRC-E-DAA-TN36771",
+     "Report Number: GRC-E-DAA-TN36771"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "WBS 516724.01.02.10",
+      "submissionId": 20170004566,
+      "id": "80f4c080959945218c51816601292719",
+      "type": "WBS"
+     },
+     {
+      "number": "NNC14CA02C",
+      "submissionId": 20170004566,
+      "id": "c14039ea03334ec8b0a869883ed9660a",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NCC 9-58",
+      "submissionId": 20170004566,
+      "id": "215f4034b0f34eca9201e5e6b21f6c87",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NNJ15HK11B",
+      "submissionId": 20170004566,
+      "id": "3e91d4077c5c4f9fb464a4d67e1ecf90",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Biomechanical Modeling of the Deadlift Exercise to Improve the Efficacy of Resistive Exercise Microgravity Countermeasures",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2017-05-15T11:02:16.3600000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20170004566,
+      "meta": {
+       "author": {
+        "name": "Jagodnik, K. M."
+       },
+       "organization": {
+        "name": "National Space Biomedical Research Inst. (NSBRI)",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "b2ab51f088f24d4eb7c132880d52ad4f"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20170004566,
+      "meta": {
+       "author": {
+        "name": "Thompson, W. K."
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH United States"
+       }
+      },
+      "id": "469343196a984f05b694198f00d7ebe1"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20170004566,
+      "meta": {
+       "author": {
+        "name": "Gallo, C. A."
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH United States"
+       }
+      },
+      "id": "62640897f907431492e32b12988ae20b"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20170004566,
+      "meta": {
+       "author": {
+        "name": "DeWitt, J. K."
+       },
+       "organization": {
+        "name": "Wyle Labs., Inc.",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "955518c984b84f41bcd1492a97a9772d"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20170004566,
+      "meta": {
+       "author": {
+        "name": "Funk, J. H."
+       },
+       "organization": {
+        "name": "Zin Technologies, Inc.",
+        "location": "Cleveland, OH, United States"
+       }
+      },
+      "id": "3c14a3924f724acfb5be632a4b221a85"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20170004566,
+      "meta": {
+       "author": {
+        "name": "Funk, N. W."
+       },
+       "organization": {
+        "name": "Zin Technologies, Inc.",
+        "location": "Cleveland, OH, United States"
+       }
+      },
+      "id": "4876425c561c4493978e36e2b038117e"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20170004566,
+      "meta": {
+       "author": {
+        "name": "Perusek, G. P."
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH United States"
+       }
+      },
+      "id": "7511ba7f255c45c29b1130ee49942001"
+     },
+     {
+      "sequence": 7,
+      "submissionId": 20170004566,
+      "meta": {
+       "author": {
+        "name": "Sheehan, C. C."
+       },
+       "organization": {
+        "name": "Zin Technologies, Inc.",
+        "location": "Cleveland, OH, United States"
+       }
+      },
+      "id": "e3b3b2c0cde240f698335e7729fea832"
+     },
+     {
+      "sequence": 8,
+      "submissionId": 20170004566,
+      "meta": {
+       "author": {
+        "name": "Lewandowski, B. E."
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH United States"
+       }
+      },
+      "id": "23b95ce7e4b846669b75c2568b5405ad"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20170004566,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2017-05-15T11:02:16.3600000+00:00",
+    "center": {
+     "code": "GRC",
+     "name": "Glenn Research Center",
+     "id": "19eeb25fa404421d9eaa5f876e853e3c"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "During long-duration spaceflight missions, astronauts exposure to microgravity without adequate countermeasures can result in losses of muscular strength and endurance, as well as loss of bone mass. As a countermeasure to this challenge, astronauts engage in resistive exercise during spaceflight to maintain their musculoskeletal function. The Hybrid Ultimate Lifting Kit (HULK) has been designed as a prototype exercise device for an exploration-class vehicle; the HULK features a much smaller footprint than previous devices such as the Advanced Resistive Exercise Device (ARED) on the International Space Station (ISS), which makes the HULK suitable for extended spaceflight missions in vehicles with limited volume. As current ISS exercise countermeasure equipment represents an improvement over previous generations of such devices, the ARED is being employed as a benchmark of functional performance. This project involves the development of a biomechanical model of the deadlift exercise, and is novel in that it is the first exercise analyzed in this context to include the upper limbs in the loading path, in contrast to the squat, single-leg squat, and heel raise exercises also being modeled by our team. OpenSim software is employed to develop these biomechanical models of humans performing resistive exercises to assess and improve the new exercise device designs. Analyses include determining differences in joint and muscle forces when using different loading strategies with the device, comparing and contrasting with the ARED benchmark, and determining whether the loading is sufficient to maintain musculoskeletal health. During data collection, the number of repetitions, load, cadence, stance, and grip width are controlled in order to facilitate comparisons between loading configurations. To date, data have been collected for two human subjects performing the deadlift exercise on the HULK device using two different loading conditions. Recorded data include motion capture, electromyography (EMG), ground reaction forces, device load cell data, photos and videos, and anthropometric data. Work is ongoing to perform biomechanical analyses including inverse kinematics and inverse dynamics to compare different versions of the deadlift model in order to determine which provides an appropriate level of detail to study this exercise. This work is supported by the National Space Biomedical Research Institute through NCC 9-58.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20170004566,
+      "name": "American Society for Gravitational and Space Research",
+      "location": "Bristow, VA, United States",
+      "id": "68cedf5ab8fe42ecb99f19730dede3e4"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20170004566,
+      "endDate": "2016-10-29T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "meta": {
+         "organization": {
+          "name": "American Society for Gravitational and Space Research",
+          "location": "Bristow, VA, United States"
+         }
+        },
+        "meetingId": "cd3340dd876f4838883cd79b97983d0d",
+        "id": "7bdfeaf039514c9e9d3b40c1f26b26bc"
+       }
+      ],
+      "name": "American Society for Gravitational and Space Research Meeting",
+      "location": "Cleveland, OH",
+      "id": "cd3340dd876f4838883cd79b97983d0d",
+      "startDate": "2016-10-26T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20170004566,
+      "id": "ba38cba5e717453083b40eaedcb4eb10",
+      "publicationDate": "2016-10-26T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20170004566.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20170004566/downloads/20170004566.pdf",
+       "pdf": "/api/citations/20170004566/downloads/20170004566.pdf",
+       "fulltext": "/api/citations/20170004566/downloads/20170004566.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 140.47646
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20100037957,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "c884fcc35ec84c47a0ffbbeb4cea09cb",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Man/System Technology And Life Support"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20100037957,
+     "ear": "NO",
+     "id": "84bffcd40b7947678fa79851ad362d1d",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-17T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "JSC-CN-21988",
+     "Report Number: JSC-CN-21988"
+    ],
+    "title": "Development of an Integrated Countermeasure Device for Long Duration Space Flight and Exploration Missions",
+    "stiType": "ABSTRACT",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-25T00:39:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20100037957,
+      "meta": {
+       "author": {
+        "name": "Lee, S. M. C."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "c7953bae44494f0eaffaff68b2285a82"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20100037957,
+      "meta": {
+       "author": {
+        "name": "Streeper, T."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "146fb3bd67614ad5a255c18481bfd554"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20100037957,
+      "meta": {
+       "author": {
+        "name": "Spiering, B. A."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "62b1d0970ded41db9fae289b723758ca"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20100037957,
+      "meta": {
+       "author": {
+        "name": "Loehr, J. A."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "1926770a46c3482b923603a0001c3608"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20100037957,
+      "meta": {
+       "author": {
+        "name": "Guilliams, M. E."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "f8e2dbb8840f4afda9df4d981c795985"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20100037957,
+      "meta": {
+       "author": {
+        "name": "Bloomberg, J. J."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "1ca858313c2b42d68a7871aa2ded3922"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20100037957,
+      "meta": {
+       "author": {
+        "name": "Mulavara, A. P."
+       },
+       "organization": {
+        "name": "Universities Space Research Association",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "4b159fc070a64f3ea5a5b30fb48328b0"
+     },
+     {
+      "sequence": 7,
+      "submissionId": 20100037957,
+      "meta": {
+       "author": {
+        "name": "Cavanagh, P. R."
+       },
+       "organization": {
+        "name": "Washington Univ.",
+        "location": "Seattle, WA, United States"
+       }
+      },
+      "id": "13e9755ce86140b58413a326cd0ad6e0"
+     },
+     {
+      "sequence": 8,
+      "submissionId": 20100037957,
+      "meta": {
+       "author": {
+        "name": "Lang, T."
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "40f8be90ad744f96a3d83eadd4c0e211"
+     }
+    ],
+    "stiTypeDetails": "Abstract",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20100037957,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-25T00:39:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": true,
+    "sensitiveInformation": 2,
+    "abstract": "Musculoskeletal, cardiovascular, and sensorimotor deconditioning have been observed consistently in astronauts and cosmonauts following long-duration spaceflight. Studies in bed rest, a spaceflight analog, have shown that high intensity resistive or aerobic exercise attenuates or prevents musculoskeletal and cardiovascular deconditioning, respectively, but complete protection has not been achieved during spaceflight. Exercise countermeasure hardware used during earlier International Space Station (ISS) missions included a cycle ergometer, a treadmill, and the interim resistive exercise device (iRED). Effectiveness of the countermeasures may have been diminished by limited loading characteristics of the iRED as well as speed restrictions and subject harness discomfort during treadmill exercise. The Advanced Resistive Exercise Device (ARED) and the second generation treadmill were designed to address many of the limitations of their predecessors, and anecdotal reports from ISS crews suggest that their conditioning is better preserved since the new hardware was delivered in 2009. However, several countermeasure devices to protect different physiologic systems will not be practical during exploration missions when the available volume and mass will be severely restricted. The combined countermeasure device (CCD) integrates a suite of hardware into one device intended to prevent spaceflight-induced musculoskeletal, cardiovascular, and sensorimotor deconditioning. The CCD includes pneumatic loading devices with attached cables for resistive exercise, a cycle for aerobic exercise, and a 6 degree of freedom motion platform for balance training. In a proof of concept test, ambulatory untrained subjects increased muscle strength (58%) as well as aerobic capacity (26%) after 12-weeks of exercise training with the CCD (without balance training), improvements comparable to those observed with traditional exercise training. These preliminary results suggest that this CCD can concurrently improve musculoskeletal and cardiovascular conditioning in ambulatory subjects, but further work is required to validate its use as countermeasure to spaceflight-induced deconditioning.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20100037957,
+      "endDate": "2010-05-12T00:00:00.0000000+00:00",
+      "name": "Aerospace Medicine Association Meeting",
+      "location": "Anchorage, AK",
+      "id": "ac65279d1a334431aa03c3bfb32ed7e4",
+      "startDate": "2010-05-09T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20100037957,
+      "id": "d07e12bbc439473fb15087ca752d0c2f",
+      "publicationDate": "2010-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20100037957.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20100037957/downloads/20100037957.pdf",
+       "pdf": "/api/citations/20100037957/downloads/20100037957.pdf",
+       "fulltext": "/api/citations/20100037957/downloads/20100037957.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 139.1435
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20090005240,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "983e596f9e0c46bd909a36a18c428c72",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Life Sciences (General)"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20090005240,
+     "ear": "NO",
+     "id": "62e28f2fdb6d418a8eadc9c9f28987ab",
+     "itar": "NO"
+    },
+    "distributionDate": "2018-06-09T00:00:00.0000000+00:00",
+    "title": "Reliability of Strength Testing using the Advanced Resistive Exercise Device and Free Weights",
+    "stiType": "OTHER",
+    "distribution": "PUBLIC",
+    "submittedDate": "2013-08-24T20:18:00.0000000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20090005240,
+      "meta": {
+       "author": {
+        "name": "English, Kirk L."
+       },
+       "organization": {
+        "name": "JES Tech",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "ba758929c89c4ae39d7194770025b2f9"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20090005240,
+      "meta": {
+       "author": {
+        "name": "Loehr, James A."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "682fa7e8c1cf4045b3e50bd306884eb3"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20090005240,
+      "meta": {
+       "author": {
+        "name": "Laughlin, Mitzi A."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "83f05634e3804220b4d0255fe1bd0735"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20090005240,
+      "meta": {
+       "author": {
+        "name": "Lee, Stuart M. C."
+       },
+       "organization": {
+        "name": "Wyle Integrated Science and Engineering Group",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "f060b6e867ff476da3ef036282e2bafb"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20090005240,
+      "meta": {
+       "author": {
+        "name": "Hagan, R. Donald"
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "5772b52850fd4d2c8ae3344837d9447a"
+     }
+    ],
+    "stiTypeDetails": "Other",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20090005240,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2013-08-24T20:18:00.0000000+00:00",
+    "center": {
+     "code": "JSC",
+     "name": "Johnson Space Center",
+     "id": "dd46994b91a94cb2a2722617cbbadc55"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "The Advanced Resistive Exercise Device (ARED) was developed for use on the International Space Station as a countermeasure against muscle atrophy and decreased strength. This investigation examined the reliability of one-repetition maximum (1RM) strength testing using ARED and traditional free weight (FW) exercise. Methods: Six males (180.8 +/- 4.3 cm, 83.6 +/- 6.4 kg, 36 +/- 8 y, mean +/- SD) who had not engaged in resistive exercise for at least six months volunteered to participate in this project. Subjects completed four 1RM testing sessions each for FW and ARED (eight total sessions) using a balanced, randomized, crossover design. All testing using one device was completed before progressing to the other. During each session, 1RM was measured for the squat, heel raise, and deadlift exercises. Generalizability (G) and intraclass correlation coefficients (ICC) were calculated for each exercise on each device and were used to predict the number of sessions needed to obtain a reliable 1RM measurement (G . 0.90). Interclass reliability coefficients and Pearson's correlation coefficients (R) also were calculated for the highest 1RM value (1RM9sub peak)) obtained for each exercise on each device to quantify 1RM relationships between devices.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "publications": [
+     {
+      "submissionId": 20090005240,
+      "id": "50cdd1233a6b4787846760adf4564f38",
+      "publicationDate": "2008-01-01T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20090005240.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20090005240/downloads/20090005240.pdf",
+       "pdf": "/api/citations/20090005240/downloads/20090005240.pdf",
+       "fulltext": "/api/citations/20090005240/downloads/20090005240.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 136.93828
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20170000665,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "d5fc767caa2943b8be258b7e2b0a02df",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine"
+    ],
+    "keywords": [
+     " Countermeasures",
+     " Physical Exercise",
+     "Mathematical Models"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20170000665,
+     "ear": "NO",
+     "id": "254b6e82a4be4eed8e6bf54c19545c83",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "GRC-E-DAA-TN29808",
+     "Report Number: GRC-E-DAA-TN29808"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "WBS 516724.01.02.10",
+      "submissionId": 20170000665,
+      "id": "d82912e2764c4476af81b8660521206f",
+      "type": "WBS"
+     },
+     {
+      "number": "NCC 9-58",
+      "submissionId": 20170000665,
+      "id": "4fc3b2373a68477f9532bc71a3103991",
+      "type": "CONTRACT_GRANT"
+     },
+     {
+      "number": "NNC14CA02C",
+      "submissionId": 20170000665,
+      "id": "1bd60239261c476288415232f6bf99d3",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Biomechanical Modeling of the Deadlift Exercise on the HULK Device to Improve the Efficacy of Resistive Exercise Microgravity Countermeasures",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2017-01-20T12:38:22.0300000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20170000665,
+      "meta": {
+       "author": {
+        "name": "Jagodnik, K. M. "
+       },
+       "organization": {
+        "name": "National Space Biomedical Research Inst. (NSBRI)",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "5ad782f2183a464fa8bc1f93461ec40d"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20170000665,
+      "meta": {
+       "author": {
+        "name": "Thompson, W. K. "
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH United States"
+       }
+      },
+      "id": "fa999fc97424408a8da30c46ad2287e6"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20170000665,
+      "meta": {
+       "author": {
+        "name": "Gallo, C. A."
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH United States"
+       }
+      },
+      "id": "3fa0e0d02f33429a973ab20ff624747d"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20170000665,
+      "meta": {
+       "author": {
+        "name": "Crentsil, L."
+       },
+       "organization": {
+        "name": "George Washington Univ.",
+        "location": "Washington, DC, United States"
+       }
+      },
+      "id": "688fce888c1d409998799a252eb0727d"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20170000665,
+      "meta": {
+       "author": {
+        "name": "Funk, J. H."
+       },
+       "organization": {
+        "name": "Zin Technologies, Inc.",
+        "location": "Cleveland, OH, United States"
+       }
+      },
+      "id": "943922208c434f0aaa947bdd8c584978"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20170000665,
+      "meta": {
+       "author": {
+        "name": "Funk, N. W."
+       },
+       "organization": {
+        "name": "Zin Technologies, Inc.",
+        "location": "Cleveland, OH, United States"
+       }
+      },
+      "id": "824b62a1901a448cbb6050188313befe"
+     },
+     {
+      "sequence": 6,
+      "submissionId": 20170000665,
+      "meta": {
+       "author": {
+        "name": "Perusek, G. P."
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH United States"
+       }
+      },
+      "id": "1242b15ad2bd403ebcf06dbfad72f643"
+     },
+     {
+      "sequence": 7,
+      "submissionId": 20170000665,
+      "meta": {
+       "author": {
+        "name": "Sheehan, C. C."
+       },
+       "organization": {
+        "name": "Zin Technologies, Inc.",
+        "location": "Cleveland, OH, United States"
+       }
+      },
+      "id": "baaa12a119274b12b1fa857a661b516b"
+     },
+     {
+      "sequence": 8,
+      "submissionId": 20170000665,
+      "meta": {
+       "author": {
+        "name": "Lewandowski, B. E."
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH United States"
+       }
+      },
+      "id": "035ac32f037344598735bc8928dd8a87"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20170000665,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2017-01-20T12:38:22.0300000+00:00",
+    "center": {
+     "code": "GRC",
+     "name": "Glenn Research Center",
+     "id": "19eeb25fa404421d9eaa5f876e853e3c"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Extended spaceflight typically results in the loss of muscular strength and bone density due to exposure to microgravity. Resistive exercise countermeasures have been developed to maintain musculoskeletal health during spaceflight. The Advanced Resistive Exercise Device (ARED) is the \"gold standard\" of available devices; however, its footprint and volume are too large for use in space capsules employed in exploration missions. The Hybrid Ultimate Lifting Kit (HULK) device, with its smaller footprint, is a prototype exercise device for exploration missions. This work models the deadlift exercise being performed on the HULK device using biomechanical simulation, with the long-term goal to improve and optimize astronauts' exercise prescriptions, to maximize the benefit of exercise while minimizing time and effort invested.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "submissionId": 20170000665,
+      "name": "NASA Johnson Space Center",
+      "location": "Houston, TX, United States",
+      "id": "4ddbc21ebcbd40fdac35de4706fe5836"
+     },
+     {
+      "country": "United States",
+      "submissionId": 20170000665,
+      "endDate": "2016-02-11T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "5e263e09d52345b492a05638c1dcf696",
+        "meta": {
+         "organization": {
+          "name": "NASA Johnson Space Center",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "aada6fc1617a4cff98b1bdf9d8c6edcd",
+        "id": "d326dd902f7948acad8d4c2cf745a964"
+       },
+       {
+        "meta": {
+         "organization": {
+          "name": "National Space Biomedical Research Inst. (NSBRI)",
+          "location": "Houston, TX, United States"
+         }
+        },
+        "meetingId": "aada6fc1617a4cff98b1bdf9d8c6edcd",
+        "id": "52d7416b82534aef91a230e4321f5918"
+       }
+      ],
+      "name": "2016 Human Research Program Investigators Workshop",
+      "location": "Galveston, TX",
+      "id": "aada6fc1617a4cff98b1bdf9d8c6edcd",
+      "startDate": "2016-02-08T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20170000665,
+      "id": "6512c15863b64338b5ba38dc448bc9ec",
+      "publicationDate": "2016-02-08T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20170000665.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20170000665/downloads/20170000665.pdf",
+       "pdf": "/api/citations/20170000665/downloads/20170000665.pdf",
+       "fulltext": "/api/citations/20170000665/downloads/20170000665.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   },
+   {
+    "_meta": {
+     "score": 115.687225
+    },
+    "copyright": {
+     "thirdPartyPermissionsProduced": false,
+     "disclosedToPublic": false,
+     "containsIndication": false,
+     "publisherPermissionOrRightsToDistribute": false,
+     "belongsToUsGov": false,
+     "determinationType": "PUBLIC_USE_PERMITTED",
+     "thirdPartyContentCondition": "NOT_SET",
+     "belongsToContractor": false,
+     "disclosedInvention": false,
+     "submissionId": 20160012339,
+     "containsThirdPartyMaterial": false,
+     "belongsToPublisher": false,
+     "id": "075cbbc00ee54dbba3c71cf3ac462e1e",
+     "belongsToAuthors": false
+    },
+    "subjectCategories": [
+     "Aerospace Medicine",
+     "Man/System Technology And Life Support"
+    ],
+    "keywords": [
+     "Countermeasures",
+     "microgravity",
+     "physical exercise"
+    ],
+    "exportControl": {
+     "isExportControl": "NO",
+     "submissionId": 20160012339,
+     "ear": "NO",
+     "id": "4e4d6d70b1fc42e18abdf1e84395a3aa",
+     "itar": "NO"
+    },
+    "distributionDate": "2019-07-11T00:00:00.0000000+00:00",
+    "otherReportNumbers": [
+     "GRC-E-DAA-TN29843",
+     "Report Number: GRC-E-DAA-TN29843"
+    ],
+    "fundingNumbers": [
+     {
+      "number": "WBS 516724.01.02.10",
+      "submissionId": 20160012339,
+      "id": "a893e9f4d78c4e6bbb257b13b2b99be2",
+      "type": "WBS"
+     },
+     {
+      "number": "NNJ11HE31A",
+      "submissionId": 20160012339,
+      "id": "d9871be455f94b14b3cc84532eb4f6a4",
+      "type": "CONTRACT_GRANT"
+     }
+    ],
+    "title": "Human Research Program Advanced Exercise Concepts (AEC) Overview",
+    "stiType": "PRESENTATION",
+    "distribution": "PUBLIC",
+    "submittedDate": "2016-10-14T09:54:29.2030000+00:00",
+    "authorAffiliations": [
+     {
+      "sequence": 0,
+      "submissionId": 20160012339,
+      "meta": {
+       "author": {
+        "name": "Perusek, Gail"
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH United States"
+       }
+      },
+      "id": "35a29d4c675743be84b20b16304300cd"
+     },
+     {
+      "sequence": 1,
+      "submissionId": 20160012339,
+      "meta": {
+       "author": {
+        "name": "Lewandowski, Beth"
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH United States"
+       }
+      },
+      "id": "e0009204233d4e81946f5b79d2ce35c1"
+     },
+     {
+      "sequence": 2,
+      "submissionId": 20160012339,
+      "meta": {
+       "author": {
+        "name": "Nall, Marsha"
+       },
+       "organization": {
+        "name": "NASA Glenn Research Center",
+        "location": "Cleveland, OH, United States"
+       }
+      },
+      "id": "35ab280fab92404db032f793da3bb8a8"
+     },
+     {
+      "sequence": 3,
+      "submissionId": 20160012339,
+      "meta": {
+       "author": {
+        "name": "Norsk, Peter"
+       },
+       "organization": {
+        "name": "Baylor Coll. of Medicine",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "5e600e2a1d9842e8b6e4ca433aab740b"
+     },
+     {
+      "sequence": 4,
+      "submissionId": 20160012339,
+      "meta": {
+       "author": {
+        "name": "Linnehan, Rick"
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "cb8c7329c3c34379bd0b706f2408e795"
+     },
+     {
+      "sequence": 5,
+      "submissionId": 20160012339,
+      "meta": {
+       "author": {
+        "name": "Baumann, David"
+       },
+       "organization": {
+        "name": "NASA Johnson Space Center",
+        "location": "Houston, TX, United States"
+       }
+      },
+      "id": "d550722c6a954d308f5e7ef5e09801ef"
+     }
+    ],
+    "stiTypeDetails": "Presentation",
+    "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+    "modified": "2025-08-31T18:39:21.7150190+00:00",
+    "id": 20160012339,
+    "legacyMeta": {
+     "__type": "LegacyMetaIndex, StrivesApi.ServiceModel",
+     "accessionNumber": ""
+    },
+    "created": "2016-10-14T09:54:29.2030000+00:00",
+    "center": {
+     "code": "GRC",
+     "name": "Glenn Research Center",
+     "id": "19eeb25fa404421d9eaa5f876e853e3c"
+    },
+    "onlyAbstract": false,
+    "sensitiveInformation": 2,
+    "abstract": "Exercise countermeasures provide benefits that are crucial for successful human spaceflight, to mitigate the spaceflight physiological deconditioning which occurs during exposure to microgravity. The NASA Human Research Program (HRP) within the Human Exploration and Operations Mission Directorate (HEOMD) is managing next generation Advanced Exercise Concepts (AEC) requirements development and candidate technology maturation to Technology Readiness Level (TRL) 7 (ground prototyping and flight demonstration) for all exploration mission profiles from Multi Purpose Crew Vehicle (MPCV) Exploration Missions (up to 21 day duration) to Mars Transit (up to 1000 day duration) missions. These validated and optimized exercise countermeasures systems will be provided to the ISS Program and MPCV Program for subsequent flight development and operations. The International Space Station (ISS) currently has three major pieces of operational exercise countermeasures hardware: the Advanced Resistive Exercise Device (ARED), the second-generation (T2) treadmill, and the cycle ergometer with vibration isolation system (CEVIS). This suite of exercise countermeasures hardware serves as a benchmark and is a vast improvement over previous generations of countermeasures hardware, providing both aerobic and resistive exercise for the crew. However, vehicle and resource constraints for future exploration missions beyond low Earth orbit will require that the exercise countermeasures hardware mass, volume, and power be minimized, while preserving the current ISS capabilities or even enhancing these exercise capabilities directed at mission specific physiological functional performance and medical standards requirements. Further, mission-specific considerations such as preservation of sensorimotor function, autonomous and adaptable operation, integration with medical data systems, rehabilitation, and in-flight monitoring and feedback are being developed for integration with the exercise countermeasures systems. Numerous technologies have been considered and evaluated against HRP-approved functional device requirements for these extreme mission profiles, and include wearable sensors, exoskeletons, flywheel, pneumatic, and closed-loop microprocessor controlled motor driven systems. Each technology has unique advantages and disadvantages. The Advanced Exercise Concepts project oversees development of candidate next generation exercise countermeasures hardware, performs trade studies of current and state of the art exercise technologies, manages and supports candidate systems physiological evaluations with human test subjects on the ground, in flight analogs and flight. The near term goal is evaluation of candidate systems in flight, culminating in an integrated candidate next generation exercise countermeasures suite on the ISS which coalesces research findings from HRP disciplines in the areas of exercise performance for muscle, bone, cardiovascular, sensorimotor, behavioral health, and nutrition for optimal benefit to the crew.",
+    "isLessonsLearned": false,
+    "disseminated": "DOCUMENT_AND_METADATA",
+    "meetings": [
+     {
+      "country": "United States",
+      "submissionId": 20160012339,
+      "endDate": "2016-02-11T00:00:00.0000000+00:00",
+      "sponsors": [
+       {
+        "organizationId": "0bba4b66c88d4f6b9af09a68495f6606",
+        "meta": {
+         "organization": {
+          "name": "NASA Headquarters",
+          "location": "Washington, DC, United States"
+         }
+        },
+        "meetingId": "b35732f6fdf341ea9d90f442294ff699",
+        "id": "6fee0121ea5a4cf1956b3c28d06271ce"
+       }
+      ],
+      "name": "NASA Human Research Program Investigators'' Workshop",
+      "location": "Galveston, TX",
+      "id": "b35732f6fdf341ea9d90f442294ff699",
+      "startDate": "2016-02-08T00:00:00.0000000+00:00"
+     }
+    ],
+    "publications": [
+     {
+      "submissionId": 20160012339,
+      "id": "d7bf44ac2caf471ebe63b1bbbef7ba1e",
+      "publicationDate": "2015-02-10T00:00:00.0000000+00:00"
+     }
+    ],
+    "status": "CURATED",
+    "related": [],
+    "downloads": [
+     {
+      "draft": false,
+      "mimetype": "application/pdf",
+      "name": "20160012339.pdf",
+      "type": "STI",
+      "links": {
+       "original": "/api/citations/20160012339/downloads/20160012339.pdf",
+       "pdf": "/api/citations/20160012339/downloads/20160012339.pdf",
+       "fulltext": "/api/citations/20160012339/downloads/20160012339.txt"
+      }
+     }
+    ],
+    "downloadsAvailable": true,
+    "index": "submissions-2026-10-08-04-13"
+   }
+  ],
+  "aggregations": {
+   "created": {
+    "buckets": [
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 5
+     },
+     {
+      "key_as_string": "2013",
+      "key": 1356998400000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2016",
+      "key": 1451606400000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2015",
+      "key": 1420070400000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2024",
+      "key": 1704067200000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2021",
+      "key": 1609459200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2023",
+      "key": 1672531200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "author": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 78,
+    "buckets": [
+     {
+      "key": "Funk, J. H.",
+      "doc_count": 3
+     },
+     {
+      "key": "Funk, N. W.",
+      "doc_count": 3
+     },
+     {
+      "key": "Lewandowski, B. E.",
+      "doc_count": 3
+     },
+     {
+      "key": "Perusek, G. P.",
+      "doc_count": 3
+     },
+     {
+      "key": "Sheehan, C. C.",
+      "doc_count": 3
+     },
+     {
+      "key": "Gallo, C. A.",
+      "doc_count": 2
+     },
+     {
+      "key": "Humphreys, B. T.",
+      "doc_count": 2
+     },
+     {
+      "key": "Lee, S. M. C.",
+      "doc_count": 2
+     },
+     {
+      "key": "Lewandowski, Beth",
+      "doc_count": 2
+     },
+     {
+      "key": "Loehr, J. A.",
+      "doc_count": 2
+     },
+     {
+      "key": "Moore, Cherice",
+      "doc_count": 2
+     },
+     {
+      "key": "Newby, N. J.",
+      "doc_count": 2
+     },
+     {
+      "key": "Ploutz-Snyder, L.",
+      "doc_count": 2
+     },
+     {
+      "key": "Svetlik, Randall G.",
+      "doc_count": 2
+     },
+     {
+      "key": "Thompson, W. K.",
+      "doc_count": 2
+     },
+     {
+      "key": "Williams, Antony",
+      "doc_count": 2
+     },
+     {
+      "key": " A J Letcher",
+      "doc_count": 1
+     },
+     {
+      "key": " S J Romaniello",
+      "doc_count": 1
+     },
+     {
+      "key": "A D Anbar",
+      "doc_count": 1
+     },
+     {
+      "key": "Alyssa N Varanoske",
+      "doc_count": 1
+     }
+    ]
+   },
+   "reportNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 14,
+    "buckets": [
+     {
+      "key": "E-661208",
+      "doc_count": 1
+     },
+     {
+      "key": "GRC-E-DAA-TN20359",
+      "doc_count": 1
+     },
+     {
+      "key": "GRC-E-DAA-TN29808",
+      "doc_count": 1
+     },
+     {
+      "key": "GRC-E-DAA-TN29843",
+      "doc_count": 1
+     },
+     {
+      "key": "GRC-E-DAA-TN36771",
+      "doc_count": 1
+     },
+     {
+      "key": "GRC-E-DAA-TN38779",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-18395",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-21988",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-24815",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-29995",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-30329",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-30537",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-32191",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-36578",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-36579",
+      "doc_count": 1
+     },
+     {
+      "key": "JSC-CN-40683",
+      "doc_count": 1
+     },
+     {
+      "key": "JSc-CN-29760",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: E-661208",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: GRC-E-DAA-TN20359",
+      "doc_count": 1
+     },
+     {
+      "key": "Report Number: GRC-E-DAA-TN29808",
+      "doc_count": 1
+     }
+    ]
+   },
+   "center": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "JSC",
+      "doc_count": 17
+     },
+     {
+      "key": "GRC",
+      "doc_count": 6
+     }
+    ]
+   },
+   "index": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "submissions-2026-10-08-04-13",
+      "doc_count": 23
+     }
+    ]
+   },
+   "fundingNumber": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "WBS 516724.01.02.10",
+      "doc_count": 5
+     },
+     {
+      "key": "NNC14CA02C",
+      "doc_count": 3
+     },
+     {
+      "key": "NCC 9-58",
+      "doc_count": 2
+     },
+     {
+      "key": "NNJ15HK11B",
+      "doc_count": 2
+     },
+     {
+      "key": "\t012556.01.04.10 HRP-HHC",
+      "doc_count": 1
+     },
+     {
+      "key": "012556.02.04.24.04",
+      "doc_count": 1
+     },
+     {
+      "key": "10449.2.03.01.32.2160",
+      "doc_count": 1
+     },
+     {
+      "key": "251546.06.15.05.01.72.01",
+      "doc_count": 1
+     },
+     {
+      "key": "516724.01.04.10",
+      "doc_count": 1
+     },
+     {
+      "key": "NNJ11HE31A",
+      "doc_count": 1
+     },
+     {
+      "key": "WBS 516724.02.02.03",
+      "doc_count": 1
+     }
+    ]
+   },
+   "published": {
+    "buckets": [
+     {
+      "key_as_string": "2014",
+      "key": 1388534400000,
+      "doc_count": 4
+     },
+     {
+      "key_as_string": "2017",
+      "key": 1483228800000,
+      "doc_count": 3
+     },
+     {
+      "key_as_string": "2015",
+      "key": 1420070400000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2016",
+      "key": 1451606400000,
+      "doc_count": 2
+     },
+     {
+      "key_as_string": "2008",
+      "key": 1199145600000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2009",
+      "key": 1230768000000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2010",
+      "key": 1262304000000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2011",
+      "key": 1293840000000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2012",
+      "key": 1325376000000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2013",
+      "key": 1356998400000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2018",
+      "key": 1514764800000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2024",
+      "key": 1704067200000,
+      "doc_count": 1
+     },
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 1
+     }
+    ]
+   },
+   "distribution": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "PUBLIC",
+      "doc_count": 23
+     }
+    ]
+   },
+   "stiType": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "PRESENTATION",
+      "doc_count": 9
+     },
+     {
+      "key": "ABSTRACT",
+      "doc_count": 8
+     },
+     {
+      "key": "CONFERENCE_PAPER",
+      "doc_count": 2
+     },
+     {
+      "key": "OTHER",
+      "doc_count": 2
+     },
+     {
+      "key": "ACCEPTED_MANUSCRIPT",
+      "doc_count": 1
+     },
+     {
+      "key": "CONTRIBUTION_TO_LARGER_WORK",
+      "doc_count": 1
+     }
+    ]
+   },
+   "subjectCategory": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Aerospace Medicine",
+      "doc_count": 16
+     },
+     {
+      "key": "Man/System Technology And Life Support",
+      "doc_count": 7
+     },
+     {
+      "key": "Life Sciences (General)",
+      "doc_count": 4
+     },
+     {
+      "key": "Computer Programming And Software",
+      "doc_count": 1
+     },
+     {
+      "key": "Lunar and Planetary Science and Exploration",
+      "doc_count": 1
+     },
+     {
+      "key": "Man/System Technology and Life Support",
+      "doc_count": 1
+     }
+    ]
+   },
+   "disseminated": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "DOCUMENT_AND_METADATA",
+      "doc_count": 22
+     },
+     {
+      "key": "METADATA_ONLY",
+      "doc_count": 1
+     }
+    ]
+   },
+   "stiTypeDetails": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 0,
+    "buckets": [
+     {
+      "key": "Presentation",
+      "doc_count": 9
+     },
+     {
+      "key": "Abstract",
+      "doc_count": 8
+     },
+     {
+      "key": "Conference Paper",
+      "doc_count": 2
+     },
+     {
+      "key": "Other",
+      "doc_count": 2
+     },
+     {
+      "key": "Accepted Manuscript (Version with final changes)",
+      "doc_count": 1
+     },
+     {
+      "key": "Contribution to a larger work",
+      "doc_count": 1
+     }
+    ]
+   },
+   "organization": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 10,
+    "buckets": [
+     {
+      "key": "NASA Johnson Space Center",
+      "doc_count": 9
+     },
+     {
+      "key": "NASA Glenn Research Center",
+      "doc_count": 6
+     },
+     {
+      "key": "Universities Space Research Association",
+      "doc_count": 6
+     },
+     {
+      "key": "Wyle Integrated Science and Engineering Group",
+      "doc_count": 6
+     },
+     {
+      "key": "Johnson Space Center",
+      "doc_count": 5
+     },
+     {
+      "key": "JES Tech",
+      "doc_count": 3
+     },
+     {
+      "key": "KBR (United States)",
+      "doc_count": 3
+     },
+     {
+      "key": "Zin Technologies, Inc.",
+      "doc_count": 3
+     },
+     {
+      "key": "Jacobs Technology, Inc.",
+      "doc_count": 2
+     },
+     {
+      "key": "National Space Biomedical Research Inst. (NSBRI)",
+      "doc_count": 2
+     },
+     {
+      "key": "Ames Research Center",
+      "doc_count": 1
+     },
+     {
+      "key": "Arizona State University",
+      "doc_count": 1
+     },
+     {
+      "key": "Baylor Coll. of Medicine",
+      "doc_count": 1
+     },
+     {
+      "key": "Bonn Univ.",
+      "doc_count": 1
+     },
+     {
+      "key": "Emory Sports Performance And Research Center",
+      "doc_count": 1
+     },
+     {
+      "key": "GeoLogics Corp.",
+      "doc_count": 1
+     },
+     {
+      "key": "George Washington Univ.",
+      "doc_count": 1
+     },
+     {
+      "key": "Glenn Research Center",
+      "doc_count": 1
+     },
+     {
+      "key": "Houston Univ.",
+      "doc_count": 1
+     },
+     {
+      "key": "Houston Univ.-Clear Lake",
+      "doc_count": 1
+     }
+    ]
+   },
+   "modified": {
+    "buckets": [
+     {
+      "key_as_string": "2025",
+      "key": 1735689600000,
+      "doc_count": 23
+     }
+    ]
+   },
+   "keyword": {
+    "doc_count_error_upper_bound": 0,
+    "sum_other_doc_count": 4,
+    "buckets": [
+     {
+      "key": "microgravity",
+      "doc_count": 3
+     },
+     {
+      "key": "physical exercise",
+      "doc_count": 3
+     },
+     {
+      "key": "mathematical models",
+      "doc_count": 2
+     },
+     {
+      "key": " Bone",
+      "doc_count": 1
+     },
+     {
+      "key": " Countermeasures",
+      "doc_count": 1
+     },
+     {
+      "key": " Physical Exercise",
+      "doc_count": 1
+     },
+     {
+      "key": "BMD",
+      "doc_count": 1
+     },
+     {
+      "key": "Countermeasures",
+      "doc_count": 1
+     },
+     {
+      "key": "DXA",
+      "doc_count": 1
+     },
+     {
+      "key": "Fracture",
+      "doc_count": 1
+     },
+     {
+      "key": "Long Duration Spaceflight",
+      "doc_count": 1
+     },
+     {
+      "key": "Mathematical Models",
+      "doc_count": 1
+     },
+     {
+      "key": "Microarchitecture",
+      "doc_count": 1
+     },
+     {
+      "key": "Osteoporosis",
+      "doc_count": 1
+     },
+     {
+      "key": "astronauts",
+      "doc_count": 1
+     },
+     {
+      "key": "bone mineral content",
+      "doc_count": 1
+     },
+     {
+      "key": "bone mineral density",
+      "doc_count": 1
+     },
+     {
+      "key": "bone quality",
+      "doc_count": 1
+     },
+     {
+      "key": "bone turnover markers",
+      "doc_count": 1
+     },
+     {
+      "key": "countermeasures",
+      "doc_count": 1
+     }
+    ]
+   }
+  }
+ }
+}

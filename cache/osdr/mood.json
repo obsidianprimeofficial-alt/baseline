@@ -1,0 +1,1837 @@
+{
+ "source_url": "https://osdr.nasa.gov/osdr/data/search?term=mood&from=0&size=25",
+ "fetched_at": "2026-10-10T06:09:57+00:00",
+ "data": {
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+   "total": 5,
+   "successful": 5,
+   "skipped": 0,
+   "failed": 0
+  },
+  "hits": {
+   "total": 47,
+   "max_score": 14.850868,
+   "hits": [
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "PRD000507",
+     "_score": 14.850868,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Attila",
+       "Middle Initials": "",
+       "Last Name": "Csordas"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       ""
+      ],
+      "Data Source Type": "ebi_pride",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "",
+      "Study Assay Technology Platform": "instrument model",
+      "Authoritative Source URL": "PRD000507",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1343214000,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Rattus norvegicus (Rat)"
+      ],
+      "Accession": "PRD000507",
+      "Study Assay Technology Type": "",
+      "Study Title": "The effects of chornic treatment with mood stablizers on the rat hippocampal postsynaptic density proteome",
+      "Study Protocol Type": "",
+      "Project Type": "",
+      "Study Funding Agency": "",
+      "Study Factor Type": [],
+      "Factor Value": [
+       "Not available"
+      ],
+      "Study Description": "Not available",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       "Rattus norvegicus (Rat)"
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "PRD000507"
+     },
+     "highlight": {
+      "all": [
+       "<em>ebi_pride</em>",
+       "The effects of chornic treatment with <em>mood</em> stablizers on the rat hippocampal postsynaptic density proteome"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE66277",
+     "_score": 13.153342,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Thomas",
+       "Middle Initials": "A",
+       "Last Name": "Lanz"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL1355"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "",
+      "Study Assay Technology Platform": "GPL1355",
+      "Authoritative Source URL": "GSE66277",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1426503600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Rattus norvegicus"
+      ],
+      "Accession": "GSE66277",
+      "Study Assay Technology Type": "",
+      "Study Title": "Microarray analysis of rat brain following chronic treatment with antipsychotic drugs or mood stabilizers",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "This SuperSeries is composed of the SubSeries listed below.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE66277"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Microarray analysis of rat brain following chronic treatment with antipsychotic drugs or <em>mood</em> stabilizers"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE55621",
+     "_score": 11.70277,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Taehyuk",
+       "Middle Initials": "",
+       "Last Name": "Kang"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL17021"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Jean-Leon,,Thomas Tae,H,Kang",
+      "Study Assay Technology Platform": "GPL17021",
+      "Authoritative Source URL": "GSE55621",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1394107200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE55621",
+      "Study Assay Technology Type": "",
+      "Study Title": "Vascular Endothelial Growth Factor Receptor 3 (VEGFR3) controls hippocampal neural stem cell conversion into progenitor cells",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Neural stem cells (NSCs) continuously produce new neurons within the adult mammalian hippocampus. However, this process declines with age and this decline correlates with defects in cognitive function and mood. Molecular mechanisms that activate quiescent NSCs to generate progenitor cells in vivo remain poorly understood. Here we show that adult hippocampal NSCs express VEGFR3, a key regulator of vascular and neural development, and are activated by the VEGFR3 ligand VEGF-C to enter the cell cycle and convert into progenitor cells. Conditional deletion of Vegfr3 in NSCs leads to a decline in hippocampal neurogenesis. Functionally, this is associated with increased anxiety behavior and compromised NSC activation in response to VEGF-C and physical activity. These findings establish VEGFR3 expression as a hallmark of adult mouse NSCs and demonstrate a specific requirement for VEGF-C/VEGFR signaling in NSC activation. Enhancing VEGFR3 signaling by VEGF-C may improve neurogenesis and mood during aging.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE55621"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       ", this process declines with age and this decline correlates with defects in cognitive function and <em>mood</em>",
+       "Enhancing VEGFR3 signaling by VEGF-C may improve neurogenesis and <em>mood</em> during aging."
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE55119",
+     "_score": 10.931812,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Gi Hoon",
+       "Middle Initials": "",
+       "Last Name": "Son"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL6246"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Gi,H,Son Kyungjin,,Kim Sooyoung,,Chung",
+      "Study Assay Technology Platform": "GPL6246",
+      "Authoritative Source URL": "GSE55119",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1392811200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE55119",
+      "Study Assay Technology Type": "",
+      "Study Title": "Expression data from mouse ventral midbrain",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "We used microarrays to identify differentially expressed genes in the ventral midbrains of wild-type (WT) and Rev-erba knock-out (RKO) mice. The circadian nature of mood and its dysfunction in affective disorders is well recognized, but the underlying molecular mechanisms are still unclear. We showed that the circadian nuclear receptor REV-ERBa, which is associated with bipolar disorder, impacts midbrain dopamine production and mood-related behavior in mice. Genetic deletion of the Rev-erba gene or pharmacological inhibition of REV-ERBa activity in the ventral midbrain induced mania-like behavior in association with a central hyperdopaminergic state.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE55119"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "The circadian nature of <em>mood</em> and its dysfunction in affective disorders is well recognized, but the underlying",
+       "receptor REV-ERBa, which is associated with bipolar disorder, impacts midbrain dopamine production and <em>mood</em>-related"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE110363",
+     "_score": 10.859296,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Stephen",
+       "Middle Initials": "Coull",
+       "Last Name": "Gammie"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL16570"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "S,C,Gammie C,,Zhao",
+      "Study Assay Technology Platform": "GPL16570",
+      "Authoritative Source URL": "GSE110363",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1535799600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE110363",
+      "Study Assay Technology Type": "",
+      "Study Title": "The circadian gene Nr1d1 in the mouse nucleus accumbens modulates social reward and anxiety-related behavior",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Nuclear receptor subfamily 1, group D, member 1 (Nr1d1) (also known as Rev-erb alpha) has been linked to circadian rhythm regulation, mood-related behavior, and disorders associated with social deficits. Recent work from our laboratory found striking decreases in Nr1d1 in nucleus accumbens (NAc) in the maternal condition and indirect evidence that Nr1d1 was interacting with numerous addiction and reward-related genes to modulate social reward. In this study, we applied our insights from the maternal state to non-parental adult mice to determine whether decreases in Nr1d1 expression in NAc via adeno-associated viral (AAV) vectors and short hairpin RNA (shRNA)-mediated gene knockdown were sufficient to modulate social reward and mood-related behaviors. We also used microarray analysis of to identify gene expression alterations induced by the lowering of Nr1d1 expression. We used microarrays to evalute the effects of knockdown of mRNA for Nr1d1 in nuclues accumbens on gene expression.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE110363"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "group D, member 1 (Nr1d1) (also known as Rev-erb alpha) has been linked to circadian rhythm regulation, <em>mood</em>-related",
+       "and short hairpin RNA (shRNA)-mediated gene knockdown were sufficient to modulate social reward and <em>mood</em>-related"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE85900",
+     "_score": 10.266842,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Ian",
+       "Middle Initials": "S",
+       "Last Name": "Maze"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL13112"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Ian,,Maze",
+      "Study Assay Technology Platform": "GPL13112",
+      "Authoritative Source URL": "GSE85900",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1486555200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE85900",
+      "Study Assay Technology Type": "",
+      "Study Title": "Aberrant H3.3 dynamics in NAc promote vulnerability to depressive-like behavior",
+      "Study Protocol Type": "",
+      "Project Type": "Genome binding/occupancy profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Human major depressive disorder (MDD), along with related mood disorders, is among the world\u2019s greatest public health concerns, however, its pathophysiology remains poorly understood. Persistent changes in gene expression are known to promote physiological aberrations implicated in MDD. More recently, histone mechanisms affecting cell-type and regional specific chromatin structures have also been shown to contribute to transcriptional programs related to depressive behaviors, as well as responses to antidepressants (ADs). Although much emphasis has been placed in recent years on roles for histone posttranslational modifications (PTMs) and chromatin remodeling events in the etiology of MDD, it has become increasingly clear that replication-independent histone variants (e.g., H3.3), which differ in primary amino acid sequence from their canonical counterparts, similarly play critical roles in the regulation of activity-dependent neuronal transcription, synaptic connectivity and behavioral plasticity. Here, we demonstrate a novel role for increased H3.3 dynamics in nucleus accumbens (NAc)\u2013\u2013a key limbic brain reward region\u2013\u2013in the regulation of aberrant social stress-mediated gene expression, abnormal dendritic morphology and the precipitation of depressive-like behaviors in mice. We find that molecular blockade of these dynamics promotes resilience to chronic social stress and results in a partial re-normalization of stress-associated transcriptional patterns in NAc. In sum, our findings establish H3.3 dynamics as a critical, and previously undocumented, regulator of mood, and suggest that future therapies aimed at modulating striatal histone dynamics may potentiate beneficial behavioral adaptations to negative emotional stimuli.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE85900"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Human major depressive disorder (MDD), along with related <em>mood</em> disorders, is among the world\u2019s greatest",
+       "sum, our findings establish H3.3 dynamics as a critical, and previously undocumented, regulator of <em>mood</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE23358",
+     "_score": 10.184749,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Patricia",
+       "Middle Initials": "",
+       "Last Name": "Bray-Ward"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL6801"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "",
+      "Study Assay Technology Platform": "GPL6801",
+      "Authoritative Source URL": "GSE23358",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1308999600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE23358",
+      "Study Assay Technology Type": "",
+      "Study Title": "Intellectual disability and mood disorder associated with partial deletion of the Neurexin 1 Gene",
+      "Study Protocol Type": "",
+      "Project Type": "Genome variation profiling by SNP array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Abstract We report here the identification of an individual (53825) with mild dysmorphia, severe language disorder, mild intellectual disability, attention deficit hyperactivity disorder (ADHD), and a mood disorder. Genomic analysis by Affymetrix 6.0 Gene Chip and FISH (fluorescence in situ hybridization) using probes specific for NRXN1 revealed a hemizygous deletion of approximately 190 Kb, which includes exons 3-5 of NRXN1. This deletion should result in the absence of the vast majority of different NRXN1 alpha transcripts from one of the NRXN1 gene copies, without effecting NRXN1 beta transcription. Neurexins are proteins located in the presynaptic membrane that bind postsynaptic ligands, neuroligins, neurexophilins, and dystrophoglycan. They exert profound effects on neurological function by mediating signalling across synapses and determining synaptic characteristics through the recruitment of additional proteins for synapse formation. Alterations in neurexin-encoding genes cause cognitive disorders such as autism, developmental delay and schizophrenia. The three neurexin genes in the human genome (NRXN1, NRXN2, and NRXN3) each have two different functional promoters, producing a large (alpha) and small (beta) transcript with corresponding proteins. NRXN1 produces hundreds, perhaps thousands, of different transcripts with differential localization in the CNS. Background Results",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE23358"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Intellectual disability and <em>mood</em> disorder associated with partial deletion of the Neurexin 1 Gene",
+       "language disorder, mild intellectual disability, attention deficit hyperactivity disorder (ADHD), and a <em>mood</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE44132",
+     "_score": 9.979462,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Jerry",
+       "Middle Initials": "",
+       "Last Name": "Guintivano"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL13534"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Michal,,Arad Jerry,,Guintivano Todd,D,Gould Zachary,,Kaminsky Jennifer,,Payne",
+      "Study Assay Technology Platform": "GPL13534",
+      "Authoritative Source URL": "GSE44132",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1369393200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE44132",
+      "Study Assay Technology Type": "",
+      "Study Title": "Antenatal Blood DNA Methylation Profiles",
+      "Study Protocol Type": "",
+      "Project Type": "Methylation profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "DNA methylation profiles were generating using Illumina HM450 microarrays in a prospective sample blood from the prenatal period of pregnant mood disorder patients who would and would not develop depression post partum.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE44132"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "using Illumina HM450 microarrays in a prospective sample blood from the prenatal period of pregnant <em>mood</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE39653",
+     "_score": 9.654489,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Bart",
+       "Middle Initials": "",
+       "Last Name": "Frank"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL10558"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Wayne,C,Drevets Bart,,Frank Julie,H,Marino T,K,Teague Jonathan,,Savitz Melissa,,Bebak",
+      "Study Assay Technology Platform": "GPL10558",
+      "Authoritative Source URL": "GSE39653",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1343300400,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE39653",
+      "Study Assay Technology Type": "",
+      "Study Title": "Differential Gene Expression in Patients with Mood Disorders",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "RNA was extracted from peripheral blood mononuclear cells (PBMC) of 24 adult healthy controls, 8 adult patients with bipolar disorder, and 21 adult patients with major depressive disorder to analyze gene expression patterns that identify biomarkers of disease and that may be correlated with fMRI data.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE39653"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Differential Gene Expression in Patients with <em>Mood</em> Disorders"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE36005",
+     "_score": 9.558193,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Li",
+       "Middle Initials": "",
+       "Last Name": "Shen"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL13112"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Vincent,,Vialou Li,,Shen Brandon,,Warren Carlos,,Bolanos-Guzman",
+      "Study Assay Technology Platform": "GPL13112",
+      "Authoritative Source URL": "GSE36005",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1345546800,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE36005",
+      "Study Assay Technology Type": "",
+      "Study Title": "High throughput sequencing of the mouse transcriptome within the VTA following exposure to emotional stress.",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Using a novel stress paradigm, we generated emotionally stressed, physically stressed, and control animals.  We measured changes in mRNA expression using Illumina HiSeq2000 to obtain high-depth sequencing.  Interestingly, we observed a number of significantly up- and down-regulated mRNAs.  By identifying mRNAs that were regulated similarly in both emotionally and physically stressed mice, we hope to provide a list of potentially novel targets for therapeutic intervention in mood disorder.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE36005"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "stressed mice, we hope to provide a list of potentially novel targets for therapeutic intervention in <em>mood</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE66276",
+     "_score": 9.528565,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Thomas",
+       "Middle Initials": "A",
+       "Last Name": "Lanz"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL1355"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Robin,J,Kleiman Thomas,A,Lanz",
+      "Study Assay Technology Platform": "GPL1355",
+      "Authoritative Source URL": "GSE66276",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1426503600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Rattus norvegicus"
+      ],
+      "Accession": "GSE66276",
+      "Study Assay Technology Type": "",
+      "Study Title": "Microarray profiling of rats treated for 21 days with Lithium chloride (0.2% in chow), Lamotrigine (30 mg/kg), or appropriately matched vehicles",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "SD rats were dosed with gold mood stabilizer therapies, lithium or lamotrigine, at doses aimed at achieving therapeutically relevant drug exposures.  Tissues were collected after 21 days of delivery to examine the impact of this treatment on gene expression in frontal cortex, hippocampus and striatum.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE66276"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "SD rats were dosed with gold <em>mood</em> stabilizer therapies, lithium or lamotrigine, at doses aimed at achieving"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE85333",
+     "_score": 9.518212,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Tim",
+       "Middle Initials": "",
+       "Last Name": "Regan"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL22299"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Tim,,Regan Tom,,Freeman",
+      "Study Assay Technology Platform": "GPL22299",
+      "Authoritative Source URL": "GSE85333",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1514818800,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE85333",
+      "Study Assay Technology Type": "",
+      "Study Title": "Transcriptional effects of anti-inflammatory or anti-depressant drugs on primary human macrophages inflammatory response",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "We treated human primary macrophage cells with anti-inflammatory or anti-depressant drugs and analysed their transcriptional effects during inf.lammatory signaling within the context of tryptophan metabolism/kynurenic metabolism. The direct communication between our central nervous and inflammatory signalling systems is a well-recognised, yet poorly understood relationship. To increase our understanding of this relationship, we examined the metabolism of serotonin and its precursor tryptophan in macrophages under inflammatory settings. Both are involved in inflammatory signalling and known to play a major role in mood regulation. Tryptophan depletion by macrophages during inflammation can consequently result in a reduction of serotonin systemically and has been suggested to cause depression. Increased understanding of this system could help overcome the problem of treatment resistant depressed patients. To this end, we treated primary human monocyte derived macrophages with a range of anti-depressant/anti-inflammatory drugs and analysed their transcriptional profile under various inflammatory conditions. In addition to the classic endotoxic driver of inflammation, LPS, we also used IFN\u03b1 which is a constitutive cytokine shown to directly induce depression when administered in high doses. The anti-depressant drugs were not found to have any significant effects on macrophage inflammatory signalling. However, the anti-inflammatories drugs were found to alter components of the serotonin/tryptophan metabolism pathways. This study increases our understanding of the intricacies of immune/mood cross-talk and offers into developing anti-inflammatories as co-treatment for depression.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE85333"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Both are involved in inflammatory signalling and known to play a major role in <em>mood</em> regulation.",
+       "This study increases our understanding of the intricacies of immune/<em>mood</em> cross-talk and offers into developing"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "r9_6g4QB28eYt3lGKLVx",
+     "_score": 9.503371,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "DNA methylation profiling",
+      "Study Protocol Description": "DNA was extracted from frozen blood samples by standard proteinase K/RNase treatment and phenol/chloroform extraction.     Standard Illumina Protocol.          Bisulfite modification of DNA (\u2265500ng for each sample) was conducted using an EZ DNA Methylation Kit (Zymo Research) according to the manufacturer\u2019s procedure.     The Infinium Methylation 450K assay was performed according to Illumina\u2019s standard protocol.     minfi package (version: 1.8.9) in R Language (version: 3.0.2). ID_REF =  VALUE = Normalized Average Beta (SWAN normalization)     Peripheral whole blood cells were extracted from all six crew members before breakfast. After extraction, whole blood cells were immediately treated with EDTA anticoagulation, transferred outside of the module and centrifuged (at 3,000rpm for 15 minutes at 4C) to isolate the plasma from blood cells. Blood cells were stored at -70C until the DNA extraction was performed.",
+      "Material Type": "Blood Cells",
+      "Study Identifier": "OSD-140",
+      "Study Person": {
+       "First Name": "Jianghui Jianghui Ke Fengji Yue Yanhong Honghui Changning Simon Shukuan Fen Haiquan Xu Boris Hailong Yumin Li Bin Lina Yanqiang Shanguang Yinghui",
+       "Middle Initials": " V",
+       "Last Name": "Xiong Xiong Lyu Liang Wang Yuan Wang Liu Rayner Ling Yang Fang Li Morukov Chen Wan He Wu Qu Bai Chen Li"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "Data Source Type": "cgene",
+      "Mission": {
+       "Start Date": "",
+       "End Date": "",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "Time",
+      "Study Publication Author List": "Hou F  Zhou X  Zhou S  Liu H  Huang YE  Yuan M  Zhu J  Cao X  Jiang W.",
+      "Study Assay Technology Platform": "",
+      "Authoritative Source URL": "OSD-140/",
+      "Project Identifier": "Simulated_Environmental_Factors",
+      "thumbnail": "/geode-py/ws/studies/OSD-140/image",
+      "Project Title": "",
+      "Study Public Release Date": 1421193600.0,
+      "Project Link": "",
+      "Study Publication Title": "DNA methylation dynamics associated with long-term isolation of simulated space travel.",
+      "organism": "Homo sapiens",
+      "Accession": "OSD-140",
+      "Study Assay Technology Type": "DNA microarray",
+      "Study Title": "Dynamic nature of epigenetic patterns observed during the Mars 520-d mission simulation",
+      "Study Protocol Type": "nucleic acid extraction protocol     labelling protocol     library construction     hybridization protocol     array scanning protocol     normalization data transformation protocol     sample treatment protocol",
+      "Project Type": "Ground Study",
+      "Study Funding Agency": "",
+      "Study Factor Type": "time",
+      "Factor Value": "",
+      "Study Description": "Interplanetary human spaceflight represents a formidable medical challenge, but also provides a unique platform for investigating human adaptation to extreme environmental changes. Understanding the long-term effects of isolation has relevance in a range of scenarios and it is well recognized that a better understanding of the relationship between environmental exposure and the epigenome can lead to more effective preventive measures. Here we conduct a longitudinal epigenetic, mood state and biochemical profiling of 6 crew members in an experiment simulating a 520-day mission to Mars. Illumina HumanMethylation450 BeadChip was used to obtain DNA methylation profiles. Firstly, we found that long-term isolation can induce global DNA methylation remodeling, and this change seems to be an active adaptation (rather than a random process or a by-product of the isolation). This study is the first to demonstrate the dynamic relationship between global epigenetic remodeling and isolation-induced mood state and biochemical changes. Secondly, by considering the location of methylation sites within the genome and using gene-pathway annotation, we were able to identify pathways that were significantly enriched in methylation events and consider their association with specific function and the timeline of the mission. Thirdly, via our definition of epi-entropy, a measure of entropy adapted to methylation events, we observed that the methylation remodeling produced a marked reduction in epi-entropy. Results suggest that DNA methylation change is an indicator of change rather than its by-product, i.e., there is a psychology-epigenome-metabolism model of long-term depression; DNA methylation programs the environment signal into the epigenome, which is subsequently transformed into the biochemical output and health outcome. Thus, longitudinal epigenetic profiling could code the effect of isolation and act as early indicators of latent health outcome. A longitudinal epigenetic, mood state and biochemical profiling of 6 crew members in an experiment simulating a 520-day mission to Mars. 36 samples of blood cell DNA methylation profiling were obtained by Illumina HumanMethylation450 BeadChip, across 6 sampling points during the 520 days mission for all of the 6 crew members.",
+      "Study Protocol Name": "P-GSE64950-4     P-GSE64950-5     library construction     P-GSE64950-6     P-GSE64950-7     P-GSE64950-1     P-GSE64950-2",
+      "Characteristics": "",
+      "Parameter Value": "",
+      "Identifiers": "GLDS-140",
+      "Data Source Accession": "E-GEOD-64950"
+     },
+     "highlight": {
+      "all": [
+       "<em>cgene</em>",
+       "Here we conduct a longitudinal epigenetic, <em>mood</em> state and biochemical profiling of 6 crew members in",
+       "to demonstrate the dynamic relationship between global epigenetic remodeling and isolation-induced <em>mood</em>",
+       "A longitudinal epigenetic, <em>mood</em> state and biochemical profiling of 6 crew members in an experiment simulating"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE125681",
+     "_score": 9.443963,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Brenda",
+       "Middle Initials": "",
+       "Last Name": "Cabrera"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL10558"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Gabriel,R,Fries Humberto,,Nicolini Consuelo,,Walss-Bass Brenda,,Cabrera Nancy,,Monroy-Jaramillo",
+      "Study Assay Technology Platform": "GPL10558",
+      "Authoritative Source URL": "GSE125681",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1575288000,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE125681",
+      "Study Assay Technology Type": "",
+      "Study Title": "Brain Gene Expression Pattern of Individuals with Dual Diagnosis who died by suicide",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "We compared the gene expression profile in the dorsolateral prefrontal area of subjects with dual diagnosis who died by suicide to the transcriptome of subjects with mood disorders and subjects with substance use disorder who died by suicide.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE125681"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "prefrontal area of subjects with dual diagnosis who died by suicide to the transcriptome of subjects with <em>mood</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE56238",
+     "_score": 8.9452095,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Gregory",
+       "Middle Initials": "K",
+       "Last Name": "Tharp"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL18469"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Nirav,,Patel Jillybeth,,Burgado Sean,D,Kelly Gregory,,Tharp Gretchen,N,Neigh Zachary,P,Johnson Constance,S,Harrell",
+      "Study Assay Technology Platform": "GPL18469",
+      "Authoritative Source URL": "GSE56238",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1427281200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Rattus norvegicus"
+      ],
+      "Accession": "GSE56238",
+      "Study Assay Technology Type": "",
+      "Study Title": "Peri-adolescent high-fructose diet effects on hypothalamic transcriptome",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Fructose consumption has increased by over 25% since 1970, and excess consumption has deleterious metabolic effects. Additionally, fructose can alter hypothalamic pituitary adrenal axis function, potentially resulting in increased vulnerability to mood disorders. Adolescents are the greatest consumers of fructose and also at a critical period of development.  Here, we examine the effects of consumption of a 55% fructose diet from weaning until adulthood on the hypothalamic transcriptome.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE56238"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "alter hypothalamic pituitary adrenal axis function, potentially resulting in increased vulnerability to <em>mood</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE68293",
+     "_score": 8.9452095,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Hideo",
+       "Middle Initials": "",
+       "Last Name": "Hagihara"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL1261"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Hideo,,HAGIHARA",
+      "Study Assay Technology Platform": "GPL1261",
+      "Authoritative Source URL": "GSE68293",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1459249200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE68293",
+      "Study Assay Technology Type": "",
+      "Study Title": "Gene expression microarray analysis on the dentate gyrus of alpha-CaMKII HKO mice",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "We previously found that mice with heterozygous knockout of the alpha-isoform of calcium/calmodulin-dependent protein kinase II (alpha-CaMKII HKO mice) show various dysregulated behaviors, including cyclic variations in locomotor activity (LA), suggesting that alpha-CaMKII HKO mice may serve as an animal model showing infradian oscillation of mood. We performed gene expression microarray analysis of dentate gyrus from alpha-CaMKII HKO mice. Mice were selected for the sampling such that their LA levels varied among the mice.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE68293"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "suggesting that alpha-CaMKII HKO mice may serve as an animal model showing infradian oscillation of <em>mood</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE92718",
+     "_score": 8.633255,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Ralf",
+       "Middle Initials": "",
+       "Last Name": "Gilsbach"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL6887"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "R,,Gilsbach F,,Barthas I,,Yalcin",
+      "Study Assay Technology Platform": "GPL6887",
+      "Authoritative Source URL": "GSE92718",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1576065600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE92718",
+      "Study Assay Technology Type": "",
+      "Study Title": "Gene expression analysis of neuropathic pain-induced depression in the anterior cingulate cortex of mice",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "We used the sciatic nerve cuffing model to induce neuropathic pain and depression in mice. Gene expression was studied in the anterior cingulate cortex, a brain region crucial for mood disorders. We studied gene expression after 2 and 8 weeks in cuff or sham operated mice. The 8 week time point corresponded to the presence of both nociceptive and anxiodepressive-like phenotype. The 2 week time point correspond to the animals displaying no anxiodepressive phenotype.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE92718"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Gene expression was studied in the anterior cingulate cortex, a brain region crucial for <em>mood</em> disorders"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "PXD000990",
+     "_score": 8.337355,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "brain",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Cheryl",
+       "Middle Initials": "",
+       "Last Name": "Lichti"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       ""
+      ],
+      "Data Source Type": "ebi_pride",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "",
+      "Study Assay Technology Platform": "LTQ Orbitrap Velos",
+      "Authoritative Source URL": "PXD000990",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1406026800,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Rattus norvegicus (Rat)"
+      ],
+      "Accession": "PXD000990",
+      "Study Assay Technology Type": "",
+      "Study Title": "Cocaine and Environmental Enrichment Proteomics Study of Rat Nucleus Accumbens",
+      "Study Protocol Type": "",
+      "Project Type": "",
+      "Study Funding Agency": "",
+      "Study Factor Type": [],
+      "Factor Value": [],
+      "Study Description": "Prior research demonstrated that environmental enrichment creates individual differences in behavior leading to a protective addiction phenotype in rats. Understanding the mechanisms underlying this phenotype will guide selection of targets for much-needed novel pharmacotherapeutics. The current study investigates basal differences in proteome expression in the nucleus accumbens of enriched and isolated rats and the proteomic response to cocaine self-administration using a liquid chromatography mass spectrometry (LCMS) technique to quantify 1917 proteins. Results of complementary Ingenuity Pathways Analyses (IPA) and gene set enrichment analyses (GSEA) demonstrate that cocaine increases vesicular transporters for dopamine and glutamate, as well as increasing proteins in the RhoA pathway. Further, cocaine regulates proteins related to ERK, CREB and AKT signaling. Environmental enrichment altered expression of a large number of proteins with diverse functions, including mood disorders, energy production, ubiquitination, splicing, transport, kinases and neurodegenerative diseases. Most of the biological functions and pathways listed above were also identified in the Cocaine X Enrichment interaction analysis, providing clear evidence that enriched and isolated rats respond quite differently to cocaine exposure. The overall impression of the current results is that enriched saline-administering rats have a unique proteomic complement compared to enriched cocaine-administering rats as well as saline and cocaine-taking isolated rats. These results identify possible mechanisms of the protective phenotype and provide fertile soil for developing novel pharmacotherapeutics.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       "Rattus norvegicus (Rat)"
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "PXD000990"
+     },
+     "highlight": {
+      "all": [
+       "<em>ebi_pride</em>",
+       "Environmental enrichment altered expression of a large number of proteins with diverse functions, including <em>mood</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE119183",
+     "_score": 8.322283,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Etienne",
+       "Middle Initials": "",
+       "Last Name": "Sibille"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL17021"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Mounira,,Banasr Brad,R,Rocco Etienne,,Sibille Thomas,D,Prevot Gary,D,Bader Leon,,French Rammohan,,Shukla Ruth,,Isserlin",
+      "Study Assay Technology Platform": "GPL17021",
+      "Authoritative Source URL": "GSE119183",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1535626800,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE119183",
+      "Study Assay Technology Type": "",
+      "Study Title": "The relative contributions of cell-dependent cortical microcircuit aging to cognition and anxiety",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Conclusions: Our study demonstrates cell-dependent differential vulnerability and coordinated cell-specific cortical microcircuit molecular changes with age. Collectively, the results suggest intrinsic molecular links between aging, cognition and mood-related behaviors with SST-neurons contributing evenly to both behavioral conditions. Background: Aging is accompanied by altered thinking (cognition) and feeling (mood) functions that depend to some extent on information processing by brain cortical cell microcircuits. We hypothesized that age-associated long-term functional and biological changes are mediated by gene transcriptomic changes within neuronal cell-types forming cortical microcircuits, namely excitatory pyramidal cells (PYC) and inhibitory GABAergic neurons expressing vasoactive intestinal peptide (Vip), somatostatin (Sst) and parvalbumin (Pvalb). Methods: To test this hypothesis, we assessed locomotor, anxiety-like and cognitive behavioral changes between young (2 months, n=9) and old (22 months, n=12) male C57BL/6 mice, and performed frontal cortex cell-type specific molecular profiling, using laser-capture microscopy and RNA sequencing. Results: Old-mice displayed increased anxiety and reduced working memory. The four cell-types displayed distinct age-related transcriptomes and biological pathway profiles, affecting metabolic and cell signaling pathways, and selective markers of neuronal vulnerability (Ryr3), resilience (Oxr1), and mitochondrial dynamics (Opa1), suggesting high age-related vulnerability of PYCs, and variable degree of adaptation in GABAergic neurons. Correlations between gene expression and behaviors suggest that changes in cognition and anxiety associated with age are partly mediated by normal age-related cell changes, and that additional age-independent decreases in synaptic and signaling pathways, notably in PYC and SST-neurons further contribute to behavioral changes.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE119183"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Collectively, the results suggest intrinsic molecular links between aging, cognition and <em>mood</em>-related",
+       "Background: Aging is accompanied by altered thinking (cognition) and feeling (<em>mood</em>) functions that depend"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE80633",
+     "_score": 8.234093,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Tamara",
+       "Middle Initials": "",
+       "Last Name": "Seredenin"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL1261"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Lionel,,Breuillaud Ruth,,Luthi-Carter Tamara,,Seredenina Jean-Ren\u00e9,,Cardinaux",
+      "Study Assay Technology Platform": "GPL1261",
+      "Authoritative Source URL": "GSE80633",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1468839600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE80633",
+      "Study Assay Technology Type": "",
+      "Study Title": "Gene expression analysis in cortex of CRTC1 deficient mice and WT littermates",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "To identify gene expression changes associated with Crtc1 deficiency, we performed genome-wide transcriptome profile analyses by using mouse cDNA microarrays in the cortex of Crtc1\u2012/\u2012 and WT female mice BACKGROUND: Recent studies involve the arginine-decarboxylation product agmatine in mood regulation. Agmatine has antidepressant properties in rodent models of depression, and agmatinase (Agmat), the agmatine-degrading enzyme, is upregulated in the brain of mood disorders patients. We showed that mice lacking CREB-regulated transcription coactivator 1 (CRTC1) associate neurobehavioral and molecular depressive-like endophenotypes, as well as blunted responses to classical antidepressants.  METHODS: The molecular basis of the behavioral phenotype of Crtc1\u2012/\u2012 mice was further examined using microarray analysis. We characterized Agmat expression in the prefrontal cortex (PFC) and hippocampus (HIP) by quantitative polymerase chain reaction (qPCR), Western blot (WB) analysis, and confocal immunofluorescence microscopy. The antidepressant effect of agmatine was assessed by the forced swim test (FST). Brain-derived neurotrophic factor (BDNF) levels and eukaryotic elongation factor 2 (eEF2) phosphorylation were measured by WB.  RESULTS: Microarray, qPCR and WB analyses revealed an upregulation of Agmat in Crtc1\u2012/\u2012 PFC and HIP, where immunofluorescence microscopy showed more Agmat-expressing cells, notably parvalbumin- and somatostatin-interneurons. Acute agmatine treatment efficiently improved depressive-like behavior of Crtc1\u2012/\u2012 mice in the FST, suggesting that exogenous agmatine has a rapid antidepressant effect through the compensation of agmatine deficit induced by upregulated Agmat. In WT mice, agmatine rapidly increased BDNF levels and eEF2 dephosphorylation, indicating that it might be a fast\u2013acting antidepressant with NMDA receptor antagonist properties.  CONCLUSIONS: Collectively, these findings support the involvement of the agmatinergic system in the depressive-like phenotype of Crtc1\u2012/\u2012 mice, and allow a better understanding of the agmatinergic system and its putative role in major depression.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE80633"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "WT female mice BACKGROUND: Recent studies involve the arginine-decarboxylation product agmatine in <em>mood</em>",
+       "of depression, and agmatinase (Agmat), the agmatine-degrading enzyme, is upregulated in the brain of <em>mood</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE64950",
+     "_score": 7.799246,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Jianghui",
+       "Middle Initials": "",
+       "Last Name": "Xiong"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL13534"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Simon,,Rayner Lina,,Qu Haiquan,,Fang Yinghui,,Li Fengji,,Liang Bin,,Wu Shukuan,,Ling Honghui,,Wang Li,,He Yanqiang,,Bai Fen,,Yang Ke,,Lyu Changning,,Liu Yanhong,,Yuan Jianghui,,Xiong Yue,,Wang Hailong,,Chen Yumin,,Wan Boris,V,Morukov Shanguang,,Chen Xu,,Li",
+      "Study Assay Technology Platform": "GPL13534",
+      "Authoritative Source URL": "GSE64950",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1421236800,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE64950",
+      "Study Assay Technology Type": "",
+      "Study Title": "Dynamic nature of epigenetic patterns observed during the Mars 520-d mission simulation",
+      "Study Protocol Type": "",
+      "Project Type": "Methylation profiling by genome tiling array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Interplanetary human spaceflight represents a formidable medical challenge, but also provides a unique platform for investigating human adaptation to extreme environmental changes. Understanding the long-term effects of isolation has relevance in a range of scenarios and it is well recognized that a better understanding of the relationship between environmental exposure and the epigenome can lead to more effective preventive measures. Here we conduct a longitudinal epigenetic, mood state and biochemical profiling of 6 crew members in an experiment simulating a 520-day mission to Mars. Illumina HumanMethylation450 BeadChip was used to obtain DNA methylation profiles.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE64950"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Here we conduct a longitudinal epigenetic, <em>mood</em> state and biochemical profiling of 6 crew members in"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE81588",
+     "_score": 7.735979,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Ke",
+       "Middle Initials": "",
+       "Last Name": "Ma"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL13112"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Aiping,,Xu Li,,Guo",
+      "Study Assay Technology Platform": "GPL13112",
+      "Authoritative Source URL": "GSE81588",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1486641600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE81588",
+      "Study Assay Technology Type": "",
+      "Study Title": "Molecular mechanism for stress-induced depression assessed by sequencing miRNA and mRNA in medial prefrontal cortex (miRNA)",
+      "Study Protocol Type": "",
+      "Project Type": "Non-coding RNA profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Major depressive disorder is a common mood disorder. Chronic stressful life is presumably main etiology that leads to the neuron and synapse atrophies in the limbic system. However, the intermediate molecules from stress to neural atrophy remain elusive. Mice were treated by chronic unpredictable mild stress (CUMS) until demonstrating depression-like behaviors confirmed by the tests of sucrose preference, forced swimming and Y-maze. The sequencings of microRNA and mRNA from the medial prefrontal cortices were performed in CUMS-induced depression mice versus control mice to assess the molecular profiles of major depressive disorder. In the medial prefrontal cortices of depression-like mice, the levels of mRNAs that translated the proteins for the GABAergic synapses, dopaminergic synapses, myelination, synaptic vesicle cycle and neuronal growth were downregulated. miRNAs of regulating these mRNAs are upregulated. The deterioration of GABAergic and dopaminergic synapses as well as axonal growth is associated to CUMS-induced depression.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE81588"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Major depressive disorder is a common <em>mood</em> disorder."
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE21218",
+     "_score": 7.662996,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Cecilia",
+       "Middle Initials": "",
+       "Last Name": "Katalin"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL10285"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Be\u00e1ta,,Sperl\u00e1gh Cec\u00edlia,,Cs\u00f6lle",
+      "Study Assay Technology Platform": "GPL10285",
+      "Authoritative Source URL": "GSE21218",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1301569200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE21218",
+      "Study Assay Technology Type": "",
+      "Study Title": "Genetic deletion of P2X7 receptors causes genome-wide alteration of gene expression and results in antidepressant phenotype in mice amygdale",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "The purpose of the study was to explore the role of P2X7 receptors (P2X7R) in mood related behavior we have employed whole genome microarray expression profiling as a discovery platform.To identify genes affected by the genetic deletion of P2X7 receptors in the mouse amygdala we performed gene expression microarray analysis. For validation of differentially expressed genes, we performed TaqMan real-time RT-PCR.Our microarray studies have identified 7217 transcripts that were significantly affected by the deficiency of P2X7 receptor. Validation experiments revealed that among these genes at least 30 genes could be associated to synaptic signaling, neuroplasticity and thereby to the pathogenesis of depression (e.g. beta and gamma subunits of GABAA receptor, ionotropic glutamate receptors, \u03b12 adrenergic receptor, which were down regulated in KO mice). 287 transcripts were found be more than two-fold over-expressed in the LPS treated groups which can be classified according to their inflammatory biological function: Il4ra, Saa1, chemokine ligands.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE21218"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "The purpose of the study was to explore the role of P2X7 receptors (P2X7R) in <em>mood</em> related behavior we"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE81587",
+     "_score": 7.662996,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Ke",
+       "Middle Initials": "",
+       "Last Name": "Ma"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL13112"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Aiping,,Xu Li,,Guo",
+      "Study Assay Technology Platform": "GPL13112",
+      "Authoritative Source URL": "GSE81587",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1486641600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE81587",
+      "Study Assay Technology Type": "",
+      "Study Title": "Molecular mechanism for stress-induced depression assessed by sequencing miRNA and mRNA in medial prefrontal cortex (mRNA)",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Major depressive disorder is a common mood disorder. Chronic stressful life is presumably main etiology that leads to the neuron and synapse atrophies in the limbic system. However, the intermediate molecules from stress to neural atrophy remain elusive. Mice were treated by chronic unpredictable mild stress (CUMS) until demonstrating depression-like behaviors confirmed by the tests of sucrose preference, forced swimming and Y-maze. The sequencings of microRNA and mRNA from the medial prefrontal cortices were performed in CUMS-induced depression mice versus control mice to assess the molecular profiles of major depressive disorder. In the medial prefrontal cortices of depression-like mice, the levels of mRNAs that translated the proteins for the GABAergic synapses, dopaminergic synapses, myelination, synaptic vesicle cycle and neuronal growth were downregulated. miRNAs of regulating these mRNAs are upregulated. The deterioration of GABAergic and dopaminergic synapses as well as axonal growth is associated to CUMS-induced depression.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE81587"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Major depressive disorder is a common <em>mood</em> disorder."
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE58122",
+     "_score": 7.662996,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Russell",
+       "Middle Initials": "",
+       "Last Name": "Poldrack"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL16791"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Russell,,Poldrack",
+      "Study Assay Technology Platform": "GPL16791",
+      "Authoritative Source URL": "GSE58122",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1443697200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE58122",
+      "Study Assay Technology Type": "",
+      "Study Title": "Serial RNA-seq of a single human",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": " Psychiatric disorders are characterized by major fluctuations in psychological function over the course of weeks and months, but the dynamic characteristics of human brain function over this timescale in healthy individuals are unknown.  Over a period of 18 months, we performed intensive phenome-wide assessment of a single human, including brain connectivity using resting fMRI, measurements of psychological and physical health, and transcriptomic and metabolomic profiling. This study integrates dense neuroimaging and -omics profiling to provide a detailed picture of the joint dynamics of human brain and metabolic function over time, an approach that is critical for the understanding of brain disorders characterized by increased variability of brain function. Brain connectivity varied across sessions in relation to behavioral variables including mood, fatigue, and food/caffeine intake, as well as variables related to inflammation and gut health.   Pathway-based analysis of gene expression in peripheral lymphocytes identified associations with physical health and brain connectivity, including associations between specific brain networks and a broad set of immune-related pathways. Metabolomic measures were strongly associated with dietary variance.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE58122"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Brain connectivity varied across sessions in relation to behavioral variables including <em>mood</em>, fatigue"
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

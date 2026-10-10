@@ -1,0 +1,1702 @@
+{
+ "source_url": "https://osdr.nasa.gov/osdr/data/search?term=immune+spaceflight&from=0&size=25",
+ "fetched_at": "2026-09-30T09:41:54+00:00",
+ "data": {
+  "took": 6,
+  "timed_out": false,
+  "_shards": {
+   "total": 5,
+   "successful": 5,
+   "skipped": 0,
+   "failed": 0
+  },
+  "hits": {
+   "total": 68,
+   "max_score": 14.664369,
+   "hits": [
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "Iwu6gZUBWrv14Z5vqhG5",
+     "_score": 14.664369,
+     "_source": {
+      "Authoritative Source URL": "OSD-751/",
+      "Flight Program": "International Space Station (ISS)",
+      "Mission": {
+       "End Date": "10/25/2014",
+       "Start Date": "09/21/2014",
+       "Name": "SpaceX-4"
+      },
+      "Material Type": "Cortex",
+      "Project Identifier": "RR-1",
+      "Accession": "OSD-751",
+      "Identifiers": "LSDS-112     GLDS-687",
+      "Study Identifier": "OSD-751",
+      "Study Protocol Name": "Animal Husbandry     sample collection     Assay Information     ECLIA Procedure     ALSDA Transformed Data",
+      "Study Assay Technology Type": "ECLIA",
+      "Acknowledgments": "",
+      "Study Assay Technology Platform": "MESO-QuickPlex SQ-120MM",
+      "Study Person": {
+       "Last Name": "Roy Haddad Rodriguez Saju Roy Gil Keane Scott Mao de Rivero Vaccari",
+       "Middle Initials": " A. W. T. W.",
+       "First Name": "Upal Roey Angel Alen Deepa Mario Robert Ryan Xiao Juan Pablo"
+      },
+      "Study Protocol Type": "Animal Husbandry     sample collection     Assay Information     ECLIA Procedure     data transformation",
+      "Space Program": "NASA",
+      "Study Title": "Effects of Space Flight on Inflammasome Activation in the Brain of Mice (Cortex; ECLIA)",
+      "Study Factor Type": "Space Flight",
+      "Study Public Release Date": 1741564800.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-751/image",
+      "Study Factor Name": "Spaceflight",
+      "Study Assay Measurement Type": "Immunoassay",
+      "Project Type": "Spaceflight Study",
+      "Factor Value": "",
+      "Data Source Accession": "",
+      "Project Title": "Role of DJ1 protein in dopamine dysregulation of the brain in spaceflight condition",
+      "Study Funding Agency": "This project was supported by a grant from NASA (NASA-MUREP) to UR and JPdRV.Tissues were awarded to UR by the NASA Biological Institutional Scientific Collection (NBISC).",
+      "Study Protocol Description": "C57BL/6 female mice (16-week-old, Jackson Labs) were flown to the ISS as part of NASA\u2019s 1st RR-1 on SpaceX-4 CRS-4 Dragon cargo spacecraft. During flight, animals were kept at an ambient temperature of 26 to 28C in a 12-hour light and dark cycle. Flight animals received water and a food bar diet specifically designed by NASA ad libitum. RR-1 mission animals were on board of the Dragon capsule for 4 days (transit time) and then spent 37 days in the ISS. Animals in the vivarium group were control animals that were housed under standard laboratory conditions. In addition, animals in the baseline group consisted of mice from the same cohorts as the flight mice that were sacrificed at the time of launch.     Within 4 hours of splashdown, flight and ground control animals were sacrificed and brains were removed and dissected. For the study focusing on the forebrain, microdissections of the entire hippocampus and primary motor cortex were performed following well-established rodent brain microdissection protocols, and a brain atlas served as a reference to ensure accuracy of brain region identification. Following brain dissection, samples were stored at \u221280 degrees Celsius until further analysis. Tissues used in this study consisted of the brain cortex. Brain tissue samples were obtained from by the authors through an award from the NASA Biological Institutional Scientific Collection (NBISC).     Using protein lysates, a V-PLEX ECLIA kit (MSD) was used to measure the inflammatory profile in the different brain sections using the MESO-QuickPlex SQ-120MM (MSD).     Briefly, to measure the protein levels of TNF-alpha, IL-2, IFN-gamma, IL-5, IL-6, IL-12p70 and IL-10., after washing steps, the plate was incubated overnight with 50 uL of samples. The following day, after washing steps, samples were incubated in detection antibody for 2\u2009hrs followed by 3 more washings steps and addition of 2X Read Buffer. After obtaining the quantity of protein in pg/mL using using the MESO-QuickPlex SQ-120MM, samples were then normalized to total protein loaded.     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining. The transformed column headers and the submitted term from which they derive are defined in the study data dictionary file.",
+      "Experiment Platform": "RR-1 Flight Hardware",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "Roy U  Hadad R  Rodriguez AA  Saju A  Roy D  Gil M  Keane RW  Scott RT  Mao XW  de Rivero Vaccari RVJP.",
+      "Project Link": "https://osdr.nasa.gov/bio/repo/data/experiments/OS-878",
+      "Study Publication Title": "Effects of Space Flight on Inflammasome Activation in the Brain of Mice",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Study Description": "Space exploration exposes astronauts to stressors that alter the immune response, rendering them vulnerable to infections and diseases. In this study, we aimed to determine the levels of inflammasome activation in the brains of mice that were housed in the International Space Station (ISS) for 37 days. C57BL/6 mice were launched to the ISS as part of NASA\u2019s Rodent Research 1 Mission on SpaceX-4 CRS-4 Dragon cargo spacecraft from September 21st, 2014, to October 25th, 2014. Dissected mouse brains from that mission were analyzed by immunoblotting of inflammasome signaling proteins and Electrochemiluminescence Immunoassay (ECLIA) for inflammatory cytokine levels. Our data indicate decreased inflammasome activation in the brains of mice that were housed in the ISS for 37 days when compared to the brains of mice that were maintained on the ground, and in mice corresponding to the baseline group that were sacrificed at the time of launching of SpaceX-4. Moreover, we did not detect any significant changes in the expression levels of the pro-inflammatory cytokines TNF-alpha, IL-2, IFN-gamma, IL-5, IL-6, IL-12p70 and IL-10 between the ground control and the flight groups. Together, these studies suggest that spaceflight results in a decrease in the levels of innate immune signaling molecules that govern inflammasome signaling in the brain of mice. This dataset derives results from the ECLIA assay using brain tissue.",
+      "organism": "Mus musculus",
+      "Data Source Type": "alsda     cgene",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "<em>Spaceflight</em>",
+       "<em>Spaceflight</em> Study",
+       "Space exploration exposes astronauts to stressors that alter the <em>immune</em> response, rendering them vulnerable",
+       "Together, these studies suggest that <em>spaceflight</em> results in a decrease in the levels of innate <em>immune</em>",
+       "<em>alsda</em>     <em>cgene</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "PXD010114",
+     "_score": 14.217867,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "femur",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Fabrice",
+       "Middle Initials": "",
+       "Last Name": "BERTILE"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       ""
+      ],
+      "Data Source Type": "ebi_pride",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "",
+      "Study Assay Technology Platform": "Q Exactive Plus",
+      "Authoritative Source URL": "PXD010114",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1544529600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus (Mouse)"
+      ],
+      "Accession": "PXD010114",
+      "Study Assay Technology Type": "",
+      "Study Title": "Mouse femur LC-MSMS upon weightlessness",
+      "Study Protocol Type": "",
+      "Project Type": "",
+      "Study Funding Agency": "",
+      "Study Factor Type": [],
+      "Factor Value": [],
+      "Study Description": "Bone loss and immune dysregulation are among the main adverse outcomes of spaceflight challenging astronaut\u2019s health and safety. However, consequences on B cell development and responses are still under-investigated. Up to now, most studies addressing these questions were performed using an amphibian species. Consequently, we used advanced proteomics analysis of femur bone and marrow of mice flown for one month on board the BION-M1 biosatellite, to determine whether extreme conditions encountered during a real spaceflight affect B cell development in mice and to examine reversibility of the effects upon return to Earth. Our data revealed that adverse effects on B lymphopoiesis were more marked one week after landing and that this phenomenon was associated with a 41% reduction of B cells in the spleen. Thus, the effects of spaceflight persisted during at least one week after landing. These reductions may contribute to explain increased susceptibility to infection even if we confirmed that animals were able to mount a humoral immune response.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       "Mus musculus (Mouse)"
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "PXD010114"
+     },
+     "highlight": {
+      "all": [
+       "<em>ebi_pride</em>",
+       "Bone loss and <em>immune</em> dysregulation are among the main adverse outcomes of <em>spaceflight</em> challenging astronaut",
+       "on board the BION-M1 biosatellite, to determine whether extreme conditions encountered during a real <em>spaceflight</em>",
+       "Thus, the effects of <em>spaceflight</em> persisted during at least one week after landing.",
+       "increased susceptibility to infection even if we confirmed that animals were able to mount a humoral <em>immune</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE138116",
+     "_score": 13.986074,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Rachel",
+       "Middle Initials": "Rene",
+       "Last Name": "Gilbert"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL21306"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Ravikumar,,Hosamani Rachel,,Clemens William,,Wade Medaya,,Torres Sharmila,,Bhattacharya Shannon,,Hateley Lior,,Pachter Rachel,,Gilbert",
+      "Study Assay Technology Platform": "GPL21306",
+      "Authoritative Source URL": "GSE138116",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1569668400,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Drosophila melanogaster"
+      ],
+      "Accession": "GSE138116",
+      "Study Assay Technology Type": "",
+      "Study Title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by high throughput sequencing",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "While it has been shown that astronauts suffer immune disorders after spaceflight, the underlying causes are still poorly understood and there are many variables to consider when investigating the immune system in a complex environment. Additionally, there is growing evidence that suggests that not only is the immune system being altered, but the pathogens that infect the host are significantly influenced by spaceflight and ground-based spaceflight conditions. In this study, we demonstrate that Serratia marcescens (strain Db11) was significantly more lethal to Drosophila melanogaster after growth on the International Space Station than ground-based controls, but that the host immune system is not significantly altered amongst known immune genes. High-throughput sequencing of wild-type (w1118) adult hosts infected with either space or ground-reared S. marcescens revealed few changes in gene expression, with 11 genes significantly differentially expressed (q-values <0.05) and only one gene related to the immune system. This data supports the main findings of the paper, which state that both spaceflight and low-shear modeled microgravity conditions increase the virulence of this pathogen, independent of the host immune system. This data, which shows that there are no significant immune-related changes to the host when infected with space-grown sample compared to ground-grown sample, provides further evidence that there are likely phenotypic changes to the pathogen itself that is causing increased virulence in spaceflight and in low-shear modeled microgravity.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE138116"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "While it has been shown that astronauts suffer <em>immune</em> disorders after <em>spaceflight</em>, the underlying causes",
+       ", but the pathogens that infect the host are significantly influenced by <em>spaceflight</em> and ground-based",
+       "<em>spaceflight</em> conditions.",
+       "system is not significantly altered amongst known <em>immune</em> genes."
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "JAu6gZUBWrv14Z5vvxFc",
+     "_score": 12.672997,
+     "_source": {
+      "Space Program": "NASA",
+      "Flight Program": "International Space Station (ISS)",
+      "Study Assay Measurement Type": "Immunoassay",
+      "Study Protocol Description": "Within 4 hours of splashdown, flight and ground control animals were sacrificed and brains were removed and dissected. For the study focusing on the forebrain, microdissections of the entire hippocampus and primary motor cortex were performed following well-established rodent brain microdissection protocols, and a brain atlas served as a reference to ensure accuracy of brain region identification. Following brain dissection, samples were stored at \u221280 degrees Celsius until further analysis. Tissues used in this study consisted of the brain hippocampus. Brain tissue samples were obtained from by the authors through an award from the NASA Biological Institutional Scientific Collection (NBISC).     C57BL/6 female mice (16-week-old, Jackson Labs) were flown to the ISS as part of NASA\u2019s 1st RR-1 on SpaceX-4 CRS-4 Dragon cargo spacecraft. During flight, animals were kept at an ambient temperature of 26 to 28C in a 12-hour light and dark cycle. Flight animals received water and a food bar diet specifically designed by NASA ad libitum. RR-1 mission animals were on board of the Dragon capsule for 4 days (transit time) and then spent 37 days in the ISS. Animals in the vivarium group were control animals that were housed under standard laboratory conditions. In addition, animals in the baseline group consisted of mice from the same cohorts as the flight mice that were sacrificed at the time of launch.     Using protein lysates, a V-PLEX ECLIA kit (MSD) was used to measure the inflammatory profile in the different brain sections using the MESO-QuickPlex SQ-120MM (MSD).     Briefly, to measure the protein levels of TNF-alpha, IL-2, IFN-gamma, IL-5, IL-6, IL-12p70 and IL-10, after washing steps, the plate was incubated overnight with 50 uL of samples. The following day, after washing steps, samples were incubated in detection antibody for 2\u2009hrs followed by 3 more washings steps and addition of 2X Read Buffer. After obtaining the quantity of protein in pg/mL using using the MESO-QuickPlex SQ-120MM, samples were then normalized to total protein loaded.     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining. The transformed column headers and the submitted term from which they derive are defined in the study data dictionary file.",
+      "Material Type": "Hippocampus",
+      "Study Identifier": "OSD-752",
+      "Study Person": {
+       "First Name": "Upal Roey Angel Alen Deepa Mario Robert Ryan Xiao Juan Pablo",
+       "Middle Initials": " A. W. T. W.",
+       "Last Name": "Roy Haddad Rodriguez Saju Roy Gil Keane Scott Mao de Rivero Vaccari"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Data Source Type": "alsda",
+      "Mission": {
+       "Start Date": "09/21/2014",
+       "End Date": "10/25/2014",
+       "Name": "SpaceX-4"
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "RR-1 Flight Hardware",
+      "Study Factor Name": "Spaceflight",
+      "Study Publication Author List": "Roy U  Hadad R  Rodriguez AA  Saju A  Roy D  Gil M  Keane RW  Scott RT  Mao XW  de Rivero Vaccari RVJP.",
+      "Study Assay Technology Platform": "MESO-QuickPlex SQ-120MM",
+      "Authoritative Source URL": "OSD-752/",
+      "Project Identifier": "RR-1",
+      "thumbnail": "/geode-py/ws/studies/OSD-752/image",
+      "Project Title": "Role of DJ1 protein in dopamine dysregulation of the brain in spaceflight condition",
+      "Study Public Release Date": 1741564800.0,
+      "Project Link": "https://osdr.nasa.gov/bio/repo/data/experiments/OS-878",
+      "Study Publication Title": "Effects of Space Flight on Inflammasome Activation in the Brain of Mice",
+      "organism": "Mus musculus",
+      "Accession": "OSD-752",
+      "Study Assay Technology Type": "ECLIA",
+      "Study Title": "Effects of Space Flight on Inflammasome Activation in the Brain of Mice (Hippocampus; ECLIA)",
+      "Study Protocol Type": "sample collection     Animal Husbandry     Assay Information     ECLIA Procedure     data transformation",
+      "Project Type": "Spaceflight Study",
+      "Study Funding Agency": "This project was supported by a grant from NASA (NASA-MUREP) to UR and JPdRV.Tissues were awarded to UR by the NASA Biological Institutional Scientific Collection (NBISC).",
+      "Study Factor Type": "Space Flight",
+      "Factor Value": "",
+      "Study Description": "Space exploration exposes astronauts to stressors that alter the immune response, rendering them vulnerable to infections and diseases. In this study, we aimed to determine the levels of inflammasome activation in the brains of mice that were housed in the International Space Station (ISS) for 37 days. C57BL/6 mice were launched to the ISS as part of NASA\u2019s Rodent Research 1 Mission on SpaceX-4 CRS-4 Dragon cargo spacecraft from September 21st, 2014, to October 25th, 2014. Dissected mouse brains from that mission were analyzed by immunoblotting of inflammasome signaling proteins and Electrochemiluminescence Immunoassay (ECLIA) for inflammatory cytokine levels. Our data indicate decreased inflammasome activation in the brains of mice that were housed in the ISS for 37 days when compared to the brains of mice that were maintained on the ground, and in mice corresponding to the baseline group that were sacrificed at the time of launching of SpaceX-4. Moreover, we did not detect any significant changes in the expression levels of the pro-inflammatory cytokines TNF-alpha, IL-2, IFN-gamma, IL-5, IL-6, IL-12p70 and IL-10 between the ground control and the flight groups. Together, these studies suggest that spaceflight results in a decrease in the levels of innate immune signaling molecules that govern inflammasome signaling in the brain of mice. This dataset derives results from the ECLIA assay using brain tissue.",
+      "Study Protocol Name": "sample collection     Animal Husbandry     Assay Information     ECLIA Procedure     ALSDA Transformed Data",
+      "Characteristics": "",
+      "Parameter Value": "",
+      "Identifiers": "LSDS-113",
+      "Data Source Accession": ""
+     },
+     "highlight": {
+      "all": [
+       "<em>alsda</em>",
+       "<em>Spaceflight</em>",
+       "<em>Spaceflight</em> Study",
+       "Space exploration exposes astronauts to stressors that alter the <em>immune</em> response, rendering them vulnerable",
+       "Together, these studies suggest that <em>spaceflight</em> results in a decrease in the levels of innate <em>immune</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE23880",
+     "_score": 12.600193,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Sharmila",
+       "Middle Initials": "",
+       "Last Name": "Bhattacharya"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL1322"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Max,,Sanchez Matthew,,Lera Alena,,Shmygelska Laura,,Higgins Thomas,,Fahlen Sharmila,,Bhattacharya Helen,,Nichol Edina,,Levic Oana,,Marcu",
+      "Study Assay Technology Platform": "GPL1322",
+      "Authoritative Source URL": "GSE23880",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1314874800,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Drosophila melanogaster"
+      ],
+      "Accession": "GSE23880",
+      "Study Assay Technology Type": "",
+      "Study Title": "Drosophila melanogaster gene expression changes after spaceflight.",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Gene expression levels were determined in 3rd instar and adult Drosophila melanogaster reared during spaceflight, to elucidate the genetic and molecular mechanisms underpinning the effects of microgravity on the immune system.  The goal was to validate the Drosophila model for understanding alterations of innate immune responses in humans due to spaceflight. Five containers of flies, with ten female and five male fruit flies in each container, were housed and bred on the space shuttle (average orbit altitude of 330.35 km) for 12 days and 18.5 hours, with a new generation reared in microgravity.  RNA was extracted on the day of shuttle landing from whole body animals (3rd instar larvae and adults), hybridized to Drosophila 2.0 Affymetrix genome arrays, and the expression level of all genes was normalized against the gene expression level from the corresponding developmental stage animals raised on ground.  Spaceflight altered the expression of larval genes involved in the maturation of plasmatocytes (macrophages) and their phagocytic response, as well as the level of constitutive expression of pattern recognition receptors and opsonins that specifically recognize bacteria, and of lysozymes, antimicrobial peptide pathway and immune stress genes, hallmarks of humoral immunity. ",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE23880"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Drosophila melanogaster gene expression changes after <em>spaceflight</em>.",
+       ", to elucidate the genetic and molecular mechanisms underpinning the effects of microgravity on the <em>immune</em>",
+       "The goal was to validate the Drosophila model for understanding alterations of innate <em>immune</em> responses",
+       "in humans due to <em>spaceflight</em>."
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "wKGQ9IUBz4EQh6o3JLtL",
+     "_score": 12.453447,
+     "_source": {
+      "Space Program": "NASA",
+      "Flight Program": "ISS",
+      "Study Assay Measurement Type": "Intraocular Pressure",
+      "Study Protocol Description": "Before launch and again before the post-flight euthanization, a handheld tonometer (TonoLab-ICARE, Raleigh, NC) was used to measure IOP in conscious animals. This allowed IOP to be measured accurately, rapidly and without a local anesthetic. Measurements of IOP using the rebound tonometer appeared to be well tolerated by the mice. The animals exhibited no signs of irritation or discomfort during the procedure. Five-6 sequential measurements were made to obtain an average of the counts as a single IOP readout for each mouse. This process was repeated three times for each eye.     On August 14, 2017, SpaceX successfully launched the 12th Commercial Resupply Service (CRS-12) payload at the Kennedy Space Center (KSC) which included 10-week-old male C57BL/6 mice (n equals 20) (Jackson laboratories, Inc. Bar harbor, ME) for NASA\u2019s ninth Rodent Research experiment (RR-9). The mice lived in NASA\u2019s Rodent Habitats (RH) aboard ISS for 35 days before returning to Earth via SpaceX\u2019s Dragon capsule. All mice were maintained at an ambient temperature of 26\u201328 \u00b0C with a 12-h light/dark cycle during the flight. GC mice were placed into the same housing hardware used in flight, and environmental parameters such as temperature and carbon dioxide (CO2) levels were kept equivalent to that of FLT mice based on 48 h delayed telemetry data. GC mice were fed the same reformulated rodent food bar diet approved by NASA as the space flown mice. Consumption of food and water was monitored daily throughout this study. Animal experiments were approved by the Institutional Animal Care and Use Committee (IACUC) of Loma Linda University (LLU) and The National Aeronautics and Space Administration (NASA) and activities involving vertebrate animals are carried out in strict accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health (NIH). Due to Hurricane Irma\u2019s impact on KSC in September, 2017, experiments with both GC and GV control groups were cancelled and later rescheduled for May, 2018, using mice of the same strain, sex, age and animals were from the same holding room from the vendor that were used for the flight experiments. This resulted in a large time gap between tissue collection for the flight and KSC ground control groups. Consequently, the FV cohort-matched control group was added to the study to help control for possible differences associated with this delay. Tissue collection with the FV group were conducted several days after studies with the FLT animals were concluded.     Post-flight evaluation of the mice. Upon return to the Earth, mice were transported to LLU within 28 hours of splashdown. At LLU, animals were removed from the animal enclosure hardware and assessed for survival and health. The inspecting personnel reported that all the mice survived the 35-day space mission and were in good condition, i.e. no obvious deficiencies/abnormalities. Within 38 +/\u2212 4 hours of splashdown, mice were euthanized.     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a intraocular pressure data reuse template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all intraocular pressure results to be identically structured for efficient data mining.",
+      "Material Type": "Both eyes     Both Eyes",
+      "Study Identifier": "OSD-583",
+      "Study Person": {
+       "First Name": "Xiao Nina Stephanie Seta Tamako Alyson Vijayalakshmi Marjan Alan David Jeffrey Michael Michael",
+       "Middle Initials": "W. C. D. J. S. J.",
+       "Last Name": "Mao Nishiyama Byrum Stanbouly Jones Drew Sridharan Boerma Tackett Zawieja Willey Delp Pecaut"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Data Source Type": "alsda",
+      "Mission": {
+       "Start Date": "14-Aug-2017",
+       "End Date": "16-Sep-2017",
+       "Name": "SpaceX-12"
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "Rodent Habitat",
+      "Study Factor Name": "Spaceflight",
+      "Study Publication Author List": "Mao Xiao W.  Nishiyama Nina C.  Byrum Stephanie D.  Stanbouly Seta  Jones Tamako  Drew Alyson  Sridharan Vijayalakshmi  Boerma Marjan  Tackett Alan J.  Zawieja David  Willey Jeffrey S.  Delp Michael  Pecaut Michael J.",
+      "Study Assay Technology Platform": "TonoLab-ICARE",
+      "Authoritative Source URL": "OSD-583/",
+      "Project Identifier": "RR-9",
+      "thumbnail": "/geode-py/ws/studies/OSD-583/image",
+      "Project Title": "Rodent Research 9 (RR9) (ARC00XX200)",
+      "Study Public Release Date": 1674777600.0,
+      "Project Link": "https://nlsp.nasa.gov/view/lsdapub/lsda_experiment/f30954b4-0ed9-5d25-896d-5eed500682d4",
+      "Study Publication Title": "Characterization of mouse ocular response to a 35-day spaceflight mission: Evidence of blood-retinal barrier disruption and ocular adaptations",
+      "organism": "Mus musculus",
+      "Accession": "OSD-583",
+      "Study Assay Technology Type": "Tonometry",
+      "Study Title": "Characterization of mouse ocular responses (intraocular pressure) to a 35-day (RR-9) spaceflight mission: Evidence of blood-retinal barrier disruption and ocular adaptations",
+      "Study Protocol Type": "Intraocular Pressure     Animal Husbandry     Data Collection     data transformation",
+      "Project Type": "Spaceflight Study",
+      "Study Funding Agency": "This study was supported by NASA Space Biology grant # NNX15AB41G, National Institutes of Health grant P20GM121293, UL1TR000039, P20GM103625, S10OD018445 and P20GM103429, NNX15AB50G, and LLU Department of Basic Sciences. Authors would like to thank Dr. Dalia Gridley at LLU for her editorial suggestions and support. The authors would like to acknowledge the LLU Advanced Imaging and Microscopy Core Facility, University of Arkansas Medical Sciences Proteomics Facility, especially Lisa M. Orr and Samuel G. Mackintosh for their technical support, and Arkansas Children\u2019s Research Institute Systems Biology Bioinformatics Core.",
+      "Study Factor Type": "Space Flight",
+      "Factor Value": "",
+      "Study Description": "The health risks associated with spaceflight-induced ocular structural and functional damage has become a recent concern for NASA. The goal of the present study was to characterize the effects of spaceflight and reentry to 1 g on the structure and integrity of the retina and blood-retinal barrier (BRB) in the eye. To investigate possible mechanisms, changes in protein expression profiles were examined in mouse ocular tissue after spaceflight. Ten week old male C57BL/6 mice were launched to the International Space Station (ISS) on Space-X 12 at the Kennedy Space Center (KSC) on August, 2017. After a 35-day mission, mice were returned to Earth alive. Within 38 +/\u2212 4 hours of splashdown, mice were euthanized and ocular tissues were collected for analysis. Ground control (GC) and vivarium control mice were maintained on Earth in flight hardware or normal vivarium cages respectively. Repeated intraocular pressure (IOP) measurements were performed before the flight launch and remeasured before the mice were euthanized after splashdown. IOP was significantly lower in post-flight measurements compared to that of pre-flight (14.4\u201319.3 mmHg vs 16.3\u201320.3 mmHg) (p less than 0.05) for the left eye. Flight group had significant apoptosis in the retina and retinal vascular endothelial cells compared to control groups (p less than 0.05). Immunohistochemical analysis of the retina revealed that an increased expression of aquaporin-4 (AQP-4) in the flight mice compared to controls gave strong indication of disturbance of BRB integrity. There were also a significant increase in the expression of platelet endothelial cell adhesion molecule-1 (PECAM-1) and a decrease in the expression of the BRB related tight junction protein, Zonula occludens-1 (ZO-1). Proteomic analysis showed that many key proteins and pathways responsible for cell death, cell cycle, immune response, mitochondrial function and metabolic stress were significantly altered in the flight mice compared to ground control animals. These data indicate a complex cellular response that may alter retina structure and BRB integrity following long-term spaceflight. This dataset derives results from the intraocular pressure (tonometry) assay.",
+      "Study Protocol Name": "Intraocular Pressure     animal husbandry     Data Collection     ALSDA Processed Data",
+      "Characteristics": "",
+      "Parameter Value": "",
+      "Identifiers": "LSDS-16",
+      "Data Source Accession": ""
+     },
+     "highlight": {
+      "all": [
+       "<em>alsda</em>",
+       "<em>Spaceflight</em>",
+       "<em>Spaceflight</em> Study",
+       "Proteomic analysis showed that many key proteins and pathways responsible for cell death, cell cycle, <em>immune</em>",
+       "Intraocular Pressure     animal husbandry     Data Collection     <em>ALSDA</em> Processed Data"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "JQu7gZUBWrv14Z5vLRHH",
+     "_score": 11.730251,
+     "_source": {
+      "Authoritative Source URL": "OSD-738/",
+      "Flight Program": "International Space Station (ISS)",
+      "Mission": {
+       "End Date": "10/25/2014",
+       "Start Date": "09/21/2014",
+       "Name": "SpaceX-4"
+      },
+      "Material Type": "Brain",
+      "Project Identifier": "RR-1",
+      "Accession": "OSD-738",
+      "Identifiers": "LSDS-107     GLDS-677",
+      "Study Identifier": "OSD-738",
+      "Study Protocol Name": "Animal Husbandry     sample collection     Protein Gel Info     Protein Blot Transfer Info     Blocking Protocol     Labeling Information     Primary Antibody     Secondary Antibody     Western Blot Imaging     Western Blot Quantification     Image Metadata     ALSDA Transformed Data     Assay Information     ECLIA Procedure",
+      "Study Assay Technology Type": "Western Blot     Western Blot     Western Blot     Western Blot     ECLIA",
+      "Acknowledgments": "",
+      "Study Assay Technology Platform": "BioRad ChemiDoc     BioRad ChemiDoc     BioRad ChemiDoc     BioRad ChemiDoc     MESO-QuickPlex SQ-120MM",
+      "Study Person": {
+       "Last Name": "Roy Haddad Rodriguez Saju Roy Gil Keane Scott Mao de Rivero Vaccari",
+       "Middle Initials": " A. W. T. W.",
+       "First Name": "Upal Roey Angel Alen Deepa Mario Robert Ryan Xiao Juan Pablo"
+      },
+      "Study Protocol Type": "Animal Husbandry     sample collection     Protein Gel Info     Protein Blot Transfer Info     Blocking Protocol     Labeling Information     Primary Antibody     Secondary Antibody     Western Blot Imaging     Western Blot Quantification     Image Metadata     data transformation     Assay Information     ECLIA Procedure",
+      "Space Program": "NASA",
+      "Study Title": "Effects of Space Flight on Inflammasome Activation in the Brain of Mice (Brain, Western Blot and ECLIA)",
+      "Study Factor Type": "Space Flight",
+      "Study Public Release Date": 1741564800.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-738/image",
+      "Study Factor Name": "Spaceflight",
+      "Study Assay Measurement Type": "protein quantification     protein quantification     protein quantification     protein quantification     Immunoassay",
+      "Project Type": "Spaceflight Study",
+      "Factor Value": "",
+      "Data Source Accession": "",
+      "Project Title": "Role of DJ1 protein in dopamine dysregulation of the brain in spaceflight condition",
+      "Study Funding Agency": "This project was supported by a grant from NASA (NASA-MUREP) to UR and JPdRV. Tissues were awarded to UR by the NASA Biological Institutional Scientific Collection (NBISC).",
+      "Study Protocol Description": "C57BL/6 female mice (16-week-old, Jackson Labs) were flown to the ISS as part of NASA\u2019s 1st RR-1 on SpaceX-4 CRS-4 Dragon cargo spacecraft . During flight, animals were kept at an ambient temperature of 26 to 28 degrees C in a 12-hour light and dark cycle. Flight animals received water and a food bar diet specifically designed by NASA ad libitum. RR-1 mission animals were on board of the Dragon capsule for 4 days (transit time) and then spent 37 days in the ISS. Animals were kept in similar conditions to flight animals (ambient temperature of 26 to 28 degrees C in a 12-hour light and dark cycle). Telemetry data (with a 4-day delay) from the flight group was used to keep the ground control animals under similar conditions (housed in RR-1 flight hardware within an environmental simulator under the same conditions as the ISS). Water and food conditions were the same as to the flight animal group as described above. Animals in the vivarium group were control animals that were housed under standard laboratory conditions. In addition, animals in the baseline group consisted of mice from the same cohorts as the flight mice that were sacrificed at the time of launch.     Within 4 hours of splashdown, flight and ground control animals were sacrificed and brains were removed and dissected. For the study focusing on the forebrain, microdissections of the entire hippocampus and primary motor cortex were performed following well-established rodent brain microdissection protocols, and a brain atlas served as a reference to ensure accuracy of brain region identification. Following brain dissection, samples were stored at \u221280 degrees Celsius until further analysis. Tissues used in this study consisted of brain tissue, minus the cortex and hippocampus. Brain tissue samples were obtained from by the authors through an award from the NASA Biological Institutional Scientific Collection (NBISC).     Brain lysates were run and resolved in 4\u201320% Criterion TGX Stain-Free precast gels (Bio-Rad) at 300V.     Samples were transferred via a TransBlot turbo using a PVDF transfer membrane. The transfer lasted seven minutes in duration.     All membranes were blocked using I-Block overnight at four degrees Celsius.     Membranes were incubated with primary antibodies against caspase-1 (Novus Biologicals), ASC (Santa Cruz), IL-1beta (Cell Signaling) at a dilution of 1:1000. b-actin (Sigma Aldric) was used as a standard and protein loading control.     Membranes were then incubated with primary antibodies against caspase-1 (Novus Biologicals), ASC (Santa Cruz), IL-1beta (Cell Signaling) at a dilution of 1:1000. b-actin (Sigma Aldric) was used as a standard and protein loading control. All primary antibodies used a mouse antigen host and underwent two five minute washes with I-Block at room temperature.     All secondary Anti-Mouse HRP antibodies used a goat antigen host. The membranes then underwent one five minute wash and two ten minute washes with I-Block at room temperature.     The western Blots were imaged through chemilluminescence for one minute using the ChemiDoc Touch Gel Imaging System.     The Western Blots were quantified using the Silk Scientific Corporation UN- SCAN-IT gel software.     Each image contains the twenty sample lanes labeled left to right: Vivarium 1 (M16), Ground 1 (M36), Baseline 1 (M6), Flight 1 (M26), Vivarium 2 (M17), Ground 2 (M37), Baseline 2 (M7), Flight 2 (M27), Vivarium 3 (M18), Ground 3 (M38), Baseline 3 (M8) , Flight 3 (M28), Vivarium 4 (M19), Ground 4 (M39), Baseline 4 (M9), Flight 4 (M29), Vivarium 5 (M20), Ground 5 (M40), Baseline 5 (M10), Flight 5 (M30).     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining. The transformed column headers and the submitted term from which they derive are defined in the study data dictionary file.     Using protein lysates, a V-PLEX ECLIA kit (MSD) was used to measure the inflammatory profile in the different brain sections using the MESO-QuickPlex SQ-120MM (MSD).     Briefly, to measure the protein levels of TNF-alpha, IL-2, IFN-gamma, IL-5, IL-6, IL-12p70 and IL-10, after washing steps, the plate was incubated overnight with 50 uL of samples. The following day, after washing steps, samples were incubated in detection antibody for 2\u2009hrs followed by 3 more washings steps and addition of 2X Read Buffer. After obtaining the quantity of protein in pg/mL using using the MESO-QuickPlex SQ-120MM, samples were then normalized to total protein loaded.",
+      "Experiment Platform": "RR-1 Flight Hardware",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "Roy U  Hadad R  Rodriguez AA  Saju A  Roy D  Gil M  Keane RW  Scott RT  Mao XW  de Rivero Vaccari RVJP.",
+      "Project Link": "https://osdr.nasa.gov/bio/repo/data/experiments/OS-878",
+      "Study Publication Title": "Effects of Space Flight on Inflammasome Activation in the Brain of Mice",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Study Description": "Space exploration exposes astronauts to stressors that alter the immune response, rendering them vulnerable to infections and diseases. In this study, we aimed to determine the levels of inflammasome activation in the brains of mice that were housed in the International Space Station (ISS) for 37 days. C57BL/6 mice were launched to the ISS as part of NASA\u2019s Rodent Research 1 Mission on SpaceX-4 CRS-4 Dragon cargo spacecraft from September 21st, 2014, to October 25th, 2014. Dissected mouse brains from that mission were analyzed by immunoblotting of inflammasome signaling proteins and Electrochemiluminescence Immunoassay (ECLIA) for inflammatory cytokine levels. Our data indicate decreased inflammasome activation in the brains of mice that were housed in the ISS for 37 days when compared to the brains of mice that were maintained on the ground, and in mice corresponding to the baseline group that were sacrificed at the time of launching of SpaceX-4. Moreover, we did not detect any significant changes in the expression levels of the pro-inflammatory cytokines TNF-alpha, IL-2, IFN-gamma, IL-5, IL-6, IL-12p70 and IL-10 between the ground control and the flight groups. Together, these studies suggest that spaceflight results in a decrease in the levels of innate immune signaling molecules that govern inflammasome signaling in the brain of mice. This dataset derives results from the ECLIA and Western Blot assays using brain tissue.",
+      "organism": "Mus musculus",
+      "Data Source Type": "alsda     cgene",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "<em>Spaceflight</em>",
+       "<em>Spaceflight</em> Study",
+       "Space exploration exposes astronauts to stressors that alter the <em>immune</em> response, rendering them vulnerable",
+       "Together, these studies suggest that <em>spaceflight</em> results in a decrease in the levels of innate <em>immune</em>",
+       "<em>alsda</em>     <em>cgene</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "PXD005823",
+     "_score": 11.697973,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "cell culture",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Riccardo",
+       "Middle Initials": "",
+       "Last Name": "Zenezini Chiozzi"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       ""
+      ],
+      "Data Source Type": "ebi_pride",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "",
+      "Study Assay Technology Platform": "LTQ Orbitrap Elite",
+      "Authoritative Source URL": "PXD005823",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1501066800,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens (Human)"
+      ],
+      "Accession": "PXD005823",
+      "Study Assay Technology Type": "",
+      "Study Title": "Comparative proteomic analysis and bioluminescent reporter gene assays to investigate effects of  simulated microgravity on Caco-2 cells",
+      "Study Protocol Type": "",
+      "Project Type": "",
+      "Study Funding Agency": "",
+      "Study Factor Type": [],
+      "Factor Value": [],
+      "Study Description": "Microgravity is one of the most important features in spaceflight. Previous evidence has shown that significant changes  to the musculoskeletal and immune systems occurred under microgravity. The present study was undertaken to explore the change in protein abundance in human colon colorectal cells that were incubated for 48 or 72 h either in normal conditions and \u00b5G simulated conditions. The comparative proteomic method based on the 18O labeling technique was applied to investigate the up-regulated proteins and down-regulated proteins in SH-SY5Y under simulated microgravity.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       "Homo sapiens (Human)"
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "PXD005823"
+     },
+     "highlight": {
+      "all": [
+       "<em>ebi_pride</em>",
+       "Microgravity is one of the most important features in <em>spaceflight</em>.",
+       "Previous evidence has shown that significant changes  to the musculoskeletal and <em>immune</em> systems occurred"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "_Zo84ZoBX9xVY69XslRR",
+     "_score": 11.693737,
+     "_source": {
+      "Authoritative Source URL": "OSD-943/",
+      "Flight Program": "",
+      "Mission": {
+       "End Date": "4/25/22",
+       "Start Date": "4/8/22",
+       "Name": "AX-1"
+      },
+      "Material Type": "Whole Blood",
+      "Project Identifier": "Microgravity Pain (Ax-1)",
+      "Accession": "OSD-943",
+      "Identifiers": "GLDS-771",
+      "Study Identifier": "OSD-943",
+      "Study Protocol Name": "Treatment protocol     sample collection     DNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection",
+      "Study Assay Technology Type": "DNA microarray",
+      "Acknowledgments": "We thank all participants of this study and the Axiom team for their support and expertise.",
+      "Study Assay Technology Platform": "Illumina",
+      "Study Person": {
+       "Last Name": "Ao Parisien Cata Montagna Vigouroux Oliveira Fernandes de Araujo Karaky Ingelmo Diatchenko",
+       "Middle Initials": "",
+       "First Name": "Xiang Marc Juan P Francesca Marie Lorenna Mohamad Pablo Luda"
+      },
+      "Study Protocol Type": "sample treatment protocol     sample collection     DNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection",
+      "Space Program": "",
+      "Study Title": "Longitudinal transcriptomic and epigenetic analysis in astronauts reveals dynamic immune response to spaceflight [DNA methylation]",
+      "Study Factor Type": "Space Flight     time",
+      "Study Public Release Date": 1753833600.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-943/image",
+      "Study Factor Name": "Spaceflight     Time",
+      "Study Assay Measurement Type": "DNA methylation profiling",
+      "Project Type": "Spaceflight Study",
+      "Factor Value": "",
+      "Data Source Accession": "GSE276323",
+      "Project Title": "",
+      "Study Funding Agency": "Supported by the Canadian Excellence Research Chairs grant CERC09, and the Canadian Institutes of Health Research (CIHR) Grant # 81528 to L. Diatchenko. X.",
+      "Study Protocol Description": "This study was approved by the Institutional Review Board (IRB) of the McGill University Health Center (MUHC: 2022\u20137768), the IRB of the National Aeronautics and Space Administration (NASA STUDY 00000403) by the University of Texas - M.D. Anderson (Reliance Agreement M.D. Anderson - NASA 2021\u2009\u2212\u20091179). All study procedures were conducted according to the guidelines of the Declaration of Helsinki. Participants were astronauts of the Axiom Space\u2019s AX-1, launched on April 8, 2022, at 11:17 AM ET and splashed down on April 25, 2022, at 1:06 PM ET. The astronauts effectively remained in orbit for seventeen days and completed 240 orbits. Two crew members, healthy male astronauts (participant ID: Axiom1 and Axiom2), agreed to participate, and the final informed consent forms were signed in March 2022.     Written consent was obtained from the two male astronauts to collect peripheral venous whole blood samples using PAXgene blood RNA tubes (Qiagen, Maryland, United States) and PAXgene blood DNA tubes within two weeks before departure (pre-flight T0, i.e. within two weeks before April 8, 2022), within 24 h after landing (post-flight T2, i.e. within 24 h after April 25, 2022), and within three months after landing (post-flight T3, i.e. 3 months follow-up after April 25, 2022), centrifuged at 1300 G, room temperature for 10 min. Plasma was aliquoted into dedicated cryotubes and stored at \u2212\u200980 C until further processing.     The genomic DNA was extracted using the PAXgene Blood DNA Kit (Qiagen) following the manufacturer\u2019s instructions. Then the DNA samples were quantified using Nanodrop 2000 Spectrophotometer (Thermo Fisher Scientific Inc, Waltham, US) by measuring absorbance at 260 nm. Next, the purity of the DNA was determined by calculating the absorbance ratio of A260/A280, which varied between 1.82 and 1.83. Finally, the DNA samples were aliquoted and stored at \u221220 C, and one aliquot of each sample was sent to Genome Quebec Innovation Center (GQIC, Montreal, Canada) for methylation assay.     Standard Illumina Protocol. Labeled with Cy3 and Cy5.     Bisulphite converted DNA was amplified, fragmented, precipitate, resuspended and hybridised to Illumina Infinium Human MethylationEPIC Beadchip using standard Illumina protocol.     Arrays were imaged using Illumina iScan system.",
+      "Experiment Platform": "",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "Ao X  Parisien M  Cata JP  Montagna F  Vigouroux M  Oliveira Fernandes de Araujo L  Karaky M  Ingelmo P  Diatchenko L.",
+      "Project Link": "",
+      "Study Publication Title": "Longitudinal transcriptomic and epigenetic analysis of the blood in two astronauts.",
+      "Managing NASA Center": "",
+      "Study Description": "The space industry has made significant strides, leading to an era of commercial spaceflight. Meanwhile, understanding molecular responses to spaceflight is crucial for astronauts' safety. To this end, we examined transcriptomic and epigenetic changes in two astronauts' blood samples at three timepoints: two weeks before spaceflight (T0), 24\u00a0hours after spaceflight (T2), and three months after spaceflight (T3). Transcriptomic analysis identified two gene clusters with opposing transient expression trends post-flight (T2), normalized at T3: one upregulated and the other downregulated. Mapped immune cell types through the CIBERSORT coupled with the pathway analysis suggested monocytes' role in coordinated cellular response. Epigenetic analysis identified four methylation patterns with transient and persistent changes post-flight, enriched in nervous system development and cell apoptosis pathways. Methylation changes implicated genes associated with bone disorders, including FBLIM1, IHH, and SCAMP2. eQTM analysis suggested a link between RNA transcriptional level and DNA methylation through transcriptional regulator ZNF684. In conclusion, our study revealed significant short-term transcriptional and methylation changes as well as long-term methylation changes. This study hosts the DNA methylation dataset. RNAseq dataset can be found in OSD-903.",
+      "organism": "Homo sapiens",
+      "Data Source Type": "cgene",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "Longitudinal transcriptomic and epigenetic analysis in astronauts reveals dynamic <em>immune</em> response to",
+       "<em>Spaceflight</em>     Time",
+       "<em>Spaceflight</em> Study",
+       "Mapped <em>immune</em> cell types through the CIBERSORT coupled with the pathway analysis suggested monocytes'",
+       "<em>cgene</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "JX5gJpoB9PxE3kqaDvcg",
+     "_score": 11.693737,
+     "_source": {
+      "Authoritative Source URL": "OSD-903/",
+      "Flight Program": "",
+      "Mission": {
+       "End Date": "04/25/2022",
+       "Start Date": "04/08/2022",
+       "Name": "AX-1"
+      },
+      "Material Type": "Whole Blood",
+      "Project Identifier": "Microgravity Pain (Ax-1)",
+      "Accession": "OSD-903",
+      "Identifiers": "GLDS-732",
+      "Study Identifier": "OSD-903",
+      "Study Protocol Name": "Treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing",
+      "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+      "Acknowledgments": "We thank all participants of this study and the Axiom team for their support and expertise.",
+      "Study Assay Technology Platform": "Illumina",
+      "Study Person": {
+       "Last Name": "Ao Parisien Cata Montagna Vigouroux Oliveira Fernandes de Araujo Karaky Ingelmo Diatchenko",
+       "Middle Initials": "",
+       "First Name": "Xiang Marc Juan P Francesca Marie Lorenna Mohamad Pablo Luda"
+      },
+      "Study Protocol Type": "sample treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing",
+      "Space Program": "",
+      "Study Title": "Longitudinal transcriptomic and epigenetic analysis in astronauts reveals dynamic immune response to spaceflight [RNA-seq]",
+      "Study Factor Type": "time     Space Flight",
+      "Study Public Release Date": 1753833600.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-903/image",
+      "Study Factor Name": "Time     Spaceflight",
+      "Study Assay Measurement Type": "transcription profiling",
+      "Project Type": "Spaceflight Study",
+      "Factor Value": "",
+      "Data Source Accession": "GSE276490",
+      "Project Title": "",
+      "Study Funding Agency": "Supported by the Canadian Excellence Research Chairs grant CERC09, and the Canadian Institutes of Health Research (CIHR) Grant # 81528 to L. Diatchenko. X.",
+      "Study Protocol Description": "This study was approved by the Institutional Review Board (IRB) of the McGill University Health Center (MUHC: 2022\u20137768), the IRB of the National Aeronautics and Space Administration (NASA STUDY 00000403) by the University of Texas - M.D. Anderson (Reliance Agreement M.D. Anderson - NASA 2021\u2009\u2212\u20091179). All study procedures were conducted according to the guidelines of the Declaration of Helsinki. Participants were astronauts of the Axiom Space\u2019s AX-1, launched on April 8, 2022, at 11:17 AM ET and splashed down on April 25, 2022, at 1:06 PM ET. The astronauts effectively remained in orbit for seventeen days and completed 240 orbits. Two crew members, healthy male astronauts (participant ID: Axiom1 and Axiom2), agreed to participate, and the final informed consent forms were signed in March 2022.     Written consent was obtained from the two male astronauts to collect peripheral venous whole blood samples using PAXgene blood RNA tubes (Qiagen, Maryland, United States) and PAXgene blood DNA tubes within two weeks before departure (pre-flight T0, i.e. within two weeks before April 8, 2022), within 24 h after landing (post-flight T2, i.e. within 24 h after April 25, 2022), and within three months after landing (post-flight T3, i.e. 3 months follow-up after April 25, 2022), centrifuged at 1300 G, room temperature for 10 min. Plasma was aliquoted into dedicated cryotubes and stored at \u2212\u200980 C until further processing.     Blood samples were collected at MD Anderson, Houston, TX, anonymized, then shipped to Canada at McGill University. RNA extraction was performed using the PAXgene Blood RNA kit and a corresponding protocol (Qiagen, Maryland, US). The isolated RNA was then stored in Eppendorf tubes (Eppendorf AG, Hamburg, Germany) at \u221280 C until they were sent to Genome Quebec Innovation Center (GQIC, Montreal, Canada) for quality control (QC) and deep-sequencing. RNA QC was done by Nanodrop (Thermo Fisher Scientific Inc, Waltham, US) and Bioanalyzer (Agilent Technologies Inc, Santa Clara, US).     Illumina Stranded mRNA Prep Kit was used to generate libraries.     Total RNA then was deep-sequenced on an Illumina NovaSeq 6000 (Illumina Inc, San Diego, US), using reads of length 101 nucleotides in a paired-end fashion, for a total of 202 nucleotides per RNA fragment.",
+      "Experiment Platform": "",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "Ao X  Parisien M  Cata JP  Montagna F  Vigouroux M  Oliveira Fernandes de Araujo L  Karaky M  Ingelmo P  Diatchenko L.",
+      "Project Link": "",
+      "Study Publication Title": "Longitudinal transcriptomic and epigenetic analysis of the blood in two astronauts.",
+      "Managing NASA Center": "",
+      "Study Description": "The space industry has made significant strides, leading to an era of commercial spaceflight. Meanwhile, understanding molecular responses to spaceflight is crucial for astronauts' safety. To this end, we examined transcriptomic and epigenetic changes in two astronauts' blood samples at three timepoints: two weeks before spaceflight (T0), 24\u00a0hours after spaceflight (T2), and three months after spaceflight (T3). Transcriptomic analysis identified two gene clusters with opposing transient expression trends post-flight (T2), normalized at T3: one upregulated and the other downregulated. Mapped immune cell types through the CIBERSORT coupled with the pathway analysis suggested monocytes' role in coordinated cellular response. Epigenetic analysis identified four methylation patterns with transient and persistent changes post-flight, enriched in nervous system development and cell apoptosis pathways. Methylation changes implicated genes associated with bone disorders, including FBLIM1, IHH, and SCAMP2. eQTM analysis suggested a link between RNA transcriptional level and DNA methylation through transcriptional regulator ZNF684. In conclusion, our study revealed significant short-term transcriptional and methylation changes as well as long-term methylation changes. This study hosts the RNAseq dataset. DNA methylation dataset can be found in OSD-943.",
+      "organism": "Homo sapiens",
+      "Data Source Type": "cgene",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "Longitudinal transcriptomic and epigenetic analysis in astronauts reveals dynamic <em>immune</em> response to",
+       "<em>spaceflight</em> [RNA-seq]",
+       "Time     <em>Spaceflight</em>",
+       "<em>Spaceflight</em> Study",
+       "<em>cgene</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "bXTleY8BcirjsmJn7V2V",
+     "_score": 11.324366,
+     "_source": {
+      "Authoritative Source URL": "OSD-575/",
+      "Flight Program": "",
+      "Mission": {
+       "End Date": "09/18/2021",
+       "Start Date": "09/16/2021",
+       "Name": "SpaceX Inspiration4"
+      },
+      "Material Type": "Serum",
+      "Project Identifier": "Inspiration4 Crew",
+      "Accession": "OSD-575",
+      "Identifiers": "LSDS-8     GLDS-579",
+      "Study Identifier": "OSD-575",
+      "Study Protocol Name": "ALSDA Transformed Data     Sample Preparation - Alamar Biosciences     Assay Information - Alamar Biosciences     Sample Preparation - Immune HD71     Assay Information - Immune HD71     Sample Preparation - Cardiovascular HDCVD9     Assay Information - Cardiovascular HDCVD9     Treatment Protocol     sample collection     Comprehensive Metabolic Panel",
+      "Study Assay Technology Type": "Multiplex     Multiplex     Multiplex     Comprehensive Metabolic Panel",
+      "Acknowledgments": "Thanks to the WorldQuant Foundation, NASA , the National Institutes of Health (R01MH117406, P01CA214274 R01CA249054), the LLS (MCL7001-18, LLS 9238-16), and the GI Research Foundation (GIRF).",
+      "Study Assay Technology Platform": "Eve Technologies Panel HDCVD9     Eve Technologies Panel HD71     Alamar Biosciences     Quest Diagnostics",
+      "Study Person": {
+       "Last Name": "Mason Overbey Grigorev Nelson",
+       "Middle Initials": "E G M",
+       "First Name": "Christopher Eliah Kirill Theodore"
+      },
+      "Study Protocol Type": "data transformation     Sample Preparation     Assay Information     Sample Preparation     Assay Information     Sample Preparation     Assay Information     Treatment Protocol     sample collection     Comprehensive Metabolic Panel",
+      "Space Program": "",
+      "Study Title": "SpaceX Inspiration4 Blood Serum Metabolic Panel and Immune/Cardiac Cytokine Arrays (Comprehensive Metabolic Panel and Multiplex)",
+      "Study Factor Type": "time     Space Flight",
+      "Study Public Release Date": 1715644800.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-575/image",
+      "Study Factor Name": "Time     Spaceflight",
+      "Study Assay Measurement Type": "Immunoassay     Immunoassay     Immunoassay     Analytical Chemistry",
+      "Project Type": "Spaceflight Study",
+      "Factor Value": "",
+      "Data Source Accession": "",
+      "Project Title": "",
+      "Study Funding Agency": "Funding provided by NASA, NIH, and philanthropic donations NNX14AH50G, NNX17AB26G, 80NSSC22K0254, NNH18ZTT001N-FG2, NNX16AO69A",
+      "Study Protocol Description": "To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining.     Frozen serum aliquots were shipped to Alamar Biosciences (Fremont, CA).     The NULISA-seq Inflammation Panel was performed, which targets 124 cytokines/chemokines and 80 other proteins related to immune response. NGS data were processed using the NULISAseq algorithm (Alamar Biosciences). The sample- (SMI) and target-specific (TMI) barcodes were quantified, and up to two mismatching bases or one indel and one mismatch were allowed. Intraplate normalization was performed by dividing the target counts for each sample well by that well\u2019s internal control (mCherry) counts. Interplate normalization was performed using interplate control (IPC) normalization, in which counts were divided by target-specific medians of the three IPC wells on that plate, and then rescaled by the factor 10^4. To facilitate statistical analyses, IPC-normalized counts were log2-transformed to form a more normal distribution. These log2 IPC-normalized counts are referred to as NULISA Protein Quantification (NPQ) units. Methods for data processing and normalization were extracted from Feng et al 2023 (https://www.biorxiv.org/content/10.1101/2023.04.09.536130v2.full.pdf).     Frozen serum samples were submitted to Eve Technologies (Calgary, Canada) for biomarker profiling.     The biomarker profiling panel Human Cytokine/Chemokine 71-Plex Discovery Assay\u00ae Array (HD71) was used. Concentration values were extrapolated using a 4 of 5 parameter logic standard curve. Measurements were normalized by average of pre-flight values from all crew.     Frozen serum samples were submitted to Eve Technologies (Calgary, Canada) for biomarker profiling.     The biomarker profiling panel Human Cardiovascular Disease Panel 3 9-Plex Discovery Assay\u00ae Array (HDCVD9) was used. Concentration values were extrapolated using a 4 of 5 parameter logic standard curve. Measurements were normalized by average of pre-flight values from all crew.     All subjects were consented at an informed consent briefing (ICB) at SpaceX (Hawthorne, CA), and samples were collected and processed under the approval of the Institutional Review Board (IRB) at Weill Cornell Medicine, under Protocol 21-05023569. All crew members have consented for data and sample sharing. We analyzed samples before and after a 3-day mission to space.     Serum separator tubes (SSTs, BD Biosciences:  367987) were spun at 1300xg for 10 minutes. Fresh serum was sent at room temperature to Quest Diagnostics for a comprehensive metabolic panel (CMP). The remaining serum was frozen at -80C.     Fresh serum was submitted to Quest Diagnostics (test code 10231) and run on a Beckman Coulter AU5800.",
+      "Experiment Platform": "",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "Eliah G. Overbey  Braden T. Tierney  JangKeun Kim  Kirill Grigorev  Jiwoon Park  Nadia Houerbi  Sebastian Garcia Medina  Cem Meydan  Namita Damle  Deena Najjar  Evan E. Afshin  Krista A. Ryon  Karolina Sienkiewicz  Laura Patras  Remi Klotz  Veronica Ortiz  Matthew MacKay  Annalise Schweickart  Maria A. Sierra  Ezequiel Dantas  Theodore Nelson  Egle Cekanaviciute  Gabriel Deards  Jonathan Foox  S. Anand Narayanan  Caleb M. Schmidt  Michael A. Schmidt  Julian C. Schmidt  Sean Mullane  Seth Stravers Tigchelaar  Steven Levitte  Craig Westover  Chandrima Bhattacharya  Serena Lucotti  Daniel J. Butler  Doru Paul  Christopher Mozsary  Lauren M. Sanders  Lynn E. Taylor  Chintan O. Patel  Sharib A. Khan  Mir Suhail  Syed G. Byhaqui  Burhan Aslam  Aaron S Gajadhar  Lucy Williamson  Purvi Tandel  Qiu Yang  Jessica Chu  Ryan Benz  Asim Siddiqui  Daniel Hornburg  Kelly Blease  Juan Moreno  Andrew Boddicker  Junhua Zhao  Bryan Lajoie  Ryan T. Scott  Andrew Altomare  Semyon Kruglyak  Shawn Levy  Briana M. Hudson  Aric Rininger  Sarah E. Church  Afshin Beheshti  George M. Church  Scott M. Smith  Brian E. Crucian  Sara R. Zwart  Francine Garrett-Bakelman  Jan Krumsiek  Qiuying Chen  Dawson Miller  Steven Gross  Kelly L. Bolton  Susan M. Bailey  Richard Granstein  Ari M. Melnick  Bader Shirah  Sylvain V. Costes  Irina Matei  David C. Lyden  Min Yu  Anil S. Menon  Jaime Mateus  Christopher E. Mason     Eliah G. Overbey  Krista Ryon  JangKeun Kim  Braden Tierney  Remi Klotz  Veronica Ortiz  Sean Mullane  Julian C. Schmidt  Matthew MacKay  Namita Damle  Deena Najjar  Irina Matei  Laura Patras  J. Sebastian Garcia Medina  Ashley Kleinman  Jeremy Wain Hirschberg  Jacqueline Proszynski  S. Anand Narayanan  Caleb M. Schmidt  Evan E. Afshin  Lucinda Innes  Mateo Mejia Saldarriaga  Michael A. Schmidt  Richard D. Granstein  Bader Shirah  Min Yu  David Lyden  Jaime Mateus  Christopher E. Mason     Eliah G. Overbey  Krista A. Ryon  JangKeun Kim  Christopher E. Mason",
+      "Project Link": "",
+      "Study Publication Title": "The Space Omics and Medical Atlas (SOMA) and international astronaut biobank     Collection of Biospecimens from the Inspiration4 Mission Establishes the Standards for the Space Omics and Medical Atlas (SOMA)     CAMbank: SST Field Processing v1",
+      "Managing NASA Center": "",
+      "Study Description": "The SpaceX Inspiration4 mission was a 3-day mission with four private astronauts to low Earth orbit that occurred in September 2021. The crew collected biospecimen samples before, during, and after flight. One of these biospecimen collections included whole blood collected via venipuncture, with serum extracted from blood using a serum separator tube (SST). Samples were collected pre-flight (L-92, L-44, L-3) and post-flight (R+1, R+45, R+82). Serum samples were submitted for immune and cardiovascular cytokine biomarker profiling panels at two different companies (Eve Technologies and Alamar), and to Quest Diagnostics for comprehensive metabolic panel testing. Data was used to measure changes in cytokines and metabolic measures during spaceflight. This study derives results from the Comprehensive Metabolic Panel and Multiplex assays, and the blood serum data in this study are related to other studies using data from the same experiment; OSD-569 (whole blood), OSD-570 (peripheral blood mononuclear cells), OSD-571 (plasma), OSD-572 (skin, oral, and nasal swabs),  OSD-573 (Dragon capsule samples), OSD-574 (skin biopsy), OSD-656 (urine), and OSD-630 (stool).",
+      "organism": "Homo sapiens",
+      "Data Source Type": "alsda",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "Sample Preparation - <em>Immune</em> HD71     Assay Information - <em>Immune</em> HD71     Sample Preparation - Cardiovascular",
+       "Time     <em>Spaceflight</em>",
+       "<em>Spaceflight</em> Study",
+       "Data was used to measure changes in cytokines and metabolic measures during <em>spaceflight</em>.",
+       "<em>alsda</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "it_6g4QB28eYt3lGObYj",
+     "_score": 11.25047,
+     "_source": {
+      "Authoritative Source URL": "OSD-278/",
+      "Flight Program": "International Space Station (ISS)",
+      "Mission": {
+       "End Date": "02/11/2015",
+       "Start Date": "01/10/2015",
+       "Name": "SpaceX-5"
+      },
+      "Material Type": "Whole Organism",
+      "Project Identifier": "FFL01",
+      "Accession": "OSD-278",
+      "Identifiers": "GLDS-278",
+      "Study Identifier": "OSD-278",
+      "Study Protocol Name": "growth protocol     treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol",
+      "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+      "Acknowledgments": "We would like to thank Matthew Lera (M.L.), Amy Gresser (A.G.) and Kevin Martin (K.M.) for spaceflight project support",
+      "Study Assay Technology Platform": "Illumina",
+      "Study Person": {
+       "Last Name": "Gilbert Torres Clemens Hateley Hosamani Wade Bhattacharya",
+       "Middle Initials": "",
+       "First Name": "Rachel Medaya Rachel Shannon Ravikumar William Sharmila"
+      },
+      "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     data transformation     data transformation",
+      "Space Program": "NASA",
+      "Study Title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+      "Study Factor Type": "Space Flight     infection",
+      "Study Public Release Date": 1569628800.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-278/image",
+      "Study Factor Name": "Spaceflight     Infection",
+      "Study Assay Measurement Type": "transcription profiling",
+      "Project Type": "Spaceflight Study",
+      "Factor Value": "",
+      "Data Source Accession": "GSE138116",
+      "Project Title": "",
+      "Study Funding Agency": "NASA\u2019s Space Life and Physical Sciences Research Program (SLPSRA) for the following grants to S.B.: NNX13AN38G and NNX15AB42G",
+      "Study Protocol Description": "The hardware used in this study was the FIT (Fly Immunity and Tumors) cassette and changeout platform, as described in our previous Drosophila experiments on the ISS. Food trays were prepared using the methods described below, and stored in a cargo transfer bag (CTB) at 4\u2009C for launch. Serratia marcescens Db11 was obtained from the University of Minnesota C. elegans stock center. To prepare for the spaceflight experiment, the Db11 strain was grown for 20\u2009h in liquid LB broth with 100\u2009 ug/mL streptomycin at 37\u2009C and then diluted to an OD600 of 0.100 in PBS. Next, 100\u2009 uL of the diluent was spread onto the surface of two trays containing 2\u2009mL of solid semi-defined fly food media containing 4% Brewer\u2019s yeast (Redstar), 6% glucose, 3% sucrose, 2% yeast extract, 2% peptone, 1% agar, 0.05% magnesium sulfate heptahydrate, 0.05% calcium chloride dihydrate (Sigma), 0.5% of blue food dye (Smart and Final), 0.001% p-hydroxybenzoate, and 0.6% of propionic acid (Sigma) dissolved in water. Similarly, we prepared two additional trays (Ground 1 and Ground 2) from the same source sample. These two trays were grown in the same FIT hardware on the ground, inside an incubator (Percival model DR36VL), which was programmed to match the gas composition, temperature, and humidity profiles measured during the flight. After preparing the bacterial sample trays for flight, they were placed into plastic bags and stored at 4\u2009C, then sent to the ISS on SpaceX CRS-5. Control trays were stored on the ground at 4\u2009C.     Towards the end of the 30 day spaceflight (Fruit Fly Lab \u2013 01 on SpaceX-CRS 5 mission), the food trays containing S. marcescens were retrieved from 4\u2009C storage and placed within the FIT food changeout platform. The platform was placed in a canvas CTB at ISS ambient temperature (23\u201325\u2009C) for 5 days, plus 2 days in the SpaceX Dragon (22\u201325\u2009C) for undocking/descent and retrieval. During the growth period, environmental data (CO2, O2, temperature, and relative humidity) was recorded and used to match the growth conditions for ground control experiments. Flies were cultivated at 25C and 50% relative humidity on standard fly food with 12 hour light-dark cycles. To generate synchronized 2 to 3 day old F1 flies, adult flies were allowed to lay for 48 hours in a bottle, then parent flies were discarded, and the bottles with eggs were allowed to grow into adult flies at 25C. Flies were collected on day 2 and allowed to mature for 24 hours after collection before injections of the bacteria samples. Injections of bacteria were performed according to methods described previously by our group and others.     RNA was extracted from live flies 18 hours post-injection.     RNA was extracted using the Qiagen RNeasy Mini Kit with 2-mercaptoethanol added in triplicate from 2 pooled adult (2-3 day old female) Drosophila melanogaster (w1118) per treatment, with 4 total treatment groups (no injection control, sham injection with PBS, ground bacteria-injected, and space bacteria-injected)\nindexed, polyA+ RNA libraries were prepared for sequencing using standard Illumina protocols at the Vincent J. Coates Genomics Sequencing Laboratory at UC Berkeley     polyA+ RNA libraries were prepared for sequencing using standard Illumina protocols at the Vincent J. Coates Genomics Sequencing Laboratory at UC Berkeley.     Samples were sequenced on the Illumina HiSeq 4000 platform with 100bp reads and paired-end library prep.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.12.1 and reports were combined with MultiQC v1.26. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of D-melanogaster rRNA sequences retrieved from NCBI on 13-May-2024.     Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.0.2 (https://github.com/nasa/GeneLab_RNASeq_Workflow/tree/NF_RCP_2.0.2). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Drosophila Melanogaster STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly BDGP6 (Drosophila_melanogaster.BDGP6.46.dna.toplevel.fa) and the following gtf annotation file: Drosophila_melanogaster.BDGP6.46.112.gtf. Trimmed reads were aligned to the Drosophila Melanogaster STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to forward and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0) and normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Dm.eg.db (version 3.19.1).",
+      "Experiment Platform": "FIT (Fly Immunity and Tumors) cassette and changeout platform",
+      "Characteristics": "",
+      "Study Grant Number": "NNX13AN38G and NNX15AB42G.",
+      "Study Publication Author List": "Rachel Gilbert  Medaya Torres  Rachel Clemens  Shannon Hateley  Ravikumar Hosamani  William Wade  and Sharmila Bhattacharya",
+      "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13623",
+      "Study Publication Title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Study Description": "While it has been shown that astronauts suffer immune disorders after spaceflight, the underlying causes are still poorly understood and there are many variables to consider when investigating the immune system in a complex environment. Additionally, there is growing evidence that suggests that not only is the immune system being altered, but the pathogens that infect the host are significantly influenced by spaceflight and ground-based spaceflight conditions. In this study, we demonstrate that Serratia marcescens (strain Db11) was significantly more lethal to Drosophila melanogaster after growth on the International Space Station than ground-based controls, but that the host immune system is not significantly altered amongst known immune genes. High-throughput sequencing of wild-type (w1118) adult hosts infected with either space or ground-reared S. marcescens revealed few changes in gene expression, with 11 genes significantly differentially expressed (q-values  less than 0.05) and only one gene related to the immune system. This data supports the main findings of the paper, which state that both spaceflight and low-shear modeled microgravity conditions increase the virulence of this pathogen, independent of the host immune system. This data, which shows that there are no significant immune-related changes to the host when infected with space-grown sample compared to ground-grown sample, provides further evidence that there are likely phenotypic changes to the pathogen itself that is causing increased virulence in spaceflight and in low-shear modeled microgravity. RNA was extracted in triplicate from 2 pooled adult (2-3 day old female) Drosophila melanogaster (w1118) per treatment, with 4 total treatment groups (no injection control, sham injection with PBS, ground bacteria-injected, and space bacteria-injected) with poly(A)+ RNA libraries. Samples were multiplexed and sequenced 100bp paired-end ready were sequenced on one lane of the Illumina HiSeq-4000.",
+      "organism": "Drosophila melanogaster",
+      "Data Source Type": "cgene",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "<em>Spaceflight</em>     Infection",
+       "<em>Spaceflight</em> Study",
+       "While it has been shown that astronauts suffer <em>immune</em> disorders after <em>spaceflight</em>, the underlying causes",
+       "<em>spaceflight</em> conditions.",
+       "<em>cgene</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE54213",
+     "_score": 10.652298,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Meskerem",
+       "Middle Initials": "",
+       "Last Name": "Jibitu"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL6480"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Stacy,A,Miller Meskerem,,Jibitu Rasha,,Hammamieh Aarti,,Gautam Allison,,Hoke Marti,,Jett Nabarun,,Chakraborty Seid,,Muhie",
+      "Study Assay Technology Platform": "GPL6480",
+      "Authoritative Source URL": "GSE54213",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1391601600,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE54213",
+      "Study Assay Technology Type": "",
+      "Study Title": "Immune responses to the in vitro LPS assault engineered in the spaceflight multi-omics study",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": " Present study though compromised by the small sample size was able to shade lights on several aspects of immunological responses to the endotoxic assault mediated by \u03bcG. Implementing the host-pathogen interactions in the spaceflight and subsequently lysing the cells onboard presented the critical distinguishing features of the present study from the past reports. Microgravity alters the immune response to in vitro LPS assault engineered in spaceflight: A multi-omics study Microgravity can facilitate creation of a potent environment for opportunistic infection by augmenting virulence and suppressing the host defense. Presumably, extraterrestrial infection may trigger potentially novel bionetworks different from the terrestrial equivalent, which could only be probed by investigating the host-pathogen relationship with minimum terrestrial bias. Towards this objective, we strategically engineered a cell culture module equipped with a feedback controlled semi-automated platform to expose human endothelial cells to lipopolysaccharide (LPS). The assay was carried out in the STS-135 space shuttle, and a concurrent ground study constituted the baseline. Transcriptomic investigation revealed an immune blunting in microgravity; Lbp, MyD88 and MD-2 failed to encode proteins responsible for early LPS uptake. Longer exposure results implied that there was a delayed response, potentially ineffectual in preventing pathogens from opportunistically modulating the infection network. Lack of recruitment of growth factors and a debilitated apoptosome supported this potential explanation. Certain cytokines, such as IL-6 and IL-8, surged in response to LPS insult in microgravity. Contrasting expressions of B2M, TIMP-1 and VEGRs suggested impaired pro-survival adaptation and healing mechanisms. The susceptibility of oxidative stress and immune regulation to microgravity compelled further investigation of the respective microRNA modulators such as miR-200a and miR-146b. These miRNAs were expressed differently in response to LPS assaults in different gravitational limits. In conclusion, despite a serious drawback attributed to the small sample size, we delineated some of the important aspects of the extraterrestrial etiology; more comprehensive follow up studies are warranted.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE54213"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "<em>Immune</em> responses to the in vitro LPS assault engineered in the <em>spaceflight</em> multi-omics study",
+       "Implementing the host-pathogen interactions in the <em>spaceflight</em> and subsequently lysing the cells onboard",
+       "Microgravity alters the <em>immune</em> response to in vitro LPS assault engineered in <em>spaceflight</em>: A multi-omics",
+       "Transcriptomic investigation revealed an <em>immune</em> blunting in microgravity; Lbp, MyD88 and MD-2 failed"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "7N_6g4QB28eYt3lGLbUw",
+     "_score": 10.436605,
+     "_source": {
+      "Space Program": "NASA, DoD Space Test Program",
+      "Flight Program": "Space Transportation System (STS)",
+      "Study Assay Measurement Type": "transcription profiling",
+      "Study Protocol Description": "Human dermal microvascular endothelial cells (HMVEC-dBL) (Lonza, VA) were maintained in EGM-2MV growth medium (Lonza, VA) containing growth factors, antimicrobials, cytokines and 5% FBS (all purchased from Lonza, VA) at 37 C in a humidified atmosphere containing 5% CO2.     Exposures of 100 g/ml LPS for 4 hr and 8 hr.     The absorbed dose from ionizing radiation received by the flight specimens was estimated using TLD passive dosimeters located in the middeck of the space shuttle, where the payload was located. More specifically, we computed the average between three dosimeters (DLOC1, DLOC2, and DLOC3) for the mission and we divided it by the total duration of the mission to estimate the average absorbed dose rate in mGy/day. This dose rate did not include any shielding effects from the hardware where the specimens resided. The total absorbed dose in water was then computed by simply multiplying the average dose rate with the duration of the experiment. The duration of the experiment was defined as the time in space during which the specimen was \u201cliving\u201d. Once the specimen was frozen or fixed, the experiment was considered stopped. A table with these detailed computations for all space shuttle datasets is available on GeneLab at https://genelab.nasa.gov/environmental/radiation. The ground samples were not assessed for radiation exposure.     We extracted mRNA and miRNA from the RLT solution using the AllPrep DNA/RNA extraction kit (Qiagen, MD) and from the TrizolTM portion following the manufacturer's protocols.     We labeled 12.5 ng amplified RNA and the same amount of reference RNA with Cy-5 and Cy-3 dyes, respectively.     Samples were hybridized to Agilent-014850 4x44K slides and incubated for 16 h at 55 C. A protocol with a series of washes was carried out.     The slides were scanned using Agilent Technologies Scanner G2505C US09493743 and feature extracted (software v. 10.7, Agilent, Inc, CA).     We processed the microarray mRNA data set by heuristic statistical manipulations accompanied by a systematic selection and rejection scheme. We performed pair-wise moderated t-test (p less than 0.01), a recommended routine for small sample size enabling to deliver maximum confidence in the analyses. ID_REF equals  VALUE equals Normalized Cy5/Cy3 signal (p greater than 0.05 from the assay background)",
+      "Material Type": "Cells     reference RNA",
+      "Study Identifier": "OSD-54",
+      "Study Person": {
+       "First Name": "Meskerem Marti Rasha Allison Seid Nabarun Aarti Stacy",
+       "Middle Initials": " A",
+       "Last Name": "Jibitu Jett Hammamieh Hoke Muhie Chakraborty Gautam Miller"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "Data Source Type": "cgene",
+      "Mission": {
+       "Start Date": "8-Jul-11",
+       "End Date": "21-Jul-11",
+       "Name": "STS-135"
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "Cell Culture Module (CCM)",
+      "Study Factor Name": "Spaceflight     Treatment     Time",
+      "Study Publication Author List": "Chakraborty N  Gautam A  Muhie S  Miller SA  Jett M  Hammamieh R.",
+      "Study Assay Technology Platform": "Agilent",
+      "Authoritative Source URL": "OSD-54/",
+      "Project Identifier": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-54/image",
+      "Project Title": "",
+      "Study Public Release Date": 0,
+      "Project Link": "",
+      "Study Publication Title": "An integrated omics analysis: impact of microgravity on host response to lipopolysaccharide in vitro",
+      "organism": "Homo sapiens",
+      "Accession": "OSD-54",
+      "Study Assay Technology Type": "DNA microarray",
+      "Study Title": "Immune responses to the in vitro LPS assault engineered in the spaceflight multi-omics study",
+      "Study Protocol Type": "growth protocol     sample treatment protocol     radiation dosimetry protocol     nucleic acid extraction protocol     labelling protocol     hybridization protocol     array scanning protocol     normalization data transformation protocol",
+      "Project Type": "Spaceflight Study",
+      "Study Funding Agency": "U.S. Dept. of Defense, NASA",
+      "Study Factor Type": "Space Flight     treatment     time",
+      "Factor Value": "",
+      "Study Description": "Microgravity alters the immune response to in vitro LPS assault engineered in spaceflight: A multi-omics study Microgravity can facilitate creation of a potent environment for opportunistic infection by augmenting virulence and suppressing the host defense. Presumably, extraterrestrial infection may trigger potentially novel bionetworks different from the terrestrial equivalent, which could only be probed by investigating the host-pathogen relationship with minimum terrestrial bias. Towards this objective, we strategically engineered a cell culture module equipped with a feedback controlled semi-automated platform to expose human endothelial cells to lipopolysaccharide (LPS). The assay was carried out in the STS-135 space shuttle, and a concurrent ground study constituted the baseline. Transcriptomic investigation revealed an immune blunting in microgravity; Lbp, MyD88 and MD-2 failed to encode proteins responsible for early LPS uptake. Longer exposure results implied that there was a delayed response, potentially ineffectual in preventing pathogens from opportunistically modulating the infection network. Lack of recruitment of growth factors and a debilitated apoptosome supported this potential explanation. Certain cytokines, such as IL-6 and IL-8, surged in response to LPS insult in microgravity. Contrasting expressions of B2M, TIMP-1 and VEGRs suggested impaired pro-survival adaptation and healing mechanisms. The susceptibility of oxidative stress and immune regulation to microgravity compelled further investigation of the respective microRNA modulators such as miR-200a and miR-146b. These miRNAs were expressed differently in response to LPS assaults in different gravitational limits. In conclusion, despite a serious drawback attributed to the small sample size, we delineated some of the important aspects of the extraterrestrial etiology; more comprehensive follow up studies are warranted. Present study though compromised by the small sample size was able to shade lights on several aspects of immunological responses to the endotoxic assault mediated by uG. Implementing the host-pathogen interactions in the spaceflight and subsequently lysing the cells onboard presented the critical distinguishing features of the present study from the past reports. We identified the CCM of Tissue Genesis, Inc., HI as the suitable hardware system to carry out the experiment in the spaceflight. CCM is an automated, feedback controlled module that can concurrently support 24 bioreactors following protocols exclusively programmed for individual bioreactor. For this experiment we use samples EA41, EA 47, EA45, and EA155 that were exposed to LPS for 4 hours. Samples EA123, EA165, EA127, EA126 were exposed to LPS for 8Hrs. Samples EA33, EA 125, EA79 and EA 39 were controls in this experiment.",
+      "Study Protocol Name": "P-GSE54213-3     P-GSE54213-2     Radiation Dosimetry     P-GSE54213-4     P-GSE54213-5     P-GSE54213-6     P-GSE54213-7     P-GSE54213-1",
+      "Characteristics": "",
+      "Parameter Value": "",
+      "Identifiers": "GLDS-54",
+      "Data Source Accession": "E-GEOD-54213"
+     },
+     "highlight": {
+      "all": [
+       "<em>cgene</em>",
+       "<em>Spaceflight</em>     Treatment     Time",
+       "<em>Immune</em> responses to the in vitro LPS assault engineered in the <em>spaceflight</em> multi-omics study",
+       "<em>Spaceflight</em> Study",
+       "Microgravity alters the <em>immune</em> response to in vitro LPS assault engineered in <em>spaceflight</em>: A multi-omics"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE18388",
+     "_score": 10.348016,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Ty",
+       "Middle Initials": "W",
+       "Last Name": "Lebsack"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL6246"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Ann,M,Manziello Raphael,,Gruener Ty,W,Lebsack Vuna,,Fa Chris,C,Woods Dominick,,DeLuca",
+      "Study Assay Technology Platform": "GPL6246",
+      "Authoritative Source URL": "GSE18388",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1268222400,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Mus musculus"
+      ],
+      "Accession": "GSE18388",
+      "Study Assay Technology Type": "",
+      "Study Title": "Microarray Analysis of Space-flown Murine Thymus Tissue",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Microarray Analysis of Space-flown Murine Thymus Tissue Reveals Changes in Gene Expression Regulating Stress and Glucocorticoid Receptors. We used microarrays to detail the gene expression of space-flown thymic tissue and identified distinct classes of up-regulated genes during this process. We report here microarray gene expression analysis in young adult C57BL/6NTac mice at 8 weeks of age after exposure to spaceflight aboard the space shuttle (STS-118) for a period of 13 days. Upon conclusion of the mission, thymus lobes were extracted from space flown mice (FLT) as well as age- and sex-matched ground control mice similarly housed in animal enclosure modules (AEM). mRNA was extracted and an automated array analysis for gene expression was performed. Examination of the microarray data revealed 970 individual probes that had a 1.5 fold or greater change. When these data were averaged (n=4), we identified 12 genes that were significantly up- or down-regulated by at least 1.5 fold after spaceflight (p\u22640.05). Together, these data demonstrate that spaceflight induces significant changes in the thymic mRNA expression of genes that regulate stress, glucocorticoid receptor metabolism, and T cell signaling activity. These data explain, in part, the reported systemic compromise of the immune system after exposure to the microgravity of space.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE18388"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "microarray gene expression analysis in young adult C57BL/6NTac mice at 8 weeks of age after exposure to <em>spaceflight</em>",
+       "4), we identified 12 genes that were significantly up- or down-regulated by at least 1.5 fold after <em>spaceflight</em>",
+       "Together, these data demonstrate that <em>spaceflight</em> induces significant changes in the thymic mRNA expression",
+       "These data explain, in part, the reported systemic compromise of the <em>immune</em> system after exposure to"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "bHTleY8BcirjsmJn6l3A",
+     "_score": 10.116882,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "Immunoassay",
+      "Study Protocol Description": "Urine aliquots were thawed and processed immediately.     Urine aliquots were thawed and processed with the NULISAseq 200plex v1 Inflammation Panel (Feng et al.) with two technical replicates (10uL each) per sample. This panel includes 203 targets spanning cytokines, chemokines, and other proteins related to immune response. NGS data were processed using the NULISAseq algorithm (Alamar Biosciences). The sample- (SMI) and target-specific (TMI) barcodes were quantified, and up to two mismatching bases or one indel and one mismatch were allowed. Intraplate normalization was performed by dividing the target counts for each sample well by that well\u2019s internal control (mCherry) counts. Interplate normalization was performed using interplate control (IPC) normalization, in which counts were divided by target-specific medians of the three IPC wells on that plate, and then rescaled by the factor 10^4. To facilitate statistical analyses, IPC-normalized counts were log2-transformed to form a more normal distribution. These log2 IPC-normalized counts are referred to as NULISA Protein Quantification (NPQ) units. Methods for data processing and normalization were extracted from Feng et al 2023 (https://www.biorxiv.org/content/10.1101/2023.04.09.536130v2.full.pdf).     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a reusable template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining.     All subjects were consented at an informed consent briefing (ICB) at SpaceX (Hawthorne, CA), and samples were collected and processed under the approval of the Institutional Review Board (IRB) at Weill Cornell Medicine, under Protocol 21-05023569. All crew members have consented for data and sample sharing. We analyzed samples before and after a 3-day mission to space.     Urine was collected from the Inspiration4 crew into sterile collection cups. Samples were aliquoted in a sterile hood and frozen at -80C. Aliquots were shipped to Alamar Bio (Fremont, CA) for biomarker profiling.",
+      "Material Type": "Urine",
+      "Study Identifier": "OSD-656",
+      "Study Person": {
+       "First Name": "Eliah Christopher",
+       "Middle Initials": "G. E.",
+       "Last Name": "Overbey Mason"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "Thanks to the WorldQuant Foundation, NASA , the National Institutes of Health (R01MH117406, P01CA214274 R01CA249054), the LLS (MCL7001-18, LLS 9238-16), and the GI Research Foundation (GIRF).",
+      "Managing NASA Center": "",
+      "Data Source Type": "alsda",
+      "Mission": {
+       "Start Date": "09/16/2021",
+       "End Date": "09/18/2021",
+       "Name": "SpaceX Inspiration4"
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "Time     Spaceflight",
+      "Study Publication Author List": "Eliah G. Overbey  Braden T. Tierney  JangKeun Kim  Kirill Grigorev  Jiwoon Park  Nadia Houerbi  Sebastian Garcia Medina  Cem Meydan  Namita Damle  Deena Najjar  Evan E. Afshin  Krista A. Ryon  Karolina Sienkiewicz  Laura Patras  Remi Klotz  Veronica Ortiz  Matthew MacKay  Annalise Schweickart  Maria A. Sierra  Ezequiel Dantas  Theodore Nelson  Egle Cekanaviciute  Gabriel Deards  Jonathan Foox  S. Anand Narayanan  Caleb M. Schmidt  Michael A. Schmidt  Julian C. Schmidt  Sean Mullane  Seth Stravers Tigchelaar  Steven Levitte  Craig Westover  Chandrima Bhattacharya  Serena Lucotti  Daniel J. Butler  Doru Paul  Christopher Mozsary  Lauren M. Sanders  Lynn E. Taylor  Chintan O. Patel  Sharib A. Khan  Mir Suhail  Syed G. Byhaqui  Burhan Aslam  Aaron S Gajadhar  Lucy Williamson  Purvi Tandel  Qiu Yang  Jessica Chu  Ryan Benz  Asim Siddiqui  Daniel Hornburg  Kelly Blease  Juan Moreno  Andrew Boddicker  Junhua Zhao  Bryan Lajoie  Ryan T. Scott  Andrew Altomare  Semyon Kruglyak  Shawn Levy  Briana M. Hudson  Aric Rininger  Sarah E. Church  Afshin Beheshti  George M. Church  Scott M. Smith  Brian E. Crucian  Sara R. Zwart  Francine Garrett-Bakelman  Jan Krumsiek  Qiuying Chen  Dawson Miller  Steven Gross  Kelly L. Bolton  Susan M. Bailey  Richard Granstein  Ari M. Melnick  Bader Shirah  Sylvain V. Costes  Irina Matei  David C. Lyden  Min Yu  Anil S. Menon  Jaime Mateus  Christopher E. Mason     Eliah G. Overbey  Krista Ryon  JangKeun Kim  Braden Tierney  Remi Klotz  Veronica Ortiz  Sean Mullane  Julian C. Schmidt  Matthew MacKay  Namita Damle  Deena Najjar  Irina Matei  Laura Patras  J. Sebastian Garcia Medina  Ashley Kleinman  Jeremy Wain Hirschberg  Jacqueline Proszynski  S. Anand Narayanan  Caleb M. Schmidt  Evan E. Afshin  Lucinda Innes  Mateo Mejia Saldarriaga  Michael A. Schmidt  Richard D. Granstein  Bader Shirah  Min Yu  David Lyden  Jaime Mateus  Christopher E. Mason",
+      "Study Assay Technology Platform": "Alamar Biosciences",
+      "Authoritative Source URL": "OSD-656/",
+      "Project Identifier": "Inspiration4 Crew",
+      "thumbnail": "/geode-py/ws/studies/OSD-656/image",
+      "Project Title": "",
+      "Study Public Release Date": 1715644800.0,
+      "Project Link": "",
+      "Study Publication Title": "The Space Omics and Medical Atlas (SOMA) and international astronaut biobank     Collection of Biospecimens from the Inspiration4 Mission Establishes the Standards for the Space Omics and Medical Atlas (SOMA)",
+      "organism": "Homo sapiens",
+      "Accession": "OSD-656",
+      "Study Assay Technology Type": "Multiplex",
+      "Study Title": "SpaceX Inspiration4 Urine Inflammation Panel (Multiplex, NULISAseq)",
+      "Study Protocol Type": "Sample Preparation     Assay Information     data transformation     Treatment protocol     sample collection",
+      "Project Type": "Spaceflight Study",
+      "Study Funding Agency": "Funding provided by NASA, NIH, and philanthropic donations. NNX14AH50G, NNX17AB26G, 80NSSC22K0254, NNH18ZTT001N-FG2, NNX16AO69A.  The National Institutes of Health (R01MH117406, P01CA214274 R01CA249054), the LLS (MCL7001-18, LLS 9238-16).",
+      "Study Factor Type": "time     Space Flight",
+      "Factor Value": "",
+      "Study Description": "The SpaceX Inspiration4 mission was a 3-day mission with four private astronauts to low Earth orbit that occurred in September 2021. The crew collected biospecimen samples before, during, and after flight. One of these biospecimen collections included urine from pre-flight and post-flight/recovery timepoints (L-92, L-44, L-3, R+1, R+45, R+82). 203 inflammatory, cytokine, and chemokine proteins were quantified using NULISAseq. This study derives results from the Multiplex assay, and the urine data in this study are related to other studies using data from the same experiment; OSD-569 (whole blood), OSD-570 (peripheral blood mononuclear cells), OSD-571 (plasma), OSD-572 (skin, oral, and nasal swabs),  OSD-573 (Dragon capsule samples), OSD-574 (skin biopsy), OSD-575 (serum), and OSD-630 (stool).",
+      "Study Protocol Name": "Sample Preparation     Assay Information     ALSDA Transformed Data     Treatment Protocol     sample collection",
+      "Characteristics": "",
+      "Parameter Value": "",
+      "Identifiers": "LSDS-64",
+      "Data Source Accession": ""
+     },
+     "highlight": {
+      "all": [
+       "This panel includes 203 targets spanning cytokines, chemokines, and other proteins related to <em>immune</em>",
+       "<em>alsda</em>",
+       "Time     <em>Spaceflight</em>",
+       "<em>Spaceflight</em> Study",
+       "Sample Preparation     Assay Information     <em>ALSDA</em> Transformed Data     Treatment Protocol     sample"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "qRMubogBuupM187WyTvM",
+     "_score": 9.519916,
+     "_source": {
+      "Authoritative Source URL": "OSD-568/",
+      "Flight Program": "ISS",
+      "Mission": {
+       "End Date": "09/17/2017",
+       "Start Date": "08/14/2017",
+       "Name": "SpaceX-12"
+      },
+      "Material Type": "Left Eye",
+      "Project Identifier": "RR-9",
+      "Accession": "OSD-568",
+      "Identifiers": "GLDS-560     LSDS-5",
+      "Study Identifier": "OSD-568",
+      "Study Protocol Name": "Platform And Sample - PECAM-1 and ZO-1     Quantification of Immunostaining     Labeling Protocol - PECAM-1 Immunostaining     Labeling Protocol - ZO-1 Immunostaining     Platform And Sample - TUNEL Assay     Labeling Protocol - TUNEL Assay     ALSDA Processed Data     Animal Husbandry     Sample Collection",
+      "Study Assay Technology Type": "Microscopy     Microscopy     Microscopy",
+      "Acknowledgments": "The authors would like to acknowledge the LLU Advanced Imaging and Microscopy Core Facility, University of Arkansas Medical Sciences Proteomics Facility, especially Lisa M. Orr and Samuel G. Mackintosh for their technical support, and Arkansas Children\u2019s Research Institute Systems Biology Bioinformatics Core.",
+      "Study Assay Technology Platform": "BZ-X710 Keyance     BZ-X700 Keyence Corp (1)     bz-x700 keyence corp (2)",
+      "Study Person": {
+       "Last Name": "Xiao Nishiyama Byrum Stanbouly Jones Drew Sridharan Boerma Tackett Zawieja Willey Delp Pecaut",
+       "Middle Initials": " C D J S J",
+       "First Name": "Mao Nina Stephanie Seta Tamako Alyson Vijayalakshmi Marjan Alan David Jeffrey Michael Michael"
+      },
+      "Study Protocol Type": "Platform And Sample     Quantitation     Labeling Protocol     Labeling Protocol     Platform And Sample     Labeling Protocol     data transformation     Animal Husbandry     sample collection protocol",
+      "Space Program": "NASA",
+      "Study Title": "Characterization of mouse ocular responses (Microscopy) to a 35-day (RR-9) spaceflight mission: Evidence of blood-retinal barrier disruption and ocular adaptations",
+      "Study Factor Type": "Space Flight",
+      "Study Public Release Date": 1685404800.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-568/image",
+      "Study Factor Name": "Spaceflight",
+      "Study Assay Measurement Type": "Molecular Cellular Imaging     Molecular Cellular Imaging     Molecular Cellular Imaging",
+      "Project Type": "Spaceflight Study",
+      "Factor Value": "",
+      "Data Source Accession": "",
+      "Project Title": "Rodent Research 9 (RR9)  RR9 Retina MicroCT Measurements",
+      "Study Funding Agency": "This study was supported by NASA Space Biology grant # NNX15AB41G, National Institutes of Health grant P20GM121293, UL1TR000039, P20GM103625, S10OD018445 and P20GM103429, NNX15AB50G, and LLU Department of Basic Sciences.",
+      "Study Protocol Description": "Six to 10 field images were captured with a BZ-X700 inverted fluorescence microscope (Keyence Corp.) at 20X magnification spanning the entire retina sections.     For quantitative analysis, numbers of TUNEL positive cells and TUNEL positive endothelial cells were counted separately. The total number of TUNEL-positive nuclear /ganglion cells or endothelial cells in the retina were counted in 5 sections from each eye. The surface of each section was measured on digital microphotographs using ImageJ v1.4 software (available as freeware from National Institutes of Health, Bethesda, MD, USA; http://rsbweb.nih.gov/ij/), and the density profiles were expressed as mean number of apoptotic cells/mm2. The mean of the density profile measurements across 5 retina sections per eye was used as a single experimental value. To determine AQP4, ZO-1 and PECAM immunoreactivity, fluorescence intensity was measured on 6 to 10 randomly selected fields on each section and calculated using ImageJ software. Fluorescence intensities for positive cells (red channel for ZO-1 and PECAM, and green channel for AQP-4) from the areas of interest were measured and data were extracted and averaged across 5 retina sections per eye within the group.  Submitted files include all of the image metadata per image taken. Transformed files include just the averages which correspond to the sample names in OSD-583.     Vasculature was labeled with DyLight\u00ae 488 Lycopersicon Esculentum (Tomato) Lectin (1:100, Vector Laboratories) for 30\u2009minutes at room temperature followed by 10\u2009minutes wash in PBS. Sections were then incubated overnight at 4\u2009\u00b0C with primary rabbit antibodies against CD31/PECAM-1 (1:100) (Novus Biologicals, Centennial, CO) in antibody dilution buffer (0.25% BSA, 0.25% Triton X-100 in PBS). After 3 washes in PBS, sections were incubated for 1.5\u2009hours with secondary antibody goat anti-rabbit IgG Alexa Fluor\u00ae 568 (1:1000 in antibody dilution buffer; Life Technologies) followed by PBS washes. The cell nuclei were counterstained with DAPI solution (1\u2009\u00b5g/ml in PBS; Life Technologies) washed in PBS and coverslipped with Vectashield\u00ae HardSet mounting medium (Vector Laboratories).     Vasculature was labeled with DyLight\u00ae 488 Lycopersicon Esculentum (Tomato) Lectin (1:100, Vector Laboratories) for 30\u2009minutes at room temperature followed by 10\u2009minutes wash in PBS. Sections were then incubated overnight at 4\u2009\u00b0C with primary rabbit antibodies against ZO-1 (1:50) (Thermo Fisher Scientific, Hampton, NH) in antibody dilution buffer (0.25% BSA, 0.25% Triton X-100 in PBS). After 3 washes in PBS, sections were incubated for 1.5\u2009hours with secondary antibody goat anti-rabbit IgG Alexa Fluor\u00ae 568 (1:1000 in antibody dilution buffer; Life Technologies) followed by PBS washes. The cell nuclei were counterstained with DAPI solution (1\u2009\u00b5g/ml in PBS; Life Technologies) washed in PBS and coverslipped with Vectashield\u00ae HardSet mounting medium (Vector Laboratories).     Six to 10 field images were examined using a BZ-X710 All-in-One inverted fluorescence microscope with structural illumination (Keyence Corp., Elmwood Park, NJ) at 20X magnification spanning the entire retina per section.     The ocular sections were evaluated using the TUNEL assay according to standard procedures. Data were obtained for 6 ocular samples of each group. Briefly, six \u03bcm paraffin embedded sections were processed using DeadEnd\u2122 Fluorometric TUNEL system kit (Catalog No. G3250, Promega Corp., Madison, WI, USA) The same sections were then incubated with DyLight 594 Lycopersicon esculantum-Lectin (Vector Laboratories, Burlingame, CA, USA) to stain the endothelium. Nuclei were counterstained with diamidino-2-phenylindole (DAPI, blue, Life Technologies, Eugene, Oregon). Six to 10 field images were examined using a BZ-X710 All-in-One inverted fluorescence microscope with structural illumination (Keyence Corp., Elmwood Park, NJ) at 20X magnification spanning the entire retina per section.     To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with a Molecular Cellular Imaging (Microscopy) template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all microscopy results to be identically structured for efficient data mining.     On August 14, 2017, SpaceX successfully launched the 12th Commercial Resupply Service (CRS-12) payload at the Kennedy Space Center (KSC) which included 10-week-old male C57BL/6 mice (n equals 20) (Jackson laboratories, Inc. Bar harbor, ME) for NASA\u2019s ninth Rodent Research experiment (RR-9). The mice lived in NASA\u2019s Rodent Habitats (RH) aboard ISS for 35 days before returning to Earth via SpaceX\u2019s Dragon capsule. All mice were maintained at an ambient temperature of 26\u201328 \u00b0C with a 12-h light/dark cycle during the flight. GC mice were placed into the same housing hardware used in flight, and environmental parameters such as temperature and carbon dioxide (CO2) levels were kept equivalent to that of FLT mice based on 48 h delayed telemetry data. GC mice were fed the same reformulated rodent food bar diet approved by NASA as the space flown mice. Consumption of food and water was monitored daily throughout this study. Animal experiments were approved by the Institutional Animal Care and Use Committee (IACUC) of Loma Linda University (LLU) and The National Aeronautics and Space Administration (NASA) and activities involving vertebrate animals are carried out in strict accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health (NIH). Due to Hurricane Irma\u2019s impact on KSC in September, 2017, experiments with both GC and GV control groups were cancelled and later rescheduled for May, 2018, using mice of the same strain, sex, age and animals were from the same holding room from the vendor that were used for the flight experiments. This resulted in a large time gap between tissue collection for the flight and KSC ground control groups. Consequently, the FV cohort-matched control group was added to the study to help control for possible differences associated with this delay. Tissue collection with the FV group were conducted several days after studies with the FLT animals were concluded.     Post-flight evaluation of the mice. Upon return to the Earth, mice were transported to LLU within 28 hours of splashdown. At LLU, animals were removed from the animal enclosure hardware and assessed for survival and health. The inspecting personnel reported that all the mice survived the 35-day space mission and were in good condition, i.e. no obvious deficiencies/abnormalities. Within 38 +/\u2212 4 hours of splashdown, mice were euthanized. The mice were rapidly euthanized in 100% CO2. The left eyes were fixed in 4% paraformaldehyde in phosphate buffered saline (PBS) for immunohistochemistry (IHC; microscopy) assays.",
+      "Experiment Platform": "Rodent Habitat",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "Mao Xiao W.  Nishiyama Nina C.  Byrum Stephanie D.  Stanbouly Seta  Jones Tamako  Drew Alyson  Sridharan Vijayalakshmi  Boerma Marjan  Tackett Alan J.  Zawieja David  Willey Jeffrey S.  Delp Michael  Pecaut Michael J.",
+      "Project Link": "https://nlsp.nasa.gov/view/lsdapub/lsda_experiment/f30954b4-0ed9-5d25-896d-5eed500682d4  https://osdr.nasa.gov/bio/repo/data/experiments/OS-140",
+      "Study Publication Title": "Characterization of mouse ocular response to a 35-day spaceflight mission: Evidence of blood-retinal barrier disruption and ocular adaptations",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Study Description": "The health risks associated with spaceflight-induced ocular structural and functional damage has become a recent concern for NASA. The goal of the present study was to characterize the effects of spaceflight and reentry to 1 g on the structure and integrity of the retina and blood-retinal barrier (BRB) in the eye. To investigate possible mechanisms, changes in protein expression profiles were examined in mouse ocular tissue after spaceflight. Ten week old male C57BL/6 mice were launched to the International Space Station (ISS) on Space-X 12 at the Kennedy Space Center (KSC) on August, 2017. After a 35-day mission, mice were returned to Earth alive. Within 38 +/\u2212 4 hours of splashdown, mice were euthanized and ocular tissues were collected for analysis. Ground control (GC) and vivarium control mice were maintained on Earth in flight hardware or normal vivarium cages respectively. Repeated intraocular pressure (IOP) measurements were performed before the flight launch and re-measured before the mice were euthanized after splashdown. IOP was significantly lower in post-flight measurements compared to that of pre-flight (14.4\u201319.3 mmHg vs 16.3\u201320.3 mmHg) (p less than 0.05) for the left eye. Flight group had significant apoptosis in the retina and retinal vascular endothelial cells compared to control groups (p less than 0.05). Immunohistochemical analysis of the retina revealed that an increased expression of aquaporin-4 (AQP-4) in the flight mice compared to controls gave strong indication of disturbance of BRB integrity. There were also a significant increase in the expression of platelet endothelial cell adhesion molecule-1 (PECAM-1) and a decrease in the expression of the BRB-related tight junction protein, Zonula occludens-1 (ZO-1). Proteomic analysis showed that many key proteins and pathways responsible for cell death, cell cycle, immune response, mitochondrial function and metabolic stress were significantly altered in the flight mice compared to ground control animals. These data indicate a complex cellular response that may alter retina structure and BRB integrity following long-term spaceflight.  This dataset derives results from Molecular Cellular Imaging (Microscopy) assay.",
+      "organism": "Mus musculus",
+      "Data Source Type": "alsda",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "- ZO-1 Immunostaining     Platform And Sample - TUNEL Assay     Labeling Protocol - TUNEL Assay     <em>ALSDA</em>",
+       "<em>Spaceflight</em>",
+       "<em>Spaceflight</em> Study",
+       "Proteomic analysis showed that many key proteins and pathways responsible for cell death, cell cycle, <em>immune</em>",
+       "<em>alsda</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "qd_6g4QB28eYt3lGPLYP",
+     "_score": 9.284595,
+     "_source": {
+      "Authoritative Source URL": "OSD-323/",
+      "Flight Program": "NASA",
+      "Mission": {
+       "End Date": "4/20/10",
+       "Start Date": "4/5/10",
+       "Name": "STS-131"
+      },
+      "Material Type": "Cells",
+      "Project Identifier": "Immune-STL",
+      "Accession": "OSD-323",
+      "Identifiers": "GLDS-323",
+      "Study Identifier": "OSD-323",
+      "Study Protocol Name": "Growth Protocol     Treatment Protocol     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Analysis Data Transformation     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol",
+      "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+      "Acknowledgments": "",
+      "Study Assay Technology Platform": "Illumina",
+      "Study Person": {
+       "Last Name": "Barrila Nickerson Ott Sarker Hansmeier Yang Buss Briones Park David Forsyth Sato Kosnik Yang Shimoda Rayl Ly Landenberger Wilson Yamazaki Steel Montano Halden Cannon Castro-Wallace",
+       "Middle Initials": " Anne F. R J. C D. U. L.",
+       "First Name": "Jennifer Cheryl C. Mark Shameema Nicole Shanshan Kristina Natalia Jin Richard Rebecca Kevin Cristine Anthony Cheryl Nicole Diana Aaron Stephanie Naoko Jason Camila Rolf Tom Sarah"
+      },
+      "Study Protocol Type": "Growth Protocol     Treatment Protocol     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     Sequence Analysis Data Transformation     data transformation     data transformation",
+      "Space Program": "Space Transportation System (Shuttle)",
+      "Study Title": "Evaluating the effect of spaceflight on the host-pathogen interaction between human intestinal epithelial cells and Salmonella Typhimurium",
+      "Study Factor Type": "Space Flight     infection",
+      "Study Public Release Date": 1614038400.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-323/image",
+      "Study Factor Name": "Spaceflight     Infection",
+      "Study Assay Measurement Type": "transcription profiling",
+      "Project Type": "Spaceflight Study",
+      "Factor Value": "",
+      "Data Source Accession": "",
+      "Project Title": "Space Tissue Loss Innate Mammalian Mechanisms Universal Novel Expressions (STL-IMMUNE) (ARC00XX45)",
+      "Study Funding Agency": "This work was funded by NASA grants NNX09AH40G (C.A.N., C.M.O., J.B.) and 80NSSC18K1478 (C.A.N., C.M.O., and J.B.; includes NASA PECASE funding to J.B.)",
+      "Study Protocol Description": "HT-29 cells were seeded into collagen-coated hollow fiber bioreactors at Kennedy Space Center at a concentration of 1x10^6 CFU. Cells were cultured using GTSF-2 medium. Wild Type Salmonella Typhimurium strain chi3339 (an animal-passaged derivative of wild type SL1344) was prepared from overnight cultures in Dulbecco's Phosphate Buffered Saline (DPBS) stasis buffer at a final concentration of ~1x10^7 CFU/mL. Prepared S. Typhimurium was loaded in to gas permeable FEP bags designated for a subset of the bioreactors. The RNA fixative RNAlater II (40 mL) was separately loaded into FEP bags (one per bioreactor). All bioreactors, bacteria bags and fixative bags were integrated into the Cell Culture Module (CCM) flight hardware, which was then sealed, powered and set to 37C and 5% CO2. The CCM was turned over to the KSC integration team at L-18 hours. STL-IMMUNE launched aboard Space Shuttle Discovery (STS-131) on April 5, 2010 at 6:21 am. At approximately L+3 hours, astronauts activated the on orbit programming of the CCM.     On Mission Elapsed Day 11, a subset of the HT-29 cultures were infected with ~1x10^7 CFU wild type S. Typhimurium (estimated multiplicity of infection/m.o.i. of ~1-10). The remaining cultures served as time-matched uninfected controls. Six hours post-infection, all cultures were fixed in RNAlater II.     RNA was extracted from duplicate samples using the miRNeasy kit (Qiagen).  All samples were analyzed in biological duplicate (two separate bioreactors), except for the infected spaceflight sample which was analyzed in technical duplicate from the same bioreactor. Samples were lysed with 700 ul Qiazol (Qiagen), vortexed extensively and passed several times through a 25G needle. After a 5-minute static incubation at room temperature with intermittent vortexing, samples were added to MaXtract High Density tubes (Qiagen) together with 100 ul RNase-free water (Qiagen) and 200 ul chloroform (Sigma-Aldrich). Samples were then processed (including on-column DNase-treatment) according to the manufacturer's instructions. RNA was quantified using a Nanodrop spectrophotometer and the integrity validated using an Agilent Bioanalyzer 2100 to confirm a RIN of 7 or greater for all samples. One of the uninfected ground control samples (CN122) had a RIN of 6.4.     RNA was fragmented with heat and magnesium to roughly 300 bp using the KAPA HyperPrep RNA-seq kit (Roche). The KAPA Hyper RNA-seq kit and Illumina-compatible adapters (IDT) were used for the remaining library construction. Adapter ligated molecules were cleaned using Kapa pure beads (Kapa Biosciences), amplified with Kapa HIFI enzyme. Each library was then analyzed for fragment size on an Agilent's Tapestation and quantified by qPCR (KAPA Library Quantification Kit) on Quantstudio 5 (Thermo Fisher Scientific).     Libraries were then multiplexed and sequenced on 2x151 flow cell on the NovaSeq platform (Illumina) at University of Colorado Anschutz Medical Campus Genomics and Microarray Core.     bcl2fastq v2.17.1.14 used for basecalling STAR v2.5.1b used for alignment Cufflinks v2.2.1 was used to report FPKM values (Fragments Per Kilobase of transcript per Million mapped reads) and read counts. TPM (Transcripts Per Million) was calculated by an in-house R script. Human: GRCh38.p7 primary assembly; Bacteria: S. Typhimurium LT2 genome     Raw fastq files from each sample were assessed for % rRNA using HTStream SeqScreener (version 1.3.2) screened against a fasta file of Homo sapiens rRNA sequences retrieved from NCBI on Sep-2021. Raw fastq file quality was evaluated with FastQC (version 0.12.1) and MultiQC (version 1.26) was used to generate MultiQC reports.     Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.1.0 (https://github.com/nasa/GeneLab_RNASeq_Workflow/tree/NF_RCP_2.1.0). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports.\u00caHomo Sapiens\u00caSTAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly GRCh38 (Homo_sapiens.GRCh38.dna.primary_assembly.fa) and the following gtf annotation file: Homo_sapiens.GRCh38.112.gtf. Trimmed reads were aligned to the\u00caHomo Sapiens\u00caSTAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0) and normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. For samples with technical replicates, only the first replicate was used for count normalization and differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Hs.eg.db (version 3.19.1).",
+      "Experiment Platform": "Cell Culture Module (CCM)",
+      "Characteristics": "",
+      "Study Grant Number": "NNX09AH40G  80NSSC18K1478",
+      "Study Publication Author List": "Barrila Jennifer  Sarker Shameema F.  Hansmeier Nicole  Yang Shanshan  Buss Kristina  Briones Natalia  Park Jin  Davis Richard R.  Forsyth Rebecca J.  Ott C. Mark  Sato Kevin  Kosnik Cristine  Yang Anthony  Shimoda Cheryl  Rayl Nicole  Ly Diana  Landenberger Aaron  Wilson Stephanie D.  Yamazaki Naoko  Steel Jason  Montano Camila  Halden Rolf U.  Cannon Tom  Castro-Wallace Sarah L.  Nickerson Cheryl A.",
+      "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/1716",
+      "Study Publication Title": "Evaluating the effect of spaceflight on the host\u00e2\u20ac\u201cpathogen interaction between human intestinal epithelial cells and Salmonella Typhimurium",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Study Description": "Spaceflight uniquely alters the physiology of both human cells and microbial pathogens, stimulating cellular and molecular changes directly relevant to infectious disease. However, the influence of this environment on host-pathogen interactions remains poorly understood. Here we report our results from the STL-IMMUNE study flown aboard Space Shuttle mission STS-131, which investigated multi-omic responses (transcriptomic, proteomic) of human intestinal epithelial cells to infection with Salmonella Typhimurium when both host and pathogen were simultaneously exposed to spaceflight. To our knowledge, this was the first in-flight infection and dual RNA-seq analysis using human cells. Additionally, it is the first global transcriptomic and proteomic profiling of human intestinal epithelial cultures during spaceflight (either infected or uninfected).",
+      "organism": "Homo sapiens",
+      "Data Source Type": "cgene",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "<em>Immune</em>-STL",
+       "<em>Spaceflight</em>     Infection",
+       "<em>Spaceflight</em> Study",
+       "STL-<em>IMMUNE</em> launched aboard Space Shuttle Discovery (STS-131) on April 5, 2010 at 6:21 am.",
+       "<em>cgene</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "hd_6g4QB28eYt3lGOLbY",
+     "_score": 9.274775,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "International Space Station (ISS)",
+      "Study Assay Measurement Type": "transcription profiling",
+      "Study Protocol Description": "This longitudinal study was carried out in accordance with the recommendations from the ethical standards of the appropriate institutional and national committees and with the World Medical Association Helsinki Declaration of 1975 (revised in 2008). The protocol (study name: IMMUNO) for cosmonauts was evaluated by the Russian Ethical Board (Biomedicine Ethics Committee) at the Institute of Biomedical Problems (IBMP), Moscow, and was awarded the protocol number MBI-29. The protocol was also approved by the ESA Medical Board and the Russian Space Agency (Roscosmos). The local Ethical Committee of Ludwig-Maximilian University (LMU), Munich, approved the protocol for the control group (protocol numbers 025/02 and 269-15). All subjects gave written informed consent after being informed of the aim and objectives of the project. Blood samples were collected from five male cosmonauts with a median age of 48 \u00b1 2 (IQR, interquartile range) years (ranging from 39-54 years) who were assigned to a long-term spaceflight mission (ranging from 124 to 186 days) on the ISS. Two of these cosmonauts (COS2 and COS3) took part in the same expedition. Blood collection occurred at six time points. Sample collection on the ground was performed at the Gagarin Cosmonaut Training Center near Moscow or at the DLR training facility in Cologne, Germany, or at the Johnson Space Center (JSC) at NASA, Houston, Texas. Baseline data collection occurred 25 days before flight (L-25, n = 5). Inflight sam- plings occurred after 64 \u00b1 11 (F+64, n = 4) and 129 \u00b1 20 (F+129, n = 3) days spent on the ISS (indicated values are means \u00b1 the standard deviation). Postflight sampling occurredondays1(R+1,n=5), 7(R+7,n=5) and 30 (R+30, n = 3) after landing. A control group of four males with a median age of 41 \u00b1 4 (IQR) years (ranging from 36 to 46 years) was selected according to the following criteria: (a) adult, (b) male, (c) age >35 years, (d) no systemic pathology, and (e) not receiving any daily medication. Blood samples were collected from these volunteers at T0 and T+8 months. On-ground-collected blood samples were immediately stored at \u221280C. Onboard the ISS, blood and saliva samples were stored frozen inside the MELFI freezer at \u2212100C. Frozen samples return to Earth and to the investigators' laboratories was performed according to standard ESA protocols.     Total RNA was extracted from 300 uL of whole blood using the Nucleospin RNA blood kit (Macherey Nagel, Hoerdt, France).     Whole blood RNA was reverse transcribed using random primers, RNaseOUT and MML-V reverse transcriptase (Invitrogen, Cergy Pontoise, France) following the instructions of the LymphoTrack IGH Somatic Hypermutation MiSeq kit (InvivoScribe, San Diego, CA, USA). Then, 2.5 uL of cDNA prepared from each blood sample was mixed with 22.5 uL of IGH master mix provided in the kit (this master mix contains primers, with Illumina adapters, annealing to the leader and joining regions of IgM cDNAs thereby allowing the amplification of IgM cDNA 5'-ends) and 0.1 uL of Taq Gold DNA polymerase (Invitrogen, Cergy Pontoise, France). These mixtures were subjected to the following cycling protocol: 7 minutes at 95C followed by 35 cycles of 45 seconds at 95C, 45 seconds at 60C, 1 minute 30 seconds at 72C, and finally, 10 minute at 72C. The quantities and sizes of the amplification products were validated using the Agilent High Sensitivity DNA assay (Agilent, Santa Clara, USA).     High-throughput sequencing of libraries was conducted using the MiSeq Illumina apparatus of UMS2008 from Lorraine University (Vandoeuvre-les-Nancy, France) using Illumina's standard protocol.",
+      "Material Type": "Whole blood",
+      "Study Identifier": "OSD-316",
+      "Study Person": {
+       "First Name": "Jean-Pol",
+       "Middle Initials": "",
+       "Last Name": "Frippiat"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "Data Source Type": "cgene",
+      "Mission": {
+       "Start Date": "",
+       "End Date": "",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "Spaceflight     Study Subject     Time",
+      "Study Publication Author List": "Judith-Irina Buchheim  Stephanie Ghislin  Nassima Ouzren  Eliane Albuisson  Anne Vanet  Sandra Matzel  Sergey Ponomarev  Marina Rykova  Alexander Chouker  Jean-Pol Frippiat",
+      "Study Assay Technology Platform": "Illumina MiSeq",
+      "Authoritative Source URL": "OSD-316/",
+      "Project Identifier": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-316/image",
+      "Project Title": "",
+      "Study Public Release Date": 1590451200.0,
+      "Project Link": "",
+      "Study Publication Title": "Plasticity of the human IgM repertoire in response to long-term spaceflight",
+      "organism": "Homo sapiens",
+      "Accession": "OSD-316",
+      "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+      "Study Title": "Plasticity of the human IgM repertoire in response to a long-term spaceflight",
+      "Study Protocol Type": "treatment protocol     nucleic acid extraction     library construction     nucleic acid sequencing",
+      "Project Type": "Spaceflight Study",
+      "Study Funding Agency": "",
+      "Study Factor Type": "Space Flight     Study Subject     time",
+      "Factor Value": "",
+      "Study Description": "Immune dysregulation is among the main adverse outcomes of spaceflight. Despite its crucial role in host protection, effects on the human antibody repertoire are unknown. Consequently, we examined the IgM repertoire of five cosmonauts 25 days before launch, after 64 and 129 days spent on the International Space Station (ISS), and after 1, 7 and 30 days of Earth reambulation using high-throughput sequencing. This is the first study of this kind. Our data revealed that the IgM repertoire of cosmonauts was different from the one of control subjects already prior to launch, and that 2 out the 5 analyzed cosmonauts presented significant changes of their IgM repertoire during the mission. These modifications persisted up to 30 days after landing, likely affected the specificities of IgM binding sites, correlated with changes of the V(D)J recombination process in charge of creating functional antibody genes, and coincided with a higher stress response. These data confirm that about half of the astronauts who spent six months on the ISS are subjected to immunological changes, contribute to explain increased susceptibility to infection, reveal individual responses and consequently that personalized approaches should be implemented during future deep-space exploration missions that will endure for an unprecedented amount of time.",
+      "Study Protocol Name": "treatment protocol     nucleic acid extraction     library construction     nucleic acid sequencing",
+      "Characteristics": "",
+      "Parameter Value": "",
+      "Identifiers": "GLDS-316",
+      "Data Source Accession": "PRJNA627324"
+     },
+     "highlight": {
+      "all": [
+       "<em>cgene</em>",
+       "<em>Spaceflight</em>     Study Subject     Time",
+       "Plasticity of the human IgM repertoire in response to long-term <em>spaceflight</em>",
+       "<em>Spaceflight</em> Study",
+       "<em>Immune</em> dysregulation is among the main adverse outcomes of <em>spaceflight</em>."
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE53196",
+     "_score": 9.231605,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Michael",
+       "Middle Initials": "",
+       "Last Name": "George"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL1322"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Michael,D,George",
+      "Study Assay Technology Platform": "GPL1322",
+      "Authoritative Source URL": "GSE53196",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1386763200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Drosophila melanogaster"
+      ],
+      "Accession": "GSE53196",
+      "Study Assay Technology Type": "",
+      "Study Title": "Expression data from drosophila melanogaster",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Microarrays were used to characterize changes in gene expression that occur in response to infection by bacteria and fungus in drosophila that were either hatched and raised in outer space (microgravity) or on earth (normal gravity). Space travel presents unlimited opportunities for exploration and discovery, but requires a more complete understanding of the immunological consequences of long-term exposure to the conditions of spaceflight. To understand these consequences better and to contribute to design of effective countermeasures, we used the Drosophila model to compare innate immune responses to bacteria and fungi in flies that were either raised on earth or in outer space aboard the NASA Space Shuttle Discovery (STS-121).",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE53196"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "complete understanding of the immunological consequences of long-term exposure to the conditions of <em>spaceflight</em>",
+       "to contribute to design of effective countermeasures, we used the Drosophila model to compare innate <em>immune</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "Pt_6g4QB28eYt3lGM7ZG",
+     "_score": 9.022338,
+     "_source": {
+      "Space Program": "ESA",
+      "Flight Program": "International Space Station (ISS)",
+      "Study Assay Measurement Type": "transcription profiling",
+      "Study Protocol Description": "SPHINX was launched with Progress 40P and, as soon as docking was complete (four days after launch, T0), the experiment was started inside a KUBIC incubator on the ISS. Timeline: T0: installation in KUBIK; T0 + 7 hrs: first medium exchange; T0 + 91 hrs: second medium exchange; T0 + 167 hrs: third medium exchange with PBS. The experiment was stopped by means of two subsequent RNAlater fixations separated by an interval of six minutes. After the experiment had been completed, the samples were kept at 6\u00b0C inside the KUBIK incubator before being returned to Earth on Soyuz 23S. Twelve control experiments were carried out in parallel using the same hardware and experimental protocol.     Samples were preserved in RNAlater and mantained at 6\u00b0C before analyses     HUVEC, preserved in RNAlater solution, were subjected to total RNA extraction following the double extraction protocol: RNA isolation by acid guanidinium thiocyanate-phenol-chloroform extraction (Trizol Invitrogen) followed by a Qiagen RNeasy clean-up procedure.     Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 150 ug total RNA     Hybridization was performed using the GeneChip Hybridization, Wash and Stain Kit. GeneChip cartridges were washed and stained with GeneChip Hybridization, Wash and Stain Kit in the Affymetrix Fluidics Station 450 following the FS450_0007 standard protocol     GeneChip arrays were scanned using an Affymetrix GeneChip Scanner 3000 7G using default parameters     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Hs.eg.db (version 3.15.0).",
+      "Material Type": "Cells",
+      "Study Identifier": "OSD-52",
+      "Study Person": {
+       "First Name": "Silvia Silvia Giulia Livia Jeanette",
+       "Middle Initials": "",
+       "Last Name": "Bradamante Versari Longinotti Barenghi Maier"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "The authors thank the European Space Research and Technology Centre (ESTEC) Life Science Instrumentation Laboratory, User Support Operation Centre (USOC; Zurich, Switzerland); Thales Alenia Space (Turin, Italy); Kayser Italia (Livorno, Italy); S. P. Korolyov Rocket and Space Corp. Energia (Moscow, Russia); and European Space Agency (ESA) Office (Moscow, Russia) for technical and logistic support.",
+      "Managing NASA Center": "",
+      "Data Source Type": "cgene",
+      "Mission": {
+       "Start Date": "10/08/2010",
+       "End Date": "11/25/2010",
+       "Name": "Expedition 25"
+      },
+      "Study Grant Number": "ESA-ESTEC contract 4200014651  ASI contract I/048/10/0",
+      "Experiment Platform": "Opticell",
+      "Study Factor Name": "Spaceflight",
+      "Study Publication Author List": "Versari S  Longinotti G  Barenghi L  Maier JA  Bradamante S.     Beheshti A  McDonald JT  Miller J  Grabham P  Costes SV",
+      "Study Assay Technology Platform": "Affymetrix",
+      "Authoritative Source URL": "OSD-52/",
+      "Project Identifier": "SPHINX",
+      "thumbnail": "/geode-py/ws/studies/OSD-52/image",
+      "Project Title": "SPaceflight of Huvec: an Integrated Xperiment",
+      "Study Public Release Date": 1358640000.0,
+      "Project Link": "http://eea.spaceflight.esa.int/portal/exp/?id=9246",
+      "Study Publication Title": "The challenging\nenvironment on board the International Space Station affects endothelial cell\nfunction by triggering oxidative stress through thioredoxin interacting protein\noverexpression: the ESA-SPHINX experiment.     GeneLab Database Analyses Suggest Long-Term Impact of Space Radiation on the Cardiovascular System by the Activation of FYN Through Reactive Oxygen Species",
+      "organism": "Homo sapiens",
+      "Accession": "OSD-52",
+      "Study Assay Technology Type": "DNA microarray",
+      "Study Title": "Expression data from SPHINX (SPaceflight of Huvec: an INtegrated eXperiment)",
+      "Study Protocol Type": "grow     specified_biomaterial_action     nucleic_acid_extraction     labeling     hybridization     image_aquisition     data transformation",
+      "Project Type": "Spaceflight Study",
+      "Study Funding Agency": "ESA, ASI",
+      "Study Factor Type": "Space Flight",
+      "Factor Value": "",
+      "Study Description": "Changes in the physical environment modulate cell responses and may lead to the impairment or even failure of tissue function as a result of mechanotransduction processes. It has been suggested that this situation occurs in some age-related diseases and some pathological conditions observed in space, such as cardiovascular deconditioning, bone loss, muscle atrophy, and impaired immune responses. All of these are associated with endothelial dysfunction but the precise mechanism is still unclear. We used the microarray approach to obtain insights into the mechanism responsible for endothelial dysfunction by taking advantage of the challenging environment of gravitational unloading onboard the International Space Station. The effects of gravitational unloading on HUVEC gene expression were investigated by means of cDNA microarray analyses of six randomly chosen samples (three for each of the two conditions of spaceflight and 1g) using Affymetrix Gene Human 1.0 ST Arrays",
+      "Study Protocol Name": "P-GSE43582-3     P-GSE43582-2     P-GSE43582-4     P-GSE43582-5     P-GSE43582-6     P-GSE43582-7     GeneLab microarray data processing protocol",
+      "Characteristics": "",
+      "Parameter Value": "",
+      "Identifiers": "GLDS-52",
+      "Data Source Accession": "E-GEOD-43582"
+     },
+     "highlight": {
+      "all": [
+       "<em>cgene</em>",
+       "<em>Spaceflight</em>",
+       "<em>SPaceflight</em> of Huvec: an Integrated Xperiment",
+       "<em>Spaceflight</em> Study",
+       "conditions observed in space, such as cardiovascular deconditioning, bone loss, muscle atrophy, and impaired <em>immune</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "pRaxKZwBGk-DTvTsdKyz",
+     "_score": 9.008747,
+     "_source": {
+      "Authoritative Source URL": "OSD-924/",
+      "Flight Program": "International Space Station (ISS)",
+      "Mission": {
+       "End Date": "01/14/2019",
+       "Start Date": "12/05/2018",
+       "Name": "SpaceX-16"
+      },
+      "Material Type": "limb muscle",
+      "Project Identifier": "RRRM-1 (RR-8)",
+      "Accession": "OSD-924",
+      "Identifiers": "GLDS-752",
+      "Study Identifier": "OSD-924",
+      "Study Protocol Name": "Animal Husbandry     sample collection     Cell Isolation     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol",
+      "Study Assay Technology Type": "single-cell RNA sequencing",
+      "Acknowledgments": "We thank Charles Chan for his assistance, who unfortunately passed away during the course of the project.",
+      "Study Assay Technology Platform": "Illumina",
+      "Study Person": {
+       "Last Name": "Grandke Keller",
+       "Middle Initials": "",
+       "First Name": "Friederike Andreas"
+      },
+      "Study Protocol Type": "Animal Husbandry     sample collection     Cell Isolation     Library Construction     Nucleic Acid Sequencing     data transformation",
+      "Space Program": "NASA",
+      "Study Title": "Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - limb muscle data",
+      "Study Factor Type": "Space Flight     age",
+      "Study Public Release Date": 1770163200.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-924/image",
+      "Study Factor Name": "Spaceflight     Age",
+      "Study Assay Measurement Type": "transcription profiling",
+      "Project Type": "Spaceflight Study",
+      "Factor Value": "",
+      "Data Source Accession": "GSE295428",
+      "Project Title": "",
+      "Study Funding Agency": "The study was supported by the Saarland State Government (Az: WT/2-LFFP 20/13) and the National Institute for Aging (NIA K99/R00 AG066963). The computational resources used were financed by the DFG (469073465) and the development of the software pipeline was supported by the EU (Project 101057548-EPIVINF).",
+      "Study Protocol Description": "Rodent Research Reference Mission 1 (RRR-1) / Rodent Research-8 (RR-8) consisted of 40 BALB/cAnNTac females (8 used for this study) termed Flight which were sent on 12/5/2018 to the International Space Station (ISS), and a control group of 40 mice remained on Earth, termed Habitat Ground Control (HC). Furthermore, two age groups were used, younger (\u223c3 months) and older (\u223c8 months). All mouse work was completed with approval of the NASA Flight Animal Care and Use Committee (Protocol FLT-18-116). Mice were received following landing at Scripps Research Institute (09-0004, for animal receipt upon landing) and transported to Stanford University IACUC (WYS1591). Flight mice were housed at double density on launch and again during the return to earth. HC mice were housed to match, as closely as possible, conditions experienced by Flight mice. This included double density housing in identical Mouse Habitat Units and Transporters as used by NASA during launch for Flight mice, and matched temperature, humidity, and carbon dioxide levels (elevated on the ISS compared to Earth) based on actual flight environmental monitoring. All mice were adapted to NASA Nutrient Food Bars, four weeks prior to launch, and bars were exchanged weekly. Mice had ad libitum access to both food and water. Mice had ad libitum access to both food and water. During the mission we encountered the following issues, altering the planned experimental design, or that must be considered upon interpretation of results. (1) Within 24h of the planned launch, mold was found on the food bars, affecting both Flight and HGC mice to an unknown degree. It is possible that the mice were able to eat around the mold. The late replacement of the food bars, now secured with double-sided tape instead of epoxy, caused the bars to free-float during launch and return. The bars of the HGC mice fell to the bottom of the cage. Although the Flight mice appeared healthy upon arrival to the ISS, this might have induced additional stress. Due to concerns about mold, as more was discovered aboard the ISS, the ISS Term mice were sacrificed after approximately 3 weeks of microgravity rather than the planned 8 weeks, and ground controls were sacrificed to match this new timeline.(2) Due to poor weather, the return of the Flight LAR mice was delayed and the mice spent 7 instead of the normal 2-3 days in double density housing. This housing is more confined (10 mice per cage side instead of the 5 in the normal habitat), video monitoring was not possible and food bars likely became unsecured and were free-floating. Conditions of the HGC mice were matched to these conditions, likely causing additional stress for both groups. Due to the weather, the Flight group likely experienced rough seas upon splashdown and shipping back to shore, which was not controlled for in the HGC group.     HC mice were shipped to Scripps Institute just prior to the return of the Flight mice so that all mice could be dissected together in matching conditions (+/- 1 day). The mice from the Flight group were returned alive to Earth on 1/14/2019 after 39.5 days on the ISS and collected 2-4 days after splashdown following functional assays at Scripps Research Institute. In this study, fresh organ samples were obtained and immediately processed from 8 live mice that arrived at Stanford University from Scripps Research Institute on 1/16/2019. Two mice each from the following groups were included: Flight 3mo, Flight 8mo, HC 3mo, HC 8mo. All four Flight mice were dissected on 1/16/2019 to minimize time spent outside of microgravity, and all four HC mice dissected on 1/17/2019. LAR mice were anesthetized with gas anesthesia and euthanized by means of cardiac puncture blood draw (exsanguination) and double thoracotomy.     All the tissues were processed as previously described (https://doi.org:10.1038/s41586-020-2496-1). Muscle cells collected from hindlimbs and forelimbs were prepared for FACS isolation as described96. In brief, muscles from each mouse were minced and digested in 10 ml 2 mg/ml collagenase II (Worthington LS004179) at 37 C for 1 hour with agitation followed by a second digestion with 1,000 Units of collagenase II and 11 Units of dispase (Thermo Fisher 17105-041) for 30 minutes. The digested tissues were then passed through a 20-gauge needle to release mononucleated cells. The resulting cell suspension was filtered with a 40 \u00b5m strainer (Falcon cat.\n352340) and pelleted. Cells were then resuspended in 0.5 ml wash medium (Ham's F-10 (Thermo Fisher SH30025.01) supplemented with 10% (vol/vol) horse serum (Invitrogen 16050-122) and 1\u00d7 penicillin-streptomycin (Omega Scientific PS-20)) and stained with 1:1000 CD31-APC (BioLegend 102510), 1:1000 CD45-FITC (BioLegend 103108), 1:250 Ly-6A/E-PB (BioLegend 108120), and 1:100 CD106-PE/Cy7 (BioLegend 105720) at 4C for 30 minutes. Cells were washed once in wash medium before FACS isolation. Cells were sorted into 4 bins: satellite cells (Vcam1+, Sca1-, CD31-, CD45-), mesenchymal progenitors (Sca1+, CD31-, CD45-), endothelial cells CD31+, CD45-), and immune cells (CD45+).     Cells were loaded in each channel with a target output of up to 5,000 cells per sample, though fewer cells were captured for small sample types. scRNA-seq libraries were constructed following the 10x Genomics protocol using the GemCode Single-Cell 3\u2019 Gel Bead and Library v3 Kit. All reactions were performed in a Biorad C1000 Touch Thermal Cycler with a 96-Deep Well Reaction Module. Twelve cycles were used for cDNA amplification and sample index PCR. Amplified cDNA and final libraries were evaluated on a Fragment Analyzer using a High Sensitivity NGS Analysis Kit (Advanced Analytical). Library preparation was performed one organ type at a time, in sets of eight samples. Within each organ set, cDNA was normalized, and 13\u201320 PCR cycles were run depending on cDNA amount. The average fragment length of 10x cDNA libraries was quantified on a Fragment Analyzer (AATI) and by qPCR using the Kapa Library Quantification Kit for Illumina. Each library was diluted to 4 nM, and equal volumes were pooled for each sequencing run.     Sequencing was performed on an Illumina NovaSeq 6000 platform using 100-cycle run kits, with 28 bases for Read 1, 8 bases for Index 1, and 91 bases for Read 2 (Illumina 20012862). A PhiX control library was spiked in at 0.2\u20131%.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of Mus-musculus rRNA sequences retrieved from NCBI on 09-May-2025.",
+      "Experiment Platform": "Rodent Flight Hardware (Transporter and Habitat)",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "",
+      "Project Link": "",
+      "Study Publication Title": "",
+      "Managing NASA Center": "",
+      "Study Description": "Spaceflights significantly impacts astronaut health, causing muscle atrophy, bone loss, cardiovascular deconditioning and immune system dysregulation, especially during long missions. To explore molecular changes, we generated a single-cell RNA sequencing dataset, of 216 samples from 28 mouse organs and tissues under spaceflight and control conditions. Since spaceflight effects closely resemble aspects of aging, we included two age groups (3 and 8 months) to assess age-related influences. Our data revealed that spaceflight drives age-independent systemic changes, primarily affecting tissue remodeling and alterations in cytoskeleton, membrane and extracellular matrix (ECM), particularly in endothelial cells. In contrast, aging has a weaker impact, mainly altering immune regulation in an age-dependent manner. These findings suggest that cytoskeletal and ECM changes may contribute to immune Dysregulation.",
+      "organism": "Mus musculus",
+      "Data Source Type": "cgene",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "<em>Spaceflight</em> induces systemic effects on extracellular matrix and <em>immune</em> system in different age-stages",
+       "<em>Spaceflight</em>     Age",
+       "<em>Spaceflight</em> Study",
+       "These findings suggest that cytoskeletal and ECM changes may contribute to <em>immune</em> Dysregulation.",
+       "<em>cgene</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "pxa9KZwBGk-DTvTsWaxG",
+     "_score": 9.002459,
+     "_source": {
+      "Authoritative Source URL": "OSD-918/",
+      "Flight Program": "International Space Station (ISS)",
+      "Mission": {
+       "End Date": "01/14/2019",
+       "Start Date": "12/05/2018",
+       "Name": "SpaceX-16"
+      },
+      "Material Type": "Blood",
+      "Project Identifier": "RRRM-1 (RR-8)",
+      "Accession": "OSD-918",
+      "Identifiers": "GLDS-746",
+      "Study Identifier": "OSD-918",
+      "Study Protocol Name": "Animal Husbandry     sample collection     Cell Isolation     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol",
+      "Study Assay Technology Type": "single-cell RNA sequencing",
+      "Acknowledgments": "We thank Charles Chan for his assistance, who unfortunately passed away during the course of the project.",
+      "Study Assay Technology Platform": "Illumina",
+      "Study Person": {
+       "Last Name": "Grandke Keller",
+       "Middle Initials": "",
+       "First Name": "Friederike Andread"
+      },
+      "Study Protocol Type": "Animal Husbandry     sample collection     Cell Isolation     Library Construction     Nucleic Acid Sequencing     data transformation",
+      "Space Program": "NASA",
+      "Study Title": "Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Blood data",
+      "Study Factor Type": "Space Flight     age",
+      "Study Public Release Date": 1770163200.0,
+      "Parameter Value": "",
+      "thumbnail": "/geode-py/ws/studies/OSD-918/image",
+      "Study Factor Name": "Spaceflight     Age",
+      "Study Assay Measurement Type": "transcription profiling",
+      "Project Type": "Spaceflight Study",
+      "Factor Value": "",
+      "Data Source Accession": "GSE295428",
+      "Project Title": "",
+      "Study Funding Agency": "The study was supported by the Saarland State Government (Az: WT/2-LFFP 20/13) and the National Institute for Aging (NIA K99/R00 AG066963). The computational resources used were financed by the DFG (469073465) and the development of the software pipeline was supported by the EU (Project 101057548-EPIVINF).",
+      "Study Protocol Description": "Rodent Research Reference Mission 1 (RRR-1) / Rodent Research-8 (RR-8) consisted of 40 BALB/cAnNTac females (8 used for this study) termed Flight which were sent on 12/5/2018 to the International Space Station (ISS), and a control group of 40 mice remained on Earth, termed Habitat Ground Control (HC). Furthermore, two age groups were used, younger (\u223c3 months) and older (\u223c8 months). All mouse work was completed with approval of the NASA Flight Animal Care and Use Committee (Protocol FLT-18-116). Mice were received following landing at Scripps Research Institute (09-0004, for animal receipt upon landing) and transported to Stanford University IACUC (WYS1591). Flight mice were housed at double density on launch and again during the return to earth. HC mice were housed to match, as closely as possible, conditions experienced by Flight mice. This included double density housing in identical Mouse Habitat Units and Transporters as used by NASA during launch for Flight mice, and matched temperature, humidity, and carbon dioxide levels (elevated on the ISS compared to Earth) based on actual flight environmental monitoring. All mice were adapted to NASA Nutrient Food Bars, four weeks prior to launch, and bars were exchanged weekly. Mice had ad libitum access to both food and water. Mice had ad libitum access to both food and water. During the mission we encountered the following issues, altering the planned experimental design, or that must be considered upon interpretation of results. (1) Within 24h of the planned launch, mold was found on the food bars, affecting both Flight and HGC mice to an unknown degree. It is possible that the mice were able to eat around the mold. The late replacement of the food bars, now secured with double-sided tape instead of epoxy, caused the bars to free-float during launch and return. The bars of the HGC mice fell to the bottom of the cage. Although the Flight mice appeared healthy upon arrival to the ISS, this might have induced additional stress. Due to concerns about mold, as more was discovered aboard the ISS, the ISS Term mice were sacrificed after approximately 3 weeks of microgravity rather than the planned 8 weeks, and ground controls were sacrificed to match this new timeline.(2) Due to poor weather, the return of the Flight LAR mice was delayed and the mice spent 7 instead of the normal 2-3 days in double density housing. This housing is more confined (10 mice per cage side instead of the 5 in the normal habitat), video monitoring was not possible and food bars likely became unsecured and were free-floating. Conditions of the HGC mice were matched to these conditions, likely causing additional stress for both groups. Due to the weather, the Flight group likely experienced rough seas upon splashdown and shipping back to shore, which was not controlled for in the HGC group.     HC mice were shipped to Scripps Institute just prior to the return of the Flight mice so that all mice could be dissected together in matching conditions (+/- 1 day). The mice from the Flight group were returned alive to Earth on 1/14/2019 after 39.5 days on the ISS and collected 2-4 days after splashdown following functional assays at Scripps Research Institute. In this study, fresh organ samples were obtained and immediately processed from 8 live mice that arrived at Stanford University from Scripps Research Institute on 1/16/2019. Two mice each from the following groups were included: Flight 3mo, Flight 8mo, HC 3mo, HC 8mo. All four Flight mice were dissected on 1/16/2019 to minimize time spent outside of microgravity, and all four HC mice dissected on 1/17/2019. LAR mice were anesthetized with gas anesthesia and euthanized by means of cardiac puncture blood draw (exsanguination) and double thoracotomy. Peripheral blood samples (0.5 \u2013 1 mL) were collected by cardiac puncture into K2/EDTA-coated syringes and MiniCollect tubes (Greiner Bio-One) immediately after mice were euthanized by CO2 inhalation and cervical dislocation. Red blood cells were depleted with Histopaque-1119 (SigmaAldrich RNBF0417). The cell suspension was then pelleted (300 x g, 4 C, 5 min), filtered through a 70 um strainer, and resuspended in FACS buffer (2% sterile FBS in PBS) with 100 U/mL DNase I (Worthington LS006344) prior to loading cells on a 10x chromium chip.     Single cells were captured in droplet emulsions using the GemCode Single-Cell Instrument (10x Genomics).     Cells were loaded in each channel with a target output of up to 5,000 cells per sample, though fewer cells were captured for small sample types. scRNA-seq libraries were constructed following the 10x Genomics protocol using the GemCode Single-Cell 3\u2019 Gel Bead and Library v3 Kit. All reactions were performed in a Biorad C1000 Touch Thermal Cycler with a 96-Deep Well Reaction Module. Twelve cycles were used for cDNA amplification and sample index PCR. Amplified cDNA and final libraries were evaluated on a Fragment Analyzer using a High Sensitivity NGS Analysis Kit (Advanced Analytical). Library preparation was performed one organ type at a time, in sets of eight samples. Within each organ set, cDNA was normalized, and 13\u201320 PCR cycles were run depending on cDNA amount. The average fragment length of 10x cDNA libraries was quantified on a Fragment Analyzer (AATI) and by qPCR using the Kapa Library Quantification Kit for Illumina. Each library was diluted to 4 nM, and equal volumes were pooled for each sequencing run.     Sequencing was performed on an Illumina NovaSeq 6000 platform using 100-cycle run kits, with 28 bases for Read 1, 8 bases for Index 1, and 91 bases for Read 2 (Illumina 20012862). A PhiX control library was spiked in at 0.2\u20131%.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of Mus-musculus rRNA sequences retrieved from NCBI on 08-Jan-2026.",
+      "Experiment Platform": "Rodent Flight Hardware (Transporter and Habitat)",
+      "Characteristics": "",
+      "Study Grant Number": "",
+      "Study Publication Author List": "",
+      "Project Link": "",
+      "Study Publication Title": "",
+      "Managing NASA Center": "",
+      "Study Description": "Spaceflights significantly impacts astronaut health, causing muscle atrophy, bone loss, cardiovascular deconditioning and immune system dysregulation, especially during long missions. To explore molecular changes, we generated a single-cell RNA sequencing dataset, of 216 samples from 28 mouse organs and tissues under spaceflight and control conditions. Since spaceflight effects closely resemble aspects of aging, we included two age groups (3 and 8 months) to assess age-related influences. Our data revealed that spaceflight drives age-independent systemic changes, primarily affecting tissue remodeling and alterations in cytoskeleton, membrane and extracellular matrix (ECM), particularly in endothelial cells. In contrast, aging has a weaker impact, mainly altering immune regulation in an age-dependent manner. These findings suggest that cytoskeletal and ECM changes may contribute to immune Dysregulation.",
+      "organism": "Mus musculus",
+      "Data Source Type": "cgene",
+      "ESA Acronym": ""
+     },
+     "highlight": {
+      "all": [
+       "<em>Spaceflight</em> induces systemic effects on extracellular matrix and <em>immune</em> system in different age-stages",
+       "<em>Spaceflight</em>     Age",
+       "<em>Spaceflight</em> Study",
+       "These findings suggest that cytoskeletal and ECM changes may contribute to <em>immune</em> Dysregulation.",
+       "<em>cgene</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "GSE43582",
+     "_score": 8.978837,
+     "_source": {
+      "Space Program": "",
+      "Flight Program": "",
+      "Study Assay Measurement Type": "",
+      "Study Protocol Description": "",
+      "Material Type": "",
+      "Study Identifier": "",
+      "Study Person": {
+       "First Name": "Silvia",
+       "Middle Initials": "",
+       "Last Name": "Bradamante"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "",
+      "Managing NASA Center": "",
+      "links": [
+       "GPL6244"
+      ],
+      "Data Source Type": "nih_geo_gse",
+      "Mission": {
+       "Start Date": "0000000000",
+       "End Date": "0000000000",
+       "Name": ""
+      },
+      "Study Grant Number": "",
+      "Experiment Platform": "",
+      "Study Factor Name": "",
+      "Study Publication Author List": "Livia,,Barenghi Jeanette,,Maier Silvia,,Versari Giulia,,Longinotti Silvia,,Bradamante",
+      "Study Assay Technology Platform": "GPL6244",
+      "Authoritative Source URL": "GSE43582",
+      "Project Identifier": "",
+      "thumbnail": "",
+      "Project Title": "",
+      "Study Public Release Date": 1358683200,
+      "Project Link": "",
+      "Study Publication Title": "",
+      "organism": [
+       "Homo sapiens"
+      ],
+      "Accession": "GSE43582",
+      "Study Assay Technology Type": "",
+      "Study Title": "Expression data from SPHINX (SPaceflight of Huvec: an INtegrated eXperiment)",
+      "Study Protocol Type": "",
+      "Project Type": "Expression profiling by array",
+      "Study Funding Agency": "",
+      "Study Factor Type": [
+       ""
+      ],
+      "Factor Value": [
+       ""
+      ],
+      "Study Description": "Changes in the physical environment modulate cell responses and may lead to the impairment or even failure of tissue function as a result of mechanotransduction processes. It has been suggested that this situation occurs in some age-related diseases and some pathological conditions observed in space, such as cardiovascular deconditioning, bone loss, muscle atrophy, and impaired immune responses. All of these are associated with endothelial dysfunction but the precise mechanism is still unclear.  We used the microarray approach to obtain insights into the mechanism responsible for endothelial dysfunction by taking advantage of the challenging environment of gravitational unloading onboard the International Space Station.",
+      "Study Protocol Name": "",
+      "Characteristics": [
+       ""
+      ],
+      "Parameter Value": [
+       ""
+      ],
+      "Data Source Accession": "GSE43582"
+     },
+     "highlight": {
+      "all": [
+       "<em>nih_geo_gse</em>",
+       "Expression data from SPHINX (<em>SPaceflight</em> of Huvec: an INtegrated eXperiment)",
+       "conditions observed in space, such as cardiovascular deconditioning, bone loss, muscle atrophy, and impaired <em>immune</em>"
+      ]
+     }
+    },
+    {
+     "_index": "study",
+     "_type": "docs",
+     "_id": "N9_6g4QB28eYt3lGMrbU",
+     "_score": 8.935284,
+     "_source": {
+      "Space Program": "NASA",
+      "Flight Program": "Space Transportation System (STS)",
+      "Study Assay Measurement Type": "transcription profiling",
+      "Study Protocol Description": "Qiagen RNeasy Kit     Affymetrix One Cycle Target Labeling according to manufacturer's protocol (GeneChip Expression Analysis Technical Manual)     Affymetrix Eukaryotic Target Hybridization protocol (GeneChip Expression Analysis Technical Manual)     Affymetrix GeneChip Scanner 3000 with GCOS software according to manufactuer's protocol (GeneChip Expression Analysis Technical Manual)     Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Dm.eg.db (version 3.15.0).     The Drosophila melanogaster Gal4-UAS transgenic line expressing two copies of eGFP under the control of the hemolectin promoter was used in all experiments. This line expresses GFP in all plasmatocytes and has no other phenotype. Flies were grown on semi-defined medium (1 percent agar, 4 percent brewer's yeast, 2 percent yeast extract, 2 percent peptone, 3 percent sucrose, 6 percent glucose, 0.05 percent MgSO4, 0.05 percent CaCl2 and tegosept) to which 0.5 percent blue food dye was added to facilitate the recognition of late 3rd instar larvae at wandering stage by the absence of colored food in the gut.     Flies for both the flight and the ground control experiments were transferred from fresh cultures to fly kits 24 hours in advance of the onset of the experiment. Each fly kit, consisted of a polycarbonate fly cassette with a 2 ml food tray held in a ventilated aluminum container. These kits were originally developed by the European Space Agency and used previously for Drosophila experiments in space, and were subsequently modified by us for use in this experiment. Ten virgin females and 5 males were housed in each fly cassette. Ten kits (5 with flies and 5 empty) flew on the space shuttle and 10 remained on the ground. The fly kits were placed in stowage foam on the shuttle middeck, at ambient temperature and in total darkness. The identical procedure was followed for the ground control flies. For both ground and flight experiments, on day 6 the food trays containing eggs and larvae were transferred to the 5 empty cassettes and fresh food was given to the original flies. The temperature and relative humidity in the spaceflight and ground payloads were monitored minute-by-minute using a HOBO data logger (Onset Computer Corporation). Values were tracked in real time and paralleled for the ground control in the OES (Orbital Environmental Simulator) at the Kennedy Space Center. Environmental data from flight and ground experiments were provided by the operations team as part of the routine shuttle flight logistics. The average temperature on the flight deck was 23.5 deg C, ranging between 21.71 deg C and 25.56 deg C. The ground control average temperature was 22.5 deg C, with a minimum of 19.42 deg C and a maximum of 25.56 deg C. The relative humidity was 27.2 percent on the shuttle deck and 25.4 percent on ground.     Larval RNA for microarrays was prepared from 6 sets of 50 mid 3rd instar larvae reared in microgravity and collected on the day of landing of the space shuttle, and the same number of control larvae raised on ground. The space shuttle flight had a total duration of 12 days and 18.5 hours. Adult RNA was prepared from 3 sets of 20 adult females each that emerged during the flight and within 4 hours of landing (Flight Day 1) and from adult females from the corresponding ground control cassettes (Ground Day 1). The original parental flies were removed. Given the known generation time at 24 deg C, the adults that emerged in space (F1) would have been no more than 2 days old.     The absorbed dose from ionizing radiation received by the flight specimens was estimated using TLD passive dosimeters located in the middeck of the space shuttle, where the payload was located. More specifically, we computed the average between three dosimeters (DLOC1, DLOC2, and DLOC3) for the mission and we divided it by the total duration of the mission to estimate the average absorbed dose rate in mGy/day. This dose rate did not include any shielding effects from the hardware where the specimens resided. The total absorbed dose in water was then computed by simply multiplying the average dose rate with the duration of the experiment. The duration of the experiment was defined as the time in space during which the specimen was living. Once the specimen was frozen or fixed, the experiment was considered stopped. A table with these detailed computations for all space shuttle datasets is available on GeneLab at https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation.  The ground samples were not assessed for radiation exposure.",
+      "Material Type": "Whole Organism",
+      "Study Identifier": "OSD-3",
+      "Study Person": {
+       "First Name": "Sharmila Oana Matthew Max Edina Laura Alena Thomas Helen",
+       "Middle Initials": "",
+       "Last Name": "Bhattacharya Marcu Lera Sanchez Levic Higgins Shmygelska Fahlen Nichol"
+      },
+      "ESA Acronym": "",
+      "Acknowledgments": "We thank David Schneider for helping us with the design of this experiment. We thank Kevin Sato, Emily Holton, Sid Sun, Ken Souza, Sue Suffel, David Heathcote, Cecilia Wigley and BJ Navarro for ensuring the success of our experiment on the space shuttle. We also thank Kelly Norwood, Michael Roberts, Joseph Benjamin, Ashleigh Ruggles, and Jennifer Devich for their technical assistance during flight operations. The hml-Gal4 line was a kind gift of Sergey Sinenko. We would like to acknowledge the Protein and Nucleic Acid Facility, Beckman Center, Stanford University for the processing of gene microarrays and thank Elizabeth Zhou and Michael Eckhart for their help with sample and data processing. We also thank Anuran Chatterjee for his help with editorial comments on the manuscript.",
+      "Managing NASA Center": "Ames Research Center (ARC)",
+      "Data Source Type": "cgene",
+      "Mission": {
+       "Start Date": "07/04/2006",
+       "End Date": "07/17/2006",
+       "Name": "STS-121"
+      },
+      "Study Grant Number": "FSB-FIT-2005",
+      "Experiment Platform": "Shuttle Life Sciences Research (Middeck)",
+      "Study Factor Name": "Developmental Stage     Spaceflight",
+      "Study Publication Author List": "Marcu O  Lera MP  Sanchez ME  Levic E  Higgins LA  Shmygelska A  Fahlen TF  Nichol H  Bhattacharya S.",
+      "Study Assay Technology Platform": "Affymetrix",
+      "Authoritative Source URL": "OSD-3/",
+      "Project Identifier": "FIT",
+      "thumbnail": "/geode-py/ws/studies/OSD-3/image",
+      "Project Title": "Fungal Pathogenesis  Tumorigenesis  and Effects of Host Immunity in Space",
+      "Study Public Release Date": 1314835200.0,
+      "Project Link": "http://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=1325&string=drosophila&CURRENT_STRING2=drosophila",
+      "Study Publication Title": "Innate Immune Responses of Drosophila melanogaster Are Altered by Spaceflight",
+      "organism": "Drosophila melanogaster",
+      "Accession": "OSD-3",
+      "Study Assay Technology Type": "DNA microarray",
+      "Study Title": "Drosophila melanogaster gene expression changes after spaceflight.",
+      "Study Protocol Type": "nucleic_acid_extraction     labeling     hybridization     image_aquisition     data transformation     growth protocol     treatment protocol     sample collection protocol     Radiation Dosimetry",
+      "Project Type": "Spaceflight Study",
+      "Study Funding Agency": "This study work was supported by a NASA grant to SB for Fungal Pathogenesis, Tumorigenesis, and Effects of Host Immunity in the Space Environment (FSB-FIT-2005). The funder had a role in study design and in supporting data collection.",
+      "Study Factor Type": "developmental stage     Space Flight",
+      "Factor Value": "",
+      "Study Description": "Gene expression levels were determined in 3rd instar and adult Drosophila melanogaster reared during spaceflight, to elucidate the genetic and molecular mechanisms underpinning the effects of microgravity on the immune system. The goal was to validate the Drosophila model for understanding alterations of innate immune responses in humans due to spaceflight. Five containers of flies, with ten female and five male fruit flies in each container, were housed and bred on the space shuttle (average orbit altitude of 330.35 km) for 12 days and 18.5 hours, with a new generation reared in microgravity. RNA was extracted on the day of shuttle landing from whole body animals (3rd instar larvae and adults), hybridized to Drosophila 2.0 Affymetrix genome arrays, and the expression level of all genes was normalized against the gene expression level from the corresponding developmental stage animals raised on ground. Spaceflight altered the expression of larval genes involved in the maturation of plasmatocytes (macrophages) and their phagocytic response, as well as the level of constitutive expression of pattern recognition receptors and opsonins that specifically recognize bacteria, and of lysozymes, antimicrobial peptide pathway and immune stress genes, hallmarks of humoral immunity. Larval microarrays (FL 6 samples) are based on RNA extracted from 6 independent sets of 50 mid 3rd instar larvae reared in microgravity and collected on the day of landing after 12 days and 18.5 hours on the space shuttle and the same number of control larvae raised on ground (GL 6 samples). Adults microarrays (F1 3 samples) are based on RNA from 3 sets of 20 adult females each, that emerged during spaceflight and within 4 hours of landing and the same number of adult females from the corresponding ground control containers (G1 3 samples).",
+      "Study Protocol Name": "P-GSE23880-2     P-GSE23880-3     P-GSE23880-4     P-GSE23880-5     GeneLab microarray data processing protocol     growth protocol     treatment protocol     sample collection protocol     Radiation Dosimetry",
+      "Characteristics": "",
+      "Parameter Value": "",
+      "Identifiers": "GLDS-3",
+      "Data Source Accession": "E-GEOD-23880"
+     },
+     "highlight": {
+      "all": [
+       "<em>cgene</em>",
+       "Developmental Stage     <em>Spaceflight</em>",
+       "Innate <em>Immune</em> Responses of Drosophila melanogaster Are Altered by <em>Spaceflight</em>",
+       "<em>Spaceflight</em> Study",
+       "in humans due to <em>spaceflight</em>."
+      ]
+     }
+    }
+   ]
+  }
+ }
+}
