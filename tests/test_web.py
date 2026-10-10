@@ -1,6 +1,8 @@
 """The demo page must agree with the Python reference: same data files, same flags, same blocked phrases."""
 
+import hashlib
 import json
+import re
 import runpy
 import shutil
 import subprocess
@@ -44,6 +46,32 @@ def test_js_rule_matches_python(name):
     js = json.loads(out.stdout)
     assert summary(js["flags"]) == summary(evaluate(rows))
     assert js["blocked"] == BLOCKED
+
+
+def test_every_request_happens_at_first_load():
+    """The phone demo must survive the network dropping after the first load: the page's only fetch()
+    is in init(), which runs once at load, and nothing else can reach the network or reload the page."""
+    app = Path("web/app.js").read_text(encoding="utf-8")
+    init = app[app.index("(async function init()"):]  # init is the last block in app.js
+    assert app.count("fetch(") == init.count("fetch(") == 1
+    for api in ("XMLHttpRequest", "import(", "new Image", "location.reload", "location.href", "sendBeacon", "WebSocket", "EventSource"):
+        assert api not in app, f"{api} would need the network after load"
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    assert not re.search(r'(?:src|href)="(?:https?:)?//', html), "every asset must come from web/"
+
+
+def test_scripts_carry_a_version_that_matches_their_content():
+    """A phone that cached an older script must never run it under a newer page: every script URL carries
+    a hash of the script, so a changed script gets a URL the browser has never cached. Line endings are
+    normalised so a Windows checkout gives the same hash."""
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    scripts = re.findall(r'<script src="([^"?]+)\?v=([0-9a-f]+)"></script>', html)
+    assert [path for path, _ in scripts] == ["errors.js", "vendor/chart.umd.js", "rules.js", "app.js"], \
+        "errors.js loads first, so it can show errors from the scripts after it"
+    assert html.count("<script") == len(scripts), "every script tag needs ?v="
+    for path, version in scripts:
+        expected = hashlib.sha1(Path("web", path).read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:10]
+        assert version == expected, f"web/index.html: change {path}?v={version} to {path}?v={expected}"
 
 
 def test_recorded_day_29_reaction_fires_the_reaction_flag():
