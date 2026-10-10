@@ -2,7 +2,7 @@
 // Offline demo page. Every number comes from Rules (web/rules.js, a port of src/baseline/compute)
 // run on the simulated fixture plus today's self-check. Nothing is fetched from outside this folder.
 
-const TODAY = 29, NEXT = 30, ROUNDS = 5;
+const TODAY = 29, NEXT = 30, ROUNDS = Reaction.ROUNDS;
 const CHANNELS = ["hrv_rmssd_ms", "sleep_hours", "reaction_ms"];
 const SELF_CHECK = ["reaction_ms", "sleep_hours", "mood_1to5"];
 const PREFIX = { osdr: "OSD-", ntrs: "NTRS " };
@@ -81,16 +81,28 @@ function sourceNote(r) {
 
 // ---------- navigation ----------
 
-function show(id) {
+function show(id, push = true) {
   for (const s of document.querySelectorAll("main > section")) s.hidden = s.id !== id;
   window.scrollTo(0, 0);
   $(id).querySelector("h1").focus();
+  if (push) history.pushState({ screen: id }, ""); // no URL change: a reload still starts at the guide
 }
 document.addEventListener("click", (e) => { const go = e.target.closest("[data-go]"); if (go) show(go.dataset.go); });
 
+// Browser back (or an iPhone swipe) walks the screens. The screens after the self-check need a saved
+// check, so after "Start the demo again" an old entry shows the guide instead.
+history.replaceState({ screen: "guide" }, "");
+history.scrollRestoration = "manual";
+window.addEventListener("popstate", (e) => {
+  const id = e.state?.screen || "guide";
+  show(state.rows.length || id === "today" ? id : "guide", false);
+});
+
 // ---------- screen 1: reaction test ----------
 
-const rt = { state: "idle", timer: 0, t0: 0 };
+// Timing rules live in web/reaction.js. round tags each round so a late animation frame from an earlier
+// round (for example after the tab was hidden) can never draw the circle or start the clock.
+const rt = { state: "idle", timer: 0, shownAt: 0, lastDownAt: -Infinity, round: 0 };
 
 function rtShow(text, sub = "", big = false) {
   $("rt-dot").hidden = true;
@@ -108,17 +120,24 @@ function rtStatus() {
 }
 
 function rtNext() {
+  const round = ++rt.round;
   rt.state = "waiting";
   rtShow("Wait for the circle");
   rtStatus();
   rt.timer = setTimeout(() => {
-    $("rt-text").hidden = true;
-    $("rt-sub").textContent = "";
-    $("rt-dot").hidden = false;
-    rt.state = "go";
-    rt.t0 = performance.now();
-    requestAnimationFrame(() => { rt.t0 = performance.now(); }); // closer to when the circle is painted
-  }, 1000 + Math.random() * 2000);
+    // Draw the circle in the next frame; start the clock in the frame after, once it is on screen.
+    requestAnimationFrame(() => {
+      if (rt.round !== round || rt.state !== "waiting") return;
+      $("rt-text").hidden = true;
+      $("rt-sub").textContent = "";
+      $("rt-dot").hidden = false;
+      requestAnimationFrame(() => {
+        if (rt.round !== round || rt.state !== "waiting") return;
+        rt.shownAt = performance.now();
+        rt.state = "go";
+      });
+    });
+  }, Reaction.delayMs(Math.random()));
 }
 
 function rtPress(e) {
@@ -126,16 +145,21 @@ function rtPress(e) {
     if ((e.key !== " " && e.key !== "Enter") || e.repeat) return;
     e.preventDefault();
   }
-  const ms = Math.round(e.timeStamp - rt.t0);
-  if (rt.state === "idle") return rtNext();
-  if (rt.state === "waiting" || (rt.state === "go" && ms < 100)) { // under 100 ms counts as a guess
+  const now = performance.now(); // the same clock as shownAt; never e.timeStamp or Date.now()
+  const r = Reaction.press(rt, now);
+  if (r.kind === "duplicate") return;
+  rt.lastDownAt = now;
+  if (r.kind === "start") return rtNext();
+  if (r.kind === "false-start") { // before the circle, or under 100 ms: this round starts again
     clearTimeout(rt.timer);
+    rt.round++;
     rt.state = "pause";
     rtShow("Too soon", "This round starts again.");
     rt.timer = setTimeout(rtNext, 1200);
     return;
   }
-  if (rt.state !== "go") return;
+  if (r.kind !== "hit") return;
+  const ms = r.ms;
   state.trials.push(ms);
   if (state.trials.length < ROUNDS) {
     rt.state = "pause";
@@ -150,9 +174,12 @@ function rtPress(e) {
   $("rt-again").hidden = false;
 }
 
-const median = (xs) => [...xs].sort((a, b) => a - b)[Math.floor(xs.length / 2)];
+const median = Reaction.median;
 
+// The clock stops on the first of pointerdown or touchstart (old iOS has no pointer events); Reaction.press
+// drops the second event of the same tap. Never click: it fires after the finger lifts.
 $("rt-field").addEventListener("pointerdown", rtPress);
+$("rt-field").addEventListener("touchstart", rtPress, { passive: true });
 $("rt-field").addEventListener("keydown", rtPress);
 $("rt-again").addEventListener("click", () => {
   state.trials = [];
@@ -308,7 +335,7 @@ function drawChannel(signal) {
 function renderConsole() {
   const day = state.day, n = flagsFor(day).filter((r) => r.signal).length;
   put($("console-title"), `Your last ${state.rows.length} days`);
-  put($("legend-band"), `Usual range (days ${Rules.MIN_HISTORY_DAYS + 1}–${day - 1}, ±${Rules.THRESHOLD} SD)`);
+  put($("legend-band"), `Usual range (from day ${Rules.MIN_HISTORY_DAYS + 1}, ±${Rules.THRESHOLD} SD)`);
   CHANNELS.forEach(drawChannel);
   put($("console-summary"), n === 0
     ? "Nothing is outside your usual range today."
@@ -467,8 +494,8 @@ $("queue-btn").addEventListener("click", () => {
       : `${names(r)} moved together within 48 hours (rule ${r.rule}).`);
   }
   if (row.self_check) {
-    lines.push(`Self-check: reaction ${fmt("reaction_ms", row.reaction_ms)} ${row.reaction_recorded ? "(recorded, simulated)" : "median of five"}, slept ${row.sleep_hours} hours, ` +
-      `sleep quality ${row.sleep_quality_1to5} of 5, mood ${row.mood_1to5} of 5, near vision ${row.near_vision_ok ? "clear" : "blurred"}.`);
+    lines.push(`Self-check: reaction ${fmt("reaction_ms", row.reaction_ms)} ${row.reaction_recorded ? "(recorded, simulated)" : "median of five"}, slept ${fmt("sleep_hours", row.sleep_hours)}, ` +
+      `sleep quality ${row.sleep_quality_1to5} of 5, mood ${fmt("mood_1to5", row.mood_1to5)}, near vision ${row.near_vision_ok ? "clear" : "blurred"}.`);
     if (row.note) lines.push(`Sleep note: ${row.note}`); // own line, so a failed wording check withholds only the note
   }
   $("message").replaceChildren(...lines.map((l) => make("p", l)));
@@ -509,6 +536,7 @@ $("restart").addEventListener("click", () => {
     state.evidence = evidence;
     state.radiation = radiation;
     renderRadiation();
+    $("save").disabled = $("rt-recorded").disabled = false; // both read the record; disabled in the HTML until it is here
   } catch (err) {
     put($("missing"), "The simulated record did not load. Start the page with: python -m baseline.serve");
     $("save").disabled = true;
