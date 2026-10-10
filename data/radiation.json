@@ -1,0 +1,10 @@
+{
+  "channel": ">=10 MeV",
+  "time_tag": "2026-09-30T09:30:00Z",
+  "satellite": 18,
+  "flux_pfu": 0.2671605348587036,
+  "threshold_pfu": 10.0,
+  "fired": false,
+  "source_url": "https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json",
+  "fetched_at": "2026-09-30T09:40:58+00:00"
+}
