@@ -6,5 +6,180 @@
   "threshold_pfu": 10.0,
   "fired": false,
   "source_url": "https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json",
-  "fetched_at": "2026-09-30T09:40:58+00:00"
+  "fetched_at": "2026-09-30T09:40:58+00:00",
+  "msl_rad": {
+    "column": "dose_e_total",
+    "units": "uGy/day",
+    "date": "2026-10-20",
+    "dose_ugy_day": 184.6,
+    "n_obs": 22,
+    "baseline_mean": 185.4,
+    "baseline_sd": 2.58,
+    "z": -0.32,
+    "threshold_z": 2.0,
+    "window_days": 30,
+    "fired": false,
+    "daily": [
+      {
+        "date": "2026-09-20",
+        "dose_ugy_day": 180.5,
+        "n_obs": 82
+      },
+      {
+        "date": "2026-09-21",
+        "dose_ugy_day": 180.4,
+        "n_obs": 82
+      },
+      {
+        "date": "2026-09-22",
+        "dose_ugy_day": 182.3,
+        "n_obs": 83
+      },
+      {
+        "date": "2026-09-23",
+        "dose_ugy_day": 183.8,
+        "n_obs": 82
+      },
+      {
+        "date": "2026-09-24",
+        "dose_ugy_day": 181.8,
+        "n_obs": 84
+      },
+      {
+        "date": "2026-09-25",
+        "dose_ugy_day": 182.1,
+        "n_obs": 82
+      },
+      {
+        "date": "2026-09-26",
+        "dose_ugy_day": 185.8,
+        "n_obs": 83
+      },
+      {
+        "date": "2026-09-27",
+        "dose_ugy_day": 184.2,
+        "n_obs": 83
+      },
+      {
+        "date": "2026-09-28",
+        "dose_ugy_day": 185.9,
+        "n_obs": 81
+      },
+      {
+        "date": "2026-09-29",
+        "dose_ugy_day": 187.8,
+        "n_obs": 83
+      },
+      {
+        "date": "2026-09-30",
+        "dose_ugy_day": 188.3,
+        "n_obs": 82
+      },
+      {
+        "date": "2026-10-01",
+        "dose_ugy_day": 189.3,
+        "n_obs": 82
+      },
+      {
+        "date": "2026-10-02",
+        "dose_ugy_day": 187.5,
+        "n_obs": 82
+      },
+      {
+        "date": "2026-10-03",
+        "dose_ugy_day": 187.0,
+        "n_obs": 84
+      },
+      {
+        "date": "2026-10-04",
+        "dose_ugy_day": 186.0,
+        "n_obs": 82
+      },
+      {
+        "date": "2026-10-05",
+        "dose_ugy_day": 185.8,
+        "n_obs": 83
+      },
+      {
+        "date": "2026-10-06",
+        "dose_ugy_day": 186.9,
+        "n_obs": 83
+      },
+      {
+        "date": "2026-10-07",
+        "dose_ugy_day": 186.9,
+        "n_obs": 81
+      },
+      {
+        "date": "2026-10-08",
+        "dose_ugy_day": 188.0,
+        "n_obs": 84
+      },
+      {
+        "date": "2026-10-09",
+        "dose_ugy_day": 187.7,
+        "n_obs": 81
+      },
+      {
+        "date": "2026-10-10",
+        "dose_ugy_day": 188.4,
+        "n_obs": 83
+      },
+      {
+        "date": "2026-10-11",
+        "dose_ugy_day": 188.5,
+        "n_obs": 82
+      },
+      {
+        "date": "2026-10-12",
+        "dose_ugy_day": 187.2,
+        "n_obs": 84
+      },
+      {
+        "date": "2026-10-13",
+        "dose_ugy_day": 185.9,
+        "n_obs": 82
+      },
+      {
+        "date": "2026-10-14",
+        "dose_ugy_day": 185.9,
+        "n_obs": 83
+      },
+      {
+        "date": "2026-10-15",
+        "dose_ugy_day": 184.0,
+        "n_obs": 82
+      },
+      {
+        "date": "2026-10-16",
+        "dose_ugy_day": 183.3,
+        "n_obs": 83
+      },
+      {
+        "date": "2026-10-17",
+        "dose_ugy_day": 183.6,
+        "n_obs": 83
+      },
+      {
+        "date": "2026-10-18",
+        "dose_ugy_day": 185.4,
+        "n_obs": 29
+      },
+      {
+        "date": "2026-10-19",
+        "dose_ugy_day": 180.9,
+        "n_obs": 51
+      },
+      {
+        "date": "2026-10-20",
+        "dose_ugy_day": 184.6,
+        "n_obs": 22
+      }
+    ],
+    "source": "NASA SPDF CDAWeb, dataset MSL_RAD_OBS-L2: MSL/RAD Level 2 observational radiation data (D. Hassler, SwRI-Boulder)",
+    "source_url": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/20260920T000000Z,20261021T000000Z/DOSIMETRY_TOTAL_f?format=json",
+    "doi": "10.48322/20qb-4e17",
+    "archive_url": "https://pds-ppi.igpp.ucla.edu/data/MSL-M-RAD-3-RDR-V1.0/",
+    "fetched_at": "2026-10-22T13:58:37+00:00"
+  }
 }

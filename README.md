@@ -142,6 +142,7 @@ flowchart TD
 | | Source | Status |
 |---|---|---|
 | **Real** | NOAA GOES solar-proton flux, 7 days, cached 30 Sep 2026 | Shown on the console in its own white box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. |
+| **Real** | NASA MSL RAD Mars surface radiation, 30 days to 20 Oct 2026, cached 22 Oct 2026 | Shown in the same box as a daily value in µGy per day. A rule flags a day more than 2 SD above the earlier days, with tests. |
 | **Real** | NASA OSDR search results, 10 keywords, cached 30 Sep and 10 Oct 2026 | Source of the OSD-140 study on two cards. |
 | **Real** | NASA NTRS search results, 11 keywords, cached 3 Oct and 10 Oct 2026 | Source of the NTRS reports on the cards. |
 | **Real** | Your answers in the self-check | Replace day 29's reaction time, sleep and mood. Stay in your browser; gone on reload. |
@@ -189,7 +190,7 @@ The seven OSDR searches cached on 30 Sep returned 57 hits, 50 distinct studies. 
 | [OSDR / GeneLab](https://osdr.nasa.gov) | NASA | Study behind a flag | Searches cached; OSD-140 on two cards, review pending |
 | [NTRS](https://ntrs.nasa.gov) | NASA | Reference numbers, countermeasure protocols | Searches cached; four reports reviewed and cited |
 | [GOES proton flux](https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json) | NOAA | Solar particle event alert | Cached; rule and tests done; latest reading on the console |
-| MSL RAD (Curiosity rover) | NASA PDS | Mars radiation dose | Planned; access not verified |
+| [MSL RAD (Curiosity rover)](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2) | NASA (SPDF CDAWeb dataset MSL_RAD_OBS-L2, DOI 10.48322/20qb-4e17; archive: PDS PPI MSL-M-RAD-3-RDR-V1.0) | Real Mars surface radiation level, µGy per day | Cached 30 days; daily values and a 2-SD rule with tests; latest value on the console |
 | Vitals telemetry | ours, simulated | All daily readings | Built; clean and anomaly fixtures |
 
 ---
@@ -203,7 +204,7 @@ web/                    the page: index.html, app.js, rules.js, screenshots, fon
 data/fixtures/          simulated 30-day records (clean, anomaly)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  39 tests
+tests/                  43 tests
 ```
 
 ---
