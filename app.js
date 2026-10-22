@@ -359,6 +359,17 @@ function renderRadiation() {
     `${r.fired ? "at or above" : "below"} the NOAA alert level of ${r.threshold_pfu} pfu.`);
   put($("rad-source"), `Source: NOAA GOES, cached ${r.fetched_at.slice(0, 10)}`);
   $("radiation").classList.toggle("fired", r.fired);
+  renderMarsDose(r.msl_rad);
+}
+
+// Mars surface dose measured by the Radiation Assessment Detector on the Curiosity rover (MSL RAD),
+// mean of one UTC day, compared with the mean of the earlier days in the cache (same 2-SD rule as the vitals).
+function renderMarsDose(m) {
+  const level = m.dose_ugy_day.toFixed(0), day = m.date;
+  const compare = m.z === null ? `Fewer than ${m.window_days + 1} earlier days cached, so no comparison yet.`
+    : `${m.fired ? "Above" : "Within"} the usual range of the previous ${m.window_days} days (mean ${m.baseline_mean.toFixed(0)}, ±2 SD).`;
+  put($("mars-line"), `Mars surface radiation on ${day}: ${level} µGy per day (tissue-equivalent detector, ${m.n_obs} readings). ${compare}`);
+  put($("mars-source"), `Source: NASA MSL RAD via SPDF CDAWeb, DOI ${m.doi}, cached ${m.fetched_at.slice(0, 10)}`);
 }
 
 // ---------- screen 6: next day ----------
