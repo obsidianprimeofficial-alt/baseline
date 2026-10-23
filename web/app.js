@@ -32,6 +32,10 @@ function put(el, text) {
 const make = (tag, text, cls) => { const el = put(document.createElement(tag), text); if (cls) el.className = cls; return el; };
 
 const fmt = (signal, v, unit = SIGNALS[signal].unit) => `${v.toFixed(SIGNALS[signal].dp)} ${unit}`;
+// The numbers behind z (today, usual, spread) to one decimal everywhere; z uses the unrounded values,
+// and the card and the queue summary say so (ROUNDING_NOTE). Display only.
+const fmtZ = (r, v) => `${v.toFixed(1)} ${SIGNALS[r.signal].unit}`;
+const ROUNDING_NOTE = "Numbers are shown to one decimal; z uses the unrounded values.";
 const signed = (z) => `${z < 0 ? "−" : "+"}${Math.abs(z).toFixed(1)}`;
 const listWords = (xs) => (xs.length < 2 ? xs.join("") : `${xs.slice(0, -1).join(", ")} and ${xs.at(-1)}`);
 const title = (r) => (r.signal ? SIGNALS[r.signal].name : "Several readings together");
@@ -465,9 +469,9 @@ function renderEvidence(r) {
 
   const numbers = r.signal
     ? [
-      ["Today", fmt(r.signal, r.current)],
-      [`Your usual (mean of ${r.window_days} days)`, fmt(r.signal, r.baseline_mean)],
-      ["Usual spread (1 SD)", fmt(r.signal, r.baseline_sd)],
+      ["Today", fmtZ(r, r.current)],
+      [`Your usual (mean of ${r.window_days} days)`, fmtZ(r, r.baseline_mean)],
+      ["Usual spread (1 SD)", fmtZ(r, r.baseline_sd)],
       ["How far", `${times(r.z)} your usual spread (flag at ${Rules.THRESHOLD}×)`],
       ["Status", plainStatus(r)],
     ]
@@ -501,7 +505,7 @@ $("queue-btn").addEventListener("click", () => {
   const row = state.rows.at(-1), lines = [`Crew member A, day ${state.day}. Telemetry is simulated.`];
   for (const r of flagsFor(state.day)) {
     lines.push(r.signal
-      ? `${title(r)}: ${fmt(r.signal, r.current)}, usual ${fmt(r.signal, r.baseline_mean)} over ${r.window_days} days, z = ${signed(r.z)}, ${r.status === "confirmed" ? "flagged" : "watching"} (rule ${r.rule}).`
+      ? `${title(r)}: ${fmtZ(r, r.current)}, usual ${fmtZ(r, r.baseline_mean)} over ${r.window_days} days, z = ${signed(r.z)}, ${r.status === "confirmed" ? "flagged" : "watching"} (rule ${r.rule}).`
       : `${names(r)} moved together within 48 hours (rule ${r.rule}).`);
   }
   if (row.self_check) {
@@ -509,6 +513,7 @@ $("queue-btn").addEventListener("click", () => {
       `sleep quality ${row.sleep_quality_1to5} of 5, mood ${fmt("mood_1to5", row.mood_1to5)}, near vision ${row.near_vision_ok ? "clear" : "blurred"}.`);
     if (row.note) lines.push(`Sleep note: ${row.note}`); // own line, so a failed wording check withholds only the note
   }
+  lines.push(ROUNDING_NOTE);
   $("message").replaceChildren(...lines.map((l) => make("p", l)));
   $("next-day").hidden = state.day === NEXT;
   show("queue");

@@ -204,7 +204,7 @@ web/                    the page: index.html, app.js, rules.js, screenshots, fon
 data/fixtures/          simulated 30-day records (clean, anomaly)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  43 tests
+tests/                  45 tests
 ```
 
 ---

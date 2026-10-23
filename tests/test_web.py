@@ -108,3 +108,29 @@ def test_recorded_day_29_reaction_fires_the_reaction_flag():
     rows = json.loads(Path("web/data/crew_a_anomaly.json").read_text())["rows"]
     day29 = evaluate([r for r in rows if r["day"] <= 29])[29]
     assert [r["status"] for r in day29 if r["rule"] == "reaction_above_personal_baseline"] == ["confirmed"]
+
+
+ROUNDING_NOTE = "Numbers are shown to one decimal; z uses the unrounded values."
+
+
+def test_every_evidence_card_and_the_queue_summary_show_the_rounding_note():
+    """The note is static text in the evidence screen, so every card shows it; app.js never hides or replaces
+    it, and the queue summary ends with the same sentence."""
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    evidence = html[html.index('<section id="evidence"'):html.index('<section id="queue"')]
+    assert re.search(r'<dl id="ev-numbers" class="readout"></dl>\s*<p id="ev-rounding" class="meta">' + re.escape(ROUNDING_NOTE) + "</p>", evidence)
+    app = Path("web/app.js").read_text(encoding="utf-8")
+    assert "ev-rounding" not in app
+    assert f'const ROUNDING_NOTE = "{ROUNDING_NOTE}";' in app
+    queue = app[app.index('$("queue-btn")'):]
+    assert re.search(r"lines\.push\(ROUNDING_NOTE\);\s*\$\(\"message\"\)\.replaceChildren", queue)
+
+
+def test_demo_reaction_card_one_decimal_inputs_reproduce_z():
+    """The demo card: 338.3, 281.4 and 16.3 ms as shown give the shown z = 3.5."""
+    assert "const fmtZ = (r, v) => `${v.toFixed(1)} ${SIGNALS[r.signal].unit}`;" in Path("web/app.js").read_text(encoding="utf-8")
+    rows = json.loads(Path("web/data/crew_a_anomaly.json").read_text())["rows"]
+    r = next(r for r in evaluate([r for r in rows if r["day"] <= 29])[29] if r["rule"] == "reaction_above_personal_baseline")
+    shown = [round(r[k], 1) for k in ("current", "baseline_mean", "baseline_sd")]
+    assert shown == [338.3, 281.4, 16.3]
+    assert round((shown[0] - shown[1]) / shown[2], 1) == round(r["z"], 1) == 3.5
