@@ -35,6 +35,14 @@ const fmt = (signal, v, unit = SIGNALS[signal].unit) => `${v.toFixed(SIGNALS[sig
 // The numbers behind z (today, usual, spread) to one decimal everywhere; z uses the unrounded values,
 // and the card and the queue summary say so (ROUNDING_NOTE). Display only.
 const fmtZ = (r, v) => `${v.toFixed(1)} ${SIGNALS[r.signal].unit}`;
+// A number with its unit, inside a sentence, goes in the number font (design: JetBrains Mono for numbers).
+// Runs after put(), on text that already passed the wording check. Display only.
+const NUM_UNIT = new RegExp(`(\\d+(?:\\.\\d+)? (?:${[...new Set(Object.values(SIGNALS).map((s) => s.unit)), "µGy", "pfu"].join("|")}))`);
+function monoNums(el) {
+  el.replaceChildren(...el.textContent.split(NUM_UNIT).map((part, i) =>
+    (i % 2 ? Object.assign(document.createElement("span"), { className: "n", textContent: part }) : part)));
+  return el;
+}
 const ROUNDING_NOTE = "Numbers are shown to one decimal; z uses the unrounded values.";
 const signed = (z) => `${z < 0 ? "−" : "+"}${Math.abs(z).toFixed(1)}`;
 const listWords = (xs) => (xs.length < 2 ? xs.join("") : `${xs.slice(0, -1).join(", ")} and ${xs.at(-1)}`);
@@ -264,7 +272,7 @@ function drawChannel(signal) {
   const band = rows.map((_, i) => (i < Rules.MIN_HISTORY_DAYS ? null : Rules.baseline(vals.slice(0, i))));
   const marks = rows.map((r) => (state.flags[r.day] || []).find((f) => f.signal === signal));
   const box = document.querySelector(`[data-signal="${signal}"]`), canvas = box.querySelector("canvas");
-  const [ink, quiet, scrub, flag] = ["--ink", "--quiet", "--scrub", "--flag"].map(css);
+  const [ink, quiet, scrub, flag] = ["--ink", "--quiet", "--scrub", "--flag"].map(css), mono = { family: css("--mono") };
   const range = (b) => `${fmt(signal, b.mean - 2 * b.sd)} to ${fmt(signal, b.mean + 2 * b.sd)}`;
   const flagged = rows.filter((_, i) => marks[i]).map((r) => r.day);
   const bottom = signal === CHANNELS.at(-1), step = SIGNALS[signal].step;
@@ -318,23 +326,30 @@ function drawChannel(signal) {
           grid: { display: false },
           border: { color: css("--rule") },
           ticks: {
-            autoSkip: false, maxRotation: 0, color: quiet,
+            autoSkip: false, maxRotation: 0, color: quiet, font: mono,
             callback: (_, i) => { const d = rows[i].day; return d === 1 || d % 10 === 0 || i === last ? d : ""; },
           },
         },
         y: {
-          afterFit: (scale) => { scale.width = 44; }, // same width on every strip so the days line up
-          grid: { display: false },
-          border: { display: false },
+          display: false, // no y labels (design); the range is in the canvas label, so every strip lines up
           min: yMin, // fit the data, not zero, so a drift is visible
           max: yMax,
-          afterBuildTicks: (scale) => { scale.ticks = [yMin, (yMin + yMax) / 2, yMax].map((value) => ({ value })); },
-          ticks: { color: quiet },
         },
       },
     },
   });
 }
+
+// Light/Dark switch in the header (web/theme.js picks the first theme). Charts read the colours when drawn.
+function themeLabel() {
+  $("theme-btn").setAttribute("aria-label", Theme.current() === "dark" ? "Switch to light theme" : "Switch to dark theme");
+}
+themeLabel();
+$("theme-btn").addEventListener("click", () => {
+  Theme.set(Theme.current() === "dark" ? "light" : "dark");
+  themeLabel();
+  if (Object.keys(state.charts).length) CHANNELS.forEach(drawChannel);
+});
 
 function renderConsole() {
   const day = state.day, n = flagsFor(day).filter((r) => r.signal).length;
@@ -359,8 +374,8 @@ function radiationReading() {
 
 function renderRadiation() {
   const r = state.radiation, { flux, time } = radiationReading();
-  put($("rad-line"), `Solar protons at 10 MeV or more: ${flux} pfu at ${time} UTC, ` +
-    `${r.fired ? "at or above" : "below"} the NOAA alert level of ${r.threshold_pfu} pfu.`);
+  monoNums(put($("rad-line"), `Solar protons at 10 MeV or more: ${flux} pfu at ${time} UTC, ` +
+    `${r.fired ? "at or above" : "below"} the NOAA alert level of ${r.threshold_pfu} pfu.`));
   put($("rad-source"), `Source: NOAA GOES, cached ${r.fetched_at.slice(0, 10)}`);
   $("radiation").classList.toggle("fired", r.fired);
   renderMarsDose(r.msl_rad);
@@ -372,7 +387,7 @@ function renderMarsDose(m) {
   const level = m.dose_ugy_day.toFixed(0), day = m.date;
   const compare = m.z === null ? `Fewer than ${m.window_days + 1} earlier days cached, so no comparison yet.`
     : `${m.fired ? "Above" : "Within"} the usual range of the previous ${m.window_days} days (mean ${m.baseline_mean.toFixed(0)}, ±2 SD).`;
-  put($("mars-line"), `Mars surface radiation on ${day}: ${level} µGy per day (tissue-equivalent detector, ${m.n_obs} readings). ${compare}`);
+  monoNums(put($("mars-line"), `Mars surface radiation on ${day}: ${level} µGy per day (tissue-equivalent detector, ${m.n_obs} readings). ${compare}`));
   put($("mars-source"), `Source: NASA MSL RAD via SPDF CDAWeb, DOI ${m.doi}, cached ${m.fetched_at.slice(0, 10)}`);
 }
 
@@ -387,7 +402,8 @@ function renderFollowUp() {
       : Math.abs(now.z) < Math.abs(prev.z) ? "Closer to your usual range, still outside it."
       : "Still outside your usual range.";
     const li = document.createElement("li");
-    li.append(make("strong", SIGNALS[s].name), make("span", `${fmt(s, prev.current)} yesterday, ${fmt(s, now.current)} today. ${verdict}`, "num"));
+    li.className = now.fired ? "outside" : "recovered"; // recovered rows carry a check mark
+    li.append(make("strong", SIGNALS[s].name), monoNums(make("span", `${fmt(s, prev.current)} yesterday, ${fmt(s, now.current)} today. ${verdict}`, "num")));
     list.append(li);
   }
 }
@@ -406,7 +422,7 @@ function renderFlags() {
     li.className = "spe-row";
     li.append(
       make("span", "Solar particle event", "flag-name"),
-      make("span", `${flux} pfu at ${time} UTC. NOAA alert level: ${state.radiation.threshold_pfu} pfu.`, "flag-line"),
+      monoNums(make("span", `${flux} pfu at ${time} UTC. NOAA alert level: ${state.radiation.threshold_pfu} pfu.`, "flag-line")),
       make("span", `Countermeasure: ${sourced ? e.countermeasure : "Move to the shielded area."}`, "flag-line"),
       make("span", `Source: ${sourced ? e.countermeasure_source : "no source cached"}`, "flag-status"),
     );
@@ -418,7 +434,7 @@ function renderFlags() {
     b.className = `flag ${r.status}`;
     b.append(
       make("span", title(r), "flag-name"),
-      make("span", r.signal ? `${fmt(r.signal, r.current)} today. Your usual: ${fmt(r.signal, r.baseline_mean)}.` : `${names(r)}.`, "flag-line"),
+      monoNums(make("span", r.signal ? `${fmt(r.signal, r.current)} today. Your usual: ${fmt(r.signal, r.baseline_mean)}.` : `${names(r)}.`, "flag-line")),
       make("span", plainStatus(r), "flag-status"),
     );
     b.addEventListener("click", () => { renderEvidence(r); show("evidence"); });
@@ -481,6 +497,7 @@ function renderEvidence(r) {
       ["Flags when", "2 or more readings are outside your usual range"],
       ["Status", plainStatus(r)],
     ];
+  $("ev-numbers").classList.toggle("nums", !!r.signal); // today, usual and spread in the number font
   $("ev-numbers").replaceChildren(...numbers.flatMap(([k, v]) => [make("dt", k), make("dd", v)]));
 
   // A study is shown only with its id, title and URL; a step only with its source.
