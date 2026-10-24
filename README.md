@@ -7,7 +7,7 @@
 <p align="center">
   <img src="web/screenshots/2-console-390.png" width="260" alt="Console: 29 days of heart rate variability, sleep and reaction time. The grey band is the usual range. Days 27 to 29 are flagged in orange.">
   &nbsp;
-  <img src="web/screenshots/3-flags-390.png" width="260" alt="Flag list: mood, reaction time and heart rate variability are outside the usual range today.">
+  <img src="web/screenshots/3-flags-390.png" width="260" alt="Flag list: reaction time, heart rate variability and sleep are outside the usual range today, and several readings moved together within 48 hours.">
   &nbsp;
   <img src="web/screenshots/4-evidence-390.png" width="260" alt="Evidence card for reaction time: the change in plain words, the numbers, why it matters with the NTRS source link, and a step to consider.">
 </p>
@@ -67,7 +67,7 @@ pytest -q
 python -m baseline.serve
 ```
 
-`pytest -q` should print **39 passed**. The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
+`pytest -q` should print **49 passed**. The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
 
 **On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
 
@@ -81,6 +81,7 @@ python -m baseline.serve
 - The page loads files only from `web/` (fonts, Chart.js, rules, fixture, radiation summary). A Content-Security-Policy blocks every other host.
 - The server sends `Cache-Control: no-store`, so a reload always gets the latest files.
 - "Start the demo again" resets in memory without reloading, so a phone that has loaded the page once can run it again with no network.
+- The round button in the header switches between a light and a dark theme, and the device remembers the choice. With no saved choice the page is dark from 22:00 to 06:00 on the device clock and light otherwise. That window is a simulated crew schedule (`web/theme.js`), not a NASA figure. Screenshots ending in `-dark` show the dark theme.
 - If `pip install` fails, check that `python --version` shows 3.11 or later.
 
 </details>
@@ -141,7 +142,7 @@ flowchart TD
 
 | | Source | Status |
 |---|---|---|
-| **Real** | NOAA GOES solar-proton flux, 7 days, cached 30 Sep 2026 | Shown on the console in its own white box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. |
+| **Real** | NOAA GOES solar-proton flux, 7 days, cached 30 Sep 2026 | Shown on the console in its own box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. |
 | **Real** | NASA MSL RAD Mars surface radiation, 30 days to 20 Oct 2026, cached 22 Oct 2026 | Shown in the same box as a daily value in µGy per day. A rule flags a day more than 2 SD above the earlier days, with tests. |
 | **Real** | NASA OSDR search results, 10 keywords, cached 30 Sep and 10 Oct 2026 | Source of the OSD-140 study on two cards. |
 | **Real** | NASA NTRS search results, 11 keywords, cached 3 Oct and 10 Oct 2026 | Source of the NTRS reports on the cards. |
@@ -204,7 +205,7 @@ web/                    the page: index.html, app.js, rules.js, screenshots, fon
 data/fixtures/          simulated 30-day records (clean, anomaly)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  45 tests
+tests/                  49 tests
 ```
 
 ---
@@ -219,4 +220,4 @@ Team **Obsidian Prime**, Bangladesh.
 
 Apache-2.0. See [LICENSE](LICENSE).
 
-Third-party files in `web/`: Chart.js 4.5.1 (MIT, `web/vendor/chart.umd.js`, licence header kept) and Source Sans 3 by Adobe (SIL Open Font License 1.1, `web/fonts/OFL.txt`).
+Third-party files in `web/`: Chart.js 4.5.1 (MIT, `web/vendor/chart.umd.js`, licence header kept), Source Sans 3 by Adobe (SIL Open Font License 1.1, `web/fonts/OFL.txt`) and JetBrains Mono 2.304 by JetBrains (SIL Open Font License 1.1, `web/fonts/OFL-jb-mono.txt`).

@@ -60,18 +60,78 @@ def test_every_request_happens_at_first_load():
     assert not re.search(r'(?:src|href)="(?:https?:)?//', html), "every asset must come from web/"
 
 
-def test_scripts_carry_a_version_that_matches_their_content():
-    """A phone that cached an older script must never run it under a newer page: every script URL carries
-    a hash of the script, so a changed script gets a URL the browser has never cached. Line endings are
-    normalised so a Windows checkout gives the same hash."""
+def version(path: str) -> str:
+    return hashlib.sha1(Path("web", path).read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:10]
+
+
+def test_scripts_styles_and_fonts_carry_a_version_that_matches_their_content():
+    """A phone that cached an older file must never use it under a newer page: every script, stylesheet and
+    font URL carries a hash of the file, so a changed file gets a URL the browser has never cached. Line
+    endings are normalised so a Windows checkout gives the same hash."""
     html = Path("web/index.html").read_text(encoding="utf-8")
     scripts = re.findall(r'<script src="([^"?]+)\?v=([0-9a-f]+)"></script>', html)
-    assert [path for path, _ in scripts] == ["errors.js", "vendor/chart.umd.js", "rules.js", "reaction.js", "app.js"], \
-        "errors.js loads first, so it can show errors from the scripts after it"
+    assert [path for path, _ in scripts] == ["errors.js", "theme.js", "vendor/chart.umd.js", "rules.js", "reaction.js", "app.js"], \
+        "errors.js loads first, so it can show errors from the scripts after it; theme.js before the body paints"
     assert html.count("<script") == len(scripts), "every script tag needs ?v="
-    for path, version in scripts:
-        expected = hashlib.sha1(Path("web", path).read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:10]
-        assert version == expected, f"web/index.html: change {path}?v={version} to {path}?v={expected}"
+    links = re.findall(r'<link rel="(?:preload|stylesheet)" href="([^"]+)"', html)
+    fonts = re.findall(r'url\("([^"]+)"\)', Path("web/tokens.css").read_text(encoding="utf-8"))
+    assert "tokens.css?v=" in " ".join(links) and len(fonts) == 3
+    urls = [f"{p}?v={v}" for p, v in scripts] + links + fonts
+    for url in urls:
+        path, _, v = url.partition("?v=")
+        assert v == version(path), f"change {url} to {path}?v={version(path)}"
+
+
+TOKENS = Path("web/tokens.css")
+
+
+def theme_block(name: str) -> str:
+    css = TOKENS.read_text(encoding="utf-8")
+    return re.search(r':root\[data-theme="' + name + r'"\] \{(.*?)\}', css, re.S).group(1)
+
+
+def test_both_themes_define_every_variable_the_page_uses():
+    used = set(re.findall(r"var\((--[a-z-]+)\)", Path("web/index.html").read_text(encoding="utf-8")))
+    used |= set(re.findall(r'"(--[a-z-]+)"', Path("web/app.js").read_text(encoding="utf-8")))
+    assert {"--ink", "--flag", "--mono", "--sans"} <= used
+    for name in ("light", "dark"):
+        defined = set(re.findall(r"(--[a-z-]+):", theme_block(name)))
+        assert used <= defined, f"{name} theme is missing {sorted(used - defined)}"
+    assert "#0B1220" in theme_block("dark") and "#E6ECE8" in theme_block("light")
+
+
+def test_theme_switch_is_in_the_header_and_big_enough_to_tap():
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    header = html[html.index('<header class="top">'):html.index("</header>")]
+    assert '<button id="theme-btn" class="theme-btn" type="button"' in header
+    assert re.search(r"\.theme-btn \{[^}]*width: 44px; height: 44px;", html)
+    app = Path("web/app.js").read_text(encoding="utf-8")
+    for label in ("Switch to light theme", "Switch to dark theme"):
+        assert label in app and not any(b in label.lower() for b in BLOCKED)
+
+
+def test_offline_line_is_in_the_header_on_every_screen():
+    """DESIGN_BRIEF [NEW]: P1 to P7 show the offline indicator. It sits in the shared header, so every screen has it."""
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    header = html[html.index('<header class="top">'):html.index("</header>")]
+    line = "Offline – all data cached"
+    assert f"</svg>{line}</span>" in header and not any(b in line.lower() for b in BLOCKED)
+
+
+THEME_JS = """
+const T = require('./web/theme.js');
+const at = (h, m) => T.byClock(new Date(2026, 9, 29, h, m));
+console.log(JSON.stringify([at(21, 59), at(22, 0), at(3, 0), at(5, 59), at(6, 0), at(12, 0)]));
+"""
+
+
+@pytest.mark.skipif(NODE is None, reason="node is not installed")
+def test_default_theme_is_dark_in_the_simulated_sleep_window():
+    out = json.loads(subprocess.run([NODE, "-e", THEME_JS], capture_output=True, text=True, check=True).stdout)
+    assert out == ["light", "dark", "dark", "dark", "light", "light"]
+    theme = Path("web/theme.js").read_text(encoding="utf-8")
+    assert "Simulated crew schedule, not a NASA figure" in theme
+    assert theme.count("try {") == 2, "localStorage read and write are both wrapped"
 
 
 REACTION_JS = """

@@ -1,0 +1,73 @@
+/* Design tokens: the two palettes and two fonts from the final canvas (docs/DESIGN_BRIEF.md "Global rules").
+   web/theme.js sets data-theme on <html>; plain :root is the light palette in case that script never runs.
+   Every variable index.html or app.js uses must be defined in both themes (tests/test_web.py checks). */
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("fonts/source-sans-3-latin-wght-normal.woff2?v=fe93b8f82d") format("woff2");
+  font-weight: 200 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("fonts/jb-mono-regular.woff2?v=366a644383") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("fonts/jb-mono-bold.woff2?v=3924a03279") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* Light – day mode (the original app palette). */
+:root, :root[data-theme="light"] {
+  color-scheme: light;
+  --sans: "Source Sans 3", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+  --scrub: #E6ECE8;        /* ground */
+  --ink: #16221E;          /* text, primary button */
+  --quiet: #52625B;
+  --rule: #AEBDB5;
+  --band: #C5D3CA;         /* usual-range band */
+  --flag: #D4470C;
+  --sim: #FFF1A8;          /* simulated-data badge */
+  --sim-ink: #16221E;
+  --sim-border: #16221E;
+  --error: #FCE1DE;        /* alert card */
+  --real: #FFFFFF;         /* real-data box */
+  --real-border: #52625B;
+  --real-head: #16221E;
+  --card: transparent;
+  --card-border: #AEBDB5;
+  --strong: #52625B;       /* control borders */
+  --glow: none;
+  --rt-go: transparent;    /* reaction field while the circle shows */
+  --rt-dot: #16221E;
+}
+
+/* Dark – mission console. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --sans: "Source Sans 3", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+  --scrub: #0B1220;
+  --ink: #E6EDF7;
+  --quiet: #9AA8BE;
+  --rule: #26334D;
+  --band: rgba(154, 168, 190, 0.22); /* #9AA8BE at low opacity */
+  --flag: #FF8A3D;
+  --sim: #FFE066;
+  --sim-ink: #0B1220;
+  --sim-border: #FFE066;
+  --error: #1A1410;
+  --real: #0E1A2C;
+  --real-border: #4FD1E8;
+  --real-head: #4FD1E8;
+  --card: #121B2E;
+  --card-border: #26334D;
+  --strong: #4A5A75;
+  --rt-go: #E6EDF7;
+  --rt-dot: #0B1220;
+  --glow: -4px 0 14px -6px rgba(255, 138, 61, 0.55); /* soft orange glow on flagged items */
+}
