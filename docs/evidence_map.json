@@ -17,7 +17,7 @@
     "plain_words": "In the same study, heart rate rose about 15 percent right after landing and was still raised 15 days later.",
     "key_finding": "heart rate rose about 15 percent right after landing",
     "countermeasure": "Repeat the reading at rest; if it is still high, report to the flight surgeon today.",
-    "countermeasure_source": "to be confirmed by research lead"
+    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf"
   },
   "sleep_below_personal_baseline": {
     "source_type": "ntrs",
@@ -47,7 +47,7 @@
     "plain_words": "In a 520-day simulated mission to Mars, researchers followed the mood state of 6 crew members over time and linked changes in it to the long isolation.",
     "key_finding": "linked changes in it to the long isolation",
     "countermeasure": "Use tonight's scheduled private conference or crew journal entry; tell the flight surgeon if mood stays low tomorrow.",
-    "countermeasure_source": "to be confirmed by research lead"
+    "countermeasure_source": "NASA OCHMO-TB-016 Rev B, Behavioral Health and Performance technical brief (2023), https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf; NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf"
   },
   "two_signals_in_48h": {
     "source_type": "osdr",
@@ -56,15 +56,27 @@
     "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-140",
     "plain_words": "In a 520-day simulated mission to Mars, researchers profiled mood state, biochemistry and DNA methylation together in 6 crew members and reported that changes in these measures were related to one another during the isolation.",
     "key_finding": "changes in these measures were related to one another",
-    "countermeasure": "Do the planned ARED or T2 exercise session today.",
-    "countermeasure_source": "NTRS 20140002864, Benefits, Consequences, and Uncertainties of Conventional (Exercise) Countermeasure Approaches, https://ntrs.nasa.gov/citations/20140002864"
+    "countermeasure": "Send today's summary to the flight surgeon.",
+    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf"
   },
   "spo2_below_personal_baseline": {
+    "source_type": "ntrs",
+    "source_id": "20150021491",
+    "title": "Evidence Report: Risk of Hypobaric Hypoxia from the Exploration Atmosphere",
+    "url": "https://ntrs.nasa.gov/citations/20150021491",
+    "plain_words": "NASA's evidence report on the planned cabin air for exploration missions (8.2 psia, 34% oxygen) names hypobaric hypoxia, less oxygen reaching the body from thinner air, as an added stress on crew.",
+    "key_finding": "names hypobaric hypoxia",
     "countermeasure": "Check the sensor fit and repeat the reading; if still low, report to the flight surgeon today.",
-    "countermeasure_source": "to be confirmed by research lead"
+    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf"
   },
   "core_temp_above_personal_baseline": {
-    "countermeasure": "Reduce exercise load today, keep to the scheduled fluid intake, and repeat the reading later today.",
-    "countermeasure_source": "to be confirmed by research lead"
+    "source_type": "ntrs",
+    "source_id": "20000104233",
+    "title": "Temperature Regulation in Crewmembers After a 115-Day Space Flight",
+    "url": "https://ntrs.nasa.gov/citations/20000104233",
+    "plain_words": "NASA tested two crew members before and after 115 days on Mir and found that, after the flight, their bodies lost heat less well during exercise.",
+    "key_finding": "their bodies lost heat less well during exercise",
+    "countermeasure": "Repeat the reading later today; if it is still high, send it to the flight surgeon before your next exercise session.",
+    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf"
   }
 }

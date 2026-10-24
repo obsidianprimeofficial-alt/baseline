@@ -155,23 +155,20 @@ Card text is fixed wording filled in with the rule output.
 
 ## Evidence behind each card
 
-Every rule has a countermeasure step, and a test checks this. Nothing counts as evidence until the research lead has read the source and copied it in by hand.
+Every rule cites a NASA study and a NASA source for its step, and a test checks that every rule has a step. All sources were reviewed on 24 Oct 2026; what each one is, and how strong, is in [docs/EVIDENCE.md](docs/EVIDENCE.md).
 
 | Rule | Study | Step source |
 |---|---|---|
-| Heart rate variability low | [NTRS 20040087874](https://ntrs.nasa.gov/citations/20040087874) | [NTRS 20140002864](https://ntrs.nasa.gov/citations/20140002864) (ARED or T2 session) |
-| Heart rate high | [NTRS 20040087874](https://ntrs.nasa.gov/citations/20040087874) | to be confirmed |
+| Heart rate variability low | [NTRS 20040087874](https://ntrs.nasa.gov/citations/20040087874) (4 crew, 16-day flight) | [NTRS 20140002864](https://ntrs.nasa.gov/citations/20140002864) (ARED or T2 session; conference abstract) |
+| Heart rate high | [NTRS 20040087874](https://ntrs.nasa.gov/citations/20040087874) | [NASA-STD-3001 Vol 1 Rev C [V1 3004]](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) (repeat at rest, report) |
 | Sleep short | [NTRS 20240002094](https://ntrs.nasa.gov/citations/20240002094) | [NTRS 20190002002](https://ntrs.nasa.gov/citations/20190002002) (sleep space) |
-| Reaction time slow | [NTRS 20240012108](https://ntrs.nasa.gov/citations/20240012108) | [NTRS 20240002094](https://ntrs.nasa.gov/citations/20240002094), [NTRS 20140012988](https://ntrs.nasa.gov/citations/20140012988) (sleep window, lighting) |
-| Mood low | [OSD-140](https://osdr.nasa.gov/bio/repo/data/studies/OSD-140) (ground isolation study) | to be confirmed |
-| Two signals in 48 h | [OSD-140](https://osdr.nasa.gov/bio/repo/data/studies/OSD-140) | [NTRS 20140002864](https://ntrs.nasa.gov/citations/20140002864) |
-| SpO2 low | none yet | to be confirmed |
-| Core temperature high | none yet | to be confirmed |
+| Reaction time slow | [NTRS 20240012108](https://ntrs.nasa.gov/citations/20240012108) | [NTRS 20240002094](https://ntrs.nasa.gov/citations/20240002094), [NTRS 20140012988](https://ntrs.nasa.gov/citations/20140012988) (sleep window, lighting; the second is a conference abstract) |
+| Mood low | [OSD-140](https://osdr.nasa.gov/bio/repo/data/studies/OSD-140) (ground isolation study (Mars-500), 6 crew, not spaceflight; DOI 10.26030/pybz-6s43) | [OCHMO-TB-016 Rev B](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf) and [NASA-STD-3001 Vol 1 Rev C [V1 3004]](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) (private conference or journal, report) |
+| Two signals in 48 h | [OSD-140](https://osdr.nasa.gov/bio/repo/data/studies/OSD-140) | [NASA-STD-3001 Vol 1 Rev C [V1 3004]](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) (send today's summary to the flight surgeon) |
+| SpO2 low | [NTRS 20150021491](https://ntrs.nasa.gov/citations/20150021491) (names the risk, no SpO2 readings) | [NASA-STD-3001 Vol 1 Rev C [V1 3004]](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) (check the sensor, repeat, report) |
+| Core temperature high | [NTRS 20000104233](https://ntrs.nasa.gov/citations/20000104233) (2 crew) | [NASA-STD-3001 Vol 1 Rev C [V1 3004]](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) (repeat later today, report) |
 
-**Not yet reviewed by the research lead** (matches `docs/evidence_map.json`):
-
-- Three sources added 10 Oct 2026: OSD-140 (mood and 48-hour cards), NTRS 20140002864 (ARED/T2 step), NTRS 20140012988 (second source of the reaction-time step).
-- Four steps with source "to be confirmed": mood, heart rate, SpO2, core temperature. NTRS 20130011053 was checked for the mood step and covers autogenic-feedback training, not this step. No pulse-oximetry or core-temperature study is in the cached searches.
+NASA-STD-3001 [V1 3004] requires vital signs to be monitored and trended and private contact with ground medical support. It backs the "report to the flight surgeon" part of a step, not measurement advice such as "at rest" or "check the sensor".
 
 <details>
 <summary>How the evidence map is structured</summary>
@@ -188,8 +185,8 @@ The seven OSDR searches cached on 30 Sep returned 57 hits, 50 distinct studies. 
 
 | Source | Agency | Used for | Status |
 |---|---|---|---|
-| [OSDR / GeneLab](https://osdr.nasa.gov) | NASA | Study behind a flag | Searches cached; OSD-140 on two cards, review pending |
-| [NTRS](https://ntrs.nasa.gov) | NASA | Reference numbers, countermeasure protocols | Searches cached; four reports reviewed and cited |
+| [OSDR / GeneLab](https://osdr.nasa.gov) | NASA | Study behind a flag | Searches cached; OSD-140 on two cards, reviewed |
+| [NTRS](https://ntrs.nasa.gov) | NASA | Reference numbers, countermeasure protocols | Searches cached; eight reports reviewed and cited |
 | [GOES proton flux](https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json) | NOAA | Solar particle event alert | Cached; rule and tests done; latest reading on the console |
 | [MSL RAD (Curiosity rover)](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2) | NASA (SPDF CDAWeb dataset MSL_RAD_OBS-L2, DOI 10.48322/20qb-4e17; archive: PDS PPI MSL-M-RAD-3-RDR-V1.0) | Real Mars surface radiation level, µGy per day | Cached 30 days; daily values and a 2-SD rule with tests; latest value on the console |
 | Vitals telemetry | ours, simulated | All daily readings | Built; clean and anomaly fixtures |
