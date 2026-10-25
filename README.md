@@ -67,7 +67,7 @@ pytest -q
 python -m baseline.serve
 ```
 
-`pytest -q` should print **49 passed**. The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
+`pytest -q` should print **55 passed**. The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
 
 **On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
 
@@ -156,6 +156,8 @@ Card text is fixed wording filled in with the rule output.
 ## Evidence behind each card
 
 Every rule cites a NASA study and a NASA source for its step, and a test checks that every rule has a step. All sources were reviewed on 24 Oct 2026; what each one is, and how strong, is in [docs/EVIDENCE.md](docs/EVIDENCE.md).
+
+The rules are validated on simulated data: a 4-SD shift is caught in at least 97% of fixtures, with 0.62 confirmed false flags per clean 30-day record. How this was measured, with the result tables, is in [docs/VALIDATION.md](docs/VALIDATION.md).
 
 | Rule | Study | Step source |
 |---|---|---|
