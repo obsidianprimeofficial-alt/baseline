@@ -241,8 +241,7 @@ $("save").addEventListener("click", () => {
     return;
   }
   $("missing").textContent = "";
-  const today = {
-    ...state.fixture.find((r) => r.day === TODAY),
+  const check = {
     reaction_ms: state.recorded ? recordedReaction() : median(state.trials),
     reaction_recorded: state.recorded,
     sleep_hours: sleepHours(),
@@ -250,11 +249,52 @@ $("save").addEventListener("click", () => {
     mood_1to5: +picked("mood"),
     sleep_quality_1to5: +picked("quality"), // recorded for the summary; no rule scores it yet
     near_vision_ok: picked("vision") === "clear",
-    self_check: true,
+    saved_at: new Date().toISOString(),
   };
-  state.rows = [...state.fixture.filter((r) => r.day < TODAY), today];
+  openCheck(check, Store.add(check));
+});
+
+// ---------- the daily log on this device (web/store.js) ----------
+
+const when = (iso) => new Date(iso).toLocaleString([], { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+
+// Today's row = the simulated wearable values for day 29 + the self-check. A check the browser would not
+// store loses its saved_at, so the console and the CSV never call it saved.
+function openCheck(check, kept) {
+  const own = kept ? check : { ...check, saved_at: undefined };
+  state.rows = [...state.fixture.filter((r) => r.day < TODAY), { ...state.fixture.find((r) => r.day === TODAY), ...own, self_check: true }];
+  put($("saved-line"), kept
+    ? `Saved on this device, ${when(check.saved_at)}. Nothing leaves the device.`
+    : "Not saved: this browser blocks storage, so this check is kept for this visit only.");
   recompute(TODAY);
+  renderSavedBox();
   show("console");
+}
+
+function renderSavedBox() {
+  const log = Store.load(), last = log.at(-1);
+  $("saved-box").hidden = !last;
+  if (last) put($("saved-text"), `${log.length} ${log.length === 1 ? "self-check is" : "self-checks are"} saved on this device. The latest is from ${when(last.saved_at)}.`);
+}
+
+function clearSaved() {
+  Store.clear();
+  for (const r of state.rows) delete r.saved_at;
+  put($("saved-line"), "Saved days cleared. Only the simulated record is left.");
+  renderSavedBox();
+}
+$("saved-clear").addEventListener("click", clearSaved);
+$("clear-saved").addEventListener("click", clearSaved);
+$("saved-open").addEventListener("click", () => { const last = Store.latest(); if (last) openCheck(last, true); else renderSavedBox(); });
+
+// The CSV is built in the page and handed to the browser as a file; nothing is sent anywhere.
+$("export").addEventListener("click", () => {
+  const blob = new Blob([Store.csv(state.rows, Store.load())], { type: "text/csv;charset=utf-8" });
+  const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: `baseline-daily-log-day-${state.day}.csv` });
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 });
 
 // ---------- screen 2: console ----------
@@ -555,6 +595,8 @@ $("restart").addEventListener("click", () => {
   for (const input of document.querySelectorAll('#today input[type="radio"]')) input.checked = false;
   $("missing").textContent = "";
   $("day-label").textContent = `Day ${TODAY}`;
+  $("saved-line").textContent = "";
+  renderSavedBox(); // the saved log is kept; only the demo state resets
   show("guide");
 });
 
@@ -569,11 +611,13 @@ $("restart").addEventListener("click", () => {
     state.evidence = evidence;
     state.radiation = radiation;
     renderRadiation();
-    $("save").disabled = $("rt-recorded").disabled = false; // both read the record; disabled in the HTML until it is here
+    $("save").disabled = $("rt-recorded").disabled = $("saved-open").disabled = false; // all read the record; disabled in the HTML until it is here
+    renderSavedBox();
   } catch (err) {
     put($("missing"), "The simulated record did not load. Start the page with: python -m baseline.serve");
     $("save").disabled = true;
     $("rt-recorded").disabled = true;
+    $("saved-open").disabled = true;
     throw err;
   }
   await document.fonts.load('16px "Source Sans 3"');

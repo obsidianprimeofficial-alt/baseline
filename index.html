@@ -98,6 +98,8 @@ a { color: inherit; text-underline-offset: 3px; }
 .guide h1 { margin-top: 0; }
 .guide ol { margin: 0; padding-left: 1.4em; }
 .guide li + li { margin-top: 6px; }
+.saved-box, .log { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--strong); }
+.saved-box p { margin-top: 0; }
 
 .stepper { display: grid; grid-template-columns: 56px 1fr 56px; gap: 8px; align-items: center; margin-top: 8px; }
 .step-btn {
@@ -242,6 +244,11 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   </div>
   <button id="guide-start" class="primary" type="button">Start self-check</button>
   <button class="text-button" type="button" data-go="today">Skip</button>
+  <div id="saved-box" class="saved-box" hidden>
+    <p id="saved-text"></p>
+    <button id="saved-open" class="secondary" type="button" disabled>Open the latest saved self-check</button>
+    <button id="saved-clear" class="text-button" type="button">Clear saved days</button>
+  </div>
 </section>
 
 <section id="today" aria-labelledby="today-title" hidden>
@@ -341,6 +348,13 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   </div>
   <button id="to-flags" class="primary" type="button" data-go="flags">See what changed</button>
   <button id="restart" class="secondary" type="button" hidden>Start the demo again</button>
+  <div id="log" class="log">
+    <h2>Daily log</h2>
+    <p id="saved-line" class="meta"></p>
+    <p class="meta">Kept in this browser on this device only. No cloud, no network.</p>
+    <button id="export" class="secondary" type="button">Download the daily log (CSV)</button>
+    <button id="clear-saved" class="text-button" type="button">Clear saved days</button>
+  </div>
 </section>
 
 <section id="flags" aria-labelledby="flags-title" hidden>
@@ -390,6 +404,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <script src="vendor/chart.umd.js?v=943f58faf8"></script>
 <script src="rules.js?v=9280e87989"></script>
 <script src="reaction.js?v=0c373ca889"></script>
-<script src="app.js?v=aca65820d3"></script>
+<script src="store.js?v=986788a7d2"></script>
+<script src="app.js?v=7612e563de"></script>
 </body>
 </html>
