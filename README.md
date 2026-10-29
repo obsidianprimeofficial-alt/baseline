@@ -211,7 +211,7 @@ tests/                  49 tests
 
 ## Challenge and team
 
-[Create Health Monitoring Software for Astronauts on Space Missions](https://www.spaceappschallenge.org/2026/challenges/create-health-monitoring-software-for-astronauts-on-space-missions/), NASA Space Apps Challenge 2026.
+[Create Health Monitoring Software for Astronauts on Space Missions](https://www.spaceappschallenge.org/2026/challenges/health-monitoring-software/), NASA Space Apps Challenge 2026.
 
 Team **Obsidian Prime**, Bangladesh.
 
