@@ -3,22 +3,23 @@
 // run on the simulated fixture plus today's self-check. Nothing is fetched from outside this folder.
 
 const TODAY = 29, NEXT = 30, ROUNDS = Reaction.ROUNDS;
-const CHANNELS = ["hrv_rmssd_ms", "sleep_hours", "reaction_ms"];
-const SELF_CHECK = ["reaction_ms", "sleep_hours", "mood_1to5"];
+const CHANNELS = ["heart_rate_bpm", "hrv_rmssd_ms", "spo2_pct", "core_temp_c", "sleep_hours", "mood_1to5", "reaction_ms"];const SELF_CHECK = ["reaction_ms", "sleep_hours", "mood_1to5"];
 const PREFIX = { osdr: "OSD-", ntrs: "NTRS " };
 const SIGNALS = {
   hrv_rmssd_ms: { name: "Heart rate variability", phrase: "Your heart rate variability today", unit: "ms", dp: 1, step: 10, low: "lower", high: "higher" },
   sleep_hours: { name: "Sleep", phrase: "Your sleep last night", unit: "hours", dp: 1, step: 1, low: "shorter", high: "longer" },
   reaction_ms: { name: "Reaction time", phrase: "Your reaction time today", unit: "ms", dp: 0, step: 50, low: "faster", high: "slower" },
-  mood_1to5: { name: "Mood", phrase: "Your mood today", unit: "of 5", diffUnit: "points", dp: 1, low: "lower", high: "higher" },
-  heart_rate_bpm: { name: "Heart rate", phrase: "Your heart rate today", unit: "beats a minute", dp: 0, low: "lower", high: "higher" },
-  spo2_pct: { name: "Blood oxygen", phrase: "Your blood oxygen today", unit: "percent", dp: 1, low: "lower", high: "higher" },
-  core_temp_c: { name: "Core temperature", phrase: "Your core temperature today", unit: "°C", dp: 2, low: "lower", high: "higher" },
+  // step for the four below: the smallest of 0.25, 0.5, 1, 2, 2.5, 5, 10 that gives three ticks on days 29 and 30
+  // of web/data/crew_a_anomaly.json (values plus usual range): 2 to 6, 50 to 70, 96 to 100, 36.5 to 37.0
+  mood_1to5: { name: "Mood", phrase: "Your mood today", unit: "of 5", diffUnit: "points", dp: 1, step: 2, low: "lower", high: "higher" },
+  heart_rate_bpm: { name: "Heart rate", phrase: "Your heart rate today", unit: "beats a minute", dp: 0, step: 10, low: "lower", high: "higher" },
+  spo2_pct: { name: "Blood oxygen", phrase: "Your blood oxygen today", unit: "percent", dp: 1, step: 2, low: "lower", high: "higher" },
+  core_temp_c: { name: "Core temperature", phrase: "Your core temperature today", unit: "°C", dp: 2, step: 0.25, low: "lower", high: "higher" },
 };
 
 const $ = (id) => document.getElementById(id);
 const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-const state = { fixture: [], evidence: {}, radiation: null, rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null };
+const state = { fixture: [], evidence: {}, radiation: null, rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null, range: 0 };
 
 // ---------- text ----------
 
@@ -30,6 +31,7 @@ function put(el, text) {
   return el;
 }
 const make = (tag, text, cls) => { const el = put(document.createElement(tag), text); if (cls) el.className = cls; return el; };
+const checked = (text) => put(document.createElement("span"), text).textContent; // for attributes such as aria-label
 
 const fmt = (signal, v, unit = SIGNALS[signal].unit) => `${v.toFixed(SIGNALS[signal].dp)} ${unit}`;
 // The numbers behind z (today, usual, spread) to one decimal everywhere; z uses the unrounded values,
@@ -308,28 +310,28 @@ function recompute(day) {
 }
 
 function drawChannel(signal) {
-  const rows = state.rows, last = rows.length - 1, vals = rows.map((r) => r[signal]);
-  const band = rows.map((_, i) => (i < Rules.MIN_HISTORY_DAYS ? null : Rules.baseline(vals.slice(0, i))));
-  const marks = rows.map((r) => (state.flags[r.day] || []).find((f) => f.signal === signal));
+  // Band and marks come from the full record (web/trend.js); the 7-day view only cuts the last days off it.
+  const full = Trend.series(state.rows, state.flags, signal, state.range);
+  const { days, vals, band, marks } = full.shown, last = days.length - 1;
   const box = document.querySelector(`[data-signal="${signal}"]`), canvas = box.querySelector("canvas");
   const [ink, quiet, scrub, flag] = ["--ink", "--quiet", "--scrub", "--flag"].map(css), mono = { family: css("--mono") };
   const range = (b) => `${fmt(signal, b.mean - 2 * b.sd)} to ${fmt(signal, b.mean + 2 * b.sd)}`;
-  const flagged = rows.filter((_, i) => marks[i]).map((r) => r.day);
+  const flagged = days.filter((_, i) => marks[i]);
   const bottom = signal === CHANNELS.at(-1), step = SIGNALS[signal].step;
-  const span = [...vals, ...band.filter(Boolean).flatMap((b) => [b.mean - 2 * b.sd, b.mean + 2 * b.sd])];
+  const span = [...full.vals, ...full.band.filter(Boolean).flatMap((b) => [b.mean - 2 * b.sd, b.mean + 2 * b.sd])];
   const yMin = Math.max(0, Math.floor(Math.min(...span) / step) * step); // three ticks, all whole steps; none below zero
   const yMax = yMin + Math.ceil((Math.max(...span) - yMin) / (2 * step)) * 2 * step;
 
   put(box.querySelector(".val"), fmt(signal, vals[last]));
-  canvas.setAttribute("aria-label",
-    `${SIGNALS[signal].name}, days 1 to ${rows[last].day}. Today ${fmt(signal, vals[last])}; usual range ${range(band[last])}. ` +
-    (flagged.length ? `Outside the usual range on days ${listWords(flagged.map(String))}.` : "No days outside the usual range."));
+  canvas.setAttribute("aria-label", checked(
+    `${SIGNALS[signal].name}, days ${days[0]} to ${days[last]}. Today ${fmt(signal, vals[last])}; usual range ${range(band[last])}. ` +
+    (flagged.length ? `Outside the usual range on day${flagged.length > 1 ? "s" : ""} ${listWords(flagged.map(String))}.` : "No day shown is outside the usual range.")));
 
   state.charts[signal]?.destroy();
   state.charts[signal] = new Chart(canvas, {
     type: "line",
     data: {
-      labels: rows.map((r) => r.day),
+      labels: days,
       datasets: [
         {
           data: vals, order: 0, borderColor: ink, borderWidth: 1.5,
@@ -367,7 +369,7 @@ function drawChannel(signal) {
           border: { color: css("--rule") },
           ticks: {
             autoSkip: false, maxRotation: 0, color: quiet, font: mono,
-            callback: (_, i) => { const d = rows[i].day; return d === 1 || d % 10 === 0 || i === last ? d : ""; },
+            callback: (_, i) => { const d = days[i]; return state.range || d === 1 || d % 10 === 0 || i === last ? d : ""; }, // 7 days: every day
           },
         },
         y: {
@@ -391,11 +393,20 @@ $("theme-btn").addEventListener("click", () => {
   if (Object.keys(state.charts).length) CHANNELS.forEach(drawChannel);
 });
 
+// 7 days · 30 days switch (design P7b). Not saved on the device; "Start the demo again" sets it back to 30 days.
+function setRange(days) {
+  state.range = days;
+  for (const b of document.querySelectorAll("[data-range]")) b.setAttribute("aria-pressed", String(+b.dataset.range === days));
+  if (!state.rows.length) return;
+  put($("console-days"), `Your last ${days ? Math.min(days, state.rows.length) : state.rows.length} days`);
+  CHANNELS.forEach(drawChannel);
+}
+for (const b of document.querySelectorAll("[data-range]")) b.addEventListener("click", () => setRange(+b.dataset.range));
+
 function renderConsole() {
   const day = state.day, n = flagsFor(day).filter((r) => r.signal).length;
-  put($("console-title"), `Your last ${state.rows.length} days`);
   put($("legend-band"), `Usual range (from day ${Rules.MIN_HISTORY_DAYS + 1}, ±${Rules.THRESHOLD} SD)`);
-  CHANNELS.forEach(drawChannel);
+  setRange(state.range); // draws the charts
   put($("console-summary"), n === 0
     ? "Nothing is outside your usual range today."
     : `${n} ${n === 1 ? "reading is" : "readings are"} outside your usual range today.`);
@@ -587,6 +598,7 @@ $("restart").addEventListener("click", () => {
   clearTimeout(rt.timer);
   rt.state = "idle";
   Object.assign(state, { rows: [], flags: {}, day: TODAY, trials: [], recorded: false, current: null });
+  setRange(0); // back to 30 days
   rtShow("Tap here to start");
   rtStatus();
   $("rt-again").hidden = true;

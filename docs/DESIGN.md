@@ -30,24 +30,27 @@ Single column, left aligned, 16 px gutters, designed at 390 px, max width 480 px
 
 ```
 Day 29                 Simulated data     <- 16 px bold ink on light yellow, sticky
-Your last 29 days                         <- 24 px title
+Health status                             <- title (Gate 1 label)
+Your last 29 days                         <- 20 px; "Your last 7 days" in the 7-day view
 ▬ Usual range (from day 15, ±2 SD)        <- 14 px quiet key, row 1 on phones
 ● Flagged  ○ Watching                     <- row 2; one row on wider screens
 4 readings are outside your usual range.  <- 18 px, the answer first
+[   7 days   |  30 days  ]                <- switch, 30 days pressed by default
 
-Heart rate variability          42.0 ms   <- channel name / today's value
+Heart rate             62 beats a minute   <- channel name / today's value
+Heart rate variability          42.0 ms
 ░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒             <- band from day 15
 ───────────────────────────●●●            <- ink trace, orange marks on flagged days
 Sleep                            4.7 h
 ...
 Reaction time                   338 ms
 ...
-1          10          20           29    <- one shared day axis
+1          10          20           29    <- one shared day axis (every day in the 7-day view)
 
 [ See what changed ]                      <- the one action, ink filled
 ```
 
-Console is three stacked channel strips sharing one day axis, the way a polysomnography or Holter printout is read, so drift in two signals at once is visible without a legend.
+Console is seven stacked channel strips (heart rate, HRV, blood oxygen, core temperature, sleep, mood, reaction time) sharing one day axis, the way a polysomnography or Holter printout is read, so drift in two signals at once is visible without a legend.
 
 ## Principles
 

@@ -5,7 +5,7 @@
 **Baseline is a phone app that tells an astronaut whether today is normal *for them*.** It compares each day's readings with that person's own 30-day range. When something drifts, it shows the numbers, the NASA study behind the change, and one step to consider. It never diagnoses.
 
 <p align="center">
-  <img src="web/screenshots/2-console-390.png" width="260" alt="Console: 29 days of heart rate variability, sleep and reaction time. The grey band is the usual range. Days 27 to 29 are flagged in orange.">
+  <img src="web/screenshots/2-console-390.png" width="260" alt="Console titled Health status: the last 29 days of heart rate, heart rate variability and blood oxygen, the first three of seven charts. The grey band is the usual range. Heart rate variability is flagged in orange on days 27 to 29.">
   &nbsp;
   <img src="web/screenshots/3-flags-390.png" width="260" alt="Flag list: reaction time, heart rate variability and sleep are outside the usual range today, and several readings moved together within 48 hours.">
   &nbsp;
@@ -67,7 +67,7 @@ pytest -q
 python -m baseline.serve
 ```
 
-`pytest -q` should print **61 passed**. The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
+`pytest -q` should print **64 passed**. The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
 
 **On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
 
@@ -95,7 +95,7 @@ For a repeatable demo, use the **"Use recorded day-29 self-check"** button in st
 | Step | Screen | What you see |
 |---|---|---|
 | 1 | **Self-check** | A guide card, then a 5-round reaction test, sleep hours, sleep quality, mood, and a near-vision line. About 2 minutes. |
-| 2 | **Console** | 30-day chart of heart rate variability, sleep and reaction time. Grey band = your usual range. Orange dot = flagged. Orange ring = being watched. |
+| 2 | **Console** | "Health status": one chart per signal, seven in all (heart rate, heart rate variability (HRV), blood oxygen, core temperature, sleep, mood and reaction time); a 7 days · 30 days switch (30 by default, same usual range in both). Grey band = your usual range. Orange dot = flagged. Orange ring = being watched. |
 | 3 | **What changed** | Each flag in two lines: today's value against your usual, then a plain status such as "Well outside your usual range, third day running." |
 | 4 | **Evidence card** | The change in plain words, the numbers, why it matters (study finding in bold, source linked), and one step to consider. |
 | 5 | **Queue for flight surgeon** | The summary, and "Earliest reply in 44 minutes (22 minutes each way at Mars distance)." Display only. Nothing is sent. |
@@ -200,11 +200,11 @@ The seven OSDR searches cached on 30 Sep returned 57 hits, 50 distinct studies. 
 ```
 src/baseline/compute/   rules, baselines, radiation, wording check  (the reference logic)
 src/baseline/serve.py   local web server, --lan for phones
-web/                    the page: index.html, app.js, rules.js, screenshots, fonts, Chart.js
+web/                    the page: index.html, app.js, rules.js, trend.js, screenshots, fonts, Chart.js
 data/fixtures/          simulated 30-day records (clean, anomaly)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  49 tests
+tests/                  64 tests
 ```
 
 ---

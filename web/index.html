@@ -137,6 +137,14 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .plot { position: relative; height: 96px; }
 .channel.bottom .plot { height: 118px; }
 .summary-line { margin-bottom: 8px; padding-bottom: 12px; border-bottom: 1px solid var(--rule); font-weight: 700; }
+.days-line { margin: -4px 0 8px; font-size: 20px; font-weight: 600; }
+/* 7 days · 30 days (design P7b): one framed control, the pressed half filled. */
+.range { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin: 12px 0 0; padding: 3px; border: 1px solid var(--strong); border-radius: 8px; }
+.range button {
+  min-height: 44px; border: 0; border-radius: 6px; background: none; color: var(--quiet);
+  font-family: var(--mono); font-size: 16px; cursor: pointer; touch-action: manipulation;
+}
+.range button[aria-pressed="true"] { background: var(--ink); color: var(--scrub); font-weight: 600; }
 /* Two no-wrap units: the band, and "Flagged" with "Watching". On phones they sit in two tidy rows,
    on wider screens in one; a single item is never left alone on a line. */
 .legend { display: flex; flex-wrap: wrap; gap: 4px 12px; list-style: none; padding: 0; margin: 0 0 12px; font-size: 14px; color: var(--quiet); }
@@ -316,18 +324,39 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 </section>
 
 <section id="console" aria-labelledby="console-title" hidden>
-  <h1 id="console-title" tabindex="-1">Your last 29 days</h1>
+  <h1 id="console-title" tabindex="-1">Health status</h1>
+  <p id="console-days" class="days-line">Your last 29 days</p>
   <ul class="legend" aria-label="Chart key">
     <li><span class="key band"></span><span id="legend-band">Usual range</span></li>
     <li><span><span class="key dot"></span>Flagged</span><span><span class="key ring"></span>Watching</span></li>
   </ul>
   <p id="console-summary" class="summary-line"></p>
+  <div class="range" role="group" aria-label="Days shown">
+    <button type="button" data-range="7" aria-pressed="false">7 days</button>
+    <button type="button" data-range="0" aria-pressed="true">30 days</button>
+  </div>
+  <div class="channel" data-signal="heart_rate_bpm">
+    <div class="channel-head"><span>Heart rate</span><span class="val"></span></div>
+    <div class="plot"><canvas role="img"></canvas></div>
+  </div>
   <div class="channel" data-signal="hrv_rmssd_ms">
     <div class="channel-head"><span>Heart rate variability</span><span class="val"></span></div>
     <div class="plot"><canvas role="img"></canvas></div>
   </div>
+  <div class="channel" data-signal="spo2_pct">
+    <div class="channel-head"><span>Blood oxygen</span><span class="val"></span></div>
+    <div class="plot"><canvas role="img"></canvas></div>
+  </div>
+  <div class="channel" data-signal="core_temp_c">
+    <div class="channel-head"><span>Core temperature</span><span class="val"></span></div>
+    <div class="plot"><canvas role="img"></canvas></div>
+  </div>
   <div class="channel" data-signal="sleep_hours">
     <div class="channel-head"><span>Sleep</span><span class="val"></span></div>
+    <div class="plot"><canvas role="img"></canvas></div>
+  </div>
+  <div class="channel" data-signal="mood_1to5">
+    <div class="channel-head"><span>Mood</span><span class="val"></span></div>
     <div class="plot"><canvas role="img"></canvas></div>
   </div>
   <div class="channel bottom" data-signal="reaction_ms">
@@ -403,8 +432,9 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 </main>
 <script src="vendor/chart.umd.js?v=943f58faf8"></script>
 <script src="rules.js?v=9280e87989"></script>
+<script src="trend.js?v=076b8d7565"></script>
 <script src="reaction.js?v=0c373ca889"></script>
 <script src="store.js?v=986788a7d2"></script>
-<script src="app.js?v=7612e563de"></script>
+<script src="app.js?v=bf9af0dc9f"></script>
 </body>
 </html>

@@ -70,7 +70,7 @@ def test_scripts_styles_and_fonts_carry_a_version_that_matches_their_content():
     endings are normalised so a Windows checkout gives the same hash."""
     html = Path("web/index.html").read_text(encoding="utf-8")
     scripts = re.findall(r'<script src="([^"?]+)\?v=([0-9a-f]+)"></script>', html)
-    assert [path for path, _ in scripts] == ["errors.js", "theme.js", "vendor/chart.umd.js", "rules.js", "reaction.js", "store.js", "app.js"], \
+    assert [path for path, _ in scripts] == ["errors.js", "theme.js", "vendor/chart.umd.js", "rules.js", "trend.js", "reaction.js", "store.js", "app.js"], \
         "errors.js loads first, so it can show errors from the scripts after it; theme.js before the body paints"
     assert html.count("<script") == len(scripts), "every script tag needs ?v="
     links = re.findall(r'<link rel="(?:preload|stylesheet)" href="([^"]+)"', html)
@@ -194,3 +194,59 @@ def test_demo_reaction_card_one_decimal_inputs_reproduce_z():
     shown = [round(r[k], 1) for k in ("current", "baseline_mean", "baseline_sd")]
     assert shown == [338.3, 281.4, 16.3]
     assert round((shown[0] - shown[1]) / shown[2], 1) == round(r["z"], 1) == 3.5
+
+
+def console_html() -> str:
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    return html[html.index('<section id="console"'):html.index('<div id="radiation"')]
+
+
+def test_console_charts_all_seven_signals_in_the_order_of_app_js():
+    """PLAN Phase B item 1: heart rate, HRV, blood oxygen, core temperature, sleep, mood, reaction time."""
+    blocks = re.findall(r'<div class="channel( bottom)?" data-signal="([a-z0-9_]+)">', console_html())
+    app = Path("web/app.js").read_text(encoding="utf-8")
+    channels = json.loads(re.search(r"const CHANNELS = (\[[^\]]*\]);", app).group(1))
+    assert [s for _, s in blocks] == channels == [
+        "heart_rate_bpm", "hrv_rmssd_ms", "spo2_pct", "core_temp_c", "sleep_hours", "mood_1to5", "reaction_ms"]
+    assert [bool(b) for b, _ in blocks] == [False] * 6 + [True], "only the last chart shows the day axis"
+    for s in channels:
+        assert re.search(s + r': \{[^}]*step: [0-9.]+,', app), f"{s} needs a y-axis step"
+
+
+def test_range_switch_has_both_buttons_and_starts_on_30_days():
+    html = console_html()
+    assert '<h1 id="console-title" tabindex="-1">Health status</h1>' in html
+    switch = html[html.index('<div class="range"'):html.index('<div class="channel')]
+    assert re.findall(r'<button type="button" data-range="(\d+)" aria-pressed="(true|false)">([^<]+)</button>', switch) == [
+        ("7", "false", "7 days"), ("0", "true", "30 days")]
+    assert re.search(r"\.range button \{[^}]*min-height: 44px;", Path("web/index.html").read_text(encoding="utf-8"))
+
+
+TREND_JS = """
+const R = require('./web/rules.js'), T = require('./web/trend.js');
+const rows = JSON.parse(require('fs').readFileSync(0, 'utf8'));
+const out = {};
+for (const last of [29, 30]) {
+  const shown = rows.filter((r) => r.day <= last), flags = R.evaluate(shown);
+  for (const s of ['heart_rate_bpm', 'hrv_rmssd_ms', 'spo2_pct', 'core_temp_c', 'sleep_hours', 'mood_1to5', 'reaction_ms']) {
+    out[last + ' ' + s] = { week: T.series(shown, flags, s, 7).shown, month: T.series(shown, flags, s, 0).shown };
+  }
+}
+console.log(JSON.stringify(out));
+"""
+
+
+@pytest.mark.skipif(NODE is None, reason="node is not installed")
+def test_7_day_view_shows_the_same_band_and_marks_as_the_30_day_view():
+    """Band and marks are computed on the full record and then cut, never recomputed on the last 7 days."""
+    rows = json.loads(Path("web/data/crew_a_anomaly.json").read_text())["rows"]
+    out = json.loads(subprocess.run([NODE, "-e", TREND_JS], input=json.dumps(rows), capture_output=True, text=True, check=True).stdout)
+    assert len(out) == 14
+    for key, v in out.items():
+        week, month = v["week"], v["month"]
+        last = int(key.split()[0])
+        assert week["days"] == list(range(last - 6, last + 1)) and month["days"] == list(range(1, last + 1)), key
+        for k in ("vals", "band", "marks"):
+            assert week[k] == month[k][-7:], f"{key} {k}"
+    marked = {k.split()[1] for k, v in out.items() if k.startswith("29 ") and any(v["week"]["marks"])}
+    assert {"reaction_ms", "hrv_rmssd_ms", "sleep_hours"} <= marked, "the three demo flags show in the 7-day view on day 29"
