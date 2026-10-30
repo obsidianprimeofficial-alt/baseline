@@ -208,6 +208,10 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .alert-card .cite { margin-bottom: 6px; }
 #b1-source { margin: auto 0 0; padding-top: 16px; }
 #replay-line:empty { display: none; }
+/* Show the maths (design B2). */
+.maths-link { font-size: 16px; color: var(--ink); }
+.maths-plot { position: relative; height: 240px; margin: 12px 0 8px; padding: 0 8px; border: 1px solid var(--card-border); border-radius: 12px; background: var(--card); }
+.equation { margin: 16px 0; padding: 14px 16px; border: 1.5px solid var(--flag); border-radius: 10px; font-family: var(--mono); font-size: 17px; text-align: center; }
 
 .readout {
   display: grid; grid-template-columns: minmax(7em, 38%) 1fr; gap: 8px 16px; margin: 8px 0 0;
@@ -425,6 +429,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <h2>The numbers</h2>
   <dl id="ev-numbers" class="readout"></dl>
   <p id="ev-rounding" class="meta">Numbers are shown to one decimal; z uses the unrounded values.</p>
+  <button id="ev-maths" class="text-button maths-link" type="button">Show the maths</button>
   <h2>Why it matters</h2>
   <p id="ev-words"></p>
   <p id="ev-study" class="cite"></p>
@@ -441,6 +446,19 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
       <button id="queue-btn" class="primary" type="button">Queue for flight surgeon</button>
     </div>
   </div>
+</section>
+
+<section id="maths" aria-labelledby="maths-title" hidden>
+  <button class="text-button back" type="button" data-go="evidence">Back to the evidence</button>
+  <h1 id="maths-title" tabindex="-1">How this flag is decided</h1>
+  <p id="maths-sub" class="days-line"></p>
+  <div class="maths-plot"><canvas id="maths-chart" role="img"></canvas></div>
+  <p id="maths-bins" class="meta num"></p>
+  <p id="maths-numbers" class="num"></p>
+  <p id="maths-sum" class="equation num"></p>
+  <p id="maths-rule"></p>
+  <p class="meta">Numbers are shown to as many decimals as the sum needs.</p>
+  <p id="maths-window" class="meta"></p>
 </section>
 
 <section id="queue" aria-labelledby="queue-title" hidden>
@@ -473,9 +491,10 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <script src="rules.js?v=9280e87989"></script>
 <script src="trend.js?v=076b8d7565"></script>
 <script src="projection.js?v=1eb08e8dd9"></script>
+<script src="maths.js?v=a15139ff07"></script>
 <script src="spe.js?v=0183c8d97e"></script>
 <script src="reaction.js?v=0c373ca889"></script>
 <script src="store.js?v=986788a7d2"></script>
-<script src="app.js?v=327d91313f"></script>
+<script src="app.js?v=bedf23bbb4"></script>
 </body>
 </html>

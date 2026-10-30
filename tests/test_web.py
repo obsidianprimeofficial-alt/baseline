@@ -70,7 +70,7 @@ def test_scripts_styles_and_fonts_carry_a_version_that_matches_their_content():
     endings are normalised so a Windows checkout gives the same hash."""
     html = Path("web/index.html").read_text(encoding="utf-8")
     scripts = re.findall(r'<script src="([^"?]+)\?v=([0-9a-f]+)"></script>', html)
-    assert [path for path, _ in scripts] == ["errors.js", "theme.js", "vendor/chart.umd.js", "rules.js", "trend.js", "projection.js", "spe.js", "reaction.js", "store.js", "app.js"], \
+    assert [path for path, _ in scripts] == ["errors.js", "theme.js", "vendor/chart.umd.js", "rules.js", "trend.js", "projection.js", "maths.js", "spe.js", "reaction.js", "store.js", "app.js"], \
         "errors.js loads first, so it can show errors from the scripts after it; theme.js before the body paints"
     assert html.count("<script") == len(scripts), "every script tag needs ?v="
     links = re.findall(r'<link rel="(?:preload|stylesheet)" href="([^"]+)"', html)
