@@ -19,7 +19,7 @@ const SIGNALS = {
 
 const $ = (id) => document.getElementById(id);
 const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-const state = { fixture: [], evidence: {}, radiation: null, event: null, alertBack: "console", rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null, range: 0 };
+const state = { mathsChart: null, fixture: [], evidence: {}, radiation: null, event: null, alertBack: "console", rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null, range: 0 };
 
 // ---------- text ----------
 
@@ -394,6 +394,7 @@ $("theme-btn").addEventListener("click", () => {
   Theme.set(Theme.current() === "dark" ? "light" : "dark");
   themeLabel();
   if (Object.keys(state.charts).length) CHANNELS.forEach(drawChannel);
+  if (!$("maths").hidden) drawMaths(state.current);
 });
 
 // 7 days · 30 days switch (design P7b). Not saved on the device; "Start the demo again" sets it back to 30 days.
@@ -613,6 +614,65 @@ function renderEvidence(r) {
   if (step) putSources($("ev-step-source"), sourceRefs(e.countermeasure_source));
   put($("ev-source"), sourceNote(r));
   put($("ev-rule"), `Rule: ${r.rule}`);
+  $("ev-maths").hidden = !r.signal; // single-signal flags only; the 48-hour row has no histogram
+}
+
+// ---------- screen 4b: show the maths (design B2) ----------
+
+$("ev-maths").addEventListener("click", () => { renderMaths(state.current); show("maths"); drawMaths(state.current); });
+
+function renderMaths(r) {
+  const s = SIGNALS[r.signal], v = Maths.view(state.rows, r.signal, s), t = Maths.lines(v, s);
+  put($("maths-sub"), t.title);
+  monoNums(put($("maths-numbers"), t.numbers));
+  put($("maths-sum"), t.sum);
+  put($("maths-rule"), t.rule);
+  put($("maths-window"), t.window);
+  monoNums(put($("maths-bins"), t.bins));
+}
+
+// Bars on a category axis that fills the plot edge to edge, so a value maps to x linearly over [lo, hi].
+function drawMaths(r) {
+  const s = SIGNALS[r.signal], v = Maths.view(state.rows, r.signal, s), t = Maths.lines(v, s), { lo, hi, counts, edges } = v.bins;
+  const canvas = $("maths-chart"), [ink, quiet, flag, bar] = ["--ink", "--quiet", "--flag", "--strong"].map(css), mono = css("--mono");
+  canvas.setAttribute("aria-label", checked(t.aria));
+  const marks = [
+    { x: v.low, color: quiet, dash: [4, 4], row: 0 }, { x: v.mean, color: ink, dash: [], row: 0, bold: true },
+    { x: v.high, color: quiet, dash: [4, 4], row: 0 }, { x: v.today, color: flag, dash: [], row: 1, bold: true, dot: true },
+  ];
+  const ticks = []; for (let x = Math.ceil(lo / s.step) * s.step; x <= hi + 1e-9; x += s.step) ticks.push(x);
+  const lines = {
+    id: "mathsLines",
+    afterDatasetsDraw(chart) {
+      const { ctx, chartArea: a } = chart, px = (x) => a.left + ((x - lo) / (hi - lo)) * (a.right - a.left);
+      ctx.save();
+      ctx.textAlign = "center";
+      for (const m of marks) {
+        const x = px(m.x), top = a.top - 4 + m.row * 18;
+        ctx.strokeStyle = ctx.fillStyle = m.color; ctx.lineWidth = m.bold ? 2 : 1.5; ctx.setLineDash(m.dash);
+        ctx.beginPath(); ctx.moveTo(x, top + 4); ctx.lineTo(x, a.bottom); ctx.stroke();
+        if (m.dot) { ctx.setLineDash([]); ctx.beginPath(); ctx.arc(x, top + 4, 4, 0, 2 * Math.PI); ctx.fill(); }
+        ctx.font = `${m.bold ? 600 : 400} 13px ${mono}`;
+        ctx.fillText(`${m.x.toFixed(s.dp)} ${s.unit}`, Math.min(Math.max(x, a.left + 30), a.right - 30), a.top - 34 + m.row * 18);
+      }
+      ctx.setLineDash([]); ctx.fillStyle = quiet; ctx.font = `400 13px ${mono}`;
+      for (const x of ticks) ctx.fillText(String(+x.toFixed(2)), px(x), a.bottom + 18);
+      ctx.strokeStyle = css("--rule"); ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(a.left, a.bottom); ctx.lineTo(a.right, a.bottom); ctx.stroke();
+      ctx.restore();
+    },
+  };
+  state.mathsChart?.destroy();
+  state.mathsChart = new Chart(canvas, {
+    type: "bar",
+    data: { labels: edges, datasets: [{ data: counts, backgroundColor: bar, borderColor: css("--card"), borderWidth: 1, barPercentage: 1, categoryPercentage: 1 }] },
+    options: {
+      animation: false, maintainAspectRatio: false, events: [],
+      layout: { padding: { top: 52, bottom: 24, left: 4, right: 4 } },
+      plugins: { legend: { display: false }, tooltip: { enabled: false } },
+      scales: { x: { display: false }, y: { display: false, beginAtZero: true } },
+    },
+    plugins: [lines],
+  });
 }
 
 // ---------- screen 5: queue for flight surgeon ----------
