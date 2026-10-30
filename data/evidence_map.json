@@ -78,5 +78,14 @@
     "key_finding": "their bodies lost heat less well during exercise",
     "countermeasure": "Repeat the reading later today; if it is still high, send it to the flight surgeon before your next exercise session.",
     "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf"
+  },
+  "solar_particle_event": {
+    "countermeasure": "Go to the storm shelter.",
+    "countermeasure_source": "NASA OCHMO-TB-020 Rev E, Design for Ionizing Radiation Protection (27 Dec 2022), https://www.nasa.gov/wp-content/uploads/2023/03/radiation-protection-technical-brief-ochmo.pdf",
+    "countermeasure_line": "timely reporting to alert crew to seek shelter are essential for crew safety",
+    "alert_source": "NASA-STD-3001 Vol 2 Rev C [V2 6100], NASA Space Flight Human-System Standard Volume 2: Human Factors, Habitability, and Environmental Health (2022), https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf",
+    "alert_line": "The system shall include a method to alert the crew locally and remotely when radiation levels are expected to exceed acceptable levels.",
+    "threshold_source": "NOAA SWPC, Solar Radiation Storm, https://www.swpc.noaa.gov/phenomena/solar-radiation-storm",
+    "threshold_line": "The start of a Solar Radiation Storm is defined as the time when the flux of protons at energies \u2265 10 MeV equals or exceeds 10 proton flux units (1 pfu = 1 particle*cm-2*s-1*ster-1)."
   }
 }
