@@ -187,6 +187,11 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .radiation h2 { margin-top: 0; color: var(--real-head); font-size: 22px; }
 .radiation p:last-child { margin-bottom: 0; }
 .spe-row > span { display: block; }
+/* Trend card under its flag (design P2b): framed, no left stripe, so it reads as part of the flag above. */
+.trend-card { padding: 12px 16px; border: 1px solid var(--card-border); border-radius: 8px; background: var(--card); }
+.flag-list .trend-card { margin-top: 8px; }
+.trend-card p { margin: 0; font-variant-numeric: tabular-nums; }
+.trend-card .meta { margin-top: 6px; }
 
 .readout {
   display: grid; grid-template-columns: minmax(7em, 38%) 1fr; gap: 8px 16px; margin: 8px 0 0;
@@ -433,8 +438,9 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <script src="vendor/chart.umd.js?v=943f58faf8"></script>
 <script src="rules.js?v=9280e87989"></script>
 <script src="trend.js?v=076b8d7565"></script>
+<script src="projection.js?v=1eb08e8dd9"></script>
 <script src="reaction.js?v=0c373ca889"></script>
 <script src="store.js?v=986788a7d2"></script>
-<script src="app.js?v=bf9af0dc9f"></script>
+<script src="app.js?v=8f6ce9f86e"></script>
 </body>
 </html>

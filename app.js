@@ -10,8 +10,8 @@ const SIGNALS = {
   sleep_hours: { name: "Sleep", phrase: "Your sleep last night", unit: "hours", dp: 1, step: 1, low: "shorter", high: "longer" },
   reaction_ms: { name: "Reaction time", phrase: "Your reaction time today", unit: "ms", dp: 0, step: 50, low: "faster", high: "slower" },
   // step for the four below: the smallest of 0.25, 0.5, 1, 2, 2.5, 5, 10 that gives three ticks on days 29 and 30
-  // of web/data/crew_a_anomaly.json (values plus usual range): 2 to 6, 50 to 70, 96 to 100, 36.5 to 37.0
-  mood_1to5: { name: "Mood", phrase: "Your mood today", unit: "of 5", diffUnit: "points", dp: 1, step: 2, low: "lower", high: "higher" },
+  // of web/data/crew_a_anomaly.json (values plus usual range): 2 to 6 (mood then capped at 5), 50 to 70, 96 to 100, 36.5 to 37.0
+  mood_1to5: { name: "Mood", phrase: "Your mood today", unit: "of 5", diffUnit: "points", dp: 1, step: 2, min: 1, max: 5, low: "lower", high: "higher" }, // axis kept on the 1-to-5 scale
   heart_rate_bpm: { name: "Heart rate", phrase: "Your heart rate today", unit: "beats a minute", dp: 0, step: 10, low: "lower", high: "higher" },
   spo2_pct: { name: "Blood oxygen", phrase: "Your blood oxygen today", unit: "percent", dp: 1, step: 2, low: "lower", high: "higher" },
   core_temp_c: { name: "Core temperature", phrase: "Your core temperature today", unit: "°C", dp: 2, step: 0.25, low: "lower", high: "higher" },
@@ -317,10 +317,10 @@ function drawChannel(signal) {
   const [ink, quiet, scrub, flag] = ["--ink", "--quiet", "--scrub", "--flag"].map(css), mono = { family: css("--mono") };
   const range = (b) => `${fmt(signal, b.mean - 2 * b.sd)} to ${fmt(signal, b.mean + 2 * b.sd)}`;
   const flagged = days.filter((_, i) => marks[i]);
-  const bottom = signal === CHANNELS.at(-1), step = SIGNALS[signal].step;
+  const bottom = signal === CHANNELS.at(-1), { step, min = 0, max = Infinity } = SIGNALS[signal];
   const span = [...full.vals, ...full.band.filter(Boolean).flatMap((b) => [b.mean - 2 * b.sd, b.mean + 2 * b.sd])];
-  const yMin = Math.max(0, Math.floor(Math.min(...span) / step) * step); // three ticks, all whole steps; none below zero
-  const yMax = yMin + Math.ceil((Math.max(...span) - yMin) / (2 * step)) * 2 * step;
+  const yMin = Math.max(min, Math.floor(Math.min(...span) / step) * step); // three ticks, all whole steps; none below zero
+  const yMax = Math.min(max, yMin + Math.ceil((Math.max(...span) - yMin) / (2 * step)) * 2 * step); // nor past the scale
 
   put(box.querySelector(".val"), fmt(signal, vals[last]));
   canvas.setAttribute("aria-label", checked(
@@ -492,6 +492,14 @@ function renderFlags() {
     const li = document.createElement("li");
     li.append(b);
     list.append(li);
+    // Trend card (design P2b) under a flag that has been outside the usual range 3 days running (web/projection.js).
+    const p = r.signal && Projection.projection(state.rows, r.signal, state.flags);
+    if (p) {
+      const [text, meta] = Projection.lines(p, SIGNALS[r.signal]), card = document.createElement("li");
+      card.className = "trend-card";
+      card.append(monoNums(make("p", text)), make("p", meta, "meta"));
+      list.append(card);
+    }
   }
   $("flag-note").hidden = row.near_vision_ok !== false;
   put($("flag-note"), "You reported blurred near vision. No rule scores this yet; it goes into the summary for the flight surgeon.");
