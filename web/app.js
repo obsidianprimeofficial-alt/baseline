@@ -19,7 +19,7 @@ const SIGNALS = {
 
 const $ = (id) => document.getElementById(id);
 const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-const state = { fixture: [], evidence: {}, radiation: null, rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null, range: 0 };
+const state = { fixture: [], evidence: {}, radiation: null, event: null, alertBack: "console", rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null, range: 0 };
 
 // ---------- text ----------
 
@@ -97,6 +97,9 @@ function sourceNote(r) {
 
 function show(id, push = true) {
   for (const s of document.querySelectorAll("main > section")) s.hidden = s.id !== id;
+  const alert = id === "alert"; // real NOAA data, no vitals: the chip stands in for the "Simulated data" badge (design B1)
+  $("b1-chip").hidden = !alert;
+  document.querySelector(".sim").hidden = $("day-label").hidden = alert;
   window.scrollTo(0, 0);
   $(id).querySelector("h1").focus();
   if (push) history.pushState({ screen: id }, ""); // no URL change: a reload still starts at the guide
@@ -432,6 +435,43 @@ function renderRadiation() {
   renderMarsDose(r.msl_rad);
 }
 
+// ---------- solar storm alert (design B1) ----------
+
+// Card words come from web/spe.js; this only puts them on screen.
+function renderAlert(c) {
+  put($("b1-chip"), c.chip);
+  monoNums(put($("b1-reading"), c.reading));
+  monoNums(put($("b1-level"), c.level));
+  put($("b1-when"), c.when);
+  put($("b1-step"), c.step);
+  $("b1-sources").replaceChildren(...[...c.sources, ...c.events].map((line) => make("p", line, "meta cite")));
+  put($("b1-source"), c.source);
+}
+
+function showAlert(c, back) {
+  state.alertBack = back;
+  put($("b1-back"), back === "console" ? "Back to the chart" : "Back to the daily check");
+  renderAlert(c);
+  if ($("alert").hidden) show("alert");
+}
+
+// Replay: NOAA's three listed points in order; the full-screen alert opens at the S1 crossing.
+const replay = { timer: 0 };
+$("replay").addEventListener("click", () => {
+  const [before, start, maximum] = SPE.replay(state.event, state.evidence.solar_particle_event);
+  clearTimeout(replay.timer);
+  monoNums(put($("replay-line"), before));
+  replay.timer = setTimeout(() => {
+    showAlert(start, "console");
+    replay.timer = setTimeout(() => renderAlert(maximum), 3000);
+  }, 1500);
+});
+$("b1-back").addEventListener("click", () => {
+  clearTimeout(replay.timer);
+  $("replay-line").textContent = "";
+  show(state.alertBack);
+});
+
 // Mars surface dose measured by the Radiation Assessment Detector on the Curiosity rover (MSL RAD),
 // mean of one UTC day, compared with the mean of the earlier days in the cache (same 2-SD rule as the vitals).
 function renderMarsDose(m) {
@@ -467,7 +507,7 @@ function renderFlags() {
   put($("flags-meta"), `Day ${day} compared with your days ${h[0].day} to ${h.at(-1).day}.`);
   list.replaceChildren();
   if (state.radiation.fired) {
-    // The step shows with "no source cached" until the research lead adds a sourced entry to the evidence map.
+    // Step and source from the evidence map entry for solar_particle_event (docs/EVIDENCE.md).
     const e = state.evidence.solar_particle_event || {}, sourced = e.countermeasure && e.countermeasure_source;
     const { flux, time } = radiationReading(), li = document.createElement("li");
     li.className = "spe-row";
@@ -624,13 +664,16 @@ $("restart").addEventListener("click", () => {
 
 (async function init() {
   try {
-    const [fixture, evidence, radiation] = await Promise.all(
+    const [fixture, evidence, radiation, event] = await Promise.all(
       // no-store: a copy cached by an older server must never stand in for today's data
-      ["data/crew_a_anomaly.json", "data/evidence_map.json", "data/radiation.json"].map((p) => fetch(p, { cache: "no-store" }).then((r) => r.json())));
+      ["data/crew_a_anomaly.json", "data/evidence_map.json", "data/radiation.json", "data/spe-2024-09-09.json"].map((p) => fetch(p, { cache: "no-store" }).then((r) => r.json())));
     state.fixture = fixture.rows;
     state.evidence = evidence;
     state.radiation = radiation;
+    state.event = event;
     renderRadiation();
+    const live = SPE.live(radiation, evidence.solar_particle_event);
+    if (live) showAlert(live, "guide"); // the latest cached NOAA reading is at or above S1
     $("save").disabled = $("rt-recorded").disabled = $("saved-open").disabled = false; // all read the record; disabled in the HTML until it is here
     renderSavedBox();
   } catch (err) {

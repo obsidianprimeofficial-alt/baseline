@@ -67,7 +67,7 @@ pytest -q
 python -m baseline.serve
 ```
 
-`pytest -q` should print **73 passed**. The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
+`pytest -q` should print **77 passed**. The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
 
 **On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
 
@@ -142,7 +142,8 @@ flowchart TD
 
 | | Source | Status |
 |---|---|---|
-| **Real** | NOAA GOES solar-proton flux, 7 days, cached 30 Sep 2026 | Shown on the console in its own box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. |
+| **Real** | NOAA GOES solar-proton flux, 7 days, cached 30 Sep 2026 | Shown on the console in its own box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. At or above S1 the page opens a full-screen alert, "Shelter now", with the step "Go to the storm shelter." and its sources (NASA OCHMO-TB-020 Rev E; NASA-STD-3001 Vol 2 Rev C [V2 6100]; NOAA SWPC), and says when the reading was cached. The 30 Sep reading is below S1, so no alert opens. |
+| **Real** | NOAA's listed values for the solar proton event of 9 Sep 2024 (start 16:40 UTC, maximum 34 pfu at 22:50 UTC, S1), from the SWPC event list and the NCEI proton event list, also reported by the Australian Bureau of Meteorology; cached 30 Oct 2026 in `cache/noaa/spe-2024-09-09.json` | "Replay a real solar storm: 9 September 2024" on the console plays the three points and opens the alert at the S1 crossing, labelled as a replay, not today's data. No curve. |
 | **Real** | NASA MSL RAD Mars surface radiation, 30 days to 20 Oct 2026, cached 22 Oct 2026 | Shown in the same box as a daily value in µGy per day. A rule flags a day more than 2 SD above the earlier days, with tests. |
 | **Real** | NASA OSDR search results, 10 keywords, cached 30 Sep and 10 Oct 2026 | Source of the OSD-140 study on two cards. |
 | **Real** | NASA NTRS search results, 11 keywords, cached 3 Oct and 10 Oct 2026 | Source of the NTRS reports on the cards. |
@@ -189,7 +190,8 @@ The seven OSDR searches cached on 30 Sep returned 57 hits, 50 distinct studies. 
 |---|---|---|---|
 | [OSDR / GeneLab](https://osdr.nasa.gov) | NASA | Study behind a flag | Searches cached; OSD-140 on two cards, reviewed |
 | [NTRS](https://ntrs.nasa.gov) | NASA | Reference numbers, countermeasure protocols | Searches cached; eight reports reviewed and cited |
-| [GOES proton flux](https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json) | NOAA | Solar particle event alert | Cached; rule and tests done; latest reading on the console |
+| [GOES proton flux](https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json) | NOAA | Solar particle event alert | Cached; rule and tests done; latest reading on the console; full-screen alert at S1 |
+| [Solar proton event list](https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html) ([SWPC SPE.txt](ftp://ftp.swpc.noaa.gov/pub/indices/SPE.txt); [Australian Bureau of Meteorology alert](https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html)) | NOAA | Solar storm replay, 9 Sep 2024 | Listed values cached; replay on the console |
 | [MSL RAD (Curiosity rover)](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2) | NASA (SPDF CDAWeb dataset MSL_RAD_OBS-L2, DOI 10.48322/20qb-4e17; archive: PDS PPI MSL-M-RAD-3-RDR-V1.0) | Real Mars surface radiation level, µGy per day | Cached 30 days; daily values and a 2-SD rule with tests; latest value on the console |
 | Vitals telemetry | ours, simulated | All daily readings | Built; clean and anomaly fixtures |
 
@@ -200,11 +202,11 @@ The seven OSDR searches cached on 30 Sep returned 57 hits, 50 distinct studies. 
 ```
 src/baseline/compute/   rules, baselines, radiation, trend projection, wording check  (the reference logic)
 src/baseline/serve.py   local web server, --lan for phones
-web/                    the page: index.html, app.js, rules.js, trend.js, projection.js, screenshots, fonts, Chart.js
+web/                    the page: index.html, app.js, rules.js, trend.js, projection.js, spe.js, screenshots, fonts, Chart.js
 data/fixtures/          simulated 30-day records (clean, anomaly)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  73 tests
+tests/                  77 tests
 ```
 
 ---
