@@ -7,9 +7,9 @@
 <p align="center">
   <img src="web/screenshots/2-console-390.png" width="260" alt="Console titled Health status: the last 29 days of heart rate, heart rate variability and blood oxygen, the first three of seven charts. The grey band is the usual range. Heart rate variability is flagged in orange on days 27 to 29.">
   &nbsp;
-  <img src="web/screenshots/3-flags-390.png" width="260" alt="Flag list: reaction time, heart rate variability and sleep are outside the usual range today, and several readings moved together within 48 hours.">
+  <img src="web/screenshots/3-flags-390.png" width="260" alt="What changed today: reaction time and heart rate variability are outside the usual range, each with a three-day trend card under its flag.">
   &nbsp;
-  <img src="web/screenshots/4-evidence-390.png" width="260" alt="Evidence card for reaction time: the change in plain words, the numbers, why it matters with the NTRS source link, and "Guidance": one step.">
+  <img src="web/screenshots/4-evidence-390.png" width="260" alt="Evidence card for reaction time: the change in plain words, the numbers, why it matters with the NTRS source link, and the Back to list and Queue for flight surgeon buttons.">
 </p>
 
 > **Every vital sign in this repository is simulated.** There is no real crew data. The demo page says "Simulated data" on every screen. The real feeds are NASA MSL RAD (Mars surface radiation, CDAWeb dataset MSL_RAD_OBS-L2) and NOAA GOES solar protons, shown together in their own box, "Real data: NASA MSL RAD and NOAA GOES".
@@ -105,7 +105,7 @@ For a repeatable demo, use the **"Use recorded day-29 self-check"** button in st
   <img src="web/screenshots/0-guide-390.png" width="200" alt="First-open guide card">
   <img src="web/screenshots/1-today-390.png" width="200" alt="Self-check screen">
   <img src="web/screenshots/5-queue-390.png" width="200" alt="Needs flight surgeon attention: the summary in the queue">
-  <img src="web/screenshots/6-next-day-390.png" width="200" alt="Next day: readings back inside the usual range">
+  <img src="web/screenshots/6-next-day-390.png" width="200" alt="Day 30 console: one reading is outside the usual range today; heart rate variability is back inside its usual range">
 </p>
 
 Wifi stays off for the whole demo.
