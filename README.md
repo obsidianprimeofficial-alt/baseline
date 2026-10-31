@@ -9,7 +9,7 @@
   &nbsp;
   <img src="web/screenshots/3-flags-390.png" width="260" alt="Flag list: reaction time, heart rate variability and sleep are outside the usual range today, and several readings moved together within 48 hours.">
   &nbsp;
-  <img src="web/screenshots/4-evidence-390.png" width="260" alt="Evidence card for reaction time: the change in plain words, the numbers, why it matters with the NTRS source link, and a step to consider.">
+  <img src="web/screenshots/4-evidence-390.png" width="260" alt="Evidence card for reaction time: the change in plain words, the numbers, why it matters with the NTRS source link, and "Guidance": one step.">
 </p>
 
 > **Every vital sign in this repository is simulated.** There is no real crew data. The demo page says "Simulated data" on every screen. The real feeds are NASA MSL RAD (Mars surface radiation, CDAWeb dataset MSL_RAD_OBS-L2) and NOAA GOES solar protons, shown together in their own box, "Real data: NASA MSL RAD and NOAA GOES".
@@ -23,7 +23,7 @@
 ```mermaid
 flowchart LR
     A["<b>Gather</b><br/>Wearable record (simulated)<br/>2-minute self-check<br/>NASA MSL RAD Mars radiation (real)<br/>NOAA solar protons (real)"] --> B["<b>Evaluate</b><br/>Compare with this person's<br/>own 30-day range"]
-    B --> C["<b>Explain</b><br/>Numbers + NASA study<br/>+ step to consider"]
+    B --> C["<b>Explain</b><br/>Numbers + NASA study<br/>+ guidance"]
     C --> D["<b>Act</b><br/>Queue for flight surgeon<br/>Check again tomorrow"]
     style A fill:#E6ECE8,stroke:#52625B,color:#16221E
     style B fill:#C5D3CA,stroke:#52625B,color:#16221E
@@ -67,7 +67,7 @@ pytest -q
 python -m baseline.serve
 ```
 
-`pytest -q` should print **84 passed**. The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
+`pytest -q` should print **86 passed**. The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
 
 **On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
 
@@ -97,14 +97,14 @@ For a repeatable demo, use the **"Use recorded day-29 self-check"** button in st
 | 1 | **Self-check** | A guide card, then a 5-round reaction test, sleep hours, sleep quality, mood, and a near-vision line. About 2 minutes. |
 | 2 | **Console** | "Health status": one chart per signal, seven in all (heart rate, heart rate variability (HRV), blood oxygen, core temperature, sleep, mood and reaction time); a 7 days · 30 days switch (30 by default, same usual range in both). Grey band = your usual range. Orange dot = flagged. Orange ring = being watched. |
 | 3 | **What changed** | Each flag in two lines: today's value against your usual, then a plain status such as "Well outside your usual range, third day running." A signal outside its usual range three days running also gets a trend card under its flag: the three values, the change per day from a least-squares line through them, and whether a straight line from today gets back inside the usual range within 30 days, labelled "Projection from your own last 3 days, not a forecast." |
-| 4 | **Evidence card** | The change in plain words, the numbers, why it matters (study finding in bold, source linked), and one step to consider. "Show the maths" opens a histogram of the days the rule used (28 on day 29), today's line, the usual ± 2 SD lines and the sum in words, e.g. "Today is (338.3 − 281.4) ÷ 16.3 = 3.5 spreads above your usual." |
+| 4 | **Evidence card** | The change in plain words, the numbers, why it matters (study finding in bold, source linked), and "Guidance": one step. "Show the maths" opens a histogram of the days the rule used (28 on day 29), today's line, the usual ± 2 SD lines and the sum in words, e.g. "Today is (338.3 − 281.4) ÷ 16.3 = 3.5 spreads above your usual." |
 | 5 | **Queue for flight surgeon** | The summary, and "Earliest reply in 44 minutes (22 minutes each way at Mars distance)." Display only. Nothing is sent. |
 | 6 | **Next day** | Day 30: each of yesterday's flags compared with today. "Start the demo again" returns to step 1. |
 
 <p align="center">
   <img src="web/screenshots/0-guide-390.png" width="200" alt="First-open guide card">
   <img src="web/screenshots/1-today-390.png" width="200" alt="Self-check screen">
-  <img src="web/screenshots/5-queue-390.png" width="200" alt="Queued for flight surgeon">
+  <img src="web/screenshots/5-queue-390.png" width="200" alt="Needs flight surgeon attention: the summary in the queue">
   <img src="web/screenshots/6-next-day-390.png" width="200" alt="Next day: readings back inside the usual range">
 </p>
 
@@ -208,7 +208,7 @@ web/                    the page: index.html, app.js, rules.js, trend.js, projec
 data/fixtures/          simulated 30-day records (clean, anomaly)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  84 tests
+tests/                  86 tests
 ```
 
 ---

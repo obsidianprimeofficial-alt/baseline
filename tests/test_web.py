@@ -283,3 +283,42 @@ def test_7_day_view_shows_the_same_band_and_marks_as_the_30_day_view():
             assert week[k] == month[k][-7:], f"{key} {k}"
     marked = {k.split()[1] for k, v in out.items() if k.startswith("29 ") and any(v["week"]["marks"])}
     assert {"reaction_ms", "hrv_rmssd_ms", "sleep_hours"} <= marked, "the three demo flags show in the 7-day view on day 29"
+
+
+HOW_TO_MEASURE = [
+    ("<h2>Reaction time</h2>", "tap the field to start, then tap as soon as the dark circle appears, 1 to 3 seconds later. "
+     "Five rounds; a tap before the circle or within 0.1 seconds of it repeats the round. The middle time of the five counts."),
+    ('<label class="q" for="sleep">How long did you sleep last night?</label>',
+     "type the hours you slept last night, or use − and + to change it by half an hour. 0 to 12 hours."),
+    ("<legend>How well did you sleep?</legend>", "tap one number, from 1 (badly) to 5 (very well)."),
+    ("<legend>How is your mood this morning?</legend>", "tap one number, from 1 (very low) to 5 (very good)."),
+    ("<h2>Near vision</h2>", "hold the phone where you normally read, read the line below, then tap Clear or Blurred."),
+]
+
+
+def test_statement_labels_guidance_and_needs_flight_surgeon_attention():
+    """PLAN 4a (Gate 1 labels): the step on the evidence card is headed "Guidance" and the queue screen
+    "Needs flight surgeon attention"; the old headings are gone. The queue button keeps its action wording."""
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    evidence = html[html.index('<section id="evidence"'):html.index('<section id="queue"')]
+    assert "<h2>Guidance</h2>" in evidence
+    assert '<h1 id="queue-title" tabindex="-1">Needs flight surgeon attention</h1>' in html
+    for old in ("Step to consider", "Queued for flight surgeon"):
+        assert old not in html and old not in Path("web/app.js").read_text(encoding="utf-8"), old
+    assert '<button id="queue-btn" class="primary" type="button">Queue for flight surgeon</button>' in html
+
+
+def test_one_how_to_measure_line_under_each_self_check_part():
+    """PLAN 4a: one "How to measure" line directly under each part, saying what the person does; the facts in
+    it come from the code (reaction.js rounds, false-start cut and delay; the sleep field's range and step)."""
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    today = html[html.index('<section id="today"'):html.index('<p id="missing"')]
+    found = re.findall(r'<p class="meta how">How to measure: ([^<]+)</p>', today)
+    assert found == [line for _, line in HOW_TO_MEASURE]
+    for anchor, line in HOW_TO_MEASURE:
+        assert re.search(re.escape(anchor) + r'\s*<p class="meta how">How to measure: ' + re.escape(line), today), anchor
+        assert not [p for p in BLOCKED if p in line.lower()]
+    js = Path("web/reaction.js").read_text(encoding="utf-8")
+    assert "const ROUNDS = 5;" in js and "const GUESS_MS = 100;" in js and "1000 + random * 2000" in js
+    assert 'step="0.5" min="0" max="12"' in today
+    assert '<label for="vision-clear">Clear</label>' in today and '<label for="vision-blurred">Blurred</label>' in today
