@@ -290,7 +290,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <p>Three short parts. Each answer is compared only with your own past days, not with anyone else's.</p>
 
   <h2>Reaction time</h2>
-  <p>Tap the field the moment the dark circle appears. Five rounds.</p>
+  <p class="meta how">How to measure: tap the field to start, then tap as soon as the dark circle appears, 1 to 3 seconds later. Five rounds; a tap before the circle or within 0.1 seconds of it repeats the round. The middle time of the five counts.</p>
   <button id="rt-field" class="rt" type="button" aria-describedby="rt-status">
     <span id="rt-dot" class="rt-dot" role="img" aria-label="Circle shown, tap now" hidden></span>
     <span id="rt-text">Tap here to start</span>
@@ -302,6 +302,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 
   <h2>Sleep and mood</h2>
   <label class="q" for="sleep">How long did you sleep last night?</label>
+  <p class="meta how">How to measure: type the hours you slept last night, or use − and + to change it by half an hour. 0 to 12 hours.</p>
   <div class="stepper">
     <button class="step-btn" type="button" data-step="-0.5" aria-label="Half an hour less">−</button>
     <span class="step-field"><input id="sleep" class="field" type="number" inputmode="decimal" step="0.5" min="0" max="12" value="7"> hours</span>
@@ -312,6 +313,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 
   <fieldset aria-describedby="quality-ends">
     <legend>How well did you sleep?</legend>
+    <p class="meta how">How to measure: tap one number, from 1 (badly) to 5 (very well).</p>
     <div class="seg">
       <input type="radio" id="quality-1" name="quality" value="1"><label for="quality-1">1</label>
       <input type="radio" id="quality-2" name="quality" value="2"><label for="quality-2">2</label>
@@ -324,6 +326,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 
   <fieldset aria-describedby="mood-ends">
     <legend>How is your mood this morning?</legend>
+    <p class="meta how">How to measure: tap one number, from 1 (very low) to 5 (very good).</p>
     <div class="seg">
       <input type="radio" id="mood-1" name="mood" value="1"><label for="mood-1">1</label>
       <input type="radio" id="mood-2" name="mood" value="2"><label for="mood-2">2</label>
@@ -335,7 +338,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   </fieldset>
 
   <h2>Near vision</h2>
-  <p>Hold the phone where you normally read, then read this line.</p>
+  <p class="meta how">How to measure: hold the phone where you normally read, read the line below, then tap Clear or Blurred.</p>
   <p class="eye-line">The galley water heater is back online after the filter swap on Thursday.</p>
   <fieldset>
     <legend>The line looks</legend>
@@ -434,7 +437,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <p id="ev-words"></p>
   <p id="ev-study" class="cite"></p>
   <div class="step-card">
-    <h2>Step to consider</h2>
+    <h2>Guidance</h2>
     <p id="ev-step"></p>
     <p id="ev-step-source" class="cite"></p>
   </div>
@@ -463,7 +466,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 
 <section id="queue" aria-labelledby="queue-title" hidden>
   <button class="text-button back" type="button" data-go="evidence">Back to the evidence</button>
-  <h1 id="queue-title" tabindex="-1">Queued for flight surgeon</h1>
+  <h1 id="queue-title" tabindex="-1">Needs flight surgeon attention</h1>
   <p class="sent">Sent to the queue. Earliest reply in 44 minutes (22 minutes each way at Mars distance).</p>
   <h2>Summary in the queue</h2>
   <div id="message" class="message"></div>
