@@ -50,6 +50,17 @@ const signed = (z) => `${z < 0 ? "−" : "+"}${Math.abs(z).toFixed(1)}`;
 const listWords = (xs) => (xs.length < 2 ? xs.join("") : `${xs.slice(0, -1).join(", ")} and ${xs.at(-1)}`);
 const title = (r) => (r.signal ? SIGNALS[r.signal].name : "Several readings together");
 const names = (r) => listWords(r.signals.map((s, i) => (i ? SIGNALS[s].name.toLowerCase() : SIGNALS[s].name)));
+// The 48-hour rule's two days (rules.js ruleMultiSignal: the latest day and the day before).
+const pairDays = () => [state.day - 1, state.day];
+// Its signals, each marked "(day N only)" when it was confirmed on just one of the two days.
+function pairNames(r, capital) {
+  const confirmedOn = (s, d) => (state.flags[d] || []).some((f) => f.signal === s && f.status === "confirmed");
+  return listWords(r.signals.map((s, i) => {
+    const name = i || !capital ? SIGNALS[s].name.toLowerCase() : SIGNALS[s].name;
+    const on = pairDays().filter((d) => confirmedOn(s, d));
+    return on.length === 1 ? `${name} (day ${on[0]} only)` : name;
+  }));
+}
 const flagsFor = (day) =>
   [...(state.flags[day] || [])].sort((a, b) => !a.signal - !b.signal || Math.abs(b.z) - Math.abs(a.z));
 const windowDays = (r) => { const h = state.rows.slice(0, -1).slice(-r.window_days); return [h[0].day, h.at(-1).day]; };
@@ -67,7 +78,7 @@ function daysRunning(r) {
 }
 
 function plainStatus(r) {
-  if (!r.signal) return `${COUNT[r.signals.length] || r.signals.length} readings moved together within 48 hours.`;
+  if (!r.signal) return `Flagged on days ${pairDays().join(" and ")}: ${pairNames(r)}.`;
   const where = Math.abs(r.z) >= WELL_OUTSIDE_Z ? "Well outside your usual range" : "Outside your usual range";
   const n = daysRunning(r);
   if (n > 1) return `${where}, ${ORDINAL[n] ? `${ORDINAL[n]} day` : `${n} days`} running.`;
@@ -75,7 +86,8 @@ function plainStatus(r) {
 }
 
 function plainWords(r) {
-  if (!r.signal) return `${r.signals.length} readings moved outside your usual range within 48 hours: ${names(r)}. This rule fires when two or more do.`;
+  if (!r.signal) return `${COUNT[r.signals.length] || r.signals.length} readings were flagged within 48 hours (days ${pairDays().join(" and ")}): ${pairNames(r)}. ` +
+    "This rule fires when two or more different readings are flagged in that window.";
   const s = SIGNALS[r.signal], diff = r.current - r.baseline_mean, [a, b] = windowDays(r);
   const pct = Math.round((Math.abs(diff) / r.baseline_mean) * 100);
   return `${s.phrase} was ${fmt(r.signal, r.current)}. Over days ${a} to ${b} it averaged ${fmt(r.signal, r.baseline_mean)}, ` +
@@ -594,7 +606,7 @@ function renderEvidence(r) {
     : [
       ["Window", `48 hours, days ${state.day - 1} and ${state.day}`],
       ["Readings", names(r)],
-      ["Flags when", "2 or more readings are outside your usual range"],
+      ["Flags when", "2 or more different readings are flagged in the window"],
       ["Status", plainStatus(r)],
     ];
   $("ev-numbers").classList.toggle("nums", !!r.signal); // today, usual and spread in the number font
@@ -682,7 +694,7 @@ $("queue-btn").addEventListener("click", () => {
   for (const r of flagsFor(state.day)) {
     lines.push(r.signal
       ? `${title(r)}: ${fmtZ(r, r.current)}, usual ${fmtZ(r, r.baseline_mean)} over ${r.window_days} days, z = ${signed(r.z)}, ${r.status === "confirmed" ? "flagged" : "watching"} (rule ${r.rule}).`
-      : `${names(r)} moved together within 48 hours (rule ${r.rule}).`);
+      : `${pairNames(r, true)} flagged within 48 hours, days ${pairDays().join(" and ")} (rule ${r.rule}).`);
   }
   if (row.self_check) {
     lines.push(`Self-check: reaction ${fmt("reaction_ms", row.reaction_ms)} ${row.reaction_recorded ? "(recorded, simulated)" : "median of five"}, slept ${fmt("sleep_hours", row.sleep_hours)}, ` +

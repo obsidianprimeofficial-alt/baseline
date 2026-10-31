@@ -196,6 +196,39 @@ def test_demo_reaction_card_one_decimal_inputs_reproduce_z():
     assert round((shown[0] - shown[1]) / shown[2], 1) == round(r["z"], 1) == 3.5
 
 
+PAIR_JS = """
+const src = require("fs").readFileSync("web/app.js", "utf8");
+const signals = src.slice(src.indexOf("const SIGNALS = {"), src.indexOf("};", src.indexOf("const SIGNALS = {")) + 2);
+const text = src.slice(src.indexOf("const listWords"), src.indexOf("function sourceNote"));
+const cases = JSON.parse(process.argv[1]);
+console.log(JSON.stringify(cases.map(({ day, flags, r }) => new Function("state", "r",
+  `${signals}\\n${text}\\nreturn [plainStatus(r), plainWords(r), pairNames(r, true)];`)({ day, flags }, r))));
+"""
+
+
+@pytest.mark.skipif(NODE is None, reason="node is not installed")
+def test_48_hour_row_names_the_signals_and_the_days():
+    """A3: the 48-hour row says which signals and which days the rule counted (confirmed only, the latest day
+    and the day before), and marks a signal confirmed on one of the two days only."""
+    rows = json.loads(Path("web/data/crew_a_anomaly.json").read_text())["rows"]
+    rows = [dict(r, **({"sleep_hours": 5.0, "mood_1to5": 4} if r["day"] == 29 else {})) for r in rows if r["day"] <= 29]
+    flags = evaluate(rows)  # the recorded day-29 demo: sleep 5, mood 4
+    demo = next(r for r in flags[29] if r["rule"] == "two_signals_in_48h")
+    one = {"rule": "two_signals_in_48h", "signals": ["hrv_rmssd_ms", "sleep_hours"], "window_days": 2}
+    later = {28: [{"signal": "hrv_rmssd_ms", "status": "confirmed"}, {"signal": "sleep_hours", "status": "watch"}],
+             29: [{"signal": "hrv_rmssd_ms", "status": "confirmed"}, {"signal": "sleep_hours", "status": "confirmed"}]}
+    cases = [{"day": 29, "flags": flags, "r": demo}, {"day": 29, "flags": later, "r": one}]
+    out = json.loads(subprocess.run([NODE, "-e", PAIR_JS, json.dumps(cases)], capture_output=True, text=True, check=True).stdout)
+    assert out[0] == [
+        "Flagged on days 28 and 29: heart rate variability, mood (day 28 only), reaction time and sleep.",
+        "Four readings were flagged within 48 hours (days 28 and 29): heart rate variability, mood (day 28 only), "
+        "reaction time and sleep. This rule fires when two or more different readings are flagged in that window.",
+        "Heart rate variability, mood (day 28 only), reaction time and sleep",
+    ]
+    assert out[1][0] == "Flagged on days 28 and 29: heart rate variability and sleep (day 29 only)."
+    assert not [p for line in out[0] + out[1] for p in BLOCKED if p in line.lower()]
+
+
 def console_html() -> str:
     html = Path("web/index.html").read_text(encoding="utf-8")
     return html[html.index('<section id="console"'):html.index('<div id="radiation"')]
