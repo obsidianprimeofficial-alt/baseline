@@ -14,7 +14,7 @@ Subject: one astronaut, tired, on a phone, months from Earth, doing the morning 
 | Flag | `#D4470C` | International orange, the aerospace colour for "look here". Used only where a rule fired. |
 | Simulated | `#FFF1A8` | Light yellow behind the "Simulated data" label, so it reads in a screen recording. Nothing else. |
 | Error | `#FCE1DE` | Light red behind the script-error line at the top of the page. Shown only when a script fails. |
-| Paper | `#FFFFFF` | Ground of the "Real data: NOAA GOES" box only, so real data never sits on the simulated ground. |
+| Paper | `#FFFFFF` | Ground of the "Real data: NASA MSL RAD and NOAA GOES" box only, so real data never sits on the simulated ground. |
 
 ## Type
 
@@ -26,7 +26,7 @@ Scale (from the classical sequence): 12 axis ticks, 14 meta, 18 body, 24 screen 
 
 ## Layout
 
-Single column, left aligned, 16 px gutters, designed at 390 px, max width 480 px centred on desktop. One screen at a time. A sticky top line carries the day and "Simulated data" on every screen. The framed objects are the first-open guide card, the reaction test field, because it is the part you touch, and the NOAA GOES box, because it holds the only real data on the page. On the evidence card, "Back to list" and "Queue for flight surgeon" sit in a bar fixed to the bottom of the screen, above the iPhone home indicator (`env(safe-area-inset-bottom)`). Headings stand on their own, with no rule or bar beside them. The page scrolls without a visible scrollbar track.
+Single column, left aligned, 16 px gutters, designed at 390 px, max width 480 px centred on desktop. One screen at a time. A sticky top line carries the day and "Simulated data" on every screen. The framed objects are the first-open guide card, the reaction test field, because it is the part you touch, and the real-data box ("Real data: NASA MSL RAD and NOAA GOES"), because it holds the real readings on the page. On the evidence card, "Back to list" and "Queue for flight surgeon" sit in a bar fixed to the bottom of the screen, above the iPhone home indicator (`env(safe-area-inset-bottom)`). Headings stand on their own, with no rule or bar beside them. The page scrolls without a visible scrollbar track.
 
 ```
 Day 29                 Simulated data     <- 16 px bold ink on light yellow, sticky

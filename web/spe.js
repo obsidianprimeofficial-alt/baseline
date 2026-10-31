@@ -38,7 +38,8 @@
     const base = {
       ...shared(e),
       chip: "Replay – real NOAA data",
-      events: ev.sources.map((s) => `Event values: ${s.name}, ${s.url}`),
+      // Only https addresses go on screen; SPE.txt (ftp://) is named, and its URL stays in the event file.
+      events: ev.sources.map((s) => (s.url.startsWith("https://") ? `Event values: ${s.name}, ${s.url}` : `Event values: ${s.name}`)),
       source: "Source: NOAA GOES, through NOAA's solar proton event list",
     };
     return [

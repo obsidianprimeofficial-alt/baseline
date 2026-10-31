@@ -1,4 +1,4 @@
-> Prescreening prototype – concept demo
+> A working offline web app on the phone and the laptop.
 
 # Baseline
 
@@ -12,9 +12,9 @@
   <img src="web/screenshots/4-evidence-390.png" width="260" alt="Evidence card for reaction time: the change in plain words, the numbers, why it matters with the NTRS source link, and a step to consider.">
 </p>
 
-> **Every vital sign in this repository is simulated.** There is no real crew data. The demo page says "Simulated data" on every screen. The only real feed is NOAA's solar-proton reading, shown in its own box.
+> **Every vital sign in this repository is simulated.** There is no real crew data. The demo page says "Simulated data" on every screen. The real feeds are NASA MSL RAD (Mars surface radiation, CDAWeb dataset MSL_RAD_OBS-L2) and NOAA GOES solar protons, shown together in their own box, "Real data: NASA MSL RAD and NOAA GOES".
 
-**Status:** prototype built 30 September to 10 October 2026, before the hackathon. The hackathon build starts 14 November 2026, 9:00 a.m. local time, and will be committed from that date. Commit dates separate the two.
+**Status:** a prescreening prototype was built 30 September to 10 October 2026, and development continued from 22 October 2026; the commit history shows each step. The Bangladesh hackathon runs 13–14 November 2026.
 
 ---
 
@@ -22,7 +22,7 @@
 
 ```mermaid
 flowchart LR
-    A["<b>Gather</b><br/>Wearable record (simulated)<br/>2-minute self-check<br/>NOAA solar protons (real)"] --> B["<b>Evaluate</b><br/>Compare with this person's<br/>own 30-day range"]
+    A["<b>Gather</b><br/>Wearable record (simulated)<br/>2-minute self-check<br/>NASA MSL RAD Mars radiation (real)<br/>NOAA solar protons (real)"] --> B["<b>Evaluate</b><br/>Compare with this person's<br/>own 30-day range"]
     B --> C["<b>Explain</b><br/>Numbers + NASA study<br/>+ step to consider"]
     C --> D["<b>Act</b><br/>Queue for flight surgeon<br/>Check again tomorrow"]
     style A fill:#E6ECE8,stroke:#52625B,color:#16221E
@@ -33,7 +33,7 @@ flowchart LR
 
 Three ideas carry the whole app:
 
-1. **Your own normal, not a textbook number.** Reaction time of 379 ms is fine for some people. For a person whose usual is 281 ± 16 ms, it is six spreads out. Baseline only knows the second kind of fact.
+1. **Your own normal, not a textbook number.** Reaction time of 338.3 ms is fine for some people. For a person whose usual is 281.4 ± 16.3 ms, it is 3.5 spreads out (the demo's day-29 reaction card). Baseline only knows the second kind of fact.
 2. **A study behind every flag.** Each flag links to an NTRS report or OSDR study. No source, no card.
 3. **One step, no diagnosis.** The step is a scheduled NASA protocol action (sleep window, ARED session) or "report to the flight surgeon". Nothing more.
 
@@ -134,7 +134,7 @@ flowchart TD
 - Only the direction that matters counts: low HRV, slow reaction time, short sleep.
 - The Python in `src/baseline/compute` is the reference. `web/rules.js` is a small port of it for the page, and `tests/test_web.py` checks both give the same flags.
 
-**False alarms on pure noise.** We ran the rules on 50 clean 30-day records (seeds 1–50). They raise **0.64** confirmed flags per record on average, and about 3.1 watch items. 26 of the 50 records have no confirmed flag at all.
+**False alarms on pure noise.** In the validation run (200 clean 30-day records, seeds 1000–1199) the rules raise **0.62** confirmed flags per record on average, and 2.99 watch items. 56% of the records have no confirmed flag at all ([docs/VALIDATION.md](docs/VALIDATION.md)).
 
 ---
 
@@ -144,7 +144,7 @@ flowchart TD
 |---|---|---|
 | **Real** | NOAA GOES solar-proton flux, 7 days, cached 30 Sep 2026 | Shown on the console in its own box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. At or above S1 the page opens a full-screen alert, "Shelter now", with the step "Go to the storm shelter." and its sources (NASA OCHMO-TB-020 Rev E; NASA-STD-3001 Vol 2 Rev C [V2 6100]; NOAA SWPC), and says when the reading was cached. The 30 Sep reading is below S1, so no alert opens. |
 | **Real** | NOAA's listed values for the solar proton event of 9 Sep 2024 (start 16:40 UTC, maximum 34 pfu at 22:50 UTC, S1), from the SWPC event list and the NCEI proton event list, also reported by the Australian Bureau of Meteorology; cached 30 Oct 2026 in `cache/noaa/spe-2024-09-09.json` | "Replay a real solar storm: 9 September 2024" on the console plays the three points and opens the alert at the S1 crossing, labelled as a replay, not today's data. No curve. |
-| **Real** | NASA MSL RAD Mars surface radiation, 30 days to 20 Oct 2026, cached 22 Oct 2026 | Shown in the same box as a daily value in µGy per day. A rule flags a day more than 2 SD above the earlier days, with tests. |
+| **Real** | NASA MSL RAD Mars surface radiation, 30 days to 20 Oct 2026, cached 22 Oct 2026 | Shown in the same box as the latest day in µGy per day. A rule with tests compares that day with the earlier days, and the box says whether it is within or above their usual range (mean ± 2 SD). No flag row or step yet. |
 | **Real** | NASA OSDR search results, 10 keywords, cached 30 Sep and 10 Oct 2026 | Source of the OSD-140 study on two cards. |
 | **Real** | NASA NTRS search results, 11 keywords, cached 3 Oct and 10 Oct 2026 | Source of the NTRS reports on the cards. |
 | **Real** | Your answers in the self-check | Replace day 29's reaction time, sleep and mood. Each saved check is kept in this browser on this device (no cloud, no network) and is still there after a reload; "Download the daily log (CSV)" exports it and "Clear saved days" removes it. |
@@ -158,7 +158,7 @@ Card text is fixed wording filled in with the rule output.
 
 Every rule cites a NASA study and a NASA source for its step, and a test checks that every rule has a step. All sources were reviewed on 24 Oct 2026; what each one is, and how strong, is in [docs/EVIDENCE.md](docs/EVIDENCE.md).
 
-The rules are validated on simulated data: a 4-SD shift is caught in at least 97% of fixtures, with 0.62 confirmed false flags per clean 30-day record. How this was measured, with the result tables, is in [docs/VALIDATION.md](docs/VALIDATION.md).
+The rules are validated on simulated data: a 4-SD shift is caught in at least 97% of fixtures, with 0.62 confirmed false flags per clean 30-day record (the same run: n=200, seeds 1000–1199). How this was measured, with the result tables, is in [docs/VALIDATION.md](docs/VALIDATION.md).
 
 | Rule | Study | Step source |
 |---|---|---|
@@ -191,7 +191,7 @@ The seven OSDR searches cached on 30 Sep returned 57 hits, 50 distinct studies. 
 | [OSDR / GeneLab](https://osdr.nasa.gov) | NASA | Study behind a flag | Searches cached; OSD-140 on two cards, reviewed |
 | [NTRS](https://ntrs.nasa.gov) | NASA | Reference numbers, countermeasure protocols | Searches cached; eight reports reviewed and cited |
 | [GOES proton flux](https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json) | NOAA | Solar particle event alert | Cached; rule and tests done; latest reading on the console; full-screen alert at S1 |
-| [Solar proton event list](https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html) ([SWPC SPE.txt](ftp://ftp.swpc.noaa.gov/pub/indices/SPE.txt); [Australian Bureau of Meteorology alert](https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html)) | NOAA | Solar storm replay, 9 Sep 2024 | Listed values cached; replay on the console |
+| [Solar proton event list](https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html) (also the SWPC event list SPE.txt, line 383; [Australian Bureau of Meteorology alert](https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html)) | NOAA | Solar storm replay, 9 Sep 2024 | Listed values cached; replay on the console |
 | [MSL RAD (Curiosity rover)](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2) | NASA (SPDF CDAWeb dataset MSL_RAD_OBS-L2, DOI 10.48322/20qb-4e17; archive: PDS PPI MSL-M-RAD-3-RDR-V1.0) | Real Mars surface radiation level, µGy per day | Cached 30 days; daily values and a 2-SD rule with tests; latest value on the console |
 | Vitals telemetry | ours, simulated | All daily readings | Built; clean and anomaly fixtures |
 
@@ -215,7 +215,11 @@ tests/                  83 tests
 
 [Create Health Monitoring Software for Astronauts on Space Missions](https://www.spaceappschallenge.org/2026/challenges/health-monitoring-software/), NASA Space Apps Challenge 2026.
 
-Team **Obsidian Prime**, Bangladesh.
+Team **Obsidian Prime**, Bangladesh. Each member is listed by role:
+- Development, design and research: the app, the rules and tests, the evidence cards and the NASA data.
+- Team owner on the NASA Space Apps site and team coordination.
+- Submission and eligibility checks.
+- Videos: script, recording, editing and subtitles.
 
 ## License
 
