@@ -7,7 +7,8 @@
     "plain_words": "In a NASA-indexed study of four crew on a 16-day flight, heart rate variability linked to the body's calming (vagal) control fell after the flight and stayed changed for at least 15 days.",
     "key_finding": "fell after the flight and stayed changed for at least 15 days",
     "countermeasure": "Do the planned ARED or T2 exercise session today.",
-    "countermeasure_source": "NTRS 20140002864, Benefits, Consequences, and Uncertainties of Conventional (Exercise) Countermeasure Approaches, https://ntrs.nasa.gov/citations/20140002864"
+    "countermeasure_source": "NTRS 20140002864, Benefits, Consequences, and Uncertainties of Conventional (Exercise) Countermeasure Approaches, https://ntrs.nasa.gov/citations/20140002864",
+    "strength": "Spaceflight study, 4 crew, 16-day flight. Step source: conference abstract."
   },
   "heart_rate_above_personal_baseline": {
     "source_type": "ntrs",
@@ -17,7 +18,8 @@
     "plain_words": "In the same study, heart rate rose about 15 percent right after landing and was still raised 15 days later.",
     "key_finding": "heart rate rose about 15 percent right after landing",
     "countermeasure": "Repeat the reading at rest; if it is still high, report to the flight surgeon today.",
-    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf"
+    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf",
+    "strength": "Spaceflight study, 4 crew, 16-day flight. Step source: NASA standard (reporting only)."
   },
   "sleep_below_personal_baseline": {
     "source_type": "ntrs",
@@ -27,7 +29,8 @@
     "plain_words": "Wrist-worn sleep records from 19 ISS crew show that schedule disruptions such as visiting vehicles cut sleep into short blocks; earlier crews averaged about six hours a night.",
     "key_finding": "schedule disruptions such as visiting vehicles cut sleep into short blocks",
     "countermeasure": "Check the sleep space: cool, dark, quiet and private, with the crew quarters set to your own preference.",
-    "countermeasure_source": "NTRS 20190002002, Sleep Environment Recommendations for Future Spaceflight Vehicles, https://ntrs.nasa.gov/citations/20190002002"
+    "countermeasure_source": "NTRS 20190002002, Sleep Environment Recommendations for Future Spaceflight Vehicles, https://ntrs.nasa.gov/citations/20190002002",
+    "strength": "Spaceflight study, 19 ISS crew."
   },
   "reaction_above_personal_baseline": {
     "source_type": "ntrs",
@@ -37,7 +40,8 @@
     "plain_words": "NASA tested 25 astronauts before, during and after 6-month ISS missions and found processing speed and sustained attention slowed early in flight.",
     "key_finding": "processing speed and sustained attention slowed early in flight",
     "countermeasure": "Keep to the planned sleep window tonight and to the station's circadian lighting schedule.",
-    "countermeasure_source": "NTRS 20240002094, Impact of Sleep Shifting Strategies on the International Space Station, https://ntrs.nasa.gov/citations/20240002094; NTRS 20140012988, Addressing Challenges to the Design & Test of Operational Lighting Environments for the International Space Station, https://ntrs.nasa.gov/citations/20140012988"
+    "countermeasure_source": "NTRS 20240002094, Impact of Sleep Shifting Strategies on the International Space Station, https://ntrs.nasa.gov/citations/20240002094; NTRS 20140012988, Addressing Challenges to the Design & Test of Operational Lighting Environments for the International Space Station, https://ntrs.nasa.gov/citations/20140012988",
+    "strength": "Spaceflight study, 25 ISS astronauts. Lighting source: conference abstract."
   },
   "mood_below_personal_baseline": {
     "source_type": "osdr",
@@ -47,7 +51,8 @@
     "plain_words": "In a 520-day simulated mission to Mars, researchers followed the mood state of 6 crew members over time and linked changes in it to the long isolation.",
     "key_finding": "linked changes in it to the long isolation",
     "countermeasure": "Use tonight's scheduled private conference or crew journal entry; tell the flight surgeon if mood stays low tomorrow.",
-    "countermeasure_source": "NASA OCHMO-TB-016 Rev B, Behavioral Health and Performance technical brief (2023), https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf; NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf"
+    "countermeasure_source": "NASA OCHMO-TB-016 Rev B, Behavioral Health and Performance technical brief (2023), https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf; NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf",
+    "strength": "Ground isolation study (Mars-500), 6 crew, not spaceflight."
   },
   "two_signals_in_48h": {
     "source_type": "osdr",
@@ -57,7 +62,8 @@
     "plain_words": "In a 520-day simulated mission to Mars, researchers profiled mood state, biochemistry and DNA methylation together in 6 crew members and reported that changes in these measures were related to one another during the isolation.",
     "key_finding": "changes in these measures were related to one another",
     "countermeasure": "Send today's summary to the flight surgeon.",
-    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf"
+    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf",
+    "strength": "Ground isolation study (Mars-500), 6 crew, not spaceflight."
   },
   "spo2_below_personal_baseline": {
     "source_type": "ntrs",
@@ -67,7 +73,8 @@
     "plain_words": "NASA's evidence report on the planned cabin air for exploration missions (8.2 psia, 34% oxygen) names hypobaric hypoxia, less oxygen reaching the body from thinner air, as an added stress on crew.",
     "key_finding": "names hypobaric hypoxia",
     "countermeasure": "Check the sensor fit and repeat the reading; if still low, report to the flight surgeon today.",
-    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf"
+    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf",
+    "strength": "Evidence report: names the risk, has no SpO2 readings."
   },
   "core_temp_above_personal_baseline": {
     "source_type": "ntrs",
@@ -77,7 +84,8 @@
     "plain_words": "NASA tested two crew members before and after 115 days on Mir and found that, after the flight, their bodies lost heat less well during exercise.",
     "key_finding": "their bodies lost heat less well during exercise",
     "countermeasure": "Repeat the reading later today; if it is still high, send it to the flight surgeon before your next exercise session.",
-    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf"
+    "countermeasure_source": "NASA-STD-3001 Vol 1 Rev C [V1 3004], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf",
+    "strength": "Study of 2 crew before and after a 115-day flight, not measured in flight."
   },
   "solar_particle_event": {
     "countermeasure": "Go to the storm shelter.",
@@ -86,6 +94,7 @@
     "alert_source": "NASA-STD-3001 Vol 2 Rev C [V2 6100], NASA Space Flight Human-System Standard Volume 2: Human Factors, Habitability, and Environmental Health (2022), https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf",
     "alert_line": "The system shall include a method to alert the crew locally and remotely when radiation levels are expected to exceed acceptable levels.",
     "threshold_source": "NOAA SWPC, Solar Radiation Storm, https://www.swpc.noaa.gov/phenomena/solar-radiation-storm",
-    "threshold_line": "The start of a Solar Radiation Storm is defined as the time when the flux of protons at energies \u2265 10 MeV equals or exceeds 10 proton flux units (1 pfu = 1 particle*cm-2*s-1*ster-1)."
+    "threshold_line": "The start of a Solar Radiation Storm is defined as the time when the flux of protons at energies \u2265 10 MeV equals or exceeds 10 proton flux units (1 pfu = 1 particle*cm-2*s-1*ster-1).",
+    "strength": "NASA technical brief and standard, not a study."
   }
 }
