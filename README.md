@@ -188,14 +188,21 @@ The seven OSDR searches cached on 30 Sep returned 57 hits, 50 distinct studies. 
 
 ## Data sources
 
-| Source | Agency | Used for | Status |
-|---|---|---|---|
-| [OSDR / GeneLab](https://osdr.nasa.gov) | NASA | Study behind a flag | Searches cached; OSD-140 on two cards, reviewed |
-| [NTRS](https://ntrs.nasa.gov) | NASA | Reference numbers, countermeasure protocols | Searches cached; eight reports reviewed and cited |
-| [GOES proton flux](https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json) | NOAA | Solar particle event alert | Cached; rule and tests done; latest reading on the console; full-screen alert at S1 |
-| [Solar proton event list](https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html) (also the SWPC event list SPE.txt, line 383; [Australian Bureau of Meteorology alert](https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html)) | NOAA | Solar storm replay, 9 Sep 2024 | Listed values cached; replay on the console |
-| [MSL RAD (Curiosity rover)](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2) | NASA (SPDF CDAWeb dataset MSL_RAD_OBS-L2, DOI 10.48322/20qb-4e17; archive: PDS PPI MSL-M-RAD-3-RDR-V1.0) | Real Mars surface radiation level, µGy per day | Cached 30 days; daily values and a 2-SD rule with tests; latest value on the console |
-| Vitals telemetry | ours, simulated | All daily readings | Built; clean and anomaly fixtures |
+The console's "Data sources" panel shows the first five columns of this table, word for word (a test checks it), and ends with the "Not covered" line above.
+
+| Source | Agency | Used for | Real or simulated | Id or link | Status |
+|---|---|---|---|---|---|
+| OSDR / GeneLab | NASA | Study id and URL behind every flag | Real | [osdr.nasa.gov](https://osdr.nasa.gov) (REST, no key) | Searches cached; OSD-140 on two cards, reviewed |
+| NASA Technical Reports Server (NTRS), Human Research Program reports | NASA | Reference numbers, countermeasure protocols | Real | [ntrs.nasa.gov](https://ntrs.nasa.gov) | Searches cached; eight reports reviewed and cited |
+| NASA-STD-3001 Vol 1 Rev C | NASA | Guidance source [V1 3004] for the heart rate, blood oxygen, core temperature, mood and 48-hour steps | Real | [NASA-STD-3001 Vol 1 Rev C (PDF)](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) | Cited on five evidence cards |
+| NASA OCHMO-TB-016 Rev B | NASA | Guidance source for the mood step | Real | [OCHMO-TB-016 (PDF)](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf) | Cited on the mood card |
+| MSL RAD (Curiosity rover) | NASA (SPDF CDAWeb; archived at PDS PPI) | Real Mars surface radiation level for the radiation indicator | Real | [CDAWeb MSL_RAD_OBS-L2](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2), [PDS MSL-M-RAD-3-RDR-V1.0](https://pds-ppi.igpp.ucla.edu/data/MSL-M-RAD-3-RDR-V1.0/), [DOI 10.48322/20qb-4e17](https://doi.org/10.48322/20qb-4e17) | Cached 30 days; daily values and a 2-SD rule with tests; latest value on the console |
+| GOES proton flux | NOAA | Solar particle event alert | Real | [SWPC 7-day integral protons](https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json) | Cached; rule and tests done; latest reading on the console; full-screen alert at S1 |
+| NOAA SWPC Solar Radiation Storm page | NOAA | S1 level for the solar storm alert: 10 pfu or more at 10 MeV or more | Real | [swpc.noaa.gov solar radiation storm](https://www.swpc.noaa.gov/phenomena/solar-radiation-storm) | Cited on the solar storm alert |
+| NASA-STD-3001 Vol 2 Rev C | NASA | Source [V2 6100] for alerting the crew in the solar storm alert | Real | [NASA-STD-3001 Vol 2 Rev C (PDF)](https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf) | Cited on the solar storm alert |
+| NASA OCHMO-TB-020 Rev E | NASA | Source for the step "Go to the storm shelter." | Real | [OCHMO-TB-020 (PDF)](https://www.nasa.gov/wp-content/uploads/2023/03/radiation-protection-technical-brief-ochmo.pdf) | Cited on the solar storm alert |
+| Solar proton event list, 9 Sep 2024 | NOAA (Australian Bureau of Meteorology as second report) | Solar storm replay | Real | [NCEI proton events](https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html), SWPC event list SPE.txt (line 383), [BoM alert](https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html) | Listed values cached; replay on the console |
+| Vitals telemetry | ours, simulated | Daily heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood | Simulated | `data/fixtures` | Built; clean and anomaly fixtures |
 
 ---
 
@@ -208,7 +215,7 @@ web/                    the page: index.html, app.js, rules.js, trend.js, projec
 data/fixtures/          simulated 30-day records (clean, anomaly)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  86 tests
+tests/                  87 tests
 ```
 
 ---

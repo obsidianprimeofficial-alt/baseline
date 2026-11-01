@@ -57,7 +57,10 @@ def test_every_request_happens_at_first_load():
     for api in ("XMLHttpRequest", "import(", "new Image", "location.reload", "location.href", "sendBeacon", "WebSocket", "EventSource"):
         assert api not in app, f"{api} would need the network after load"
     html = Path("web/index.html").read_text(encoding="utf-8")
-    assert not re.search(r'(?:src|href)="(?:https?:)?//', html), "every asset must come from web/"
+    assert not re.search(r'src="(?:https?:)?//|<link[^>]*href="(?:https?:)?//', html), "every asset must come from web/"
+    # Plain links to a source (Data sources panel) are fetched only if someone taps them.
+    tags = re.findall(r'<(\w+)[^>]*\b(?:src|href|action|data)="(?:https?:)?//', html)
+    assert set(tags) <= {"a"}, f"only <a> may point off the device: {tags}"
 
 
 def version(path: str) -> str:
@@ -322,3 +325,32 @@ def test_one_how_to_measure_line_under_each_self_check_part():
     assert "const ROUNDS = 5;" in js and "const GUESS_MS = 100;" in js and "1000 + random * 2000" in js
     assert 'step="0.5" min="0" max="12"' in today
     assert '<label for="vision-clear">Clear</label>' in today and '<label for="vision-blurred">Blurred</label>' in today
+
+
+def readme_source_rows() -> list[list[str]]:
+    readme = Path("README.md").read_text(encoding="utf-8")
+    start = readme.index("## Data sources")
+    table = readme[start:readme.index("\n## ", start)]
+    return [[c.strip() for c in line.strip("|").split("|")][:5]
+            for line in table.splitlines() if line.startswith("| ") and not line.startswith("| Source |")]
+
+
+def test_data_sources_panel_matches_the_readme_table_and_ends_with_not_covered():
+    """PLAN 4b (W2) and A4: one panel line per README "Data sources" row, word for word (source, agency, used for,
+    real or simulated, id or link), the same links, closed by default, and the README "Not covered" line last."""
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    panel = html[html.index('<details id="sources" class="sources">'):html.index("</details>")]
+    assert "<summary>Data sources</summary>" in panel and "open" not in panel.split(">", 1)[0]
+    assert re.search(r"\.sources summary \{[^}]*min-height: 44px;", html)
+    text = lambda s: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", s)).strip()
+    lines = [text(li) for li in re.findall(r"<li>(.*?)</li>", panel, re.S)]
+    md = lambda c: re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r"\1", c).replace("`", "")
+    rows = readme_source_rows()
+    assert len(rows) >= 11
+    assert lines == [" · ".join(md(c) for c in row) for row in rows]
+    links = re.findall(r'<a href="([^"]+)" target="_blank" rel="noopener noreferrer">', panel)
+    assert links == [u for row in rows for u in re.findall(r"\]\(([^)]+)\)", row[4])]
+    not_covered = next(l for l in Path("README.md").read_text(encoding="utf-8").splitlines() if l.startswith("Not covered:"))
+    assert not_covered.startswith("Not covered: blood pressure and blood sugar. ")
+    assert text(panel[panel.rindex("<p"):]) == not_covered, "the not-covered line is the panel's last line"
+    assert not [p for p in BLOCKED if p in text(panel).lower()]
