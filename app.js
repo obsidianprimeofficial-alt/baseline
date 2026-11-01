@@ -290,6 +290,7 @@ function openCheck(check, kept) {
 
 function renderSavedBox() {
   const log = Store.load(), last = log.at(-1);
+  put($("daily-line"), Theme.dailyLine(new Date(), log));
   $("saved-box").hidden = !last;
   if (last) put($("saved-text"), `${log.length} ${log.length === 1 ? "self-check is" : "self-checks are"} saved on this device. The latest is from ${when(last.saved_at)}.`);
 }
