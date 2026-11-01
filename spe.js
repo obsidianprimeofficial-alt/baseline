@@ -57,7 +57,7 @@
   }
 
   // Every line of a card, in screen order (for the wording test).
-  const lines = (c) => [c.chip, "Shelter now", c.reading, c.level, c.when, c.step, ...c.sources, ...c.events, c.source, c.strength];
+  const lines = (c) => [c.chip, "Shelter now", c.step, c.reading, c.level, c.when, ...c.sources, ...c.events, c.source, c.strength];
 
   const api = { live, replay, lines };
   if (typeof module === "object" && module.exports) module.exports = api;

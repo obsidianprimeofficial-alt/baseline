@@ -215,7 +215,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .alert-card hr { width: 100%; margin: 8px 0 16px; border: 0; border-top: 1px solid var(--flag); }
 #b1-step { font-size: 24px; line-height: 1.3; font-weight: 700; }
 .alert-card .cite { margin-bottom: 6px; }
-#b1-source { margin: auto 0 0; padding-top: 16px; }
+.alert-sources summary { min-height: 44px; padding: 6px 0; line-height: 32px; font-weight: 700; cursor: pointer; } /* list-item keeps the open/closed marker */
 #replay-line:empty { display: none; }
 /* Show the maths (design B2). */
 .maths-link { font-size: 16px; color: var(--ink); }
@@ -508,14 +508,17 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <div class="alert-card">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0zM12 9v4M12 17h.01"/></svg>
     <h1 id="alert-title" tabindex="-1">Shelter now</h1>
+    <p id="b1-step"></p>
     <p id="b1-reading" class="num" aria-live="polite"></p>
     <p id="b1-level" class="num"></p>
     <p id="b1-when" class="meta num"></p>
     <hr>
-    <p id="b1-step"></p>
-    <div id="b1-sources"></div>
-    <p id="b1-source" class="meta cite"></p>
-    <p id="b1-strength" class="meta cite"></p>
+    <details id="b1-details" class="alert-sources">
+      <summary>Sources</summary>
+      <div id="b1-sources"></div>
+      <p id="b1-source" class="meta cite"></p>
+      <p id="b1-strength" class="meta cite"></p>
+    </details>
   </div>
 </section>
 
@@ -525,9 +528,9 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <script src="trend.js?v=076b8d7565"></script>
 <script src="projection.js?v=1eb08e8dd9"></script>
 <script src="maths.js?v=a15139ff07"></script>
-<script src="spe.js?v=a7f289eecc"></script>
+<script src="spe.js?v=8dc481d0f5"></script>
 <script src="reaction.js?v=0c373ca889"></script>
 <script src="store.js?v=986788a7d2"></script>
-<script src="app.js?v=41874e5985"></script>
+<script src="app.js?v=d5ef012f91"></script>
 </body>
 </html>
