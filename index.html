@@ -187,6 +187,12 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .radiation h2 { margin-top: 0; color: var(--real-head); font-size: 22px; }
 .radiation p:last-child { margin-bottom: 0; }
 .spe-row > span { display: block; }
+/* Data sources (PLAN 4b, W2): closed by default; one line per source, the README table word for word. */
+.sources { margin-top: 24px; border-top: 1px solid var(--strong); }
+.sources summary { min-height: 44px; padding: 6px 0; font-size: 22px; line-height: 32px; font-weight: 700; cursor: pointer; } /* list-item keeps the open/closed marker */
+.sources ul { list-style: none; padding: 0; margin: 0; font-size: 16px; }
+.sources li { padding: 10px 0; border-top: 1px solid var(--rule); overflow-wrap: anywhere; }
+.sources .not-covered { margin: 0; padding: 12px 0 0; border-top: 1px solid var(--rule); font-size: 16px; font-weight: 600; }
 /* Trend card under its flag (design P2b): framed, no left stripe, so it reads as part of the flag above. */
 .trend-card { padding: 12px 16px; border: 1px solid var(--card-border); border-radius: 8px; background: var(--card); }
 .flag-list .trend-card { margin-top: 8px; }
@@ -401,6 +407,24 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
     <button id="replay" class="secondary" type="button">Replay a real solar storm: 9 September 2024</button>
     <p id="replay-line" class="meta num" aria-live="polite"></p>
   </div>
+  <details id="sources" class="sources">
+    <summary>Data sources</summary>
+    <p class="meta">Source · agency · used for · real or simulated · id or link. Links open the source online; nothing is fetched.</p>
+    <ul>
+      <li><strong>OSDR / GeneLab</strong> · NASA · Study id and URL behind every flag · Real · <a href="https://osdr.nasa.gov" target="_blank" rel="noopener noreferrer">osdr.nasa.gov</a> (REST, no key)</li>
+      <li><strong>NASA Technical Reports Server (NTRS), Human Research Program reports</strong> · NASA · Reference numbers, countermeasure protocols · Real · <a href="https://ntrs.nasa.gov" target="_blank" rel="noopener noreferrer">ntrs.nasa.gov</a></li>
+      <li><strong>NASA-STD-3001 Vol 1 Rev C</strong> · NASA · Guidance source [V1 3004] for the heart rate, blood oxygen, core temperature, mood and 48-hour steps · Real · <a href="https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf" target="_blank" rel="noopener noreferrer">NASA-STD-3001 Vol 1 Rev C (PDF)</a></li>
+      <li><strong>NASA OCHMO-TB-016 Rev B</strong> · NASA · Guidance source for the mood step · Real · <a href="https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf" target="_blank" rel="noopener noreferrer">OCHMO-TB-016 (PDF)</a></li>
+      <li><strong>MSL RAD (Curiosity rover)</strong> · NASA (SPDF CDAWeb; archived at PDS PPI) · Real Mars surface radiation level for the radiation indicator · Real · <a href="https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2" target="_blank" rel="noopener noreferrer">CDAWeb MSL_RAD_OBS-L2</a>, <a href="https://pds-ppi.igpp.ucla.edu/data/MSL-M-RAD-3-RDR-V1.0/" target="_blank" rel="noopener noreferrer">PDS MSL-M-RAD-3-RDR-V1.0</a>, <a href="https://doi.org/10.48322/20qb-4e17" target="_blank" rel="noopener noreferrer">DOI 10.48322/20qb-4e17</a></li>
+      <li><strong>GOES proton flux</strong> · NOAA · Solar particle event alert · Real · <a href="https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json" target="_blank" rel="noopener noreferrer">SWPC 7-day integral protons</a></li>
+      <li><strong>NOAA SWPC Solar Radiation Storm page</strong> · NOAA · S1 level for the solar storm alert: 10 pfu or more at 10 MeV or more · Real · <a href="https://www.swpc.noaa.gov/phenomena/solar-radiation-storm" target="_blank" rel="noopener noreferrer">swpc.noaa.gov solar radiation storm</a></li>
+      <li><strong>NASA-STD-3001 Vol 2 Rev C</strong> · NASA · Source [V2 6100] for alerting the crew in the solar storm alert · Real · <a href="https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf" target="_blank" rel="noopener noreferrer">NASA-STD-3001 Vol 2 Rev C (PDF)</a></li>
+      <li><strong>NASA OCHMO-TB-020 Rev E</strong> · NASA · Source for the step "Go to the storm shelter." · Real · <a href="https://www.nasa.gov/wp-content/uploads/2023/03/radiation-protection-technical-brief-ochmo.pdf" target="_blank" rel="noopener noreferrer">OCHMO-TB-020 (PDF)</a></li>
+      <li><strong>Solar proton event list, 9 Sep 2024</strong> · NOAA (Australian Bureau of Meteorology as second report) · Solar storm replay · Real · <a href="https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html" target="_blank" rel="noopener noreferrer">NCEI proton events</a>, SWPC event list SPE.txt (line 383), <a href="https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html" target="_blank" rel="noopener noreferrer">BoM alert</a></li>
+      <li><strong>Vitals telemetry</strong> · ours, simulated · Daily heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood · Simulated · data/fixtures</li>
+    </ul>
+    <p class="not-covered">Not covered: blood pressure and blood sugar. The challenge statement names both, but only simulated values would be possible, so they were left out when the scope was set on 28 Oct 2026.</p>
+  </details>
   <div id="followup" hidden>
     <h2>Since yesterday</h2>
     <ul id="follow-list" class="follow"></ul>
