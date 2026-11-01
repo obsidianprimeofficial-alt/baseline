@@ -97,7 +97,7 @@ For a repeatable demo, use the **"Use recorded day-29 self-check"** button in st
 | 1 | **Self-check** | A guide card with one line from the simulated crew schedule (daily check due, done or next; on screen only), then a 5-round reaction test, sleep hours, sleep quality, mood, and a near-vision line. About 2 minutes. |
 | 2 | **Console** | "Health status": one chart per signal, seven in all (heart rate, heart rate variability (HRV), blood oxygen, core temperature, sleep, mood and reaction time); a 7 days · 30 days switch (30 by default, same usual range in both). Grey band = your usual range. Orange dot = flagged. Orange ring = being watched. |
 | 3 | **What changed** | Each flag in two lines: today's value against your usual, then a plain status such as "Well outside your usual range, third day running." A signal outside its usual range three days running also gets a trend card under its flag: the three values, the change per day from a least-squares line through them, and whether a straight line from today gets back inside the usual range within 30 days, labelled "Projection from your own last 3 days, not a forecast." |
-| 4 | **Evidence card** | The change in plain words, the numbers, why it matters (study finding in bold, source linked), and "Guidance": one step. "Show the maths" opens a histogram of the days the rule used (28 on day 29), today's line, the usual ± 2 SD lines and the sum in words, e.g. "Today is (338.3 − 281.4) ÷ 16.3 = 3.5 spreads above your usual." |
+| 4 | **Evidence card** | The change in plain words, the numbers, why it matters (study finding in bold, source linked, an "Evidence strength" line), and "Guidance": one step. "Show the maths" opens a histogram of the days the rule used (28 on day 29), today's line, the usual ± 2 SD lines and the sum in words, e.g. "Today is (338.3 − 281.4) ÷ 16.3 = 3.5 spreads above your usual." |
 | 5 | **Queue for flight surgeon** | The summary, and "Earliest reply in 44 minutes (22 minutes each way at Mars distance)." Display only. Nothing is sent. |
 | 6 | **Next day** | Day 30: each of yesterday's flags compared with today. "Start the demo again" returns to step 1. |
 
@@ -142,7 +142,7 @@ flowchart TD
 
 | | Source | Status |
 |---|---|---|
-| **Real** | NOAA GOES solar-proton flux, 7 days, cached 30 Sep 2026 | Shown on the console in its own box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. At or above S1 the page opens a full-screen alert, "Shelter now", with the step "Go to the storm shelter." and its sources (NASA OCHMO-TB-020 Rev E; NASA-STD-3001 Vol 2 Rev C [V2 6100]; NOAA SWPC), and says when the reading was cached. The 30 Sep reading is below S1, so no alert opens. |
+| **Real** | NOAA GOES solar-proton flux, 7 days, cached 30 Sep 2026 | Shown on the console in its own box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. At or above S1 the page opens a full-screen alert, "Shelter now", with the step "Go to the storm shelter." and its sources (NASA OCHMO-TB-020 Rev E; NASA-STD-3001 Vol 2 Rev C [V2 6100]; NOAA SWPC) with an "Evidence strength" line, and says when the reading was cached. The 30 Sep reading is below S1, so no alert opens. |
 | **Real** | NOAA's listed values for the solar proton event of 9 Sep 2024 (start 16:40 UTC, maximum 34 pfu at 22:50 UTC, S1), from the SWPC event list and the NCEI proton event list, also reported by the Australian Bureau of Meteorology; cached 30 Oct 2026 in `cache/noaa/spe-2024-09-09.json` | "Replay a real solar storm: 9 September 2024" on the console plays the three points and opens the alert at the S1 crossing, labelled as a replay, not today's data. No curve. |
 | **Real** | NASA MSL RAD Mars surface radiation, 30 days to 20 Oct 2026, cached 22 Oct 2026 | Shown in the same box as the latest day in µGy per day. A rule with tests compares that day with the earlier days, and the box says whether it is within or above their usual range (mean ± 2 SD). No flag row or step yet. |
 | **Real** | NASA OSDR search results, 10 keywords, cached 30 Sep and 10 Oct 2026 | Source of the OSD-140 study on two cards. |
@@ -178,7 +178,7 @@ NASA-STD-3001 [V1 3004] requires vital signs to be monitored and trended and pri
 <details>
 <summary>How the evidence map is structured</summary>
 
-Each entry in `docs/evidence_map.json` is keyed by rule id, for example `reaction_above_personal_baseline`. It has `source_type` (`osdr` or `ntrs`), `source_id`, `title` and `url`, and optionally `plain_words`, `key_finding`, `countermeasure` and `countermeasure_source`. `key_finding` is the phrase the card shows in bold; it must appear word for word in `plain_words`, and a test checks this. A study without an id and URL is not shown, and neither is a step without a source line. After editing the map, copy it to `web/data/evidence_map.json`; a test fails if the two differ.
+Each entry in `docs/evidence_map.json` is keyed by rule id, for example `reaction_above_personal_baseline`. It has `source_type` (`osdr` or `ntrs`), `source_id`, `title` and `url`, and optionally `plain_words`, `key_finding`, `countermeasure` and `countermeasure_source`. Every entry, including `solar_particle_event`, must also have `strength`, a short line on how strong the source is, taken from the Status column of docs/EVIDENCE.md; the loader refuses a map without it. `key_finding` is the phrase the card shows in bold; it must appear word for word in `plain_words`, and a test checks this. A study without an id and URL is not shown, and neither is a step without a source line. After editing the map, copy it to `web/data/evidence_map.json`; a test fails if the two differ.
 
 The seven OSDR searches cached on 30 Sep returned 57 hits, 50 distinct studies. Twelve list Homo sapiens; five of those are from human crew (OSD-316, OSD-575, OSD-656, OSD-903, OSD-943). The rest are mouse, rat, fly or cell studies.
 
@@ -215,7 +215,7 @@ web/                    the page: index.html, app.js, rules.js, trend.js, projec
 data/fixtures/          simulated 30-day records (clean, anomaly)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  90 tests
+tests/                  93 tests
 ```
 
 ---

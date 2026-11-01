@@ -17,6 +17,7 @@
       `Source for the alert: ${e.alert_source}`,
       `Source for the S1 level: ${e.threshold_source}`,
     ],
+    strength: `Evidence strength: ${e.strength}`,
   });
 
   // null unless the rule fired on the latest cached reading.
@@ -56,7 +57,7 @@
   }
 
   // Every line of a card, in screen order (for the wording test).
-  const lines = (c) => [c.chip, "Shelter now", c.reading, c.level, c.when, c.step, ...c.sources, ...c.events, c.source];
+  const lines = (c) => [c.chip, "Shelter now", c.reading, c.level, c.when, c.step, ...c.sources, ...c.events, c.source, c.strength];
 
   const api = { live, replay, lines };
   if (typeof module === "object" && module.exports) module.exports = api;

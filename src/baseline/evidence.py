@@ -14,6 +14,8 @@ def load_evidence_map(path: str = "docs/evidence_map.json") -> dict:
             raise ValueError(f"{rule}: has a url but no source_id")
         if entry.get("source_id") is not None and entry.get("source_type") not in PREFIX:
             raise ValueError(f"{rule}: source_type must be one of {sorted(PREFIX)}")
+        if not entry.get("strength", "").strip():
+            raise ValueError(f"{rule}: no strength line (see docs/EVIDENCE.md, Status column)")
     return evidence
 
 
@@ -36,5 +38,6 @@ def card_for(result: dict, evidence_map: dict) -> dict:
         "countermeasure": e.get("countermeasure"),
         "countermeasure_source": e.get("countermeasure_source"),
         "study": study,
+        "strength": e.get("strength"),
         "status": e.get("status"),
     }

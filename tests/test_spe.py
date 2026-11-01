@@ -2,6 +2,7 @@
 and every line on the card passes the wording check."""
 
 import json
+import re
 import shutil
 import subprocess
 from pathlib import Path
@@ -77,3 +78,16 @@ def test_every_alert_line_passes_the_wording_check():
     for line in [out["before"], *out["live"][0], *start, *maximum]:
         assert not blocks_diagnostic(line), line
         assert "all-clear" not in line.lower(), line
+
+
+@pytest.mark.skipif(NODE is None, reason="node is not installed")
+def test_solar_alert_shows_the_strength_line_under_its_sources():
+    """PLAN A2: on the live alert and on both replay cards, last of all, after every source line."""
+    line = "Evidence strength: NASA technical brief and standard, not a study."
+    out = run([reading(12.0)])
+    for card in (out["live"][0], *out["replay"]):
+        assert card[-1] == line
+        assert card[-2].startswith("Source: NOAA GOES")
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    assert re.search(r'<p id="b1-source" class="meta cite"></p>\s*<p id="b1-strength" class="meta cite"></p>', html)
+    assert 'put($("b1-strength"), c.strength);' in Path("web/app.js").read_text(encoding="utf-8")

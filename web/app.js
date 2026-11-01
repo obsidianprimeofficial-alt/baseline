@@ -460,6 +460,7 @@ function renderAlert(c) {
   put($("b1-step"), c.step);
   $("b1-sources").replaceChildren(...[...c.sources, ...c.events].map((line) => make("p", line, "meta cite")));
   put($("b1-source"), c.source);
+  put($("b1-strength"), c.strength);
 }
 
 function showAlert(c, back) {
@@ -620,6 +621,8 @@ function renderEvidence(r) {
   else put($("ev-words"), "No matching study cached.");
   $("ev-study").hidden = !study;
   if (study) putSources($("ev-study"), [{ label: `${PREFIX[e.source_type]}${e.source_id} — ${e.title}`, url: e.url }]);
+  $("ev-strength").hidden = !e.strength;
+  if (e.strength) put($("ev-strength"), `Evidence strength: ${e.strength}`);
 
   const step = e.countermeasure && e.countermeasure_source;
   put($("ev-step"), step ? e.countermeasure : "No countermeasure step cached for this rule yet.");

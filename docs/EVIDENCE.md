@@ -1,6 +1,6 @@
 # Evidence
 
-One row per rule. The card text and sources are in `docs/evidence_map.json` (copied to `web/data/evidence_map.json`); this table says what each source is and how strong it is. Reviewed 24 Oct 2026; solar particle event row added 30 Oct 2026.
+One row per rule. The card text and sources are in `docs/evidence_map.json` (copied to `web/data/evidence_map.json`); this table says what each source is and how strong it is. A short line taken from the Status column is the `strength` field of each entry in the map; every evidence card shows it under the study source, and the solar alert under its sources, as "Evidence strength: <text>" (1 Nov 2026). Reviewed 24 Oct 2026; solar particle event row added 30 Oct 2026.
 
 Every signal rule compares today with the mean and spread (SD) of the same person's previous days (up to 30, at least 14; today never counts). A day 2 SD out in the direction that matters is a watch item; 3 SD, or 2 SD two days running, is a flag.
 
