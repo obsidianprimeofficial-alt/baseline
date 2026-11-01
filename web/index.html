@@ -10,7 +10,7 @@
 <link rel="preload" href="fonts/jb-mono-regular.woff2?v=366a644383" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="tokens.css?v=3c1d51d7bf">
 <script src="errors.js?v=8cd9c76036"></script>
-<script src="theme.js?v=47ec0d1ced"></script>
+<script src="theme.js?v=bb3d7a5525"></script>
 <style>
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -94,6 +94,9 @@ a { color: inherit; text-underline-offset: 3px; }
 .rt-big { font-family: var(--mono); font-size: 36px; line-height: 1.1; font-weight: 600; font-variant-numeric: tabular-nums; }
 #rt-again { display: block; }
 
+.daily { margin: 12px 0 0; font-weight: 600; }
+.daily > span { display: block; }
+.daily .meta { font-weight: 400; }
 .guide { margin-top: 12px; padding: 20px 16px; border: 1.5px solid var(--strong); border-radius: 12px; }
 .guide h1 { margin-top: 0; }
 .guide ol { margin: 0; padding-left: 1.4em; }
@@ -273,6 +276,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <main>
 
 <section id="guide" aria-labelledby="guide-title">
+  <p class="daily"><span class="meta">Simulated crew schedule</span><span id="daily-line"></span></p>
   <div class="guide">
     <h1 id="guide-title" tabindex="-1">Baseline checks you against your own normal.</h1>
     <ol>
@@ -522,6 +526,6 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <script src="spe.js?v=cdf73caa73"></script>
 <script src="reaction.js?v=0c373ca889"></script>
 <script src="store.js?v=986788a7d2"></script>
-<script src="app.js?v=02552db482"></script>
+<script src="app.js?v=636926be8c"></script>
 </body>
 </html>

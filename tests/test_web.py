@@ -2,6 +2,7 @@
 
 import hashlib
 import json
+import os
 import re
 import runpy
 import shutil
@@ -135,6 +136,73 @@ def test_default_theme_is_dark_in_the_simulated_sleep_window():
     theme = Path("web/theme.js").read_text(encoding="utf-8")
     assert "Simulated crew schedule, not a NASA figure" in theme
     assert theme.count("try {") == 2, "localStorage read and write are both wrapped"
+
+
+DAILY_JS = """
+const fs = require('fs');
+const S = require('./web/store.js');
+const T = require('./web/theme.js');
+const mem = { d: {}, getItem(k) { return k in this.d ? this.d[k] : null; }, setItem(k, v) { this.d[k] = String(v); }, removeItem(k) { delete this.d[k]; } };
+const blocked = { getItem() { throw new Error('blocked'); }, setItem() { throw new Error('blocked'); }, removeItem() { throw new Error('blocked'); } };
+const at = (d, h, m = 0) => new Date(2026, 10, d, h, m);
+const entry = (date) => ({ saved_at: date.toISOString(), reaction_ms: 300, sleep_hours: 7, mood_1to5: 4 });
+const line = (now, ...saved) => T.dailyLine(now, saved.map(entry));
+// The same file with another wake hour: the prompt must follow the constant, not a copied number.
+const moved = { exports: {} };
+new Function('module', fs.readFileSync('./web/theme.js', 'utf8').replace('SLEEP_END_HOUR = 6', 'SLEEP_END_HOUR = 7'))(moved);
+S.add(entry(at(1, 8)), mem);
+console.log(JSON.stringify({
+  next: [line(at(1, 0)), line(at(1, T.SLEEP_END_HOUR - 1, 59)), line(at(1, 5), at(0, 23))],
+  nextMoved: moved.exports.dailyLine(at(1, 6, 30), []),
+  due: [line(at(1, T.SLEEP_END_HOUR)), line(at(1, 23, 59)), line(at(1, 9), at(0, 23))],
+  dueBlocked: T.dailyLine(at(1, 9), S.load(blocked)),
+  done: [T.dailyLine(at(1, 9), S.load(mem)), line(at(1, 7), at(1, 0, 30)), line(at(1, 23, 59), at(1, 6)), line(at(1, 5), at(1, 1))],
+}));
+"""
+
+
+def daily() -> dict:
+    """In Dhaka, a check saved before 06:00 local has yesterday's UTC date, so a date cut from saved_at would be wrong."""
+    return json.loads(subprocess.run([NODE, "-e", DAILY_JS], capture_output=True, text=True, check=True,
+                                     encoding="utf-8", env={**os.environ, "TZ": "Asia/Dhaka"}).stdout)
+
+
+NEXT_LINE = "Next daily check: 06:00 (after the planned sleep window)."
+DUE_LINE = "Today's daily check is due now."
+DONE_LINE = "Today's daily check is done."
+
+
+@pytest.mark.skipif(NODE is None, reason="node is not installed")
+def test_daily_prompt_before_the_wake_hour_gives_the_next_check_time():
+    """PLAN 4c: the hour comes from SLEEP_END_HOUR in web/theme.js; yesterday's check does not count."""
+    out = daily()
+    assert out["next"] == [NEXT_LINE] * 3
+    assert out["nextMoved"] == "Next daily check: 07:00 (after the planned sleep window)."
+    assert not [p for p in BLOCKED if p in NEXT_LINE.lower()]
+
+
+@pytest.mark.skipif(NODE is None, reason="node is not installed")
+def test_daily_prompt_is_due_from_the_wake_hour_with_no_check_today_or_blocked_storage():
+    out = daily()
+    assert out["due"] == [DUE_LINE] * 3
+    assert out["dueBlocked"] == DUE_LINE
+    assert not [p for p in BLOCKED if p in DUE_LINE.lower()]
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    guide = html[html.index('<section id="guide"'):html.index('<div class="guide">')]
+    assert '<span class="meta">Simulated crew schedule</span><span id="daily-line"></span>' in guide, "first screen, above the self-check"
+    app = Path("web/app.js").read_text(encoding="utf-8")
+    assert 'put($("daily-line"), Theme.dailyLine(new Date(), log));' in app
+    code = app + Path("web/theme.js").read_text(encoding="utf-8")
+    for api in ("Notification", "setInterval", "serviceWorker", "wakeLock"):
+        assert api not in code, f"{api}: on-screen only, nothing wakes the phone"
+
+
+@pytest.mark.skipif(NODE is None, reason="node is not installed")
+def test_daily_prompt_is_done_once_a_check_is_saved_today():
+    """Read through web/store.js. Local dates: a check saved at 00:30 in Dhaka is today, though its UTC date is yesterday."""
+    out = daily()
+    assert out["done"] == [DONE_LINE] * 4
+    assert not [p for p in BLOCKED if p in DONE_LINE.lower()]
 
 
 REACTION_JS = """
