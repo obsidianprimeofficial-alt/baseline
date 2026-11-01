@@ -454,10 +454,10 @@ function renderRadiation() {
 // Card words come from web/spe.js; this only puts them on screen.
 function renderAlert(c) {
   put($("b1-chip"), c.chip);
+  put($("b1-step"), c.step);
   monoNums(put($("b1-reading"), c.reading));
   monoNums(put($("b1-level"), c.level));
   put($("b1-when"), c.when);
-  put($("b1-step"), c.step);
   $("b1-sources").replaceChildren(...[...c.sources, ...c.events].map((line) => make("p", line, "meta cite")));
   put($("b1-source"), c.source);
   put($("b1-strength"), c.strength);
@@ -465,6 +465,7 @@ function renderAlert(c) {
 
 function showAlert(c, back) {
   state.alertBack = back;
+  $("b1-details").open = false;
   put($("b1-back"), back === "console" ? "Back to the chart" : "Back to the daily check");
   renderAlert(c);
   if ($("alert").hidden) show("alert");

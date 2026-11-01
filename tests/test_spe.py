@@ -91,3 +91,47 @@ def test_solar_alert_shows_the_strength_line_under_its_sources():
     html = Path("web/index.html").read_text(encoding="utf-8")
     assert re.search(r'<p id="b1-source" class="meta cite"></p>\s*<p id="b1-strength" class="meta cite"></p>', html)
     assert 'put($("b1-strength"), c.strength);' in Path("web/app.js").read_text(encoding="utf-8")
+
+
+def alert_html() -> str:
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    return html[html.index('<section id="alert"'):html.index("</section>", html.index('<section id="alert"'))]
+
+
+@pytest.mark.skipif(NODE is None, reason="node is not installed")
+def test_alert_order_is_title_then_step_then_reading_level_and_time():
+    """PLAN A5: lines() and the page give the same order, so reading order follows what is seen."""
+    out = run([reading(12.0)])
+    for card in (out["live"][0], *out["replay"]):
+        assert card[1:3] == ["Shelter now", "Go to the storm shelter."]
+        assert card[3].startswith("Solar protons at 10 MeV or more:")
+        assert "NOAA S1 level" in card[4]
+        assert " – " in card[5] and "UTC" in card[5]
+        assert card[6].startswith("Source for the step:")
+    html = alert_html()
+    order = ['id="alert-title"', 'id="b1-step"', 'id="b1-reading"', 'id="b1-level"', 'id="b1-when"', 'id="b1-details"']
+    positions = [html.index(mark) for mark in order]
+    assert positions == sorted(positions), "the page order is the reading order"
+    sizes = {name: int(re.search(selector + r" \{[^}]*font-size: (\d+)px", Path("web/index.html").read_text(encoding="utf-8")).group(1))
+             for name, selector in {"title": "#alert h1", "step": "#b1-step", "reading": "#b1-reading"}.items()}
+    assert sizes["title"] > sizes["step"] > sizes["reading"], "the step is the largest text after the title"
+    assert '<h1 id="alert-title" tabindex="-1">Shelter now</h1>' in html
+
+
+@pytest.mark.skipif(NODE is None, reason="node is not installed")
+def test_every_source_and_the_strength_line_sit_inside_the_closed_sources_control():
+    """PLAN A5: closed by default, 44 px; the replay note stays outside it, and the control closes again on a new alert."""
+    html = alert_html()
+    box = html[html.index('<details id="b1-details" class="alert-sources">'):html.index("</details>")]
+    assert "<summary>Sources</summary>" in box and "open" not in box.split(">", 1)[0]
+    for inside in ('id="b1-sources"', 'id="b1-source"', 'id="b1-strength"'):
+        assert inside in box and html.count(inside) == 1, inside
+    full = Path("web/index.html").read_text(encoding="utf-8")
+    assert re.search(r"\.alert-sources summary \{[^}]*min-height: 44px;", full)
+    assert 'id="b1-when"' not in box, "the time line, with the replay note, stays outside the control"
+    for card in run([reading(12.0)])["replay"]:
+        assert "Replay of a real 2024 event, not today's data." in card[5]
+        assert not [line for line in card[:6] if line.startswith(("Source", "Event values", "Evidence strength"))], "no source line outside"
+        assert all(line.startswith(("Source", "Event values", "Evidence strength")) for line in card[6:])
+    app = Path("web/app.js").read_text(encoding="utf-8")
+    assert '$("b1-details").open = false;' in app[app.index("function showAlert"):app.index("// Replay: NOAA")]
