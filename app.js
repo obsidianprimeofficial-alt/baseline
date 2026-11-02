@@ -46,6 +46,8 @@ function monoNums(el) {
   return el;
 }
 const ROUNDING_NOTE = "Numbers are shown to one decimal; z uses the unrounded values.";
+// True of Rules.evaluate: history is every earlier row (up to 30), today left out, flagged days not filtered out.
+const USUAL_NOTE = "Usual range uses your earlier days in this record, including days that were flagged.";
 const signed = (z) => `${z < 0 ? "−" : "+"}${Math.abs(z).toFixed(1)}`;
 const listWords = (xs) => (xs.length < 2 ? xs.join("") : `${xs.slice(0, -1).join(", ")} and ${xs.at(-1)}`);
 const title = (r) => (r.signal ? SIGNALS[r.signal].name : "Several readings together");
@@ -609,7 +611,7 @@ function renderEvidence(r) {
     ? [
       ["Today", fmtZ(r, r.current)],
       [`Your usual (mean of ${r.window_days} days)`, fmtZ(r, r.baseline_mean)],
-      ["Usual spread (1 SD)", fmtZ(r, r.baseline_sd)],
+      ["Usual spread (1 SD)", fmtZ(r, r.baseline_sd), USUAL_NOTE],
       ["How far", `${times(r.z)} your usual spread (flag at ${Rules.THRESHOLD}×)`],
       ["Status", plainStatus(r)],
     ]
@@ -620,7 +622,7 @@ function renderEvidence(r) {
       ["Status", plainStatus(r)],
     ];
   $("ev-numbers").classList.toggle("nums", !!r.signal); // today, usual and spread in the number font
-  $("ev-numbers").replaceChildren(...numbers.flatMap(([k, v]) => [make("dt", k), make("dd", v)]));
+  $("ev-numbers").replaceChildren(...numbers.flatMap(([k, v, note]) => [make("dt", k), make("dd", v), ...(note ? [make("dd", note, "usual-note")] : [])]));
 
   // A study is shown only with its id, title and URL; a step only with its source.
   const study = e.source_id != null && PREFIX[e.source_type] && e.title && e.url;
