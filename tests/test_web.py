@@ -395,6 +395,25 @@ def test_one_how_to_measure_line_under_each_self_check_part():
     assert '<label for="vision-clear">Clear</label>' in today and '<label for="vision-blurred">Blurred</label>' in today
 
 
+QUEUE_LINE = "Sent to the queue. A reply can come up to 40 minutes later: up to 20 minutes each way at Mars distance."
+QUEUE_SOURCE = "NASA Human Research Program, Hazard: Distance From Earth"
+QUEUE_URL = "https://www.nasa.gov/hrp/hazard-distance-from-earth/"
+
+
+def test_queue_line_gives_the_mars_delay_from_nasa():
+    """NASA HRP, Distance from Earth: "up to 20 minutes one way" (https://www.nasa.gov/hrp/hazard-distance-from-earth/);
+    the round trip is twice that. The old 22 and 44 had no source."""
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    queue = html[html.index('<section id="queue"'):html.index('<section id="alert"')]
+    source = f'<p class="cite">Source: <a href="{QUEUE_URL}" target="_blank" rel="noopener noreferrer">{QUEUE_SOURCE}</a></p>'
+    assert re.search(re.escape(f'<p class="sent">{QUEUE_LINE}</p>') + r"\s*" + re.escape(source), queue), "source directly under the line"
+    assert not [p for p in BLOCKED if p in (QUEUE_LINE + " Source: " + QUEUE_SOURCE).lower()]
+    readme = Path("README.md").read_text(encoding="utf-8")
+    assert "A reply can come up to 40 minutes later: up to 20 minutes each way at Mars distance." in readme
+    for text in (html, readme, Path("web/app.js").read_text(encoding="utf-8")):
+        assert not re.search(r"(22|44)[ -]minute", text)
+
+
 def readme_source_rows() -> list[list[str]]:
     readme = Path("README.md").read_text(encoding="utf-8")
     start = readme.index("## Data sources")
