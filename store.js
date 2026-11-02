@@ -4,7 +4,7 @@
 // so a browser that blocks storage (private mode, cleared site data) still runs the page; the check
 // is then kept for this visit only. tests/test_web.py runs this file in node with a stand-in storage.
 (function (root) {
-  const KEY = "baseline.log.v1", MAX = 400;
+  const KEY = "baseline.log.v1", MARKS_KEY = "baseline.marks.v1", MAX = 400;
   const SELF = ["reaction_ms", "reaction_recorded", "sleep_hours", "sleep_quality_1to5", "mood_1to5", "near_vision_ok", "note"];
   const COLUMNS = ["day", "source", "saved_at", "heart_rate_bpm", "hrv_rmssd_ms", "spo2_pct", "core_temp_c", "sleep_hours",
     "exercise_min", "reaction_ms", "reaction_recorded", "sleep_quality_1to5", "mood_1to5", "near_vision_ok", "note"];
@@ -39,6 +39,26 @@
   function clear(s) { try { area(s).removeItem(KEY); return true; } catch (e) { return false; } }
   const latest = (s) => load(s).at(-1) || null;
 
+  // "Mark step done" on the evidence cards: { "day:rule": time pressed, ISO }. Same storage, same wrapping as the log.
+  function loadMarks(s) {
+    try {
+      const v = JSON.parse(area(s).getItem(MARKS_KEY) || "{}");
+      if (!v || typeof v !== "object" || Array.isArray(v)) return {};
+      return Object.fromEntries(Object.entries(v).filter(([, t]) => typeof t === "string" && !Number.isNaN(Date.parse(t))));
+    } catch (e) { return {}; }
+  }
+
+  // Returns true when the marks are stored on the device, false when storage is blocked.
+  function saveMarks(marks, s) {
+    try {
+      const text = JSON.stringify(marks);
+      area(s).setItem(MARKS_KEY, text);
+      return area(s).getItem(MARKS_KEY) === text;
+    } catch (e) { return false; }
+  }
+
+  function clearMarks(s) { try { area(s).removeItem(MARKS_KEY); return true; } catch (e) { return false; } }
+
   // One CSV cell: quoted when needed; a leading = + - @ is prefixed so a spreadsheet never runs it as a formula.
   function cell(v) {
     let t = v === undefined || v === null ? "" : String(v);
@@ -60,7 +80,7 @@
     return [COLUMNS.join(","), ...rows.map((r) => COLUMNS.map((c) => cell(r[c])).join(","))].join("\r\n") + "\r\n";
   }
 
-  const api = { KEY, MAX, COLUMNS, load, add, clear, latest, csv };
+  const api = { KEY, MARKS_KEY, MAX, COLUMNS, load, add, clear, latest, csv, loadMarks, saveMarks, clearMarks };
   if (typeof module === "object" && module.exports) module.exports = api;
   else root.Store = api;
 })(this);

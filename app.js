@@ -19,7 +19,7 @@ const SIGNALS = {
 
 const $ = (id) => document.getElementById(id);
 const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-const state = { mathsChart: null, fixture: [], evidence: {}, radiation: null, event: null, alertBack: "console", rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null, range: 0 };
+const state = { mathsChart: null, fixture: [], evidence: {}, radiation: null, event: null, alertBack: "console", rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null, range: 0, marks: Store.loadMarks(), marksKept: true, markKey: null };
 
 // ---------- text ----------
 
@@ -268,6 +268,7 @@ $("save").addEventListener("click", () => {
     near_vision_ok: picked("vision") === "clear",
     saved_at: new Date().toISOString(),
   };
+  resetMarks(); // a mark belongs to the check it was pressed on
   openCheck(check, Store.add(check));
 });
 
@@ -297,9 +298,11 @@ function renderSavedBox() {
 
 function clearSaved() {
   Store.clear();
+  resetMarks();
   for (const r of state.rows) delete r.saved_at;
   put($("saved-line"), "Saved days cleared. Only the simulated record is left.");
   renderSavedBox();
+  if (state.day === NEXT) renderFollowUp();
 }
 $("saved-clear").addEventListener("click", clearSaved);
 $("clear-saved").addEventListener("click", clearSaved);
@@ -510,7 +513,11 @@ function renderFollowUp() {
       : "Still outside your usual range.";
     const li = document.createElement("li");
     li.className = now.fired ? "outside" : "recovered"; // recovered rows carry a check mark
-    li.append(make("strong", SIGNALS[s].name), monoNums(make("span", `${fmt(s, prev.current)} yesterday, ${fmt(s, now.current)} today. ${verdict}`, "num")));
+    li.append(
+      make("strong", SIGNALS[s].name),
+      monoNums(make("span", `${fmt(s, prev.current)} yesterday, ${fmt(s, now.current)} today. ${verdict}`, "num")),
+      make("span", state.marks[`${TODAY}:${prev.rule}`] ? `Step marked done on day ${TODAY}.` : "Step not marked done.", "step-line"),
+    );
     list.append(li);
   }
 }
@@ -632,7 +639,35 @@ function renderEvidence(r) {
   put($("ev-source"), sourceNote(r));
   put($("ev-rule"), `Rule: ${r.rule}`);
   $("ev-maths").hidden = !r.signal; // single-signal flags only; the 48-hour row has no histogram
+  state.markKey = `${state.day}:${r.rule}`;
+  $("ev-mark").hidden = !step;
+  renderMark();
 }
+
+// "Mark step done" (PLAN A6). Display and storage only: no rule reads a mark. state.marks is the page's own copy,
+// so a mark still works for this visit when the browser blocks storage.
+function renderMark() {
+  const at = state.marks[state.markKey];
+  put($("ev-mark"), at ? "Undo step done" : "Mark step done");
+  $("ev-mark-line").hidden = !at;
+  put($("ev-mark-line"), at ? `Step done, ${when(at)}, device time.` : "");
+  $("ev-mark-note").hidden = !at || state.marksKept;
+}
+
+function resetMarks() {
+  state.marks = {};
+  state.marksKept = true;
+  Store.clearMarks();
+  renderMark();
+}
+
+$("ev-mark").addEventListener("click", () => {
+  if (state.marks[state.markKey]) delete state.marks[state.markKey];
+  else state.marks[state.markKey] = new Date().toISOString();
+  state.marksKept = Store.saveMarks(state.marks);
+  renderMark();
+  if (state.day === NEXT) renderFollowUp(); // browser back can reach a day-29 card from day 30
+});
 
 // ---------- screen 4b: show the maths (design B2) ----------
 
@@ -733,6 +768,7 @@ $("restart").addEventListener("click", () => {
   $("missing").textContent = "";
   $("day-label").textContent = `Day ${TODAY}`;
   $("saved-line").textContent = "";
+  resetMarks();
   renderSavedBox(); // the saved log is kept; only the demo state resets
   show("guide");
 });
