@@ -184,6 +184,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   content: ""; position: absolute; left: 20px; top: 22px; width: 16px; height: 8px;
   border-left: 2.5px solid var(--ink); border-bottom: 2.5px solid var(--ink); transform: rotate(-45deg);
 }
+.follow .step-line { display: block; margin-top: 4px; color: var(--quiet); font-size: 16px; }
 .spe-row, .radiation.fired .rad-line { padding-left: 14px; border-left: 4px solid var(--flag); }
 /* Real NOAA data sits in its own box so it does not read as part of the simulated record. */
 .radiation { margin-top: 36px; padding: 12px 14px; border: 1.5px solid var(--real-border); border-radius: 8px; background: var(--real); }
@@ -237,6 +238,13 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .step-card h2 { margin-top: 0; }
 #ev-step { font-size: 22px; line-height: 1.35; font-weight: 700; }
 .step-card .cite { margin-bottom: 0; }
+#ev-mark { min-height: 44px; margin-top: 16px; padding: 6px 20px; }
+#ev-mark-line { position: relative; margin: 12px 0 0; padding-left: 28px; font-weight: 600; }
+#ev-mark-line::before { /* check mark, as on the follow-up rows */
+  content: ""; position: absolute; left: 3px; top: 7px; width: 14px; height: 7px;
+  border-left: 2.5px solid var(--ink); border-bottom: 2.5px solid var(--ink); transform: rotate(-45deg);
+}
+#ev-mark-note { margin: 6px 0 0; }
 #ev-source { margin-top: 20px; }
 
 /* Evidence actions stay at the bottom of the screen, above the iPhone home indicator. */
@@ -469,6 +477,9 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
     <h2>Guidance</h2>
     <p id="ev-step"></p>
     <p id="ev-step-source" class="cite"></p>
+    <button id="ev-mark" class="secondary" type="button">Mark step done</button>
+    <p id="ev-mark-line" aria-live="polite" hidden></p>
+    <p id="ev-mark-note" class="meta" hidden>Not saved: this browser blocks storage, so this mark is kept for this visit only.</p>
   </div>
   <p id="ev-source" class="meta"></p>
   <p id="ev-rule" class="meta"></p>
@@ -530,7 +541,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <script src="maths.js?v=a15139ff07"></script>
 <script src="spe.js?v=8dc481d0f5"></script>
 <script src="reaction.js?v=0c373ca889"></script>
-<script src="store.js?v=986788a7d2"></script>
-<script src="app.js?v=d5ef012f91"></script>
+<script src="store.js?v=cb99d76b39"></script>
+<script src="app.js?v=8b50d83857"></script>
 </body>
 </html>
