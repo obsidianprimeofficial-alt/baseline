@@ -59,7 +59,7 @@ async function page(storage) {
   vm.createContext(box);
   // 03:04 UTC is 09:04 in Asia/Dhaka: the clock the page reads when nothing passes it a date.
   vm.runInContext("const RealDate = Date; globalThis.Date = class extends RealDate { constructor(...a) { a.length ? super(...a) : super('2026-11-02T03:04:00.000Z'); } };", box);
-  for (const f of ['theme', 'rules', 'trend', 'projection', 'maths', 'spe', 'reaction', 'store', 'app']) vm.runInContext(fs.readFileSync(`web/${f}.js`, 'utf8'), box);
+  for (const f of ['theme', 'rules', 'trend', 'projection', 'maths', 'mars', 'spe', 'reaction', 'store', 'app']) vm.runInContext(fs.readFileSync(`web/${f}.js`, 'utf8'), box);
   await new Promise((r) => setTimeout(r, 30));
   const $ = document.getElementById, run = (code) => vm.runInContext(code, box);
   return {

@@ -96,5 +96,16 @@
     "threshold_source": "NOAA SWPC, Solar Radiation Storm, https://www.swpc.noaa.gov/phenomena/solar-radiation-storm",
     "threshold_line": "The start of a Solar Radiation Storm is defined as the time when the flux of protons at energies \u2265 10 MeV equals or exceeds 10 proton flux units (1 pfu = 1 particle*cm-2*s-1*ster-1).",
     "strength": "NASA technical brief and standard, not a study."
+  },
+  "mars_radiation_caution": {
+    "label": "Caution",
+    "countermeasure": "Keep watching the radiation level, and send today's summary to the flight surgeon.",
+    "countermeasure_source": "NASA Artemis II article, To Protect Artemis II Astronauts, NASA Experts Keep Eyes on Sun, https://science.nasa.gov/missions/artemis/artemis-2/to-protect-artemis-ii-astronauts-nasa-experts-keep-eyes-on-sun/; NASA-STD-3001 Vol 2 Rev C [V2 6099], NASA Space Flight Human-System Standard Volume 2: Human Factors, Habitability, and Environmental Health (2022), https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf; NASA-STD-3001 Vol 1 Rev C [V1 4029], NASA Space Flight Human-System Standard Volume 1: Crew Health (2023), https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf",
+    "caution_line": "The first threshold signals a caution, prompting closer monitoring and coordination with medical and flight operations teams",
+    "monitoring_line": "real-time monitoring of space weather (solar particle events (SPE), galactic cosmic rays (GCR), etc.) for characterization of the radiation environment and operational response by ground personnel and the crew.",
+    "alara_line": "All crewmember radiation exposures shall be minimized using the ALARA principle.",
+    "trigger_note": "The trigger is our own 2-SD rule on the last 30 days, not NASA's numeric threshold, which is not published.",
+    "practice_note": "The step is modelled on NASA's Artemis II caution practice and the ALARA principle (as low as reasonably achievable), not on a NASA Mars procedure.",
+    "strength": "NASA article and standard, not a study."
   }
 }

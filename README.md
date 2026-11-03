@@ -43,7 +43,7 @@ Three ideas carry the whole app:
 
 You need Python 3.11 or newer to run the app. Nothing else. Install once online, then everything runs with wifi off.
 
-The tests also need Node (run here on v26.2.0). These test files use it: `test_marks.py`, `test_maths.py`, `test_skylab4.py`, `test_spe.py`, `test_store.py`, `test_trend.py`, `test_usual_range_line.py`, `test_web.py` and `test_wording.py`. Without Node, pytest skips those tests.
+The tests also need Node (run here on v26.2.0). These test files use it: `test_marks.py`, `test_mars_caution.py`, `test_maths.py`, `test_skylab4.py`, `test_spe.py`, `test_store.py`, `test_trend.py`, `test_usual_range_line.py`, `test_web.py` and `test_wording.py`. Without Node, pytest skips those tests.
 
 Clone or download this repository, open a terminal in its folder and run the lines one at a time.
 
@@ -69,7 +69,7 @@ pytest -q
 python -m baseline.serve
 ```
 
-`pytest -q` should print **158 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
+`pytest -q` should print **165 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
 
 **On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
 
@@ -146,7 +146,7 @@ flowchart TD
 |---|---|---|
 | **Real** | NOAA GOES solar-proton flux, 7 days, cached 30 Sep 2026 | Shown on the console in its own box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. At or above S1 the page opens a full-screen alert, "Shelter now", with the step "Go to the storm shelter." directly under the title, then the reading and when it was cached; a "Sources" control, closed at first, holds the sources (NASA OCHMO-TB-020 Rev E; NASA-STD-3001 Vol 2 Rev C [V2 6100]; NOAA SWPC) and an "Evidence strength" line. The 30 Sep reading is below S1, so no alert opens. |
 | **Real** | NOAA's listed values for the solar proton event of 9 Sep 2024 (start 16:40 UTC, maximum 34 pfu at 22:50 UTC, S1), from the SWPC event list and the NCEI proton event list, also reported by the Australian Bureau of Meteorology; cached 30 Oct 2026 in `cache/noaa/spe-2024-09-09.json` | "Replay a real solar storm: 9 September 2024" on the console plays the three points and opens the alert at the S1 crossing, labelled as a replay, not today's data. No curve. |
-| **Real** | NASA MSL RAD Mars surface radiation, 30 days to 20 Oct 2026, cached 22 Oct 2026 | Shown in the same box as the latest day in µGy per day. A rule with tests compares that day with the earlier days, and the box says whether it is within or above their usual range (mean ± 2 SD). No flag row or step yet. |
+| **Real** | NASA MSL RAD Mars surface radiation, 30 days to 20 Oct 2026, cached 22 Oct 2026 | Shown in the same box as the latest day in µGy per day. A rule with tests compares that day with the earlier days, and the box says whether it is within or above their usual range (mean ± 2 SD). When the rule fires, a "Caution" flag row opens a card with a step. Our own 2-SD rule, not NASA's numeric threshold, which is not published. |
 | **Real** | NASA OSDR search results, 10 keywords, cached 30 Sep and 10 Oct 2026 | Source of the OSD-140 study on two cards. |
 | **Real** | NASA NTRS search results, 11 keywords, cached 3 Oct and 10 Oct 2026 | Source of the NTRS reports on the cards. |
 | **Real** | Your answers in the self-check | Replace day 29's reaction time, sleep and mood. Each saved check is kept in this browser on this device (no cloud, no network) and is still there after a reload; "Download the daily log (CSV)" exports it and "Clear saved days" removes it. |
@@ -180,7 +180,7 @@ NASA-STD-3001 [V1 3004] requires vital signs to be monitored and trended and pri
 <details>
 <summary>How the evidence map is structured</summary>
 
-Each entry in `docs/evidence_map.json` is keyed by rule id, for example `reaction_above_personal_baseline`. It has `source_type` (`osdr` or `ntrs`), `source_id`, `title` and `url`, and optionally `plain_words`, `key_finding`, `countermeasure` and `countermeasure_source`. Every entry, including `solar_particle_event`, must also have `strength`, a short line on how strong the source is, taken from the Status column of docs/EVIDENCE.md; the loader refuses a map without it. `key_finding` is the phrase the card shows in bold; it must appear word for word in `plain_words`, and a test checks this. A study without an id and URL is not shown, and neither is a step without a source line. After editing the map, copy it to `web/data/evidence_map.json`; a test fails if the two differ.
+Each entry in `docs/evidence_map.json` is keyed by rule id, for example `reaction_above_personal_baseline`. It has `source_type` (`osdr` or `ntrs`), `source_id`, `title` and `url`, and optionally `plain_words`, `key_finding`, `countermeasure` and `countermeasure_source`. `mars_radiation_caution` is the one entry not keyed by a rule id; it adds `label`, `trigger_note` and `practice_note`, shown on its card, and the lines quoted from its sources. Every entry, including `solar_particle_event`, must also have `strength`, a short line on how strong the source is, taken from the Status column of docs/EVIDENCE.md; the loader refuses a map without it. `key_finding` is the phrase the card shows in bold; it must appear word for word in `plain_words`, and a test checks this. A study without an id and URL is not shown, and neither is a step without a source line. After editing the map, copy it to `web/data/evidence_map.json`; a test fails if the two differ.
 
 The seven OSDR searches cached on 30 Sep returned 57 hits, 50 distinct studies. Twelve list Homo sapiens; five of those are from human crew (OSD-316, OSD-575, OSD-656, OSD-903, OSD-943). The rest are mouse, rat, fly or cell studies.
 
@@ -198,7 +198,7 @@ The console's "Data sources" panel shows the first five columns of this table, w
 | NASA Technical Reports Server (NTRS), Human Research Program reports | NASA | Reference numbers, countermeasure protocols | Real | [ntrs.nasa.gov](https://ntrs.nasa.gov) | Searches cached; eight reports reviewed and cited |
 | NASA-STD-3001 Vol 1 Rev C | NASA | Guidance source [V1 3004] for the heart rate, blood oxygen, core temperature, mood and 48-hour steps | Real | [NASA-STD-3001 Vol 1 Rev C (PDF)](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) | Cited on five evidence cards |
 | NASA OCHMO-TB-016 Rev B | NASA | Guidance source for the mood step | Real | [OCHMO-TB-016 (PDF)](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf) | Cited on the mood card |
-| MSL RAD (Curiosity rover) | NASA (SPDF CDAWeb; archived at PDS PPI) | Real Mars surface radiation level for the radiation indicator | Real | [CDAWeb MSL_RAD_OBS-L2](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2), [PDS MSL-M-RAD-3-RDR-V1.0](https://pds-ppi.igpp.ucla.edu/data/MSL-M-RAD-3-RDR-V1.0/), [DOI 10.48322/20qb-4e17](https://doi.org/10.48322/20qb-4e17) | Cached 30 days; daily values and a 2-SD rule with tests; latest value on the console |
+| MSL RAD (Curiosity rover) | NASA (SPDF CDAWeb; archived at PDS PPI) | Real Mars surface radiation level for the radiation indicator | Real | [CDAWeb MSL_RAD_OBS-L2](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2), [PDS MSL-M-RAD-3-RDR-V1.0](https://pds-ppi.igpp.ucla.edu/data/MSL-M-RAD-3-RDR-V1.0/), [DOI 10.48322/20qb-4e17](https://doi.org/10.48322/20qb-4e17) | Cached 30 days; daily values and a 2-SD rule with tests; latest value on the console; "Caution" flag row and card when the rule fires |
 | GOES proton flux | NOAA | Solar particle event alert | Real | [SWPC 7-day integral protons](https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json) | Cached; rule and tests done; latest reading on the console; full-screen alert at S1 |
 | NOAA SWPC Solar Radiation Storm page | NOAA | S1 level for the solar storm alert: 10 pfu or more at 10 MeV or more | Real | [swpc.noaa.gov solar radiation storm](https://www.swpc.noaa.gov/phenomena/solar-radiation-storm) | Cited on the solar storm alert |
 | NASA-STD-3001 Vol 2 Rev C | NASA | Source [V2 6100] for alerting the crew in the solar storm alert | Real | [NASA-STD-3001 Vol 2 Rev C (PDF)](https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf) | Cited on the solar storm alert |
@@ -218,7 +218,7 @@ web/                    the page: index.html, app.js, rules.js, trend.js, projec
 data/fixtures/          simulated 30-day records (clean, anomaly)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  158 tests
+tests/                  165 tests
 ```
 
 ---

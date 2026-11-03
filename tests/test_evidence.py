@@ -69,6 +69,7 @@ STRENGTH = {
     "spo2_below_personal_baseline": "Evidence report: names the risk, has no SpO2 readings.",
     "core_temp_above_personal_baseline": "Study of 2 crew before and after a 115-day flight, not measured in flight.",
     "solar_particle_event": "NASA technical brief and standard, not a study.",
+    "mars_radiation_caution": "NASA article and standard, not a study.",
 }
 
 
