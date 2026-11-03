@@ -446,7 +446,7 @@ function renderConsole() {
   put($("console-summary"), n === 0
     ? "Nothing is outside your usual range today."
     : `${n} ${n === 1 ? "reading is" : "readings are"} outside your usual range today.`);
-  $("to-flags").hidden = n === 0 && !state.radiation.fired;
+  $("to-flags").hidden = n === 0 && !state.radiation.fired && !marsCaution();
   $("followup").hidden = day !== NEXT;
   $("restart").hidden = day !== NEXT;
   if (day === NEXT) renderFollowUp();
@@ -534,6 +534,8 @@ $("b1-back").addEventListener("click", () => {
   show(state.alertBack);
 });
 
+const marsCaution = () => Mars.card(state.radiation.msl_rad, state.evidence.mars_radiation_caution || {});
+
 // Mars surface dose measured by the Radiation Assessment Detector on the Curiosity rover (MSL RAD),
 // mean of one UTC day, compared with the mean of the earlier days in the cache (same 2-SD rule as the vitals).
 function renderMarsDose(m) {
@@ -583,6 +585,16 @@ function renderFlags() {
       make("span", `Countermeasure: ${sourced ? e.countermeasure : "Move to the shielded area."}`, "flag-line"),
       make("span", `Source: ${sourced ? e.countermeasure_source : "no source cached"}`, "flag-status"),
     );
+    list.append(li);
+  }
+  const mars = marsCaution();
+  if (mars) {
+    const b = document.createElement("button"), li = document.createElement("li");
+    b.type = "button";
+    b.className = "flag watch";
+    b.append(make("span", mars.title, "flag-name"), monoNums(make("span", mars.row, "flag-line")), make("span", mars.status, "flag-status"));
+    b.addEventListener("click", () => { renderMarsCard(mars); show("evidence"); });
+    li.append(b);
     list.append(li);
   }
   for (const r of flagsFor(day)) {
@@ -687,6 +699,28 @@ function renderEvidence(r) {
   renderMark();
 }
 
+// The Mars radiation caution on the same screen. Not a crew reading, so it has no maths view and no study; words from web/mars.js.
+function renderMarsCard(c) {
+  state.current = null;
+  put($("ev-title"), c.title);
+  put($("ev-plain"), c.plain);
+  $("ev-note").hidden = true;
+  $("ev-numbers").classList.toggle("nums", true);
+  $("ev-numbers").replaceChildren(...c.numbers.flatMap(([k, v]) => [make("dt", k), make("dd", v)]));
+  put($("ev-words"), c.why).hidden = false;
+  $("ev-study").hidden = true;
+  put($("ev-strength"), c.strength).hidden = false;
+  put($("ev-step"), c.step);
+  $("ev-step-source").hidden = false;
+  putSources($("ev-step-source"), sourceRefs(c.source));
+  put($("ev-source"), c.note);
+  put($("ev-rule"), c.rule);
+  $("ev-maths").hidden = true;
+  state.markKey = `${state.day}:mars_radiation_caution`;
+  $("ev-mark").hidden = false;
+  renderMark();
+}
+
 // "Mark step done" (PLAN A6). Display and storage only: no rule reads a mark. state.marks is the page's own copy,
 // so a mark still works for this visit when the browser blocks storage.
 function renderMark() {
@@ -779,6 +813,8 @@ $("queue-btn").addEventListener("click", () => {
       ? `${title(r)}: ${fmtZ(r, r.current)}, usual ${fmtZ(r, r.baseline_mean)} over ${r.window_days} days, z = ${signed(r.z)}, ${r.status === "confirmed" ? "flagged" : "watching"} (rule ${r.rule}).`
       : `${pairNames(r, true)} flagged within 48 hours, days ${pairDays().join(" and ")} (rule ${r.rule}).`);
   }
+  const mars = marsCaution();
+  if (mars) lines.push(mars.queue);
   if (row.self_check) {
     lines.push(`Self-check: reaction ${fmt("reaction_ms", row.reaction_ms)} ${row.reaction_recorded ? "(recorded, simulated)" : "median of five"}, slept ${fmt("sleep_hours", row.sleep_hours)}, ` +
       `sleep quality ${row.sleep_quality_1to5} of 5, mood ${fmt("mood_1to5", row.mood_1to5)}, near vision ${row.near_vision_ok ? "clear" : "blurred"}.`);
