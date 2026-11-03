@@ -70,7 +70,7 @@
     return BLOCKED.filter((p) => normalised.includes(p));
   }
 
-  const api = { DIRECTIONS, BLOCKED, MIN_HISTORY_DAYS, THRESHOLD, baseline, ruleZscore, evaluate, normalise, blocksDiagnostic };
+  const api = { DIRECTIONS, BLOCKED, MIN_HISTORY_DAYS, CONFIRM_Z, THRESHOLD, baseline, ruleZscore, evaluate, normalise, blocksDiagnostic };
   if (typeof module === "object" && module.exports) module.exports = api;
   else root.Rules = api;
 })(this);

@@ -74,7 +74,7 @@ def test_scripts_styles_and_fonts_carry_a_version_that_matches_their_content():
     endings are normalised so a Windows checkout gives the same hash."""
     html = Path("web/index.html").read_text(encoding="utf-8")
     scripts = re.findall(r'<script src="([^"?]+)\?v=([0-9a-f]+)"></script>', html)
-    assert [path for path, _ in scripts] == ["errors.js", "theme.js", "vendor/chart.umd.js", "rules.js", "trend.js", "projection.js", "maths.js", "spe.js", "reaction.js", "store.js", "app.js"], \
+    assert [path for path, _ in scripts] == ["errors.js", "theme.js", "vendor/chart.umd.js", "rules.js", "trend.js", "skylab4.js", "projection.js", "maths.js", "spe.js", "reaction.js", "store.js", "app.js"], \
         "errors.js loads first, so it can show errors from the scripts after it; theme.js before the body paints"
     assert html.count("<script") == len(scripts), "every script tag needs ?v="
     links = re.findall(r'<link rel="(?:preload|stylesheet)" href="([^"]+)"', html)
@@ -426,7 +426,8 @@ def test_data_sources_panel_matches_the_readme_table_and_ends_with_not_covered()
     """PLAN 4b (W2) and A4: one panel line per README "Data sources" row, word for word (source, agency, used for,
     real or simulated, id or link), the same links, closed by default, and the README "Not covered" line last."""
     html = Path("web/index.html").read_text(encoding="utf-8")
-    panel = html[html.index('<details id="sources" class="sources">'):html.index("</details>")]
+    start = html.index('<details id="sources" class="sources">')
+    panel = html[start:html.index("</details>", start)]
     assert "<summary>Data sources</summary>" in panel and "open" not in panel.split(">", 1)[0]
     assert re.search(r"\.sources summary \{[^}]*min-height: 44px;", html)
     text = lambda s: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", s)).strip()

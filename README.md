@@ -12,7 +12,7 @@
   <img src="web/screenshots/4-evidence-390.png" width="260" alt="Evidence card for reaction time: the change in plain words, the numbers with a line on how the usual range is computed, the start of why it matters, and the Back to list and Queue for flight surgeon buttons.">
 </p>
 
-> **Every vital sign in this repository is simulated.** There is no real crew data. The demo page says "Simulated data" on every screen. The real feeds are NASA MSL RAD (Mars surface radiation, CDAWeb dataset MSL_RAD_OBS-L2) and NOAA GOES solar protons, shown together in their own box, "Real data: NASA MSL RAD and NOAA GOES".
+> **Every vital sign on the console is simulated.** The demo page says "Simulated data" on every screen. The one real crew record is the Skylab 4 sleep estimates from a NASA report (`cache/skylab4`): crew log estimates, by role only, labelled as real on their own panel. The real feeds are NASA MSL RAD (Mars surface radiation, CDAWeb dataset MSL_RAD_OBS-L2) and NOAA GOES solar protons, shown together in their own box, "Real data: NASA MSL RAD and NOAA GOES".
 
 **Status:** a prescreening prototype was built 30 September to 10 October 2026, and development continued from 22 October 2026; the commit history shows each step. The Bangladesh hackathon runs 13–14 November 2026.
 
@@ -43,7 +43,7 @@ Three ideas carry the whole app:
 
 You need Python 3.11 or newer to run the app. Nothing else. Install once online, then everything runs with wifi off.
 
-The tests also need Node (run here on v26.2.0). These test files use it: `test_marks.py`, `test_maths.py`, `test_spe.py`, `test_store.py`, `test_trend.py`, `test_usual_range_line.py`, `test_web.py` and `test_wording.py`. Without Node, pytest skips those tests.
+The tests also need Node (run here on v26.2.0). These test files use it: `test_marks.py`, `test_maths.py`, `test_skylab4.py`, `test_spe.py`, `test_store.py`, `test_trend.py`, `test_usual_range_line.py`, `test_web.py` and `test_wording.py`. Without Node, pytest skips those tests.
 
 Clone or download this repository, open a terminal in its folder and run the lines one at a time.
 
@@ -69,7 +69,7 @@ pytest -q
 python -m baseline.serve
 ```
 
-`pytest -q` should print **136 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
+`pytest -q` should print **158 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
 
 **On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
 
@@ -204,6 +204,7 @@ The console's "Data sources" panel shows the first five columns of this table, w
 | NASA-STD-3001 Vol 2 Rev C | NASA | Source [V2 6100] for alerting the crew in the solar storm alert | Real | [NASA-STD-3001 Vol 2 Rev C (PDF)](https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf) | Cited on the solar storm alert |
 | NASA OCHMO-TB-020 Rev E | NASA | Source for the step "Go to the storm shelter." | Real | [OCHMO-TB-020 (PDF)](https://www.nasa.gov/wp-content/uploads/2023/03/radiation-protection-technical-brief-ochmo.pdf) | Cited on the solar storm alert |
 | Solar proton event list, 9 Sep 2024 | NOAA (Australian Bureau of Meteorology as second report) | Solar storm replay | Real | [NCEI proton events](https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html), SWPC event list SPE.txt (line 383), [BoM alert](https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html) | Listed values cached; replay on the console |
+| Skylab 4 crew sleep estimates (Experiment M133 final report) | NASA | Real crew record: each crewman's own morning estimate of total sleep, 84 nights, through the sleep rule | Real (crew log estimate) | [NASA CR-141886, NTRS 19750019675](https://ntrs.nasa.gov/citations/19750019675), Tables VIII–X | transcribed in `cache/skylab4`; on the console, roles only |
 | Vitals telemetry | ours, simulated | Daily heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood | Simulated | `data/fixtures` | Built; clean and anomaly fixtures |
 
 ---
@@ -217,7 +218,7 @@ web/                    the page: index.html, app.js, rules.js, trend.js, projec
 data/fixtures/          simulated 30-day records (clean, anomaly)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  136 tests
+tests/                  158 tests
 ```
 
 ---

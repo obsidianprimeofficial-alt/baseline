@@ -1,0 +1,1518 @@
+{
+ "source": "NASA CR-141886, Experiment M133 final report, Tables VIII–X, NTRS 19750019675",
+ "source_url": "https://ntrs.nasa.gov/citations/19750019675",
+ "nights": [
+  {
+   "role": "CDR",
+   "mission_day": 1,
+   "total_sleep_h": 5.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 2,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 3,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 4,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 5,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 6,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 7,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 8,
+   "total_sleep_h": 9.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 9,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 10,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 11,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 12,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 13,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 14,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 15,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 16,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 17,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 18,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 19,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 20,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 21,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 22,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 23,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 24,
+   "total_sleep_h": 9.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 25,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 26,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 27,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 28,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 29,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 30,
+   "total_sleep_h": 5.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 31,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 32,
+   "total_sleep_h": 4.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 33,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 34,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 35,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 36,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 37,
+   "total_sleep_h": 5.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 38,
+   "total_sleep_h": 5.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 39,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 40,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 41,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 42,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 43,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 44,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 45,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 46,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 47,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 48,
+   "total_sleep_h": 4.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 49,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 50,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 51,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 52,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 53,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 54,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 55,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 56,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 57,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 58,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 59,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 60,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 61,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 62,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 63,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 64,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 65,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 66,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 67,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 68,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 69,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 70,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 71,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 72,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 73,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 74,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 75,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 76,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 77,
+   "total_sleep_h": 5.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 78,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 79,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 80,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 81,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 82,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 83,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "CDR",
+   "mission_day": 84,
+   "total_sleep_h": 5.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 1,
+   "total_sleep_h": 2.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 2,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 3,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 4,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 5,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 6,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 7,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 8,
+   "total_sleep_h": 9.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 9,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 10,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 11,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 12,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 13,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 14,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 15,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 16,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 17,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 18,
+   "total_sleep_h": 7.8,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 19,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 20,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 21,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 22,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 23,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 24,
+   "total_sleep_h": 10.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 25,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 26,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 27,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 28,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 29,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 30,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 31,
+   "total_sleep_h": 9.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 32,
+   "total_sleep_h": 4.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 33,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 34,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 35,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 36,
+   "total_sleep_h": 9.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 37,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 38,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 39,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 40,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 41,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 42,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 43,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 44,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 45,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 46,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 47,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 48,
+   "total_sleep_h": 5.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 49,
+   "total_sleep_h": 5.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 50,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 51,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 52,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 53,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 54,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 55,
+   "total_sleep_h": 9.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 56,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 57,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 58,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 59,
+   "total_sleep_h": 5.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 60,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 61,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 62,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 63,
+   "total_sleep_h": 9.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 64,
+   "total_sleep_h": 5.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 65,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 66,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 67,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 68,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 69,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 70,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 71,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 72,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 73,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 74,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 75,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 76,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 77,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 78,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 79,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 80,
+   "total_sleep_h": 5.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 81,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 82,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 83,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "PLT",
+   "mission_day": 84,
+   "total_sleep_h": 3.0,
+   "approximate": true
+  },
+  {
+   "role": "SPT",
+   "mission_day": 1,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 2,
+   "total_sleep_h": 4.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 3,
+   "total_sleep_h": 6.7,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 4,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 5,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 6,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 7,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 8,
+   "total_sleep_h": 11.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 9,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 10,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 11,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 12,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 13,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 14,
+   "total_sleep_h": 7.4,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 15,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 16,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 17,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 18,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 19,
+   "total_sleep_h": 7.7,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 20,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 21,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 22,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 23,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 24,
+   "total_sleep_h": 10.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 25,
+   "total_sleep_h": 9.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 26,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 27,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 28,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 29,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 30,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 31,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 32,
+   "total_sleep_h": 4.8,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 33,
+   "total_sleep_h": 8.7,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 34,
+   "total_sleep_h": 8.2,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 35,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 36,
+   "total_sleep_h": 6.8,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 37,
+   "total_sleep_h": 7.8,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 38,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 39,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 40,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 41,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 42,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 43,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 44,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 45,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 46,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 47,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 48,
+   "total_sleep_h": 4.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 49,
+   "total_sleep_h": 10.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 50,
+   "total_sleep_h": 7.7,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 51,
+   "total_sleep_h": 6.8,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 52,
+   "total_sleep_h": 6.8,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 53,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 54,
+   "total_sleep_h": 6.7,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 55,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 56,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 57,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 58,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 59,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 60,
+   "total_sleep_h": 6.7,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 61,
+   "total_sleep_h": 8.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 62,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 63,
+   "total_sleep_h": 10.3,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 64,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 65,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 66,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 67,
+   "total_sleep_h": 6.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 68,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 69,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 70,
+   "total_sleep_h": 6.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 71,
+   "total_sleep_h": 10.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 72,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 73,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 74,
+   "total_sleep_h": 6.7,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 75,
+   "total_sleep_h": 7.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 76,
+   "total_sleep_h": 9.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 77,
+   "total_sleep_h": 8.7,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 78,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 79,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 80,
+   "total_sleep_h": 7.0,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 81,
+   "total_sleep_h": 7.2,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 82,
+   "total_sleep_h": 9.7,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 83,
+   "total_sleep_h": 8.5,
+   "approximate": false
+  },
+  {
+   "role": "SPT",
+   "mission_day": 84,
+   "total_sleep_h": null,
+   "approximate": false
+  }
+ ]
+}
