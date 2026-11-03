@@ -192,6 +192,9 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .radiation p:last-child { margin-bottom: 0; }
 .spe-row > span { display: block; }
 /* Data sources (PLAN 4b, W2): closed by default; one line per source, the README table word for word. */
+.range.three { grid-template-columns: repeat(3, 1fr); }
+.skylab .legend { margin: 12px 0 8px; }
+.skylab .legend li { padding: 0; border: 0; }
 .sources { margin-top: 24px; border-top: 1px solid var(--strong); }
 .sources summary { min-height: 44px; padding: 6px 0; font-size: 22px; line-height: 32px; font-weight: 700; cursor: pointer; } /* list-item keeps the open/closed marker */
 .sources ul { list-style: none; padding: 0; margin: 0; font-size: 16px; }
@@ -420,6 +423,26 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
     <button id="replay" class="secondary" type="button">Replay a real solar storm: 9 September 2024</button>
     <p id="replay-line" class="meta num" aria-live="polite"></p>
   </div>
+  <details id="skylab" class="sources skylab">
+    <summary>Real crew record: Skylab 4</summary>
+    <p class="meta">Real NASA data · crew log estimate: each crewman's own morning estimate, not measured.</p>
+    <div class="range three" role="group" aria-label="Crew role">
+      <button type="button" data-role="CDR" aria-pressed="true">CDR</button>
+      <button type="button" data-role="PLT" aria-pressed="false">PLT</button>
+      <button type="button" data-role="SPT" aria-pressed="false">SPT</button>
+    </div>
+    <div class="channel bottom">
+      <div class="channel-head"><span>Total sleep</span></div>
+      <div class="plot"><canvas id="skylab-chart" role="img"></canvas></div>
+    </div>
+    <ul class="legend" aria-label="Chart key">
+      <li><span class="key band"></span><span id="skylab-band">Usual range</span></li>
+      <li><span><span class="key dot"></span>Flagged</span><span><span class="key ring"></span>Watching</span></li>
+    </ul>
+    <p id="skylab-counts" class="num"></p>
+    <p id="skylab-notes" class="meta num" hidden></p>
+    <p class="meta">Source: <a href="https://ntrs.nasa.gov/citations/19750019675" target="_blank" rel="noopener noreferrer">NASA CR-141886, Experiment M133 final report, Tables VIII–X, NTRS 19750019675</a></p>
+  </details>
   <details id="sources" class="sources">
     <summary>Data sources</summary>
     <p class="meta">Source · agency · used for · real or simulated · id or link. Links open the source online; nothing is fetched.</p>
@@ -434,6 +457,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
       <li><strong>NASA-STD-3001 Vol 2 Rev C</strong> · NASA · Source [V2 6100] for alerting the crew in the solar storm alert · Real · <a href="https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf" target="_blank" rel="noopener noreferrer">NASA-STD-3001 Vol 2 Rev C (PDF)</a></li>
       <li><strong>NASA OCHMO-TB-020 Rev E</strong> · NASA · Source for the step "Go to the storm shelter." · Real · <a href="https://www.nasa.gov/wp-content/uploads/2023/03/radiation-protection-technical-brief-ochmo.pdf" target="_blank" rel="noopener noreferrer">OCHMO-TB-020 (PDF)</a></li>
       <li><strong>Solar proton event list, 9 Sep 2024</strong> · NOAA (Australian Bureau of Meteorology as second report) · Solar storm replay · Real · <a href="https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html" target="_blank" rel="noopener noreferrer">NCEI proton events</a>, SWPC event list SPE.txt (line 383), <a href="https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html" target="_blank" rel="noopener noreferrer">BoM alert</a></li>
+      <li><strong>Skylab 4 crew sleep estimates (Experiment M133 final report)</strong> · NASA · Real crew record: each crewman's own morning estimate of total sleep, 84 nights, through the sleep rule · Real (crew log estimate) · <a href="https://ntrs.nasa.gov/citations/19750019675" target="_blank" rel="noopener noreferrer">NASA CR-141886, NTRS 19750019675</a>, Tables VIII–X</li>
       <li><strong>Vitals telemetry</strong> · ours, simulated · Daily heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood · Simulated · data/fixtures</li>
     </ul>
     <p class="not-covered">Not covered: blood pressure and blood sugar. The challenge statement names both, but only simulated values would be possible, so they were left out when the scope was set on 28 Oct 2026.</p>
@@ -537,13 +561,14 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 
 </main>
 <script src="vendor/chart.umd.js?v=943f58faf8"></script>
-<script src="rules.js?v=94e3668a6a"></script>
+<script src="rules.js?v=2b5f20a022"></script>
 <script src="trend.js?v=076b8d7565"></script>
+<script src="skylab4.js?v=68142f1765"></script>
 <script src="projection.js?v=1eb08e8dd9"></script>
 <script src="maths.js?v=a15139ff07"></script>
 <script src="spe.js?v=8dc481d0f5"></script>
 <script src="reaction.js?v=0c373ca889"></script>
 <script src="store.js?v=cb99d76b39"></script>
-<script src="app.js?v=0c4fd46b91"></script>
+<script src="app.js?v=71c75c65ad"></script>
 </body>
 </html>

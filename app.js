@@ -19,7 +19,7 @@ const SIGNALS = {
 
 const $ = (id) => document.getElementById(id);
 const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-const state = { mathsChart: null, fixture: [], evidence: {}, radiation: null, event: null, alertBack: "console", rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null, range: 0, marks: Store.loadMarks(), marksKept: true, markKey: null };
+const state = { mathsChart: null, fixture: [], evidence: {}, radiation: null, event: null, alertBack: "console", rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null, range: 0, skylab: [], skylabRole: "CDR", skylabChart: null, marks: Store.loadMarks(), marksKept: true, markKey: null };
 
 // ---------- text ----------
 
@@ -335,21 +335,34 @@ function drawChannel(signal) {
   const full = Trend.series(state.rows, state.flags, signal, state.range);
   const { days, vals, band, marks } = full.shown, last = days.length - 1;
   const box = document.querySelector(`[data-signal="${signal}"]`), canvas = box.querySelector("canvas");
-  const [ink, quiet, scrub, flag] = ["--ink", "--quiet", "--scrub", "--flag"].map(css), mono = { family: css("--mono") };
-  const range = (b) => `${fmt(signal, b.mean - 2 * b.sd)} to ${fmt(signal, b.mean + 2 * b.sd)}`;
   const flagged = days.filter((_, i) => marks[i]);
-  const bottom = signal === CHANNELS.at(-1), { step, min = 0, max = Infinity } = SIGNALS[signal];
+
+  put(box.querySelector(".val"), fmt(signal, vals[last]));
+  canvas.setAttribute("aria-label", checked(
+    `${SIGNALS[signal].name}, days ${days[0]} to ${days[last]}. Today ${fmt(signal, vals[last])}; usual range ${usualWords(signal, band[last])}. ` +
+    (flagged.length ? `Outside the usual range on day${flagged.length > 1 ? "s" : ""} ${listWords(flagged.map(String))}.` : "No day shown is outside the usual range.")));
+
+  state.charts[signal]?.destroy();
+  state.charts[signal] = trendChart(canvas, signal, full, {
+    bottom: signal === CHANNELS.at(-1),
+    tick: (d, i) => state.range || d === 1 || d % 10 === 0 || i === last, // 7 days: every day
+    learning: "Still learning your usual range",
+  });
+}
+
+const usualWords = (signal, b) => `${fmt(signal, b.mean - 2 * b.sd)} to ${fmt(signal, b.mean + 2 * b.sd)}`;
+
+// The console's chart, also used for the Skylab 4 record. opts: bottom (show the day axis), tick(day, index) (label this day?),
+// learning (tooltip before the band starts), words(index) (optional tooltip words in place of the number).
+function trendChart(canvas, signal, full, { bottom, tick, learning, words = () => null }) {
+  const { days, vals, band, marks } = full.shown, last = days.length - 1;
+  const [ink, quiet, scrub, flag] = ["--ink", "--quiet", "--scrub", "--flag"].map(css), mono = { family: css("--mono") };
+  const { step, min = 0, max = Infinity } = SIGNALS[signal];
   const span = [...full.vals, ...full.band.filter(Boolean).flatMap((b) => [b.mean - 2 * b.sd, b.mean + 2 * b.sd])];
   const yMin = Math.max(min, Math.floor(Math.min(...span) / step) * step); // three ticks, all whole steps; none below zero
   const yMax = Math.min(max, yMin + Math.ceil((Math.max(...span) - yMin) / (2 * step)) * 2 * step); // nor past the scale
 
-  put(box.querySelector(".val"), fmt(signal, vals[last]));
-  canvas.setAttribute("aria-label", checked(
-    `${SIGNALS[signal].name}, days ${days[0]} to ${days[last]}. Today ${fmt(signal, vals[last])}; usual range ${range(band[last])}. ` +
-    (flagged.length ? `Outside the usual range on day${flagged.length > 1 ? "s" : ""} ${listWords(flagged.map(String))}.` : "No day shown is outside the usual range.")));
-
-  state.charts[signal]?.destroy();
-  state.charts[signal] = new Chart(canvas, {
+  return new Chart(canvas, {
     type: "line",
     data: {
       labels: days,
@@ -378,8 +391,8 @@ function drawChannel(signal) {
           displayColors: false, backgroundColor: ink, titleColor: scrub, bodyColor: scrub, cornerRadius: 4, padding: 8,
           callbacks: {
             title: (items) => `Day ${items[0].label}`,
-            label: (item) => fmt(signal, item.raw),
-            afterLabel: (item) => (band[item.dataIndex] ? `Usual ${range(band[item.dataIndex])}` : "Still learning your usual range"),
+            label: (item) => words(item.dataIndex) || fmt(signal, item.raw),
+            afterLabel: (item) => (band[item.dataIndex] ? `Usual ${usualWords(signal, band[item.dataIndex])}` : learning),
           },
         },
       },
@@ -390,7 +403,7 @@ function drawChannel(signal) {
           border: { color: css("--rule") },
           ticks: {
             autoSkip: false, maxRotation: 0, color: quiet, font: mono,
-            callback: (_, i) => { const d = days[i]; return state.range || d === 1 || d % 10 === 0 || i === last ? d : ""; }, // 7 days: every day
+            callback: (_, i) => (tick(days[i], i) ? days[i] : ""),
           },
         },
         y: {
@@ -412,6 +425,7 @@ $("theme-btn").addEventListener("click", () => {
   Theme.set(Theme.current() === "dark" ? "light" : "dark");
   themeLabel();
   if (Object.keys(state.charts).length) CHANNELS.forEach(drawChannel);
+  if ($("skylab").open) drawSkylab();
   if (!$("maths").hidden) drawMaths(state.current);
 });
 
@@ -427,7 +441,7 @@ for (const b of document.querySelectorAll("[data-range]")) b.addEventListener("c
 
 function renderConsole() {
   const day = state.day, n = flagsFor(day).filter((r) => r.signal).length;
-  put($("legend-band"), `Usual range (from day ${Rules.MIN_HISTORY_DAYS + 1}, ±${Rules.THRESHOLD} SD)`);
+  put($("legend-band"), bandWords());
   setRange(state.range); // draws the charts
   put($("console-summary"), n === 0
     ? "Nothing is outside your usual range today."
@@ -438,6 +452,8 @@ function renderConsole() {
   if (day === NEXT) renderFollowUp();
   renderFlags();
 }
+
+const bandWords = () => `Usual range (from day ${Rules.MIN_HISTORY_DAYS + 1}, ±${Rules.THRESHOLD} SD)`;
 
 // Real NOAA GOES data from web/data/radiation.json (built by scripts/build_radiation_summary.py from the cache).
 function radiationReading() {
@@ -453,6 +469,31 @@ function renderRadiation() {
   $("radiation").classList.toggle("fired", r.fired);
   renderMarsDose(r.msl_rad);
 }
+
+// ---------- real crew record: Skylab 4 (PLAN R1) ----------
+
+// Drawn when the panel opens: a canvas inside a closed <details> has no size. Words and flags come from web/skylab4.js.
+function drawSkylab() {
+  const nights = state.skylab.filter((n) => n.role === state.skylabRole), full = Skylab.series(nights);
+  const { days, marks } = full.shown, last = days.length - 1, notes = Skylab.notes(nights);
+  const flagged = days.filter((_, i) => marks[i]), canvas = $("skylab-chart");
+  for (const b of document.querySelectorAll("[data-role]")) b.setAttribute("aria-pressed", String(b.dataset.role === state.skylabRole));
+  put($("skylab-band"), bandWords());
+  put($("skylab-counts"), Skylab.countsLine(nights));
+  put($("skylab-notes"), notes).hidden = !notes;
+  canvas.setAttribute("aria-label", checked(
+    `Total sleep, crew log estimate, ${state.skylabRole}, days ${days[0]} to ${days[last]}. ` +
+    (flagged.length ? `Outside the usual range on days ${listWords(flagged.map(String))}. ` : "No day shown is outside the usual range. ") + notes));
+  state.skylabChart?.destroy();
+  state.skylabChart = trendChart(canvas, "sleep_hours", full, {
+    bottom: true,
+    tick: (d, i) => d === 1 || i === last || (d % 20 === 0 && last - i >= 5), // the last label needs room
+    learning: "Still learning the usual range",
+    words: (i) => (nights[i].approximate ? Skylab.printed(nights[i]) : null),
+  });
+}
+$("skylab").addEventListener("toggle", () => { if ($("skylab").open) drawSkylab(); });
+for (const b of document.querySelectorAll("[data-role]")) b.addEventListener("click", () => { state.skylabRole = b.dataset.role; drawSkylab(); });
 
 // ---------- solar storm alert (design B1) ----------
 
@@ -779,13 +820,14 @@ $("restart").addEventListener("click", () => {
 
 (async function init() {
   try {
-    const [fixture, evidence, radiation, event] = await Promise.all(
+    const [fixture, evidence, radiation, event, skylab] = await Promise.all(
       // no-store: a copy cached by an older server must never stand in for today's data
-      ["data/crew_a_anomaly.json", "data/evidence_map.json", "data/radiation.json", "data/spe-2024-09-09.json"].map((p) => fetch(p, { cache: "no-store" }).then((r) => r.json())));
+      ["data/crew_a_anomaly.json", "data/evidence_map.json", "data/radiation.json", "data/spe-2024-09-09.json", "data/skylab4.json"].map((p) => fetch(p, { cache: "no-store" }).then((r) => r.json())));
     state.fixture = fixture.rows;
     state.evidence = evidence;
     state.radiation = radiation;
     state.event = event;
+    state.skylab = skylab.nights;
     renderRadiation();
     const live = SPE.live(radiation, evidence.solar_particle_event);
     if (live) showAlert(live, "guide"); // the latest cached NOAA reading is at or above S1
