@@ -41,7 +41,9 @@ Three ideas carry the whole app:
 
 ## Run it in two minutes
 
-You need Python 3.11 or newer. Nothing else. Install once online, then everything runs with wifi off.
+You need Python 3.11 or newer to run the app. Nothing else. Install once online, then everything runs with wifi off.
+
+The tests also need Node (run here on v26.2.0). These test files use it: `test_marks.py`, `test_maths.py`, `test_spe.py`, `test_store.py`, `test_trend.py`, `test_usual_range_line.py`, `test_web.py` and `test_wording.py`. Without Node, pytest skips those tests.
 
 Clone or download this repository, open a terminal in its folder and run the lines one at a time.
 
@@ -67,7 +69,7 @@ pytest -q
 python -m baseline.serve
 ```
 
-`pytest -q` should print **114 passed**. The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
+`pytest -q` should print **136 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
 
 **On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
 
@@ -215,7 +217,7 @@ web/                    the page: index.html, app.js, rules.js, trend.js, projec
 data/fixtures/          simulated 30-day records (clean, anomaly)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  114 tests
+tests/                  136 tests
 ```
 
 ---

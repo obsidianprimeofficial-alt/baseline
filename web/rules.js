@@ -10,7 +10,7 @@
     heart_rate_bpm: "heart_rate", core_temp_c: "core_temp", reaction_ms: "reaction",
   };
   const MIN_HISTORY_DAYS = 14, CONFIRM_Z = 3, THRESHOLD = 2, WINDOW = 30;
-  const BLOCKED = ["you have", "you are suffering", "diagnos", "disease", "condition:", "take ", "dose", "medication", "prescri"];
+  const BLOCKED = ["you have", "you are suffering", "diagnos", "disease", "condition:", "take ", "dose", "medication", "prescri", "may have", "might have", "could have", "must have", "probably have", "likely have", "you may be", "you might be", "you could be", "suggests", "indicates", " sign of", " signs of", "symptom", "consistent with", "points to", "caused by", "suffering from", "your condition", "a condition", "this condition", "insomnia", "depression", "depressed", "anxiety", "apnea", "apnoea", "anemia", "anaemia", "tachycardia", "bradycardia", " fever", "infection", "disorder", "illness", "burnout", "dementia", "hypertension", "heart attack", "concussion", "cancer", "diabet", "dehydrat", "melatonin", " pill", " drug", "medicine", "ibuprofen", "paracetamol", "acetaminophen", "aspirin", "zolpidem", "ambien ", "modafinil", "antidepress", "sedative", "stimulant", "supplement", "painkiller", "milligram", " mg ", " mg.", " mg,", " treat", " cure", "therapy", "remedy"];
 
   function baseline(values) {
     const v = values.slice(-WINDOW), n = v.length;
@@ -61,12 +61,16 @@
     return out;
   }
 
-  function blocksDiagnostic(text) {
-    const lowered = String(text).toLowerCase();
-    return BLOCKED.filter((p) => lowered.includes(p));
+  function normalise(text) {
+    return " " + String(text).toLowerCase().trim().split(/\s+/).join(" ") + " ";
   }
 
-  const api = { DIRECTIONS, BLOCKED, MIN_HISTORY_DAYS, THRESHOLD, baseline, ruleZscore, evaluate, blocksDiagnostic };
+  function blocksDiagnostic(text) {
+    const normalised = normalise(text);
+    return BLOCKED.filter((p) => normalised.includes(p));
+  }
+
+  const api = { DIRECTIONS, BLOCKED, MIN_HISTORY_DAYS, THRESHOLD, baseline, ruleZscore, evaluate, normalise, blocksDiagnostic };
   if (typeof module === "object" && module.exports) module.exports = api;
   else root.Rules = api;
 })(this);
