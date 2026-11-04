@@ -327,6 +327,7 @@ function recompute(day) {
   state.flags = Rules.evaluate(state.rows);
   $("day-label").textContent = `Day ${day}`;
   put($("flags-title"), day === TODAY ? "What changed today" : "What changed on day 30");
+  $("hazards").hidden = day !== TODAY; // its text is about day 29 (PLAN item 5)
   renderConsole();
 }
 
