@@ -195,6 +195,12 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .range.three { grid-template-columns: repeat(3, 1fr); }
 .skylab .legend { margin: 12px 0 8px; }
 .skylab .legend li { padding: 0; border: 0; }
+/* Mission-phase risks (PLAN item 5, design B3): static NASA text; each risk a card with its day 29 chip. */
+.hazards h3 { margin: 4px 0 8px; font-size: 28px; line-height: 1.2; }
+.hazards h4 { margin: 20px 0 4px; font-size: 20px; }
+.hazards .trend-card { margin-top: 8px; }
+.hazards .trend-card p + p { margin-top: 6px; }
+.risk-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px 8px; margin-bottom: 6px; font-size: 18px; }
 .sources { margin-top: 24px; border-top: 1px solid var(--strong); }
 .sources summary { min-height: 44px; padding: 6px 0; font-size: 22px; line-height: 32px; font-weight: 700; cursor: pointer; } /* list-item keeps the open/closed marker */
 .sources ul { list-style: none; padding: 0; margin: 0; font-size: 16px; }
@@ -443,6 +449,54 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
     <p id="skylab-notes" class="meta num" hidden></p>
     <p class="meta">Source: <a href="https://ntrs.nasa.gov/citations/19750019675" target="_blank" rel="noopener noreferrer">NASA CR-141886, Experiment M133 final report, Tables VIII–X, NTRS 19750019675</a></p>
   </details>
+  <details id="hazards" class="sources hazards">
+    <summary>Mission-phase risks</summary>
+    <h3>Day 29 of flight</h3>
+    <p>NASA's five hazards of long missions, with NASA's numbers. The day 29 lines are our reading of NASA's timings.</p>
+    <section>
+      <h4>Space radiation</h4>
+      <p>"Invisible to the human eye, space radiation is not only stealthy but considered one of the most hazardous aspects of spaceflight."</p>
+      <p class="meta">Source: <a href="https://www.nasa.gov/hrp/hazards/" target="_blank" rel="noopener noreferrer">NASA Human Research Program, 5 Hazards of Human Spaceflight</a></p>
+    </section>
+    <section>
+      <h4>Isolation and confinement</h4>
+      <p>"Behavioral responses occur among groups of people far from Earth who are isolated and confined in a small space over a long period of time."</p>
+      <p class="meta">Source: <a href="https://www.nasa.gov/hrp/hazard-isolation-and-confinement/" target="_blank" rel="noopener noreferrer">NASA Human Research Program, Hazard: Isolation and Confinement</a></p>
+    </section>
+    <section>
+      <h4>Distance from Earth</h4>
+      <p>"Instructions, new supplies, medical care, and more become increasingly challenging to receive from Earth as astronauts venture deeper into space."</p>
+      <p class="meta">Source: <a href="https://www.nasa.gov/hrp/hazard-distance-from-earth/" target="_blank" rel="noopener noreferrer">NASA Human Research Program, Hazard: Distance From Earth</a></p>
+    </section>
+    <section>
+      <h4>Gravity fields</h4>
+      <p>"Floating weightlessly within a spacecraft can lead to dizziness, bone and muscle loss, vision issues, and more."</p>
+      <p class="meta">Source: <a href="https://www.nasa.gov/hrp/hazard-gravity-fields/" target="_blank" rel="noopener noreferrer">NASA Human Research Program, Hazard: Gravity Fields</a></p>
+      <div class="trend-card">
+        <div class="risk-head"><strong>Space adaptation syndrome</strong><span class="chip">Day 29: usually past</span></div>
+        <p>"Space Adaptation Syndrome (SAS) occurs in up to 70% of first-time fliers (30% of whom may experience vomiting) during the first 48 to 72 hours of microgravity."</p>
+        <p class="meta">Source: <a href="https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf" target="_blank" rel="noopener noreferrer">NASA-STD-3001 Vol 2 Rev C, [V2 7102] rationale, p.96</a></p>
+      </div>
+      <div class="trend-card">
+        <div class="risk-head"><strong>Headward fluid shift</strong><span class="chip">Day 29: ongoing</span></div>
+        <p>The total fluid shift was reported to be 2 L, most of it in the first 6 to 10 hours after entering microgravity.</p>
+        <p class="meta">Source: <a href="https://ntrs.nasa.gov/citations/20180000936" target="_blank" rel="noopener noreferrer">NTRS 20180000936, Evidence Report: Risk of Spaceflight Associated Neuro-ocular Syndrome (SANS), pp.69–70</a></p>
+        <p class="meta">Source for "ongoing": <a href="https://ntrs.nasa.gov/citations/20140003729" target="_blank" rel="noopener noreferrer">NTRS 20140003729, Evidence Report: Risk of Decompression Sickness (DCS), p.11</a></p>
+      </div>
+      <div class="trend-card">
+        <div class="risk-head"><strong>Bone loss</strong><span class="chip">Day 29: ongoing</span></div>
+        <p>"Without the continuous load of Earth’s gravity, weight-bearing bones lose on average 1% to 1.5% of mineral density per month during spaceflight."</p>
+        <p class="meta">Source: <a href="https://www.nasa.gov/hrp/hazard-gravity-fields/" target="_blank" rel="noopener noreferrer">NASA Human Research Program, Hazard: Gravity Fields</a></p>
+        <p>With resistive exercise on ARED, hip and spine loss has been reduced to 0.3 to 0.5% per month.</p>
+        <p class="meta">Source: <a href="https://humanresearchroadmap.nasa.gov/evidence/reports/Osteo.pdf" target="_blank" rel="noopener noreferrer">NASA Evidence Report: Risk of Early Onset Osteoporosis Due to Space Flight, p.21</a></p>
+      </div>
+    </section>
+    <section>
+      <h4>Hostile closed environments</h4>
+      <p>"Maintaining a safe ecosystem inside a vehicle presents unique challenges, from ensuring optimal temperatures, pressures, and lighting, to reducing noise, monitoring microbial communities, and tracking immune responses."</p>
+      <p class="meta">Source: <a href="https://www.nasa.gov/hrp/hazard-hostile-closed-environments/" target="_blank" rel="noopener noreferrer">NASA Human Research Program, Hazard: Hostile/Closed Environments</a></p>
+    </section>
+  </details>
   <details id="sources" class="sources">
     <summary>Data sources</summary>
     <p class="meta">Source · agency · used for · real or simulated · id or link. Links open the source online; nothing is fetched.</p>
@@ -570,6 +624,6 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <script src="spe.js?v=8dc481d0f5"></script>
 <script src="reaction.js?v=0c373ca889"></script>
 <script src="store.js?v=cb99d76b39"></script>
-<script src="app.js?v=beb4c3fe03"></script>
+<script src="app.js?v=938eb4f0b1"></script>
 </body>
 </html>
