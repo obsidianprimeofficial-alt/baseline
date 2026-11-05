@@ -19,7 +19,7 @@ const SIGNALS = {
 
 const $ = (id) => document.getElementById(id);
 const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-const state = { mathsChart: null, fixture: [], evidence: {}, radiation: null, event: null, alertBack: "console", rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null, range: 0, skylab: [], skylabRole: "CDR", skylabChart: null, marks: Store.loadMarks(), marksKept: true, markKey: null };
+const state = { mathsChart: null, fixture: [], evidence: {}, radiation: null, event: null, alertBack: "console", rows: [], flags: {}, day: TODAY, trials: [], recorded: false, charts: {}, current: null, range: 0, skylab: [], skylabRole: "CDR", skylabChart: null, marks: Store.loadMarks(), marksKept: true, markKey: null, card: null, crew: null, crewData: {}, crewCards: {}, phone: null };
 
 // ---------- text ----------
 
@@ -97,6 +97,7 @@ function plainWords(r) {
 }
 
 function sourceNote(r) {
+  if (state.crew && state.crew !== "A") return "Today's value and your usual range come from the simulated record.";
   if (state.day === NEXT) return "Day 30 readings come from the simulated record.";
   if (!r.signal) return "Readings come from your self-check and the simulated wearable record.";
   if (r.signal === "reaction_ms" && state.rows.at(-1).reaction_recorded) {
@@ -110,13 +111,16 @@ function sourceNote(r) {
 // ---------- navigation ----------
 
 function show(id, push = true) {
+  if (id === "crew") setCrew(null);
   for (const s of document.querySelectorAll("main > section")) s.hidden = s.id !== id;
   const alert = id === "alert"; // real NOAA data, no vitals: the chip stands in for the "Simulated data" badge (design B1)
   $("b1-chip").hidden = !alert;
   document.querySelector(".sim").hidden = $("day-label").hidden = alert;
+  $("day-label").textContent = `Day ${id === "crew" ? TODAY : state.day}`;
+  document.body.classList.toggle("wide", id === "crew");
   window.scrollTo(0, 0);
   $(id).querySelector("h1").focus();
-  if (push) history.pushState({ screen: id }, ""); // no URL change: a reload still starts at the guide
+  if (push) history.pushState({ screen: id, crew: state.crew }, ""); // no URL change: a reload still starts at the guide
 }
 document.addEventListener("click", (e) => { const go = e.target.closest("[data-go]"); if (go) show(go.dataset.go); });
 
@@ -124,10 +128,13 @@ document.addEventListener("click", (e) => { const go = e.target.closest("[data-g
 // check, so after "Start the demo again" an old entry shows the guide instead.
 history.replaceState({ screen: "guide" }, "");
 history.scrollRestoration = "manual";
-window.addEventListener("popstate", (e) => {
-  const id = e.state?.screen || "guide";
-  show(state.rows.length || id === "today" ? id : "guide", false);
-});
+function onPop(e) {
+  const id = e.state?.screen || (document.location?.hash === "#crew" ? "crew" : "guide");
+  setCrew(e.state?.crew || null);
+  show(state.rows.length || id === "today" || id === "crew" ? id : "guide", false);
+  if (id === "maths" && state.current?.signal) drawMaths(state.current);
+}
+window.addEventListener("popstate", onPop);
 
 // ---------- screen 1: reaction test ----------
 
@@ -326,8 +333,7 @@ function recompute(day) {
   state.day = day;
   state.flags = Rules.evaluate(state.rows);
   $("day-label").textContent = `Day ${day}`;
-  put($("flags-title"), day === TODAY ? "What changed today" : "What changed on day 30");
-  $("hazards").hidden = day !== TODAY; // its text is about day 29 (PLAN item 5)
+  $("hazards").hidden = $("to-crew").hidden = day !== TODAY; // their text is about day 29 (PLAN items 5, 6)
   renderConsole();
 }
 
@@ -570,9 +576,12 @@ function renderFollowUp() {
 
 // ---------- screen 3: flag list ----------
 
+const flagLine = (r) => (r.signal ? `${fmt(r.signal, r.current)} today. Your usual: ${fmt(r.signal, r.baseline_mean)}.` : `${names(r)}.`);
+
 function renderFlags() {
   const day = state.day, row = state.rows.at(-1), list = $("flag-list");
   const h = state.rows.slice(0, -1);
+  put($("flags-title"), day === TODAY ? "What changed today" : "What changed on day 30");
   put($("flags-meta"), `Day ${day} compared with your days ${h[0].day} to ${h.at(-1).day}.`);
   list.replaceChildren();
   if (state.radiation.fired) {
@@ -604,7 +613,7 @@ function renderFlags() {
     b.className = `flag ${r.status}`;
     b.append(
       make("span", title(r), "flag-name"),
-      monoNums(make("span", r.signal ? `${fmt(r.signal, r.current)} today. Your usual: ${fmt(r.signal, r.baseline_mean)}.` : `${names(r)}.`, "flag-line")),
+      monoNums(make("span", flagLine(r), "flag-line")),
       make("span", plainStatus(r), "flag-status"),
     );
     b.addEventListener("click", () => { renderEvidence(r); show("evidence"); });
@@ -655,6 +664,7 @@ function putSources(el, refs) {
 
 function renderEvidence(r) {
   state.current = r;
+  state.card = () => renderEvidence(r);
   const e = state.evidence[r.rule] || {}, note = r.signal === "sleep_hours" && state.rows.at(-1).note;
   put($("ev-title"), title(r));
   put($("ev-plain"), plainWords(r));
@@ -696,13 +706,14 @@ function renderEvidence(r) {
   put($("ev-rule"), `Rule: ${r.rule}`);
   $("ev-maths").hidden = !r.signal; // single-signal flags only; the 48-hour row has no histogram
   state.markKey = `${state.day}:${r.rule}`;
-  $("ev-mark").hidden = !step;
+  $("ev-mark").hidden = !step || !!state.crew;
   renderMark();
 }
 
 // The Mars radiation caution on the same screen. Not a crew reading, so it has no maths view and no study; words from web/mars.js.
 function renderMarsCard(c) {
   state.current = null;
+  state.card = () => renderMarsCard(c);
   put($("ev-title"), c.title);
   put($("ev-plain"), c.plain);
   $("ev-note").hidden = true;
@@ -718,14 +729,14 @@ function renderMarsCard(c) {
   put($("ev-rule"), c.rule);
   $("ev-maths").hidden = true;
   state.markKey = `${state.day}:mars_radiation_caution`;
-  $("ev-mark").hidden = false;
+  $("ev-mark").hidden = !!state.crew;
   renderMark();
 }
 
 // "Mark step done" (PLAN A6). Display and storage only: no rule reads a mark. state.marks is the page's own copy,
 // so a mark still works for this visit when the browser blocks storage.
 function renderMark() {
-  const at = state.marks[state.markKey];
+  const at = !state.crew && state.marks[state.markKey]; // no marks on the flight surgeon's path
   put($("ev-mark"), at ? "Undo step done" : "Mark step done");
   $("ev-mark-line").hidden = !at;
   put($("ev-mark-line"), at ? `Step done, ${when(at)}, device time.` : "");
@@ -807,8 +818,8 @@ function drawMaths(r) {
 
 // ---------- screen 5: queue for flight surgeon ----------
 
-$("queue-btn").addEventListener("click", () => {
-  const row = state.rows.at(-1), lines = [`Crew member A, day ${state.day}. Telemetry is simulated.`];
+function summaryLines(who) {
+  const row = state.rows.at(-1), lines = [`Crew member ${who}, day ${state.day}. Telemetry is simulated.`];
   for (const r of flagsFor(state.day)) {
     lines.push(r.signal
       ? `${title(r)}: ${fmtZ(r, r.current)}, usual ${fmtZ(r, r.baseline_mean)} over ${r.window_days} days, z = ${signed(r.z)}, ${r.status === "confirmed" ? "flagged" : "watching"} (rule ${r.rule}).`
@@ -822,10 +833,66 @@ $("queue-btn").addEventListener("click", () => {
     if (row.note) lines.push(`Sleep note: ${row.note}`); // own line, so a failed wording check withholds only the note
   }
   lines.push(ROUNDING_NOTE);
-  $("message").replaceChildren(...lines.map((l) => make("p", l)));
+  return lines;
+}
+
+$("queue-btn").addEventListener("click", () => {
+  $("message").replaceChildren(...summaryLines("A").map((l) => make("p", l)));
   $("next-day").hidden = state.day === NEXT;
   show("queue");
 });
+
+// ---------- flight surgeon view, crew of three (PLAN item 6, design L1) ----------
+
+// The phone's demo state (docs/HANDOFF_2026-10-10.md, "The demo state"), on crew A's day 29; the reaction stays the fixture's own.
+const DEMO_CHECK = { reaction_recorded: true, sleep_hours: 5, note: "Woke at 03:00 for a docking", sleep_quality_1to5: 2, mood_1to5: 4, near_vision_ok: true, self_check: true };
+
+// Static, drawn once at load from the same rules and words as the phone. Any flag counts as queued.
+function renderCrew() {
+  const rowsEl = [], queue = [], { rows, flags } = state;
+  for (const [who, data] of Object.entries(state.crewData)) {
+    Object.assign(state, data);
+    const list = flagsFor(TODAY), top = list[0], li = document.createElement("li"), name = document.createElement("div"), text = document.createElement("div");
+    li.className = `crew-row ${top ? `flagged ${top.status}` : ""}`;
+    name.append(make("strong", `Crew member ${who}`), make("span", `${list.length} ${list.length === 1 ? "flag" : "flags"}`, "crew-count"));
+    text.className = "crew-flag";
+    if (top) text.append(make("span", title(top), "flag-name"), monoNums(make("span", flagLine(top), "flag-line")), make("span", plainStatus(top), "flag-status"));
+    text.append(make("span", top ? "Awaiting flight surgeon" : "No flags today", "flag-status"));
+    li.append(name, text);
+    if (top) {
+      const b = make("button", "Open evidence", "secondary");
+      b.type = "button";
+      b.addEventListener("click", () => { setCrew(who); show("flags"); });
+      li.append(b);
+      const m = document.createElement("div");
+      m.className = "message";
+      m.append(...summaryLines(who).map((l) => make("p", l)));
+      queue.push(m);
+    }
+    rowsEl.push(li);
+  }
+  Object.assign(state, { rows, flags });
+  $("crew-rows").replaceChildren(...rowsEl);
+  $("crew-queue").replaceChildren(...queue);
+}
+
+// Opening a crew member's list and cards borrows the phone's screens: the phone's state waits in state.phone and comes back
+// whole, and the shared screens are drawn again, so a visit leaves the phone's flow as it was.
+function setCrew(who) {
+  if (state.crew === who) return;
+  const seat = { current: state.current, card: state.card, markKey: state.markKey };
+  if (state.crew) state.crewCards[state.crew] = seat;
+  else state.phone = { rows: state.rows, flags: state.flags, day: state.day, ...seat };
+  state.crew = who;
+  Object.assign(state, who ? { ...state.crewData[who], day: TODAY, current: null, card: null, ...state.crewCards[who] } : state.phone);
+  $("queue-btn").hidden = !!who;
+  put($("flags-back"), who ? "Back to crew status" : "Back to the chart").dataset.go = who ? "crew" : "console";
+  for (const id of ["flags-who", "ev-who"]) put($(id), who ? `Crew member ${who}` : "").hidden = !who;
+  if (!state.rows.length) return;
+  renderFlags();
+  state.card?.();
+  if (state.current?.signal) renderMaths(state.current);
+}
 
 $("next-day").addEventListener("click", () => {
   state.rows = [...state.rows, state.fixture.find((r) => r.day === NEXT)];
@@ -837,7 +904,7 @@ $("next-day").addEventListener("click", () => {
 $("restart").addEventListener("click", () => {
   clearTimeout(rt.timer);
   rt.state = "idle";
-  Object.assign(state, { rows: [], flags: {}, day: TODAY, trials: [], recorded: false, current: null });
+  Object.assign(state, { rows: [], flags: {}, day: TODAY, trials: [], recorded: false, current: null, card: null });
   setRange(0); // back to 30 days
   rtShow("Tap here to start");
   rtStatus();
@@ -857,19 +924,24 @@ $("restart").addEventListener("click", () => {
 
 (async function init() {
   try {
-    const [fixture, evidence, radiation, event, skylab] = await Promise.all(
+    const [fixture, evidence, radiation, event, skylab, crewB, crewC] = await Promise.all(
       // no-store: a copy cached by an older server must never stand in for today's data
-      ["data/crew_a_anomaly.json", "data/evidence_map.json", "data/radiation.json", "data/spe-2024-09-09.json", "data/skylab4.json"].map((p) => fetch(p, { cache: "no-store" }).then((r) => r.json())));
+      ["data/crew_a_anomaly.json", "data/evidence_map.json", "data/radiation.json", "data/spe-2024-09-09.json", "data/skylab4.json", "data/crew_b_clean.json", "data/crew_c_heart_rate.json"].map((p) => fetch(p, { cache: "no-store" }).then((r) => r.json())));
     state.fixture = fixture.rows;
     state.evidence = evidence;
     state.radiation = radiation;
     state.event = event;
     state.skylab = skylab.nights;
     renderRadiation();
+    const day29 = (rows) => rows.filter((r) => r.day <= TODAY), crewA = day29(fixture.rows);
+    crewA[TODAY - 1] = { ...crewA[TODAY - 1], ...DEMO_CHECK };
+    state.crewData = Object.fromEntries([["A", crewA], ["B", day29(crewB.rows)], ["C", day29(crewC.rows)]].map(([who, rows]) => [who, { rows, flags: Rules.evaluate(rows) }]));
+    renderCrew();
     const live = SPE.live(radiation, evidence.solar_particle_event);
     if (live) showAlert(live, "guide"); // the latest cached NOAA reading is at or above S1
     $("save").disabled = $("rt-recorded").disabled = $("saved-open").disabled = false; // all read the record; disabled in the HTML until it is here
     renderSavedBox();
+    if (document.location?.hash === "#crew") { show("crew", false); history.replaceState({ screen: "crew" }, ""); }
   } catch (err) {
     put($("missing"), "The simulated record did not load. Start the page with: python -m baseline.serve");
     $("save").disabled = true;

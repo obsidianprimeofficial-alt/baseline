@@ -273,6 +273,28 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .sent { font-weight: 600; }
 .message { margin-top: 8px; padding-left: 14px; border-left: 2px solid var(--strong); }
 .message p { margin-bottom: 8px; font-size: 16px; font-variant-numeric: tabular-nums; }
+
+/* Flight surgeon view (PLAN item 6, design L1): the one screen that uses a laptop's width; one column on a phone. */
+.wide .top, .wide main { max-width: 1360px; }
+#crew h1 { font-size: 36px; }
+.crew-grid { display: grid; gap: 24px; margin-top: 20px; }
+.crew-rows { list-style: none; padding: 0; margin: 0; }
+.crew-rows li + li { margin-top: 16px; }
+.crew-row { display: grid; gap: 12px 24px; padding: 16px 20px; border: 1px solid var(--card-border); border-radius: 8px; background: var(--card); }
+.crew-row.flagged { padding-left: 17px; border-left: 4px solid var(--flag); box-shadow: var(--glow); } /* same text edge as an unflagged row */
+.crew-row.watch { border-left-style: dotted; }
+.crew-row strong { display: block; font-size: 22px; }
+.crew-row .secondary { width: auto; margin: 0; min-height: 44px; padding: 8px 20px; }
+.crew-count { display: inline-block; margin-top: 4px; padding: 0 12px; border: 1.5px solid var(--strong); border-radius: 999px; font-family: var(--mono); font-size: 16px; }
+.flagged .crew-count { border-color: var(--flag); color: var(--flag); }
+.crew-flag > span { display: block; }
+.crew-rail { padding: 16px 20px; border: 1px solid var(--card-border); border-radius: 12px; background: var(--card); }
+.crew-rail h2 { margin-top: 0; }
+.crew-rail .message { margin: 12px 0; }
+.crew-rail .message p:first-child { font-weight: 700; }
+.crew-rail .message p:last-child { margin-bottom: 0; }
+@media (min-width: 700px) { .crew-row { grid-template-columns: 200px minmax(0, 1fr) auto; align-items: center; } }
+@media (min-width: 900px) { .crew-grid { grid-template-columns: minmax(0, 1fr) 440px; align-items: start; } }
 </style>
 </head>
 <body>
@@ -530,10 +552,12 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
     <button id="export" class="secondary" type="button">Download the daily log (CSV)</button>
     <button id="clear-saved" class="text-button" type="button">Clear saved days</button>
   </div>
+  <button id="to-crew" class="text-button" type="button" data-go="crew">Flight surgeon view</button>
 </section>
 
 <section id="flags" aria-labelledby="flags-title" hidden>
-  <button class="text-button back" type="button" data-go="console">Back to the chart</button>
+  <button id="flags-back" class="text-button back" type="button" data-go="console">Back to the chart</button>
+  <p id="flags-who" class="days-line" hidden></p>
   <h1 id="flags-title" tabindex="-1">What changed today</h1>
   <p id="flags-meta" class="meta"></p>
   <ul id="flag-list" class="flag-list"></ul>
@@ -541,6 +565,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 </section>
 
 <section id="evidence" aria-labelledby="ev-title" hidden>
+  <p id="ev-who" class="days-line" hidden></p>
   <h1 id="ev-title" tabindex="-1"></h1>
   <p id="ev-plain"></p>
   <p id="ev-note" hidden></p>
@@ -594,6 +619,19 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <button id="next-day" class="primary" type="button">Show next day</button>
 </section>
 
+<section id="crew" aria-labelledby="crew-title" hidden>
+  <h1 id="crew-title" tabindex="-1">Flight surgeon – crew status</h1>
+  <p>Three crew, one screen. Each row is that person checked against their own normal.</p>
+  <div class="crew-grid">
+    <ul id="crew-rows" class="crew-rows"></ul>
+    <aside class="crew-rail">
+      <h2>Queued summaries</h2>
+      <div id="crew-queue"></div>
+      <p class="meta">Demo only: nothing leaves this device.</p>
+    </aside>
+  </div>
+</section>
+
 <section id="alert" aria-labelledby="alert-title" hidden>
   <button id="b1-back" class="text-button back" type="button">Back to the chart</button>
   <div class="alert-card">
@@ -624,6 +662,6 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <script src="spe.js?v=8dc481d0f5"></script>
 <script src="reaction.js?v=0c373ca889"></script>
 <script src="store.js?v=cb99d76b39"></script>
-<script src="app.js?v=938eb4f0b1"></script>
+<script src="app.js?v=a961f9c334"></script>
 </body>
 </html>
