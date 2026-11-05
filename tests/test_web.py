@@ -24,6 +24,8 @@ RUN_JS = (
 
 @pytest.mark.parametrize("web, source", [
     ("web/data/crew_a_anomaly.json", "data/fixtures/crew_a_anomaly.json"),
+    ("web/data/crew_b_clean.json", "data/fixtures/crew_b_clean.json"),
+    ("web/data/crew_c_heart_rate.json", "data/fixtures/crew_c_heart_rate.json"),
     ("web/data/evidence_map.json", "docs/evidence_map.json"),
 ])
 def test_web_data_matches_source(web, source):
@@ -40,7 +42,7 @@ def summary(flags: dict) -> dict:
 
 
 @pytest.mark.skipif(NODE is None, reason="node is not installed")
-@pytest.mark.parametrize("name", ["crew_a_anomaly.json", "crew_a_clean.json"])
+@pytest.mark.parametrize("name", ["crew_a_anomaly.json", "crew_a_clean.json", "crew_b_clean.json", "crew_c_heart_rate.json"])
 def test_js_rule_matches_python(name):
     rows = json.loads(Path("data/fixtures", name).read_text())["rows"]
     out = subprocess.run([NODE, "-e", RUN_JS], input=json.dumps(rows), capture_output=True, text=True, check=True)
@@ -253,8 +255,8 @@ def test_every_evidence_card_and_the_queue_summary_show_the_rounding_note():
     app = Path("web/app.js").read_text(encoding="utf-8")
     assert "ev-rounding" not in app
     assert f'const ROUNDING_NOTE = "{ROUNDING_NOTE}";' in app
-    queue = app[app.index('$("queue-btn")'):]
-    assert re.search(r"lines\.push\(ROUNDING_NOTE\);\s*\$\(\"message\"\)\.replaceChildren", queue)
+    queue = app[app.index("function summaryLines"):]
+    assert re.search(r"lines\.push\(ROUNDING_NOTE\);\s*return lines;", queue)
 
 
 def test_demo_reaction_card_one_decimal_inputs_reproduce_z():

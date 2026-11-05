@@ -33,16 +33,17 @@ class El {
   addEventListener(t, f) { (this.listeners[t] = this.listeners[t] || []).push(f); }
   click() { for (const f of this.listeners.click || []) f({ type: 'click', target: this }); }
   focus() {}
-  querySelector() { return new El(); }
+  querySelector(q) { if (q === 'h1') this.focused = ++El.clock; return new El(); }
 }
+El.clock = 0;
 const ANSWERS = { quality: '2', mood: '4', vision: 'clear' };
 const mem = () => ({ d: {}, getItem(k) { return k in this.d ? this.d[k] : null; }, setItem(k, v) { this.d[k] = String(v); }, removeItem(k) { delete this.d[k]; } });
 const blocked = () => ({ getItem() { throw new Error('blocked'); }, setItem() { throw new Error('blocked'); }, removeItem() { throw new Error('blocked'); } });
 
-async function page(storage) {
-  const els = {}, sel = {}, errors = [];
+async function page(storage, hash = '') {
+  const els = {}, sel = {}, errors = [], hist = [];
   const document = {
-    documentElement: new El(), body: new El(), fonts: { load: async () => {} }, addEventListener() {},
+    location: { hash }, documentElement: new El(), body: Object.assign(new El(), { classList: { toggle(c, on) { document.body[c] = on; } } }), fonts: { load: async () => {} }, addEventListener() {},
     getElementById: (id) => els[id] || (els[id] = new El()), createElement: () => new El(), querySelectorAll: () => [],
     querySelector: (q) => { const m = q.match(/name="(\w+)"\]:checked/); return m ? { value: ANSWERS[m[1]] } : sel[q] || (sel[q] = new El()); },
   };
@@ -51,7 +52,7 @@ async function page(storage) {
   const box = {
     document, Chart, localStorage: storage, setTimeout, clearTimeout, performance, URL, Blob,
     console: { error: (...a) => errors.push(a.join(' ')), log() {} },
-    history: { replaceState() {}, pushState() {} }, addEventListener() {}, scrollTo() {},
+    history: { replaceState(s) { hist.push(['replace', s.screen]); }, pushState(s) { hist.push(['push', s.screen, s.crew]); } }, addEventListener() {}, scrollTo() {},
     getComputedStyle: () => ({ getPropertyValue: () => '' }),
     fetch: async (p) => ({ json: async () => JSON.parse(fs.readFileSync('web/' + p, 'utf8')) }),
   };
@@ -63,7 +64,7 @@ async function page(storage) {
   await new Promise((r) => setTimeout(r, 30));
   const $ = document.getElementById, run = (code) => vm.runInContext(code, box);
   return {
-    $, run, errors,
+    $, run, errors, history: () => hist, shown: () => Object.keys(els).reduce((a, k) => ((els[k].focused || 0) > (els[a]?.focused || 0) ? k : a), ''),
     check() { $('rt-recorded').click(); $('sleep').valueAsNumber = 5; $('save').click(); },
     card(signal) { run(`renderEvidence(flagsFor(state.day).find((r) => ${signal ? `r.signal === "${signal}"` : '!r.signal'}));`); },
     open() { $('saved-open').click(); },

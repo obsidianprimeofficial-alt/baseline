@@ -43,7 +43,7 @@ Three ideas carry the whole app:
 
 You need Python 3.11 or newer to run the app. Nothing else. Install once online, then everything runs with wifi off.
 
-The tests also need Node (run here on v26.2.0). These test files use it: `test_hazards.py`, `test_marks.py`, `test_mars_caution.py`, `test_maths.py`, `test_skylab4.py`, `test_spe.py`, `test_store.py`, `test_trend.py`, `test_usual_range_line.py`, `test_web.py` and `test_wording.py`. Without Node, pytest skips those tests.
+The tests also need Node (run here on v26.2.0). These test files use it: `test_crew.py`, `test_hazards.py`, `test_marks.py`, `test_mars_caution.py`, `test_maths.py`, `test_skylab4.py`, `test_spe.py`, `test_store.py`, `test_trend.py`, `test_usual_range_line.py`, `test_web.py` and `test_wording.py`. Without Node, pytest skips those tests.
 
 Clone or download this repository, open a terminal in its folder and run the lines one at a time.
 
@@ -69,7 +69,7 @@ pytest -q
 python -m baseline.serve
 ```
 
-`pytest -q` should print **173 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
+`pytest -q` should print **193 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
 
 **On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
 
@@ -102,6 +102,8 @@ For a repeatable demo, use the **"Use recorded day-29 self-check"** button in st
 | 4 | **Evidence card** | The change in plain words, the numbers, why it matters (study finding in bold, source linked, an "Evidence strength" line), and "Guidance": one step. "Mark step done" under the step shows it as done with the time, stored on the device; pressing it again undoes it, and each follow-up row on day 30 says whether the step was marked. "Show the maths" opens a histogram of the days the rule used (28 on day 29), today's line, the usual ± 2 SD lines and the sum in words, e.g. "Today is (338.3 − 281.4) ÷ 16.3 = 3.5 spreads above your usual." |
 | 5 | **Queue for flight surgeon** | The summary, and "A reply can come up to 40 minutes later: up to 20 minutes each way at Mars distance." Display only. Nothing is sent. |
 | 6 | **Next day** | Day 30: each of yesterday's flags compared with today. "Start the demo again" returns to step 1. |
+
+**Flight surgeon view.** On a laptop, open `http://localhost:8000/#crew`, or use the "Flight surgeon view" link at the bottom of the day 29 console. Three crew on one screen, each checked against their own normal, with their flags, queued summaries and evidence cards. Static and simulated; nothing is sent. ([screenshot](web/screenshots/11-crew-1440.png))
 
 <p align="center">
   <img src="web/screenshots/0-guide-390.png" width="200" alt="First-open guide card, with the simulated crew schedule line above it: today's daily check is due now">
@@ -151,7 +153,7 @@ flowchart TD
 | **Real** | NASA OSDR search results, 10 keywords, cached 30 Sep and 10 Oct 2026 | Source of the OSD-140 study on two cards. |
 | **Real** | NASA NTRS search results, 11 keywords, cached 3 Oct and 10 Oct 2026 | Source of the NTRS reports on the cards. |
 | **Real** | Your answers in the self-check | Replace day 29's reaction time, sleep and mood. Each saved check is kept in this browser on this device (no cloud, no network) and is still there after a reload; "Download the daily log (CSV)" exports it and "Clear saved days" removes it. |
-| **Simulated** | 30 days of vitals for one crew member: heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood | Gaussian noise around fixed means, seed 7, in `data/fixtures`. The anomaly fixture lowers HRV, sleep and mood and slows reaction time on days 27–29. |
+| **Simulated** | 30 days of vitals for three crew members: heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood | Gaussian noise around fixed means, seed 7 for crew A, in `data/fixtures`. The anomaly fixture lowers HRV, sleep and mood and slows reaction time on days 27–29. Crew B and C use seeds 8 and 9, the next two after crew A's seed 7, taken in order; crew C has a planted heart-rate shift (+4 SD, days 27–29). |
 
 Not covered: blood pressure and blood sugar. The challenge statement names both, but only simulated values would be possible, so they were left out when the scope was set on 28 Oct 2026.
 
@@ -216,10 +218,10 @@ The console's "Data sources" panel shows the first five columns of this table, w
 src/baseline/compute/   rules, baselines, radiation, trend projection, wording check  (the reference logic)
 src/baseline/serve.py   local web server, --lan for phones
 web/                    the page: index.html, app.js, rules.js, trend.js, projection.js, maths.js, spe.js, screenshots, fonts, Chart.js
-data/fixtures/          simulated 30-day records (clean, anomaly)
+data/fixtures/          simulated 30-day records (clean, anomaly, crew B and C)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  173 tests
+tests/                  193 tests
 ```
 
 ---
