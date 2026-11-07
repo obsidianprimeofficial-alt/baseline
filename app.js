@@ -116,6 +116,9 @@ function show(id, push = true) {
   const alert = id === "alert"; // real NOAA data, no vitals: the chip stands in for the "Simulated data" badge (design B1)
   $("b1-chip").hidden = !alert;
   document.querySelector(".sim").hidden = $("day-label").hidden = alert;
+  // The Mars replay card shows real NASA data too: its chip stands in for the badge there (Hrishin, 7 Nov).
+  const replayChip = id === "evidence" && state.replayChip;
+  if (replayChip) { put($("b1-chip"), replayChip).hidden = false; document.querySelector(".sim").hidden = $("day-label").hidden = true; } // as on the alert
   $("day-label").textContent = `Day ${id === "crew" ? TODAY : state.day}`;
   document.body.classList.toggle("wide", id === "crew");
   window.scrollTo(0, 0);
@@ -543,6 +546,15 @@ $("b1-back").addEventListener("click", () => {
 
 const marsCaution = () => Mars.card(state.radiation.msl_rad, state.evidence.mars_radiation_caution || {});
 
+// Replay of the real 20 May 2024 Mars surge: the line under the button, then the caution card in replay mode.
+// Reads web/data/mars-surge-2024-05-20.json only; state.radiation (today's cache) is never touched.
+$("mars-replay").addEventListener("click", () => {
+  const [before, c] = Mars.replay(state.marsSurge, state.evidence.mars_radiation_caution || {});
+  clearTimeout(replay.timer);
+  monoNums(put($("mars-replay-line"), before));
+  replay.timer = setTimeout(() => { renderMarsCard(c); show("evidence"); }, 1500);
+});
+
 // Mars surface dose measured by the Radiation Assessment Detector on the Curiosity rover (MSL RAD),
 // mean of one UTC day, compared with the mean of the earlier days in the cache (same 2-SD rule as the vitals).
 function renderMarsDose(m) {
@@ -707,7 +719,23 @@ function renderEvidence(r) {
   $("ev-maths").hidden = !r.signal; // single-signal flags only; the 48-hour row has no histogram
   state.markKey = `${state.day}:${r.rule}`;
   $("ev-mark").hidden = !step || !!state.crew;
+  replayMode(null);
   renderMark();
+}
+
+// The Mars replay card (c.chip set) borrows the evidence screen: replay line on top, notes and Sources, back to the console,
+// and no queue and no mark, because it is a past event. Any other card puts the screen back.
+function replayMode(c) {
+  state.replayChip = c ? c.badge : null; // show() puts it in the header in place of "Simulated data"
+  put($("ev-replay"), c ? c.chip : "").hidden = !c;
+  $("ev-extra").replaceChildren(...(c ? [c.label, ...c.notes].map((l) => monoNums(make("p", l, "meta"))) : []));
+  $("ev-extra").hidden = !c;
+  $("ev-replay-list").replaceChildren(...(c ? c.sources.map((l) => make("p", l, "meta cite")) : []));
+  $("ev-replay-sources").open = false;
+  $("ev-replay-sources").hidden = !c;
+  put($("ev-back"), c ? c.back : "Back to list").dataset.go = c ? "console" : "flags";
+  $("queue-btn").hidden = !!c || !!state.crew;
+  if (c) $("ev-mark").hidden = true;
 }
 
 // The Mars radiation caution on the same screen. Not a crew reading, so it has no maths view and no study; words from web/mars.js.
@@ -728,8 +756,9 @@ function renderMarsCard(c) {
   put($("ev-source"), c.note);
   put($("ev-rule"), c.rule);
   $("ev-maths").hidden = true;
-  state.markKey = `${state.day}:mars_radiation_caution`;
+  state.markKey = c.chip ? null : `${state.day}:mars_radiation_caution`; // a replay stores no mark
   $("ev-mark").hidden = !!state.crew;
+  replayMode(c.chip ? c : null);
   renderMark();
 }
 
@@ -751,6 +780,7 @@ function resetMarks() {
 }
 
 $("ev-mark").addEventListener("click", () => {
+  if (!state.markKey) return; // the Mars replay card stores no mark
   if (state.marks[state.markKey]) delete state.marks[state.markKey];
   else state.marks[state.markKey] = new Date().toISOString();
   state.marksKept = Store.saveMarks(state.marks);
@@ -924,9 +954,10 @@ $("restart").addEventListener("click", () => {
 
 (async function init() {
   try {
-    const [fixture, evidence, radiation, event, skylab, crewB, crewC] = await Promise.all(
+    const [fixture, evidence, radiation, event, skylab, crewB, crewC, marsSurge] = await Promise.all(
       // no-store: a copy cached by an older server must never stand in for today's data
-      ["data/crew_a_anomaly.json", "data/evidence_map.json", "data/radiation.json", "data/spe-2024-09-09.json", "data/skylab4.json", "data/crew_b_clean.json", "data/crew_c_heart_rate.json"].map((p) => fetch(p, { cache: "no-store" }).then((r) => r.json())));
+      ["data/crew_a_anomaly.json", "data/evidence_map.json", "data/radiation.json", "data/spe-2024-09-09.json", "data/skylab4.json", "data/crew_b_clean.json", "data/crew_c_heart_rate.json", "data/mars-surge-2024-05-20.json"].map((p) => fetch(p, { cache: "no-store" }).then((r) => r.json())));
+    state.marsSurge = marsSurge;
     state.fixture = fixture.rows;
     state.evidence = evidence;
     state.radiation = radiation;
