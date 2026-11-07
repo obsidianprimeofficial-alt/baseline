@@ -1,0 +1,230 @@
+{
+  "event": "Mars surface radiation surge, 20 May 2024",
+  "column": "dose_e_total",
+  "before": {
+    "date": "2024-05-19",
+    "dose_ugy_day": 131.3,
+    "baseline_mean": 162.1
+  },
+  "date": "2024-05-20",
+  "dose_ugy_day": 1881.0,
+  "n_obs": 139,
+  "baseline_mean": 161.0,
+  "baseline_sd": 10.41,
+  "z": 165.17,
+  "threshold_z": 2.0,
+  "window_days": 30,
+  "fired": true,
+  "peak": {
+    "time_tag": "2024-05-20T06:15:19Z",
+    "ugy_day": 8377.9
+  },
+  "daily": [
+    {
+      "date": "2024-04-20",
+      "dose_ugy_day": 170.0,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-04-21",
+      "dose_ugy_day": 170.0,
+      "n_obs": 82
+    },
+    {
+      "date": "2024-04-22",
+      "dose_ugy_day": 169.9,
+      "n_obs": 71
+    },
+    {
+      "date": "2024-04-23",
+      "dose_ugy_day": 169.8,
+      "n_obs": 86
+    },
+    {
+      "date": "2024-04-24",
+      "dose_ugy_day": 160.7,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-04-25",
+      "dose_ugy_day": 164.4,
+      "n_obs": 86
+    },
+    {
+      "date": "2024-04-26",
+      "dose_ugy_day": 163.5,
+      "n_obs": 84
+    },
+    {
+      "date": "2024-04-27",
+      "dose_ugy_day": 163.2,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-04-28",
+      "dose_ugy_day": 164.9,
+      "n_obs": 81
+    },
+    {
+      "date": "2024-04-29",
+      "dose_ugy_day": 165.0,
+      "n_obs": 82
+    },
+    {
+      "date": "2024-04-30",
+      "dose_ugy_day": 165.1,
+      "n_obs": 84
+    },
+    {
+      "date": "2024-05-01",
+      "dose_ugy_day": 165.8,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-05-02",
+      "dose_ugy_day": 166.6,
+      "n_obs": 81
+    },
+    {
+      "date": "2024-05-03",
+      "dose_ugy_day": 165.7,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-05-04",
+      "dose_ugy_day": 165.3,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-05-05",
+      "dose_ugy_day": 163.4,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-05-06",
+      "dose_ugy_day": 160.8,
+      "n_obs": 82
+    },
+    {
+      "date": "2024-05-07",
+      "dose_ugy_day": 161.9,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-05-08",
+      "dose_ugy_day": 165.0,
+      "n_obs": 82
+    },
+    {
+      "date": "2024-05-09",
+      "dose_ugy_day": 165.7,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-05-10",
+      "dose_ugy_day": 165.1,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-05-11",
+      "dose_ugy_day": 165.1,
+      "n_obs": 82
+    },
+    {
+      "date": "2024-05-12",
+      "dose_ugy_day": 166.0,
+      "n_obs": 82
+    },
+    {
+      "date": "2024-05-13",
+      "dose_ugy_day": 165.5,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-05-14",
+      "dose_ugy_day": 160.5,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-05-15",
+      "dose_ugy_day": 151.3,
+      "n_obs": 81
+    },
+    {
+      "date": "2024-05-16",
+      "dose_ugy_day": 149.6,
+      "n_obs": 84
+    },
+    {
+      "date": "2024-05-17",
+      "dose_ugy_day": 140.5,
+      "n_obs": 82
+    },
+    {
+      "date": "2024-05-18",
+      "dose_ugy_day": 129.2,
+      "n_obs": 84
+    },
+    {
+      "date": "2024-05-19",
+      "dose_ugy_day": 131.3,
+      "n_obs": 82
+    },
+    {
+      "date": "2024-05-20",
+      "dose_ugy_day": 1881.0,
+      "n_obs": 139
+    },
+    {
+      "date": "2024-05-21",
+      "dose_ugy_day": 355.1,
+      "n_obs": 108
+    },
+    {
+      "date": "2024-05-22",
+      "dose_ugy_day": 174.5,
+      "n_obs": 82
+    },
+    {
+      "date": "2024-05-23",
+      "dose_ugy_day": 156.4,
+      "n_obs": 83
+    },
+    {
+      "date": "2024-05-24",
+      "dose_ugy_day": 154.9,
+      "n_obs": 82
+    },
+    {
+      "date": "2024-05-25",
+      "dose_ugy_day": 154.2,
+      "n_obs": 83
+    }
+  ],
+  "note": "Daily values are means of unflagged readings, not weighted by time. The replay stops at 20 May.",
+  "doi": "10.48322/20qb-4e17",
+  "rdr_version": "04",
+  "sources": [
+    {
+      "name": "NASA SPDF CDAWeb, MSL_RAD_OBS-L2",
+      "url": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/20240420T000000Z,20240526T000000Z/DOSIMETRY_TOTAL_f?format=json",
+      "doi": "10.48322/20qb-4e17"
+    },
+    {
+      "name": "NASA, NASA Watches Mars Light Up During Epic Solar Storm",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-watches-mars-light-up-during-epic-solar-storm/",
+      "line": "If astronauts had been standing next to NASA's Curiosity Mars rover at the time, they would have received a radiation dose of 8,100 micrograys — equivalent to 30 chest X-rays. | While not deadly, it was the biggest surge measured by Curiosity's Radiation Assessment Detector, or RAD, since the rover landed 12 years ago."
+    },
+    {
+      "name": "MSL RAD team slides, A Solar Cycle of Radiation Measurements on the Surface of Mars, p.17",
+      "url": "https://wrmiss.org/workshops/twentyseventh/Hassler.pdf",
+      "line": "Dose Rate: 8,100 µGy (peak), ~1,900 µGy (ave); row unit µGy/day"
+    },
+    {
+      "name": "Posner, Richardson and Zeitlin, Solar Physics 300, 102 (2025)",
+      "url": "https://doi.org/10.1007/s11207-025-02482-4",
+      "line": "The peak dose rate of this event on the Martian surface, 352 μGy/hr, while not negligible, is about two orders of magnitude below threshold levels of acute radiation effects."
+    }
+  ],
+  "fetched_at": "2026-11-07T07:51:36+00:00"
+}

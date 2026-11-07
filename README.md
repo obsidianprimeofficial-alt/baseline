@@ -43,7 +43,7 @@ Three ideas carry the whole app:
 
 You need Python 3.11 or newer to run the app. Nothing else. Install once online, then everything runs with wifi off.
 
-The tests also need Node (run here on v26.2.0). These test files use it: `test_crew.py`, `test_hazards.py`, `test_marks.py`, `test_mars_caution.py`, `test_maths.py`, `test_skylab4.py`, `test_spe.py`, `test_store.py`, `test_trend.py`, `test_usual_range_line.py`, `test_web.py` and `test_wording.py`. Without Node, pytest skips those tests.
+The tests also need Node (run here on v26.2.0). These test files use it: `test_crew.py`, `test_hazards.py`, `test_marks.py`, `test_mars_caution.py`, `test_mars_replay.py`, `test_maths.py`, `test_skylab4.py`, `test_spe.py`, `test_store.py`, `test_trend.py`, `test_usual_range_line.py`, `test_web.py` and `test_wording.py`. Without Node, pytest skips those tests.
 
 Clone or download this repository, open a terminal in its folder and run the lines one at a time.
 
@@ -69,7 +69,7 @@ pytest -q
 python -m baseline.serve
 ```
 
-`pytest -q` should print **193 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
+`pytest -q` should print **203 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
 
 **On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
 
@@ -149,6 +149,7 @@ flowchart TD
 | **Real** | NOAA GOES solar-proton flux, 7 days, cached 30 Sep 2026 | Shown on the console in its own box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. At or above S1 the page opens a full-screen alert, "Shelter now", with the step "Go to the storm shelter." directly under the title, then the reading and when it was cached; a "Sources" control, closed at first, holds the sources (NASA OCHMO-TB-020 Rev E; NASA-STD-3001 Vol 2 Rev C [V2 6100]; NOAA SWPC) and an "Evidence strength" line. The 30 Sep reading is below S1, so no alert opens. |
 | **Real** | NOAA's listed values for the solar proton event of 9 Sep 2024 (start 16:40 UTC, maximum 34 pfu at 22:50 UTC, S1), from the SWPC event list and the NCEI proton event list, also reported by the Australian Bureau of Meteorology; cached 30 Oct 2026 in `cache/noaa/spe-2024-09-09.json` | "Replay a real solar storm: 9 September 2024" on the console plays the three points and opens the alert at the S1 crossing, labelled as a replay, not today's data. No curve. |
 | **Real** | NASA MSL RAD Mars surface radiation, 30 days to 20 Oct 2026, cached 22 Oct 2026 | Shown in the same box as the latest day in µGy per day. A rule with tests compares that day with the earlier days, and the box says whether it is within or above their usual range (mean ± 2 SD). When the rule fires, a "Caution" flag row opens a card with a step. Our own 2-SD rule, not NASA's numeric threshold, which is not published. |
+| **Real** | NASA MSL RAD readings around the Mars surface radiation surge of 20 May 2024: 20 April to 25 May 2024, 3,138 readings, cached 7 Nov 2026 in `cache/msl_rad/rad-2024-04-20-to-05-25.json`; `scripts/build_mars_surge.py` runs the same rule, unchanged, on the record up to each day and writes `cache/msl_rad/mars-surge-2024-05-20.json` | "Replay a real Mars radiation surge: 20 May 2024" on the console opens the Caution card for that day, labelled as a replay, with no queue button and no "Mark step done"; the header shows "Replay – real NASA data" in place of "Simulated data". The rule fires on 20 May only: 1,881.0 µGy per day (the average of 139 readings), usual 161.0, z +165.2. The MSL RAD team's slides list the event as about 8,100 µGy per day at the peak and about 1,900 on average; NASA's article (June 2024) gives 8,100 micrograys, which the slides list as the peak. The slides subtract the contribution of the rover's own power source (RTG) from all their values; the app uses the uncorrected detector total, so the app's 1,881.0 is close to the slides' ~1,900 but the two are measured slightly differently. The replay stops at 20 May: on 21 May the level was still 355.1 µGy per day, about twice the days before the surge, but it does not flag, because the usual range now includes 20 May (spread 314.25 µGy per day instead of 10.41). |
 | **Real** | NASA's sentences and figures on the five hazards of human spaceflight (Human Research Program pages, NASA-STD-3001 Vol 2 Rev C, three NASA evidence reports) | In the closed "Mission-phase risks" panel on the day 29 console, each with its source. The day 29 lines ("usually past", "ongoing") are our reading of NASA's timings. |
 | **Real** | NASA OSDR search results, 10 keywords, cached 30 Sep and 10 Oct 2026 | Source of the OSD-140 study on two cards. |
 | **Real** | NASA NTRS search results, 11 keywords, cached 3 Oct and 10 Oct 2026 | Source of the NTRS reports on the cards. |
@@ -207,6 +208,7 @@ The console's "Data sources" panel shows the first five columns of this table, w
 | NASA-STD-3001 Vol 2 Rev C | NASA | Source [V2 6100] for alerting the crew in the solar storm alert | Real | [NASA-STD-3001 Vol 2 Rev C (PDF)](https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf) | Cited on the solar storm alert |
 | NASA OCHMO-TB-020 Rev E | NASA | Source for the step "Go to the storm shelter." | Real | [OCHMO-TB-020 (PDF)](https://www.nasa.gov/wp-content/uploads/2023/03/radiation-protection-technical-brief-ochmo.pdf) | Cited on the solar storm alert |
 | Solar proton event list, 9 Sep 2024 | NOAA (Australian Bureau of Meteorology as second report) | Solar storm replay | Real | [NCEI proton events](https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html), SWPC event list SPE.txt (line 383), [BoM alert](https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html) | Listed values cached; replay on the console |
+| Mars radiation surge, 20 May 2024 | NASA (SPDF CDAWeb; MSL RAD team; Solar Physics paper) | Mars surge replay | Real | [CDAWeb MSL_RAD_OBS-L2](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2), [NASA article](https://www.nasa.gov/solar-system/planets/mars/nasa-watches-mars-light-up-during-epic-solar-storm/), [MSL RAD team slides p.17](https://wrmiss.org/workshops/twentyseventh/Hassler.pdf), [DOI 10.1007/s11207-025-02482-4](https://doi.org/10.1007/s11207-025-02482-4) | Cached 36 days; replay on the console |
 | Skylab 4 crew sleep estimates (Experiment M133 final report) | NASA | Real crew record: each crewman's own morning estimate of total sleep, 84 nights, through the sleep rule | Real (crew log estimate) | [NASA CR-141886, NTRS 19750019675](https://ntrs.nasa.gov/citations/19750019675), Tables VIII–X | transcribed in `cache/skylab4`; on the console, roles only |
 | Vitals telemetry | ours, simulated | Daily heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood | Simulated | `data/fixtures` | Built; clean and anomaly fixtures |
 
@@ -221,7 +223,7 @@ web/                    the page: index.html, app.js, rules.js, trend.js, projec
 data/fixtures/          simulated 30-day records (clean, anomaly, crew B and C)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  193 tests
+tests/                  203 tests
 ```
 
 ---

@@ -226,7 +226,9 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 #b1-step { font-size: 24px; line-height: 1.3; font-weight: 700; }
 .alert-card .cite { margin-bottom: 6px; }
 .alert-sources summary { min-height: 44px; padding: 6px 0; line-height: 32px; font-weight: 700; cursor: pointer; } /* list-item keeps the open/closed marker */
-#replay-line:empty { display: none; }
+#replay-line:empty, #mars-replay-line:empty { display: none; }
+#mars-replay { margin-top: 12px; }
+#ev-extra p { margin: 8px 0 0; }
 /* Show the maths (design B2). */
 .maths-link { font-size: 16px; color: var(--ink); }
 .maths-plot { position: relative; height: 240px; margin: 12px 0 8px; padding: 0 8px; border: 1px solid var(--card-border); border-radius: 12px; background: var(--card); }
@@ -450,6 +452,8 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
     <p id="rad-source" class="meta"></p>
     <button id="replay" class="secondary" type="button">Replay a real solar storm: 9 September 2024</button>
     <p id="replay-line" class="meta num" aria-live="polite"></p>
+    <button id="mars-replay" class="secondary" type="button">Replay a real Mars radiation surge: 20 May 2024</button>
+    <p id="mars-replay-line" class="meta num" aria-live="polite"></p>
   </div>
   <details id="skylab" class="sources skylab">
     <summary>Real crew record: Skylab 4</summary>
@@ -533,6 +537,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
       <li><strong>NASA-STD-3001 Vol 2 Rev C</strong> · NASA · Source [V2 6100] for alerting the crew in the solar storm alert · Real · <a href="https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf" target="_blank" rel="noopener noreferrer">NASA-STD-3001 Vol 2 Rev C (PDF)</a></li>
       <li><strong>NASA OCHMO-TB-020 Rev E</strong> · NASA · Source for the step "Go to the storm shelter." · Real · <a href="https://www.nasa.gov/wp-content/uploads/2023/03/radiation-protection-technical-brief-ochmo.pdf" target="_blank" rel="noopener noreferrer">OCHMO-TB-020 (PDF)</a></li>
       <li><strong>Solar proton event list, 9 Sep 2024</strong> · NOAA (Australian Bureau of Meteorology as second report) · Solar storm replay · Real · <a href="https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html" target="_blank" rel="noopener noreferrer">NCEI proton events</a>, SWPC event list SPE.txt (line 383), <a href="https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html" target="_blank" rel="noopener noreferrer">BoM alert</a></li>
+      <li><strong>Mars radiation surge, 20 May 2024</strong> · NASA (SPDF CDAWeb; MSL RAD team; Solar Physics paper) · Mars surge replay · Real · <a href="https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2" target="_blank" rel="noopener noreferrer">CDAWeb MSL_RAD_OBS-L2</a>, <a href="https://www.nasa.gov/solar-system/planets/mars/nasa-watches-mars-light-up-during-epic-solar-storm/" target="_blank" rel="noopener noreferrer">NASA article</a>, <a href="https://wrmiss.org/workshops/twentyseventh/Hassler.pdf" target="_blank" rel="noopener noreferrer">MSL RAD team slides p.17</a>, <a href="https://doi.org/10.1007/s11207-025-02482-4" target="_blank" rel="noopener noreferrer">DOI 10.1007/s11207-025-02482-4</a></li>
       <li><strong>Skylab 4 crew sleep estimates (Experiment M133 final report)</strong> · NASA · Real crew record: each crewman's own morning estimate of total sleep, 84 nights, through the sleep rule · Real (crew log estimate) · <a href="https://ntrs.nasa.gov/citations/19750019675" target="_blank" rel="noopener noreferrer">NASA CR-141886, NTRS 19750019675</a>, Tables VIII–X</li>
       <li><strong>Vitals telemetry</strong> · ours, simulated · Daily heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood · Simulated · data/fixtures</li>
     </ul>
@@ -566,17 +571,20 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 
 <section id="evidence" aria-labelledby="ev-title" hidden>
   <p id="ev-who" class="days-line" hidden></p>
+  <p id="ev-replay" class="days-line" hidden></p>
   <h1 id="ev-title" tabindex="-1"></h1>
   <p id="ev-plain"></p>
   <p id="ev-note" hidden></p>
   <h2>The numbers</h2>
   <dl id="ev-numbers" class="readout"></dl>
   <p id="ev-rounding" class="meta">Numbers are shown to one decimal; z uses the unrounded values.</p>
+  <div id="ev-extra" hidden></div>
   <button id="ev-maths" class="text-button maths-link" type="button">Show the maths</button>
   <h2>Why it matters</h2>
   <p id="ev-words"></p>
   <p id="ev-study" class="cite"></p>
   <p id="ev-strength" class="cite"></p>
+  <details id="ev-replay-sources" class="alert-sources" hidden><summary>Sources</summary><div id="ev-replay-list"></div></details>
   <div class="step-card">
     <h2>Guidance</h2>
     <p id="ev-step"></p>
@@ -589,7 +597,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <p id="ev-rule" class="meta"></p>
   <div class="bar">
     <div class="bar-inner">
-      <button class="secondary" type="button" data-go="flags">Back to list</button>
+      <button id="ev-back" class="secondary" type="button" data-go="flags">Back to list</button>
       <button id="queue-btn" class="primary" type="button">Queue for flight surgeon</button>
     </div>
   </div>
@@ -658,10 +666,10 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <script src="skylab4.js?v=68142f1765"></script>
 <script src="projection.js?v=1eb08e8dd9"></script>
 <script src="maths.js?v=a15139ff07"></script>
-<script src="mars.js?v=84cf1ccb81"></script>
+<script src="mars.js?v=d3caeb403e"></script>
 <script src="spe.js?v=8dc481d0f5"></script>
 <script src="reaction.js?v=0c373ca889"></script>
 <script src="store.js?v=cb99d76b39"></script>
-<script src="app.js?v=a961f9c334"></script>
+<script src="app.js?v=33904779bc"></script>
 </body>
 </html>
