@@ -426,19 +426,6 @@ function trendChart(canvas, signal, full, { bottom, tick, learning, words = () =
   });
 }
 
-// Light/Dark switch in the header (web/theme.js picks the first theme). Charts read the colours when drawn.
-function themeLabel() {
-  $("theme-btn").setAttribute("aria-label", Theme.current() === "dark" ? "Switch to light theme" : "Switch to dark theme");
-}
-themeLabel();
-$("theme-btn").addEventListener("click", () => {
-  Theme.set(Theme.current() === "dark" ? "light" : "dark");
-  themeLabel();
-  if (Object.keys(state.charts).length) CHANNELS.forEach(drawChannel);
-  if ($("skylab").open) drawSkylab();
-  if (!$("maths").hidden) drawMaths(state.current);
-});
-
 // 7 days · 30 days switch (design P7b). Not saved on the device; "Start the demo again" sets it back to 30 days.
 function setRange(days) {
   state.range = days;
