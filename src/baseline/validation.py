@@ -189,8 +189,9 @@ def render_markdown(results: dict) -> str:
         "## How",
         "",
         f"Simulated Gaussian telemetry only. Each fixture is 30 days of synthetic readings around "
-        f"fixed per-person means (`src/baseline/fixtures.py`), with no real crew time series "
-        f"anywhere. For detection, a clean fixture is taken and one signal is shifted by a set "
+        f"fixed per-person means (`src/baseline/fixtures.py`). The harness uses no real crew time "
+        f"series; the Skylab 4 record on the console is not part of this run. For detection, a "
+        f"clean fixture is taken and one signal is shifted by a set "
         f"number of standard deviations for three days starting on a seed-chosen day (15..28), in "
         f"the direction the rule watches. For the pair case, two signals are shifted on the same "
         f"days. Seeds are fixed, so the numbers repeat exactly. This run used n={n} fixtures per "
@@ -267,7 +268,8 @@ def render_markdown(results: dict) -> str:
         "",
         "## Limits",
         "",
-        "- Simulated data only. No real crew time series is used anywhere.",
+        "- Simulated data only. The harness uses no real crew time series; the Skylab 4 record "
+        "on the console is not part of this run.",
         "- Noise is plain Gaussian around fixed means; real readings drift, correlate and skew.",
         "- Planted shifts are clean step changes; real changes are messier.",
         "- These numbers describe how the rules respond to simulated input. They are not a "
