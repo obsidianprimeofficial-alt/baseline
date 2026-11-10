@@ -407,9 +407,19 @@ def test_one_how_to_measure_line_under_each_self_check_part():
     assert '<label for="vision-clear">Clear</label>' in today and '<label for="vision-blurred">Blurred</label>' in today
 
 
-QUEUE_LINE = "Sent to the queue. A reply can come up to 40 minutes later: up to 20 minutes each way at Mars distance."
+QUEUE_LINE = "Added to the on-device queue. A reply can come up to 40 minutes later: up to 20 minutes each way at Mars distance."
 QUEUE_SOURCE = "NASA Human Research Program, Hazard: Distance From Earth"
 QUEUE_URL = "https://www.nasa.gov/hrp/hazard-distance-from-earth/"
+
+
+def test_queue_says_on_device_and_agrees_with_the_demo_only_line():
+    """Audit 11 Nov A5: nothing is sent, so the queue line must not say "Sent"; it says the queue is on the device,
+    and the "Demo only: nothing leaves this device." line stays under the summary."""
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    queue = html[html.index('<section id="queue"'):html.index('<section id="alert"')]
+    assert '<p class="sent">Added to the on-device queue. ' in queue
+    assert "Sent to the queue" not in html + Path("web/app.js").read_text(encoding="utf-8")
+    assert queue.index("on-device queue") < queue.index('<p class="meta">Demo only: nothing leaves this device.</p>')
 
 
 def test_queue_line_gives_the_mars_delay_from_nasa():

@@ -871,7 +871,10 @@ function renderCrew() {
     Object.assign(state, data);
     const list = flagsFor(TODAY), top = list[0], li = document.createElement("li"), name = document.createElement("div"), text = document.createElement("div");
     li.className = `crew-row ${top ? `flagged ${top.status}` : ""}`;
-    name.append(make("strong", `Crew member ${who}`), make("span", `${list.length} ${list.length === 1 ? "flag" : "flags"}`, "crew-count"));
+    // Count as the phone's console does (renderConsole): single readings only, not the 48-hour row; a reading still
+    // being watched is shown apart, not counted as a flag.
+    const flagged = list.filter((r) => r.signal && r.status === "confirmed").length, watching = list.filter((r) => r.signal && r.status === "watch").length;
+    name.append(make("strong", `Crew member ${who}`), make("span", `${flagged} ${flagged === 1 ? "flag" : "flags"}${watching ? ` · ${watching} watching` : ""}`, "crew-count"));
     text.className = "crew-flag";
     if (top) text.append(make("span", title(top), "flag-name"), monoNums(make("span", flagLine(top), "flag-line")), make("span", plainStatus(top), "flag-status"));
     text.append(make("span", top ? "Awaiting flight surgeon" : "No flags today", "flag-status"));

@@ -65,12 +65,21 @@ def test_rows_use_the_phones_flag_wording_and_labels_only():
     out = run(f"const p = await page(mem()); {READ_ROWS} return {{ rows, errors: p.errors }};")
     assert out["errors"] == []
     assert out["rows"] == [
-        {"who": "Crew member A", "count": "4 flags", "cls": "crew-row flagged confirmed", "button": "Open evidence", "lines": [
+        {"who": "Crew member A", "count": "3 flags", "cls": "crew-row flagged confirmed", "button": "Open evidence", "lines": [
             "Reaction time", "338 ms today. Your usual: 281 ms.", "Well outside your usual range, third day running.", "Awaiting flight surgeon"]},
         {"who": "Crew member B", "count": "0 flags", "cls": "crew-row ", "button": None, "lines": ["No flags today"]},
-        {"who": "Crew member C", "count": "2 flags", "cls": "crew-row flagged confirmed", "button": "Open evidence", "lines": [
+        {"who": "Crew member C", "count": "1 flag · 1 watching", "cls": "crew-row flagged confirmed", "button": "Open evidence", "lines": [
             "Heart rate", "75 beats a minute today. Your usual: 62 beats a minute.", "Well outside your usual range, third day running.", "Awaiting flight surgeon"]},
     ]
+
+
+def test_crew_counts_are_the_phones_count_and_a_watching_reading_is_not_a_flag():
+    """Audit 11 Nov A6: a crew row counts single readings as the phone's console does (not the 48-hour row);
+    a reading still being watched is shown apart, never counted as a flag."""
+    out = run(f"const p = await page(mem()); {DEMO} {READ_ROWS} return {{ rows, phone: p.$('console-summary').textContent }};")
+    counts = {r["who"]: r["count"] for r in out["rows"]}
+    assert out["phone"] == "3 readings are outside your usual range today."
+    assert counts == {"Crew member A": "3 flags", "Crew member B": "0 flags", "Crew member C": "1 flag · 1 watching"}
 
 
 def test_rail_holds_only_the_flagged_crew_and_every_line_passes_the_wording_check():

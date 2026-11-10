@@ -76,7 +76,7 @@ Parts of the first draft that were defaults, and what changed:
 
 ## Self-critique notes
 
-Screenshots in `web/screenshots/` (390 x 844 and 1280 x 800), taken with an automated test browser against `python -m http.server -d web 8000`. Retaken on 10 Oct 2026 against `python -m baseline.serve`: all screens at 390 x 844 with touch emulation, plus the four 1280 x 800 shots without it; state: recorded day-29 reaction, 5 hours of sleep with a note, sleep quality 2, mood 4, near vision clear.
+Screenshots in `web/screenshots/` (390 x 844, 1280 x 800, one at 1280 x 788 and one at 1440 x 900), dark only. First taken with the Playwright MCP server against `python -m http.server -d web 8000`; retaken as screens changed from 10 Oct to 7 Nov 2026; all 26 retaken on 11 Nov 2026 with a Playwright script and the installed Chrome against `python -m baseline.serve`: phone screens at 390 x 844 with touch emulation, the wider shots without it; state: recorded day-29 reaction, 5 hours of sleep with a note, sleep quality 2, mood 4, near vision clear.
 
 First pass:
 
