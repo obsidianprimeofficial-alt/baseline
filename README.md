@@ -5,11 +5,11 @@
 **Baseline is a phone app that tells an astronaut whether today is normal *for them*.** It compares each day's readings with that person's own 30-day range. When something drifts, it shows the numbers, the NASA study behind the change, and one step to consider. It never diagnoses.
 
 <p align="center">
-  <img src="web/screenshots/2-console-390.png" width="260" alt="Console titled Health status: the last 29 days of heart rate, heart rate variability and blood oxygen, the first three of seven charts. The grey band is the usual range. Heart rate variability is flagged in orange on days 27 to 29.">
+  <img src="web/screenshots/2-console-390-dark.png" width="260" alt="Console titled Health status: the last 29 days of heart rate, heart rate variability and blood oxygen, the first three of seven charts. The grey band is the usual range. Heart rate variability is flagged in orange on days 27 to 29.">
   &nbsp;
-  <img src="web/screenshots/3-flags-390.png" width="260" alt="What changed today: reaction time and heart rate variability are outside the usual range, each with a three-day trend card under its flag.">
+  <img src="web/screenshots/3-flags-390-dark.png" width="260" alt="What changed today: reaction time and heart rate variability are outside the usual range, each with a three-day trend card under its flag.">
   &nbsp;
-  <img src="web/screenshots/4-evidence-390.png" width="260" alt="Evidence card for reaction time: the change in plain words, the numbers with a line on how the usual range is computed, the start of why it matters, and the Back to list and Queue for flight surgeon buttons.">
+  <img src="web/screenshots/4-evidence-390-dark.png" width="260" alt="Evidence card for reaction time: the change in plain words, the numbers with a line on how the usual range is computed, the start of why it matters, and the Back to list and Queue for flight surgeon buttons.">
 </p>
 
 > **Every vital sign on the console is simulated.** The demo page says "Simulated data" on every screen. The one real crew record is the Skylab 4 sleep estimates from a NASA report (`cache/skylab4`): crew log estimates, by role only, labelled as real on their own panel. The real feeds are NASA MSL RAD (Mars surface radiation, CDAWeb dataset MSL_RAD_OBS-L2) and NOAA GOES solar protons, shown together in their own box, "Real data: NASA MSL RAD and NOAA GOES".
@@ -69,7 +69,7 @@ pytest -q
 python -m baseline.serve
 ```
 
-`pytest -q` should print **203 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
+`pytest -q` should print **202 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
 
 **On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
 
@@ -83,7 +83,7 @@ python -m baseline.serve
 - The page loads files only from `web/` (fonts, Chart.js, rules, fixture, radiation summary). A Content-Security-Policy blocks every other host.
 - The server sends `Cache-Control: no-store`, so a reload always gets the latest files.
 - "Start the demo again" resets in memory without reloading, so a phone that has loaded the page once can run it again with no network.
-- The round button in the header switches between a light and a dark theme, and the device remembers the choice. With no saved choice the page is dark from 22:00 to 06:00 on the device clock and light otherwise. That window is a simulated crew schedule (`web/theme.js`), not a NASA figure. Screenshots ending in `-dark` show the dark theme.
+- The page has one theme, dark, on every screen; there is no theme switch. Screenshots end in `-dark`.
 - If `pip install` fails, check that `python --version` shows 3.11 or later.
 
 </details>
@@ -103,13 +103,13 @@ For a repeatable demo, use the **"Use recorded day-29 self-check"** button in st
 | 5 | **Queue for flight surgeon** | The summary, and "A reply can come up to 40 minutes later: up to 20 minutes each way at Mars distance." Display only. Nothing is sent. |
 | 6 | **Next day** | Day 30: each of yesterday's flags compared with today. "Start the demo again" returns to step 1. |
 
-**Flight surgeon view.** On a laptop, open `http://localhost:8000/#crew`, or use the "Flight surgeon view" link at the bottom of the day 29 console. Three crew on one screen, each checked against their own normal, with their flags, queued summaries and evidence cards. Static and simulated; nothing is sent. ([screenshot](web/screenshots/11-crew-1440.png))
+**Flight surgeon view.** On a laptop, open `http://localhost:8000/#crew`, or use the "Flight surgeon view" link at the bottom of the day 29 console. Three crew on one screen, each checked against their own normal, with their flags, queued summaries and evidence cards. Static and simulated; nothing is sent. ([screenshot](web/screenshots/11-crew-1440-dark.png))
 
 <p align="center">
-  <img src="web/screenshots/0-guide-390.png" width="200" alt="First-open guide card, with the simulated crew schedule line above it: today's daily check is due now">
-  <img src="web/screenshots/1-today-390.png" width="200" alt="Self-check screen">
-  <img src="web/screenshots/5-queue-390.png" width="200" alt="Needs flight surgeon attention: the summary in the queue">
-  <img src="web/screenshots/6-next-day-390.png" width="200" alt="Day 30 console: one reading is outside the usual range today; heart rate variability is back inside its usual range">
+  <img src="web/screenshots/0-guide-390-dark.png" width="200" alt="First-open guide card, with the simulated crew schedule line above it: today's daily check is due now">
+  <img src="web/screenshots/1-today-390-dark.png" width="200" alt="Self-check screen">
+  <img src="web/screenshots/5-queue-390-dark.png" width="200" alt="Needs flight surgeon attention: the summary in the queue">
+  <img src="web/screenshots/6-next-day-390-dark.png" width="200" alt="Day 30 console: one reading is outside the usual range today; heart rate variability is back inside its usual range">
 </p>
 
 Wifi stays off for the whole demo.
@@ -223,7 +223,7 @@ web/                    the page: index.html, app.js, rules.js, trend.js, projec
 data/fixtures/          simulated 30-day records (clean, anomaly, crew B and C)
 cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
 docs/                   evidence map, evidence notes, design notes
-tests/                  203 tests
+tests/                  202 tests
 ```
 
 ---

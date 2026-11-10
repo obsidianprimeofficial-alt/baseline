@@ -1,6 +1,6 @@
-/* Design tokens: the two palettes and two fonts from the final canvas (docs/DESIGN_BRIEF.md "Global rules").
-   web/theme.js sets data-theme on <html>; plain :root is the light palette in case that script never runs.
-   Every variable index.html or app.js uses must be defined in both themes (tests/test_web.py checks). */
+/* Design tokens: the dark palette and two fonts from the final canvas (docs/DESIGN_BRIEF.md "Global rules").
+   Dark only (Hrishin, 11 Nov 2026): one palette on plain :root, no light palette, nothing switches it.
+   Every variable index.html or app.js uses must be defined here (tests/test_web.py checks). */
 @font-face {
   font-family: "Source Sans 3";
   src: url("fonts/source-sans-3-latin-wght-normal.woff2?v=fe93b8f82d") format("woff2");
@@ -20,34 +20,8 @@
   font-display: swap;
 }
 
-/* Light – day mode (the original app palette). */
-:root, :root[data-theme="light"] {
-  color-scheme: light;
-  --sans: "Source Sans 3", system-ui, sans-serif;
-  --mono: "JetBrains Mono", ui-monospace, monospace;
-  --scrub: #E6ECE8;        /* ground */
-  --ink: #16221E;          /* text, primary button */
-  --quiet: #52625B;
-  --rule: #AEBDB5;
-  --band: #C5D3CA;         /* usual-range band */
-  --flag: #D4470C;
-  --sim: #FFF1A8;          /* simulated-data badge */
-  --sim-ink: #16221E;
-  --sim-border: #16221E;
-  --error: #FCE1DE;        /* alert card */
-  --real: #FFFFFF;         /* real-data box */
-  --real-border: #52625B;
-  --real-head: #16221E;
-  --card: transparent;
-  --card-border: #AEBDB5;
-  --strong: #52625B;       /* control borders */
-  --glow: none;
-  --rt-go: transparent;    /* reaction field while the circle shows */
-  --rt-dot: #16221E;
-}
-
 /* Dark – mission console. */
-:root[data-theme="dark"] {
+:root {
   color-scheme: dark;
   --sans: "Source Sans 3", system-ui, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, monospace;

@@ -4,17 +4,21 @@ Subject: one astronaut, tired, on a phone, months from Earth, doing the morning 
 
 ## Palette
 
+Dark only (Hrishin, 11 Nov 2026): one palette, the dark mission console from the final canvas, in `web/tokens.css`. The light palette (scrub `#E6ECE8`, band `#C5D3CA`, ink `#16221E`, flag `#D4470C`, sim `#FFF1A8`, paper `#FFFFFF`) and the theme switch were removed; the review notes below keep their old colours as history.
+
 | Name | Hex | Use |
 |---|---|---|
-| Scrub | `#E6ECE8` | Page ground. Surgical green-grey: operating rooms use it to cut glare and afterimage, which suits tired eyes. |
-| Band | `#C5D3CA` | The personal baseline band. A darker step of the ground, so "your usual" reads as ground, not as a figure. |
-| Ink | `#16221E` | Text, the trace, primary buttons, focus ring. Green-black from the same hue family. |
-| Quiet ink | `#52625B` | Secondary text and axis labels (5:1 on Scrub). |
-| Rule | `#AEBDB5` | Axis lines and the outline of the reaction test field. Nothing else. |
-| Flag | `#D4470C` | International orange, the aerospace colour for "look here". Used only where a rule fired. |
-| Simulated | `#FFF1A8` | Light yellow behind the "Simulated data" label, so it reads in a screen recording. Nothing else. |
-| Error | `#FCE1DE` | Light red behind the script-error line at the top of the page. Shown only when a script fails. |
-| Paper | `#FFFFFF` | Ground of the "Real data: NASA MSL RAD and NOAA GOES" box only, so real data never sits on the simulated ground. |
+| Ground | `#0B1220` | Page ground. |
+| Card | `#121B2E` | Cards, with a `#26334D` border. |
+| Band | `#9AA8BE` at low opacity | The personal baseline band, so "your usual" reads as ground, not as a figure. |
+| Ink | `#E6EDF7` | Text, the trace, primary buttons, focus ring. |
+| Quiet ink | `#9AA8BE` | Secondary text and axis labels. |
+| Rule | `#26334D` | Axis lines and the outline of the reaction test field. |
+| Strong border | `#4A5A75` | Control borders. |
+| Flag | `#FF8A3D` | Orange, "look here", with a soft orange glow on flagged items. Used only where a rule fired. |
+| Simulated | `#FFE066` | Yellow behind the "Simulated data" label, with ground-coloured text, so it reads in a screen recording. Nothing else. |
+| Error | `#1A1410` | Ground of the alert card and the script-error line. |
+| Real data | `#0E1A2C` | Ground of the "Real data: NASA MSL RAD and NOAA GOES" box only, with a cyan `#4FD1E8` border and heading, so real data never sits on the simulated ground. |
 
 ## Type
 
@@ -29,7 +33,7 @@ Scale (from the classical sequence): 12 axis ticks, 14 meta, 18 body, 24 screen 
 Single column, left aligned, 16 px gutters, designed at 390 px, max width 480 px centred on desktop. One screen at a time. A sticky top line carries the day and "Simulated data" on every screen. The framed objects are the first-open guide card, the reaction test field, because it is the part you touch, and the real-data box ("Real data: NASA MSL RAD and NOAA GOES"), because it holds the real readings on the page. On the evidence card, "Back to list" and "Queue for flight surgeon" sit in a bar fixed to the bottom of the screen, above the iPhone home indicator (`env(safe-area-inset-bottom)`). Headings stand on their own, with no rule or bar beside them. The page scrolls without a visible scrollbar track.
 
 ```
-Day 29                 Simulated data     <- 16 px bold ink on light yellow, sticky
+Day 29                 Simulated data     <- 16 px bold, dark text on yellow, sticky
 Health status                             <- title (Gate 1 label)
 Your last 29 days                         <- 20 px; "Your last 7 days" in the 7-day view
 ▬ Usual range (from day 15, ±2 SD)        <- 14 px quiet key, row 1 on phones

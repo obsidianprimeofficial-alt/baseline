@@ -91,29 +91,21 @@ def test_scripts_styles_and_fonts_carry_a_version_that_matches_their_content():
 TOKENS = Path("web/tokens.css")
 
 
-def theme_block(name: str) -> str:
+def palette() -> str:
+    """The one palette: dark only (Hrishin, 11 Nov 2026)."""
     css = TOKENS.read_text(encoding="utf-8")
-    return re.search(r':root\[data-theme="' + name + r'"\] \{(.*?)\}', css, re.S).group(1)
+    blocks = re.findall(r"^(:root[^{]*)\{(.*?)\}", css, re.S | re.M)
+    assert [sel.strip() for sel, _ in blocks] == [":root"], "one palette on plain :root, no data-theme blocks"
+    return blocks[0][1]
 
 
-def test_both_themes_define_every_variable_the_page_uses():
+def test_dark_palette_defines_every_variable_the_page_uses():
     used = set(re.findall(r"var\((--[a-z-]+)\)", Path("web/index.html").read_text(encoding="utf-8")))
     used |= set(re.findall(r'"(--[a-z-]+)"', Path("web/app.js").read_text(encoding="utf-8")))
     assert {"--ink", "--flag", "--mono", "--sans"} <= used
-    for name in ("light", "dark"):
-        defined = set(re.findall(r"(--[a-z-]+):", theme_block(name)))
-        assert used <= defined, f"{name} theme is missing {sorted(used - defined)}"
-    assert "#0B1220" in theme_block("dark") and "#E6ECE8" in theme_block("light")
-
-
-def test_theme_switch_is_in_the_header_and_big_enough_to_tap():
-    html = Path("web/index.html").read_text(encoding="utf-8")
-    header = html[html.index('<header class="top">'):html.index("</header>")]
-    assert '<button id="theme-btn" class="theme-btn" type="button"' in header
-    assert re.search(r"\.theme-btn \{[^}]*width: 44px; height: 44px;", html)
-    app = Path("web/app.js").read_text(encoding="utf-8")
-    for label in ("Switch to light theme", "Switch to dark theme"):
-        assert label in app and not any(b in label.lower() for b in BLOCKED)
+    defined = set(re.findall(r"(--[a-z-]+):", palette()))
+    assert used <= defined, f"dark palette is missing {sorted(used - defined)}"
+    assert "#0B1220" in palette() and "color-scheme: dark;" in palette()
 
 
 def test_offline_line_is_in_the_header_on_every_screen():
@@ -124,20 +116,38 @@ def test_offline_line_is_in_the_header_on_every_screen():
     assert f"</svg>{line}</span>" in header and not any(b in line.lower() for b in BLOCKED)
 
 
-THEME_JS = """
-const T = require('./web/theme.js');
-const at = (h, m) => T.byClock(new Date(2026, 9, 29, h, m));
-console.log(JSON.stringify([at(21, 59), at(22, 0), at(3, 0), at(5, 59), at(6, 0), at(12, 0)]));
+THEME_JS = r"""
+// The page's theme.js as a browser runs it (no module), with a saved "light" choice from an old visit in storage.
+const fs = require('fs');
+const calls = [];
+const storage = { getItem(k) { calls.push(['get', k]); return k === 'baseline-theme' ? 'light' : null; }, setItem(k, v) { calls.push(['set', k, v]); } };
+const document = { documentElement: { setAttribute(k, v) { calls.push(['attr', k, v]); }, getAttribute() { return null; } } };
+const root = {};
+new Function('module', 'localStorage', 'document', 'window', fs.readFileSync('./web/theme.js', 'utf8').replace(/\}\)\(this\);\s*$/, '})(window);'))(undefined, storage, document, root);
+console.log(JSON.stringify({ calls, api: Object.keys(root.Theme).sort() }));
 """
 
 
 @pytest.mark.skipif(NODE is None, reason="node is not installed")
-def test_default_theme_is_dark_in_the_simulated_sleep_window():
+def test_page_is_dark_with_a_saved_light_choice_and_has_no_switch():
+    """Dark only (Hrishin, 11 Nov 2026): a saved "light" value from an old visit is never read and never applied;
+    no clock default; no switch in the header or in app.js; the only palette is dark."""
     out = json.loads(subprocess.run([NODE, "-e", THEME_JS], capture_output=True, text=True, check=True).stdout)
-    assert out == ["light", "dark", "dark", "dark", "light", "light"]
+    assert out["calls"] == [], "theme.js reads no saved choice and sets no theme"
+    assert out["api"] == ["SLEEP_END_HOUR", "dailyLine"]
     theme = Path("web/theme.js").read_text(encoding="utf-8")
     assert "Simulated crew schedule, not a NASA figure" in theme
-    assert theme.count("try {") == 2, "localStorage read and write are both wrapped"
+    assert "localStorage" not in theme and "getHours() >=" not in theme
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    header = html[html.index('<header class="top">'):html.index("</header>")]
+    assert "<button" not in header, "no theme switch in the header"
+    app = Path("web/app.js").read_text(encoding="utf-8")
+    for gone in ("theme-btn", "Switch to light theme", "Switch to dark theme", "Theme.set", "Theme.current"):
+        assert gone not in html and gone not in app, gone
+    css = TOKENS.read_text(encoding="utf-8")
+    assert "data-theme" not in css and "color-scheme: light" not in css and "#E6ECE8" not in css
+    assert "data-theme" not in html and "prefers-color-scheme" not in html + css
+    palette()
 
 
 DAILY_JS = """
