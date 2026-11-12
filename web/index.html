@@ -273,6 +273,23 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 
 /* Flight surgeon view (PLAN item 6, design L1): the one screen that uses a laptop's width; one column on a phone. */
 .wide .top, .wide main { max-width: 1360px; }
+/* Tablet and laptop (Hrishin, 13 Nov 2026): the same screens fill the width. Nothing here applies under 700 px,
+   so the phone layout is unchanged. The wrappers (.check-cols, .charts, .ev-cols) are plain blocks on a phone. */
+@media (min-width: 700px) {
+  .top, main { max-width: 900px; }
+  .bar-inner { max-width: 868px; }
+  .check-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 32px; align-items: start; }
+  .charts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 24px; margin-top: 20px; }
+  .charts .channel { margin-top: 0; }
+  .charts .channel.bottom { grid-column: 1 / -1; } /* reaction time, alone on the last row: full row */
+}
+@media (min-width: 1100px) {
+  .top, main { max-width: 1100px; }
+  .bar-inner { max-width: 1068px; }
+  .charts { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .ev-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 40px; align-items: start; }
+  .ev-b > h2:first-child { margin-top: 0; } /* both columns start on the same line */
+}
 #crew h1 { font-size: 36px; }
 .crew-grid { display: grid; gap: 24px; margin-top: 20px; }
 .crew-rows { list-style: none; padding: 0; margin: 0; }
@@ -332,6 +349,8 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <h1 id="today-title" tabindex="-1">Morning check</h1>
   <p>Three short parts. Each answer is compared only with your own past days, not with anyone else's.</p>
 
+  <div class="check-cols">
+  <div class="check-rt">
   <h2>Reaction time</h2>
   <p class="meta how">How to measure: tap the field to start, then tap as soon as the dark circle appears, 1 to 3 seconds later. Five rounds; a tap before the circle or within 0.1 seconds of it repeats the round. The middle time of the five counts.</p>
   <button id="rt-field" class="rt" type="button" aria-describedby="rt-status">
@@ -342,6 +361,8 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <button id="rt-recorded" class="secondary" type="button" disabled>Use recorded day-29 self-check (simulated)</button>
   <p id="rt-status" class="meta num" aria-live="polite">Round 1 of 5</p>
   <button id="rt-again" class="text-button" type="button" hidden>Run the test again</button>
+  </div>
+  <div class="check-rest">
 
   <h2>Sleep and mood</h2>
   <label class="q" for="sleep">How long did you sleep last night?</label>
@@ -390,6 +411,8 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
       <input type="radio" id="vision-blurred" name="vision" value="blurred"><label for="vision-blurred">Blurred</label>
     </div>
   </fieldset>
+  </div>
+  </div>
 
   <p id="missing" class="missing" role="alert"></p>
   <button id="save" class="primary" type="button" disabled>Save and compare</button>
@@ -407,6 +430,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
     <button type="button" data-range="7" aria-pressed="false">7 days</button>
     <button type="button" data-range="0" aria-pressed="true">30 days</button>
   </div>
+  <div class="charts">
   <div class="channel" data-signal="heart_rate_bpm">
     <div class="channel-head"><span>Heart rate</span><span class="val"></span></div>
     <div class="plot"><canvas role="img"></canvas></div>
@@ -434,6 +458,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <div class="channel bottom" data-signal="reaction_ms">
     <div class="channel-head"><span>Reaction time</span><span class="val"></span></div>
     <div class="plot"><canvas role="img"></canvas></div>
+  </div>
   </div>
   <div id="radiation" class="radiation">
     <h2>Real data: NASA MSL RAD and NOAA GOES</h2>
@@ -564,6 +589,8 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <p id="ev-who" class="days-line" hidden></p>
   <p id="ev-replay" class="days-line" hidden></p>
   <h1 id="ev-title" tabindex="-1"></h1>
+  <div class="ev-cols">
+  <div class="ev-a">
   <p id="ev-plain"></p>
   <p id="ev-note" hidden></p>
   <h2>The numbers</h2>
@@ -571,6 +598,8 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <p id="ev-rounding" class="meta">Numbers are shown to one decimal; z uses the unrounded values.</p>
   <div id="ev-extra" hidden></div>
   <button id="ev-maths" class="text-button maths-link" type="button">Show the maths</button>
+  </div>
+  <div class="ev-b">
   <h2>Why it matters</h2>
   <p id="ev-words"></p>
   <p id="ev-study" class="cite"></p>
@@ -583,6 +612,8 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
     <button id="ev-mark" class="secondary" type="button">Mark step done</button>
     <p id="ev-mark-line" aria-live="polite" hidden></p>
     <p id="ev-mark-note" class="meta" hidden>Not saved: this browser blocks storage, so this mark is kept for this visit only.</p>
+  </div>
+  </div>
   </div>
   <p id="ev-source" class="meta"></p>
   <p id="ev-rule" class="meta"></p>

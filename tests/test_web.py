@@ -476,3 +476,21 @@ def test_inline_numbers_use_the_text_font_and_the_crew_badge_stays_on_one_line()
     badge = re.search(r"^\.crew-count \{([^}]*)\}", html, re.M).group(1)
     assert "white-space: nowrap" in badge and "flex-shrink: 0" in badge and "var(--mono)" in badge and "font-size: 16px" in badge
     assert "grid-template-columns: minmax(200px, max-content) minmax(0, 1fr) auto" in html
+
+
+def test_tablet_and_laptop_breakpoints_leave_the_phone_layout_alone():
+    """13 Nov (Hrishin): one page fills a tablet (700 to 1099 px) and a laptop (1100 px and wider); under 700 px
+    nothing changes. The wrappers are plain blocks on a phone and hold the same elements in the same order."""
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    style = html[html.index("<style>"):html.index("</style>")]
+    queries = re.findall(r"@media \(([^)]*)\)", style)
+    assert "min-width: 700px" in queries and "min-width: 1100px" in queries
+    assert not [q for q in queries if "max-width" in q], "no rule aimed below 700 px"
+    for name in ("check-cols", "charts", "ev-cols"):
+        assert not re.search(r"(^|\})\s*\." + name + r"\s*\{", style.split("@media (min-width: 700px)")[0]), f".{name} styled outside the breakpoints"
+    tablet = style[style.index("@media (min-width: 700px) {\n  .top, main"):]
+    assert ".charts .channel.bottom { grid-column: 1 / -1; }" in tablet, "reaction time spans the last row"
+    order = lambda *ids: [html.index(i) for i in ids] == sorted(html.index(i) for i in ids)
+    assert order('class="check-cols"', 'class="check-rt"', 'id="rt-field"', 'id="rt-recorded"', 'id="rt-again"', 'class="check-rest"', 'id="sleep"', 'id="note"', 'id="vision-blurred"', 'id="missing"')
+    assert order('class="charts"', 'data-signal="heart_rate_bpm"', 'data-signal="reaction_ms"', 'id="radiation"')
+    assert order('class="ev-cols"', 'class="ev-a"', 'id="ev-plain"', 'id="ev-numbers"', 'id="ev-maths"', 'class="ev-b"', 'id="ev-words"', 'id="ev-step"', 'id="ev-source"')
