@@ -1,8 +1,10 @@
-> A working offline web app on the phone and the laptop.
-
 # Baseline
 
-**Baseline is a phone app that tells an astronaut whether today is normal *for them*.** It compares each day's readings with that person's own 30-day range. When something drifts, it shows the numbers, the NASA study behind the change, and one step to consider. It never diagnoses.
+A working offline web app on the phone and the laptop.
+
+**Try it in a browser:** https://obsidianprimeofficial-alt.github.io/baseline/
+
+Baseline tells an astronaut whether today is normal *for them*. It compares each day's readings with that person's own range from the previous days, up to 30. When a reading moves outside that range, it shows the numbers, the NASA study behind the change, and one step to take. It never diagnoses.
 
 <p align="center">
   <img src="web/screenshots/2-console-390-dark.png" width="260" alt="Console titled Health status: the last 29 days of heart rate, heart rate variability and blood oxygen, the first three of seven charts. The grey band is the usual range. Heart rate variability is flagged in orange on days 27 to 29.">
@@ -12,234 +14,97 @@
   <img src="web/screenshots/4-evidence-390-dark.png" width="260" alt="Evidence card for reaction time: the change in plain words, the numbers with a line on how the usual range is computed, the start of why it matters, and the Back to list and Queue for flight surgeon buttons.">
 </p>
 
-> **Every vital sign on the console is simulated.** The demo page says "Simulated data" on every screen. The one real crew record is the Skylab 4 sleep estimates from a NASA report (`cache/skylab4`): crew log estimates, by role only, labelled as real on their own panel. The real feeds are NASA MSL RAD (Mars surface radiation, CDAWeb dataset MSL_RAD_OBS-L2) and NOAA GOES solar protons, shown together in their own box, "Real data: NASA MSL RAD and NOAA GOES".
+> **The vital signs are simulated**, and every screen says so. Three sources are real: NASA MSL RAD Mars surface radiation (29 days, 11 Oct to 8 Nov 2026) and NOAA GOES solar protons (cached 10 Nov 2026). The third is the Skylab 4 crew sleep estimates from a NASA report, shown by role only.
 
-**Status:** a prescreening prototype was built 30 September to 10 October 2026, and development continued from 22 October 2026; the commit history shows each step. The Bangladesh hackathon runs 13–14 November 2026.
-
----
-
-## How it works
-
-```mermaid
-flowchart LR
-    A["<b>Gather</b><br/>Wearable record (simulated)<br/>2-minute self-check<br/>NASA MSL RAD Mars radiation (real)<br/>NOAA solar protons (real)"] --> B["<b>Evaluate</b><br/>Compare with this person's<br/>own 30-day range"]
-    B --> C["<b>Explain</b><br/>Numbers + NASA study<br/>+ guidance"]
-    C --> D["<b>Act</b><br/>Queue for flight surgeon<br/>Check again tomorrow"]
-    style A fill:#E6ECE8,stroke:#52625B,color:#16221E
-    style B fill:#C5D3CA,stroke:#52625B,color:#16221E
-    style C fill:#FFF1A8,stroke:#52625B,color:#16221E
-    style D fill:#E6ECE8,stroke:#52625B,color:#16221E
-```
-
-Three ideas carry the whole app:
-
-1. **Your own normal, not a textbook number.** Reaction time of 338.3 ms is fine for some people. For a person whose usual is 281.4 ± 16.3 ms, it is 3.5 spreads out (the demo's day-29 reaction card). Baseline only knows the second kind of fact.
-2. **A study behind every flag.** Each flag links to an NTRS report or OSDR study. No source, no card.
-3. **One step, no diagnosis.** The step is a scheduled NASA protocol action (sleep window, ARED session) or "report to the flight surgeon". Nothing more.
-
----
-
-## Run it in two minutes
-
-You need Python 3.11 or newer to run the app. Nothing else. Install once online, then everything runs with wifi off.
-
-The tests also need Node (run here on v26.2.0). These test files use it: `test_crew.py`, `test_hazards.py`, `test_marks.py`, `test_mars_caution.py`, `test_mars_replay.py`, `test_maths.py`, `test_skylab4.py`, `test_spe.py`, `test_store.py`, `test_trend.py`, `test_usual_range_line.py`, `test_web.py` and `test_wording.py`. Without Node, pytest skips those tests.
-
-Clone or download this repository, open a terminal in its folder and run the lines one at a time.
-
-**Windows (PowerShell)**
-
-```powershell
-python -m venv .venv
-.venv\Scripts\activate
-pip install -e ".[dev]"
-pytest -q
-python -m baseline.serve
-```
-
-If the second line answers "running scripts is disabled on this system", run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once and run the line again.
-
-**Mac / Linux**
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -e ".[dev]"
-pytest -q
-python -m baseline.serve
-```
-
-`pytest -q` should print **202 passed** (with Node). The last line opens the demo in your browser at http://localhost:8000 (or 8001–8010 if busy). Ctrl+C stops it.
-
-**On a phone:** `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi. Windows may ask to let Python through the firewall; allow it for private networks.
-
-**Fully offline:** `OFFLINE=1 python -m baseline.serve` (PowerShell: `$env:OFFLINE = "1"; python -m baseline.serve`). The page never calls any host but localhost anyway. The flag also stops the fetch scripts in `scripts/`, so nothing can reach the network by accident.
-
-<details>
-<summary>More run details</summary>
-
-- `python -m baseline.demo` prints the flags for both fixtures in the terminal, then "clean fixture: 2 watch items, 0 confirmed flags" and those two watch items.
-- With `make`: `make install`, `make test`, `make demo`, `make serve`.
-- The page loads files only from `web/` (fonts, Chart.js, rules, fixture, radiation summary). A Content-Security-Policy blocks every other host.
-- The server sends `Cache-Control: no-store`, so a reload always gets the latest files.
-- "Start the demo again" resets in memory without reloading, so a phone that has loaded the page once can run it again with no network.
-- The page has one theme, dark, on every screen; there is no theme switch. Screenshots end in `-dark`.
-- If `pip install` fails, check that `python --version` shows 3.11 or later.
-
-</details>
-
----
-
-## The 90-second demo
-
-For a repeatable demo, use the **"Use recorded day-29 self-check"** button in step 1. It loads the simulated record's day-29 reaction time (338 ms), so the flag fires every time.
-
-| Step | Screen | What you see |
-|---|---|---|
-| 1 | **Self-check** | A guide card with one line from the simulated crew schedule (daily check due, done or next; on screen only), then a 5-round reaction test, sleep hours, sleep quality, mood, and a near-vision line. About 2 minutes. |
-| 2 | **Console** | "Health status": one chart per signal, seven in all (heart rate, heart rate variability (HRV), blood oxygen, core temperature, sleep, mood and reaction time); a 7 days · 30 days switch (30 by default, same usual range in both). Grey band = your usual range. Orange dot = flagged. Orange ring = being watched. |
-| 3 | **What changed** | Each flag in two lines: today's value against your usual, then a plain status such as "Well outside your usual range, third day running." A signal outside its usual range three days running also gets a trend card under its flag: the three values, the change per day from a least-squares line through them, and whether a straight line from today gets back inside the usual range within 30 days, labelled "Projection from your own last 3 days, not a forecast." |
-| 4 | **Evidence card** | The change in plain words, the numbers, why it matters (study finding in bold, source linked, an "Evidence strength" line), and "Guidance": one step. "Mark step done" under the step shows it as done with the time, stored on the device; pressing it again undoes it, and each follow-up row on day 30 says whether the step was marked. "Show the maths" opens a histogram of the days the rule used (28 on day 29), today's line, the usual ± 2 SD lines and the sum in words, e.g. "Today is (338.3 − 281.4) ÷ 16.3 = 3.5 spreads above your usual." |
-| 5 | **Queue for flight surgeon** | The summary, and "A reply can come up to 40 minutes later: up to 20 minutes each way at Mars distance." Display only. Nothing is sent. |
-| 6 | **Next day** | Day 30: each of yesterday's flags compared with today. "Start the demo again" returns to step 1. |
-
-**Flight surgeon view.** On a laptop, open `http://localhost:8000/#crew`, or use the "Flight surgeon view" link at the bottom of the day 29 console. Three crew on one screen, each checked against their own normal, with their flags, queued summaries and evidence cards. Static and simulated; nothing is sent. ([screenshot](web/screenshots/11-crew-1440-dark.png))
-
-<p align="center">
-  <img src="web/screenshots/0-guide-390-dark.png" width="200" alt="First-open guide card, with the simulated crew schedule line above it: today's daily check is due now">
-  <img src="web/screenshots/1-today-390-dark.png" width="200" alt="Self-check screen">
-  <img src="web/screenshots/5-queue-390-dark.png" width="200" alt="Needs flight surgeon attention: the summary in the queue">
-  <img src="web/screenshots/6-next-day-390-dark.png" width="200" alt="Day 30 console: one reading is outside the usual range today; heart rate variability is back inside its usual range">
-</p>
-
-Wifi stays off for the whole demo.
-
----
+**Built before the event.** The prescreening prototype was built from 30 September to 10 October 2026, and the rest from 22 October 2026. Every step is in the commit history. On 2 November 2026 the Local Lead confirmed in writing that preparing before the event is fine.
 
 ## How a reading gets flagged
 
-```mermaid
-flowchart TD
-    R["Today's reading"] --> B{"How far from this person's<br/>mean of the previous days?"}
-    B -- "under 2 spreads" --> OK["Inside usual range"]
-    B -- "2 to 3 spreads" --> W["Watch item<br/>(orange ring)"]
-    B -- "3 or more spreads" --> F["Flagged<br/>(orange dot)"]
-    W -- "same signal was 2+ out<br/>yesterday too" --> F
-    F --> T{"Two or more flags<br/>within 48 hours?"}
-    T -- yes --> M["Multi-signal flag"]
-    style OK fill:#E6ECE8,stroke:#52625B,color:#16221E
-    style W fill:#FFF1A8,stroke:#D4470C,color:#16221E
-    style F fill:#D4470C,stroke:#D4470C,color:#FFFFFF
-    style M fill:#D4470C,stroke:#D4470C,color:#FFFFFF
+- **Your own normal.** The baseline is the mean and spread of the person's previous days, up to 30. Today never counts in its own baseline, and no flag fires before day 15.
+- **Watch or flag.** A reading 2 to 3 spreads from normal is a watch item. At 3 or more spreads, or 2 or more on two days running, it is flagged. Two flags within 48 hours raise a multi-signal flag.
+- **A NASA source on every flag.** Each of the 8 rules cites a NASA study, and its step comes from a NASA source ([docs/EVIDENCE.md](docs/EVIDENCE.md)). No source, no card.
+
+Example from the demo: this person's usual reaction time is 281.4 ± 16.3 ms. Today's 338.3 ms is 3.5 spreads slower, so it is flagged.
+
+The rules are plain Python in `src/baseline/compute`. The page runs a JavaScript copy, and the tests check that both give the same flags. On 200 simulated clean 30-day records, the rules raise **0.62** false flags per record. They catch a 4-SD shift in at least **97%** of records ([docs/VALIDATION.md](docs/VALIDATION.md)).
+
+## The demo
+
+On the first screen, tap **"Use recorded day-29 self-check"** so the reaction flag fires every time.
+
+| Step | Screen | What you see |
+|---|---|---|
+| 1 | Self-check | A 5-round reaction test, sleep hours, sleep quality, mood and a near-vision line. About 2 minutes. |
+| 2 | Health status | Seven charts against your usual range, over 7 or 30 days. |
+| 3 | What changed | Each flag with today's value against your usual, and a trend card for a reading out three days running. |
+| 4 | Evidence card | The NASA study and how strong it is, one step, "Mark step done" and "Show the maths". |
+| 5 | Flight surgeon queue | A reply can come up to 40 minutes later: up to 20 minutes each way at Mars distance. Nothing is sent. |
+| 6 | Next day | Day 30 shows whether each flagged reading came back. |
+
+Also on the console:
+- **Flight surgeon view** (`#crew`): three crew on one screen, each against their own normal.
+- **Two replays of real events:** the solar storm of 9 September 2024 (34 pfu, NOAA) and the Mars radiation surge of 20 May 2024 (1,881.0 µGy per day against a usual 161.0, NASA MSL RAD).
+- **Real crew record:** the Skylab 4 sleep estimates run through the same sleep rule.
+- **Mission-phase risks** under NASA's five hazards, and a **Data sources** panel.
+
+## Run it
+
+You need Python 3.11 or newer. Install once with internet. After that it runs with wifi off.
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate          # Mac/Linux: source .venv/bin/activate
+pip install -e ".[dev]"
+pytest -q                        # 204 passed
+python -m baseline.serve         # opens http://localhost:8000
 ```
 
-- The baseline is the mean and standard deviation of the person's previous days, up to 30. Today is never part of its own baseline.
-- No flag can fire before day 15, so every baseline has at least 14 days behind it.
-- Only the direction that matters counts: low HRV, slow reaction time, short sleep.
-- The Python in `src/baseline/compute` is the reference. `web/rules.js` is a small port of it for the page, and `tests/test_web.py` checks both give the same flags.
+The tests need Node. Without it, pytest skips the tests that run the page's own scripts. A machine that cannot bind IPv6 loopback prints 203 passed, 1 skipped.
 
-**False alarms on pure noise.** In the validation run (200 clean 30-day records, seeds 1000–1199) the rules raise **0.62** confirmed flags per record on average, and 2.99 watch items. 56% of the records have no confirmed flag at all ([docs/VALIDATION.md](docs/VALIDATION.md)).
-
----
-
-## What is real, what is simulated
-
-| | Source | Status |
-|---|---|---|
-| **Real** | NOAA GOES solar-proton flux, 7 days, cached 10 Nov 2026 | Shown on the console in its own box. A rule raises a solar particle event flag at NOAA's S1 level (≥ 10 pfu at ≥ 10 MeV), with tests. At or above S1 the page opens a full-screen alert, "Shelter now", with the step "Go to the storm shelter." directly under the title, then the reading and when it was cached; a "Sources" control, closed at first, holds the sources (NASA OCHMO-TB-020 Rev E; NASA-STD-3001 Vol 2 Rev C [V2 6100]; NOAA SWPC) and an "Evidence strength" line. The 10 Nov reading is below S1, so no alert opens. |
-| **Real** | NOAA's listed values for the solar proton event of 9 Sep 2024 (start 16:40 UTC, maximum 34 pfu at 22:50 UTC, S1), from the SWPC event list and the NCEI proton event list, also reported by the Australian Bureau of Meteorology; cached 30 Oct 2026 in `cache/noaa/spe-2024-09-09.json` | "Replay a real solar storm: 9 September 2024" on the console plays the three points and opens the alert at the S1 crossing, labelled as a replay, not today's data. No curve. |
-| **Real** | NASA MSL RAD Mars surface radiation, 29 days, 11 Oct to 8 Nov 2026, cached 10 Nov 2026 | Shown in the same box as the latest day in µGy per day. A rule with tests compares that day with the earlier days, and the box says whether it is within or above their usual range (mean ± 2 SD). When the rule fires, a "Caution" flag row opens a card with a step. Our own 2-SD rule, not NASA's numeric threshold, which is not published. |
-| **Real** | NASA MSL RAD readings around the Mars surface radiation surge of 20 May 2024: 20 April to 25 May 2024, 3,138 readings, cached 7 Nov 2026 in `cache/msl_rad/rad-2024-04-20-to-05-25.json`; `scripts/build_mars_surge.py` runs the same rule, unchanged, on the record up to each day and writes `cache/msl_rad/mars-surge-2024-05-20.json` | "Replay a real Mars radiation surge: 20 May 2024" on the console opens the Caution card for that day, labelled as a replay, with no queue button and no "Mark step done"; the header shows "Replay – real NASA data" in place of "Simulated data". The rule fires on 20 May only: 1,881.0 µGy per day (the average of 139 readings), usual 161.0, z +165.2. The MSL RAD team's slides list the event as about 8,100 µGy per day at the peak and about 1,900 on average; NASA's article (June 2024) gives 8,100 micrograys, which the slides list as the peak. The slides subtract the contribution of the rover's own power source (RTG) from all their values; the app uses the uncorrected detector total, so the app's 1,881.0 is close to the slides' ~1,900 but the two are measured slightly differently. The replay stops at 20 May: on 21 May the level was still 355.1 µGy per day, about twice the days before the surge, but it does not flag, because the usual range now includes 20 May (spread 314.25 µGy per day instead of 10.41). |
-| **Real** | NASA's sentences and figures on the five hazards of human spaceflight (Human Research Program pages, NASA-STD-3001 Vol 2 Rev C, three NASA evidence reports) | In the closed "Mission-phase risks" panel on the day 29 console, each with its source. The day 29 lines ("usually past", "ongoing") are our reading of NASA's timings. |
-| **Real** | NASA OSDR search results, 10 keywords, cached 30 Sep and 10 Oct 2026 | Source of the OSD-140 study on two cards. |
-| **Real** | NASA NTRS search results, 11 keywords, cached 3 Oct and 10 Oct 2026 | Source of the NTRS reports on the cards. |
-| **Real** | Your answers in the self-check | Replace day 29's reaction time, sleep and mood. Each saved check is kept in this browser on this device (no cloud, no network) and is still there after a reload; "Download the daily log (CSV)" exports it and "Clear saved days" removes it. |
-| **Simulated** | 30 days of vitals for three crew members: heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood | Gaussian noise around fixed means, seed 7 for crew A, in `data/fixtures`. The anomaly fixture lowers HRV, sleep and mood and slows reaction time on days 27–29. Crew B and C use seeds 8 and 9, the next two after crew A's seed 7, taken in order; crew C has a planted heart-rate shift (+4 SD, days 27–29). |
-
-Not covered: blood pressure and blood sugar. The challenge statement names both, but only simulated values would be possible, so they were left out when the scope was set on 28 Oct 2026.
-
-Card text is fixed wording filled in with the rule output.
-
----
-
-## Evidence behind each card
-
-Every rule cites a NASA study and a NASA source for its step, and a test checks that every rule has a step. All sources were reviewed on 24 Oct 2026; what each one is, and how strong, is in [docs/EVIDENCE.md](docs/EVIDENCE.md).
-
-The rules are validated on simulated data: a 4-SD shift is caught in at least 97% of fixtures, with 0.62 confirmed false flags per clean 30-day record (the same run: n=200, seeds 1000–1199). How this was measured, with the result tables, is in [docs/VALIDATION.md](docs/VALIDATION.md).
-
-| Rule | Study | Step source |
-|---|---|---|
-| Heart rate variability low | [NTRS 20040087874](https://ntrs.nasa.gov/citations/20040087874) (4 crew, 16-day flight) | [NTRS 20140002864](https://ntrs.nasa.gov/citations/20140002864) (ARED or T2 session; conference abstract) |
-| Heart rate high | [NTRS 20040087874](https://ntrs.nasa.gov/citations/20040087874) | [NASA-STD-3001 Vol 1 Rev C [V1 3004]](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) (repeat at rest, report) |
-| Sleep short | [NTRS 20240002094](https://ntrs.nasa.gov/citations/20240002094) | [NTRS 20190002002](https://ntrs.nasa.gov/citations/20190002002) (sleep space) |
-| Reaction time slow | [NTRS 20240012108](https://ntrs.nasa.gov/citations/20240012108) | [NTRS 20240002094](https://ntrs.nasa.gov/citations/20240002094), [NTRS 20140012988](https://ntrs.nasa.gov/citations/20140012988) (sleep window, lighting; the second is a conference abstract) |
-| Mood low | [OSD-140](https://osdr.nasa.gov/bio/repo/data/studies/OSD-140) (ground isolation study (Mars-500), 6 crew, not spaceflight; DOI 10.26030/pybz-6s43) | [OCHMO-TB-016 Rev B](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf) and [NASA-STD-3001 Vol 1 Rev C [V1 3004]](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) (private conference or journal, report) |
-| Two signals in 48 h | [OSD-140](https://osdr.nasa.gov/bio/repo/data/studies/OSD-140) | [NASA-STD-3001 Vol 1 Rev C [V1 3004]](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) (send today's summary to the flight surgeon) |
-| SpO2 low | [NTRS 20150021491](https://ntrs.nasa.gov/citations/20150021491) (names the risk, no SpO2 readings) | [NASA-STD-3001 Vol 1 Rev C [V1 3004]](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) (check the sensor, repeat, report) |
-| Core temperature high | [NTRS 20000104233](https://ntrs.nasa.gov/citations/20000104233) (2 crew) | [NASA-STD-3001 Vol 1 Rev C [V1 3004]](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) (repeat later today, report) |
-
-NASA-STD-3001 [V1 3004] requires vital signs to be monitored and trended and private contact with ground medical support. It backs the "report to the flight surgeon" part of a step, not measurement advice such as "at rest" or "check the sensor".
-
-<details>
-<summary>How the evidence map is structured</summary>
-
-Each entry in `docs/evidence_map.json` is keyed by rule id, for example `reaction_above_personal_baseline`. It has `source_type` (`osdr` or `ntrs`), `source_id`, `title` and `url`, and optionally `plain_words`, `key_finding`, `countermeasure` and `countermeasure_source`. `mars_radiation_caution` is the one entry not keyed by a rule id; it adds `label`, `trigger_note` and `practice_note`, shown on its card, and the lines quoted from its sources. Every entry, including `solar_particle_event`, must also have `strength`, a short line on how strong the source is, taken from the Status column of docs/EVIDENCE.md; the loader refuses a map without it. `key_finding` is the phrase the card shows in bold; it must appear word for word in `plain_words`, and a test checks this. A study without an id and URL is not shown, and neither is a step without a source line. After editing the map, copy it to `web/data/evidence_map.json`; a test fails if the two differ.
-
-The seven OSDR searches cached on 30 Sep returned 57 hits, 50 distinct studies. Twelve list Homo sapiens; five of those are from human crew (OSD-316, OSD-575, OSD-656, OSD-903, OSD-943). The rest are mouse, rat, fly or cell studies.
-
-</details>
-
----
+**On a phone:** run `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi.
 
 ## Data sources
 
-The console's "Data sources" panel shows the first five columns of this table, word for word (a test checks it), and ends with the "Not covered" line above.
+The console's "Data sources" panel shows this table word for word (a test checks it).
 
-| Source | Agency | Used for | Real or simulated | Id or link | Status |
-|---|---|---|---|---|---|
-| OSDR / GeneLab | NASA | Study id and URL behind every flag | Real | [osdr.nasa.gov](https://osdr.nasa.gov) (REST, no key) | Searches cached; OSD-140 on two cards, reviewed |
-| NASA Technical Reports Server (NTRS), Human Research Program reports | NASA | Reference numbers, countermeasure protocols | Real | [ntrs.nasa.gov](https://ntrs.nasa.gov) | Searches cached; eight reports reviewed and cited |
-| NASA-STD-3001 Vol 1 Rev C | NASA | Guidance source [V1 3004] for the heart rate, blood oxygen, core temperature, mood and 48-hour steps | Real | [NASA-STD-3001 Vol 1 Rev C (PDF)](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) | Cited on five evidence cards |
-| NASA OCHMO-TB-016 Rev B | NASA | Guidance source for the mood step | Real | [OCHMO-TB-016 (PDF)](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf) | Cited on the mood card |
-| MSL RAD (Curiosity rover) | NASA (SPDF CDAWeb; archived at PDS PPI) | Real Mars surface radiation level for the radiation indicator | Real | [CDAWeb MSL_RAD_OBS-L2](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2), [PDS MSL-M-RAD-3-RDR-V1.0](https://pds-ppi.igpp.ucla.edu/data/MSL-M-RAD-3-RDR-V1.0/), [DOI 10.48322/20qb-4e17](https://doi.org/10.48322/20qb-4e17) | Cached 30 days; daily values and a 2-SD rule with tests; latest value on the console; "Caution" flag row and card when the rule fires |
-| GOES proton flux | NOAA | Solar particle event alert | Real | [SWPC 7-day integral protons](https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json) | Cached; rule and tests done; latest reading on the console; full-screen alert at S1 |
-| NOAA SWPC Solar Radiation Storm page | NOAA | S1 level for the solar storm alert: 10 pfu or more at 10 MeV or more | Real | [swpc.noaa.gov solar radiation storm](https://www.swpc.noaa.gov/phenomena/solar-radiation-storm) | Cited on the solar storm alert |
-| NASA-STD-3001 Vol 2 Rev C | NASA | Source [V2 6100] for alerting the crew in the solar storm alert | Real | [NASA-STD-3001 Vol 2 Rev C (PDF)](https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf) | Cited on the solar storm alert |
-| NASA OCHMO-TB-020 Rev E | NASA | Source for the step "Go to the storm shelter." | Real | [OCHMO-TB-020 (PDF)](https://www.nasa.gov/wp-content/uploads/2023/03/radiation-protection-technical-brief-ochmo.pdf) | Cited on the solar storm alert |
-| Solar proton event list, 9 Sep 2024 | NOAA (Australian Bureau of Meteorology as second report) | Solar storm replay | Real | [NCEI proton events](https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html), SWPC event list SPE.txt (line 383), [BoM alert](https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html) | Listed values cached; replay on the console |
-| Mars radiation surge, 20 May 2024 | NASA (SPDF CDAWeb; MSL RAD team; Solar Physics paper) | Mars surge replay | Real | [CDAWeb MSL_RAD_OBS-L2](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2), [NASA article](https://www.nasa.gov/solar-system/planets/mars/nasa-watches-mars-light-up-during-epic-solar-storm/), [MSL RAD team slides p.17](https://wrmiss.org/workshops/twentyseventh/Hassler.pdf), [DOI 10.1007/s11207-025-02482-4](https://doi.org/10.1007/s11207-025-02482-4) | Cached 36 days; replay on the console |
-| Skylab 4 crew sleep estimates (Experiment M133 final report) | NASA | Real crew record: each crewman's own morning estimate of total sleep, 84 nights, through the sleep rule | Real (crew log estimate) | [NASA CR-141886, NTRS 19750019675](https://ntrs.nasa.gov/citations/19750019675), Tables VIII–X | transcribed in `cache/skylab4`; on the console, roles only |
-| Vitals telemetry | ours, simulated | Daily heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood | Simulated | `data/fixtures` | Built; clean and anomaly fixtures |
+| Source | Agency | Used for | Real or simulated | Id or link |
+|---|---|---|---|---|
+| OSDR / GeneLab | NASA | Study id and URL behind every flag | Real | [osdr.nasa.gov](https://osdr.nasa.gov) (REST, no key) |
+| NASA Technical Reports Server (NTRS), Human Research Program reports | NASA | Reference numbers, countermeasure protocols | Real | [ntrs.nasa.gov](https://ntrs.nasa.gov) |
+| NASA-STD-3001 Vol 1 Rev C | NASA | Guidance source [V1 3004] for the heart rate, blood oxygen, core temperature, mood and 48-hour steps | Real | [NASA-STD-3001 Vol 1 Rev C (PDF)](https://standards.nasa.gov/sites/default/files/standards/NASA/C//nasa-std-3001-vol-1-rev-c-signature.pdf) |
+| NASA OCHMO-TB-016 Rev B | NASA | Guidance source for the mood step | Real | [OCHMO-TB-016 (PDF)](https://www.nasa.gov/wp-content/uploads/2023/12/ochmo-tb-016-behavioral-health.pdf) |
+| MSL RAD (Curiosity rover) | NASA (SPDF CDAWeb; archived at PDS PPI) | Real Mars surface radiation level for the radiation indicator | Real | [CDAWeb MSL_RAD_OBS-L2](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2), [PDS MSL-M-RAD-3-RDR-V1.0](https://pds-ppi.igpp.ucla.edu/data/MSL-M-RAD-3-RDR-V1.0/), [DOI 10.48322/20qb-4e17](https://doi.org/10.48322/20qb-4e17) |
+| GOES proton flux | NOAA | Solar particle event alert | Real | [SWPC 7-day integral protons](https://services.swpc.noaa.gov/json/goes/primary/integral-protons-7-day.json) |
+| NOAA SWPC Solar Radiation Storm page | NOAA | S1 level for the solar storm alert: 10 pfu or more at 10 MeV or more | Real | [swpc.noaa.gov solar radiation storm](https://www.swpc.noaa.gov/phenomena/solar-radiation-storm) |
+| NASA-STD-3001 Vol 2 Rev C | NASA | Source [V2 6100] for alerting the crew in the solar storm alert | Real | [NASA-STD-3001 Vol 2 Rev C (PDF)](https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf) |
+| NASA OCHMO-TB-020 Rev E | NASA | Source for the step "Go to the storm shelter." | Real | [OCHMO-TB-020 (PDF)](https://www.nasa.gov/wp-content/uploads/2023/03/radiation-protection-technical-brief-ochmo.pdf) |
+| Solar proton event list, 9 Sep 2024 | NOAA (Australian Bureau of Meteorology as second report) | Solar storm replay | Real | [NCEI proton events](https://www.ngdc.noaa.gov/stp/space-weather/interplanetary-data/solar-proton-events/SEP%20page%20code.html), SWPC event list SPE.txt (line 383), [BoM alert](https://listserver.ips.gov.au/pipermail/ips-proton-alert/2024-September/000530.html) |
+| Mars radiation surge, 20 May 2024 | NASA (SPDF CDAWeb; MSL RAD team; Solar Physics paper) | Mars surge replay | Real | [CDAWeb MSL_RAD_OBS-L2](https://cdaweb.gsfc.nasa.gov/misc/NotesM.html#MSL_RAD_OBS-L2), [NASA article](https://www.nasa.gov/solar-system/planets/mars/nasa-watches-mars-light-up-during-epic-solar-storm/), [MSL RAD team slides p.17](https://wrmiss.org/workshops/twentyseventh/Hassler.pdf), [DOI 10.1007/s11207-025-02482-4](https://doi.org/10.1007/s11207-025-02482-4) |
+| Skylab 4 crew sleep estimates (Experiment M133 final report) | NASA | Real crew record: each crewman's own morning estimate of total sleep, 84 nights, through the sleep rule | Real (crew log estimate) | [NASA CR-141886, NTRS 19750019675](https://ntrs.nasa.gov/citations/19750019675), Tables VIII–X |
+| Vitals telemetry | ours, simulated | Daily heart rate, HRV, SpO2, core temperature, sleep, exercise minutes, reaction time, mood | Simulated | `data/fixtures` |
 
----
+Not covered: blood pressure and blood sugar. The challenge statement names both, but only simulated values would be possible, so they were left out when the scope was set on 28 Oct 2026.
 
-## Repository layout
+## Use of AI
 
-```
-src/baseline/compute/   rules, baselines, radiation, trend projection, wording check  (the reference logic)
-src/baseline/serve.py   local web server, --lan for phones
-web/                    the page: index.html, app.js, rules.js, trend.js, projection.js, maths.js, spe.js, screenshots, fonts, Chart.js
-data/fixtures/          simulated 30-day records (clean, anomaly, crew B and C)
-cache/                  NTRS, OSDR and NOAA responses with source URL and fetch time
-docs/                   evidence map, evidence notes, design notes
-tests/                  202 tests
-```
+Following the local organisers' prescreening rule, AI use was not named in this repository before the final submission. It is disclosed in full here. Every tool, in order, is in [docs/AI_USE.md](docs/AI_USE.md).
 
----
+- **Claude** (Anthropic; Claude Opus 4.8, Claude Opus 5.5): research, the project plan, code review and inspirations of screen designs.
+- **NotebookLM** (Google): questions about the Participants Guide.
+- **Qwen3-4B**, run once on the team's laptop, wrote an optional one-line explanation for 9 evidence cards. A person read the lines, found one not true, and the feature was removed on 11 Nov 2026. Nothing it wrote is in the app.
+
+**No language model runs in the app.** The flags come from fixed rules with tests. Every line on screen passes a wording check with 76 blocked terms (`src/baseline/compute/wording.py`).
+
+## More
+
+[docs/EVIDENCE.md](docs/EVIDENCE.md) (sources for each rule) · [docs/VALIDATION.md](docs/VALIDATION.md) · [docs/USABILITY.md](docs/USABILITY.md) · [docs/REFERENCES.md](docs/REFERENCES.md)
 
 ## Challenge and team
 
 [Create Health Monitoring Software for Astronauts on Space Missions](https://www.spaceappschallenge.org/2026/challenges/health-monitoring-software/), NASA Space Apps Challenge 2026.
 
-Team **Obsidian Prime**, Bangladesh. Each member is listed by role:
-- Development, design and research: the app, the rules and tests, the evidence cards and the NASA data.
-- Team owner on the NASA Space Apps site and team coordination.
-- Submission and eligibility checks.
-- Videos: script, recording, editing and subtitles.
+Team **Obsidian Prime**, Bangladesh, listed by role: development, design and research; team owner and coordination; submission and eligibility checks; videos (script, recording, editing and subtitles).
 
 ## License
 
-Apache-2.0. See [LICENSE](LICENSE).
-
-Third-party files in `web/`: Chart.js 4.5.1 (MIT, `web/vendor/chart.umd.js`, licence header kept), Source Sans 3 by Adobe (SIL Open Font License 1.1, `web/fonts/OFL.txt`) and JetBrains Mono 2.304 by JetBrains (SIL Open Font License 1.1, `web/fonts/OFL-jb-mono.txt`).
+Apache-2.0. See [LICENSE](LICENSE). Third-party files in `web/`: Chart.js 4.5.1 (MIT, `web/vendor/chart.umd.js`, licence header kept), Source Sans 3 by Adobe (SIL Open Font License 1.1, `web/fonts/OFL.txt`) and JetBrains Mono 2.304 by JetBrains (SIL Open Font License 1.1, `web/fonts/OFL-jb-mono.txt`).
