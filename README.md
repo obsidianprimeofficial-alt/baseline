@@ -18,7 +18,35 @@ Baseline tells an astronaut whether today is normal *for them*. It compares each
 
 **Built before the event.** The prescreening prototype was built from 30 September to 10 October 2026, and the rest from 22 October 2026. Every step is in the commit history. On 2 November 2026 the Local Lead confirmed in writing that preparing before the event is fine.
 
+## How it works
+
+```mermaid
+flowchart LR
+    A["<b>Gather</b><br/>Wearable record (simulated)<br/>2-minute self-check<br/>NASA MSL RAD Mars radiation (real)<br/>NOAA solar protons (real)"] --> B["<b>Evaluate</b><br/>Compare with this person's<br/>own 30-day range"]
+    B --> C["<b>Explain</b><br/>Numbers + NASA study<br/>+ guidance"]
+    C --> D["<b>Act</b><br/>Queue for flight surgeon<br/>Check again tomorrow"]
+    style A fill:#E6ECE8,stroke:#52625B,color:#16221E
+    style B fill:#C5D3CA,stroke:#52625B,color:#16221E
+    style C fill:#FFF1A8,stroke:#52625B,color:#16221E
+    style D fill:#E6ECE8,stroke:#52625B,color:#16221E
+```
+
 ## How a reading gets flagged
+
+```mermaid
+flowchart TD
+    R["Today's reading"] --> B{"How far from this person's<br/>mean of the previous days?"}
+    B -- "under 2 spreads" --> OK["Inside usual range"]
+    B -- "2 to 3 spreads" --> W["Watch item<br/>(orange ring)"]
+    B -- "3 or more spreads" --> F["Flagged<br/>(orange dot)"]
+    W -- "same signal was 2+ out<br/>yesterday too" --> F
+    F --> T{"Two or more flags<br/>within 48 hours?"}
+    T -- yes --> M["Multi-signal flag"]
+    style OK fill:#E6ECE8,stroke:#52625B,color:#16221E
+    style W fill:#FFF1A8,stroke:#D4470C,color:#16221E
+    style F fill:#D4470C,stroke:#D4470C,color:#FFFFFF
+    style M fill:#D4470C,stroke:#D4470C,color:#FFFFFF
+```
 
 - **Your own normal.** The baseline is the mean and spread of the person's previous days, up to 30. Today never counts in its own baseline, and no flag fires before day 15.
 - **Watch or flag.** A reading 2 to 3 spreads from normal is a watch item. At 3 or more spreads, or 2 or more on two days running, it is flagged. Two flags within 48 hours raise a multi-signal flag.
