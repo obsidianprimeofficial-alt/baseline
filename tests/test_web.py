@@ -464,3 +464,15 @@ def test_data_sources_panel_matches_the_readme_table_and_ends_with_not_covered()
     assert not_covered.startswith("Not covered: blood pressure and blood sugar. ")
     assert text(panel[panel.rindex("<p"):]) == not_covered, "the not-covered line is the panel's last line"
     assert not [p for p in BLOCKED if p in text(panel).lower()]
+
+
+def test_inline_numbers_use_the_text_font_and_the_crew_badge_stays_on_one_line():
+    """13 Nov (Hrishin): a number inside a sentence is set in the sentence's own font with tabular figures; the
+    number font stays only where a value stands alone. The crew badge never wraps, and its column grows to fit it."""
+    html = Path("web/index.html").read_text(encoding="utf-8")
+    n_rule = re.search(r"^\.n \{([^}]*)\}", html, re.M).group(1)
+    assert "tabular-nums" in n_rule and "nowrap" in n_rule and "--mono" not in n_rule
+    assert "#b1-reading .n, #b1-level .n { font-family: var(--mono); }" in html
+    badge = re.search(r"^\.crew-count \{([^}]*)\}", html, re.M).group(1)
+    assert "white-space: nowrap" in badge and "flex-shrink: 0" in badge and "var(--mono)" in badge and "font-size: 16px" in badge
+    assert "grid-template-columns: minmax(200px, max-content) minmax(0, 1fr) auto" in html

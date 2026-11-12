@@ -64,7 +64,8 @@ a { color: inherit; text-underline-offset: 3px; }
   border: 1.5px solid var(--ink); border-radius: 6px; background: none; color: var(--ink);
   font-weight: 600; cursor: pointer;
 }
-.n { font-family: var(--mono); white-space: nowrap; } /* a number and its unit inside a sentence (app.js monoNums) */
+.n { font-variant-numeric: tabular-nums; white-space: nowrap; } /* a number and its unit inside a sentence (app.js monoNums): the sentence's own font, tabular figures */
+#b1-reading .n, #b1-level .n { font-family: var(--mono); } /* the solar alert readouts stand alone: number font */
 .text-button.back { display: flex; align-items: center; gap: 12px; color: var(--ink); font-size: 18px; }
 .back::before { content: ""; width: 9px; height: 9px; margin-left: 4px; border-left: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); }
 .text-button {
@@ -281,7 +282,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .crew-row.watch { border-left-style: dotted; }
 .crew-row strong { display: block; font-size: 22px; }
 .crew-row .secondary { width: auto; margin: 0; min-height: 44px; padding: 8px 20px; }
-.crew-count { display: inline-block; margin-top: 4px; padding: 0 12px; border: 1.5px solid var(--strong); border-radius: 999px; font-family: var(--mono); font-size: 16px; }
+.crew-count { display: inline-block; margin-top: 4px; padding: 0 12px; border: 1.5px solid var(--strong); border-radius: 999px; font-family: var(--mono); font-size: 16px; white-space: nowrap; flex-shrink: 0; }
 .flagged .crew-count { border-color: var(--flag); color: var(--flag); }
 .crew-flag > span { display: block; }
 .crew-rail { padding: 16px 20px; border: 1px solid var(--card-border); border-radius: 12px; background: var(--card); }
@@ -289,7 +290,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .crew-rail .message { margin: 12px 0; }
 .crew-rail .message p:first-child { font-weight: 700; }
 .crew-rail .message p:last-child { margin-bottom: 0; }
-@media (min-width: 700px) { .crew-row { grid-template-columns: 200px minmax(0, 1fr) auto; align-items: center; } }
+@media (min-width: 700px) { .crew-row { grid-template-columns: minmax(200px, max-content) minmax(0, 1fr) auto; align-items: center; } } /* the name column grows to fit its badge */
 @media (min-width: 900px) { .crew-grid { grid-template-columns: minmax(0, 1fr) 440px; align-items: start; } }
 </style>
 </head>
