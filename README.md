@@ -91,6 +91,8 @@ The tests need Node. Without it, pytest skips the tests that run the page's own 
 
 **On a phone:** run `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi.
 
+The same page fills a tablet (700 to 1099 px wide: charts two per row, the self-check in two columns) and a laptop (1100 px and wider: charts three per row, the evidence card in two columns). Under 700 px it is the phone layout. Every device shows the same screens, words and numbers.
+
 ## Data sources
 
 The console's "Data sources" panel shows this table word for word (a test checks it).
