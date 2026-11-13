@@ -34,8 +34,8 @@ const make = (tag, text, cls) => { const el = put(document.createElement(tag), t
 const checked = (text) => put(document.createElement("span"), text).textContent; // for attributes such as aria-label
 
 const fmt = (signal, v, unit = SIGNALS[signal].unit) => `${v.toFixed(SIGNALS[signal].dp)} ${unit}`;
-// The numbers behind z (today, usual, spread) to one decimal everywhere; z uses the unrounded values,
-// and the card and the queue summary say so (ROUNDING_NOTE). Display only.
+// The numbers behind z (today, usual, spread) to one decimal everywhere; the spread count uses the unrounded values.
+// The card and the queue summary carry ROUNDING_NOTE. Display only.
 const fmtZ = (r, v) => `${v.toFixed(1)} ${SIGNALS[r.signal].unit}`;
 // A number with its unit, inside a sentence, goes in the number font (design: JetBrains Mono for numbers).
 // Runs after put(), on text that already passed the wording check. Display only.
@@ -45,10 +45,11 @@ function monoNums(el) {
     (i % 2 ? Object.assign(document.createElement("span"), { className: "n", textContent: part }) : part)));
   return el;
 }
-const ROUNDING_NOTE = "Numbers are shown to one decimal; z uses the unrounded values.";
+const ROUNDING_NOTE = "Numbers are shown to one decimal.";
 // True of Rules.evaluate: history is every earlier row (up to 30), today left out, flagged days not filtered out.
 const USUAL_NOTE = "Usual range uses your earlier days in this record, including days that were flagged.";
-const signed = (z) => `${z < 0 ? "−" : "+"}${Math.abs(z).toFixed(1)}`;
+// The queue summary's distance from usual in plain words (no "z", no rule id on screen; Hrishin, 13 Nov).
+const spreads = (z) => `${Math.abs(z).toFixed(1)} spreads ${z < 0 ? "below" : "above"} usual`;
 const listWords = (xs) => (xs.length < 2 ? xs.join("") : `${xs.slice(0, -1).join(", ")} and ${xs.at(-1)}`);
 const title = (r) => (r.signal ? SIGNALS[r.signal].name : "Several readings together");
 const names = (r) => listWords(r.signals.map((s, i) => (i ? SIGNALS[s].name.toLowerCase() : SIGNALS[s].name)));
@@ -443,7 +444,8 @@ function renderConsole() {
   put($("console-summary"), n === 0
     ? "Nothing is outside your usual range today."
     : `${n} ${n === 1 ? "reading is" : "readings are"} outside your usual range today.`);
-  $("to-flags").hidden = n === 0 && !state.radiation.fired && !marsCaution();
+  // One button under the summary line and one at the bottom; both hidden only when the list behind them is empty.
+  $("to-flags").hidden = $("to-flags-top").hidden = n === 0 && !state.radiation.fired && !marsCaution();
   $("followup").hidden = day !== NEXT;
   $("restart").hidden = day !== NEXT;
   if (day === NEXT) renderFollowUp();
@@ -615,18 +617,16 @@ function renderFlags() {
       monoNums(make("span", flagLine(r), "flag-line")),
       make("span", plainStatus(r), "flag-status"),
     );
+    // Projection for a flag outside the usual range 3 days running (web/projection.js): one quieter line inside its own card.
+    const p = r.signal && Projection.projection(state.rows, r.signal, state.flags);
+    if (p) {
+      const [text, meta] = Projection.lines(p, SIGNALS[r.signal]);
+      b.append(monoNums(make("span", text, "flag-trend")), make("span", meta, "flag-trend-note"));
+    }
     b.addEventListener("click", () => { renderEvidence(r); show("evidence"); });
     const li = document.createElement("li");
     li.append(b);
     list.append(li);
-    // Trend card (design P2b) under a flag that has been outside the usual range 3 days running (web/projection.js).
-    const p = r.signal && Projection.projection(state.rows, r.signal, state.flags);
-    if (p) {
-      const [text, meta] = Projection.lines(p, SIGNALS[r.signal]), card = document.createElement("li");
-      card.className = "trend-card";
-      card.append(monoNums(make("p", text)), make("p", meta, "meta"));
-      list.append(card);
-    }
   }
   $("flag-note").hidden = row.near_vision_ok !== false;
   put($("flag-note"), "You reported blurred near vision. No rule scores this yet; it goes into the summary for the flight surgeon.");
@@ -675,7 +675,7 @@ function renderEvidence(r) {
       ["Today", fmtZ(r, r.current)],
       [`Your usual (mean of ${r.window_days} days)`, fmtZ(r, r.baseline_mean)],
       ["Usual spread (1 SD)", fmtZ(r, r.baseline_sd), USUAL_NOTE],
-      ["How far", `${times(r.z)} your usual spread (flag at ${Rules.THRESHOLD}×)`],
+      ["How far", `${times(r.z)} your usual spread (watch at ${Rules.THRESHOLD}×, flag at ${Rules.CONFIRM_Z}× or two days at ${Rules.THRESHOLD}×)`],
       ["Status", plainStatus(r)],
     ]
     : [
@@ -702,7 +702,6 @@ function renderEvidence(r) {
   $("ev-step-source").hidden = !step;
   if (step) putSources($("ev-step-source"), sourceRefs(e.countermeasure_source));
   put($("ev-source"), sourceNote(r));
-  put($("ev-rule"), `Rule: ${r.rule}`);
   $("ev-maths").hidden = !r.signal; // single-signal flags only; the 48-hour row has no histogram
   state.markKey = `${state.day}:${r.rule}`;
   $("ev-mark").hidden = !step || !!state.crew;
@@ -741,7 +740,6 @@ function renderMarsCard(c) {
   $("ev-step-source").hidden = false;
   putSources($("ev-step-source"), sourceRefs(c.source));
   put($("ev-source"), c.note);
-  put($("ev-rule"), c.rule);
   $("ev-maths").hidden = true;
   state.markKey = c.chip ? null : `${state.day}:mars_radiation_caution`; // a replay stores no mark
   $("ev-mark").hidden = !!state.crew;
@@ -810,10 +808,10 @@ function drawMaths(r) {
         ctx.strokeStyle = ctx.fillStyle = m.color; ctx.lineWidth = m.bold ? 2 : 1.5; ctx.setLineDash(m.dash);
         ctx.beginPath(); ctx.moveTo(x, top + 4); ctx.lineTo(x, a.bottom); ctx.stroke();
         if (m.dot) { ctx.setLineDash([]); ctx.beginPath(); ctx.arc(x, top + 4, 4, 0, 2 * Math.PI); ctx.fill(); }
-        ctx.font = `${m.bold ? 600 : 400} 13px ${mono}`;
+        ctx.font = `${m.bold ? 600 : 400} 14px ${mono}`;
         ctx.fillText(`${m.x.toFixed(s.dp)} ${s.unit}`, Math.min(Math.max(x, a.left + 30), a.right - 30), a.top - 34 + m.row * 18);
       }
-      ctx.setLineDash([]); ctx.fillStyle = quiet; ctx.font = `400 13px ${mono}`;
+      ctx.setLineDash([]); ctx.fillStyle = quiet; ctx.font = `400 14px ${mono}`;
       for (const x of ticks) ctx.fillText(String(+x.toFixed(2)), px(x), a.bottom + 18);
       ctx.strokeStyle = css("--rule"); ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(a.left, a.bottom); ctx.lineTo(a.right, a.bottom); ctx.stroke();
       ctx.restore();
@@ -839,8 +837,8 @@ function summaryLines(who) {
   const row = state.rows.at(-1), lines = [`Crew member ${who}, day ${state.day}. Telemetry is simulated.`];
   for (const r of flagsFor(state.day)) {
     lines.push(r.signal
-      ? `${title(r)}: ${fmtZ(r, r.current)}, usual ${fmtZ(r, r.baseline_mean)} over ${r.window_days} days, z = ${signed(r.z)}, ${r.status === "confirmed" ? "flagged" : "watching"} (rule ${r.rule}).`
-      : `${pairNames(r, true)} flagged within 48 hours, days ${pairDays().join(" and ")} (rule ${r.rule}).`);
+      ? `${title(r)}: ${fmtZ(r, r.current)}, usual ${fmtZ(r, r.baseline_mean)} over ${r.window_days} days, ${spreads(r.z)}, ${r.status === "confirmed" ? "flagged" : "watching"}.`
+      : `${pairNames(r, true)} flagged within 48 hours, days ${pairDays().join(" and ")}.`);
   }
   const mars = marsCaution();
   if (mars) lines.push(mars.queue);
@@ -876,7 +874,7 @@ function renderCrew() {
     const flagged = list.filter((r) => r.signal && r.status === "confirmed").length, watching = list.filter((r) => r.signal && r.status === "watch").length;
     name.append(make("strong", `Crew member ${who}`), make("span", `${flagged} ${flagged === 1 ? "flag" : "flags"}${watching ? ` · ${watching} watching` : ""}`, "crew-count"));
     text.className = "crew-flag";
-    if (top) text.append(make("span", title(top), "flag-name"), monoNums(make("span", flagLine(top), "flag-line")), make("span", plainStatus(top), "flag-status"));
+    if (top) text.append(make("span", title(top), "flag-name"), monoNums(make("span", flagLine(top).replace("Your usual:", "Usual:"), "flag-line")), make("span", plainStatus(top), "flag-status"));
     text.append(make("span", top ? "Awaiting flight surgeon" : "No flags today", "flag-status"));
     li.append(name, text);
     if (top) {

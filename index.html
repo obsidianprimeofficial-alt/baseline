@@ -83,7 +83,7 @@ a { color: inherit; text-underline-offset: 3px; }
 .rt:has(.rt-dot:not([hidden])) { background: var(--rt-go); }
 .rt-dot { width: 64px; height: 64px; border-radius: 50%; background: var(--rt-dot); }
 #rt-status, .step-field { font-family: var(--mono); }
-#rt-status { font-size: 16px; color: var(--ink); }
+#rt-status { margin-top: 12px; font-size: 16px; color: var(--ink); }
 .step-field { font-size: 24px; }
 #sleep { border-color: transparent; } /* the stepper buttons are the frame (design) */
 .rt-big { font-family: var(--mono); font-size: 36px; line-height: 1.1; font-weight: 600; font-variant-numeric: tabular-nums; }
@@ -172,6 +172,8 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .flag-name { font-size: 20px; font-weight: 700; }
 .flag-line { font-variant-numeric: tabular-nums; }
 .flag-status { color: var(--quiet); font-size: 16px; }
+.flag-trend { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--rule); color: var(--quiet); font-size: 16px; font-variant-numeric: tabular-nums; }
+.flag-trend-note { margin-top: 4px; color: var(--quiet); font-size: 14px; }
 .follow strong { display: block; font-size: 20px; }
 .follow li { position: relative; padding: 14px 16px 14px 56px; border: 1px solid var(--card-border); border-left: 4px solid var(--strong); border-radius: 8px; background: var(--card); }
 .follow li.outside { border-left-color: var(--flag); }
@@ -201,9 +203,8 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .sources ul { list-style: none; padding: 0; margin: 0; font-size: 16px; }
 .sources li { padding: 10px 0; border-top: 1px solid var(--rule); overflow-wrap: anywhere; }
 .sources .not-covered { margin: 0; padding: 12px 0 0; border-top: 1px solid var(--rule); font-size: 16px; font-weight: 600; }
-/* Trend card under its flag (design P2b): framed, no left stripe, so it reads as part of the flag above. */
+/* Framed card for the mission-phase risks. The flag list no longer uses it: a projection is a quieter line inside its flag. */
 .trend-card { padding: 12px 16px; border: 1px solid var(--card-border); border-radius: 8px; background: var(--card); }
-.flag-list .trend-card { margin-top: 8px; }
 .trend-card p { margin: 0; font-variant-numeric: tabular-nums; }
 .trend-card .meta { margin-top: 6px; }
 /* Solar storm alert (design B1): real NOAA data, so the chip replaces the "Simulated data" badge. */
@@ -240,7 +241,6 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .readout .usual-note { grid-column: 1 / -1; border-top: 0; color: var(--quiet); font-size: 14px; font-weight: 400; }
 .cite { overflow-wrap: anywhere; }
 #ev-words strong { font-weight: 700; }
-#ev-rule { margin-top: 24px; overflow-wrap: anywhere; }
 .step-card { margin-top: 28px; padding: 20px 16px; border: 1px solid var(--card-border); border-radius: 12px; background: var(--card); }
 .step-card h2 { margin-top: 0; }
 #ev-step { font-size: 22px; line-height: 1.35; font-weight: 700; }
@@ -266,6 +266,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 .bar .secondary { flex: 0 0 auto; width: auto; }
 .bar .primary { flex: 1 1 auto; width: auto; }
 #restart { margin-top: 28px; }
+#to-flags-top { margin-top: 12px; }
 
 .sent { font-weight: 600; }
 .message { margin-top: 8px; padding-left: 14px; border-left: 2px solid var(--strong); }
@@ -279,6 +280,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   .top, main { max-width: 900px; }
   .bar-inner { max-width: 868px; }
   .check-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 32px; align-items: start; }
+  .check-vision { grid-column: 2; } /* tablet: still under sleep and mood */
   .charts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 24px; margin-top: 20px; }
   .charts .channel { margin-top: 0; }
   .charts .channel.bottom { grid-column: 1 / -1; } /* reaction time, alone on the last row: full row */
@@ -287,6 +289,8 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   .top, main { max-width: 1100px; }
   .bar-inner { max-width: 1068px; }
   .charts { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .check-rest { grid-column: 2; grid-row: 1 / span 2; }
+  .check-vision { grid-column: 1; grid-row: 2; } /* laptop: near vision under the reaction test, so both columns end near the same height */
   .ev-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 40px; align-items: start; }
   .ev-b > h2:first-child { margin-top: 0; } /* both columns start on the same line */
 }
@@ -401,6 +405,8 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
     <div class="ends" id="mood-ends"><span>Very low</span><span>Very good</span></div>
   </fieldset>
 
+  </div>
+  <div class="check-vision">
   <h2>Near vision</h2>
   <p class="meta how">How to measure: hold the phone where you normally read, read the line below, then tap Clear or Blurred.</p>
   <p class="eye-line">The galley water heater is back online after the filter swap on Thursday.</p>
@@ -426,6 +432,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
     <li><span><span class="key dot"></span>Flagged</span><span><span class="key ring"></span>Watching</span></li>
   </ul>
   <p id="console-summary" class="summary-line"></p>
+  <button id="to-flags-top" class="primary" type="button" data-go="flags">See what changed</button>
   <div class="range" role="group" aria-label="Days shown">
     <button type="button" data-range="7" aria-pressed="false">7 days</button>
     <button type="button" data-range="0" aria-pressed="true">30 days</button>
@@ -595,7 +602,7 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   <p id="ev-note" hidden></p>
   <h2>The numbers</h2>
   <dl id="ev-numbers" class="readout"></dl>
-  <p id="ev-rounding" class="meta">Numbers are shown to one decimal; z uses the unrounded values.</p>
+  <p id="ev-rounding" class="meta">Numbers are shown to one decimal.</p>
   <div id="ev-extra" hidden></div>
   <button id="ev-maths" class="text-button maths-link" type="button">Show the maths</button>
   </div>
@@ -616,7 +623,6 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
   </div>
   </div>
   <p id="ev-source" class="meta"></p>
-  <p id="ev-rule" class="meta"></p>
   <div class="bar">
     <div class="bar-inner">
       <button id="ev-back" class="secondary" type="button" data-go="flags">Back to list</button>
@@ -687,11 +693,11 @@ fieldset { border: 0; padding: 0; margin: 28px 0 0; min-width: 0; }
 <script src="trend.js?v=076b8d7565"></script>
 <script src="skylab4.js?v=68142f1765"></script>
 <script src="projection.js?v=1eb08e8dd9"></script>
-<script src="maths.js?v=a15139ff07"></script>
-<script src="mars.js?v=d3caeb403e"></script>
+<script src="maths.js?v=055119f2d0"></script>
+<script src="mars.js?v=0a75517682"></script>
 <script src="spe.js?v=8dc481d0f5"></script>
 <script src="reaction.js?v=0c373ca889"></script>
 <script src="store.js?v=cb99d76b39"></script>
-<script src="app.js?v=6b73518f82"></script>
+<script src="app.js?v=f63737eba9"></script>
 </body>
 </html>
