@@ -112,8 +112,11 @@ def test_offline_line_is_in_the_header_on_every_screen():
     """DESIGN_BRIEF [NEW]: P1 to P7 show the offline indicator. It sits in the shared header, so every screen has it."""
     html = Path("web/index.html").read_text(encoding="utf-8")
     header = html[html.index('<header class="top">'):html.index("</header>")]
-    line = "Offline – all data cached"
+    line = "All data cached – no live feed"
     assert f"</svg>{line}</span>" in header and not any(b in line.lower() for b in BLOCKED)
+    # The line stays on one line; a badge or chip too wide to sit beside it (the replay chips on a phone) drops under it.
+    top = re.search(r"\.top \{([^}]*)\}", html).group(1)
+    assert "flex-wrap: wrap" in top and "white-space: nowrap" in re.search(r"\.offline \{([^}]*)\}", html).group(1)
 
 
 THEME_JS = r"""

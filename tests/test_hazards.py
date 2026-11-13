@@ -70,7 +70,7 @@ def test_panel_is_closed_titled_and_sits_between_skylab_and_data_sources():
     assert "open" not in panel().split(">", 1)[0]
     assert h.index('id="skylab"') < h.index('id="hazards"') < h.index('id="sources"')
     assert "<summary>Mission-phase risks</summary>" in panel() and "<h3>Day 29 of flight</h3>" in panel()
-    assert "Offline – all data cached" in h.split('id="hazards"')[0], "design B3's line comes from the page header"
+    assert "All data cached – no live feed" in h.split('id="hazards"')[0], "design B3's line comes from the page header"
     assert "Simulated data" not in panel()
     assert "The day 29 lines are our reading of NASA's timings." in panel()
 
