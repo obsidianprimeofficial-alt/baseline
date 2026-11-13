@@ -253,7 +253,7 @@ def test_recorded_day_29_reaction_fires_the_reaction_flag():
     assert [r["status"] for r in day29 if r["rule"] == "reaction_above_personal_baseline"] == ["confirmed"]
 
 
-ROUNDING_NOTE = "Numbers are shown to one decimal; z uses the unrounded values."
+ROUNDING_NOTE = "Numbers are shown to one decimal."
 
 
 def test_every_evidence_card_and_the_queue_summary_show_the_rounding_note():
@@ -491,6 +491,9 @@ def test_tablet_and_laptop_breakpoints_leave_the_phone_layout_alone():
     tablet = style[style.index("@media (min-width: 700px) {\n  .top, main"):]
     assert ".charts .channel.bottom { grid-column: 1 / -1; }" in tablet, "reaction time spans the last row"
     order = lambda *ids: [html.index(i) for i in ids] == sorted(html.index(i) for i in ids)
-    assert order('class="check-cols"', 'class="check-rt"', 'id="rt-field"', 'id="rt-recorded"', 'id="rt-again"', 'class="check-rest"', 'id="sleep"', 'id="note"', 'id="vision-blurred"', 'id="missing"')
+    assert order('class="check-cols"', 'class="check-rt"', 'id="rt-field"', 'id="rt-recorded"', 'id="rt-again"', 'class="check-rest"', 'id="sleep"', 'id="note"', 'class="check-vision"', 'id="vision-blurred"', 'id="missing"')
+    laptop = style[style.index("@media (min-width: 1100px)"):]
+    assert ".check-vision { grid-column: 2; }" in tablet.split("@media (min-width: 1100px)")[0], "tablet: near vision stays under sleep and mood"
+    assert ".check-rest { grid-column: 2; grid-row: 1 / span 2; }" in laptop and ".check-vision { grid-column: 1; grid-row: 2; }" in laptop, "laptop: near vision under the reaction test"
     assert order('class="charts"', 'data-signal="heart_rate_bpm"', 'data-signal="reaction_ms"', 'id="radiation"')
     assert order('class="ev-cols"', 'class="ev-a"', 'id="ev-plain"', 'id="ev-numbers"', 'id="ev-maths"', 'class="ev-b"', 'id="ev-words"', 'id="ev-step"', 'id="ev-source"')

@@ -76,7 +76,7 @@ def lines_and_screen() -> dict:
 const p = await page(mem());
 const lines = p.run('Mars.replayLines(state.marsSurge, state.evidence.mars_radiation_caution)');
 p.$('mars-replay').click(); await new Promise((r) => setTimeout(r, 1600));
-const ids = ['ev-replay', 'ev-title', 'ev-plain', 'ev-numbers', 'ev-extra', 'ev-words', 'ev-strength', 'ev-replay-list', 'ev-step', 'ev-step-source', 'ev-source', 'ev-rule', 'ev-back'];
+const ids = ['ev-replay', 'ev-title', 'ev-plain', 'ev-numbers', 'ev-extra', 'ev-words', 'ev-strength', 'ev-replay-list', 'ev-step', 'ev-step-source', 'ev-source', 'ev-back'];
 return { lines, screen: ids.map((id) => p.$(id).textContent), before: p.$('mars-replay-line').textContent,
   js: lines.map((l) => p.run('Rules.blocksDiagnostic(' + JSON.stringify(l) + ')')), button: p.run('Mars.BUTTON'), errors: p.errors };
 """)
@@ -97,7 +97,7 @@ def test_replay_is_labelled_8100_is_always_the_peak_no_flare_class_no_chest():
     out = lines_and_screen()
     button, before, chip, *_ = out["lines"]
     label = "Replay of a real 2024 event, not today's data."
-    for text in (button, before, chip, out["screen"][0], out["screen"][-3]):  # button, line, chip, chip on screen, note
+    for text in (button, before, chip, out["screen"][0], out["screen"][-2]):  # button, line, chip, chip on screen, note
         assert "replay" in text.lower(), text
     assert label in out["lines"] and label in out["screen"][4]
     readme = Path("README.md").read_text(encoding="utf-8")

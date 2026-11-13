@@ -9,14 +9,14 @@ Baseline tells an astronaut whether today is normal *for them*. It compares each
 <p align="center">
   <img src="web/screenshots/2-console-390-dark.png" width="260" alt="Console titled Health status: the last 29 days of heart rate, heart rate variability and blood oxygen, the first three of seven charts. The grey band is the usual range. Heart rate variability is flagged in orange on days 27 to 29.">
   &nbsp;
-  <img src="web/screenshots/3-flags-390-dark.png" width="260" alt="What changed today: reaction time and heart rate variability are outside the usual range, each with a three-day trend card under its flag.">
+  <img src="web/screenshots/3-flags-390-dark.png" width="260" alt="What changed today: reaction time and heart rate variability are outside the usual range, each with a three-day projection line inside its flag card.">
   &nbsp;
   <img src="web/screenshots/4-evidence-390-dark.png" width="260" alt="Evidence card for reaction time: the change in plain words, the numbers with a line on how the usual range is computed, the start of why it matters, and the Back to list and Queue for flight surgeon buttons.">
 </p>
 
-> **The vital signs are simulated**, and every screen says so. Three sources are real: NASA MSL RAD Mars surface radiation (29 days, 11 Oct to 8 Nov 2026) and NOAA GOES solar protons (cached 10 Nov 2026). The third is the Skylab 4 crew sleep estimates from a NASA report, shown by role only.
+> **The vital signs are simulated**, and every screen says so. Real data drives part of the app: NASA MSL RAD Mars surface radiation (29 days, 11 Oct to 8 Nov 2026), NOAA GOES solar protons (cached 10 Nov 2026), and the Skylab 4 crew sleep estimates from a NASA report, shown by role only. Every NASA and NOAA source is listed under Data sources.
 
-**Built before the event.** The prescreening prototype was built from 30 September to 10 October 2026, and the rest from 22 October 2026. Every step is in the commit history. On 2 November 2026 the Local Lead confirmed in writing that preparing before the event is fine.
+**Built before the event.** The prescreening prototype was built from 30 September to 10 October 2026, and the rest from 22 October 2026. This repository's history starts on 10 October 2026; the work from 22 October 2026 onward is in it commit by commit. On 2 November 2026 the Local Lead confirmed in writing that preparing before the event is fine.
 
 ## How it works
 
@@ -50,7 +50,7 @@ flowchart TD
 
 - **Your own normal.** The baseline is the mean and spread of the person's previous days, up to 30. Today never counts in its own baseline, and no flag fires before day 15.
 - **Watch or flag.** A reading 2 to 3 spreads from normal is a watch item. At 3 or more spreads, or 2 or more on two days running, it is flagged. Two flags within 48 hours raise a multi-signal flag.
-- **A NASA source on every flag.** Each of the 8 rules cites a NASA study, and its step comes from a NASA source ([docs/EVIDENCE.md](docs/EVIDENCE.md)). No source, no card.
+- **A NASA source on every flag.** Each of the 8 rules cites a NASA source (two of them cite the Mars-500 ground isolation study in NASA OSDR), and its step comes from a NASA source ([docs/EVIDENCE.md](docs/EVIDENCE.md)). No source, no card.
 
 Example from the demo: this person's usual reaction time is 281.4 ± 16.3 ms. Today's 338.3 ms is 3.5 spreads slower, so it is flagged.
 
@@ -64,7 +64,7 @@ On the first screen, tap **"Use recorded day-29 self-check"** so the reaction fl
 |---|---|---|
 | 1 | Self-check | A 5-round reaction test, sleep hours, sleep quality, mood and a near-vision line. About 2 minutes. |
 | 2 | Health status | Seven charts against your usual range, over 7 or 30 days. |
-| 3 | What changed | Each flag with today's value against your usual, and a trend card for a reading out three days running. |
+| 3 | What changed | Each flag with today's value against your usual, and a projection line inside the flag card for a reading out three days running. |
 | 4 | Evidence card | The NASA study and how strong it is, one step, "Mark step done" and "Show the maths". |
 | 5 | Flight surgeon queue | A reply can come up to 40 minutes later: up to 20 minutes each way at Mars distance. Nothing is sent. |
 | 6 | Next day | Day 30 shows whether each flagged reading came back. |
@@ -83,11 +83,11 @@ You need Python 3.11 or newer. Install once with internet. After that it runs wi
 python -m venv .venv
 .venv\Scripts\activate          # Mac/Linux: source .venv/bin/activate
 pip install -e ".[dev]"
-pytest -q                        # 204 passed
+pytest -q                        # 207 passed
 python -m baseline.serve         # opens http://localhost:8000
 ```
 
-The tests need Node. Without it, pytest skips the tests that run the page's own scripts. A machine that cannot bind IPv6 loopback prints 203 passed, 1 skipped.
+The tests need Node. Without it, pytest skips the tests that run the page's own scripts. A machine that cannot bind IPv6 loopback prints 206 passed, 1 skipped.
 
 **On a phone:** run `python -m baseline.serve --lan`, then open the second address it prints on a phone on the same wifi.
 

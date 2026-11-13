@@ -1,6 +1,7 @@
 """PLAN item 6: the crew-of-three flight-surgeon view. Runs the page's own scripts through the stand-in page of test_marks.py."""
 
 import json
+import re
 import runpy
 from pathlib import Path
 
@@ -10,21 +11,21 @@ from baseline.fixtures import NOTE, make_fixture
 from baseline.validation import make_planted
 from tests.test_marks import run, pytestmark  # noqa: F401  # skipped without node
 
-ROUNDING = "Numbers are shown to one decimal; z uses the unrounded values."
+ROUNDING = "Numbers are shown to one decimal."
 RAIL_A = [
     "Crew member A, day 29. Telemetry is simulated.",
-    "Reaction time: 338.3 ms, usual 281.4 ms over 28 days, z = +3.5, flagged (rule reaction_above_personal_baseline).",
-    "Heart rate variability: 42.0 ms, usual 53.9 ms over 28 days, z = −2.9, flagged (rule hrv_below_personal_baseline).",
-    "Sleep: 5.0 hours, usual 6.8 hours over 28 days, z = −2.8, flagged (rule sleep_below_personal_baseline).",
-    "Heart rate variability, mood (day 28 only), reaction time and sleep flagged within 48 hours, days 28 and 29 (rule two_signals_in_48h).",
+    "Reaction time: 338.3 ms, usual 281.4 ms over 28 days, 3.5 spreads above usual, flagged.",
+    "Heart rate variability: 42.0 ms, usual 53.9 ms over 28 days, 2.9 spreads below usual, flagged.",
+    "Sleep: 5.0 hours, usual 6.8 hours over 28 days, 2.8 spreads below usual, flagged.",
+    "Heart rate variability, mood (day 28 only), reaction time and sleep flagged within 48 hours, days 28 and 29.",
     "Self-check: reaction 338 ms (recorded, simulated), slept 5.0 hours, sleep quality 2 of 5, mood 4.0 of 5, near vision clear.",
     "Sleep note: Woke at 03:00 for a docking",
     ROUNDING,
 ]
 RAIL_C = [
     "Crew member C, day 29. Telemetry is simulated.",
-    "Heart rate: 74.6 beats a minute, usual 62.1 beats a minute over 28 days, z = +3.3, flagged (rule heart_rate_above_personal_baseline).",
-    "Sleep: 6.4 hours, usual 7.0 hours over 28 days, z = −2.1, watching (rule sleep_below_personal_baseline).",
+    "Heart rate: 74.6 beats a minute, usual 62.1 beats a minute over 28 days, 3.3 spreads above usual, flagged.",
+    "Sleep: 6.4 hours, usual 7.0 hours over 28 days, 2.1 spreads below usual, watching.",
     ROUNDING,
 ]
 # The phone's demo day 29, then the screen's text; used to compare before and after a crew visit.
@@ -66,10 +67,10 @@ def test_rows_use_the_phones_flag_wording_and_labels_only():
     assert out["errors"] == []
     assert out["rows"] == [
         {"who": "Crew member A", "count": "3 flags", "cls": "crew-row flagged confirmed", "button": "Open evidence", "lines": [
-            "Reaction time", "338 ms today. Your usual: 281 ms.", "Well outside your usual range, third day running.", "Awaiting flight surgeon"]},
+            "Reaction time", "338 ms today. Usual: 281 ms.", "Well outside your usual range, third day running.", "Awaiting flight surgeon"]},
         {"who": "Crew member B", "count": "0 flags", "cls": "crew-row ", "button": None, "lines": ["No flags today"]},
         {"who": "Crew member C", "count": "1 flag · 1 watching", "cls": "crew-row flagged confirmed", "button": "Open evidence", "lines": [
-            "Heart rate", "75 beats a minute today. Your usual: 62 beats a minute.", "Well outside your usual range, third day running.", "Awaiting flight surgeon"]},
+            "Heart rate", "75 beats a minute today. Usual: 62 beats a minute.", "Well outside your usual range, third day running.", "Awaiting flight surgeon"]},
     ]
 
 
@@ -242,3 +243,40 @@ return {{ redrawn: p.run('state.mathsChart !== first') }};
 def test_start_the_demo_again_forgets_the_card_to_redraw():
     out = run(f"const p = await page(mem()); {DEMO} p.card('reaction_ms'); p.$('restart').click(); return {{ card: p.run('state.card') }};")
     assert out["card"] is None
+
+
+DEV_TERMS = ("(rule ", "Rule:", "_baseline", "two_signals", "z =")
+
+
+def test_rule_wording_matches_the_code_and_no_developer_term_is_on_screen():
+    """Hrishin, 13 Nov: the card and the maths screen state the rule as the code has it (watch at 2, flag at 3 or two days
+    at 2); rule ids and "z =" stay off the screen; a projection sits inside its own flag; a second button under the summary."""
+    out = run(f"""
+const p = await page(mem()); {DEMO} {READ_ROWS}
+const top = p.$('to-flags-top').hidden, bottom = p.$('to-flags').hidden;
+const flags = p.$('flag-list').children.map((li) => ({{ cls: li.className || '', parts: li.children[0].children.map((c) => [c.className, c.textContent]) }}));
+p.card('reaction_ms'); const numbers = p.$('ev-numbers').children.map((c) => c.textContent);
+p.$('ev-maths').click(); const maths = p.$('maths-rule').textContent;
+p.$('queue-btn').click(); const queue = p.$('message').children.map((c) => c.textContent);
+return {{ top, bottom, flags, numbers, maths, queue, rail, rows, cz: p.run('Rules.CONFIRM_Z'), th: p.run('Rules.THRESHOLD'), errors: p.errors }};
+""")
+    from baseline.compute import rules
+    assert out["errors"] == [] and (out["th"], out["cz"]) == (2, 3) and rules.CONFIRM_Z == 3.0
+    assert "3.5× your usual spread (watch at 2×, flag at 3× or two days at 2×)" in out["numbers"]
+    assert out["maths"] == "2 or more is a watch item; 3 or more, or 2 or more on two days running, is a flag."
+    assert out["top"] is False and out["bottom"] is False
+    html, app = (Path("web", f).read_text(encoding="utf-8") for f in ("index.html", "app.js"))
+    assert re.search(r'id="console-summary" class="summary-line"></p>\s*<button id="to-flags-top" class="primary" type="button" data-go="flags">See what changed</button>', html)
+    assert '$("to-flags").hidden = $("to-flags-top").hidden = n === 0 && !state.radiation.fired && !marsCaution();' in app, "both hidden only when the list is empty"
+    assert 'id="ev-rule"' not in html
+    assert not [f for f in out["flags"] if "trend-card" in f["cls"]], "no separate projection card"
+    trend = [f["parts"] for f in out["flags"] if any(c == "flag-trend" for c, _ in f["parts"])]
+    assert len(trend) == 3, "reaction, HRV and sleep carry their projection on day 29"
+    assert [c for c, _ in trend[0]] == ["flag-name", "flag-line", "flag-status", "flag-trend", "flag-trend-note"]
+    assert trend[0][3][1].startswith("Three days outside your usual range: 339, 316, 338 ms.") and trend[0][4][1] == "Projection from your own last 3 days, not a forecast."
+    assert out["queue"][1] == "Reaction time: 338.3 ms, usual 281.4 ms over 28 days, 3.5 spreads above usual, flagged."
+    shown = [*out["numbers"], out["maths"], *out["queue"], *(t for m in out["rail"] for t in m), *(t for r in out["rows"] for t in r["lines"]), *(t for f in out["flags"] for _, t in f["parts"])]
+    assert len(shown) > 40
+    for text in shown:
+        assert not [w for w in DEV_TERMS if w in text], text
+    assert all("Your usual" not in t for r in out["rows"] for t in r["lines"]) and any(t.startswith("338 ms today. Usual: 281 ms.") for r in out["rows"] for t in r["lines"])

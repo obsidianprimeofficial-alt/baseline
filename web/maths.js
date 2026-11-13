@@ -48,7 +48,7 @@
       title: `${spec.name}, day ${v.day}`,
       numbers: `Your usual: ${f(v.mean)} ${u}. Usual spread: ${f(v.sd)} ${u}. Today: ${f(v.today)} ${u}.`,
       sum: `Today is (${f(a)} − ${f(b)}) ÷ ${f(v.sd)} = ${zText(v.z)} spreads ${high ? "above" : "below"} your usual.`,
-      rule: `The rule flags ${Rules.THRESHOLD} or more.`,
+      rule: `${Rules.THRESHOLD} or more is a watch item; ${Rules.CONFIRM_Z} or more, or ${Rules.THRESHOLD} or more on two days running, is a flag.`,
       window: `Your usual range is computed from your own ${v.n} days, days ${v.first} to ${v.last} (simulated record).`,
       bins: `Bars: your ${v.n} days in ${BINS} equal-width bins of ${+v.bins.width.toFixed(2)} ${u}. Today is the line in the flag colour.`,
       aria: `Histogram of your ${v.n} days of ${spec.name.toLowerCase()}, days ${v.first} to ${v.last}. Usual range ${one(v.low)} to ${one(v.high)} ${u}. ` +

@@ -20,7 +20,7 @@
         ["Latest day", amount(today)],
         [`Usual (mean of ${n} days)`, amount(m.baseline_mean)],
         ["Usual spread (1 SD)", amount(m.baseline_sd)],
-        ["How far", `${m.z.toFixed(1)}× the usual spread (flag at ${m.threshold_z}×)`],
+        ["How far", `${m.z.toFixed(1)}× the usual spread (caution at ${m.threshold_z}×)`],
         ["Status", e.label],
       ],
       why: `${e.trigger_note} ${e.practice_note}`,
@@ -28,8 +28,7 @@
       source: e.countermeasure_source,
       strength: `Evidence strength: ${e.strength}`,
       note: `Real NASA MSL RAD data, not simulated. Cached ${m.fetched_at.slice(0, 10)}.`,
-      rule: `Rule: mars_radiation_caution (2 SD above the mean of the previous ${n} days)`,
-      queue: `${name} (real NASA MSL RAD, not a crew reading): ${amount(today)} on ${m.date}, usual ${amount(m.baseline_mean)} over ${n} days, z = +${m.z.toFixed(1)}.`,
+      queue: `${name} (real NASA MSL RAD, not a crew reading): ${amount(today)} on ${m.date}, usual ${amount(m.baseline_mean)} over ${n} days, ${m.z.toFixed(1)} spreads above usual.`,
     };
   }
 
@@ -75,7 +74,7 @@
   // Every line of the replay in screen order (for the wording test).
   const replayLines = (ev, e) => {
     const [before, c] = replay(ev, e);
-    return [BUTTON, before, c.chip, c.badge, c.title, c.plain, c.label, ...c.numbers.flat(), ...c.notes, c.why, c.step, c.strength, "Sources", ...c.sources, c.note, c.rule, c.back];
+    return [BUTTON, before, c.chip, c.badge, c.title, c.plain, c.label, ...c.numbers.flat(), ...c.notes, c.why, c.step, c.strength, "Sources", ...c.sources, c.note, c.back];
   };
 
   const api = { card, replay, replayLines, BUTTON };

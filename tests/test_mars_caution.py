@@ -73,7 +73,7 @@ const row = li.textContent; li.children[0].click();
 const read = (id) => p.$(id).textContent;
 return {{ row, count: rows.filter((r) => r.textContent.includes('Mars')).length,
   title: read('ev-title'), plain: read('ev-plain'), numbers: p.$('ev-numbers').children.map((c) => c.textContent), why: read('ev-words'),
-  step: read('ev-step'), source: read('ev-step-source'), strength: read('ev-strength'), note: read('ev-source'), rule: read('ev-rule'),
+  step: read('ev-step'), source: read('ev-step-source'), strength: read('ev-strength'), note: read('ev-source'),
   study: p.$('ev-study').hidden, maths: p.$('ev-maths').hidden, mark: p.$('ev-mark').hidden, errors: p.errors }};
 """)
     assert out["count"] == 1
@@ -85,9 +85,10 @@ return {{ row, count: rows.filter((r) => r.textContent.includes('Mars')).length,
     assert "modelled on NASA's Artemis II caution practice" in out["why"] and "not on a NASA Mars procedure" in out["why"]
     assert out["numbers"][:2] == ["Latest day", f"{FIRED['dose_ugy_day']:.1f} µGy per day"] and out["numbers"][-2:] == ["Status", "Caution"]
     assert out["strength"].startswith("Evidence strength: ") and out["note"].startswith("Real NASA MSL RAD data, not simulated.")
-    assert out["rule"] == "Rule: mars_radiation_caution (2 SD above the mean of the previous 30 days)"
+    assert out["numbers"][6:8] == ["How far", f"{FIRED['z']:.1f}× the usual spread (caution at 2×)"]
+    assert 'id="ev-rule"' not in Path("web/index.html").read_text(encoding="utf-8"), "no rule id line on the card"
     assert out["study"] is True and out["maths"] is True and out["mark"] is False and out["errors"] == []
-    for text in (out["row"], out["title"], out["plain"], *out["numbers"], out["why"], out["step"], out["source"], out["strength"], out["note"], out["rule"]):
+    for text in (out["row"], out["title"], out["plain"], *out["numbers"], out["why"], out["step"], out["source"], out["strength"], out["note"]):
         assert not FORBIDDEN.search(text), text
         assert blocks_diagnostic(text) == [], text
 
